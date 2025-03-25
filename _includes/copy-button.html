@@ -1,119 +1,113 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Code Copy Button</title>
-  <style>
-    .code-container {
-      position: relative;
-      display: inline-block;
-      padding-top: 30px; /* Space for the button */
-    }
-
-    .copy-wrapper {
-      position: absolute;
-      top: 0;
-      right: 0;
-      background: #ddd;
-      border-radius: 5px 5px 0 0;
-      padding: 5px 10px;
-    }
-
-    .copy-btn {
-      background: none;
-      border: none;
-      cursor: pointer;
-      display: flex;
-      align-items: center;
-      font-size: 14px;
-      padding: 5px;
-    }
-
-    .copy-btn:hover {
-      color: #007bff;
-    }
-
-    .copy-btn .copy-icon {
-      width: 16px;
-      height: 16px;
-      stroke: #333;
-    }
-
-    .copy-btn .checkmark {
-      font-size: 16px;
-      color: #4caf50;
-    }
-
-    .copy-btn .copy-text {
-      font-size: 14px;
-      color: #333;
-      font-weight: bold;
-    }
-
-    .copy-btn.copied .copy-text {
-      color: #4caf50;
-    }
-
-    pre {
-      background: #f5f5f5;
-      padding: 10px;
-      border-radius: 5px;
-      overflow-x: auto;
-    }
-  </style>
-</head>
-<body>
-
-  <div class="code-container">
-    <div class="copy-wrapper">
-      <button class="copy-btn">
-        <svg class="copy-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
-          <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
-        </svg>
-        <span class="copy-text">Copy</span>
-      </button>
-    </div>
-    <pre><code>
-      // Sample code block
-      function greet() {
-        console.log("Hello, world!");
-      }
-    </code></pre>
-  </div>
-
-  <script>
-    document.addEventListener("DOMContentLoaded", function () {
-      document.querySelectorAll(".code-container").forEach((container) => {
-        const button = container.querySelector(".copy-btn");
-        const code = container.querySelector("code");
-
-        button.addEventListener("click", () => {
-          if (!code) return;
-
-          navigator.clipboard.writeText(code.innerText).then(() => {
-            button.classList.add("copied");
-            button.innerHTML = `
-              <span class="checkmark">✅</span>
-              <span class="copy-text">Copied!</span>
-            `;
-
-            setTimeout(() => {
-              button.innerHTML = `
-                <svg class="copy-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                  <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
-                  <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
-                </svg>
-                <span class="copy-text">Copy</span>
-              `;
-              button.classList.remove("copied");
-            }, 2000);
-          });
-        });
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  // Select all pre elements that contain code
+  document.querySelectorAll("pre").forEach((pre) => {
+    // Create a container div that will wrap the pre and button
+    const container = document.createElement("div");
+    container.className = "code-container";
+    
+    // Create the copy button
+    const button = document.createElement("button");
+    button.className = "copy-btn";
+    button.innerHTML = `
+      <svg class="copy-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+        <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+      </svg>
+      <span class="copy-text">Copy</span>
+    `;
+    
+    // Add click event to copy code
+    button.addEventListener("click", () => {
+      const code = pre.querySelector("code") || pre;
+      const textToCopy = code.innerText;
+      
+      navigator.clipboard.writeText(textToCopy).then(() => {
+        button.innerHTML = `
+          <span class="checkmark">✓</span>
+          <span class="copy-text">Copied!</span>
+        `;
+        button.classList.add("copied");
+        
+        setTimeout(() => {
+          button.innerHTML = `
+            <svg class="copy-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+              <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+            </svg>
+            <span class="copy-text">Copy</span>
+          `;
+          button.classList.remove("copied");
+        }, 2000);
       });
     });
-  </script>
+    
+    // Wrap the pre element with the container and add the button
+    pre.parentNode.insertBefore(container, pre);
+    container.appendChild(pre);
+    container.appendChild(button);
+  });
+});
+</script>
 
-</body>
-</html>
+<style>
+.code-container {
+  position: relative;
+  margin: 1em 0;
+}
+
+pre {
+  margin: 0;
+  padding: 1em;
+  overflow: auto;
+  background: #f6f8fa;
+  border-radius: 6px;
+}
+
+.copy-btn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid #d0d7de;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+  opacity: 0;
+}
+
+.code-container:hover .copy-btn {
+  opacity: 1;
+}
+
+.copy-btn:hover {
+  background: #ffffff;
+  border-color: #afb8c1;
+}
+
+.copy-icon {
+  width: 14px;
+  height: 14px;
+  stroke: #24292f;
+}
+
+.copy-text {
+  font-size: 12px;
+  color: #24292f;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+.checkmark {
+  color: #2ea44f;
+  font-weight: bold;
+}
+
+.copy-btn.copied .copy-text {
+  color: #2ea44f;
+}
+</style>
