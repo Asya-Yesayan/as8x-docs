@@ -32,3 +32,9 @@ exclude:
 header_pages:
  - search.html
  - apiIndex.html
+
+versions:
+  - 1.0
+  - 2.0
+  - 3.0
+

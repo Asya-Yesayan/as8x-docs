@@ -1,6 +1,6 @@
 <select id="version-selector" onchange="selectVersion(this.value)">
-  {% for item in site.data.versions %}
-    <option value="{{ item.version }}">{{ item.version }}</option>
+  {% for version in site.versions %}
+    <option value="{{ version }}">{{ version }}</option>
   {% endfor %}
 </select>
 
