@@ -18,7 +18,7 @@ AppLogService դասը նախատեսված է հատուկ իրադարձութ
 
 ## Մեթոդներ
 
-{% if selected_version == "1.0" %}
+<div class="version-block" data-version="1.0">
 ### Write
 
 ```c#
@@ -30,9 +30,9 @@ public Task Write(AppLogInfo appLogInfo)
 **Պարամետրեր**
 
 * `appLogInfo` - [Հատուկ իրադարձության մանրամասները նկարագրող դասի օբյեկտ](../types/AppLogInfo.md):
-{% endif %}
+</div>
 
-{% if selected_version == "2.0" %}
+<div class="version-block" data-version="1.0">
 ### Write
 
 ```c#
@@ -48,7 +48,7 @@ public Task Write(string moduleCode, string operationCode, string comment, int o
 * `comment` - Իրադարձությունը նկարագրող մեկնաբանություն։
 * `objectISN` - Իրադարձությունը իրականացրած երկրորդային փաստաթղթի ներքին նույնականացման համար (isn)։
 * `baseISN` - Իրադարձությունը իրականացրած հիմքային փաստաթղթի ներքին նույնականացման համար (isn)։
-{% endif %}
+</div>
 
 some text that is general for all versions.
 

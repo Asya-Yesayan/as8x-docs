@@ -7,14 +7,20 @@
 <script>
   function selectVersion(version) {
     localStorage.setItem('selectedVersion', version);
-    location.reload(); // reload to apply the version to conditionals
+    showVersionBlocks(version);
+  }
+
+  function showVersionBlocks(version) {
+    document.querySelectorAll('.version-block').forEach(el => {
+      const v = el.getAttribute('data-version');
+      el.style.display = (v === version || v === "all") ? "" : "none";
+    });
   }
 
   document.addEventListener('DOMContentLoaded', function () {
-    const selected = localStorage.getItem('selectedVersion');
-    if (selected) {
-      document.getElementById('version-selector').value = selected;
-      document.documentElement.setAttribute('data-version', selected);
-    }
+    const selected = localStorage.getItem('selectedVersion') || '1.0';
+    const dropdown = document.getElementById('version-selector');
+    if (dropdown) dropdown.value = selected;
+    showVersionBlocks(selected);
   });
 </script>
