@@ -3,8 +3,6 @@ layout: page
 title: "AppLogService սերվիս" 
 ---
 
-{% assign selected_version = site.selected_version | default: "1.0" %}
-
 ## Բովանդակություն
 
 - [Ներածություն](#ներածություն)
@@ -19,6 +17,7 @@ AppLogService դասը նախատեսված է հատուկ իրադարձութ
 ## Մեթոդներ
 
 <div class="version-block" data-version="1.0">
+
 ### Write
 
 ```c#
@@ -30,9 +29,11 @@ public Task Write(AppLogInfo appLogInfo)
 **Պարամետրեր**
 
 * `appLogInfo` - [Հատուկ իրադարձության մանրամասները նկարագրող դասի օբյեկտ](../types/AppLogInfo.md):
+
 </div>
 
 <div class="version-block" data-version="2.0">
+
 ### Write
 
 ```c#
@@ -48,6 +49,7 @@ public Task Write(string moduleCode, string operationCode, string comment, int o
 * `comment` - Իրադարձությունը նկարագրող մեկնաբանություն։
 * `objectISN` - Իրադարձությունը իրականացրած երկրորդային փաստաթղթի ներքին նույնականացման համար (isn)։
 * `baseISN` - Իրադարձությունը իրականացրած հիմքային փաստաթղթի ներքին նույնականացման համար (isn)։
+
 </div>
 
 some text that is general for all versions.
