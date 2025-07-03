@@ -16,7 +16,7 @@ AppLogService դասը նախատեսված է հատուկ իրադարձութ
 
 ## Մեթոդներ
 
-<div class="version-block" data-version="1.0">
+<div class="version-block" data-version="1.0" markdown="1">
 
 ### Write
 
@@ -32,7 +32,7 @@ public Task Write(AppLogInfo appLogInfo)
 
 </div>
 
-<div class="version-block" data-version="2.0">
+<div class="version-block" data-version="2.0" markdown="1">
 
 ### Write
 
