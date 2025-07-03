@@ -32,7 +32,7 @@ public Task Write(AppLogInfo appLogInfo)
 * `appLogInfo` - [Հատուկ իրադարձության մանրամասները նկարագրող դասի օբյեկտ](../types/AppLogInfo.md):
 </div>
 
-<div class="version-block" data-version="1.0">
+<div class="version-block" data-version="2.0">
 ### Write
 
 ```c#
