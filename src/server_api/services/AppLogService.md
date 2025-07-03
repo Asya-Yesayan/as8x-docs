@@ -52,5 +52,24 @@ public Task Write(string moduleCode, string operationCode, string comment, int o
 
 </div>
 
+
+<div class="version-block" data-version-min="2.0" markdown="1">
+
+### Write
+
+```c#
+public Task Write(string moduleCode, string operationCode, string comment)
+```
+
+Գրանցում է հատուկ իրադարձության (տարբերակի փոփոխություն, Debug-ի գործարկում...) մանրամասները տվյալների պահոցում։
+
+**Պարամետրեր**
+
+* `moduleCode` - Իրադարձության մոդուլի կոդ։
+* `operationCode` - Իրադարձության գործողության կոդ։
+* `comment` - Իրադարձությունը նկարագրող մեկնաբանություն։
+
+</div>
+
 some text that is general for all versions.
 

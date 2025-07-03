@@ -5,6 +5,10 @@
 </select>
 
 <script>
+  function versionCompare(v1, v2) {
+    return v1.localeCompare(v2, undefined, { numeric: true });
+  }
+
   function selectVersion(version) {
     localStorage.setItem('selectedVersion', version);
     showVersionBlocks(version);
@@ -12,8 +16,22 @@
 
   function showVersionBlocks(version) {
     document.querySelectorAll('.version-block').forEach(el => {
-      const v = el.getAttribute('data-version');
-      el.style.display = (v === version || v === "all") ? "" : "none";
+      const exact = el.getAttribute('data-version');            // e.g., "2.0,2.1"
+      const min = el.getAttribute('data-version-min');          // e.g., "2.0"
+      const max = el.getAttribute('data-version-max');          // e.g., "3.0"
+
+      let show = false;
+
+      if (exact) {
+        const versions = exact.split(',').map(v => v.trim());
+        show = versions.includes(version);
+      } else {
+        const aboveMin = min ? versionCompare(version, min) >= 0 : true;
+        const belowMax = max ? versionCompare(version, max) <= 0 : true;
+        show = aboveMin && belowMax;
+      }
+
+      el.style.display = show ? "" : "none";
     });
   }
 
