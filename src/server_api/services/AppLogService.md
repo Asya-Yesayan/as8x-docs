@@ -3,8 +3,7 @@ layout: page
 title: "AppLogService սերվիս" 
 ---
 
-
-This content is for all versions.
+{% assign selected_version = site.selected_version | default: "1.0" %}
 
 ## Բովանդակություն
 
@@ -50,7 +49,6 @@ public Task Write(string moduleCode, string operationCode, string comment, int o
 * `objectISN` - Իրադարձությունը իրականացրած երկրորդային փաստաթղթի ներքին նույնականացման համար (isn)։
 * `baseISN` - Իրադարձությունը իրականացրած հիմքային փաստաթղթի ներքին նույնականացման համար (isn)։
 {% endif %}
-
 
 some text that is general for all versions.
 
