@@ -3,6 +3,9 @@ layout: page
 title: "AppLogService սերվիս" 
 ---
 
+
+This content is for all versions.
+
 ## Բովանդակություն
 
 - [Ներածություն](#ներածություն)
@@ -16,6 +19,7 @@ AppLogService դասը նախատեսված է հատուկ իրադարձութ
 
 ## Մեթոդներ
 
+{% if selected_version == "1.0" %}
 ### Write
 
 ```c#
@@ -27,7 +31,9 @@ public Task Write(AppLogInfo appLogInfo)
 **Պարամետրեր**
 
 * `appLogInfo` - [Հատուկ իրադարձության մանրամասները նկարագրող դասի օբյեկտ](../types/AppLogInfo.md):
+{% endif %}
 
+{% if selected_version == "2.0" %}
 ### Write
 
 ```c#
@@ -43,3 +49,8 @@ public Task Write(string moduleCode, string operationCode, string comment, int o
 * `comment` - Իրադարձությունը նկարագրող մեկնաբանություն։
 * `objectISN` - Իրադարձությունը իրականացրած երկրորդային փաստաթղթի ներքին նույնականացման համար (isn)։
 * `baseISN` - Իրադարձությունը իրականացրած հիմքային փաստաթղթի ներքին նույնականացման համար (isn)։
+{% endif %}
+
+
+some text that is general for all versions.
+
