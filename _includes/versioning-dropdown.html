@@ -1,3 +1,46 @@
+<style>
+  /* Version selector dropdown styling */
+  #version-selector {
+    width: 220px;
+    padding: 6px 12px;
+    font-size: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1.8px solid #888;
+    border-radius: 6px;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+    transition: border-color 0.25s ease, box-shadow 0.25s ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg width='12' height='8' viewBox='0 0 12 8' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%23666' stroke-width='2' fill='none' fill-rule='evenodd'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 12px 8px;
+    padding-right: 36px;
+  }
+
+  #version-selector:focus {
+    outline: none;
+    border-color: #007acc;
+    box-shadow: 0 0 6px rgba(0, 122, 204, 0.6);
+  }
+
+  #version-selector option {
+    padding: 6px 10px;
+    font-size: 1rem;
+    color: #222;
+  }
+
+  #version-selector optgroup {
+    font-weight: 700;
+    color: #005a9e;
+    padding: 4px 0;
+    background-color: #f0f8ff;
+  }
+</style>
+
 <select id="version-selector" onchange="selectVersion(this.value)">
   {% for group in site.versions %}
     <optgroup label="{{ group.product }}">
