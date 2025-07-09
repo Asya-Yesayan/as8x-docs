@@ -30,9 +30,9 @@ exclude:
   - Gemfile.lock
 
 header_pages:
- - versioning-dropdown.html
  - search.html
  - apiIndex.html
+ - versioning-dropdown.html
 
 versions:
   - id: bank
