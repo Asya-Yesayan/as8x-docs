@@ -2,7 +2,7 @@
   {% for group in site.versions %}
     <optgroup label="{{ group.product }}">
       {% for version in group.versions %}
-        <option value="{{ group.product }}|{{ version }}">{{ version }}</option>
+        <option value="{{ group.id }}|{{ version }}">{{ version }}</option>
       {% endfor %}
     </optgroup>
   {% endfor %}
@@ -13,36 +13,34 @@
     return v1.localeCompare(v2, undefined, { numeric: true });
   }
 
-  function parseVersion(fullValue) {
-    if (!fullValue.includes('|')) return { product: '', version: fullValue };
-    const [product, version] = fullValue.split('|');
-    return { product, version };
-  }
-
   function selectVersion(fullValue) {
     localStorage.setItem('selectedVersion', fullValue);
-    const { version } = parseVersion(fullValue);
-    showVersionBlocks(version);
+    showVersionBlocks(fullValue);
   }
 
-  function showVersionBlocks(version) {
+  function showVersionBlocks(fullValue) {
+    const [selectedProductId, selectedVersion] = fullValue.split('|');
+
     document.querySelectorAll('.version-block').forEach(el => {
-      const exact = el.getAttribute('data-version');
+      const productId = el.getAttribute('data-product-id');
+      const exactVersions = el.getAttribute('data-version');
       const min = el.getAttribute('data-version-min');
       const max = el.getAttribute('data-version-max');
 
-      let show = false;
+      const productMatch = !productId || productId === selectedProductId;
 
-      if (exact) {
-        const versions = exact.split(',').map(v => v.trim());
-        show = versions.includes(version);
+      let versionMatch = false;
+
+      if (exactVersions) {
+        const versions = exactVersions.split(',').map(v => v.trim());
+        versionMatch = versions.includes(selectedVersion);
       } else {
-        const aboveMin = min ? versionCompare(version, min) >= 0 : true;
-        const belowMax = max ? versionCompare(version, max) <= 0 : true;
-        show = aboveMin && belowMax;
+        const aboveMin = min ? versionCompare(selectedVersion, min) >= 0 : true;
+        const belowMax = max ? versionCompare(selectedVersion, max) <= 0 : true;
+        versionMatch = aboveMin && belowMax;
       }
 
-      el.style.display = show ? "" : "none";
+      el.style.display = (productMatch && versionMatch) ? "" : "none";
     });
   }
 

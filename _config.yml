@@ -34,9 +34,12 @@ header_pages:
  - apiIndex.html
 
 versions:
-  - product: "ՀԾ-Բանկ"
+  - id: bank
+    product: "ՀԾ-Բանկ"
     versions: ["1.0", "2.0"]
-  - product: "ՀԾ-Ձեռնարկություն"
+  - id: enterprise
+    product: "ՀԾ-Ձեռնարկություն"
     versions: ["3.0", "3.1"]
-  - product: "ՀԾ-Աշխատավարձ"
+  - id: wages
+    product: "ՀԾ-Աշխատավարձ"
     versions: ["4.0", "4.1"]

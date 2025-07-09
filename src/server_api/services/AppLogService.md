@@ -5,10 +5,12 @@ title: "AppLogService սերվիս"
 
 ## Բովանդակություն
 
+- [Բովանդակություն](#բովանդակություն)
 - [Ներածություն](#ներածություն)
 - [Մեթոդներ](#մեթոդներ)
   - [Write](#write)
   - [Write](#write-1)
+  - [Write](#write-2)
 
 ## Ներածություն
 
@@ -53,7 +55,7 @@ public Task Write(string moduleCode, string operationCode, string comment, int o
 </div>
 
 
-<div class="version-block" data-version-min="2.0" markdown="1">
+<div class="version-block" data-product-id="bank" data-version-min="2.0" markdown="1">
 
 ### Write
 
