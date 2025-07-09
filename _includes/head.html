@@ -30,6 +30,9 @@
   <link rel="stylesheet" href="{{ "/assets/apiIndex.css" | relative_url }}">
   {% endif -%}
 
+  {% if page.versioning_active or layout.versioning_active -%}
+    {% include versioning-dropdown.html %}
+  {% endif -%}
+
   {% include copy-button.html %}
-  {% include versioning-dropdown.html %}
 </head>
