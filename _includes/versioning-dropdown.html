@@ -1,8 +1,8 @@
 <select id="version-selector" onchange="selectVersion(this.value)">
-  {% for product, versions_list in site.versions %}
-    <optgroup label="{{ product }}">
-      {% for version in versions_list %}
-        <option value="{{ product }}|{{ version }}">{{ version }}</option>
+  {% for group in site.versions %}
+    <optgroup label="{{ group.product }}">
+      {% for version in group.versions %}
+        <option value="{{ group.product }}|{{ version }}">{{ version }}</option>
       {% endfor %}
     </optgroup>
   {% endfor %}
@@ -14,6 +14,7 @@
   }
 
   function parseVersion(fullValue) {
+    if (!fullValue.includes('|')) return { product: '', version: fullValue };
     const [product, version] = fullValue.split('|');
     return { product, version };
   }
@@ -49,7 +50,6 @@
     const dropdown = document.getElementById('version-selector');
     let selected = localStorage.getItem('selectedVersion');
 
-    // Fallback to first available option if invalid or missing
     if (!selected || !dropdown.querySelector(`option[value="${selected}"]`)) {
       selected = dropdown.options[0]?.value;
     }
