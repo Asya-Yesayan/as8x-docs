@@ -1,6 +1,10 @@
 <select id="version-selector" onchange="selectVersion(this.value)">
-  {% for version in site.versions %}
-    <option value="{{ version }}">{{ version }}</option>
+  {% for product, versions_list in site.versions %}
+    <optgroup label="{{ product }}">
+      {% for version in versions_list %}
+        <option value="{{ product }}|{{ version }}">{{ version }}</option>
+      {% endfor %}
+    </optgroup>
   {% endfor %}
 </select>
 
@@ -9,16 +13,22 @@
     return v1.localeCompare(v2, undefined, { numeric: true });
   }
 
-  function selectVersion(version) {
-    localStorage.setItem('selectedVersion', version);
+  function parseVersion(fullValue) {
+    const [product, version] = fullValue.split('|');
+    return { product, version };
+  }
+
+  function selectVersion(fullValue) {
+    localStorage.setItem('selectedVersion', fullValue);
+    const { version } = parseVersion(fullValue);
     showVersionBlocks(version);
   }
 
   function showVersionBlocks(version) {
     document.querySelectorAll('.version-block').forEach(el => {
-      const exact = el.getAttribute('data-version');            // e.g., "2.0,2.1"
-      const min = el.getAttribute('data-version-min');          // e.g., "2.0"
-      const max = el.getAttribute('data-version-max');          // e.g., "3.0"
+      const exact = el.getAttribute('data-version');
+      const min = el.getAttribute('data-version-min');
+      const max = el.getAttribute('data-version-max');
 
       let show = false;
 
@@ -36,9 +46,17 @@
   }
 
   document.addEventListener('DOMContentLoaded', function () {
-    const selected = localStorage.getItem('selectedVersion') || '1.0';
     const dropdown = document.getElementById('version-selector');
-    if (dropdown) dropdown.value = selected;
-    showVersionBlocks(selected);
+    let selected = localStorage.getItem('selectedVersion');
+
+    // Fallback to first available option if invalid or missing
+    if (!selected || !dropdown.querySelector(`option[value="${selected}"]`)) {
+      selected = dropdown.options[0]?.value;
+    }
+
+    if (dropdown && selected) {
+      dropdown.value = selected;
+      selectVersion(selected);
+    }
   });
 </script>
