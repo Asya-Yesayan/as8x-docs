@@ -32,7 +32,6 @@ exclude:
 header_pages:
  - search.html
  - apiIndex.html
- - versioning-dropdown.html
 
 versions:
   - id: bank
