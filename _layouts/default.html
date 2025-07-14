@@ -14,13 +14,6 @@
 
             {%- if page_paths -%}
             <nav class="site-nav">
-                <input type="checkbox" id="nav-trigger" class="nav-trigger" />
-                <label for="nav-trigger">
-                    <span class="menu-icon">
-                        {% include icon-menu.svg %} {# This is typically a Minima SVG include for the mobile menu icon #}
-                    </span>
-                </label>
-
                 <div class="trigger">
                     {%- for path in page_paths -%}
                     {%- assign my_page = site.pages | where: "url", path | first -%}
@@ -29,12 +22,8 @@
                     {%- endif -%}
                     {%- endfor -%}
 
-                    {# START OF YOUR DROPDOWN INTEGRATION #}
                     {% include versioning-dropdown.html %}
-                    {# END OF YOUR DROPDOWN INTEGRATION #}
 
-                    {# Assuming this is your dark mode toggle from your original head.html content #}
-                    <span class="dark-light-toggle" onclick="toggleTheme()">🌑</span>
                 </div>
             </nav>
             {%- endif -%}
