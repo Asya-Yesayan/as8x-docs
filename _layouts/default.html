@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    {% include head.html %} 
+<body>
+    <header>
+        <div class="header-wrapper">
+            <div class="logo-area">
+                <a href="{{ "/" | relative_url }}">AS-8X API Documentation</a>
+            </div>
+            <nav class="top-nav">
+                <a href="{{ site.baseurl | append: '/search/' | relative_url }}">Search</a> 
+                <a href="{{ site.baseurl | append: '/index/' | relative_url }}">Index</a>   
+                
+                <span class="theme-toggle" onclick="toggleTheme()">&#9789;</span>
+                {% include versioning-dropdown.html %} 
+            </nav>
+        </div>
+    </header>
+
+    <main class="page-content">
+        <div class="wrapper">
+            {{ content }} 
+        </div>
+    </main>
+
+    {% include footer.html %} 
+
+    <script>
+        if (typeof toggleTheme === 'undefined') {
+            function toggleTheme() {
+                const darkthemeLink = document.getElementById('darktheme');
+                if (darkthemeLink && darkthemeLink.rel === 'stylesheet') {
+                    darkthemeLink.rel = ''; 
+                } else if (darkthemeLink) {
+                    darkthemeLink.rel = 'stylesheet'; 
+                }
+            }
+        }
+    </script>
+</body>
+</html>
