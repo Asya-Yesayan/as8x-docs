@@ -1,3 +1,63 @@
+<style>
+    /* GitHub-like Dropdown Styling */
+    #version-selector {
+        width: 220px;
+        padding: 5px 12px; /* Adjusted padding to be more like GitHub's */
+        font-size: 14px; /* GitHub's standard font size for controls */
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; /* GitHub's font stack */
+        border: 1px solid #d0d7de; /* GitHub's light border color */
+        border-radius: 6px; /* Slightly rounded corners */
+        background-color: #f6f8fa; /* Light grey background, common on GitHub */
+        color: #24292f; /* Dark text color */
+        cursor: pointer;
+        transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg width='16' height='16' viewBox='0 0 16 16' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M4.47 5.72C4.76333 5.42667 5.23667 5.42667 5.53 5.72L8 8.19L10.47 5.72C10.7633 5.42667 11.2367 5.42667 11.53 5.72C11.8233 6.01333 11.8233 6.48667 11.53 6.78L8.53 9.78C8.23667 10.0733 7.76333 10.0733 7.47 9.78L4.47 6.78C4.17667 6.48667 4.17667 6.01333 4.47 5.72Z' fill='%23656d76'/%3E%3C/svg%3E"); /* GitHub-style caret icon */
+        background-repeat: no-repeat;
+        background-position: right 8px center;
+        background-size: 16px 16px; /* Size of the SVG caret */
+        padding-right: 30px; /* Make space for the caret */
+        box-shadow: 0 1px 0 rgba(27, 31, 35, 0.04), inset 0 1px 0 rgba(255, 255, 255, 0.25); /* Subtle inner and outer shadow */
+    }
+
+        #version-selector:hover {
+            background-color: #f3f4f6; /* Slightly darker background on hover */
+            border-color: #adbbc4; /* Darker border on hover */
+        }
+
+        #version-selector:focus {
+            outline: none;
+            border-color: #0366d6; /* GitHub's focus blue */
+            box-shadow: 0 0 0 3px rgba(3, 102, 214, 0.3); /* GitHub's focus ring */
+        }
+
+        #version-selector option {
+            padding: 6px 10px;
+            font-size: 14px;
+            color: #24292f;
+            background-color: #ffffff; /* White background for options */
+        }
+
+        #version-selector optgroup {
+            font-weight: 600; /* Slightly less bold for labels */
+            color: #57606a; /* Muted text color for optgroup */
+            padding: 4px 8px; /* Padding for optgroup labels */
+            background-color: #f6f8fa; /* Background for optgroup */
+            border-bottom: 1px solid #eaebed; /* Subtle separator */
+        }
+
+            #version-selector optgroup option {
+                padding-left: 20px; /* Indent options within optgroup */
+            }
+
+                #version-selector optgroup option:hover {
+                    background-color: #0366d6; /* GitHub's blue on hover for options */
+                    color: #ffffff; /* White text on hover for options */
+                }
+</style>
+
 <select id="version-selector" onchange="selectVersion(this.value)">
     {% for group in site.versions %}
     <optgroup label="{{ group.product }}">
@@ -7,3 +67,56 @@
     </optgroup>
     {% endfor %}
 </select>
+
+<div>
+    <script>
+        function versionCompare(v1, v2) {
+            return v1.localeCompare(v2, undefined, { numeric: true });
+        }
+
+        function selectVersion(fullValue) {
+            localStorage.setItem('selectedVersion', fullValue);
+            showVersionBlocks(fullValue);
+        }
+
+        function showVersionBlocks(fullValue) {
+            const [selectedProductId, selectedVersion] = fullValue.split('|');
+
+            document.querySelectorAll('.version-block').forEach(el => {
+                const productId = el.getAttribute('data-product-id');
+                const exactVersions = el.getAttribute('data-version');
+                const min = el.getAttribute('data-version-min');
+                const max = el.getAttribute('data-version-max');
+
+                const productMatch = !productId || productId === selectedProductId;
+
+                let versionMatch = false;
+
+                if (exactVersions) {
+                    const versions = exactVersions.split(',').map(v => v.trim());
+                    versionMatch = versions.includes(selectedVersion);
+                } else {
+                    const aboveMin = min ? versionCompare(selectedVersion, min) >= 0 : true;
+                    const belowMax = max ? versionCompare(selectedVersion, max) <= 0 : true;
+                    versionMatch = aboveMin && belowMax;
+                }
+
+                el.style.display = (productMatch && versionMatch) ? "" : "none";
+            });
+        }
+
+        document.addEventListener('DOMContentLoaded', function () {
+            const dropdown = document.getElementById('version-selector');
+            let selected = localStorage.getItem('selectedVersion');
+
+            if (!selected || !dropdown.querySelector(`option[value="${selected}"]`)) {
+                selected = dropdown.options[0]?.value;
+            }
+
+            if (dropdown && selected) {
+                dropdown.value = selected;
+                selectVersion(selected);
+            }
+        });
+    </script>
+</div>
