@@ -26,9 +26,9 @@
                 const button = document.createElement("button");
                 button.className = "copy-btn";
                 button.innerHTML = `
-              <svg class="copy-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
-              <span class="copy-text">Copy</span>
-            `;
+                      <svg class="copy-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                      <span class="copy-text">Copy</span>
+                    `;
 
                 button.addEventListener("click", () => {
                     const code = pre.querySelector("code");
@@ -37,15 +37,15 @@
                     navigator.clipboard.writeText(code.innerText).then(() => {
                         button.classList.add("copied");
                         button.innerHTML = `
-                  <span class="checkmark">✅</span>
-                  <span class="copy-text">Copied!</span>
-                `;
+                          <span class="checkmark">✅</span>
+                          <span class="copy-text">Copied!</span>
+                        `;
 
                         setTimeout(() => {
                             button.innerHTML = `
-                    <svg class="copy-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
-                    <span class="copy-text">Copy</span>
-                  `;
+                            <svg class="copy-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                            <span class="copy-text">Copy</span>
+                          `;
                             button.classList.remove("copied");
                         }, 2000);
                     });
@@ -134,68 +134,13 @@
     <main class="page-content" aria-label="Content">
         <div class="wrapper">
             <div class="home">
-                <h1 class="page-heading">AS-8X ձեռնարկ</h1><h2 id="ձեռնարկը-կազմված-է-հետևյալ-բաժիններից">Ձեռնարկը կազմված է հետևյալ բաժիններից</h2>
-
-                <ul>
-                    <li>
-                        <p>
-                            <a href="/as8x-docs/src/architecture.html">Ճարտարապետություն</a><br />
-                            Այս բաժնում ներկայացված են 8X համակարգի ճարատարապետությունը։
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            <a href="/as8x-docs/src/project.html">Պրոյեկտների կառուցվածք</a><br />
-                            Այս բաժնում նկարագրված է լուծման մեջ առկա պրոյեկտները, նրանց կառուցվածքը, կարգավորումնորը։
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            <a href="/as8x-docs/src/server_api.html">Սերվերային API</a><br />
-                            Այս բաժնում ներկայացված են սերվերում նկարագրվող օբյկտեները, սերվիսները և ներքին դասերը։
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            <a href="/as8x-docs/src/extensions.html">Սերվերային ընդլայնումներ</a><br />
-                            Այս բաժնում ներկայացված են 8X համակարգի ընդլայնումները՝ փաստաթղթի, տվյալների աղբյուրի, տպման ձևերը…
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            <a href="/as8x-docs/src/extensions/new_definitions.html">Կազմակերպության սեփական նկարագրություններ</a><br />
-                            Այս բաժնում ներկայացված են նոր նկարագրությունների ստեղծումը։
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            <a href="/as8x-docs/src/web_api_client.html">Web API կլիենտական գրադարան</a><br />
-                            Այս բաժնում ներկայացված սերվիսի Web API-ի հետ աշխատող գրադարանը և դրա ֆունկցիոնալությունը։
-                        </p>
-                    </li>
-                </ul>
-
-                <!--
-                * [Web API](/as8x-docs/src/web_api.html)
-                  ......
-                -->
-
-                <h2 id="as-4x-համակարգի-օգտագործողի-ձեռնարկ">AS-4X համակարգի օգտագործողի ձեռնարկ</h2>
-
-                <p><a href="https://armsoft.github.io/as4x-docs">Հասանելի է հետևյալ հղումով</a></p>
+                {{content}}
             </div>
 
         </div>
-    </main><footer class="site-footer">
+    </main>
 
-        <div class="wrapper">
-
-            <h2 class="footer-heading">AS-8X API Documentation</h2>
-
-        </div>
-
-        <script src="/as8x-docs/assets/beautifyAS4X.js"></script>
-    </footer>
+    {% include footer.html %}
 </body>
 
 </html>
