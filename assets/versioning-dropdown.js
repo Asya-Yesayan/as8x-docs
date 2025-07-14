@@ -33,23 +33,13 @@ function showVersionBlocks(fullValue) {
         el.style.display = (productMatch && versionMatch) ? "" : "none";
     });
 }
-
 document.addEventListener('DOMContentLoaded', function () {
     const dropdown = document.getElementById('version-selector');
-
-    if (!dropdown) {
-        console.warn("Versioning dropdown element (#version-selector) not found on the page. Script cannot initialize.");
-        return;
-    }
 
     let selected = localStorage.getItem('selectedVersion');
 
     if (!selected || !dropdown.querySelector(`option[value="${selected}"]`)) {
         selected = dropdown.options[0]?.value;
-        if (!selected) {
-            console.warn("No valid options found in the versioning dropdown. Initialization halted.");
-            return;
-        }
     }
 
     if (selected) {
