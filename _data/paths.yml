@@ -1,0 +1,3 @@
+docservice_path1: "../services/IDocumentService.md#store"
+docservice_path2: "../../services/IDocumentService.md#store"
+docservice_path3: "src/server_api/services/IDocumentService.md"

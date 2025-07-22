@@ -25,6 +25,11 @@ public class DocumentAttribute
 * `ShowProgress` - [Փաստաթղթի](../../definitions/document.md) [գրանցման](../../services/IDocumentService.md#store)/[հեռացման](../../services/IDocumentService.md#delete) ընթացքում պրոգրեսի պատուհանի ցուցադրման հայտանիշ։ Լռությամբ պրոգրեսի պատուհանը չի ցուցադրվում։ 
     * **FeatureAvailability.Enabled** - Պրոգրեսի պատուհանը ցուցադրվում է։
     * **FeatureAvailability.Disabled** - Պրոգրեսի պատուհանը չի ցուցադրվում:
+
+[docservice_path1]({{site.data.docservice_path1}})
+[docservice_path2]({{site.data.docservice_path2}})
+[docservice_path3]({{site.data.docservice_path3}})
+
 * `IsCancellationSupported` - UI-ից [փաստաթղթի](../../definitions/document.md) [գրանցման](../../services/IDocumentService.md#store)/[հեռացման](../../services/IDocumentService.md#delete) ընթացքում ընդհատման հնարավորության հայտանիշ։ Դադարեցման հնարավորությունը հասանելի է միայն այն դեպքում, երբ ակտիվացված է պրոգրեսի պատուհանի ցուցադրումը (`ShowProgress`)։ Լռությամբ UI-ից ընդհատումը թույլատրված է։
     * **FeatureAvailability.Enabled** - Թույլատրված է ընդհատումը UI-ից։
     * **FeatureAvailability.Disabled** - Արգելված է ընդհատումը UI-ից։
