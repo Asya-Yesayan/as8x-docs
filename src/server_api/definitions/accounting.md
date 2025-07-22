@@ -76,6 +76,11 @@ public virtual Task OnAdd(OnAddEventArgs args);
 * [docservice_path2]({{ site.data.paths.docservice_path2 }})
 * [docservice_path3]({{ site.data.paths.docservice_path3 }})
 
+* [config_docservice_path1]({{ config_docservice_path1.docservice_path2 }})
+* [config_docservice_path2]({{ config_docservice_path2.docservice_path2 }})
+* [config_docservice_path3]({{ config_docservice_path3.docservice_path3 }})
+
+
 Մեթոդը կանչվում է միջուկի կողմից [DocumentService](../services/IDocumentService.md) դասի [StoreFact](../services/IDocumentService.md#storefact) մեթոդով հաշվառումները գրանցելիս։
 
 **Պարամետրեր**
