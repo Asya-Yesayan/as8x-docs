@@ -58,9 +58,9 @@ public class BalanceAccounting01 : Accounting
 public virtual Task OnAdd(OnAddEventArgs args);
 ```
 
-[docservice_path1]({{site.data.docservice_path1}})
-[docservice_path2]({{site.data.docservice_path2}})
-[docservice_path3]({{site.data.docservice_path3}})
+* [docservice_path1]({{site.data.docservice_path1}})
+* [docservice_path2]({{site.data.docservice_path2}})
+* [docservice_path3]({{site.data.docservice_path3}})
 
 Մեթոդը կանչվում է միջուկի կողմից [DocumentService](../services/IDocumentService.md) դասի [StoreFact](../services/IDocumentService.md#storefact) մեթոդով հաշվառումները գրանցելիս։
 
