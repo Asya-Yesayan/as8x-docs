@@ -62,6 +62,10 @@ public virtual Task OnAdd(OnAddEventArgs args);
 * [docservice_path2]({{site.data.paths.docservice_path2}})
 * [docservice_path3]({{site.data.paths.docservice_path3}})
 
+* <a href="{{ site.data.paths.docservice_path1 }}">Store1</a>
+* <a href="{{ site.data.paths.docservice_path2 }}">Store2</a>
+* <a href="{{ site.data.paths.docservice_path3 }}">Store3</a>
+
 Մեթոդը կանչվում է միջուկի կողմից [DocumentService](../services/IDocumentService.md) դասի [StoreFact](../services/IDocumentService.md#storefact) մեթոդով հաշվառումները գրանցելիս։
 
 **Պարամետրեր**
