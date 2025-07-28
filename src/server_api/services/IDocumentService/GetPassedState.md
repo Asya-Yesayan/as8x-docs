@@ -1,0 +1,23 @@
+---
+title: IDocumentService.GetPassedState(int, List<short>, bool, bool) մեթոդ
+---
+
+## Նկարագիր
+
+Համարժեքը 4x-ում։ [AsDocEngine.GetDocPassedState](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/DocumentsCirculation/GetDocPassedState.html)
+
+```c#
+public short GetPassedState(int isn, List<short> states, bool lastState = true, bool inStates = true)
+```
+
+Ստուգում է և վերադարձնում փաստաթղթի վերջին կամ առաջին նշանակված վիճակը տրված վիճակների ցուցակից։
+
+Համապատասխանող վիճակ չգտնելու դեպքում վերադարձնում է `-1`։
+
+**Պարամետրեր**
+
+* `isn` - Փաստաթղթի ներքին նույնականացման համար։
+* `states` - Փաստաթղթի վիճակների ցուցակ։
+* `lastState` - `true` արժեքի դեպքում վերադարձնում է վերջին նշանակված վիճակը, հակառակ դեպքում՝ առաջինը։
+* `inStates` - `true` արժեքի դեպքում փնտրվում է վիճակ, տրված վիճակների ցուցակից։ 
+  Հակառակ դեպքում՝ ցուցակից դուրս։

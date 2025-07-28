@@ -7,7 +7,7 @@ ISessionInfoService, GetInfo, DsQueryTimeout օգտագործման օրինակ
 
 Օրինակում օգտագործվում են ընթացիկ օգտագործողի սեսսիայի տվյալները։
 
-Օրինակում ստեղծվում է [SqlCommand](https://learn.microsoft.com/en-us/dotnet/api/microsoft.data.sqlclient.sqlcommand) դասի օբյեկտ՝ [IDBService](../services/IDBService.md) դասի [CreateCommand](../services/IDBService.md#createcommand) մեթոդի միջոցով` Sql հարցումներ կատարելու համար։
+Օրինակում ստեղծվում է [SqlCommand](https://learn.microsoft.com/en-us/dotnet/api/microsoft.data.sqlclient.sqlcommand) դասի օբյեկտ՝ [IDBService](../services/IDBService.md) դասի [CreateCommand](../services/IDBService/CreateCommand.md) մեթոդի միջոցով` Sql հարցումներ կատարելու համար։
 
 Որպես հարցման կատարման առավելագույն ժամանակ դրվում է սեսսիայի `QueryTimeout` հատկության արժեքը և սեսսիայի տվյալների որոշ մասը գրանցվում է տվյալների պահոցում։ 
 

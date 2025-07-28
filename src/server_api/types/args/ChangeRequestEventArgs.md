@@ -4,7 +4,7 @@ title: "ChangeRequestEventArgs"
 tags: ChangeRequest
 ---
 
-Այս դասը օգտագործվում է փաստաթղթի [IDocumentChangeRequest](../IDocumentChangeRequest.md)-ի [ChangeRequest](../IDocumentChangeRequest.md#changerequest) մեթոդում։
+Այս դասը օգտագործվում է փաստաթղթի [IDocumentChangeRequest](../IDocumentChangeRequest.md)-ի [ChangeRequest](../IDocumentChangeRequest/ChangeRequest.md) մեթոդում։
 
 ```c#
 public class ChangeRequestEventArgs
@@ -15,8 +15,8 @@ public class ChangeRequestEventArgs
 ```
 
 * `DCR` - [Փաստաթղթի փոփոխման հայտը](../DocumentChangeRequest.md)։
-* `DCRResult` - Որոշում է [փաստաթղթի փոփոխման հայտի](../DocumentChangeRequest.md) վիճակը [ChangeRequest](../IDocumentChangeRequest.md#changerequest) մեթոդի կանչից հետո՝
+* `DCRResult` - Որոշում է [փաստաթղթի փոփոխման հայտի](../DocumentChangeRequest.md) վիճակը [ChangeRequest](../IDocumentChangeRequest/ChangeRequest.md) մեթոդի կանչից հետո՝
   * **DCRResult.NotCreated** - փոփոխման հայտը ստեղծվել է,
   * **DCRResult.CreatedAndConfirmed** - փոփոխման հայտը ստեղծվել և հաստատվել է,
   * **DCRResult.CreatedAndNotConfirmed** - փոփոխման հայտը ստեղծվել է և չի հաստատվել,
-  * **DCRResult.CreatedAndConfirmedWithOnConfirm** - փոփոխման հայտը ստեղծվել և ուղարկվել է կրկնակի հաստատման [PreOnConfirmDocumentChangeRequest](../../../extensions/definitions/document_extender.md#preonconfirmdocumentchangerequest), [OnConfirmDocumentChangeRequest](../../definitions/document.md#onconfirmdocumentchangerequest), [PostOnConfirmDocumentChangeRequest](../../../extensions/definitions/document_extender.md#postonconfirmdocumentchangerequest) մեթոդների միջոցով։
+  * **DCRResult.CreatedAndConfirmedWithOnConfirm** - փոփոխման հայտը ստեղծվել և ուղարկվել է կրկնակի հաստատման [PreOnConfirmDocumentChangeRequest](../../../extensions/definitions/document_extender/PreOnConfirmDocumentChangeRequest.md), [OnConfirmDocumentChangeRequest](../../definitions/document/OnConfirmDocumentChangeRequest.md), [PostOnConfirmDocumentChangeRequest](../../../extensions/definitions/document_extender/PostOnConfirmDocumentChangeRequest.md) մեթոդների միջոցով։

@@ -5,7 +5,7 @@ title: "AttachmentContentModel"
 
 Դասը պարունակում է փաստաթղթին կցված ֆայլի պարունակությունը փոխելու տվյալներ։
 
-Օգտագործվում է [IAttachmentService](../services/IAttachmentService.md).[UpdateContent](../services/IAttachmentService.md#updatecontent) մեթոդով փաստաթղթին կցված ֆայլը փոխելուց։
+Օգտագործվում է [IAttachmentService](../services/IAttachmentService.md).[UpdateContent](../services/IAttachmentService/UpdateContent.md) մեթոդով փաստաթղթին կցված ֆայլը փոխելուց։
 
 Տե՛ս [օրինակը](../examples/IAttachmentService.md#օրինակ-2)։
 

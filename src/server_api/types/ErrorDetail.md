@@ -5,7 +5,7 @@ title: "ErrorDetail"
 
 Այս դասը նախատեսված է ծրագրի աշխատանքի ընթացքում առաջացող սխալների նկարագրման համար։
 
-Օգտագործվում է [IErrorHandlingService](../services/IErrorHandlingService.md).[GetSqlExceptionDetails](../services/IErrorHandlingService.md#getsqlexceptiondetails) մեթոդում։
+Օգտագործվում է [IErrorHandlingService](../services/IErrorHandlingService.md).[GetSqlExceptionDetails](../services/IErrorHandlingService/GetSqlExceptionDetails.md) մեթոդում։
 
 ```c#
 public class ErrorDetail

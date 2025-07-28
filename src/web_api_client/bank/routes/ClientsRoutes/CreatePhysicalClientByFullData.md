@@ -1,0 +1,19 @@
+---
+title: ClientsRoutes.CreatePhysicalClientByFullData(CreatePhysicalClientByFullDataRequest) մեթոդ
+---
+
+```c#
+public Task<CreatePhysicalClientByFullDataResponse> CreatePhysicalClientByFullDat(
+    CreatePhysicalClientByFullDataRequest request)
+```
+
+Ստեղծում է նոր ֆիզ. անձ հաճախորդ ըստ հաճախորդի հիմնական տվյալների։ 
+Վերադարձնում հաճախորդի ստեղծված լինելու մասին տվյալներ՝ հաճախորդի կոդ, ստեղված հաճախորդի վիճակը վերջնական է, թե ոչ։
+
+**Պարամետրեր**
+
+* `request` - Ավելացվող հաճախորդի տվյալներ։
+
+**Օրինակ**
+
+Տե՛ս օգտագործման [օրինակը](../../examples/ClientsRoutes.md#օրինակ-2)։

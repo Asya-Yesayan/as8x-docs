@@ -63,8 +63,7 @@ sublinks:
 - { title: "LoadClientDesc", ref: loadclientdesc }
 - { title: "LoadClientDoc", ref: loadclientdoc }
 - { title: "LoadClientDocRO", ref: loadclientdocro }
-- { title: "LoadContractDescByCode", ref: loadcontractdescbycode }
-- { title: "LoadContractDescByISN", ref: loadcontractdescbyisn }
+- { title: "LoadContractDesc", ref: loadcontractdesc }
 - { title: "LoadContractDoc", ref: loadcontractdoc }
 - { title: "LoadDoc", ref: loaddoc }
 - { title: "LoadDocFromFolder", ref: loaddocfromfolder }
@@ -84,7 +83,7 @@ sublinks:
 - { title: "SumInWordsAsync", ref: suminwordsasync }
 - { title: "TreeElProp", ref: treeelprop }
 - { title: "TreeElPropComment, TreeElPropEComment", ref: treeelpropcomment-treeelpropecomment }
-- { title: "TryAddAtomicAsync, TryAddAtomic", ref: tryaddatomicasync-tryaddatomic }
+- { title: "TryAddAtomicAsync, TryAddAtomic", ref: tryaddatomic }
 - { title: "Udf", ref: udf }
 - { title: "UserElProp", ref: userelprop }
 - { title: "WEEK_BEGIN", ref: week_begin }
@@ -157,8 +156,7 @@ sublinks:
    * [LoadClientDesc](#loadclientdesc)
    * [LoadClientDoc](#loadclientdoc)
    * [LoadClientDocRO](#loadclientdocro)
-   * [LoadContractDescByCode](#loadcontractdescbycode)
-   * [LoadContractDescByISN](#loadcontractdescbyisn)
+   * [LoadContractDesc](#loadcontractdesc)
    * [LoadContractDoc](#loadcontractdoc)
    * [LoadDoc](#loaddoc)
    * [LoadDocFromFolder](#loaddocfromfolder)
@@ -178,7 +176,7 @@ sublinks:
    * [SumInWordsAsync](#suminwordsasync)
    * [TreeElProp](#treeelprop)
    * [TreeElPropComment, TreeElPropEComment](#treeelpropcomment-treeelpropecomment)
-   * [TryAddAtomicAsync, TryAddAtomic](#tryaddatomicasync-tryaddatomic)
+   * [TryAddAtomicAsync, TryAddAtomic](#tryaddatomic)
    * [Udf](#udf)
    * [UserElProp](#userelprop)
    * [WEEK_BEGIN](#week_begin)
@@ -2041,7 +2039,7 @@ public Task<Document> LoadDocFromFolder(string folder, string key,
 Տե՛ս նաև՝ 
 * [Աշխատանք փաստաթղթի աղյուսակների հետ](#աշխատանք-փաստաթղթի-աղյուսակների-հետ) 
 * [Աշխատանք նկարների հետ](#աշխատանք-նկարների-հետ)
-* [Աշխատանք մեմո տեսակի դաշտերի հետ](#աշխատանք-մեմո-տեսակի-դաշտերի-հետ)
+* [Աշխատանք երկար տեքստային տեսակի դաշտերի (մեմոների) հետ](#աշխատանք-երկար-տեքստային-տեսակի-դաշտերի-մեմոների-հետ)
 * [Ծնող-փաստաթղթերի բեռնում](#ծնող-փաստաթղթերի-բեռնում)
 
 **Օրինակ**
@@ -2451,7 +2449,7 @@ public Task TryAddAtomicAsync(string key, Func<Task<string>> operation,
 
 * `key` - Տպվող պարամետրի կոդ։
 * `operation` - Արժեքը հաշվող ֆունկցիա։
-* `templateSubstitutionArgs` - [Calculate](../../extensions/definitions/template_substitution.md#calculate) ֆունկցիայի մուտքային պարամետր։
+* `templateSubstitutionArgs` - [Calculate](../../extensions/definitions/template_substitution/Calculate.md) ֆունկցիայի մուտքային պարամետր։
 
 **Օրինակ**
 

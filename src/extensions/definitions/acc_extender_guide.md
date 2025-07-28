@@ -76,7 +76,7 @@ public SyntAccountingExtender(EnterpriseParametersService parametersService, IDB
 }
 ```
 
-- [OnDelete](../../server_api/definitions/accounting.md#ondelete) մեթոդով [հաշվառումը](../../server_api/definitions/accounting.md) հեռացնելուց առաջ լրացուցիչ տրամաբանություն ավելացնելու համար անհրաժեշտ է override անել [PreOnDelete](acc_extender.md#preondelete) մեթոդը։
+- [OnDelete](../../server_api/definitions/accounting/OnDelete.md) մեթոդով [հաշվառումը](../../server_api/definitions/accounting.md) հեռացնելուց առաջ լրացուցիչ տրամաբանություն ավելացնելու համար անհրաժեշտ է override անել [PreOnDelete](acc_extender/PreOnDelete.md) մեթոդը։
 
 Մեթոդը կանչվում է միջուկի կողմից։
 
@@ -92,7 +92,7 @@ public override async Task PreOnDelete(Core.Accounting.Accounting sender, OnDele
 }
 ```
 
-- [OnDelete](../../server_api/definitions/accounting.md#ondelete) մեթոդով [հաշվառումը](../../server_api/definitions/accounting.md) հեռացնելուց հետո լրացուցիչ տրամաբանություն ավելացնելու համար անհրաժեշտ է override անել [PostOnDelete](acc_extender.md#postondelete) մեթոդը։
+- [OnDelete](../../server_api/definitions/accounting/OnDelete.md) մեթոդով [հաշվառումը](../../server_api/definitions/accounting.md) հեռացնելուց հետո լրացուցիչ տրամաբանություն ավելացնելու համար անհրաժեշտ է override անել [PostOnDelete](acc_extender/PostOnDelete.md) մեթոդը։
 
 Մեթոդը կանչվում է միջուկի կողմից։
 

@@ -33,5 +33,5 @@ public class DocumentChangeRequest
     * **1** - փոփոխման հայտը հաստատվել է,
     * **2** - փոփոխման հայտը մերժվել է։
 * `EmptyMessage` - Դատարկ փաստաթղթի հայտ գրանցել փորձելիս առաջացող սխալի հաղորդագրությունը։ Եթե արժեքը դատարկ տող է, ապա առաջանում է ստանդարտ տեքստով սխալ։
-* `ReFolderDocument` - `true` արժեքի դեպքում փաստաթղթի փոփոխման հայտը մերժելիս փաստաթուղթը [վերաինդեքսավորում է թղթապանակներում](../services/IDocumentService.md#refolder):
+* `ReFolderDocument` - `true` արժեքի դեպքում փաստաթղթի փոփոխման հայտը մերժելիս փաստաթուղթը [վերաինդեքսավորում է թղթապանակներում](../services/IDocumentService/ReFolder.md):
 * `CreationLogMessage` - Փաստաթղթի փոփոխման հայտի ստեղծման ժամանակ [փաստաթղթի պատմությունում](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Database/DocLog.html) գրանցվող հաղորդագրությունը։
