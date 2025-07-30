@@ -2,10 +2,6 @@
 title: LiteDocumentService.ClearCache() մեթոդ  
 ---
 
-## Նկարագիր
-
-Համարժեքը 4x-ում։ []()
-
 ```c#
 public void ClearCache();
 ```

@@ -2,10 +2,6 @@
 title: LanguageService.IsEnglish հատկություն  
 ---
 
-## Նկարագիր
-
-Համարժեքը 4x-ում։ []()
-
 ```c#
 public static bool IsEnglish { get; }
 ```

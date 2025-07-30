@@ -2,10 +2,6 @@
 title: LiteDocumentService.Load(int, bool, bool, bool) մեթոդ  
 ---
 
-## Նկարագիր
-
-Համարժեքը 4x-ում։ []()
-
 ```c#
 public Task<LiteDocument> Load(int isn,
                                bool loadGrids = false,

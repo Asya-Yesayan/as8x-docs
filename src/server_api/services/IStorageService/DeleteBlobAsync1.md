@@ -4,7 +4,7 @@ title: IStorageService.DeleteBlobAsync(string, CancellationToken) մեթոդ
 
 ## Նկարագիր
 
-Համարժեքը 4x-ում։ modRestService.DeleteContainerFromBlobStorage ?
+Համարժեքը 4x-ում։ modRestService.DeleteContainerFromBlobStorage
 
 ```c#
 public virtual Task<bool> DeleteBlobAsync(string blobName, CancellationToken cancellationToken = default)

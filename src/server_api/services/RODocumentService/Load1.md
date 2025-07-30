@@ -2,10 +2,6 @@
 title: RODocumentService.Load(int, bool, bool, bool, bool) մեթոդ  
 ---
 
-## Նկարագիր
-
-Համարժեքը 4x-ում։ []()
-
 ```c#
 public Task<RODocument> Load(int isn,
                              bool loadGrids = true,

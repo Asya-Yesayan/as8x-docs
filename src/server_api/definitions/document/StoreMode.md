@@ -2,10 +2,6 @@
 title: Document.StoreMode հատկություն
 ---
 
-## Նկարագիր
-
-Համարժեքը 4x-ում։ AsDoc.StoreMode ?
-
 ```c#
 public StoreMode StoreMode { get; internal set; }
 ```

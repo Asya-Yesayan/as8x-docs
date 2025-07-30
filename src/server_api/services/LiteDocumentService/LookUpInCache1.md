@@ -2,10 +2,6 @@
 title: LiteDocumentService.LookUpInCache(string, string, TimeSpan, Ref<bool>) մեթոդ  
 ---
 
-## Նկարագիր
-
-Համարժեքը 4x-ում։ []()
-
 ```c#
 public Task<LiteDocument> LookUpInCache(string folderID,
                                         string folderKey,

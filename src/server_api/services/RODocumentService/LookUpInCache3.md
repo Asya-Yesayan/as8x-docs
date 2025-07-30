@@ -2,10 +2,6 @@
 title: RODocumentService.LookUpInCache(string, string, bool, DocsTableRowLoader, Ref<bool>) մեթոդ  
 ---
 
-## Նկարագիր
-
-Համարժեքը 4x-ում։ []()
-
 ```c#
 public Task<T> LookUpInCache<T>(string folder, string key, 
                                 bool checkRelevance, DocsTableRowLoader loader = null,

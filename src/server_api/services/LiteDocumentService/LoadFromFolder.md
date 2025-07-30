@@ -2,10 +2,6 @@
 title: LiteDocumentService.LoadFromFolder(string, string, bool) մեթոդ  
 ---
 
-## Նկարագիր
-
-Համարժեքը 4x-ում։ []()
-
 ```c#
 public Task<LiteDocument> LoadFromFolder(string folderID, 
                                          string folderKey, 

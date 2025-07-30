@@ -2,10 +2,6 @@
 title: Document.IsCancellationSupported հատկություն
 ---
 
-## Նկարագիր
-
-Համարժեքը 4x-ում։ AsDocProgress.IsCancellationSupported ?
-
 ```c#
 public virtual bool IsCancellationSupported { get { return true; } }
 ```

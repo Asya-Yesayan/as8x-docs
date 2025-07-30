@@ -2,10 +2,6 @@
 title: Document.AddParent(int) մեթոդ
 ---
 
-## Նկարագիր
-
-Համարժեքը 4x-ում։ AsDoc.AddParentISN ?
-
 ```c#
 public Task AddParent(int isn)
 ```

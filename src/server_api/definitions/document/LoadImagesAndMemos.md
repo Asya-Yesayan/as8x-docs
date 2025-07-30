@@ -2,10 +2,6 @@
 title: Document.LoadImagesAndMemos(ArchiveInfo) մեթոդ
 ---
 
-## Նկարագիր
-
-Համարժեքը 4x-ում։ AsDoc.LoadImagesAndMemos ??
-
 ```c#
 public Task LoadImagesAndMemos(ArchiveInfo archiveInfo = null)
 ```

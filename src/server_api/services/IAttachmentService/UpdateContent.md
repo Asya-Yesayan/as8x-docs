@@ -2,10 +2,6 @@
 title: IAttachmentService.UpdateContent(AttachmentContentModel) մեթոդ
 ---
 
-## Նկարագիր
-
-Համարժեքը 4x-ում։ ASAttachment.UpdateFile ?
-
 ```c#
 public Task<DateTime> UpdateContent(AttachmentContentModel attachmentContent)
 ```

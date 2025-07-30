@@ -11,4 +11,3 @@ public virtual Task BeforeCommitDelete(Document sender, BeforeCommitDeleteEventA
 ```
 
 BeforeCommitDelete մեթոդը կանչվում է միջուկի կողմից` տվյալների պահոցից փաստաթղթի հեռացումից անմիջապես հետո տրանզակցիայի մեջ։ 
-

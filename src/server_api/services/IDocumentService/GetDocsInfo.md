@@ -4,7 +4,7 @@ title: IDocumentService.GetDocsInfo() մեթոդ
 
 ## Նկարագիր
 
-Համարժեքը 4x-ում։ [AsUtil.GetArchiveDB](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/Archive/GetArchiveDb.html) -
+Համարժեքը 4x-ում։ [AsUtil.GetArchiveDB](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/Archive/GetArchiveDb.html)
 
 ```c#
 public ArchiveInfo GetDocsInfo()

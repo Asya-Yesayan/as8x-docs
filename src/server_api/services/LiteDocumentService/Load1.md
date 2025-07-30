@@ -2,10 +2,6 @@
 title: LiteDocumentService.Load(IEnumerable<int>) մեթոդ  
 ---
 
-## Նկարագիր
-
-Համարժեքը 4x-ում։ []()
-
 ```c#
 public Task<Dictionary<int, LiteDocument>> Load(IEnumerable<int> isnList);
 ```

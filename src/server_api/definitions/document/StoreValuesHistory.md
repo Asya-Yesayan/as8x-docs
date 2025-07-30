@@ -2,10 +2,6 @@
 title: Document.StoreValuesHistory() մեթոդ
 ---
 
-## Նկարագիր
-
-Համարժեքը 4x-ում։ AsDoc.StoreValuesHistory ?
-
 ```c#
 public Task StoreValuesHistory()
 ```

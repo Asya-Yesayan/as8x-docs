@@ -2,10 +2,6 @@
 title: ITemplateSubstitutionService.EvalAndAddUserDefinedParametersEx(string, SubstitutionType, PrintTemplateSubstitutionEx, Document.Document) մեթոդ  
 ---
 
-## Նկարագիր
-
-Համարժեքը 4x-ում։ TemplateSubstitution.EvalAndAddUserDefinedParameters ?
-
 ```c#
 public Task EvalAndAddUserDefinedParametersEx(
     string name, SubstitutionType type,

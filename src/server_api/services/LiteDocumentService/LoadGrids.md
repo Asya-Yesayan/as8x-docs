@@ -2,10 +2,6 @@
 title: LiteDocumentService.LoadGrids(LiteDocument, bool) մեթոդ  
 ---
 
-## Նկարագիր
-
-Համարժեքը 4x-ում։ []()
-
 ```c#
 public Task LoadGrids(LiteDocument document, bool lookInArc = false);
 ```

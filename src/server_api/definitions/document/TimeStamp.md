@@ -2,10 +2,6 @@
 title: Document.TimeStamp հատկություն
 ---
 
-## Նկարագիր
-
-Համարժեքը 4x-ում։ AsDoc.ts ?
-
 ```c#
 public byte[] TimeStamp { get; internal set; }
 ```

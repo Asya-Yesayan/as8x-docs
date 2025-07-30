@@ -2,10 +2,6 @@
 title: IAccountingService.GetLinkedAccounting(string) մեթոդ
 ---
 
-## Նկարագիր
-
-Համարժեքը 4x-ում։ AsAccounting.LinkedAccounting ?
-
 ```c#
 public string GetLinkedAccounting(ref string acc)
 ```

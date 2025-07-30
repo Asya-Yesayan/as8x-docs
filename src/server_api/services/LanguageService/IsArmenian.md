@@ -2,10 +2,6 @@
 title: LanguageService.IsArmenian հատկություն  
 ---
 
-## Նկարագիր
-
-Համարժեքը 4x-ում։ []()
-
 ```c#
 public static bool IsArmenian { get; }
 ```

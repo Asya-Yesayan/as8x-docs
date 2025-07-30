@@ -4,7 +4,7 @@ title: IStorageService.DeleteBlobAsync(string, string, CancellationToken) մեթ
 
 ## Նկարագիր
 
-Համարժեքը 4x-ում։ modRestService.DeleteFileFromBlobStorage ?
+Համարժեքը 4x-ում։ modRestService.DeleteFileFromBlobStorage
 
 ```c#
 public virtual Task<bool> DeleteBlobAsync(string container, string blobName, CancellationToken cancellationToken = default)

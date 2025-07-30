@@ -2,10 +2,6 @@
 title: LiteDocumentService.LookUpInCache(int, TimeSpan, Ref<bool>, bool) մեթոդ  
 ---
 
-## Նկարագիր
-
-Համարժեքը 4x-ում։ []()
-
 ```c#
 public Task<LiteDocument> LookUpInCache(int isn,
                                         TimeSpan checkAfter,

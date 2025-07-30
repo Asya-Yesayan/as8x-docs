@@ -2,10 +2,6 @@
 title: RODocumentService.LookUpInCache(int, TimeSpan, Ref<bool>, bool) մեթոդ  
 ---
 
-## Նկարագիր
-
-Համարժեքը 4x-ում։ []()
-
 ```c#
 public async Task<T> LookUpInCache<T>(int isn, TimeSpan checkAfter, 
                                       Ref<bool> isRefreshed = null, 

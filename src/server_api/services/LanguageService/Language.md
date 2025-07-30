@@ -2,10 +2,6 @@
 title: LanguageService.Language հատկություն  
 ---
 
-## Նկարագիր
-
-Համարժեքը 4x-ում։ []()
-
 ```c#
 public static Language Language { get; set; }
 ```

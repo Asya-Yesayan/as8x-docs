@@ -2,10 +2,6 @@
 title: RODocumentService.RemoveFromCache(int) մեթոդ  
 ---
 
-## Նկարագիր
-
-Համարժեքը 4x-ում։ []()
-
 ```c#
 public void RemoveFromCache(int isn)
 ```

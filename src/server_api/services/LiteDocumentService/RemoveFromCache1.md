@@ -2,10 +2,6 @@
 title: LiteDocumentService.RemoveFromCache(string) մեթոդ  
 ---
 
-## Նկարագիր
-
-Համարժեքը 4x-ում։ []()
-
 ```c#
 public void RemoveFromCache(string docType);
 ```

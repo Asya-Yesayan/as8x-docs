@@ -2,10 +2,6 @@
 title: LanguageService.CurrentUICultureName հատկություն  
 ---
 
-## Նկարագիր
-
-Համարժեքը 4x-ում։ []()
-
 ```c#
 public static string CurrentUICultureName { get; }
 ```

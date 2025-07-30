@@ -2,10 +2,6 @@
 title: ITemplateSubstitutionService.LoadTemplateFile(string, SubstitutionType) մեթոդ  
 ---
 
-## Նկարագիր
-
-Համարժեքը 4x-ում։ TemplateSubstitution.LoadTemplateFile ?
-
 ```c#
 public Task<(bool IsUnicode, byte[] File, bool Updatable)> LoadTemplateFile(
     string name, SubstitutionType type)
