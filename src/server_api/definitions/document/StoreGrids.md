@@ -22,5 +22,3 @@ args.IgnoreGrids.AddRange([Grid("CLIENTS"), Grid("STMDATES")]);
 
 Մշակման դեպքում ծրագրավորողը պետք է ապահովի աղյուսակի ճիշտ բեռնումը մշակելով [DoLoadGrids](DoLoadGrids.md) մեթոդը։
 
-Հանդիսանում է 4x համակարգում նկարագրված [StoreGrid](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/ScriptProcs/StoreGrid.html) իրադարձության համարժեքը:
-

@@ -14,5 +14,3 @@ public virtual Task Validate(ValidateEventArgs args)
 
 Օգտագործվում է փաստաթղթի դաշտերի արժեքների ստուգման համար։
 
-Հանդիսանում է 4x համակարգում նկարագրված [Validate](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/ScriptProcs/Validate.html)  իրադարձության համարժեքը:
-

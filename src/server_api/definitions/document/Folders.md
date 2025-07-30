@@ -15,5 +15,3 @@ public virtual Task Folders(FoldersEventArgs args)
 
 Թղթապանակների, ծառերի տարրերի ստեղծումը և տվյալների պահոցումը գրանցումը հարկավոր է կատարել այս մեթոդում՝ կանչելով համապատասխանաբար [IDocumentService](../../services/IDocumentService.md).[StoreInFolder](../../services/IDocumentService/StoreInFolder.md) և [IDocumentService](../../services/IDocumentService.md).[StoreInTree](../../services/IDocumentService/StoreInTree.md) մեթոդները։
 
-Հանդիսանում է 4x համակարգում նկարագրված [Folders](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/ScriptProcs/Folders.html) իրադարձության համարժեքը:
-

@@ -14,5 +14,3 @@ public virtual Task OnRefuse(RefuseEventArgs args)
 
 Այս մեթոդի մշակման դեպքում իմաստ չունի մշակել [Delete](Delete.md) մեթոդը, քանի որ մեթոդը չի կանչվելու միջուկի կողմից։
 
-Հանդիսանում է 4x համակարգում նկարագրված [OnRefuseDoc](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/ScriptProcs/OnRefuseDoc.html) իրադարձության համարժեքը:
-

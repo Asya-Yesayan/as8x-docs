@@ -14,5 +14,3 @@ public virtual Task AfterCreate(AfterCreateEventArgs args)
 
 Փաստաթղթի ներմուծման ժամանակ մեթոդը չի կանչվում։
 
-Հանդիսանում է 4x համակարգում նկարագրված [AfterCreate](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/ScriptProcs/AfterCreate.html) իրադարձության համարժեքը:
-

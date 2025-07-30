@@ -12,5 +12,3 @@ public virtual Task OnConfirmDocumentChangeRequest(ConfirmDocumentChangeRequestE
 
 Մեթոդը կանչվում է միջուկի կողմից փաստաթղթի փոփոխման հայտը `IDocumentChangeRequestService.Confirm` մեթոդով հաստատելիս։
 
-Հանդիսանում է 4x համակարգում նկարագրված [OnConfirmDCR](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/ScriptProcs/OnConfirmDCR.html) իրադարձության համարժեքը:
-

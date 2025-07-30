@@ -12,8 +12,6 @@ public virtual Task OnRejectDocumentChangeRequest(RejectDocumentChangeRequestEve
 
 Մեթոդը կանչվում է միջուկի կողմից՝ [փաստաթղթի փոփոխման հայտը](../../types/DocumentChangeRequest.md) մերժելիս։
 
-Հանդիսանում է 4x համակարգում նկարագրված [OnRejectDCR](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/ScriptProcs/OnRejectDCR.html) իրադարձության համարժեքը:
-
 **Պարամետրեր**
 
 * `args` - [RejectDocumentChangeRequestEventArgs](../../types/args/RejectDocumentChangeRequestEventArgs.md) դասի օբյեկտ:

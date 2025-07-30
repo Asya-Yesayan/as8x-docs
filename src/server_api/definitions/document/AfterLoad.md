@@ -14,5 +14,3 @@ public virtual Task AfterLoad(AfterLoadEventArgs args)
 
 Մեթոդում սովորաբար փաստաթղթի դաշտերին տրվում են ժամանակավոր արժեքներ։
 
-Հանդիսանում է 4x համակարգում նկարագրված [AfterLoad](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/ScriptProcs/AfterLoad.html) իրադարձության համարժեքը:
-

@@ -14,5 +14,3 @@ public virtual Task BeforeCommit(BeforeCommitEventArgs args)
 
 Մեթոդում իմաստ չունի փոխել փաստաթղթի հատկությունները, գեներացնել հաշվառումները և այլն, քանի որ փաստաթուղթը արդեն գրանցվել է տվյալների պահոցում։
 
-Հանդիսանում է 4x համակարգում նկարագրված [BeforeCommit](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/ScriptProcs/BeforeCommit.html) իրադարձության համարժեքը:
-

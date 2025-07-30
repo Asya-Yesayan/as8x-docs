@@ -14,5 +14,3 @@ public virtual Task Delete(DeleteEventArgs args)
 
 Նախատեսված է ջնջելուց առաջ ստուգումներ կատարելու և կապակցված տվյալներ ջնջելու համար։
 
-Հանդիսանում է 4x համակարգում նկարագրված [Delete](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/ScriptProcs/Delete.html) իրադարձության համարժեքը:
-

@@ -11,5 +11,3 @@ public short LastFixedState { get; internal set; } = 0;
 ```
 
 Վերադարձնում է փաստաթղթի տվյալների պահոցում գրանցված վերջին վիճակը։
-
----
