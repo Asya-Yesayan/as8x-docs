@@ -16,5 +16,5 @@ public class TemplateSubstitutionEventArgs<T> where T : ITemplateSubstitution
 **Հատկություններ**
 
 * `Mode` - Տպելու ձևանմուշի տվյալների խմբերի և յուրաքանչյուր խմբի թույլատրված լինելու հայտանիշների բազմությունը։
-* `Parameters` - [TemplateSubstitutionParameters](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/ScriptProcs/TemplateSubstitutionParameters.html) մեթոդի կանչի արդյունքում ձևավորված տպելու ձևանմուշի լրացվող արժեքների բազմությունը։
-* `Result` - [TemplateSubstitution](../../../server_api/definitions/document/TemplateSubstitution.md) մեթոդի կանչի արդյունքում ձևավորված տպելու ձևանմուշի լրացվող արժեքների բազմությունը։
+* `Parameters` - Փաստաթղթի [TemplateSubstitutionParameters](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/ScriptProcs/TemplateSubstitutionParameters.html) մեթոդի կանչի արդյունքում ձևավորված տպելու ձևանմուշի լրացվող արժեքների բազմությունը։
+* `Result` - Փաստաթղթի [TemplateSubstitution](../../../server_api/definitions/document/TemplateSubstitution.md) մեթոդի կանչի արդյունքում ձևավորված տպելու ձևանմուշի լրացվող արժեքների բազմությունը։

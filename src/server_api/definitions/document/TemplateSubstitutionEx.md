@@ -10,7 +10,5 @@ title: Document.TemplateSubstitutionEx(Dictionary<string, bool>, Dictionary<stri
 public virtual Task<TemplateSubstitutionEx> TemplateSubstitutionEx(Dictionary<string, bool> mode, Dictionary<string, object> parameters = null)
 ```
 
-Մեթոդը կանչվում է միջուկի կողմից, երբ փաստաթղթի համար ձևավորվում է տպման ձև և միացված է [TemplateSubstitutionIsExtended](TemplateSubstitutionIsExtended.md) հատկությունը։ 
-
-Հանդիսանում է 4x համակարգում նկարագրված [TemplateSubstitution](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/ScriptProcs/TemplateSubstitution.html) իրադարձության համարժեքը:
+Մեթոդը կանչվում է միջուկի կողմից, երբ փաստաթղթի համար ձևավորվում է տպման ձև և միացված է [TemplateSubstitutionIsExtended](TemplateSubstitutionIsExtended.md) հատկությունը։
 

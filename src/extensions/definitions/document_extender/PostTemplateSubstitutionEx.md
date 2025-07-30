@@ -10,7 +10,7 @@ title: DocumentExtender.PostTemplateSubstitutionEx(Document, TemplateSubstitutio
 public virtual Task PostTemplateSubstitutionEx(Document sender, TemplateSubstitutionEventArgs<TemplateSubstitution> args)
 ```
 
-Մեթոդը կանչվում է միջուկի կողմից, երբ փաստաթղթի համար ձևավորվում է տպման ձև և միացված է փաստաթղթի [TemplateSubstitutionIsExtended](../../../server_api/definitions/document/TemplateSubstitutionIsExtended.md) հատկությունը։ Մեթոդը կանչվում է [TemplateSubstitution](../../../server_api/definitions/document/TemplateSubstitution.md) մեթոդի կանչից հետո։
+Մեթոդը կանչվում է միջուկի կողմից, երբ փաստաթղթի համար ձևավորվում է տպման ձև և միացված է փաստաթղթի [TemplateSubstitutionIsExtended](../../../server_api/definitions/document/TemplateSubstitutionIsExtended.md) հատկությունը։ Մեթոդը կանչվում է [TemplateSubstitutionEx](../../../server_api/definitions/document/TemplateSubstitutionEx.md) մեթոդի կանչից հետո։
 
 **Պարամետրեր**
 
