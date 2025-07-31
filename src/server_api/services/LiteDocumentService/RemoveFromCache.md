@@ -1,6 +1,15 @@
 ---
-title: LiteDocumentService.RemoveFromCache(int) մեթոդ  
+title: LiteDocumentService.RemoveFromCache մեթոդ  
 ---
+
+## Գերբեռնումներ
+
+| Անվանում | Նկարագրություն |
+|--|--|
+| [LiteDocumentService.RemoveFromCache(int) մեթոդ](#litedocumentserviceremovefromcacheint-մեթոդ) | Հեռացնում է փաստաթուղթը քեշից՝ ըստ ներքին նույնականացման համարի։ |
+| [LiteDocumentService.RemoveFromCache(string) մեթոդ](#litedocumentserviceremovefromcachestring-մեթոդ) | Հեռացնում է նշված տեսակի բոլոր փաստաթղթերը քեշից։ |
+
+### LiteDocumentService.RemoveFromCache(int) մեթոդ
 
 ```c#
 public void RemoveFromCache(int isn);
@@ -11,3 +20,16 @@ public void RemoveFromCache(int isn);
 **Պարամետրեր**
 
 * `isn` - Փաստաթղթի ներքին նույնականացման համարը։
+
+### LiteDocumentService.RemoveFromCache(string) մեթոդ  
+
+```c#
+public void RemoveFromCache(string docType);
+```
+
+Հեռացնում է նշված տեսակի բոլոր փաստաթղթերը քեշից։
+
+**Պարամետրեր**
+
+* `docType` - Փաստաթղթի տեսակը։
+

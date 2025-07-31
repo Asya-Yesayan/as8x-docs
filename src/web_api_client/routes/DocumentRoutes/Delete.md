@@ -1,6 +1,15 @@
 ---
-title: DocumentRoutes.Delete(int, DocumentDeleteModel) մեթոդ
+title: DocumentRoutes.Delete մեթոդ
 ---
+
+## Գերբեռնումներ
+
+| Անվանում | Նկարագրություն |
+|--|--|
+| [Delete(int, DocumentDeleteModel)](#documentroutesdeleteint-documentdeletemodel-մեթոդ)| Ջնջում է փաստաթուղթը համակարգից։ |
+| [Delete(DocumentDeleteRequestModel)](#documentroutesdeletedocumentdeleterequestmodel-մեթոդ)| Ջնջում է փաստաթուղթը համակարգից։ |
+
+### DocumentRoutes.Delete(int, DocumentDeleteModel) մեթոդ
 
 ```c#
 public DeletedDoc Delete(int isn, DocumentDeleteModel model)
@@ -17,3 +26,22 @@ public DeletedDoc Delete(int isn, DocumentDeleteModel model)
 
 * `isn` - Ջնջվող փաստաթղթի ներքին նույնականացման համարը (isn):
 * `model` - Ջնջման համար անհրաժեշտ տվյալներ (ամբողջությամբ ջնջել թե մասնակի, ջնջման մեկնաբանություն...)։
+
+### DocumentRoutes.Delete(DocumentDeleteRequestModel) մեթոդ
+
+```c#
+public DeletedDoc Delete(DocumentDeleteRequestModel model)
+```
+
+Ջնջում է փաստաթուղթը համակարգից։  
+Ջնջման ժամանակ հեռացվում են նաև այդ փաստաթղթի բոլոր թղթապանակները, ծառի տարրերը և իր համար գրանցված հաշվառումները։
+
+Եթե փաստաթուղթը ունի ենթափաստաթղթեր, ապա ջնջումը չի կատարվի և կառաջանա սխալ։
+
+Ջնջումը տեղի է ունենում տրանզակցիայի մեջ։
+
+**Պարամետրեր**
+
+* `model` - Ջնջվող փաստաթղթի տվյալներ (ջնջման ենթակա փաստաթղթի օբյեկտ, ամբողջությամբ ջնջել թե մասնակի, ջնջման մեկնաբանություն...):
+* `cancellationToken` - Ընդհատման օբյեկտ:
+

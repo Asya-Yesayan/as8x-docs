@@ -1,6 +1,15 @@
 ---
-title: LiteDocumentService.Load(int, bool, bool, bool) մեթոդ  
+title: LiteDocumentService.Load մեթոդ  
 ---
+
+## Գերբեռնումներ
+
+| Անվանում | Նկարագրություն |
+|--|--|
+| [Load(int, bool, bool, bool)](#litedocumentserviceloadint-bool-bool-bool-մեթոդ) | Բեռնում է փաստաթուղթը տվյալների պահոցից ըստ փաստաթղթի ներքին նույնականացման համարի։ |
+| [Load(IEnumerable)](#litedocumentserviceloadienumerable-մեթոդ) | Բեռնում է նշված ներքին նույնականացման համարներով փաստաթղթերը հիմնական տվյալների պահոցից՝ առանց աղյուսակների բեռնման և արխիվային տվյալների ստուգման: |
+
+### LiteDocumentService.Load(int, bool, bool, bool) մեթոդ 
 
 ```c#
 public Task<LiteDocument> Load(int isn,
@@ -20,3 +29,19 @@ public Task<LiteDocument> Load(int isn,
 * `loadGrids` - Փաստաթղթի աղյուսակների բեռնման հայտանիշ։
 * `throwExceptionIfDeleted` - Պահանջվող փաստաթղթի հեռացված լինելու դեպքում սխալի գեներացման հայտանիշ։ 
 * `lookInArc` - Արխիվացված փաստաթղթի բեռնման հայտանիշ։ **true** արժեքի դեպքում փաստաթուղթը հիմնական պահոցում չգտնելու դեպքում փորձում է բեռնել նաև արխիվային տվյալների պահոցից։
+
+### LiteDocumentService.Load(IEnumerable<int>) մեթոդ  
+
+```c#
+public Task<Dictionary<int, LiteDocument>> Load(IEnumerable<int> isnList);
+```
+
+Բեռնում է նշված ներքին նույնականացման համարներով փաստաթղթերը հիմնական տվյալների պահոցից՝ առանց աղյուսակների բեռնման և արխիվային տվյալների ստուգման:
+
+Վերադարձնում է միայն այն փաստաթղթերի բազմությունը, որոնք գտնվել են տվյալների պահոցում։
+Վերադարձվող Dictionary-ում բանալին փաստաթղթի ISN-ն է, իսկ արժեքը՝ փաստաթուղթը։
+
+**Պարամետրեր**
+
+* `isnList` - Փաստաթղթերի ներքին նույնականացման համարների ցուցակ։
+

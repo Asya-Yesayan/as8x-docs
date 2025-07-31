@@ -1,6 +1,15 @@
 ---
-title: RODocumentService.RemoveFromCache(int) մեթոդ  
+title: RODocumentService.RemoveFromCache մեթոդ  
 ---
+
+## Գերբեռնումներ
+
+| Անվանում | Նկարագրություն |
+|--|--|
+| [RemoveFromCache(int)](#rodocumentserviceremovefromcacheint-մեթոդ) | Հեռացնում է փաստաթուղթը քեշից՝ ըստ ներքին նույնականացման համարի։ |
+| [RemoveFromCache(string)](#rodocumentserviceremovefromcachestring-մեթոդ) | Հեռացնում է նշված տեսակի բոլոր փաստաթղթերը քեշից։ |
+
+### RODocumentService.RemoveFromCache(int) մեթոդ
 
 ```c#
 public void RemoveFromCache(int isn)
@@ -11,3 +20,16 @@ public void RemoveFromCache(int isn)
 **Պարամետրեր**
 
 * `isn` - Փաստաթղթի ներքին նույնականացման համարը։
+
+### RODocumentService.RemoveFromCache(string) մեթոդ  
+
+```c#
+public void RemoveFromCache(string docType)
+```
+
+Հեռացնում է նշված տեսակի բոլոր փաստաթղթերը քեշից։
+
+**Պարամետրեր**
+
+* `docType` - Փաստաթղթի տեսակը։
+
