@@ -4,7 +4,7 @@ title: IAttachmentService.Get(int, string) մեթոդ
 
 ## Նկարագիր
 
-Համարժեքը 4x-ում։ AsAttachmentCollection.Item
+**Համարժեքը 4x-ում՝** AsAttachmentCollection.Item
 
 ```c#
 public Task<AttachmentModel> Get(int isn, string fileName)

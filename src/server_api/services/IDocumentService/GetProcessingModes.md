@@ -4,7 +4,7 @@ title: IDocumentService.GetProcessingModes(string) մեթոդ
 
 ## Նկարագիր
 
-Համարժեքը 4x-ում։ AsKernel.GetProccesingMode
+**Համարժեքը 4x-ում՝** AsKernel.GetProccesingMode
 
 ```c#
 public  Task<DocumentProcessingModes> GetProcessingModes(string docType)

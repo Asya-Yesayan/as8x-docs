@@ -4,7 +4,7 @@ title: IDocumentService.CleanDeleted(DateTime, DateTime, string) մեթոդ
 
 ## Նկարագիր
 
-Համարժեքը 4x-ում։ AsUtil.CleanDelDoc
+**Համարժեքը 4x-ում՝** AsUtil.CleanDelDoc
 
 ```c#
 public Task CleanDeleted(DateTime startDate, DateTime endDate, string docType = "")

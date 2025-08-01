@@ -4,7 +4,7 @@ title: IDBService.TryAppLock(string, string, string, string) մեթոդ
 
 ## Նկարագիր
 
-Համարժեքը 4x-ում։ AsKernel.TryAppLock
+**Համարժեքը 4x-ում՝** AsKernel.TryAppLock
 
 ```c#
 public Task<bool> TryAppLock(string resource, 

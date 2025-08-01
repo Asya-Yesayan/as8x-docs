@@ -4,7 +4,7 @@ title: IParametersService.GetBooleanValue մեթոդ
 
 ## Նկարագիր
 
-Համարժեքը 4x-ում։ [AsKernel.Param](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/ParameterManagment/Param.html)
+**Համարժեքը 4x-ում՝** [AsKernel.Param](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/ParameterManagment/Param.html)
 
 ## Գերբեռնումներ
 

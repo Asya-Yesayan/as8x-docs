@@ -4,7 +4,7 @@ title: Document.LastFixedState հատկություն
 
 ## Նկարագիր
 
-Համարժեքը 4x-ում։ [AsDoc.LastFixedState](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/ASDOC/LastFixedState.html)
+**Համարժեքը 4x-ում՝** [AsDoc.LastFixedState](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/ASDOC/LastFixedState.html)
 
 ```c#
 public short LastFixedState { get; internal set; } = 0;

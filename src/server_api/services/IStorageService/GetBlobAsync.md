@@ -4,7 +4,7 @@ title: IStorageService.GetBlobAsync(string, string, CancellationToken) մեթո�
 
 ## Նկարագիր
 
-Համարժեքը 4x-ում։ modRestService.DownloadFromBlobStorageToFile
+**Համարժեքը 4x-ում՝** modRestService.DownloadFromBlobStorageToFile
 
 ```c#
 public virtual Task<Stream> GetBlobAsync(string container, string blobName, CancellationToken cancellationToken = default)

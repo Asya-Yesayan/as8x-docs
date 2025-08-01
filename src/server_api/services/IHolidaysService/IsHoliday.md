@@ -4,7 +4,7 @@ title: IHolidaysService.IsHoliday(DateTime) մեթոդ
 
 ## Նկարագիր
 
-Համարժեքը 4x-ում։ [Kernel.IsHoliday](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/IsHoliday.html)
+**Համարժեքը 4x-ում՝** [Kernel.IsHoliday](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/IsHoliday.html)
 
 ```c#
 public Task<bool> IsHoliday(DateTime value)

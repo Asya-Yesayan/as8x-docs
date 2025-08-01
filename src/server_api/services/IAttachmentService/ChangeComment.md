@@ -4,7 +4,7 @@ title: IAttachmentService.ChangeComment(AttachmentCommentModel) մեթոդ
 
 ## Նկարագիր
 
-Համարժեքը 4x-ում։ ASAttachment.ChangeComment
+**Համարժեքը 4x-ում՝** ASAttachment.ChangeComment
 
 ```c#
 public Task<AttachmentModel> ChangeComment(AttachmentCommentModel attachment)

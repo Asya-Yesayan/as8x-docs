@@ -4,7 +4,7 @@ title: IFoldersService.Exists(string) մեթոդ
 
 ## Նկարագիր
 
-Համարժեքը 4x-ում։ [AsKernel.ExistsFolder](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/DocumentsCirculation/ExistsFolder.html)
+**Համարժեքը 4x-ում՝** [AsKernel.ExistsFolder](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/DocumentsCirculation/ExistsFolder.html)
 
 ```c#
 public Task<bool> Exists(string folderId);

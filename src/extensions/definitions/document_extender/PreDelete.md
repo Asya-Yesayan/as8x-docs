@@ -4,7 +4,7 @@ title: DocumentExtender.PreDelete(Document, DeleteEventArgs) մեթոդ
 
 ## Նկարագիր
 
-Համարժեքը 4x-ում։ PreDelete
+**Համարժեքը 4x-ում՝** PreDelete
 
 ```c#
 public virtual Task PreDelete(Document sender, DeleteEventArgs args)

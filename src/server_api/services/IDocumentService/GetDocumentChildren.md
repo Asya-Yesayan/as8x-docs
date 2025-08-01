@@ -4,7 +4,7 @@ title: IDocumentService.GetDocumentChildren(int, string, DocumentChildrenOrder, 
 
 ## Նկարագիր
 
-Համարժեքը 4x-ում։ [AsDocEngine.DocChildren](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/DocumentsCirculation/DocChildren.html)
+**Համարժեքը 4x-ում՝** [AsDocEngine.DocChildren](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/DocumentsCirculation/DocChildren.html)
 
 ```c#
 public Task<List<(int isn, string docType)>> GetDocumentChildren(

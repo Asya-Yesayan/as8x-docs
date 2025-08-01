@@ -4,7 +4,7 @@ title: DataSource.QueryTimeOut հատկություն
 
 ## Նկարագիր
 
-Համարժեքը 4x-ում։ Data.QueryTimeout
+**Համարժեքը 4x-ում՝** Data.QueryTimeout
 
 ```c#
 public int QueryTimeOut { get; set; }

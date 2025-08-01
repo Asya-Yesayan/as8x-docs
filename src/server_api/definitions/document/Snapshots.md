@@ -4,7 +4,7 @@ title: Document.Snapshots հատկություն
 
 ## Նկարագիր
 
-Համարժեքը 4x-ում։ AsDoc.Snapshots
+**Համարժեքը 4x-ում՝** AsDoc.Snapshots
 
 ```c#
 public Dictionary<string, DocumentSnapshot> Snapshots { get; internal set; } = new(StringComparer.InvariantCultureIgnoreCase);

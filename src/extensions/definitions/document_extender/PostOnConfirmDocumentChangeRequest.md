@@ -4,7 +4,7 @@ title: DocumentExtender.PostOnConfirmDocumentChangeRequest(Document, ConfirmDocu
 
 ## Նկարագիր
 
-Համարժեքը 4x-ում։ [PostOnConfirmDCR](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/ScriptProcs/DocExtenderEvents/PostOnConfirmDCR.html)
+**Համարժեքը 4x-ում՝** [PostOnConfirmDCR](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/ScriptProcs/DocExtenderEvents/PostOnConfirmDCR.html)
 
 ```c#
 public virtual Task PostOnConfirmDocumentChangeRequest(Document sender, ConfirmDocumentChangeRequestEventArgs args)

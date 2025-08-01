@@ -21,7 +21,7 @@ public string CurrentSessionGuid { get }
 
 | Անվանում | Նկարագրություն |
 |----------|----------------|
-| [GetInfo](ISessionInfoService/GetInfo.md) | Վերադարձնում է ընթացիկ [սեսսիայի մասին ինֆորմացիան](../types/SessionInfo.md)։ |
+| [GetInfo()](ISessionInfoService/GetInfo.md) | Վերադարձնում է ընթացիկ [սեսսիայի մասին ինֆորմացիան](../types/SessionInfo.md)։ |
 
 ## Հատկություններ
 
@@ -38,7 +38,7 @@ public string CurrentSessionGuid { get }
 | [CurrentSessionGuid](ISessionInfoService/CurrentSessionGuid.md) | Ավելացնում է նոր [սեսսիա](../types/SessionInfo.md) տվյալների պահոցի `SESSIONINFO` աղյուսակում և քեշում։ |
 | [Delete](ISessionInfoService/Delete.md) | Հեռացնում է ընթացիկ [սեսսիան](../types/SessionInfo.md) տվյալների պահոցի `SESSIONINFO` աղյուսակից և քեշից։ |
 | [DeleteExpirations](ISessionInfoService/DeleteExpirations.md) | Հեռացնում է բոլոր ժամկետանց սեսսիաները տվյալների պահոցի `SESSIONINFO` աղյուսակից և քեշից։ |
-| [GetInfo](ISessionInfoService/GetInfo.md) | Վերադարձնում է ընթացիկ [սեսսիայի մասին ինֆորմացիան](../types/SessionInfo.md)։ |
+| [GetInfo()](ISessionInfoService/GetInfo.md) | Վերադարձնում է ընթացիկ [սեսսիայի մասին ինֆորմացիան](../types/SessionInfo.md)։ |
 | [GetInfos](ISessionInfoService/GetInfos.md) | Վերադարձնում է տվյալների պահոցի `SESSIONINFO` աղյուսակում պահված բոլոր [սեսսիաների մասին ինֆորմացիան](../types/SessionInfo.md) և ավելացնում քեշում։ |
 | [Update](ISessionInfoService/Update.md) | Թարմացնում է ընթացիկ սեսսիայի ինֆորմացիան։ |
 

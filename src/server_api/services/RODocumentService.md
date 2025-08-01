@@ -10,7 +10,7 @@ RODocumentService դասը նախատեսված է [RODocument](../types/RODocum
 
 | Անվանում | Նկարագրություն |
 |----------|----------------|
-| [ClearCache](RODocumentService/ClearCache.md) | Հեռացնում է բոլոր փաստաթղթերը քեշից։ |
+| [ClearCache()](RODocumentService/ClearCache.md) | Հեռացնում է բոլոր փաստաթղթերը քեշից։ |
 | [Load](RODocumentService/Load.md) | Բեռնում է փաստաթուղթը տվյալների պահոցից ըստ փաստաթղթի ներքին նույնականացման համարի։ |
 | [Load](RODocumentService/Load1.md) | Բեռնում է փաստաթուղթը տվյալների պահոցից ըստ փաստաթղթի ներքին նույնականացման համարի։ |
 | [Load](RODocumentService/Load2.md) | Բեռնում է փաստաթուղթը տվյալների պահոցից ըստ փաստաթղթի ներքին նույնականացման համարի։ |

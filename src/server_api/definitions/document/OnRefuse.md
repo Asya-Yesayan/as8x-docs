@@ -4,7 +4,7 @@ title: Document.OnRefuse(RefuseEventArgs) մեթոդ
 
 ## Նկարագիր
 
-Համարժեքը 4x-ում։ [OnRefuseDoc](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/ScriptProcs/OnRefuseDoc.html)
+**Համարժեքը 4x-ում՝** [OnRefuseDoc](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/ScriptProcs/OnRefuseDoc.html)
 
 ```c#
 public virtual Task OnRefuse(RefuseEventArgs args)

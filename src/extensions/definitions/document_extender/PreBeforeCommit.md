@@ -4,7 +4,7 @@ title: DocumentExtender.PreBeforeCommit(Document, BeforeCommitEventArgs) մեթ�
 
 ## Նկարագիր
 
-Համարժեքը 4x-ում։ PreBeforeCommit
+**Համարժեքը 4x-ում՝** PreBeforeCommit
 
 ```c#
 public virtual Task PreBeforeCommit(Document sender, BeforeCommitEventArgs args)

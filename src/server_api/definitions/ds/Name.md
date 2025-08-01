@@ -4,7 +4,7 @@ title: DataSource.Name հատկություն
 
 ## Նկարագիր
 
-Համարժեքը 4x-ում։ [AsData.Name](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/ASDATA/Name.html)
+**Համարժեքը 4x-ում՝** [AsData.Name](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/ASDATA/Name.html)
 
 ```c#
 public string Name { get; }

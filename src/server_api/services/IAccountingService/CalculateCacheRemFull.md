@@ -4,7 +4,7 @@ title: IAccountingService.CalculateCacheRemFull(string, DateTime?, DateTime?, Da
 
 ## Նկարագիր
 
-Համարժեքը 4x-ում։ AsUtil.CalculateCacheRemFull
+**Համարժեքը 4x-ում՝** AsUtil.CalculateCacheRemFull
 
 ```c#
 public Task CalculateCacheRemFull(string accountingType, DateTime? cacheDate1, DateTime? cacheDate2, 

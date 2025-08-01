@@ -4,7 +4,7 @@ title: IFactService.LastDate(string, int, DateTime?, string) մեթոդ
 
 ## Նկարագիր
 
-Համարժեքը 4x-ում։ [AsAccounting.LastFactDate](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/AsAccounting/LastFactDate.html)
+**Համարժեքը 4x-ում՝** [AsAccounting.LastFactDate](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/AsAccounting/LastFactDate.html)
 
 ```c#
 public Task<DateTime?> LastDate(string accountingCode, int isn, DateTime? upToDate, string operation = "");

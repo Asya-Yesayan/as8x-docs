@@ -4,7 +4,7 @@ title: Document.PostMessage(PostMessageEventArgs) մեթոդ
 
 ## Նկարագիր
 
-Համարժեքը 4x-ում։ [PostMessage](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/ScriptProcs/PostMessage.html)
+**Համարժեքը 4x-ում՝** [PostMessage](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/ScriptProcs/PostMessage.html)
 
 ```c#
 public virtual Task PostMessage(PostMessageEventArgs args)

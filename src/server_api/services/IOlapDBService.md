@@ -21,15 +21,15 @@ IOlapDBService դասը նախատեսված է **OLAP** տվյալների պա
 
 | Անվանում | Նկարագրություն |
 |----------|----------------|
-| [BeginTrans](IOlapDBService/BeginTrans.md) | [Սկսում է](https://learn.microsoft.com/en-us/sql/t-sql/language-elements/begin-transaction-transact-sql) SQL տրանզակցիա **OLAP** տվյալների պահոցում։ |
-| [BeginTransAsync](IOlapDBService/BeginTransAsync.md) | [Սկսում է](https://learn.microsoft.com/en-us/sql/t-sql/language-elements/begin-transaction-transact-sql) SQL տրանզակցիա **OLAP** տվյալների պահոցում։ |
-| [CommitTrans](IOlapDBService/CommitTrans.md) | [Ավարտում է](https://learn.microsoft.com/en-us/sql/t-sql/language-elements/commit-transaction-transact-sql) SQL տրանզակցիան **OLAP** տվյալների պահոցում։ |
-| [CommitTransAsync](IOlapDBService/CommitTransAsync.md) | [Ավարտում է](https://learn.microsoft.com/en-us/sql/t-sql/language-elements/commit-transaction-transact-sql) SQL տրանզակցիան **OLAP** տվյալների պահոցում։ |
-| [CreateAdditionalConnection](IOlapDBService/CreateAdditionalConnection.md) | Բացում և վերադարձնում է նոր [SQL միացում](https://learn.microsoft.com/en-us/dotnet/api/microsoft.data.sqlclient.sqlconnection) դեպի **OLAP** տվյալների պահոց։ |
-| [GetApproximateServerDate](IOlapDBService/GetApproximateServerDate.md) | Վերադարձնում է SQL սերվերի ընթացիկ ամսաթիվը/ժամը որոշակի շեղման հավանականությամբ։ |
-| [GetServerDate](IOlapDBService/GetServerDate.md) | Վերադարձնում է SQL սերվերի ընթացիկ ամսաթիվը/ժամը կանչելով SQL-ի [GetDate](https://learn.microsoft.com/en-us/sql/t-sql/functions/getdate-transact-sql) ֆունկցիան։ |
-| [RollBackTrans](IOlapDBService/RollBackTrans.md) | [Հետարկում է](https://learn.microsoft.com/en-us/sql/t-sql/language-elements/rollback-transaction-transact-sql) SQL տրանզակցիան **OLAP** տվյալների պահոցում։ |
-| [RollBackTransAsync](IOlapDBService/RollBackTransAsync.md) | [Հետարկում է](https://learn.microsoft.com/en-us/sql/t-sql/language-elements/rollback-transaction-transact-sql) SQL տրանզակցիան **OLAP** տվյալների պահոցում։ |
+| [BeginTrans()](IOlapDBService/BeginTrans.md) | [Սկսում է](https://learn.microsoft.com/en-us/sql/t-sql/language-elements/begin-transaction-transact-sql) SQL տրանզակցիա **OLAP** տվյալների պահոցում։ |
+| [BeginTransAsync()](IOlapDBService/BeginTransAsync.md) | [Սկսում է](https://learn.microsoft.com/en-us/sql/t-sql/language-elements/begin-transaction-transact-sql) SQL տրանզակցիա **OLAP** տվյալների պահոցում։ |
+| [CommitTrans()](IOlapDBService/CommitTrans.md) | [Ավարտում է](https://learn.microsoft.com/en-us/sql/t-sql/language-elements/commit-transaction-transact-sql) SQL տրանզակցիան **OLAP** տվյալների պահոցում։ |
+| [CommitTransAsync()](IOlapDBService/CommitTransAsync.md) | [Ավարտում է](https://learn.microsoft.com/en-us/sql/t-sql/language-elements/commit-transaction-transact-sql) SQL տրանզակցիան **OLAP** տվյալների պահոցում։ |
+| [CreateAdditionalConnection(bool, string, bool)](IOlapDBService/CreateAdditionalConnection.md) | Բացում և վերադարձնում է նոր [SQL միացում](https://learn.microsoft.com/en-us/dotnet/api/microsoft.data.sqlclient.sqlconnection) դեպի **OLAP** տվյալների պահոց։ |
+| [GetApproximateServerDate()](IOlapDBService/GetApproximateServerDate.md) | Վերադարձնում է SQL սերվերի ընթացիկ ամսաթիվը/ժամը որոշակի շեղման հավանականությամբ։ |
+| [GetServerDate()](IOlapDBService/GetServerDate.md) | Վերադարձնում է SQL սերվերի ընթացիկ ամսաթիվը/ժամը կանչելով SQL-ի [GetDate](https://learn.microsoft.com/en-us/sql/t-sql/functions/getdate-transact-sql) ֆունկցիան։ |
+| [RollBackTrans()](IOlapDBService/RollBackTrans.md) | [Հետարկում է](https://learn.microsoft.com/en-us/sql/t-sql/language-elements/rollback-transaction-transact-sql) SQL տրանզակցիան **OLAP** տվյալների պահոցում։ |
+| [RollBackTransAsync()](IOlapDBService/RollBackTransAsync.md) | [Հետարկում է](https://learn.microsoft.com/en-us/sql/t-sql/language-elements/rollback-transaction-transact-sql) SQL տրանզակցիան **OLAP** տվյալների պահոցում։ |
 
 ## Հատկություններ
 

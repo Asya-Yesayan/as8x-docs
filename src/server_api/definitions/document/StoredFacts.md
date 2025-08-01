@@ -4,7 +4,7 @@ title: Document.StoredFacts հատկություն
 
 ## Նկարագիր
 
-Համարժեքը 4x-ում։ [AsDoc.StoredFacts](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/ASDOC/StoredFacts.html)
+**Համարժեքը 4x-ում՝** [AsDoc.StoredFacts](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/ASDOC/StoredFacts.html)
 
 ```c#
 public List<Fact> StoredFacts { get; internal set; }

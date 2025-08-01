@@ -4,7 +4,7 @@ title: Document.AfterCreate(AfterCreateEventArgs) մեթոդ
 
 ## Նկարագիր
 
-Համարժեքը 4x-ում։ [AfterCreate](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/ScriptProcs/AfterCreate.html)
+**Համարժեքը 4x-ում՝** [AfterCreate](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/ScriptProcs/AfterCreate.html)
 
 ```c#
 public virtual Task AfterCreate(AfterCreateEventArgs args)

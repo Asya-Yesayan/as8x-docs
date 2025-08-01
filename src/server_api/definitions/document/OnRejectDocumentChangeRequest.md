@@ -4,7 +4,7 @@ title: Document.OnRejectDocumentChangeRequest(RejectDocumentChangeRequestEventAr
 
 ## Նկարագիր
 
-Համարժեքը 4x-ում։ [OnRejectDCR](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/ScriptProcs/OnRejectDCR.html)
+**Համարժեքը 4x-ում՝** [OnRejectDCR](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/ScriptProcs/OnRejectDCR.html)
 
 ```c#
 public virtual Task OnRejectDocumentChangeRequest(RejectDocumentChangeRequestEventArgs args)

@@ -4,7 +4,7 @@ title: DataSource.BeforeExecuteSQLCommand(DataSourceArgs<P>, CancellationToken) 
 
 ## Նկարագիր
 
-Համարժեքը 4x-ում։ [OnOpen](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/ScriptProcs/OnOpen.html)
+**Համարժեքը 4x-ում՝** [OnOpen](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/ScriptProcs/OnOpen.html)
 
 ```c#
 protected virtual Task BeforeExecuteSQLCommand(DataSourceArgs<P> args, CancellationToken stoppingToken)

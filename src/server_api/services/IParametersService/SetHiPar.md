@@ -4,7 +4,7 @@ title: IParametersService.SetHiPar(string, DateTime, int, string, string, DateTi
 
 ## Նկարագիր
 
-Համարժեքը 4x-ում։ [AsKernel.HiPar](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/ParameterManagment/HiPar.html)
+**Համարժեքը 4x-ում՝** [AsKernel.HiPar](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/ParameterManagment/HiPar.html)
 
 ```c#
 public Task SetHiPar(string parID, DateTime changeDate, 

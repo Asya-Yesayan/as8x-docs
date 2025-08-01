@@ -4,7 +4,7 @@ title: DataSource.FillData(DataSourceArgs<P>, CancellationToken) մեթոդ
 
 ## Նկարագիր
 
-Համարժեքը 4x-ում։ [Load](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/ScriptProcs/Load.html)
+**Համարժեքը 4x-ում՝** [Load](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/ScriptProcs/Load.html)
 
 ```c#
 protected virtual Task FillData(DataSourceArgs<P> args, CancellationToken stoppingToken)

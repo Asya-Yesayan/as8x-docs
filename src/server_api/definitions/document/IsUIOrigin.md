@@ -4,7 +4,7 @@ title: Document.IsUIOrigin հատկություն
 
 ## Նկարագիր
 
-Համարժեքը 4x-ում։ [AsDoc.VisualFormAvailable](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/ASDOC/VisualFormAvailable.html)
+**Համարժեքը 4x-ում՝** [AsDoc.VisualFormAvailable](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/ASDOC/VisualFormAvailable.html)
 
 ```c#
 public bool IsUIOrigin { get; }

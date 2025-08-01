@@ -4,7 +4,7 @@ title: IDBService.TransDeferred հատկություն
 
 ## Նկարագիր
 
-Համարժեքը 4x-ում։ [AsDocEngine.DeferredTrans](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/TransactionManagment/DeferredTrans.html)
+**Համարժեքը 4x-ում՝** [AsDocEngine.DeferredTrans](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/TransactionManagment/DeferredTrans.html)
 
 ```c#
 public bool TransDeferred { get; set; }

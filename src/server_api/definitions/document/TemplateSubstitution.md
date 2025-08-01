@@ -4,7 +4,7 @@ title: Document.TemplateSubstitution(Dictionary<string, bool>, Dictionary<string
 
 ## Նկարագիր
 
-Համարժեքը 4x-ում։ [TemplateSubstitution](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/ScriptProcs/TemplateSubstitution.html)
+**Համարժեքը 4x-ում՝** [TemplateSubstitution](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/ScriptProcs/TemplateSubstitution.html)
 
 ```c#
 public virtual Task<TemplateSubstitution> TemplateSubstitution(Dictionary<string, bool> mode, Dictionary<string, object> parameters = null)

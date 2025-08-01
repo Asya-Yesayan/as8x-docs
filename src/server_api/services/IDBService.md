@@ -11,24 +11,24 @@ IDBService դասը նախատեսված է տվյալների պահոցի հե
 
 | Անվանում | Նկարագրություն |
 |----------|----------------|
-| [ActiveTrans](IDBService/ActiveTrans.md) | Ստուգում է ակտիվ տրանզակցիայի առկայությունը։ |
-| [AppLock](IDBService/AppLock.md) | Ստեղծում է SQL արգելափակում (lock) տրված անունով ռեսուրսի վրա։ |
-| [BeginSqlServerDistributedTransaction](IDBService/BeginSqlServerDistributedTransaction.md) | Բացում է [բաշխված տրանզակցիա](https://learn.microsoft.com/en-us/sql/t-sql/language-elements/begin-distributed-transaction-transact-sql)։ |
-| [BeginSqlServerDistributedTransactionAsync](IDBService/BeginSqlServerDistributedTransactionAsync.md) | Բացում է [բաշխված տրանզակցիա](https://learn.microsoft.com/en-us/sql/t-sql/language-elements/begin-distributed-transaction-transact-sql)։ |
-| [BeginTrans](IDBService/BeginTrans.md) | [Սկսում է](https://learn.microsoft.com/en-us/sql/t-sql/language-elements/begin-transaction-transact-sql) SQL տրանզակցիա։ |
-| [BeginTransAsync](IDBService/BeginTransAsync.md) | [Սկսում է](https://learn.microsoft.com/en-us/sql/t-sql/language-elements/begin-transaction-transact-sql) SQL տրանզակցիա։ |
-| [CommitTrans](IDBService/CommitTrans.md) | [Ավարտում է](https://learn.microsoft.com/en-us/sql/t-sql/language-elements/commit-transaction-transact-sql) SQL տրանզակցիան։ |
-| [CommitTransAsync](IDBService/CommitTransAsync.md) | [Ավարտում է](https://learn.microsoft.com/en-us/sql/t-sql/language-elements/commit-transaction-transact-sql) SQL տրանզակցիան։ |
-| [CreateAdditionalConnection](IDBService/CreateAdditionalConnection.md) | Բացում և վերադարձնում է նոր [SQL միացում](https://learn.microsoft.com/en-us/dotnet/api/microsoft.data.sqlclient.sqlconnection) դեպի տվյալների պահոց։ |
-| [CreateCommand](IDBService/CreateCommand.md) | Ստեղծում է [SqlCommand](https://learn.microsoft.com/en-us/dotnet/api/microsoft.data.sqlclient.sqlcommand), և անմիջապես լրացնում է [CommandTimeout](https://learn.microsoft.com/en-us/dotnet/api/microsoft.data.sqlclient.sqlcommand.commandtimeout) ըստ օգտագործողի դրույթներում սահմանված հացման առավելագույն ժամանակի։ |
-| [CreateReadOnlyConnection](IDBService/CreateReadOnlyConnection.md) | Ստեղծում է միայն կարդալու իրավասությամբ լրացուցիչ SQL միացում դեպի հիմնական տվյալների պահոց։ |
-| [GetApproximateServerDate](IDBService/GetApproximateServerDate.md) | Վերադարձնում է SQL սերվիսի ընթացիկ ամսաթիվը/ժամը որոշակի շեղման հավանականությամբ։ |
-| [GetServerDate](IDBService/GetServerDate.md) | Վերադարձնում է SQL սերվիսի ընթացիկ ամսաթիվը/ժամը կանչելով SQL-ի [GetDate](https://learn.microsoft.com/en-us/sql/t-sql/functions/getdate-transact-sql) ֆունկցիան։ |
-| [RollBackTrans](IDBService/RollBackTrans.md) | [Հետարկում է](https://learn.microsoft.com/en-us/sql/t-sql/language-elements/rollback-transaction-transact-sql) SQL տրանզակցիան։ |
-| [RollBackTransAsync](IDBService/RollBackTransAsync.md) | [Հետարկում է](https://learn.microsoft.com/en-us/sql/t-sql/language-elements/rollback-transaction-transact-sql) SQL տրանզակցիան։ |
-| [SetIsolationLevel](IDBService/SetIsolationLevel.md) | [Փոխում է բաց տրազակցիայի մեկուսացման մակարդակը](https://learn.microsoft.com/en-us/sql/t-sql/statements/set-transaction-isolation-level-transact-sql)։ |
-| [SetIsolationLevelAsync](IDBService/SetIsolationLevelAsync.md) | [Փոխում է բաց տրազակցիայի մեկուսացման մակարդակը](https://learn.microsoft.com/en-us/sql/t-sql/statements/set-transaction-isolation-level-transact-sql)։ |
-| [TryAppLock](IDBService/TryAppLock.md) | Ստեղծում է SQL արգելափակում (lock) տրված անունով ռեսուրսի վրա և վերադարձնում է արժեք, որը ցույց է տալիս արդյոք արգելափակման տեղադրումը հաջողվել է, թե ոչ։ |
+| [ActiveTrans()](IDBService/ActiveTrans.md) | Ստուգում է ակտիվ տրանզակցիայի առկայությունը։ |
+| [AppLock(string, string, string, string, int, string)](IDBService/AppLock.md) | Ստեղծում է SQL արգելափակում (lock) տրված անունով ռեսուրսի վրա։ |
+| [BeginSqlServerDistributedTransaction()](IDBService/BeginSqlServerDistributedTransaction.md) | Բացում է [բաշխված տրանզակցիա](https://learn.microsoft.com/en-us/sql/t-sql/language-elements/begin-distributed-transaction-transact-sql)։ |
+| [BeginSqlServerDistributedTransactionAsync()](IDBService/BeginSqlServerDistributedTransactionAsync.md) | Բացում է [բաշխված տրանզակցիա](https://learn.microsoft.com/en-us/sql/t-sql/language-elements/begin-distributed-transaction-transact-sql)։ |
+| [BeginTrans()](IDBService/BeginTrans.md) | [Սկսում է](https://learn.microsoft.com/en-us/sql/t-sql/language-elements/begin-transaction-transact-sql) SQL տրանզակցիա։ |
+| [BeginTransAsync()](IDBService/BeginTransAsync.md) | [Սկսում է](https://learn.microsoft.com/en-us/sql/t-sql/language-elements/begin-transaction-transact-sql) SQL տրանզակցիա։ |
+| [CommitTrans()](IDBService/CommitTrans.md) | [Ավարտում է](https://learn.microsoft.com/en-us/sql/t-sql/language-elements/commit-transaction-transact-sql) SQL տրանզակցիան։ |
+| [CommitTransAsync()](IDBService/CommitTransAsync.md) | [Ավարտում է](https://learn.microsoft.com/en-us/sql/t-sql/language-elements/commit-transaction-transact-sql) SQL տրանզակցիան։ |
+| [CreateAdditionalConnection(bool, string, bool)](IDBService/CreateAdditionalConnection.md) | Բացում և վերադարձնում է նոր [SQL միացում](https://learn.microsoft.com/en-us/dotnet/api/microsoft.data.sqlclient.sqlconnection) դեպի տվյալների պահոց։ |
+| [CreateCommand(TimeoutType)](IDBService/CreateCommand.md) | Ստեղծում է [SqlCommand](https://learn.microsoft.com/en-us/dotnet/api/microsoft.data.sqlclient.sqlcommand), և անմիջապես լրացնում է [CommandTimeout](https://learn.microsoft.com/en-us/dotnet/api/microsoft.data.sqlclient.sqlcommand.commandtimeout) ըստ օգտագործողի դրույթներում սահմանված հացման առավելագույն ժամանակի։ |
+| [CreateReadOnlyConnection(bool)](IDBService/CreateReadOnlyConnection.md) | Ստեղծում է միայն կարդալու իրավասությամբ լրացուցիչ SQL միացում դեպի հիմնական տվյալների պահոց։ |
+| [GetApproximateServerDate()](IDBService/GetApproximateServerDate.md) | Վերադարձնում է SQL սերվիսի ընթացիկ ամսաթիվը/ժամը որոշակի շեղման հավանականությամբ։ |
+| [GetServerDate()](IDBService/GetServerDate.md) | Վերադարձնում է SQL սերվիսի ընթացիկ ամսաթիվը/ժամը կանչելով SQL-ի [GetDate](https://learn.microsoft.com/en-us/sql/t-sql/functions/getdate-transact-sql) ֆունկցիան։ |
+| [RollBackTrans()](IDBService/RollBackTrans.md) | [Հետարկում է](https://learn.microsoft.com/en-us/sql/t-sql/language-elements/rollback-transaction-transact-sql) SQL տրանզակցիան։ |
+| [RollBackTransAsync()](IDBService/RollBackTransAsync.md) | [Հետարկում է](https://learn.microsoft.com/en-us/sql/t-sql/language-elements/rollback-transaction-transact-sql) SQL տրանզակցիան։ |
+| [SetIsolationLevel(IsolationLevel)](IDBService/SetIsolationLevel.md) | [Փոխում է բաց տրազակցիայի մեկուսացման մակարդակը](https://learn.microsoft.com/en-us/sql/t-sql/statements/set-transaction-isolation-level-transact-sql)։ |
+| [SetIsolationLevelAsync(IsolationLevel)](IDBService/SetIsolationLevelAsync.md) | [Փոխում է բաց տրազակցիայի մեկուսացման մակարդակը](https://learn.microsoft.com/en-us/sql/t-sql/statements/set-transaction-isolation-level-transact-sql)։ |
+| [TryAppLock(string, string, string, string)](IDBService/TryAppLock.md) | Ստեղծում է SQL արգելափակում (lock) տրված անունով ռեսուրսի վրա և վերադարձնում է արժեք, որը ցույց է տալիս արդյոք արգելափակման տեղադրումը հաջողվել է, թե ոչ։ |
 
 ## Հատկություններ
 

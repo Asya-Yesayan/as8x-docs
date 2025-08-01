@@ -4,7 +4,7 @@ title: DataSource.MakeSQLCommand(DataSourceArgs<P>, CancellationToken) մեթո�
 
 ## Նկարագիր
 
-Համարժեքը 4x-ում։ [SQL](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/ScriptProcs/SQL.html)
+**Համարժեքը 4x-ում՝** [SQL](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/ScriptProcs/SQL.html)
 
 ```c#
 protected virtual Task<SqlCommand> MakeSQLCommand(DataSourceArgs<P> args, CancellationToken stoppingToken)

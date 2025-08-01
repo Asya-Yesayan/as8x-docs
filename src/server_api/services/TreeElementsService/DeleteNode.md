@@ -4,7 +4,7 @@ title: TreeElementsService.DeleteNode(string, string) մեթոդ
 
 ## Նկարագիր
 
-Համարժեքը 4x-ում։ [AsTree.DeleteNode](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/ASTREE/DeleteNode.html)
+**Համարժեքը 4x-ում՝** [AsTree.DeleteNode](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/ASTREE/DeleteNode.html)
 
 ```c#
 public Task<TreeNode> DeleteNode(string treeID, string key)

@@ -4,7 +4,7 @@ title: IDocumentService.CutChildLink(int, int) մեթոդ
 
 ## Նկարագիր
 
-Համարժեքը 4x-ում։ [AsDocEngine.CutChildLink](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/DocumentsCirculation/CutChildLink.html)
+**Համարժեքը 4x-ում՝** [AsDocEngine.CutChildLink](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/DocumentsCirculation/CutChildLink.html)
 
 ```c#
 public Task CutChildLink(int isn, int childIsn = -1)

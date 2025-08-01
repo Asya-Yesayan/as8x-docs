@@ -4,7 +4,7 @@ title: Accounting.OnAdd(OnAddEventArgs) մեթոդ
 
 ## Նկարագիր
 
-Համարժեքը 4x-ում։ [OnAdd](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/ScriptProcs/OnAdd.html)
+**Համարժեքը 4x-ում՝** [OnAdd](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/ScriptProcs/OnAdd.html)
 
 ```c#
 public virtual Task OnAdd(OnAddEventArgs args);

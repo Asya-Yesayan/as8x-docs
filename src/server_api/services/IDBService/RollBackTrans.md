@@ -4,7 +4,7 @@ title: IDBService.RollBackTrans() մեթոդ
 
 ## Նկարագիր
 
-Համարժեքը 4x-ում։ [AsDocEngine.RollbackTrans](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/TransactionManagment/RollBackTrans.html)
+**Համարժեքը 4x-ում՝** [AsDocEngine.RollbackTrans](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/TransactionManagment/RollBackTrans.html)
 
 ```c#
 public void RollBackTrans();

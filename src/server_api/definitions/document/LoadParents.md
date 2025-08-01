@@ -4,7 +4,7 @@ title: Document.LoadParents() մեթոդ
 
 ## Նկարագիր
 
-Համարժեքը 4x-ում։ [AsDoc.ReloadParents](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/ASDOC/ReloadParents.html)
+**Համարժեքը 4x-ում՝** [AsDoc.ReloadParents](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/ASDOC/ReloadParents.html)
 
 ```c#
 public Task LoadParents()

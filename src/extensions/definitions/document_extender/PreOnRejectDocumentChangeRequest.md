@@ -4,7 +4,7 @@ title: DocumentExtender.PreOnRejectDocumentChangeRequest(Document, RejectDocumen
 
 ## Նկարագիր
 
-Համարժեքը 4x-ում։ PreOnRejectDCR
+**Համարժեքը 4x-ում՝** PreOnRejectDCR
 
 ```c#
 public virtual Task PreOnRejectDocumentChangeRequest(Document sender, RejectDocumentChangeRequestEventArgs args)

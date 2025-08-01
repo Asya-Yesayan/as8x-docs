@@ -4,7 +4,7 @@ title: IKernelService.LastOpDate2(string, int, DateTime?, bool, string, string) 
 
 ## Նկարագիր
 
-Համարժեքը 4x-ում։ [AsKernel.LastOpDate2](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/AccManagement/LastOpDate2.html)
+**Համարժեքը 4x-ում՝** [AsKernel.LastOpDate2](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/AccManagement/LastOpDate2.html)
 
 ```c#
 public Task<DateTime?> LastOpDate2(string accountings, int isn, 

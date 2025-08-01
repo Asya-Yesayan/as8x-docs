@@ -4,7 +4,7 @@ title: Document.SetMemo(string, string) մեթոդ
 
 ## Նկարագիր
 
-Համարժեքը 4x-ում։ [AsDoc.Memo](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/ASDOC/Memo.html)
+**Համարժեքը 4x-ում՝** [AsDoc.Memo](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/ASDOC/Memo.html)
 
 ```c#
 public void SetMemo(string name, string value)

@@ -4,7 +4,7 @@ title: IStorageService.DeleteBlobAsync մեթոդ
 
 ## Նկարագիր
 
-Համարժեքը 4x-ում։ modRestService.DeleteFileFromBlobStorage
+**Համարժեքը 4x-ում՝** modRestService.DeleteFileFromBlobStorage
 
 ## Գերբեռնումներ
 

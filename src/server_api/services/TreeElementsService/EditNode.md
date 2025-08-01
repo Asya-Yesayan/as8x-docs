@@ -4,7 +4,7 @@ title: TreeElementsService.EditNode(TreeElement) մեթոդ
 
 ## Նկարագիր
 
-Համարժեքը 4x-ում։ AsTree.EditNodeTree
+**Համարժեքը 4x-ում՝** AsTree.EditNodeTree
 
 ```c#
 public Task<List<TreeNode>> EditNode(TreeElement treeElement)

@@ -4,7 +4,7 @@ title: DataProcessingRequest.EnglishCaption հատկություն
 
 ## Նկարագիր
 
-Համարժեքը 4x-ում։ [DataProcessingRequest.ECaption](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/DataProcessingRequest.html#ecaption)
+**Համարժեքը 4x-ում՝** [DataProcessingRequest.ECaption](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/DataProcessingRequest.html#ecaption)
 
 ```c#
 public string EnglishCaption { get; }

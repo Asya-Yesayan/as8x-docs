@@ -4,7 +4,7 @@ title: DocumentExtender.PreAction(Document, ActionEventArgs) մեթոդ
 
 ## Նկարագիր
 
-Համարժեքը 4x-ում։ PreAction
+**Համարժեքը 4x-ում՝** PreAction
 
 ```c#
 public virtual Task PreAction(Document sender, ActionEventArgs args)

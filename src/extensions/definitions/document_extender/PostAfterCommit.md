@@ -4,7 +4,7 @@ title: DocumentExtender.PostAfterCommit(Document, AfterCommitEventArgs) մեթո
 
 ## Նկարագիր
 
-Համարժեքը 4x-ում։ PostAfterCommit
+**Համարժեքը 4x-ում՝** PostAfterCommit
 
 ```c#
 public virtual Task PostAfterCommit(Document sender, AfterCommitEventArgs args)

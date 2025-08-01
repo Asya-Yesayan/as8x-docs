@@ -4,7 +4,7 @@ title: IFoldersService.GetElement մեթոդ
 
 ## Նկարագիր
 
-Համարժեքը 4x-ում։ [AsUtil.FolderElByISN](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/DocumentsCirculation/FolderElByISN.html)
+**Համարժեքը 4x-ում՝** [AsUtil.FolderElByISN](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/DocumentsCirculation/FolderElByISN.html)
 
 ## Գերբեռնումներ
 

@@ -4,7 +4,7 @@ title: IFactService.LoadHI2ByBase(int, string, string, long) մեթոդ
 
 ## Նկարագիր
 
-Համարժեքը 4x-ում։ [AsKernel.LoadHI2FactByBase](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/AccManagement/LoadHI2FactByBase.html)
+**Համարժեքը 4x-ում՝** [AsKernel.LoadHI2FactByBase](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/AccManagement/LoadHI2FactByBase.html)
 
 ```c#
 public Task<List<Fact>> LoadHI2ByBase(int baseIsn, string accounting = "", string operation = "", long glAccISN = -1);

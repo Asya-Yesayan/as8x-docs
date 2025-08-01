@@ -4,7 +4,7 @@ title: IDocumentService.HiDelete(Document, bool) մեթոդ
 
 ## Նկարագիր
 
-Համարժեքը 4x-ում։ [AsDoc.HiDelete](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/ASDOC/HiDelete.html)
+**Համարժեքը 4x-ում՝** [AsDoc.HiDelete](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/ASDOC/HiDelete.html)
 
 ```c#
 public Task<(bool had01AccRow, bool hadHIRow)> HiDelete(Document doc, bool deleteDoc)

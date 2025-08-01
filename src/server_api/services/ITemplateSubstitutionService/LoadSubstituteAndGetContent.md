@@ -4,7 +4,7 @@ title: ITemplateSubstitutionService.LoadSubstituteAndGetContent(IPrintTemplateSu
 
 ## Նկարագիր
 
-Համարժեքը 4x-ում։ [TemplateSubstitution.SubstituteToTemplate](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/TemplateSubstitution/SubstituteToTemplate.html) ??
+**Համարժեքը 4x-ում՝** [TemplateSubstitution.SubstituteToTemplate](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/TemplateSubstitution/SubstituteToTemplate.html) ??
 
 ```c#
 public Task<string> LoadSubstituteAndGetContent(

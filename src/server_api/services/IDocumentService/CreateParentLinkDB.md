@@ -4,7 +4,7 @@ title: IDocumentService.CreateParentLinkDB(int, int) մեթոդ
 
 ## Նկարագիր
 
-Համարժեքը 4x-ում։ [AsDocEngine.CreateParentLink](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/DocumentsCirculation/CreateParentLink.html)
+**Համարժեքը 4x-ում՝** [AsDocEngine.CreateParentLink](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/DocumentsCirculation/CreateParentLink.html)
 
 ```c#
 public Task CreateParentLinkDB(int isn, int parentIsn = -1)

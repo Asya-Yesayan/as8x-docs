@@ -4,7 +4,7 @@ title: Document.LoadGrids(LoadGridsEventArgs) մեթոդ
 
 ## Նկարագիր
 
-Համարժեքը 4x-ում։ AsDoc.LoadGrids
+**Համարժեքը 4x-ում՝** AsDoc.LoadGrids
 
 ```c#
 public Task LoadGrids(LoadGridsEventArgs args)

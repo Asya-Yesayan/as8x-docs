@@ -4,7 +4,7 @@ title: Document.NestedTransactionReport հատկություն
 
 ## Նկարագիր
 
-Համարժեքը 4x-ում։ AsDoc.NestedTransactionReport
+**Համարժեքը 4x-ում՝** AsDoc.NestedTransactionReport
 
 ```c#
 public StorageInfo NestedTransactionReport { get; internal set; }

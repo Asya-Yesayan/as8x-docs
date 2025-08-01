@@ -4,7 +4,7 @@ title: AppLogService.Write մեթոդ
 
 ## Նկարագիր
 
-Համարժեքը 4x-ում։ AsUtil.WriteToAppLog
+**Համարժեքը 4x-ում՝** AsUtil.WriteToAppLog
 
 ## Գերբեռնումներ
 

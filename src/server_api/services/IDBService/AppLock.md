@@ -4,7 +4,7 @@ title: IDBService.AppLock(string, string, string, string, int, string) մեթո�
 
 ## Նկարագիր
 
-Համարժեքը 4x-ում։ [AsKernel.AppLock](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/AppLock.html)
+**Համարժեքը 4x-ում՝** [AsKernel.AppLock](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/AppLock.html)
 
 ```c#
 public Task AppLock(string resource, 

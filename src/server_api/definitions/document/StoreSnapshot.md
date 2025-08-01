@@ -4,7 +4,7 @@ title: Document.StoreSnapshot հատկություն
 
 ## Նկարագիր
 
-Համարժեքը 4x-ում։ AsDoc.StoreSnapshot
+**Համարժեքը 4x-ում՝** AsDoc.StoreSnapshot
 
 ```c#
 public DocumentSnapshot StoreSnapshot { get; private set; }

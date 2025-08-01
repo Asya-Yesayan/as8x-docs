@@ -4,7 +4,7 @@ title: IAccountingService.CalculateCacheRem(string, int) մեթոդ
 
 ## Նկարագիր
 
-Համարժեքը 4x-ում։ AsUtil.CalculateCacheRem
+**Համարժեքը 4x-ում՝** AsUtil.CalculateCacheRem
 
 ```c#
 public Task CalculateCacheRem(string accountingType, int isn)

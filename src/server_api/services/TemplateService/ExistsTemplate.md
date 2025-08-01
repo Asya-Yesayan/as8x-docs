@@ -4,7 +4,7 @@ title: TemplateService.ExistsTemplate(string, string) մեթոդ
 
 ## Նկարագիր
 
-Համարժեքը 4x-ում։ [AsKernel.ExistsTemplate](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/ExistsTemplate.html)
+**Համարժեքը 4x-ում՝** [AsKernel.ExistsTemplate](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/ExistsTemplate.html)
 
 ```c#
 public Task<bool> ExistsTemplate(string name, string type)

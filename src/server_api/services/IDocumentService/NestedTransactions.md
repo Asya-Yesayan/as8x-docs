@@ -4,7 +4,7 @@ title: IDocumentService.NestedTransactions(Document, List<T>, TextReport,bool, b
 
 ## Նկարագիր
 
-Համարժեքը 4x-ում։ [AsDoc.NestedTransactions](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/ASDOC/NestedTransactions.html)
+**Համարժեքը 4x-ում՝** [AsDoc.NestedTransactions](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/ASDOC/NestedTransactions.html)
 
 ```c#
 public Task<int> NestedTransactions<T>(Document document, 

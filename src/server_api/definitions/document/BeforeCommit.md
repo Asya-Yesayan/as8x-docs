@@ -4,7 +4,7 @@ title: Document.BeforeCommit(BeforeCommitEventArgs) մեթոդ
 
 ## Նկարագիր
 
-Համարժեքը 4x-ում։ [BeforeCommit](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/ScriptProcs/BeforeCommit.html)
+**Համարժեքը 4x-ում՝** [BeforeCommit](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/ScriptProcs/BeforeCommit.html)
 
 ```c#
 public virtual Task BeforeCommit(BeforeCommitEventArgs args)

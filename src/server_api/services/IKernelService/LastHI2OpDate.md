@@ -4,7 +4,7 @@ title: IKernelService.LastHI2OpDate մեթոդ
 
 ## Նկարագիր
 
-Համարժեքը 4x-ում։ [Kernel.LastHI2OpDate](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/AccManagement/LasHI2OpDate.html)
+**Համարժեքը 4x-ում՝** [Kernel.LastHI2OpDate](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/AccManagement/LasHI2OpDate.html)
 
 ## Գերբեռնումներ
 

@@ -4,7 +4,7 @@ title: DocumentExtender.PostBeforeCopy(Document, BeforeCopyEventArgs) մեթոդ
 
 ## Նկարագիր
 
-Համարժեքը 4x-ում։ PostBeforeCopy
+**Համարժեքը 4x-ում՝** PostBeforeCopy
 
 ```c#
 public virtual Task PostBeforeCopy(Document sender, BeforeCopyEventArgs args)

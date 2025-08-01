@@ -4,7 +4,7 @@ title: DataSource.ArmenianCaption հատկություն
 
 ## Նկարագիր
 
-Համարժեքը 4x-ում։ [AsData.Caption](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/ASDATA/Caption.html)
+**Համարժեքը 4x-ում՝** [AsData.Caption](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/ASDATA/Caption.html)
 
 ```c#
 public string ArmenianCaption { get; }

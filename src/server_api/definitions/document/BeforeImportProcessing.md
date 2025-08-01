@@ -4,7 +4,7 @@ title: Document.BeforeImportProcessing(BeforeImportProcessingEventArgs) մեթո
 
 ## Նկարագիր
 
-Համարժեքը 4x-ում։ [BeforeImport](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/ScriptProcs/BeforeImport.html)
+**Համարժեքը 4x-ում՝** [BeforeImport](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/ScriptProcs/BeforeImport.html)
 
 ```c#
 public virtual Task BeforeImportProcessing(BeforeImportProcessingEventArgs args)

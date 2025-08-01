@@ -4,7 +4,7 @@ title: Document.GetImage(string) մեթոդ
 
 ## Նկարագիր
 
-Համարժեքը 4x-ում։ [AsDoc.Image](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/ASDOC/Image.html)
+**Համարժեքը 4x-ում՝** [AsDoc.Image](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/ASDOC/Image.html)
 
 ```c#
 public byte[] GetImage(string name)

@@ -3,7 +3,7 @@ title: ITemplateSubstitutionService.MergeFile մեթոդ
 ---
 ## Նկարագիր
 
-Համարժեքը 4x-ում։ [AsKernel.MergePrintFiles](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/MergePrintFiles.html)
+**Համարժեքը 4x-ում՝** [AsKernel.MergePrintFiles](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/MergePrintFiles.html)
 
 ## Գերբեռնումներ
 

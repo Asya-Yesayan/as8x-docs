@@ -4,7 +4,7 @@ title: IParametersService.ExistsHiPar(string, DateTime, bool, string) մեթոդ
 
 ## Նկարագիր
 
-Համարժեքը 4x-ում։ [AsKernel.ExistsHiPar](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/ParameterManagment/ExistsHiPar.html)
+**Համարժեքը 4x-ում՝** [AsKernel.ExistsHiPar](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/ParameterManagment/ExistsHiPar.html)
 
 ```c#
 public Task<bool> ExistsHiPar(string paramID, 

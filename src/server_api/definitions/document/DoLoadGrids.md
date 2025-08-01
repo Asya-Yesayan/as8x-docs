@@ -4,7 +4,7 @@ title: Document.DoLoadGrids(LoadGridsEventArgs) մեթոդ
 
 ## Նկարագիր
 
-Համարժեքը 4x-ում։ [LoadGrid](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/ScriptProcs/LoadGrid.html)
+**Համարժեքը 4x-ում՝** [LoadGrid](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/ScriptProcs/LoadGrid.html)
 
 ```c#
 protected virtual Task DoLoadGrids(LoadGridsEventArgs args)

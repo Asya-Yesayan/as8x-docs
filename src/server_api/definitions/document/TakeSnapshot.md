@@ -4,7 +4,7 @@ title: Document.TakeSnapshot(SnapshotContent, string, bool) մեթոդ
 
 ## Նկարագիր
 
-Համարժեքը 4x-ում։ AsDoc.TakeSnapshot
+**Համարժեքը 4x-ում՝** AsDoc.TakeSnapshot
 
 ```c#
 public Task TakeSnapshot(SnapshotContent content, string name, bool overwrite = true)

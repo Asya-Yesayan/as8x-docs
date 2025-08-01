@@ -4,7 +4,7 @@ title: Document.SendMessage(string, int, string, bool, bool) մեթոդ
 
 ## Նկարագիր
 
-Համարժեքը 4x-ում։ [AsDoc.SendMessage](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/ASDOC/SendMessage.html)
+**Համարժեքը 4x-ում՝** [AsDoc.SendMessage](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/ASDOC/SendMessage.html)
 
 ```c#
 public Task SendMessage(string message,

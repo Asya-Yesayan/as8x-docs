@@ -4,7 +4,7 @@ title: DocumentExtender.PostTemplateSubstitutionEx(Document, TemplateSubstitutio
 
 ## Նկարագիր
 
-Համարժեքը 4x-ում։ PostTemplateSubstitution
+**Համարժեքը 4x-ում՝** PostTemplateSubstitution
 
 ```c#
 public virtual Task PostTemplateSubstitutionEx(Document sender, TemplateSubstitutionEventArgs<TemplateSubstitution> args)

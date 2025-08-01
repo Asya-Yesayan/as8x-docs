@@ -22,17 +22,17 @@ title: "IParametersService սերվիս"
 |----------|----------------|
 | [DefaultBranch](IParametersService/DefaultBranch.md) | Վերադարձնում է **DEFBRANCH** ներքին անունով [տող տիպի](../types/system_types.md#stringfieldtype) պարամետրի արժեքը, որը ցույց է տալիս ընթացիկ օգտագործողի համար առաջարկվող գրասենյակի կոդը։ |
 | [DefaultBranch](IParametersService/DefaultBranch1.md) | Վերադարձնում է **DEFBRANCH** ներքին անունով [տող տիպի](../types/system_types.md#stringfieldtype) պարամետրի արժեքը, որը ցույց է տալիս `suid` ներքին համարով օգտագործողի համար առաջարկվող գրասենյակի կոդը։ |
-| [Exists](IParametersService/Exists.md) | Ստուգում է համակարգային պարամետրի գոյությունը՝ ըստ պարամետրի ներքին անվան։ |
-| [ExistsHiPar](IParametersService/ExistsHiPar.md) | Ստուգում է ժամանակագրական պարամետրի նշանակված արժեքի առկայությունը: |
+| [Exists(string)](IParametersService/Exists.md) | Ստուգում է համակարգային պարամետրի գոյությունը՝ ըստ պարամետրի ներքին անվան։ |
+| [ExistsHiPar(string, DateTime, bool, string)](IParametersService/ExistsHiPar.md) | Ստուգում է ժամանակագրական պարամետրի նշանակված արժեքի առկայությունը: |
 | [GetBooleanValue](IParametersService/GetBooleanValue.md) | Վերադարձնում է [տրամաբանական տիպի](../types/system_types.md#booleanfieldtype) պարամետրի արժեքը՝ ըստ պարամետրի ներքին անվան։ |
 | [GetBooleanValue](IParametersService/GetBooleanValue1.md) | Վերադարձնում է [տրամաբանական տիպի](../types/system_types.md#booleanfieldtype) պարամետրի արժեքը՝ ըստ պարամետրի ներքին անվան և օգտագործողի համարի։ |
 | [GetDateTimeValue](IParametersService/GetDateTimeValue.md) | Վերադարձնում է ամսաթիվ տիպի ([DATE](../types/system_types.md#datefieldtype), [DATELONG](../types/system_types.md#datefieldtype)) պարամետրի արժեքը՝ ըստ պարամետրի ներքին անվան։ |
 | [GetDateTimeValue](IParametersService/GetDateTimeValue1.md) | Վերադարձնում է ամսաթիվ տիպի ([DATE](../types/system_types.md#datefieldtype), [DATELONG](../types/system_types.md#datefieldtype)) պարամետրի արժեքը՝ ըստ պարամետրի ներքին անվան և օգտագործողի համարի։ |
 | [GetDecimalValue](IParametersService/GetDecimalValue.md) | Վերադարձնում է կոտորակային թիվ տիպի ([N](../types/system_types.md#numericfieldtype), [NP](../types/system_types.md#numericpositivefieldtype), [SUMMA](../types/system_types.md#amountfieldtype), [SUMMAP](../types/system_types.md#amountpositivefieldtype)) պարամետրի արժեքը՝ ըստ պարամետրի ներքին անվան։ |
 | [GetDecimalValue](IParametersService/GetDecimalValue1.md) | Վերադարձնում է կոտորակային թիվ տիպի ([N](../types/system_types.md#numericfieldtype), [NP](../types/system_types.md#numericpositivefieldtype), [SUMMA](../types/system_types.md#amountfieldtype), [SUMMAP](../types/system_types.md#amountpositivefieldtype)) պարամետրի արժեքը՝ ըստ պարամետրի ներքին անվան և օգտագործողի համարի։ |
-| [GetDescriptor](IParametersService/GetDescriptor.md) | Վերադարձնում է համակարգային [պարամետրի նկարագրությունը](../types/Descriptor.md): |
-| [GetDetailedDescription](IParametersService/GetDetailedDescription.md) | Վերադարձնում է պարամետրի մանրամասն նկարագրությունը։ |
-| [GetHiPar](IParametersService/GetHiPar.md) | Վերադարձնում է ժամանակագրական պարամետրի արժեքը և նշանակման ամսաթիվը։ |
+| [GetDescriptor(string)](IParametersService/GetDescriptor.md) | Վերադարձնում է համակարգային [պարամետրի նկարագրությունը](../types/Descriptor.md): |
+| [GetDetailedDescription(string)](IParametersService/GetDetailedDescription.md) | Վերադարձնում է պարամետրի մանրամասն նկարագրությունը։ |
+| [GetHiPar(string, DateTime, bool, string, bool, DateTime?)](IParametersService/GetHiPar.md) | Վերադարձնում է ժամանակագրական պարամետրի արժեքը և նշանակման ամսաթիվը։ |
 | [GetIntegerValue](IParametersService/GetIntegerValue.md) | Վերադարձնում է ամբողջ թիվ տիպի ([N](../types/system_types.md#numericfieldtype), [NP](../types/system_types.md#numericpositivefieldtype)) պարամետրի արժեքը՝ ըստ պարամետրի ներքին անվան։ |
 | [GetIntegerValue](IParametersService/GetIntegerValue1.md) | Վերադարձնում է ամբողջ թիվ տիպի ([N](../types/system_types.md#numericfieldtype), [NP](../types/system_types.md#numericpositivefieldtype)) պարամետրի արժեքը՝ ըստ պարամետրի ներքին անվան և օգտագործողի համարի։ |
 | [GetShortValue](IParametersService/GetShortValue.md) | Վերադարձնում է կարճ ամբողջ թիվ տիպի ([N](../types/system_types.md#numericfieldtype), [NP](../types/system_types.md#numericpositivefieldtype)) պարամետրի արժեքը՝ ըստ պարամետրի ներքին անվան։ |
@@ -43,14 +43,14 @@ title: "IParametersService սերվիս"
 | [GetTimeSpanValue](IParametersService/GetTimeSpanValue1.md) | Վերադարձնում է ժամ տիպի ([TIME](../types/system_types.md#timefieldtype), [TIMELONG](../types/system_types.md#timefieldtype)) պարամետրի արժեքը՝ ըստ պարամետրի ներքին անվան և օգտագործողի համարի։ |
 | [OperEnd](IParametersService/OperEnd.md) | Վերադարձնում է **OPEREND** ներքին անունով [ամսաթիվ տիպի](../types/system_types.md#datefieldtype) պարամետրի արժեքը, որը ցույց է տալիս գործառնական ժամանակահատվածի վերջի ամսաթիվը ընթացիկ օգտագործողի համար։ |
 | [OperEnd](IParametersService/OperEnd1.md) | Վերադարձնում է **OPEREND** ներքին անունով [ամսաթիվ տիպի](../types/system_types.md#datefieldtype) պարամետրի արժեքը, որը ցույց է տալիս գործառնական ժամանակահատվածի վերջի ամսաթիվը `suid` ներքին համարով օգտագործողի համար։ |
-| [OPERHOLIDAYS](IParametersService/OPERHOLIDAYS.md) | Վերադարձնում է **OPERHOLIDAYS** ներքին անունով [տրամաբանական տիպի](../types/system_types.md#booleanfieldtype) պարամետրի արժեքը, որը ցույց է տալիս, արդյոք բաց գործառնական ժամանակահատվածում հանգստյան օրերի արգելումը ակտիվ է։ |
+| [OPERHOLIDAYS()](IParametersService/OPERHOLIDAYS.md) | Վերադարձնում է **OPERHOLIDAYS** ներքին անունով [տրամաբանական տիպի](../types/system_types.md#booleanfieldtype) պարամետրի արժեքը, որը ցույց է տալիս, արդյոք բաց գործառնական ժամանակահատվածում հանգստյան օրերի արգելումը ակտիվ է։ |
 | [OperStart](IParametersService/OperStart.md) | Վերադարձնում է **OPERSTART** ներքին անունով [ամսաթիվ տիպի](../types/system_types.md#datefieldtype) պարամետրի արժեքը, որը ցույց է տալիս գործառնական ժամանակահատվածի սկզբի ամսաթիվը ընթացիկ օգտագործողի համար։ |
 | [OperStart](IParametersService/OperStart1.md) | Վերադարձնում է **OPERSTART** ներքին անունով [ամսաթիվ տիպի](../types/system_types.md#datefieldtype) պարամետրի արժեքը, որը ցույց է տալիս գործառնական ժամանակահատվածի սկզբի ամսաթիվը `suid` ներքին համարով օգտագործողի համար։ |
 | [REPEND](IParametersService/REPEND.md) | Վերադարձնում է **REPEND** ներքին անունով [ամսաթիվ տիպի](../types/system_types.md#datefieldtype) պարամետրի արժեքը, որը ցույց է տալիս հաշվետու ժամանակահատվածի վերջի ամսաթիվը ընթացիկ օգտագործողի համար։ |
 | [REPEND](IParametersService/REPEND1.md) | Վերադարձնում է **REPEND** ներքին անունով [ամսաթիվ տիպի](../types/system_types.md#datefieldtype) պարամետրի արժեքը, որը ցույց է տալիս հաշվետու ժամանակահատվածի վերջի ամսաթիվը `suid` ներքին համարով օգտագործողի համար։ |
 | [REPSTART](IParametersService/REPSTART.md) | Վերադարձնում է **REPSTART** ներքին անունով [ամսաթիվ տիպի](../types/system_types.md#datefieldtype) պարամետրի արժեքը, որը ցույց է տալիս հաշվետու ժամանակահատվածի սկզբի ամսաթիվը ընթացիկ օգտագործողի համար։ |
 | [REPSTART](IParametersService/REPSTART1.md) | Վերադարձնում է **REPSTART** ներքին անունով [ամսաթիվ տիպի](../types/system_types.md#datefieldtype) պարամետրի արժեքը, որը ցույց է տալիս հաշվետու ժամանակահատվածի սկզբի ամսաթիվը `suid` ներքին համարով օգտագործողի համար։ |
-| [SetHiPar](IParametersService/SetHiPar.md) | Գրանցում է ժամանակագրական պարամետրի նոր արժեք տրված ամսաթվով: |
-| [SetValue](IParametersService/SetValue.md) | Փոխում է համակարգային պարամետրի արժեքը։ |
-| [SetValueWithAdditionalConnection](IParametersService/SetValueWithAdditionalConnection.md) | Փոխում է համակարգային պարամետրի արժեքը [լրացուցիչ sql միացման](IDBService/CreateAdditionalConnection.md) միջոցով։ |
+| [SetHiPar(string, DateTime, int, string, string, DateTime?)](IParametersService/SetHiPar.md) | Գրանցում է ժամանակագրական պարամետրի նոր արժեք տրված ամսաթվով: |
+| [SetValue(string, object)](IParametersService/SetValue.md) | Փոխում է համակարգային պարամետրի արժեքը։ |
+| [SetValueWithAdditionalConnection(string, object)](IParametersService/SetValueWithAdditionalConnection.md) | Փոխում է համակարգային պարամետրի արժեքը [լրացուցիչ sql միացման](IDBService/CreateAdditionalConnection.md) միջոցով։ |
 

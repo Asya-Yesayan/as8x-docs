@@ -4,7 +4,7 @@ title: DataProcessingRequest.DPRType հատկություն
 
 ## Նկարագիր
 
-Համարժեքը 4x-ում։ [DataProcessingRequest.SysType](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/DataProcessingRequest.html#systype)
+**Համարժեքը 4x-ում՝** [DataProcessingRequest.SysType](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/DataProcessingRequest.html#systype)
 
 ```c#
 public DPRType DPRType { get; }

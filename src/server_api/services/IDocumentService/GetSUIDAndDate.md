@@ -4,7 +4,7 @@ title: IDocumentService.GetSUIDAndDate(int, int, bool) մեթոդ
 
 ## Նկարագիր
 
-Համարժեքը 4x-ում։ [AsDocEngine.StateMovedSUID](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/DocumentsCirculation/StateMovedSUID.html)
+**Համարժեքը 4x-ում՝** [AsDocEngine.StateMovedSUID](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/DocumentsCirculation/StateMovedSUID.html)
 
 ```c#
 public Task<(bool exists, short suid, string dateTime)> GetSUIDAndDate(int isn, int state, bool sort = true)

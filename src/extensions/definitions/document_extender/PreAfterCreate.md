@@ -4,7 +4,7 @@ title: DocumentExtender.PreAfterCreate(Document, AfterCreateEventArgs) մեթո�
 
 ## Նկարագիր
 
-Համարժեքը 4x-ում։ PreAfterCreate
+**Համարժեքը 4x-ում՝** PreAfterCreate
 
 ```c#
 public virtual Task PreAfterCreate(Document sender, AfterCreateEventArgs args)

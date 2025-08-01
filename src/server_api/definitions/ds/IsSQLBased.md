@@ -4,7 +4,7 @@ title: DataSource.IsSQLBased հատկություն
 
 ## Նկարագիր
 
-Համարժեքը 4x-ում։ [Data.ArrayBased](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/ASDATA/ArrayBased.html)
+**Համարժեքը 4x-ում՝** [Data.ArrayBased](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/ASDATA/ArrayBased.html)
 
 ```c#
 public virtual bool IsSQLBased

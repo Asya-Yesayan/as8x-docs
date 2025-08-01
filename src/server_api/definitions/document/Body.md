@@ -4,7 +4,7 @@ title: Document.Body() մեթոդ
 
 ## Նկարագիր
 
-Համարժեքը 4x-ում։ [AsDoc.Body](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/ASDOC/Body.html)
+**Համարժեքը 4x-ում՝** [AsDoc.Body](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/ASDOC/Body.html)
 
 ```c#
 public string Body()

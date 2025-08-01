@@ -4,7 +4,7 @@ title: Document.InitialSnapshot հատկություն
 
 ## Նկարագիր
 
-Համարժեքը 4x-ում։ AsDoc.InitialSnapshot
+**Համարժեքը 4x-ում՝** AsDoc.InitialSnapshot
 
 ```c#
 public DocumentSnapshot InitialSnapshot { get; private set; }

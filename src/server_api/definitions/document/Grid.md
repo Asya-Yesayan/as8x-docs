@@ -4,7 +4,7 @@ title: Document.Grid(string) մեթոդ
 
 ## Նկարագիր
 
-Համարժեքը 4x-ում։ [AsDoc.Grid](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/ASDOC/Grid.html)
+**Համարժեքը 4x-ում՝** [AsDoc.Grid](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/ASDOC/Grid.html)
 
 ```c#
 public IGrid Grid(string name)

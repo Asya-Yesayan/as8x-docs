@@ -4,7 +4,7 @@ title: Document.ApplySnapshot(DocumentSnapshot) մեթոդ
 
 ## Նկարագիր
 
-Համարժեքը 4x-ում։ AsDoc.ApplySnapshot
+**Համարժեքը 4x-ում՝** AsDoc.ApplySnapshot
 
 ```c#
 public void ApplySnapshot(DocumentSnapshot snapshot)

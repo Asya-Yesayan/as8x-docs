@@ -4,7 +4,7 @@ title: Document.GetParents() մեթոդ
 
 ## Նկարագիր
 
-Համարժեքը 4x-ում։ [AsDoc.Parents](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/ASDOC/Parents.html)
+**Համարժեքը 4x-ում՝** [AsDoc.Parents](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/ASDOC/Parents.html)
 
 ```c#
 public Task<List<int>> GetParents()

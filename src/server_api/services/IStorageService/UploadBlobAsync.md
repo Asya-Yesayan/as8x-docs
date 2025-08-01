@@ -4,7 +4,7 @@ title: IStorageService.UploadBlobAsync մեթոդ
 
 ## Նկարագիր
 
-Համարժեքը 4x-ում։ AsUtil.UploadToStorage
+**Համարժեքը 4x-ում՝** AsUtil.UploadToStorage
 
 ## Գերբեռնումներ
 

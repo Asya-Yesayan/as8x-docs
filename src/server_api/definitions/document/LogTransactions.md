@@ -4,7 +4,7 @@ title: Document.LogTransactions հատկություն
 
 ## Նկարագիր
 
-Համարժեքը 4x-ում։ [AsDoc.LogTransactions](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/ASDOC/LogTransactions.html)
+**Համարժեքը 4x-ում՝** [AsDoc.LogTransactions](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/ASDOC/LogTransactions.html)
 
 ```c#
 public bool LogTransactions { get; set; }

@@ -4,7 +4,7 @@ title: IOlapDBService.RollBackTrans() մեթոդ
 
 ## Նկարագիր
 
-Համարժեքը 4x-ում։ [ASOLAPProvider.RollbackTrans](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/TransactionManagment/RollBackTrans.html)
+**Համարժեքը 4x-ում՝** [ASOLAPProvider.RollbackTrans](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/TransactionManagment/RollBackTrans.html)
 
 ```c#
 public void RollBackTrans();

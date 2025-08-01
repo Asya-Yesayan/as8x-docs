@@ -4,7 +4,7 @@ title: IOlapDBService.CommitTransAsync() մեթոդ
 
 ## Նկարագիր
 
-Համարժեքը 4x-ում։ [ASOLAPProvider.CommitTrans](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/TransactionManagment/CommitTrans.html)
+**Համարժեքը 4x-ում՝** [ASOLAPProvider.CommitTrans](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/TransactionManagment/CommitTrans.html)
 
 ```c#
 public Task CommitTransAsync();

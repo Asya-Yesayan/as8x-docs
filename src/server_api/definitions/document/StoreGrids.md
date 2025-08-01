@@ -4,7 +4,7 @@ title: Document.StoreGrids(StoreGridsEventArgs) մեթոդ
 
 ## Նկարագիր
 
-Համարժեքը 4x-ում։ [StoreGrid](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/ScriptProcs/StoreGrid.html)
+**Համարժեքը 4x-ում՝** [StoreGrid](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/ScriptProcs/StoreGrid.html)
 
 ```c#
 public virtual Task StoreGrids(StoreGridsEventArgs args)

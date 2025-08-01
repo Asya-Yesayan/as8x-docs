@@ -4,7 +4,7 @@ title: IDocumentService.GetDocumentStatus(string, int) մեթոդ
 
 ## Նկարագիր
 
-Համարժեքը 4x-ում։ AsDocEngine.GetDocStatus
+**Համարժեքը 4x-ում՝** AsDocEngine.GetDocStatus
 
 ```c#
 public Task<byte> GetDocumentStatus(string folderID, int isn)

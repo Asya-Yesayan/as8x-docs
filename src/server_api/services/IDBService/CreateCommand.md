@@ -4,7 +4,7 @@ title: IDBService.CreateCommand(TimeoutType) մեթոդ
 
 ## Նկարագիր
 
-Համարժեքը 4x-ում։ AsRdoConnection.CreateSqlCommand
+**Համարժեքը 4x-ում՝** AsRdoConnection.CreateSqlCommand
 
 ```c#
 public SqlCommand CreateCommand(TimeoutType timeoutType = TimeoutType.QueryTimeout);

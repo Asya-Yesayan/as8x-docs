@@ -4,7 +4,7 @@ title: ITemplateSubstitutionService.IsTemplateAvailable(string, string, Document
 
 ## Նկարագիր
 
-Համարժեքը 4x-ում։ [AsKernel.IsTemplAvailable](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/IsTemplAvailable.html)
+**Համարժեքը 4x-ում՝** [AsKernel.IsTemplAvailable](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/IsTemplAvailable.html)
 
 ```c#
 public Task<bool> IsTemplateAvailable(

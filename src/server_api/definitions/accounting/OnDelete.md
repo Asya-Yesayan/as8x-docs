@@ -4,7 +4,7 @@ title: Accounting.OnDelete(OnDeleteEventArgs) մեթոդ
 
 ## Նկարագիր
 
-Համարժեքը 4x-ում։ [OnDelete](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/ScriptProcs/OnDelete.html)
+**Համարժեքը 4x-ում՝** [OnDelete](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/ScriptProcs/OnDelete.html)
 
 ```c#
 public virtual Task OnDelete(OnDeleteEventArgs args);

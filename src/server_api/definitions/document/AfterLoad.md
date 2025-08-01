@@ -4,7 +4,7 @@ title: Document.AfterLoad(AfterLoadEventArgs) մեթոդ
 
 ## Նկարագիր
 
-Համարժեքը 4x-ում։ [AfterLoad](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/ScriptProcs/AfterLoad.html)
+**Համարժեքը 4x-ում՝** [AfterLoad](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/ScriptProcs/AfterLoad.html)
 
 ```c#
 public virtual Task AfterLoad(AfterLoadEventArgs args)

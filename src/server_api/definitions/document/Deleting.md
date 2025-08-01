@@ -4,7 +4,7 @@ title: Document.Deleting հատկություն
 
 ## Նկարագիր
 
-Համարժեքը 4x-ում։ AsDoc.Deleting
+**Համարժեքը 4x-ում՝** AsDoc.Deleting
 
 ```c#
 public bool Deleting { get; internal set; }

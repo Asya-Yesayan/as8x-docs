@@ -4,7 +4,7 @@ title: IDocumentService.SetGridDefaultValues(Document, Dictionary<string, HashSe
 
 ## Նկարագիր
 
-Համարժեքը 4x-ում։ [AsKernel.SetGridDefValue](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/SetGridDefValue.html)
+**Համարժեքը 4x-ում՝** [AsKernel.SetGridDefValue](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/SetGridDefValue.html)
 
 ```c#
 public void SetGridDefaultValues(Document document, Dictionary<string, HashSet<string>> gridColumns)

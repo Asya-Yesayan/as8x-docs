@@ -4,7 +4,7 @@ title: IDocumentService.GetDocumentParents(int, string, DocumentChildrenOrder, s
 
 ## Նկարագիր
 
-Համարժեքը 4x-ում։ [AsDocEngine.DocParents](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/DocumentsCirculation/DocParents.html)
+**Համարժեքը 4x-ում՝** [AsDocEngine.DocParents](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/DocumentsCirculation/DocParents.html)
 
 ```c#
 public Task<List<(int isn, string docType)>> GetDocumentParents(

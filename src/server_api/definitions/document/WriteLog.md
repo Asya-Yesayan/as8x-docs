@@ -4,7 +4,7 @@ title: Document.WriteLog(string, int, bool) մեթոդ
 
 ## Նկարագիր
 
-Համարժեքը 4x-ում։ [AsDoc.WriteLog](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/ASDOC/WriteLog.html)
+**Համարժեքը 4x-ում՝** [AsDoc.WriteLog](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/ASDOC/WriteLog.html)
 
 ```c#
 public Task WriteLog(string message, int dcrId = -1, bool dcrIdIsISN = false)

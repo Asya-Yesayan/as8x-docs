@@ -4,7 +4,7 @@ title: IKernelService.GetTurn(string, int, DateTime, DateTime, string) մեթո�
 
 ## Նկարագիր
 
-Համարժեքը 4x-ում։ [Kernel.GetTurn](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/AccManagement/GetTurn.html)
+**Համարժեքը 4x-ում՝** [Kernel.GetTurn](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/AccManagement/GetTurn.html)
 
 ```c#
 public Task<(decimal DbTurn, decimal DbTurnAMD, decimal CrTurn, decimal CrTurnAMD)> GetTurn(

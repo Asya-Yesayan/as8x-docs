@@ -4,7 +4,7 @@ title: IDocumentService.CreationDate(int, bool) մեթոդ
 
 ## Նկարագիր
 
-Համարժեքը 4x-ում։ [AsUtil.CreationDate](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/DocumentsCirculation/CreationDate.html)
+**Համարժեքը 4x-ում՝** [AsUtil.CreationDate](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/DocumentsCirculation/CreationDate.html)
 
 ```c#
 public Task<(DateTime CreationDate, short SUID)> CreationDate(int isn, bool isNotRiseErrWhenNoRow = false)

@@ -4,7 +4,7 @@ title: IMailService.SendMail(MailArgs) մեթոդ
 
 ## Նկարագիր
 
-Համարժեքը 4x-ում։ AsKernel.SendMail
+**Համարժեքը 4x-ում՝** AsKernel.SendMail
 
 ```c#
 public Task SendMail(MailArgs args)

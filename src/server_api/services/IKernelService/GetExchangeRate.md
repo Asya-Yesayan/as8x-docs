@@ -4,7 +4,7 @@ title: IKernelService.GetExchangeRate(string, DateTime, DateTime?) մեթոդ
 
 ## Նկարագիր
 
-Համարժեքը 4x-ում։ [AsKernel.curValue](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/Financial/CurValue.html)
+**Համարժեքը 4x-ում՝** [AsKernel.curValue](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/Financial/CurValue.html)
 
 ```c#
 public Task<ExchangeRate> GetExchangeRate(string codCurrency, 

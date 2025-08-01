@@ -4,7 +4,7 @@ title: Document.indexer հատկություն
 
 ## Նկարագիր
 
-Համարժեքը 4x-ում։ [AsDoc.Rekv](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/ASDOC/Rekv.html)
+**Համարժեքը 4x-ում՝** [AsDoc.Rekv](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/ASDOC/Rekv.html)
 
 ```c#
 public object this[string name] { get; set; }
