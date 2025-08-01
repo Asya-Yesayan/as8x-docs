@@ -18,8 +18,8 @@ title: DataProcessingRequest նկարագրություն
 
 | Անվանում | Նկարագրություն |
 |----------|----------------|
-| [AfterDeserializeParameter](dpr/AfterDeserializeParameter.md) | Մեթոդը կանչվում է միջուկի կողմից DPR-ը հերթագրման դնելուց առաջ։ |
-| [Execute](dpr/Execute.md) | Մեթոդը կանչվում է միջուկի կողմից, այստեղ հարկավոր է մշակել սերվերում աշխատող տրամաբանությունը։ |
+| [AfterDeserializeParameter(P, JsonElement)](dpr/AfterDeserializeParameter.md) | Մեթոդը կանչվում է միջուկի կողմից DPR-ը հերթագրման դնելուց առաջ։ |
+| [Execute(P, CancellationToken)](dpr/Execute.md) | Մեթոդը կանչվում է միջուկի կողմից, այստեղ հարկավոր է մշակել սերվերում աշխատող տրամաբանությունը։ |
 
 ## Հատկություններ
 

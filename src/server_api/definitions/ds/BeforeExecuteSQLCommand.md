@@ -1,5 +1,5 @@
 ---
-title: DataSource.BeforeExecuteSQLCommand(DataSourceArgs<P>, CancellationToken) մեթոդ
+title: DataSource.BeforeExecuteSQLCommand(DataSourceArgs&lt;P&gt;, CancellationToken) մեթոդ
 ---
 
 ## Նկարագիր

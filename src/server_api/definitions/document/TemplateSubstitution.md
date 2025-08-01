@@ -1,5 +1,5 @@
 ---
-title: Document.TemplateSubstitution(Dictionary<string, bool>, Dictionary<string, object>) մեթոդ
+title: Document.TemplateSubstitution(Dictionary&lt;string, bool&gt;, Dictionary&lt;string, object&gt;) մեթոդ
 ---
 
 ## Նկարագիր
