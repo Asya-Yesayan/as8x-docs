@@ -1,7 +1,7 @@
 import os
 import re
 
-services_dir = 'definitions'
+services_dir = 'types'
 
 for filename in os.listdir(services_dir):
     if not filename.endswith('.md'):

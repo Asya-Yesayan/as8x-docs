@@ -2,13 +2,15 @@
 title: Schema.AddParam(string, string, FieldType, string, MultiFilterTypes, bool, string, bool, bool) մեթոդ
 ---
 
-Սխեմայում տվյալների աղբյուրի պարամետրի նկարագրության մասին ինֆորմացիան ավելացնելու համար պետք է կանչել AddParam մեթոդը, որն ունի հետևյալ շարահյուսությունը՝
+
 
 ```c#
 public void AddParam(string name, string description, FieldType fieldType, string userReportValue = null,
                      MultiFilterTypes supportedFilterType = MultiFilterTypes.IsUndefined, bool required = false, 
                      string eDescription = "", bool nullable = false, bool allowTime = false)
 ```
+
+Տվյալների աղբյուրի սխեմայում ավելացնում է պարամետրի հատկությունների մասին ինֆորմացիան։
 
 **Պարամետրեր**
 

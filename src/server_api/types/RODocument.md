@@ -21,11 +21,11 @@ RODocument տեսակի փաստաթուղթը տվյալների պահոցից
 
 | Անվանում | Նկարագրություն |
 |----------|----------------|
-| [CheckGrid](RODocument/CheckGrid.md) | Ստուգում է փաստաթղթի աղյուսակների բեռնված լինելը։ |
-| [CheckImage](RODocument/CheckImage.md) | Ստուգում է փաստաթղթի նկարների բեռնված լինելը։ |
-| [CheckMemo](RODocument/CheckMemo.md) | Ստուգում է փաստաթղթի մեծ տեքստային դաշտերի (մեմո) բեռնված լինելը։ |
-| [RefreshLastLookup](RODocument/RefreshLastLookup.md) | Թարմացնում է [LastLookup](RODocument/LastLookup.md) հատկության արժեքը՝ նշանակելով ընթացիկ ամսաթիվը/ժամանակը։ |
-| [RefreshLastTSCheck](RODocument/RefreshLastTSCheck.md) | Թարմացնում է [LastTSCheck](RODocument/LastTSCheck.md) հատկության արժեքը՝ նշանակելով ընթացիկ ամսաթիվը/ժամանակը։ |
+| [CheckGrid()](RODocument/CheckGrid.md) | Ստուգում է փաստաթղթի աղյուսակների բեռնված լինելը։ |
+| [CheckImage()](RODocument/CheckImage.md) | Ստուգում է փաստաթղթի նկարների բեռնված լինելը։ |
+| [CheckMemo()](RODocument/CheckMemo.md) | Ստուգում է փաստաթղթի մեծ տեքստային դաշտերի (մեմո) բեռնված լինելը։ |
+| [RefreshLastLookup()](RODocument/RefreshLastLookup.md) | Թարմացնում է [LastLookup](RODocument/LastLookup.md) հատկության արժեքը՝ նշանակելով ընթացիկ ամսաթիվը/ժամանակը։ |
+| [RefreshLastTSCheck()](RODocument/RefreshLastTSCheck.md) | Թարմացնում է [LastTSCheck](RODocument/LastTSCheck.md) հատկության արժեքը՝ նշանակելով ընթացիկ ամսաթիվը/ժամանակը։ |
 
 ## Հատկություններ
 

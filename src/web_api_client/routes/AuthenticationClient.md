@@ -18,5 +18,5 @@ AuthenticationClient դասը նախատեսված է 8X սերվիսին միա
 
 | Անվանում | Նկարագրություն |
 |----------|----------------|
-| [AuthenticateWithCertificateAsync](AuthenticationClient/AuthenticateWithCertificateAsync.md) | Նույնականացնում է օգտագործողի մուտքանունով և գաղտնաբառով, պահանջվում է սերտիֆիկատի առկայություն ([API Client](../api_client.md))։ |
-| [AuthenticateWithSecretAsync](AuthenticationClient/AuthenticateWithSecretAsync.md) | Նույնականացնում է ինտեգրման ծրագրի համար ստեղծված բանալիով ([API Client](../api_client.md))։ |
+| [AuthenticateWithCertificateAsync(CertificateAuthenticateRequest, CancellationToken)](AuthenticationClient/AuthenticateWithCertificateAsync.md) | Նույնականացնում է օգտագործողի մուտքանունով և գաղտնաբառով, պահանջվում է սերտիֆիկատի առկայություն ([API Client](../api_client.md))։ |
+| [AuthenticateWithSecretAsync(string, short, string, CancellationToken)](AuthenticationClient/AuthenticateWithSecretAsync.md) | Նույնականացնում է ինտեգրման ծրագրի համար ստեղծված բանալիով ([API Client](../api_client.md))։ |

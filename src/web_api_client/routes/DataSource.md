@@ -15,9 +15,9 @@ DataSource դասը նախատեսված է կլիենտական ծրագրից 
 
 | Անվանում | Նկարագրություն |
 |----------|----------------|
-| [ExecuteAsync](DataSource/ExecuteAsync.md) | Աշխատացնում է տվյալների աղբյուրը, վերադարձնում ստացված տողերի ցուցակը և կատարման ընթացքում առաջացած սխալների մանրամասն տեղեկությունը։ |
-| [LoadDefinitionAsync](DataSource/LoadDefinitionAsync.md) | Բեռնում է տվյալների աղբյուրի նկարագրությունը և վերագրում [Definition](DataSource/Definition.md) հատկությանը։ |
-| [LongExecuteAsync](DataSource/LongExecuteAsync.md) | Աշխատացնում է տվյալների աղբյուրը, վերադարձնում ստացված տողերի ցուցակը և կատարման ընթացքում առաջացած սխալների մանրամասն տեղեկությունը։ |
+| [ExecuteAsync(P, HashSet&lt;string&gt;, string, CancellationToken, TimeSpan?)](DataSource/ExecuteAsync.md) | Աշխատացնում է տվյալների աղբյուրը, վերադարձնում ստացված տողերի ցուցակը և կատարման ընթացքում առաջացած սխալների մանրամասն տեղեկությունը։ |
+| [LoadDefinitionAsync(string, CancellationToken)](DataSource/LoadDefinitionAsync.md) | Բեռնում է տվյալների աղբյուրի նկարագրությունը և վերագրում [Definition](DataSource/Definition.md) հատկությանը։ |
+| [LongExecuteAsync(P, HashSet&lt;string&gt;, string, bool, CancellationToken, TimeSpan?)](DataSource/LongExecuteAsync.md) | Աշխատացնում է տվյալների աղբյուրը, վերադարձնում ստացված տողերի ցուցակը և կատարման ընթացքում առաջացած սխալների մանրամասն տեղեկությունը։ |
 
 ## Հատկություններ
 

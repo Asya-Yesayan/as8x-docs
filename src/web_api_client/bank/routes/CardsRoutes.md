@@ -11,5 +11,5 @@ ClientsRoutes դասը պարունակում է մեթոդներ քարտերի
 
 | Անվանում | Նկարագրություն |
 |----------|----------------|
-| [AttachReservedCardToClient](CardsRoutes/AttachReservedCardToClient.md) | Ռեզերվացրած քարտը կցում է տրված հաճախորդին։ |
-| [GetCardAgreementFiles](CardsRoutes/GetCardAgreementFiles.md) | Ներբեռնում է տրված քարտի համար անհրաժեշտ պայմանագրերը։ |
+| [AttachReservedCardToClient(AttachReservedCardToClientRequest)](CardsRoutes/AttachReservedCardToClient.md) | Ռեզերվացրած քարտը կցում է տրված հաճախորդին։ |
+| [GetCardAgreementFiles(int, Language)](CardsRoutes/GetCardAgreementFiles.md) | Ներբեռնում է տրված քարտի համար անհրաժեշտ պայմանագրերը։ |

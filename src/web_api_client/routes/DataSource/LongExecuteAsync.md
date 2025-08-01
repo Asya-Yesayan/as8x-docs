@@ -1,5 +1,5 @@
 ---
-title: DataSource.LongExecuteAsync(P, HashSet<string>, string, bool, CancellationToken, TimeSpan?) մեթոդ
+title: DataSource.LongExecuteAsync(P, HashSet&lt;string&gt;, string, bool, CancellationToken, TimeSpan?) մեթոդ
 ---
 
 ```c#

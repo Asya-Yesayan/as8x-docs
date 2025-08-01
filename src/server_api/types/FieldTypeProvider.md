@@ -14,13 +14,13 @@ public static class FieldTypeProvider
 
 | Անվանում | Նկարագրություն |
 |----------|----------------|
-| [GetCHFieldType](FieldTypeProvider/GetCHFieldType.md) | Վերադարձնում է [CHFieldType](system_types.md#chfieldtype) դասի օբյեկտ քեշից կամ ստեղծում նորը քեշում բացակայության դեպքում և քեշավորում։ |
-| [GetFileFieldType](FieldTypeProvider/GetFileFieldType.md) | Վերադարձնում է FileFieldType դասի օբյեկտ քեշից կամ ստեղծում նորը քեշում բացակայության դեպքում և քեշավորում։ |
-| [GetFolderFieldType](FieldTypeProvider/GetFolderFieldType.md) | Վերադարձնում է [FolderFieldType](system_types.md#folderfieldtype) դասի օբյեկտ քեշից կամ ստեղծում նորը քեշում բացակայության դեպքում և քեշավորում։ |
-| [GetNumericFieldType](FieldTypeProvider/GetNumericFieldType.md) | Վերադարձնում է [NumericFieldType](system_types.md#numericfieldtype) դասի օբյեկտ քեշից կամ ստեղծում նորը քեշում բացակայության դեպքում և քեշավորում։ |
-| [GetNumericPositiveFieldType](FieldTypeProvider/GetNumericPositiveFieldType.md) | Վերադարձնում է [NumericPositiveFieldType](system_types.md#numericpositivefieldtype) դասի օբյեկտ քեշից կամ ստեղծում նորը քեշում բացակայության դեպքում և քեշավորում։ |
-| [GetNumPairFieldType](FieldTypeProvider/GetNumPairFieldType.md) | Վերադարձնում է [NumPairFieldType](system_types.md#numericpositivefieldtype) դասի օբյեկտ քեշից կամ ստեղծում նորը քեշում բացակայության դեպքում և քեշավորում։ |
-| [GetStringFieldType](FieldTypeProvider/GetStringFieldType.md) | Վերադարձնում է [StringFieldType](system_types.md#stringfieldtype) դասի օբյեկտ քեշից կամ ստեղծում նորը քեշում բացակայության դեպքում և քեշավորում։ |
+| [GetCHFieldType(string, short, short, bool)](FieldTypeProvider/GetCHFieldType.md) | Վերադարձնում է [CHFieldType](system_types.md#chfieldtype) դասի օբյեկտ քեշից կամ ստեղծում նորը քեշում բացակայության դեպքում և քեշավորում։ |
+| [GetFileFieldType(string, bool)](FieldTypeProvider/GetFileFieldType.md) | Վերադարձնում է FileFieldType դասի օբյեկտ քեշից կամ ստեղծում նորը քեշում բացակայության դեպքում և քեշավորում։ |
+| [GetFolderFieldType(string, short, bool)](FieldTypeProvider/GetFolderFieldType.md) | Վերադարձնում է [FolderFieldType](system_types.md#folderfieldtype) դասի օբյեկտ քեշից կամ ստեղծում նորը քեշում բացակայության դեպքում և քեշավորում։ |
+| [GetNumericFieldType(short, short, bool, string, bool)](FieldTypeProvider/GetNumericFieldType.md) | Վերադարձնում է [NumericFieldType](system_types.md#numericfieldtype) դասի օբյեկտ քեշից կամ ստեղծում նորը քեշում բացակայության դեպքում և քեշավորում։ |
+| [GetNumericPositiveFieldType(short, short, bool, string, bool)](FieldTypeProvider/GetNumericPositiveFieldType.md) | Վերադարձնում է [NumericPositiveFieldType](system_types.md#numericpositivefieldtype) դասի օբյեկտ քեշից կամ ստեղծում նորը քեշում բացակայության դեպքում և քեշավորում։ |
+| [GetNumPairFieldType(NumericFieldType, NumericFieldType, string, bool)](FieldTypeProvider/GetNumPairFieldType.md) | Վերադարձնում է [NumPairFieldType](system_types.md#numericpositivefieldtype) դասի օբյեկտ քեշից կամ ստեղծում նորը քեշում բացակայության դեպքում և քեշավորում։ |
+| [GetStringFieldType(short, bool)](FieldTypeProvider/GetStringFieldType.md) | Վերադարձնում է [StringFieldType](system_types.md#stringfieldtype) դասի օբյեկտ քեշից կամ ստեղծում նորը քեշում բացակայության դեպքում և քեշավորում։ |
 
 ## Հատկություններ
 

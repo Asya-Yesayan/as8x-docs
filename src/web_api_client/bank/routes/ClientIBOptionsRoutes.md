@@ -11,4 +11,4 @@ ClientIBOptionsRoutes դասը պարունակում է մեթոդներ հաճ
 
 | Անվանում | Նկարագրություն |
 |----------|----------------|
-| [GetStatus](ClientIBOptionsRoutes/GetStatus.md) | Վերադարձնում է հաճախորդի ԻԲ կարգավիճակը։ |
+| [GetStatus(GetStatusRequest)](ClientIBOptionsRoutes/GetStatus.md) | Վերադարձնում է հաճախորդի ԻԲ կարգավիճակը։ |

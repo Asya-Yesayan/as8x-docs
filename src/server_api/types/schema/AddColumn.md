@@ -2,8 +2,6 @@
 title: Schema.AddColumn(string, string, string, string, FieldType, bool, short, bool, string, string, FieldType, short, short, bool, bool, SupportedEncoding) մեթոդ
 ---
 
-Սխեմայում տվյալների աղբյուրի սյան հատկությունների մասին ինֆորմացիան ավելացնելու համար պետք է կանչել AddColumn մեթոդը, որն ունի հետևյալ շարահյուսությունը՝
-
 ```c#
 public void AddColumn(string name, string source, string armenianCaption, string englishCaption, FieldType columnType,
                       bool isPermanent = false, short start = 0, bool autoProcess = true,
@@ -12,6 +10,8 @@ public void AddColumn(string name, string source, string armenianCaption, string
                       short headlines = 2, bool isTrimEnd = false, bool mayNotExistInSQL = false,
                       SupportedEncoding supportedEncoding = SupportedEncoding.ArmenianAnsi)
 ```
+
+Տվյալների աղբյուրի սխեմայում ավելացնում է սյան հատկությունների մասին ինֆորմացիան։
 
 **Պարամետրեր**
 

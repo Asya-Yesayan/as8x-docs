@@ -12,11 +12,11 @@ LiteDocument տեսակի փաստաթուղթը տվյալների պահոցի
 
 | Անվանում | Նկարագրություն |
 |----------|----------------|
-| [ExistsRekvizit](LiteDocument/ExistsRekvizit.md) | Ստուգում է տրված ներքին անունով դաշտի առկայությունը փաստաթղթի նկարագրության մեջ։ |
-| [InitGrids](LiteDocument/InitGrids.md) | Ձևավորում է փաստաթղթի աղյուսակները՝ առանց տվյալների բեռնելու։ |
-| [LoadGrids](LiteDocument/LoadGrids.md) | Բեռնում է փաստաթղթի աղյուսակները տվյալների պահոցից և ավելացնում փաստաթղթում։ |
-| [RefreshLastLookup](LiteDocument/RefreshLastLookup.md) | Թարմացնում է [LastLookup](LiteDocument/LastLookup.md) հատկության արժեքը՝ նշանակելով ընթացիկ ամսաթիվը/ժամանակը։ |
-| [RefreshLastTSCheck](LiteDocument/RefreshLastTSCheck.md) | Թարմացնում է [LastTSCheck](LiteDocument/LastTSCheck.md) հատկության արժեքը՝ նշանակելով ընթացիկ ամսաթիվը/ժամանակը։ |
+| [ExistsRekvizit(string)](LiteDocument/ExistsRekvizit.md) | Ստուգում է տրված ներքին անունով դաշտի առկայությունը փաստաթղթի նկարագրության մեջ։ |
+| [InitGrids()](LiteDocument/InitGrids.md) | Ձևավորում է փաստաթղթի աղյուսակները՝ առանց տվյալների բեռնելու։ |
+| [LoadGrids(IDBService, ArchiveInfo)](LiteDocument/LoadGrids.md) | Բեռնում է փաստաթղթի աղյուսակները տվյալների պահոցից և ավելացնում փաստաթղթում։ |
+| [RefreshLastLookup()](LiteDocument/RefreshLastLookup.md) | Թարմացնում է [LastLookup](LiteDocument/LastLookup.md) հատկության արժեքը՝ նշանակելով ընթացիկ ամսաթիվը/ժամանակը։ |
+| [RefreshLastTSCheck()](LiteDocument/RefreshLastTSCheck.md) | Թարմացնում է [LastTSCheck](LiteDocument/LastTSCheck.md) հատկության արժեքը՝ նշանակելով ընթացիկ ամսաթիվը/ժամանակը։ |
 
 ## Հատկություններ
 
