@@ -7,6 +7,7 @@ sublinks:
 - { title: "OTLPDPRMETERENABLED", ref: otlpdprmeterenabled } 
 - { title: "OTLPDSMETERENABLED", ref: otlpdsmeterenabled } 
 - { title: "OTLPDOCSTRACING", ref: otlpdocstracing }
+- { title: "OTLPDPRTRACING", ref: otlpdprtracing }
 - { title: "OTLPDSTRACING", ref: otlpdstracing }
 - { title: "OTLPENABLED", ref: otlpenabled }
 - { title: "OTLPENDPOINT", ref: otlpendpoint }
@@ -22,6 +23,7 @@ sublinks:
 - [OTLPDPRMETERENABLED](#otlpdprmeterenabled)
 - [OTLPDSMETERENABLED](#otlpdsmeterenabled)
 - [OTLPDOCSTRACING](#otlpdocstracing)
+- [OTLPDPRTRACING](#otlpdprtracing)
 - [OTLPDSTRACING](#otlpdstracing)
 - [OTLPENABLED](#otlpenabled)
 - [OTLPENDPOINT](#otlpendpoint)
@@ -59,6 +61,14 @@ sublinks:
 Պարամետրում հարկավոր է նշել trace լինող փաստաթղթերի անունները՝ իրարից անջատելով ստորակետերով։ Օրինակ **"WordDocs, AtmInds, MobUsers"**:
 
 Եթե պարամետրի արժեքը սկսվում է "-"-ով, ապա բոլոր փաստաթղթերը trace կարվեն՝ բացառությամբ նշվածների։ Օրինակ **"-CREATDOC, DocCap"**:
+
+Պարամետրը կարող է պարունակել առավելագույնը 512 սիմվոլ։
+
+## OTLPDPRTRACING    
+
+Պարամետրում հարկավոր է նշել trace լինող տվյալների մշակման հարցումների (DPR) անունները՝ իրարից անջատելով ստորակետերով։ Օրինակ **"UsersAccessDPR, UpdateStatistics"**:
+
+Եթե պարամետրի արժեքը սկսվում է "-"-ով, ապա բոլոր տվյալների մշակման հարցումները (DPR) trace կարվեն՝ բացառությամբ նշվածների։ Օրինակ **"-UsersAccessDPR, RefreshDefinitions"**:
 
 Պարամետրը կարող է պարունակել առավելագույնը 512 սիմվոլ։
 
