@@ -74,7 +74,7 @@ public Task<T> Load<T>(int isn,
 * `lookInArc` - Արխիվացված փաստաթղթի բեռնման հայտանիշ։ **true** արժեքի դեպքում փաստաթուղթը հիմնական պահոցում չգտնելու դեպքում փորձում է բեռնել նաև արխիվային տվյալների պահոցից։
 * `loadImagesAndMemos` - Փաստաթղթի նկարների ու մեծ մուտքագրման դաշտերի (մեմո) բեռնման հայտանիշ։
 
-### RODocumentService.Load(int, bool, Ref<bool>, bool) մեթոդ  
+### RODocumentService.Load(int, bool, Ref&lt;bool&gt;, bool) մեթոդ  
 
 ```c#
 public Task<Dictionary<int, RODocument>> Load(IEnumerable<int> isnList, bool loadGrids = false)

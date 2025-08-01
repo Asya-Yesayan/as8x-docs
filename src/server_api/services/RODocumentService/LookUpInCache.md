@@ -13,7 +13,7 @@ title: RODocumentService.LookUpInCache մեթոդ
 | [LookUpInCache(int, DocumentLoadSession, Ref, bool)](#rodocumentservicelookupincacheint-documentloadsession-ref-bool-մեթոդ) | Փնտրում է փաստաթուղթը քեշում ըստ փաստաթղթի ներքին նույնականացման համարի և վերադարձնում։ |
 | [LookUpInCache(string, string, DocumentLoadSession, DocsTableRowLoader, Ref)](#rodocumentservicelookupincachestring-string-documentloadsession-docstablerowloader-ref-մեթոդ) | Փնտրում է փաստաթուղթը քեշում ըստ փաստաթուղթը պարունակող թղթապանակի ներքին անվան և թղթապանակի տարրի կոդի և վերադարձնում։ |
 
-### RODocumentService.LookUpInCache(int, TimeSpan, Ref<bool>, bool) մեթոդ
+### RODocumentService.LookUpInCache(int, TimeSpan, Ref&lt;bool&gt;, bool) մեթոդ
 
 ```c#
 public async Task<T> LookUpInCache<T>(int isn, TimeSpan checkAfter, 
@@ -34,7 +34,7 @@ public async Task<T> LookUpInCache<T>(int isn, TimeSpan checkAfter,
 * `isRefreshed` - Ցույց է տալիս, արդյոք մեթոդի կանչի արդյունքում փաստաթուղթը բեռնվել է տվյալների պահոցից և թարմացվել քեշում, թե ոչ։
 * `lookInArc` - Արխիվացված փաստաթղթի բեռնման հայտանիշ։ **true** արժեքի դեպքում փաստաթուղթը հիմնական պահոցում չգտնելու դեպքում փորձում է բեռնել նաև արխիվային տվյալների պահոցից, եթե այնտեղ նույնպես փաստաթութը առկա չէ, առաջանում է սխալ։
 
-### RODocumentService.LookUpInCache(string, string, TimeSpan, Ref<bool>) մեթոդ  
+### RODocumentService.LookUpInCache(string, string, TimeSpan, Ref&lt;bool&gt;) մեթոդ  
 
 ```c#
 public Task<T> LookUpInCache<T>(string folder, string key, 
@@ -54,7 +54,7 @@ public Task<T> LookUpInCache<T>(string folder, string key,
   Եթե քեշում պարունակվող փաստաթղթի timestamp-ը չի համընկնում տվյալների պահոցում գրանցված timestamp-ի հետ, ապա փաստաթուղթը բեռնում է տվյալների պահոցից, ավելացվում քեշում և վերադարձվում, հակառակ դեպքում վերադարձնում է քեշում առկա փաստաթուղթը։  
 * `isRefreshed` - Ցույց է տալիս, արդյոք մեթոդի կանչի արդյունքում փաստաթուղթը բեռնվել է տվյալների պահոցից և թարմացվել քեշում, թե ոչ։
 
-### RODocumentService.LookUpInCache(int, bool, Ref<bool>, bool) մեթոդ  
+### RODocumentService.LookUpInCache(int, bool, Ref&lt;bool&gt;, bool) մեթոդ  
 
 ```c#
 public Task<T> LookUpInCache<T>(int isn, bool checkRelevance, 
@@ -74,7 +74,7 @@ public Task<T> LookUpInCache<T>(int isn, bool checkRelevance,
 * `isRefreshed` - Ցույց է տալիս, արդյոք մեթոդի կանչի արդյունքում փաստաթուղթը բեռնվել է տվյալների պահոցից և թարմացվել քեշում, թե ոչ։
 * `lookInArc` - Արխիվացված փաստաթղթի բեռնման հայտանիշ։ **true** արժեքի դեպքում փաստաթուղթը հիմնական պահոցում չգտնելու դեպքում փորձում է բեռնել նաև արխիվային տվյալների պահոցից, եթե այնտեղ նույնպես փաստաթութը առկա չէ, առաջանում է սխալ։
 
-### RODocumentService.LookUpInCache(string, string, bool, DocsTableRowLoader, Ref<bool>) մեթոդ  
+### RODocumentService.LookUpInCache(string, string, bool, DocsTableRowLoader, Ref&lt;bool&gt;) մեթոդ  
 
 ```c#
 public Task<T> LookUpInCache<T>(string folder, string key, 
@@ -94,7 +94,7 @@ public Task<T> LookUpInCache<T>(string folder, string key,
 * `loader` - Delegate, որը որպես մուտքային պարամետրեր ստանում է `folderID`, `folderKey` և նախատեսված է փաստաթղթի հիմնական տեղեկատվության (isn, ստեղծման ամսաթիվ, ստեղծողի համար, մարմին... ) բեռնման սեփական տրամաբանության սահմանման համար։ `null` արժեքի փոխանցման դեպքում հիմնական տեղեկատվությունը բեռնում է համակարգի սահմանած լռությամբ ձևով։
 * `isRefreshed` - Ցույց է տալիս, արդյոք մեթոդի կանչի արդյունքում փաստաթուղթը բեռնվել է տվյալների պահոցից և թարմացվել քեշում, թե ոչ։
 
-### RODocumentService.LookUpInCache(int, DocumentLoadSession, Ref<bool>, bool) մեթոդ  
+### RODocumentService.LookUpInCache(int, DocumentLoadSession, Ref&ltbool&gt;, bool) մեթոդ  
 
 ```c#
 public Task<T> LookUpInCache<T>(int isn, 
@@ -115,7 +115,7 @@ public Task<T> LookUpInCache<T>(int isn,
 * `isRefreshed` - Ցույց է տալիս, արդյոք մեթոդի կանչի արդյունքում փաստաթուղթը բեռնվել է տվյալների պահոցից և թարմացվել քեշում, թե ոչ։
 * `lookInArc` - Արխիվացված փաստաթղթի բեռնման հայտանիշ։ **true** արժեքի դեպքում փաստաթուղթը հիմնական պահոցում չգտնելու դեպքում փորձում է բեռնել նաև արխիվային տվյալների պահոցից, եթե այնտեղ նույնպես փաստաթութը առկա չէ, առաջանում է սխալ։
 
-### RODocumentService.LookUpInCache(string, string, DocumentLoadSession, DocsTableRowLoader, Ref<bool>) մեթոդ  
+### RODocumentService.LookUpInCache(string, string, DocumentLoadSession, DocsTableRowLoader, Ref&lt;bool&gt;) մեթոդ  
 
 ```c#
 public Task<T> LookUpInCache<T>(string folder, string key, 

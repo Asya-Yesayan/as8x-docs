@@ -21,7 +21,7 @@ public Task<List<FolderElement>> GetElements(string folderID);
 
 * `folderID` - Թղթապանակի ներքին անունը։
 
-### IFoldersService.GetElements(string, List<string>) մեթոդ
+### IFoldersService.GetElements(string, List&lt;string&gt;) մեթոդ
 
 ```c#
 public Task<List<FolderElement>> GetElements(string folderID, List<string> keys);

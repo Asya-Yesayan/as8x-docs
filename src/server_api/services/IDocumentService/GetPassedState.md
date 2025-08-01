@@ -10,7 +10,7 @@ title: IDocumentService.GetPassedState մեթոդ
 
 | Անվանում | Նկարագրություն |
 |--|--|
-| [GetPassedState(int, List&lt;short&gt;, bool, bool)](#idocumentservicegetpassedstateint-list-bool-bool-մեթոդ) | Ստուգում է և վերադարձնում փաստաթղթի վերջին կամ առաջին նշանակված վիճակը տրված վիճակների ցուցակից։ |
+| [GetPassedState(int, List&lt;short&gt;, bool, bool)](#idocumentservicegetpassedstateint-listshort-bool-bool-մեթոդ) | Ստուգում է և վերադարձնում փաստաթղթի վերջին կամ առաջին նշանակված վիճակը տրված վիճակների ցուցակից։ |
 | [GetPassedState(int, string, bool, bool)](#idocumentservicegetpassedstateint-string-bool-bool-մեթոդ) | Ստուգում է և վերադարձնում փաստաթղթի վերջին կամ առաջին նշանակված վիճակը վիճակների ցուցակը սահմանող sql հարցում արդյունքից։ |
 | [GetPassedState(int, short, bool, bool)](#idocumentservicegetpassedstateint-short-bool-bool-մեթոդ) | Ստուգում է տրված վիճակը հանդիանում է փաստաթղթի վերջին կամ առաջին նշանակված վիճակը, թե ոչ։ |
 | [GetPassedState(int, bool)](#idocumentservicegetpassedstateint-bool-մեթոդ) | Վերադարձնում է փաստաթղթի վերջին կամ առաջին նշանակված վիճակը։ |

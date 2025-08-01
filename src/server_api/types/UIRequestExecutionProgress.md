@@ -10,8 +10,8 @@ UIRequestExecutionProgress դասը նախատեսված է [DataSource](../defi
 
 | Անվանում | Նկարագրություն |
 |----------|----------------|
-| [MessageBox](UIRequestExecutionProgress/MessageBox.md) | Այս մեթոդը օգտագործվում է [DataSource](../definitions/ds.md), [DPR](../definitions/dpr.md), [Document](../definitions/document.md)-ի կատարման ընթացքում 8X սերվիսից 4X կամ 8X կլիենտին հաղորդագրություն ուղարկելու, հաղորդագրության պատասխանը ստանալու և այն սերվիսում մշակելու համար։ |
-| [MessageBox](UIRequestExecutionProgress/MessageBox1.md) | Այս մեթոդը օգտագործվում է [DataSource](../definitions/ds.md), [DPR](../definitions/dpr.md), [Document](../definitions/document.md)-ի կատարման ընթացքում 8X սերվիսից 4X կամ 8X կլիենտին հաղորդագրություն ուղարկելու, հաղորդագրության պատասխանը ստանալու և այն սերվիսում մշակելու համար։ |
+| [MessageBox(string, MessageBoxButtons, MessageBoxIconType, MessageBoxDefaultButton, string, int, int?)](UIRequestExecutionProgress/MessageBox.md#uirequestexecutionprogressmessageboxstring-messageboxbuttons-messageboxicontype-messageboxdefaultbutton-string-int-int-մեթոդ) | Այս մեթոդը օգտագործվում է [DataSource](../definitions/ds.md), [DPR](../definitions/dpr.md), [Document](../definitions/document.md)-ի կատարման ընթացքում 8X սերվիսից 4X կամ 8X կլիենտին հաղորդագրություն ուղարկելու, հաղորդագրության պատասխանը ստանալու և այն սերվիսում մշակելու համար։ |
+| [MessageBox(string, MessageBoxButtons, MessageBoxIconType, MessageBoxDefaultButton, string, TimeSpan, int?)](UIRequestExecutionProgress/MessageBox.md#uirequestexecutionprogressmessageboxstring-messageboxbuttons-messageboxicontype-messageboxdefaultbutton-string-timespan-int-մեթոդ) | Այս մեթոդը օգտագործվում է [DataSource](../definitions/ds.md), [DPR](../definitions/dpr.md), [Document](../definitions/document.md)-ի կատարման ընթացքում 8X սերվիսից 4X կամ 8X կլիենտին հաղորդագրություն ուղարկելու, հաղորդագրության պատասխանը ստանալու և այն սերվիսում մշակելու համար։ |
 
 ## Հատկություններ
 

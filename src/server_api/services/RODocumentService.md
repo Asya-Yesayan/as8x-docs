@@ -11,18 +11,18 @@ RODocumentService դասը նախատեսված է [RODocument](../types/RODocum
 | Անվանում | Նկարագրություն |
 |----------|----------------|
 | [ClearCache()](RODocumentService/ClearCache.md) | Հեռացնում է բոլոր փաստաթղթերը քեշից։ |
-| [Load](RODocumentService/Load.md) | Բեռնում է փաստաթուղթը տվյալների պահոցից ըստ փաստաթղթի ներքին նույնականացման համարի։ |
-| [Load](RODocumentService/Load1.md) | Բեռնում է փաստաթուղթը տվյալների պահոցից ըստ փաստաթղթի ներքին նույնականացման համարի։ |
-| [Load](RODocumentService/Load2.md) | Բեռնում է փաստաթուղթը տվյալների պահոցից ըստ փաստաթղթի ներքին նույնականացման համարի։ |
-| [Load](RODocumentService/Load3.md) | Բեռնում է նշված ներքին նույնականացման համարներով փաստաթղթերը հիմնական տվյալների պահոցից՝ առանց աղյուսակների բեռնման և արխիվային տվյալների ստուգման: |
-| [LookUpInCache](RODocumentService/LookUpInCache.md) | Փնտրում է փաստաթուղթը քեշում ըստ փաստաթղթի ներքին նույնականացման համարի և վերադարձնում։ |
-| [LookUpInCache](RODocumentService/LookUpInCache1.md) | Փնտրում է փաստաթուղթը քեշում ըստ փաստաթուղթը պարունակող թղթապանակի ներքին անվան և թղթապանակի տարրի կոդի և վերադարձնում։ |
-| [LookUpInCache](RODocumentService/LookUpInCache2.md) | Փնտրում է փաստաթուղթը քեշում ըստ փաստաթղթի ներքին նույնականացման համարի և վերադարձնում։ |
-| [LookUpInCache](RODocumentService/LookUpInCache3.md) | Փնտրում է փաստաթուղթը քեշում ըստ փաստաթուղթը պարունակող թղթապանակի ներքին անվան և թղթապանակի տարրի կոդի և վերադարձնում։ |
-| [LookUpInCache](RODocumentService/LookUpInCache4.md) | Փնտրում է փաստաթուղթը քեշում ըստ փաստաթղթի ներքին նույնականացման համարի և վերադարձնում։ |
-| [LookUpInCache](RODocumentService/LookUpInCache5.md) | Փնտրում է փաստաթուղթը քեշում ըստ փաստաթուղթը պարունակող թղթապանակի ներքին անվան և թղթապանակի տարրի կոդի և վերադարձնում։ |
-| [RemoveFromCache](RODocumentService/RemoveFromCache.md) | Հեռացնում է փաստաթուղթը քեշից՝ ըստ ներքին նույնականացման համարի։ |
-| [RemoveFromCache](RODocumentService/RemoveFromCache1.md) | Հեռացնում է նշված տեսակի բոլոր փաստաթղթերը քեշից։ |
+| [Load(int, bool, bool, bool, bool)](RODocumentService/Load.md#rodocumentserviceloadint-bool-bool-bool-bool-մեթոդ) | Բեռնում է փաստաթուղթը տվյալների պահոցից ըստ փաստաթղթի ներքին նույնականացման համարի։ |
+| [Load(int, bool, bool, bool, bool)](RODocumentService/Load.md#rodocumentserviceloadint-bool-bool-bool-bool-մեթոդ-1) | Բեռնում է փաստաթուղթը տվյալների պահոցից ըստ փաստաթղթի ներքին նույնականացման համարի։ |
+| [Load(int, bool, bool, bool)](RODocumentService/Load.md#rodocumentserviceloadint-bool-bool-bool-մեթոդ) | Բեռնում է փաստաթուղթը տվյալների պահոցից ըստ փաստաթղթի ներքին նույնականացման համարի։ |
+| [Load(int, bool, Ref&lt;bool&gt;, bool)](RODocumentService/Load.md#rodocumentserviceloadint-bool-ref-bool-մեթոդ) | Բեռնում է նշված ներքին նույնականացման համարներով փաստաթղթերը հիմնական տվյալների պահոցից՝ առանց աղյուսակների բեռնման և արխիվային տվյալների ստուգման: |
+| [LookUpInCache(int, bool, Ref&lt;bool&gt;, bool)](RODocumentService/LookUpInCache.md#rodocumentservicelookupincacheint-bool-ref-bool-մեթոդ) | Փնտրում է փաստաթուղթը քեշում ըստ փաստաթղթի ներքին նույնականացման համարի և վերադարձնում։ |
+| [LookUpInCache(int, DocumentLoadSession, Ref&ltbool&gt;, bool)](RODocumentService/LookUpInCache.md#rodocumentservicelookupincacheint-documentloadsession-ref-bool-մեթոդ) | Փնտրում է փաստաթուղթը քեշում ըստ փաստաթղթի ներքին նույնականացման համարի և վերադարձնում։ |
+| [LookUpInCache(int, TimeSpan, Ref&lt;bool&gt;, bool)](RODocumentService/LookUpInCache.md#rodocumentservicelookupincacheint-timespan-ref-bool-մեթոդ) | Փնտրում է փաստաթուղթը քեշում ըստ փաստաթղթի ներքին նույնականացման համարի և վերադարձնում։ |
+| [LookUpInCache(string, string, bool, DocsTableRowLoader, Ref&lt;bool&gt;)](RODocumentService/LookUpInCache.md#rodocumentservicelookupincachestring-string-bool-docstablerowloader-refbool-մեթոդ) | Փնտրում է փաստաթուղթը քեշում ըստ փաստաթուղթը պարունակող թղթապանակի ներքին անվան և թղթապանակի տարրի կոդի և վերադարձնում։ |
+| [LookUpInCache(string, string, DocumentLoadSession, DocsTableRowLoader, Ref&lt;bool&gt;)](RODocumentService/LookUpInCache.md#rodocumentservicelookupincachestring-string-documentloadsession-docstablerowloader-ref-մեթոդ) | Փնտրում է փաստաթուղթը քեշում ըստ փաստաթուղթը պարունակող թղթապանակի ներքին անվան և թղթապանակի տարրի կոդի և վերադարձնում։ |
+| [LookUpInCache(string, string, TimeSpan, Ref&lt;bool&gt;)](RODocumentService/LookUpInCache.md#rodocumentservicelookupincachestring-string-timespan-ref-մեթոդ) | Փնտրում է փաստաթուղթը քեշում ըստ փաստաթուղթը պարունակող թղթապանակի ներքին անվան և թղթապանակի տարրի կոդի և վերադարձնում։ |
+| [RemoveFromCache(int)](RODocumentService/RemoveFromCache.md#rodocumentserviceremovefromcacheint-մեթոդ) | Հեռացնում է փաստաթուղթը քեշից՝ ըստ ներքին նույնականացման համարի։ |
+| [RemoveFromCache(string)](RODocumentService/RemoveFromCache.md#rodocumentserviceremovefromcachestring-մեթոդ) | Հեռացնում է նշված տեսակի բոլոր փաստաթղթերը քեշից։ |
 
 <!-- ### LoadIntoCache
 

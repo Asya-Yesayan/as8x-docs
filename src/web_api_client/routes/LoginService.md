@@ -17,10 +17,10 @@ LoginService դասը նախատեսված է 8X սերվիսին միացման
 
 | Անվանում | Նկարագրություն |
 |----------|----------------|
-| [AuthenticateAsync](LoginService/AuthenticateAsync.md) | Նույնականացնում է ինտեգրման ծրագրի համար ստեղծված բանալիով ([API Client](../api_client.md))։ |
-| [AuthenticateAsync](LoginService/AuthenticateAsync1.md) | Նույնականացնում է օգտագործողի մուտքանունով և գաղտնաբառով, պահանջվում է սերտիֆիկատի առկայություն ([API Client](../api_client.md))։ |
-| [GetToken](LoginService/GetToken.md) | Նույնականացումից հետո վերադարձնում է ստեղծված թոքենը։ |
-| [Logout](LoginService/Logout.md) | Դուրս է հանում ընթացիկ օգտագործողին համակարգից, փակում օգտագործողի [սեսսիան](../../server_api/types/SessionInfo.md) և հեռացնում [սեսսիայի](../../server_api/types/SessionInfo.md) ընթացքում առաջացած ժամանակավոր ֆայլերը, ընդհատում է ընթացիկ առաջադրանքները։ |
+| [AuthenticateAsync(string, HttpClient, ILogger, short, string, string, string, CancellationToken)](LoginService/AuthenticateAsync.md#loginserviceauthenticateasyncstring-httpclient-ilogger-short-string-string-string-cancellationtoken-մեթոդ) | Նույնականացնում է ինտեգրման ծրագրի համար ստեղծված բանալիով ([API Client](../api_client.md))։ |
+| [AuthenticateAsync(string, HttpClient, ILogger, X509Certificate2, short, string, string, string, CancellationToken)](LoginService/AuthenticateAsync.md#loginserviceauthenticateasyncstring-httpclient-ilogger-x509certificate2-short-string-string-string-cancellationtoken-մեթոդ) | Նույնականացնում է օգտագործողի մուտքանունով և գաղտնաբառով, պահանջվում է սերտիֆիկատի առկայություն ([API Client](../api_client.md))։ |
+| [GetToken(TimeSpan?)](LoginService/GetToken.md) | Նույնականացումից հետո վերադարձնում է ստեղծված թոքենը։ |
+| [Logout()](LoginService/Logout.md) | Դուրս է հանում ընթացիկ օգտագործողին համակարգից, փակում օգտագործողի [սեսսիան](../../server_api/types/SessionInfo.md) և հեռացնում [սեսսիայի](../../server_api/types/SessionInfo.md) ընթացքում առաջացած ժամանակավոր ֆայլերը, ընդհատում է ընթացիկ առաջադրանքները։ |
 
 ## Հատկություններ
 

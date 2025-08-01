@@ -14,17 +14,17 @@ IDocumentService դասը նախատեսված է փաստաթղթի ([Document]
 | [CheckProcessingMode(string)](IDocumentService/CheckProcessingMode.md) | Ստուգում է տրված տեսակի փաստաթղթերի գրանցման/հեռացման հնարավորությունը 8X սերվիսում (փաստաթղթի կատարման ռեժիմը (ProcessingMode) չլինի `0`)։ |
 | [CleanDeleted(DateTime, DateTime, string)](IDocumentService/CleanDeleted.md) | Ջնջված փաստաթղթերը լրիվ հեռացնում է համակարգից ըստ ջնջման ժամանակահատվածի։ |
 | [Copy(int, object, int)](IDocumentService/Copy.md) | Ստեղծում է արդեն գոյություն ունեցող փաստաթղթի պատճեն օբյեկտը։ |
-| [Create](IDocumentService/Create.md#idocumentservicecreateint-documentorigin-մեթոդ) | Ստեղծում է նշված տիպի փաստաթղթի նոր օբյեկտ։ |
-| [Create](IDocumentService/Create.md#idocumentservicecreatelistint-documentorigin-մեթոդ) | Ստեղծում է նշված տիպի փաստաթղթի նոր օբյեկտ։ |
-| [Create](IDocumentService/Create.md#idocumentservicecreatestring-listint-type-documentorigin-մեթոդ) | Ստեղծում է նշված ներքին անունով (տեսակի) փաստաթղթի նոր օբյեկտ։ |
+| [Create(int, DocumentOrigin)](IDocumentService/Create.md#idocumentservicecreateint-documentorigin-մեթոդ) | Ստեղծում է նշված տիպի փաստաթղթի նոր օբյեկտ։ |
+| [Create(List&lt;int&gt;, DocumentOrigin)](IDocumentService/Create.md#idocumentservicecreatelistint-documentorigin-մեթոդ) | Ստեղծում է նշված տիպի փաստաթղթի նոր օբյեկտ։ |
+| [Create(string, List&lt;int&gt;, Type, DocumentOrigin)](IDocumentService/Create.md#idocumentservicecreatestring-listint-type-documentorigin-մեթոդ) | Ստեղծում է նշված ներքին անունով (տեսակի) փաստաթղթի նոր օբյեկտ։ |
 | [CreateFactsUsingStateMoverFrom(Document, int)](IDocumentService/CreateFactsUsingStateMoverFrom.md) | Ֆունկցիան կանչելուց հետո [Action](../definitions/document/Action.md)-ում [StoreFact(Document, Fact)](IDocumentService/StoreFact.md) ֆունկցիայով գրանցվող հաշվառումների ստեղծող օգատգործող է լրացվում այն օգտագործողը, որը վերջինն է փաստաթուղթը բերել նշված վիճակ։ |
 | [CreateParentLinkDB(int, int)](IDocumentService/CreateParentLinkDB.md) | Փաստաթղթերի միջև ստեղծում է ծնող-զավակ կապ։ |
 | [CreateParentLinksDB(int, List<int>)](IDocumentService/CreateParentLinksDB.md) | Փաստաթղթի և տրված ծնող փաստաթղթերի միջև ստեղծում է ծնող-զավակ կապ։ |
 | [CreationDate(int, bool)](IDocumentService/CreationDate.md) | Վերադարձնում է փաստաթղթի ստեղծման ամսաթիվը և ստեղծողի ներքին համարը։ |
 | [CutChildLink(int, int)](IDocumentService/CutChildLink.md) | Ջնջում է փաստաթղթի և իրա զավակների միջև կապերը, կամ մեկ նշված զավակ փաստաթղթի հետ կապը։ |
 | [CutParentLink(int, int)](IDocumentService/CutParentLink.md) | Ջնջում է փաստաթղթի և իրա ծնողների միջև կապերը, կամ մեկ նշված ծնող փաստաթղթի հետ կապը։ |
-| [Delete](IDocumentService/Delete.md#idocumentservicedeletedocument-bool-string-bool-bool-մեթոդ) | Ջնջում է փաստաթուղթը համակարգից։ |
-| [Delete](IDocumentService/Delete.md#idocumentservicedeleteint-bool-string-bool-bool-մեթոդ) | Ջնջում է փաստաթուղթը համակարգից։ |
+| [Delete(Document, bool, string, bool, bool)](IDocumentService/Delete.md#idocumentservicedeletedocument-bool-string-bool-bool-մեթոդ) | Ջնջում է փաստաթուղթը համակարգից։ |
+| [Delete(int, bool, string, bool, bool)](IDocumentService/Delete.md#idocumentservicedeleteint-bool-string-bool-bool-մեթոդ) | Ջնջում է փաստաթուղթը համակարգից։ |
 | [DeleteAll(List<int>, bool, string, bool, bool)](IDocumentService/DeleteAll.md) | Ջնջում է տրված փաստաթղթերը համակարգից։ |
 | [DeserializeRequestBody(DocumentModel, bool)](IDocumentService/DeserializeRequestBody.md) | նախատեսված է կլիենտից դեպի սերվեր փաստաթղթի ուղարկման ժամանակ դեսերիալիզազիայի և [Document](../definitions/document.md) տիպի օբյեկտի վերածեու համար։ |
 | [ExistInDb(int)](IDocumentService/ExistInDb.md) | Ստուգում է փաստաթղթի առկայությունը տվյալների պահոցում։ |
@@ -38,22 +38,22 @@ IDocumentService դասը նախատեսված է փաստաթղթի ([Document]
 | [GetDocumentType(int)](IDocumentService/GetDocumentType.md) | Վերադարձնում է նշված ներքին նույնականացման համարով փաստաթղթի ներքին անունը (տեսակը)։ |
 | [GetDocumentTypeFromFolder(string, string)](IDocumentService/GetDocumentTypeFromFolder.md) | Վերադարձնում է նշված թղթապանակից փաստաթղթի ներքին անունը (տեսակը): |
 | [GetGrandChildren(int, string, string, string, string)](IDocumentService/GetGrandChildren.md) | Նշված փաստաթղթի համար վերադարձնում է «թոռնիկների» ցուցակը։ |
-| [GetParentIsn](IDocumentService/GetParentIsn.md#idocumentservicegetparentisnint-մեթոդ) | Վերադարձնում է փաստաթղթի միակ(առաջին) ծնող փաստաթղթի ներքին նույնականացման համարը։ |
-| [GetParentIsn](IDocumentService/GetParentIsn.md#idocumentservicegetparentisnint-string-մեթոդ) | Վերադարձնում է փաստաթղթի առաջին ծնող փաստաթղթի ներքին նույնականացման համարը, որը ունի նշված ներքին անունը (տեսակը)։ |
-| [GetPassedState](IDocumentService/GetPassedState.md) | Ստուգում է և վերադարձնում փաստաթղթի վերջին կամ առաջին նշանակված վիճակը տրված վիճակների ցուցակից։ |
-| [GetPassedState](IDocumentService/GetPassedState1.md) | Ստուգում է և վերադարձնում փաստաթղթի վերջին կամ առաջին նշանակված վիճակը վիճակների ցուցակը սահմանող sql հարցում արդյունքից։ |
-| [GetPassedState](IDocumentService/GetPassedState2.md) | Ստուգում է տրված վիճակը հանդիանում է փաստաթղթի վերջին կամ առաջին նշանակված վիճակը, թե ոչ։ |
-| [GetPassedState](IDocumentService/GetPassedState3.md) | Վերադարձնում է փաստաթղթի վերջին կամ առաջին նշանակված վիճակը։ |
+| [GetParentIsn(int)](IDocumentService/GetParentIsn.md#idocumentservicegetparentisnint-մեթոդ) | Վերադարձնում է փաստաթղթի միակ(առաջին) ծնող փաստաթղթի ներքին նույնականացման համարը։ |
+| [GetParentIsn(int, string)](IDocumentService/GetParentIsn.md#idocumentservicegetparentisnint-string-մեթոդ) | Վերադարձնում է փաստաթղթի առաջին ծնող փաստաթղթի ներքին նույնականացման համարը, որը ունի նշված ներքին անունը (տեսակը)։ |
+| [GetPassedState(int, List&lt;short&gt;, bool, bool)](IDocumentService/GetPassedState.md#idocumentservicegetpassedstateint-listshort-bool-bool-մեթոդ) | Ստուգում է և վերադարձնում փաստաթղթի վերջին կամ առաջին նշանակված վիճակը տրված վիճակների ցուցակից։ |
+| [GetPassedState(int, string, bool, bool)](IDocumentService/GetPassedState.md#idocumentservicegetpassedstateint-string-bool-bool-մեթոդ) | Ստուգում է և վերադարձնում փաստաթղթի վերջին կամ առաջին նշանակված վիճակը վիճակների ցուցակը սահմանող sql հարցում արդյունքից։ |
+| [GetPassedState(int, short, bool, bool)](IDocumentService/GetPassedState.md#idocumentservicegetpassedstateint-short-bool-bool-մեթոդ) | Ստուգում է տրված վիճակը հանդիանում է փաստաթղթի վերջին կամ առաջին նշանակված վիճակը, թե ոչ։ |
+| [GetPassedState(int, bool)](IDocumentService/GetPassedState.md#idocumentservicegetpassedstateint-bool-մեթոդ) | Վերադարձնում է փաստաթղթի վերջին կամ առաջին նշանակված վիճակը։ |
 | [GetProcessingModes(string)](IDocumentService/GetProcessingModes.md) | Վերադարձնում է փաստաթղթի կատարման ռեժիմները ըստ փաստաթղթի ներքին անվան (տեսակի)։ |
 | [GetSUIDAndDate(int, int, bool)](IDocumentService/GetSUIDAndDate.md) | Փնտրում է նշված վիճակին համապատասխան տողի առկայությունը փաստաթղթի պատմության մեջ ([DOCLOG](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Database/DocLog.html) աղյուսակում) և վերադարձնում ստեղծողին և ամսաթիվը։ |
 | [HiDelete(Document, bool)](IDocumentService/HiDelete.md) | Ջնջում է փաստաթղթի նախկինում գրանցած հաշվառումները [HI](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Database/Hi.html) աղյուսակից։ |
 | [HiDeleteAll(Document)](IDocumentService/HiDeleteAll.md) | Ջնջում է փաստաթղթի նախկինում գրանցած հաշվառումները [HI](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Database/Hi.html), [HI2](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Database/Hi2.html) և այլ համարժեք աղյուսակներից։ |
 | [HiParDelete(Document)](IDocumentService/HiParDelete.md) | [HIPAR](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Database/HiPar.html) աղյուսակից ջնջում է այս փաստաթղթի նախկինում գրանցած պարամետրերի արժեքները։ |
 | [IsArchived(int)](IDocumentService/IsArchived.md) | Ստուգում է փաստաթղթի արխիվացված լինելը։ |
-| [Load](IDocumentService/Load.md) | Բեռնում է տվյալների պահոցում գոյություն ունեցող փաստաթուղթը ըստ ներքին նույնականացման համարի։ |
-| [Load](IDocumentService/Load1.md) | Բեռնում է տվյալների պահոցում գոյություն ունեցող փաստաթուղթը ըստ ներքին նույնականացման համարի։ |
-| [LoadFromFolder](IDocumentService/LoadFromFolder.md) | Բեռնում է փաստաթուղթը ըստ թղթապանակի և բանալու։ |
-| [LoadFromFolder](IDocumentService/LoadFromFolder1.md) | Բեռնում է փաստաթուղթը ըստ թղթապանակի և բանալու։ |
+| [Load(int, GridLoadMode, bool, bool, bool, bool, bool)](IDocumentService/Load.md#idocumentserviceloadint-gridloadmode-bool-bool-bool-bool-bool-մեթոդ) | Բեռնում է տվյալների պահոցում գոյություն ունեցող փաստաթուղթը ըստ ներքին նույնականացման համարի։ |
+| [Load(int, GridLoadMode, bool, bool, bool, bool, Type, bool)](IDocumentService/Load.md#idocumentserviceloadint-gridloadmode-bool-bool-bool-bool-type-bool-մեթոդ) | Բեռնում է տվյալների պահոցում գոյություն ունեցող փաստաթուղթը ըստ ներքին նույնականացման համարի։ |
+| [LoadFromFolder(string, string, GridLoadMode, bool, bool)](IDocumentService/LoadFromFolder.md#idocumentserviceloadfromfolderstring-string-gridloadmode-bool-bool-մեթոդ) | Բեռնում է փաստաթուղթը ըստ թղթապանակի և բանալու։ |
+| [LoadFromFolder(string, string, GridLoadMode, bool, Type, bool)](IDocumentService/LoadFromFolder.md#idocumentserviceloadfromfolderstring-string-gridloadmode-bool-type-bool-մեթոդ) | Բեռնում է փաստաթուղթը ըստ թղթապանակի և բանալու։ |
 | [MakeParentLink(Document, int, bool)](IDocumentService/MakeParentLink.md) | Ընթացիկ փաստաթղթի համար սահմանում է ծնողի հետ կապ։ |
 | [NestedTransactions(Document, List<T>, TextReport,bool, bool)](IDocumentService/NestedTransactions.md) | Մեթոդը անցնում է `values` ցուցակի բոլոր տարրերով, յուրաքանչյուրի համար սկսում տրանզակցիա, կանչում [IDocumentNestedTransaction](../types/IDocumentNestedTransaction.md)-ի [NestedTransaction](../types/IDocumentNestedTransaction/NestedTransaction.md)` մեթոդը և ավարտում տրանզակցիան։ Այն անհրաժեշտ է կանչել փաստաթղթի [Action](../definitions/document/Action.md) մեթոդում։ |
 | [ReFolder(Document, StoreMode)](IDocumentService/ReFolder.md) | Իրականացնում է փաստաթղթի վերաինդեքսավորումը թղթապանակներում: |

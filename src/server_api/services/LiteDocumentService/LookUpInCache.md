@@ -30,7 +30,7 @@ public Task<LiteDocument> LookUpInCache(int isn,
 * `isRefreshed` - Ցույց է տալիս, արդյոք մեթոդի կանչի արդյունքում փաստաթուղթը բեռնվել է տվյալների պահոցից և թարմացվել քեշում, թե ոչ։
 * `lookInArc` - Արխիվացված փաստաթղթի բեռնման հայտանիշ։ **true** արժեքի դեպքում փաստաթուղթը հիմնական պահոցում չգտնելու դեպքում փորձում է բեռնել նաև արխիվային տվյալների պահոցից, եթե այնտեղ նույնպես փաստաթութը առկա չէ, առաջանում է սխալ։
 
-### LiteDocumentService.LookUpInCache(string, string, TimeSpan, Ref<bool>) մեթոդ  
+### LiteDocumentService.LookUpInCache(string, string, TimeSpan, Ref&lt;bool&gt;) մեթոդ  
 
 ```c#
 public Task<LiteDocument> LookUpInCache(string folderID,

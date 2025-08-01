@@ -13,8 +13,8 @@ FolderService դասը նախատեսված է [FOLDERS](https://armsoft.github.
 | Անվանում | Նկարագրություն |
 |----------|----------------|
 | [Exists(string)](IFoldersService/Exists.md) | Ստուգում է որևէ տարրի առկայությունը տվյալների պահոցի [FOLDERS](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Database/Folders.html) աղյուսակում։ |
-| [GetElement](IFoldersService/GetElement.md) | Վերադարձնում է [թղթապանակի տարրը](../types/FolderElement.md)՝ ըստ թղթապանակի ներքին անվան և փաստաթղթի ներքին նույնականացման համարի։ |
-| [GetElement](IFoldersService/GetElement1.md) | Վերադարձնում է [թղթապանակի տարրը](../types/FolderElement.md)՝ ըստ թղթապանակի ներքին անվան և բանալու։ |
-| [GetElements](IFoldersService/GetElements.md) | Վերադարձնում է թղթապանակի բոլոր [տարրերը](../types/FolderElement.md): |
-| [GetElements](IFoldersService/GetElements1.md) | Վերադարձնում է թղթապանակի նշված բանալիներով [տարրերը](../types/FolderElement.md): |
+| [GetElement(string, int)](IFoldersService/GetElement.md#ifoldersservicegetelementstring-int-մեթոդ) | Վերադարձնում է [թղթապանակի տարրը](../types/FolderElement.md)՝ ըստ թղթապանակի ներքին անվան և փաստաթղթի ներքին նույնականացման համարի։ |
+| [GetElement(string, string, bool)](IFoldersService/GetElement.md#ifoldersservicegetelementstring-string-bool-մեթոդ) | Վերադարձնում է [թղթապանակի տարրը](../types/FolderElement.md)՝ ըստ թղթապանակի ներքին անվան և բանալու։ |
+| [GetElements(string)](IFoldersService/GetElements.md#ifoldersservicegetelementsstring-մեթոդ) | Վերադարձնում է թղթապանակի բոլոր [տարրերը](../types/FolderElement.md): |
+| [GetElements(string, List&lt;string&gt;)](IFoldersService/GetElements.md#ifoldersservicegetelementsstring-list-մեթոդ) | Վերադարձնում է թղթապանակի նշված բանալիներով [տարրերը](../types/FolderElement.md): |
 | [GetISN(string, string)](IFoldersService/GetISN.md) | Վերադարձնում է թղթապանակում գրանցված փաստաթղթի ներքին նույնականացման համարը՝ ըստ թղթապանակի ներքին անվան և բանալու։ |

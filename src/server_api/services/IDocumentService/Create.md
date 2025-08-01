@@ -10,7 +10,7 @@ title: IDocumentService.Create մեթոդ
 
 | Անվանում | Նկարագրություն |
 |--|--|
-| [Create(List\<int\>, DocumentOrigin)]((#idocumentservicecreatelistint-documentorigin-մեթոդ)) | Ստեղծում է նշված տիպի փաստաթղթի նոր օբյեկտ։ |
+| [Create(List\<int\>, DocumentOrigin)](#idocumentservicecreatelistint-documentorigin-մեթոդ) | Ստեղծում է նշված տիպի փաստաթղթի նոր օբյեկտ։ |
 | [Create(int, DocumentOrigin)](#idocumentservicecreateint-documentorigin-մեթոդ) | Ստեղծում է նշված տիպի փաստաթղթի նոր օբյեկտ։ |
 | [Create(string, List\<int\>, Type, DocumentOrigin)](#idocumentservicecreatestring-listint-type-documentorigin-մեթոդ) | Ստեղծում է նշված ներքին անունով (տեսակի) փաստաթղթի նոր օբյեկտ։ |
 
