@@ -1,8 +1,8 @@
 ---
-title: "TemplateSubstitutionEventArgs" 
+title: "TemplateSubstitutionEventArgs դաս" 
 ---
 
-Այս դասը պարունակում է փաստաթղթի տպելու ձևանմուշի տվյալներ և օգտագործվում է DocumentExtender-ի [PostTemplateSubstitution](../../definitions/document_extender/PostTemplateSubstitution.md), [PostTemplateSubstitutionEx](../../definitions/document_extender/PostTemplateSubstitutionEx.md) մեթոդներում։
+Այս դասը պարունակում է փաստաթղթի տպելու ձևանմուշի տվյալներ և օգտագործվում է [DocumentExtender](../../definitions/document_extender.md)-ի [PostTemplateSubstitution](../../definitions/document_extender/PostTemplateSubstitution.md), [PostTemplateSubstitutionEx](../../definitions/document_extender/PostTemplateSubstitutionEx.md) մեթոդներում։
 
 ```c#
 public class TemplateSubstitutionEventArgs<T> where T : ITemplateSubstitution
