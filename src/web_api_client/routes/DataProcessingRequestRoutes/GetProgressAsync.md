@@ -12,5 +12,5 @@ public Task<DPRProgress> GetProgressAsync(Guid id, CancellationToken cancellatio
 
 **Պարամետրեր**
 
-* `id` - [DPR](../../../server_api/definitions/dpr.md)-ի կատարման առաջադրանքի id-ն, որը ստացվում է [EnqueueAsync](DPR](../../../server_api/definitions/dpr.md)-ի կատարման առաջադրանքի id-ն, որը ստացվում է [EnqueueAsync.md) մեթոդի կանչի արդյունքում։
+* `id` - [DPR](../../../server_api/definitions/dpr.md)-ի կատարման առաջադրանքի id-ն, որը ստացվում է [EnqueueAsync](DPR](../../../server_api/definitions/dpr.md)-ի կատարման առաջադրանքի id-ն, որը ստացվում է [EnqueueAsync](EnqueueAsync.md) մեթոդի կանչի արդյունքում։
 * `cancellationToken` - Ընդհատման օբյեկտ:

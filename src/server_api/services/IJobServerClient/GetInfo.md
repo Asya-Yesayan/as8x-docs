@@ -1,9 +1,9 @@
 ---
-title: IJobServerClient.GetJobsInfo(string) մեթոդ  
+title: IProcessServerClient.GetInfo(string) մեթոդ  
 ---
 
 ```c#
-public Task<List<JobInfoModel>> GetJobsInfo(string sessionGuid)
+public Task<List<ProcessInfoModel>> GetInfo(string sessionGuid)
 ```
 
 Վերադարձնում է նշված id-ով [սեսսիայի](../../types/SessionInfo.md) բոլոր [փաստաթղթի](../../definitions/document.md), [տվյալների աղբյուրի](../../definitions/ds.md), [DPR](../../definitions/dpr.md)-ի կատարման առաջադրանքների ինֆորմացիաների ցուցակը։

@@ -1,5 +1,5 @@
 ---
-title: IJobServerClient.Delete(Guid) մեթոդ  
+title: IProcessServerClient.Delete(Guid) մեթոդ  
 ---
 
 ```c#

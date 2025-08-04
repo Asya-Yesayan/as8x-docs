@@ -11,7 +11,7 @@ sublinks:
 - { title: "OTLPDSTRACING", ref: otlpdstracing }
 - { title: "OTLPENABLED", ref: otlpenabled }
 - { title: "OTLPENDPOINT", ref: otlpendpoint }
-- { title: "OTLPJOBMETERENABLED", ref: otlpjobmeterenabled }
+- { title: "OTLPPROCMETERENABLED", ref: otlpprocmeterenabled }
 - { title: "OTLPPROTOCOL", ref: otlpprotocol }
 ---
 
@@ -27,7 +27,7 @@ sublinks:
 - [OTLPDSTRACING](#otlpdstracing)
 - [OTLPENABLED](#otlpenabled)
 - [OTLPENDPOINT](#otlpendpoint)
-- [OTLPJOBMETERENABLED](#otlpjobmeterenabled)
+- [OTLPPROCMETERENABLED](#otlpprocmeterenabled)
 - [OTLPPROTOCOL](#otlpprotocol)
 
 ## Ներածություն
@@ -88,7 +88,7 @@ sublinks:
 
 Պարամետրում հարկավոր է նշել OTLP collector-ի հասցեն, որտեղ պետք է արտահանվեն գրանցված trace-երը և մետրիկաները։
 
-## OTLPJOBMETERENABLED 
+## OTLPPROCMETERENABLED 
 
 Պարամետրի **true** արժեքի դեպքում գրանցվում են մետրիկաներ սերվիսում երկար տևող հարցումների (Document, Data source, DPR jobs) մասին՝
 * հերթում սպասող երկար տևող հարցումների քանակը,

@@ -5,7 +5,7 @@ title: "Descriptor"
     
 Այս դասը նախատեսված է [DPR](../definitions/dpr.md)-ի մետատվյալների նկարագրման համար։
 
-Օգտագործվում է [IJobServerClient](../services/IJobServerClient.md).[Enqueue](../services/IJobServerClient/Enqueue.md) մեթոդով [DPR](../definitions/dpr.md)-ի կատարումը հերթի դնելիս։
+Օգտագործվում է [IProcessServerClient](../services/IProcessServerClient.md).[Enqueue](../services/IProcessServerClient/Enqueue.md) մեթոդով [DPR](../definitions/dpr.md)-ի կատարումը հերթի դնելիս։
     
 public class Descriptor
 {

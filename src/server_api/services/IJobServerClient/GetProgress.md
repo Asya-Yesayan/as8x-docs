@@ -1,9 +1,9 @@
 ---
-title: IJobServerClient.GetJobProgress(Guid) մեթոդ  
+title: IProcessServerClient.GetProgress(Guid) մեթոդ  
 ---
 
 ```c#
-public Task<object> GetJobProgress(Guid id)
+public Task<object> GetProgress(Guid id)
 ```
 
 Վերադարձնում է նախապես հերթի դրված [փաստաթղթի](../../definitions/document.md), [տվյալների աղբյուրի](../../definitions/ds.md), [DPR](../../definitions/dpr.md)-ի կատարման պրոգրեսը։

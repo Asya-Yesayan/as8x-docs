@@ -1,9 +1,9 @@
 ---
-title: IJobServerClient.Enqueue(DPR.Descriptor, object, bool, IServiceProvider, Dictionary<int, UIRequestResultBase>, string, bool) մեթոդ  
+title: IProcessServerClient.Enqueue(DPR.Descriptor, object, bool, IServiceProvider, Dictionary<int, UIRequestResultBase>, string, bool) մեթոդ  
 ---
 
 ```c#
-public Task<JobEnqueueResponse> Enqueue(DPR.Descriptor dpr, object param, bool enableUIRequest,
+public Task<ProcessEnqueueResponse> Enqueue(DPR.Descriptor dpr, object param, bool enableUIRequest,
                                         IServiceProvider serviceProvider,
                                         Dictionary<int, UIRequestResultBase> uiResponse, string sessionGuid,
                                         bool isUnicode = false)

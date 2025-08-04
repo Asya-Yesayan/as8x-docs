@@ -1,5 +1,5 @@
 ---
-title: IJobServerClient.Stop(Guid, object) մեթոդ  
+title: IProcessServerClient.Stop(Guid, object) մեթոդ  
 ---
 
 ```c#
