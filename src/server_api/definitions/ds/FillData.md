@@ -1,5 +1,5 @@
 ---
-title: DataSource.FillData(DataSourceArgs&lt;P&gt;, CancellationToken) մեթոդ
+title: DataSource.FillData(DataSourceArgs<P>, CancellationToken) մեթոդ
 ---
 
 ## Նկարագիր

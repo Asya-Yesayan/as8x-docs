@@ -1,5 +1,5 @@
 ---
-title: DataSource.Execute(P, HashSet&lt;string&gt;, IExtender, CancellationToken) մեթոդ
+title: DataSource.Execute(P, HashSet<string>, IExtender, CancellationToken) մեթոդ
 ---
 
 ## Նկարագիր

@@ -1,5 +1,5 @@
 ---
-title: IDocumentNestedTransactionWithError.NestedTransactionError(NestedTransactionErrorEventArgs&lt;T&gt;) մեթոդ
+title: IDocumentNestedTransactionWithError.NestedTransactionError(NestedTransactionErrorEventArgs<T>) մեթոդ
 ---
 
 ```c#
@@ -10,4 +10,4 @@ public Task NestedTransactionError(NestedTransactionErrorEventArgs<T> args)
 
 **Պարամետրեր**
 
-* `args` - **NestedTransactionErrorEventArgs** դասի օբյեկտ, որը պարունակում է **values`** ցուցակի այն տարրը, որի մշակման ընթացքում առաջացել է սխալը և սխալները պարունակող [տեքստային հաշվետվությունը](../TextReport.md)։
+* `args` - [NestedTransactionErrorEventArgs](../args/NestedTransactionErrorEventArgs.md) դասի օբյեկտ։

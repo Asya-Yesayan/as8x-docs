@@ -1,5 +1,5 @@
 ---
-title: DataSource.ProcessRow(DataSourceArgs&lt;P&gt;, R, SqlDataReader) մեթոդ
+title: DataSource.ProcessRow(DataSourceArgs<P>, R, SqlDataReader) մեթոդ
 ---
 
 ## Նկարագիր
