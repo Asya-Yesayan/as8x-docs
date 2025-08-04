@@ -14,5 +14,5 @@ public virtual Task PostTemplateSubstitutionEx(Document sender, TemplateSubstitu
 
 **Պարամետրեր**
 
-* `sender` - Տպելու ձևանմուշին կապակցված փաստաթղթի օբյեկտ։
+* `sender` - Տպելու ձևանմուշին կապակցված [փաստաթղթի](../../../server_api/definitions/document.md) օբյեկտ։
 * `args` - [TemplateSubstitutionEventArgs](../../types/args/TemplateSubstitutionEventArgs.md) տիպի օբյեկտ։
