@@ -4,7 +4,7 @@ title: Extender.ProccessRow(IExtendableRow, IDataSourceArgs) մեթոդ
 
 ## Նկարագիր
 
-**Համարժեքը 4x-ում՝** PostValid
+**Համարժեքը 4x-ում՝** ScriptExtension.DataPostValid
 
 ```c#
 public virtual Task<bool> ProccessRow(IExtendableRow row, IDataSourceArgs args)

@@ -4,7 +4,7 @@ title: DocumentExtender.PostOnRejectDocumentChangeRequest(Document, RejectDocume
 
 ## Նկարագիր
 
-**Համարժեքը 4x-ում՝** PostOnRejectDCR
+**Համարժեքը 4x-ում՝** ScriptExtension.DocPostOnRejectDCR
 
 ```c#
 public virtual Task PostOnRejectDocumentChangeRequest(Document sender, RejectDocumentChangeRequestEventArgs args)

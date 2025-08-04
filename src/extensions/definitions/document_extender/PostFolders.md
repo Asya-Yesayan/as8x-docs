@@ -4,7 +4,7 @@ title: DocumentExtender.PostFolders(Document, FoldersEventArgs) մեթոդ
 
 ## Նկարագիր
 
-**Համարժեքը 4x-ում՝** PostFolders
+**Համարժեքը 4x-ում՝** ScriptExtension.DocPostFolders
 
 ```c#
 public virtual Task PostFolders(Document sender, FoldersEventArgs args)

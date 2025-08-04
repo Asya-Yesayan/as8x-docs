@@ -4,7 +4,7 @@ title: DocumentExtender.PostAction(Document, ActionEventArgs) մեթոդ
 
 ## Նկարագիր
 
-**Համարժեքը 4x-ում՝** PostAction
+**Համարժեքը 4x-ում՝** ScriptExtension.DocPostAction
 
 ```c#
 public virtual Task PostAction(Document sender, ActionEventArgs args)

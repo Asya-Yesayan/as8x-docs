@@ -4,7 +4,7 @@ title: DocumentExtender.PostLoadGrids(Document, LoadGridsEventArgs) մեթոդ
 
 ## Նկարագիր
 
-**Համարժեքը 4x-ում՝** PostLoadGrids
+**Համարժեքը 4x-ում՝** ScriptExtension.DocPostLoadGrids
 
 ```c#
 public virtual Task PostLoadGrids(Document sender, LoadGridsEventArgs args)

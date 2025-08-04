@@ -4,7 +4,7 @@ title: DocumentExtender.PostAfterCreate(Document, AfterCreateEventArgs) մեթո
 
 ## Նկարագիր
 
-**Համարժեքը 4x-ում՝** PostAfterCreate
+**Համարժեքը 4x-ում՝** ScriptExtension.DocPostAfterCreate
 
 ```c#
 public virtual Task PostAfterCreate(Document sender, AfterCreateEventArgs args)

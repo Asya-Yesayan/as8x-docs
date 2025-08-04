@@ -4,7 +4,7 @@ title: DocumentExtender.PreAfterCommit(Document, AfterCommitEventArgs) մեթո�
 
 ## Նկարագիր
 
-**Համարժեքը 4x-ում՝** PreAfterCommit
+**Համարժեքը 4x-ում՝** ScriptExtension.DocPreAfterCommit
 
 ```c#
 public virtual Task PreAfterCommit(Document sender, AfterCommitEventArgs args)

@@ -4,7 +4,7 @@ title: DocumentExtender.PostStoreGrid(Document, StoreGridsEventArgs) մեթոդ
 
 ## Նկարագիր
 
-**Համարժեքը 4x-ում՝** PostStoreGrid
+**Համարժեքը 4x-ում՝** ScriptExtension.DocPostStoreGrid
 
 ```c#
 public virtual Task PostStoreGrid(Document sender, StoreGridsEventArgs args)
