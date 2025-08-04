@@ -1,5 +1,5 @@
 ---
-title: document_extender սերվիս
+title: DocumentExtender նկարագրություն
 ---
 
 ## Ներածություն
