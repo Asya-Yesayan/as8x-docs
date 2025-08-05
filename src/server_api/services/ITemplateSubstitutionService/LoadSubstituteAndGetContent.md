@@ -7,12 +7,11 @@ title: ITemplateSubstitutionService.LoadSubstituteAndGetContent(IPrintTemplateSu
 **Համարժեքը 4x-ում՝** [TemplateSubstitution.SubstituteToTemplate](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/TemplateSubstitution/SubstituteToTemplate.html) ??
 
 ```c#
-public Task<string> LoadSubstituteAndGetContent(
-    IPrintTemplateSubstitution printTemplateSubstitution, 
-    string name, 
-    SubstitutionType type, 
-    HtmlImageOption htmlImageOption = default,
-    bool check = false)
+public Task<string> LoadSubstituteAndGetContent(IPrintTemplateSubstitution printTemplateSubstitution, 
+                                                string name, 
+                                                SubstitutionType type, 
+                                                HtmlImageOption htmlImageOption = default,
+                                                bool check = false)
 ```
 
 Բեռնում է տպելու ձևանմուշը տվյալների պահոցից, լրացնում `printTemplateSubstitution`-ում պարունակվող նախապես հաշվարկված տվյալներով և ստացված ֆայլը վերադարձնում որպես տեքստ։
