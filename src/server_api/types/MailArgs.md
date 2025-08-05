@@ -20,7 +20,7 @@ public class MailArgs
     public IEnumerable<string> BlindCopyRecipients { get; set; }
     public string Subject { get; set; }
     public string Body { get; set; }
-    public string FileAttachments { get; set; }
+    public List<string> FileAttachments { get; set; } = [];
     public bool RequestReceipt { get; set; }
 }
 ```
@@ -45,5 +45,5 @@ public class MailArgs
 * `CopyRecipients` - Այն էլեկտրոնային հասցեների ցուցակը, որոնք ստանալու են հաղորդագրության պատճենը այնպես, որ հաղորդագրության մնացած ստացողները (`Recipients`, `CopyRecipients`) չկարողանան տեսնել նրանց հասցեները։
 * `Subject` - Հաղորդագրության թեման։
 * `Body` - Հաղորդագրության տեքստը։
-* `FileAttachments` - Հաղորդագրության կցվող ֆայլերի ամբողջական ճանապարհները։ Մի քանի ֆայլ կցելու դեպքում անհրաժեշտ է ճանապարհները իրարից անջատել `;` նշանով։
+* `FileAttachments` - Հաղորդագրությանը կցվող ֆայլերի ամբողջական ճանապարհների ցուցակ։
 * `RequestReceipt` - Ցույց է տալիս, արդյոք հաղորդագրություն ուղարկողը կստանա ծանուցում ստացող(ներ)ի կողմից հաղորդագրությունը բացելիս։
