@@ -3,7 +3,8 @@ title: DataProcessingRequest.AfterDeserializeParameter(P, JsonElement) մեթո�
 ---
 
 ```c#
-protected virtual Task AfterDeserializeParameter(P parameter, JsonElement jsonElement)
+protected virtual Task AfterDeserializeParameter(P parameter, 
+                                                 JsonElement jsonElement)
 ```
 
 Մեթոդը կանչվում է միջուկի կողմից DPR-ը հերթագրման դնելուց առաջ։

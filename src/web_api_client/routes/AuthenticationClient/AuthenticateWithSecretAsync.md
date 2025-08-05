@@ -4,7 +4,9 @@ title: AuthenticationClient.AuthenticateWithSecretAsync(string, short, string, C
 
 ```c#
 public Task<AuthenticateResponse> AuthenticateWithSecretAsync(
-    string username, short apiClientId, string secret, 
+    string username, 
+    short apiClientId, 
+    string secret, 
     CancellationToken cancellationToken = default)
 ```
 

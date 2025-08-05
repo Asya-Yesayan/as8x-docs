@@ -12,7 +12,8 @@ title: DocumentRoutes.Delete մեթոդ
 ### DocumentRoutes.Delete(int, DocumentDeleteModel) մեթոդ
 
 ```c#
-public DeletedDoc Delete(int isn, DocumentDeleteModel model)
+public DeletedDoc Delete(int isn, 
+                         DocumentDeleteModel model)
 ```
 
 Ջնջում է փաստաթուղթը համակարգից։  

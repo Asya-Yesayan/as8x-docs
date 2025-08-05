@@ -3,7 +3,8 @@ title: DataProcessingRequestRoutes.StopAsync(Guid, CancellationToken) մեթոդ
 ---
 
 ```c#
-public Task StopAsync(Guid id, CancellationToken cancellationToken = default)
+public Task StopAsync(Guid id, 
+                      CancellationToken cancellationToken = default)
 ```
 
 Ընդհատում է նախապես հերթի դրված [DPR](../../../server_api/definitions/dpr.md)-ի կատարումը։

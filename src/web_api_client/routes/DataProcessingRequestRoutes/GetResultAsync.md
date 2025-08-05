@@ -3,7 +3,9 @@ title: DataProcessingRequestRoutes.GetResultAsync(Guid, bool, CancellationToken)
 ---
 
 ```c#
-public Task<T> GetResultAsync<T>(Guid id, bool delete, CancellationToken cancellationToken = default)
+public Task<T> GetResultAsync<T>(Guid id, 
+                                 bool delete, 
+                                 CancellationToken cancellationToken = default)
 ```
 
 Վերադարձնում է [EnqueueAsync](EnqueueAsync.md) մեթոդի միջոցով նախապես հերթի դրված [DPR](../../../server_api/definitions/dpr.md)-ի կատարման արդյունքը։

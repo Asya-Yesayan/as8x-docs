@@ -24,7 +24,8 @@ public Task<IEnumerable<DPRInfo>> GetListAsync(CancellationToken cancellationTok
 ### DataProcessingRequestRoutes.GetListAsync(DPRType, CancellationToken) մեթոդ
 
 ```c#
-public Task<IEnumerable<DPRInfo>> GetListAsync(DPRType type, CancellationToken cancellationToken = default)
+public Task<IEnumerable<DPRInfo>> GetListAsync(DPRType type, 
+                                               CancellationToken cancellationToken = default)
 ```
 
 Վերադարձնում է համակարգում առկա նշված `type` տիպի բոլոր DPR-ների մետատվյալները (ներքին անուն, հայերեն/անգլերեն անվանումներ, տեսակ)։

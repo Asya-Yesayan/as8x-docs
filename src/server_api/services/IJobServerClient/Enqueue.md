@@ -3,10 +3,13 @@ title: IProcessServerClient.Enqueue(DPR.Descriptor, object, bool, IServiceProvid
 ---
 
 ```c#
-public Task<ProcessEnqueueResponse> Enqueue(DPR.Descriptor dpr, object param, bool enableUIRequest,
-                                        IServiceProvider serviceProvider,
-                                        Dictionary<int, UIRequestResultBase> uiResponse, string sessionGuid,
-                                        bool isUnicode = false)
+public Task<ProcessEnqueueResponse> Enqueue(DPR.Descriptor dpr, 
+                                            object param, 
+                                            bool enableUIRequest,
+                                            IServiceProvider serviceProvider,
+                                            Dictionary<int, UIRequestResultBase> uiResponse, 
+                                            string sessionGuid,
+                                            bool isUnicode = false)
 ```
 
 Հերթի է դնում [DPR](../../definitions/dpr.md)-ի կատարումը և վերադարձնում է Id՝ [DPR](../../definitions/dpr.md)-ի կատարման ընթացքին հետևելու համար։

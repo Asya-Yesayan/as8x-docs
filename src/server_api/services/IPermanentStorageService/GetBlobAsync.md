@@ -3,7 +3,9 @@ title: IPermanentStorageService.GetBlobAsync(string, string, CancellationToken) 
 ---
 
 ```c#
-public virtual Task<Stream> GetBlobAsync(string container, string blobName, CancellationToken cancellationToken = default)
+public virtual Task<Stream> GetBlobAsync(string container, 
+                                         string blobName, 
+                                         CancellationToken cancellationToken = default)
 ```
 
 Վերադարձնում է ֆայլի պարունակությունը մշտական ֆայլերից պահոցից՝ որպես [Stream](https://learn.microsoft.com/en-us/dotnet/api/system.io.stream):

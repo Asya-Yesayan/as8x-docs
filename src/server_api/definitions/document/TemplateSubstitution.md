@@ -7,7 +7,8 @@ title: Document.TemplateSubstitution(Dictionary<string, bool>, Dictionary<string
 **Համարժեքը 4x-ում՝** [TemplateSubstitution](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/ScriptProcs/TemplateSubstitution.html)
 
 ```c#
-public virtual Task<TemplateSubstitution> TemplateSubstitution(Dictionary<string, bool> mode, Dictionary<string, object> parameters = null)
+public virtual Task<TemplateSubstitution> TemplateSubstitution(Dictionary<string, bool> mode, 
+                                                               Dictionary<string, object> parameters = null)
 ```
 
 Մեթոդը կանչվում է միջուկի կողմից, երբ փաստաթղթի համար ձևավորվում է տպման ձև և անջատված է [TemplateSubstitutionIsExtended](TemplateSubstitutionIsExtended.md) հատկությունը։ 

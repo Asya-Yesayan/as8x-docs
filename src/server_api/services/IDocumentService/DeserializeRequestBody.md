@@ -3,7 +3,8 @@ title: IDocumentService.DeserializeRequestBody(DocumentModel, bool) մեթոդ
 ---
 
 ```c#
-public Task<Document> DeserializeRequestBody(DocumentModel request, bool isExtended = false)
+public Task<Document> DeserializeRequestBody(DocumentModel request, 
+                                             bool isExtended = false)
 ```
 
 նախատեսված է կլիենտից դեպի սերվեր փաստաթղթի ուղարկման ժամանակ դեսերիալիզազիայի և [Document](../../definitions/document.md) տիպի օբյեկտի վերածեու համար։  

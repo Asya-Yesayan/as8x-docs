@@ -3,7 +3,9 @@ title: BlobRoutes.Upload(string, string, byte[]) մեթոդ
 ---
 
 ```c#
-public bool Upload(string container, string blobName, byte[] value)
+public bool Upload(string container, 
+                   string blobName, 
+                   byte[] value)
 ```
 
 Պահպանում է `value` պարամետրի պարունակությունը նշված կոնտեյների նշված ֆայլում։ 

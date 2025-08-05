@@ -7,7 +7,8 @@ title: IDocumentService.StoreInFolder(Document, FolderElement) մեթոդ
 **Համարժեքը 4x-ում՝** [AsDoc.StoreInFolder](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/ASDOC/StoreInFolder.html)
 
 ```c#
-public void StoreInFolder(Document document, FolderElement folderElement)
+public void StoreInFolder(Document document, 
+                          FolderElement folderElement)
 ```
 
 Գրանցում է թղթապանակի տարրը տվյալների պահոցում:

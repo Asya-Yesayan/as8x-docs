@@ -7,7 +7,9 @@ title: IDocumentService.GetSUIDAndDate(int, int, bool) մեթոդ
 **Համարժեքը 4x-ում՝** [AsDocEngine.StateMovedSUID](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/DocumentsCirculation/StateMovedSUID.html)
 
 ```c#
-public Task<(bool exists, short suid, string dateTime)> GetSUIDAndDate(int isn, int state, bool sort = true)
+public Task<(bool exists, short suid, string dateTime)> GetSUIDAndDate(int isn, 
+                                                                       int state, 
+                                                                       bool sort = true)
 ```
 
 Փնտրում է նշված վիճակին համապատասխան տողի առկայությունը փաստաթղթի պատմության մեջ ([DOCLOG](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Database/DocLog.html) աղյուսակում) և վերադարձնում ստեղծողին և ամսաթիվը։

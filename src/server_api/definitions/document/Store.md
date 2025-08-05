@@ -7,7 +7,8 @@ title: Document.Store(DocumentCheckLevel, string) մեթոդ
 **Համարժեքը 4x-ում՝** [AsDoc.Store](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/ASDOC/Store.html)
 
 ```c#
-public Task Store(DocumentCheckLevel checkLevel = DocumentCheckLevel.None, string logComment = "")
+public Task Store(DocumentCheckLevel checkLevel = DocumentCheckLevel.None, 
+                  string logComment = "")
 ```
 
 Կատարում է պարտադիր ստուգումներ և գրանցում փաստաթուղթը տվյալների պահոցում։

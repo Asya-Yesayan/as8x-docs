@@ -3,8 +3,10 @@ title: BlobRoutes.DownloadToFile(string, string, string, bool) մեթոդ
 ---
 
 ```c#
-public void DownloadToFile(string container, string blobName,
-                           string file, bool deleteBlob = true)
+public void DownloadToFile(string container, 
+                           string blobName,
+                           string file, 
+                           bool deleteBlob = true)
 ```
 
 Բեռնում է նշված կոնտեյների նշված ֆայլը և ավելացնում `file` պարամետրում նշված ֆայլում։

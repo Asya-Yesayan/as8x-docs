@@ -3,7 +3,9 @@ title: IDocumentService.FieldToAnsi(string, string, object) մեթոդ
 ---
 
 ```c#
-public  Task<object> FieldToAnsi(string docType, string name, object value)
+public  Task<object> FieldToAnsi(string docType, 
+                                 string name, 
+                                 object value)
 ```
 
 <!-- Վերադարձնում է փաստաթղթի դաշտի արժեքը՝ձևափոխված համապատասխան լեզվի ANSI կոդավորման։ -->

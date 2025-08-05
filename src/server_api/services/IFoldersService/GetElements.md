@@ -7,7 +7,7 @@ title: IFoldersService.GetElements մեթոդ
 | Անվանում | Նկարագրություն |
 |--|--|
 | [GetElements(string)](#ifoldersservicegetelementsstring-մեթոդ) | Վերադարձնում է թղթապանակի բոլոր [տարրերը](../../types/FolderElement.md): |
-| [GetElements(string, List)](#ifoldersservicegetelementsstring-list-մեթոդ) | Վերադարձնում է թղթապանակի նշված բանալիներով [տարրերը](../../types/FolderElement.md): |
+| [GetElements(string, List)](#ifoldersservicegetelementsstring-liststring-մեթոդ) | Վերադարձնում է թղթապանակի նշված բանալիներով [տարրերը](../../types/FolderElement.md): |
 
 ### IFoldersService.GetElements(string) մեթոդ
 
@@ -24,7 +24,8 @@ public Task<List<FolderElement>> GetElements(string folderID);
 ### IFoldersService.GetElements(string, List&lt;string&gt;) մեթոդ
 
 ```c#
-public Task<List<FolderElement>> GetElements(string folderID, List<string> keys);
+public Task<List<FolderElement>> GetElements(string folderID, 
+                                             List<string> keys);
 ```
 
 Վերադարձնում է թղթապանակի նշված բանալիներով [տարրերը](../../types/FolderElement.md):

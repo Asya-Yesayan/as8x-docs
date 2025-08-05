@@ -7,7 +7,7 @@ title: LiteDocumentService.Load մեթոդ
 | Անվանում | Նկարագրություն |
 |--|--|
 | [Load(int, bool, bool, bool)](#litedocumentserviceloadint-bool-bool-bool-մեթոդ) | Բեռնում է փաստաթուղթը տվյալների պահոցից ըստ փաստաթղթի ներքին նույնականացման համարի։ |
-| [Load(IEnumerable)](#litedocumentserviceloadienumerable-մեթոդ) | Բեռնում է նշված ներքին նույնականացման համարներով փաստաթղթերը հիմնական տվյալների պահոցից՝ առանց աղյուսակների բեռնման և արխիվային տվյալների ստուգման: |
+| [Load(IEnumerable, bool)](#litedocumentserviceloadienumerable-bool-մեթոդ) | Բեռնում է նշված ներքին նույնականացման համարներով փաստաթղթերը հիմնական տվյալների պահոցից՝ առանց աղյուսակների բեռնման և արխիվային տվյալների ստուգման: |
 
 ### LiteDocumentService.Load(int, bool, bool, bool) մեթոդ 
 
@@ -30,13 +30,13 @@ public Task<LiteDocument> Load(int isn,
 * `throwExceptionIfDeleted` - Պահանջվող փաստաթղթի հեռացված լինելու դեպքում սխալի գեներացման հայտանիշ։ 
 * `lookInArc` - Արխիվացված փաստաթղթի բեռնման հայտանիշ։ **true** արժեքի դեպքում փաստաթուղթը հիմնական պահոցում չգտնելու դեպքում փորձում է բեռնել նաև արխիվային տվյալների պահոցից։
 
-### LiteDocumentService.Load(IEnumerable<int>) մեթոդ  
+### LiteDocumentService.Load(IEnumerable<int>, bool) մեթոդ  
 
 ```c#
-public Task<Dictionary<int, LiteDocument>> Load(IEnumerable<int> isnList);
+public Task<Dictionary<int, LiteDocument>> Load(IEnumerable<int> isnList, bool loadGrids = false);
 ```
 
-Բեռնում է նշված ներքին նույնականացման համարներով փաստաթղթերը հիմնական տվյալների պահոցից՝ առանց աղյուսակների բեռնման և արխիվային տվյալների ստուգման:
+Բեռնում է նշված ներքին նույնականացման համարներով փաստաթղթերը հիմնական տվյալների պահոցից՝ առանց արխիվային տվյալների ստուգման:
 
 Վերադարձնում է միայն այն փաստաթղթերի բազմությունը, որոնք գտնվել են տվյալների պահոցում։
 Վերադարձվող Dictionary-ում բանալին փաստաթղթի ISN-ն է, իսկ արժեքը՝ փաստաթուղթը։
@@ -44,4 +44,5 @@ public Task<Dictionary<int, LiteDocument>> Load(IEnumerable<int> isnList);
 **Պարամետրեր**
 
 * `isnList` - Փաստաթղթերի ներքին նույնականացման համարների ցուցակ։
+* `loadGrids` - Փաստաթղթերի աղյուսակների բեռնման հայտանիշ։
 

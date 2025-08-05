@@ -3,7 +3,8 @@ title: DocumentRoutes.Create(string, DocumentCreateRequestModel) մեթոդ
 ---
 
 ```c#
-public DocumentModelSimple Create(string type, DocumentCreateRequestModel createRequestModel)
+public DocumentModelSimple Create(string type, 
+                                  DocumentCreateRequestModel createRequestModel)
 ```
 
 Ստեղծում է նշված ներքին անունով (տեսակի) փաստաթղթի նոր օբյեկտ և վերադարձնում ստեղծված փաստաթղթի տվյալները (դաշտերի, աղյուսակների անունների  արժեքների ցուցակ..)։

@@ -7,7 +7,8 @@ title: TemplateService.ExistsTemplate(string, string) մեթոդ
 **Համարժեքը 4x-ում՝** [AsKernel.ExistsTemplate](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/ExistsTemplate.html)
 
 ```c#
-public Task<bool> ExistsTemplate(string name, string type)
+public Task<bool> ExistsTemplate(string name, 
+                                 string type)
 ```
 
 Ստուգում է տպելու ձևանմուշի նկարագրության առկայությունը տվյալների պահոցի `TEMPLATES` աղյուսակում։

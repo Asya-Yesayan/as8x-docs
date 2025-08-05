@@ -17,7 +17,10 @@ title: IStorageService.UploadBlobAsync մեթոդ
 ### IStorageService.UploadBlobAsync(string, string, byte[], CancellationToken) մեթոդ
 
 ```c#
-public Task<bool> UploadBlobAsync(string container, string blobName, byte[] value, CancellationToken cancellationToken = default)
+public Task<bool> UploadBlobAsync(string container, 
+                                  string blobName, 
+                                  byte[] value, 
+                                  CancellationToken cancellationToken = default)
 ```
 
 Պահպանում է `value` պարամետրի պարունակությունը ժամանակավոր ֆայլերի պահոցում` ըստ կոնտեյների և ֆայլի անվան։ 
@@ -32,7 +35,10 @@ public Task<bool> UploadBlobAsync(string container, string blobName, byte[] valu
 ### IStorageService.UploadBlobAsync(string, Stream, BlobProperties, CancellationToken) մեթոդ  
 
 ```c#
-public Task<bool> UploadBlobAsync(string blobName, Stream stream, BlobProperties properties = null, CancellationToken cancellationToken = default)
+public Task<bool> UploadBlobAsync(string blobName, 
+                                  Stream stream, 
+                                  BlobProperties properties = null, 
+                                  CancellationToken cancellationToken = default)
 ```
 
 Պահպանում է `stream` պարամետրի պարունակությունը [ընթացիկ սեսիայի կոնտեյների](Container.md) նշված ֆայլում։ 
@@ -47,7 +53,11 @@ public Task<bool> UploadBlobAsync(string blobName, Stream stream, BlobProperties
 ### IStorageService.UploadBlobAsync(string, string, Stream, BlobProperties, CancellationToken) մեթոդ
 
 ```c#
-public Task<bool> UploadBlobAsync(string containerOrBucketName, string blobName, Stream stream, BlobProperties properties = null, CancellationToken cancellationToken = default)
+public Task<bool> UploadBlobAsync(string containerOrBucketName, 
+                                  string blobName, 
+                                  Stream stream, 
+                                  BlobProperties properties = null, 
+                                  CancellationToken cancellationToken = default)
 ```
 
 Պահպանում է `stream` պարամետրի պարունակությունը ժամանակավոր ֆայլերի պահոցում՝ նշված կոնտեյների նշված ֆայլում։ 

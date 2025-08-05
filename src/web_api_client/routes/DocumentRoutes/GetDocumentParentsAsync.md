@@ -3,7 +3,9 @@ title: DocumentRoutes.GetDocumentParentsAsync(int, DocumentParentsRequestModel, 
 ---
 
 ```c#
-public Task<List<DocumentResponseInfo>> GetDocumentParentsAsync(int isn, DocumentParentsRequestModel model, CancellationToken cancellationToken = default)
+public Task<List<DocumentResponseInfo>> GetDocumentParentsAsync(int isn, 
+                                                                DocumentParentsRequestModel model, 
+                                                                CancellationToken cancellationToken = default)
 ```
 
 Վերադարձնում է `List<DocumentResponseInfo>` տիպի օբյեկտ, որը պարունակում փաստաթղթի ծնող փաստաթղերի isn-ների ու ներքին անունների (տեսակների) ցուցակը:

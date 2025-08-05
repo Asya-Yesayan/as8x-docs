@@ -7,7 +7,9 @@ title: IFactService.SetAccCrd(Fact, string, bool) մեթոդ
 **Համարժեքը 4x-ում՝** [AsFact.AccCrd](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/ASFACT/AccCrd.html)
 
 ```c#
-public Task SetAccCrd(Fact fact, string value, bool uncheck = false);
+public Task SetAccCrd(Fact fact, 
+                      string value, 
+                      bool uncheck = false);
 ```
 
 Նշանակում է գործառնության կրեդիտային հաշիվը։

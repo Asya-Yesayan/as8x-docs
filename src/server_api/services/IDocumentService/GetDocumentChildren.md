@@ -7,11 +7,10 @@ title: IDocumentService.GetDocumentChildren(int, string, DocumentChildrenOrder, 
 **Համարժեքը 4x-ում՝** [AsDocEngine.DocChildren](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/DocumentsCirculation/DocChildren.html)
 
 ```c#
-public Task<List<(int isn, string docType)>> GetDocumentChildren(
-    int isn, 
-    string docType = "", 
-    DocumentChildrenOrder order = DocumentChildrenOrder.UnOrdered, 
-    string docTypeLike = "")
+public Task<List<(int isn, string docType)>> GetDocumentChildren(int isn, 
+                                                                 string docType = "", 
+                                                                 DocumentChildrenOrder order = DocumentChildrenOrder.UnOrdered, 
+                                                                 string docTypeLike = "")
 ```
 
 Վերադարձնում է փաստաթղթի զավակ փաստաթղերի isn-ների ու ներքին անունների (տեսակների) ցուցակը:

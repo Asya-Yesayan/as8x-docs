@@ -3,7 +3,8 @@ title: DataSource.AfterExecuteSQLCommand(DataSourceArgs<P>, SqlDataReader) մե�
 ---
 
 ```c#
-protected virtual void AfterExecuteSQLCommand(DataSourceArgs<P> args, SqlDataReader reader)
+protected virtual void AfterExecuteSQLCommand(DataSourceArgs<P> args, 
+                                              SqlDataReader reader)
 ```
 
 Մեթոդը կանչվում է միջուկի կողմից SQL հարցման սկսելուց հետո, երբ [SqlDataReader](https://learn.microsoft.com/en-us/dotnet/api/microsoft.data.sqlclient.sqldatareader)-ը արդեն բաց է: 

@@ -7,7 +7,8 @@ title: IDocumentService.StoreFact(Document, Fact) մեթոդ
 **Համարժեքը 4x-ում՝** [AsDoc.StoreFact](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/ASDOC/StoreFact.html)
 
 ```c#
-public Task StoreFact(Document document, Fact fact)
+public Task StoreFact(Document document, 
+                      Fact fact)
 ```
 
 Գրանցում է փաստաթղթի հաշվառումը տվյալների պահոցում:

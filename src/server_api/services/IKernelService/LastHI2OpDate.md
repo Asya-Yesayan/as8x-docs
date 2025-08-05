@@ -11,13 +11,15 @@ title: IKernelService.LastHI2OpDate մեթոդ
 | Անվանում | Նկարագրություն |
 |--|--|
 | [LastHI2OpDate(string, int, int, DateTime?, string)](#ikernelservicelasthi2opdatestring-int-int-datetime-string-մեթոդ) | Վերադարձնում է փաստաթղթի [HI2](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Database/Hi2.html) աղյուսակում գրանցվող հաշվառման վերջին նշանակված գործողության ամսաթիվը, որը ստեղծվել է հաշվառման նշված կոդով մինչև նշված ամսաթիվը ներառյալ։ |
-| [LastHI2OpDate(List&lt;string&gt;, int, int, DateTime?, string)](#ikernelservicelasthi2opdatelist-int-int-datetime-string-մեթոդ) | Վերադարձնում է փաստաթղթի [HI2](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Database/Hi2.html) աղյուսակում գրանցվող հաշվառման վերջին նշանակված գործողության ամսաթիվը, որը ստեղծվել է հաշվառման նշված կոդերով մինչև նշված ամսաթիվը ներառյալ։ |
+| [LastHI2OpDate(List&lt;string&gt;, int, int, DateTime?, string)](#ikernelservicelasthi2opdateliststring-int-int-datetime-string-մեթոդ) | Վերադարձնում է փաստաթղթի [HI2](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Database/Hi2.html) աղյուսակում գրանցվող հաշվառման վերջին նշանակված գործողության ամսաթիվը, որը ստեղծվել է հաշվառման նշված կոդերով մինչև նշված ամսաթիվը ներառյալ։ |
 
 ### IKernelService.LastHI2OpDate(string, int, int, DateTime?, string) մեթոդ
 
 ```c#
-public Task<DateTime?> LastHI2OpDate(string accCode, int isn = -1, 
-                                     int glIsn = -1, DateTime? upToDate = null, 
+public Task<DateTime?> LastHI2OpDate(string accCode, 
+                                     int isn = -1, 
+                                     int glIsn = -1, 
+                                     DateTime? upToDate = null, 
                                      string op = "")
 ```
 
@@ -35,8 +37,10 @@ public Task<DateTime?> LastHI2OpDate(string accCode, int isn = -1,
 ### IKernelService.LastHI2OpDate(List&lt;string&gt;, int, int, DateTime?, string) մեթոդ
 
 ```c#
-public Task<DateTime?> LastHI2OpDate(List&lt;string> accCodes, int isn = -1, 
-                                     int glIsn = -1, DateTime? upToDate = null, 
+public Task<DateTime?> LastHI2OpDate(List<string> accCodes, 
+                                     int isn = -1, 
+                                     int glIsn = -1, 
+                                     DateTime? upToDate = null, 
                                      string op = "")
 ```
 

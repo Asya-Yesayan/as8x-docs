@@ -7,7 +7,10 @@ title: IFactService.LoadByTrans(int, int, string, string) մեթոդ
 **Համարժեքը 4x-ում՝** [AsKernel.LoadFactByTrans](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/AccManagement/LoadFactByTrans.html)
 
 ```c#
-public Task<List<Fact>> LoadByTrans(int baseIsn, int trans, string accounting = "", string operation = "");
+public Task<List<Fact>> LoadByTrans(int baseIsn, 
+                                    int trans, 
+                                    string accounting = "", 
+                                    string operation = "");
 ```
 
 Վերադարձնում է հիմքային փաստաթղթով և գործարքի համարով ստեղծված գործառույթների ցուցակը։

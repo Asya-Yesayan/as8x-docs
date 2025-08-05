@@ -7,7 +7,11 @@ title: IFactService.LoadByObject(string, int, DateTime, DateTime, string) մեթ
 **Համարժեքը 4x-ում՝** [AsKernel.LoadFactByObject](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/AccManagement/LoadFactByObject.html)
 
 ```c#
-public Task<List<Fact>> LoadByObject(string accCode, int objectIsn, DateTime beginDate, DateTime endDate, string operation = "");
+public Task<List<Fact>> LoadByObject(string accCode, 
+                                     int objectIsn, 
+                                     DateTime beginDate, 
+                                     DateTime endDate, 
+                                     string operation = "");
 ```
 
 Վերադարձնում է հաշվառվող օբյեկտով ստեղծված գործառույթների ցուցակը տրված ժամանակահատվածում։

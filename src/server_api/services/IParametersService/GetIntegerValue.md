@@ -30,7 +30,8 @@ public Task<int> GetIntegerValue(string paramId)
 ### IParametersService.GetIntegerValue(string, short) մեթոդ  
 
 ```c#
-public Task<int> GetIntegerValue(string paramId, short suid)
+public Task<int> GetIntegerValue(string paramId, 
+                                 short suid)
 ```
 
 Վերադարձնում է ամբողջ թիվ տիպի ([N](../../types/system_types.md#numericfieldtype), [NP](../../types/system_types.md#numericpositivefieldtype)) պարամետրի արժեքը՝ ըստ պարամետրի ներքին անվան և օգտագործողի համարի։  

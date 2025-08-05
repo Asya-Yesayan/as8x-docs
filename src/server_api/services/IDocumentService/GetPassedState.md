@@ -18,7 +18,10 @@ title: IDocumentService.GetPassedState մեթոդ
 ### IDocumentService.GetPassedState(int, List&lt;short&gt;, bool, bool) մեթոդ
 
 ```c#
-public short GetPassedState(int isn, List<short> states, bool lastState = true, bool inStates = true)
+public short GetPassedState(int isn, 
+                            List<short> states, 
+                            bool lastState = true, 
+                            bool inStates = true)
 ```
 
 Ստուգում է և վերադարձնում փաստաթղթի վերջին կամ առաջին նշանակված վիճակը տրված վիճակների ցուցակից։

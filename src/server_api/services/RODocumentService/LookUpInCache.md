@@ -6,17 +6,18 @@ title: RODocumentService.LookUpInCache մեթոդ
 
 | Անվանում | Նկարագրություն |
 |--|--|
-| [LookUpInCache(int, TimeSpan, Ref, bool)](#rodocumentservicelookupincacheint-timespan-ref-bool-մեթոդ) | Փնտրում է փաստաթուղթը քեշում ըստ փաստաթղթի ներքին նույնականացման համարի և վերադարձնում։ |
-| [LookUpInCache(string, string, TimeSpan, Ref)](#rodocumentservicelookupincachestring-string-timespan-ref-մեթոդ) | Փնտրում է փաստաթուղթը քեշում ըստ փաստաթուղթը պարունակող թղթապանակի ներքին անվան և թղթապանակի տարրի կոդի և վերադարձնում։  |
-| [LookUpInCache(int, bool, Ref, bool)](#rodocumentservicelookupincacheint-bool-ref-bool-մեթոդ) | Փնտրում է փաստաթուղթը քեշում ըստ փաստաթղթի ներքին նույնականացման համարի և վերադարձնում։ |
-| [LookUpInCache(string, string, bool, DocsTableRowLoader, Ref)](#rodocumentservicelookupincachestring-string-bool-docstablerowloader-ref-մեթոդ) | Փնտրում է փաստաթուղթը քեշում ըստ փաստաթուղթը պարունակող թղթապանակի ներքին անվան և թղթապանակի տարրի կոդի և վերադարձնում։ |
-| [LookUpInCache(int, DocumentLoadSession, Ref, bool)](#rodocumentservicelookupincacheint-documentloadsession-ref-bool-մեթոդ) | Փնտրում է փաստաթուղթը քեշում ըստ փաստաթղթի ներքին նույնականացման համարի և վերադարձնում։ |
-| [LookUpInCache(string, string, DocumentLoadSession, DocsTableRowLoader, Ref)](#rodocumentservicelookupincachestring-string-documentloadsession-docstablerowloader-ref-մեթոդ) | Փնտրում է փաստաթուղթը քեշում ըստ փաստաթուղթը պարունակող թղթապանակի ներքին անվան և թղթապանակի տարրի կոդի և վերադարձնում։ |
+| [LookUpInCache(int, TimeSpan, Ref, bool)](#rodocumentservicelookupincacheint-timespan-refbool-bool-մեթոդ) | Փնտրում է փաստաթուղթը քեշում ըստ փաստաթղթի ներքին նույնականացման համարի և վերադարձնում։ |
+| [LookUpInCache(string, string, TimeSpan, Ref)](#rodocumentservicelookupincachestring-string-timespan-refbool-մեթոդ) | Փնտրում է փաստաթուղթը քեշում ըստ փաստաթուղթը պարունակող թղթապանակի ներքին անվան և թղթապանակի տարրի կոդի և վերադարձնում։  |
+| [LookUpInCache(int, bool, Ref, bool)](#rodocumentservicelookupincacheint-bool-refbool-bool-մեթոդ) | Փնտրում է փաստաթուղթը քեշում ըստ փաստաթղթի ներքին նույնականացման համարի և վերադարձնում։ |
+| [LookUpInCache(string, string, bool, DocsTableRowLoader, Ref)](#rodocumentservicelookupincachestring-string-bool-docstablerowloader-refbool-մեթոդ) | Փնտրում է փաստաթուղթը քեշում ըստ փաստաթուղթը պարունակող թղթապանակի ներքին անվան և թղթապանակի տարրի կոդի և վերադարձնում։ |
+| [LookUpInCache(int, DocumentLoadSession, Ref, bool)](#rodocumentservicelookupincacheint-documentloadsession-refltbool-bool-մեթոդ) | Փնտրում է փաստաթուղթը քեշում ըստ փաստաթղթի ներքին նույնականացման համարի և վերադարձնում։ |
+| [LookUpInCache(string, string, DocumentLoadSession, DocsTableRowLoader, Ref)](#rodocumentservicelookupincachestring-string-documentloadsession-docstablerowloader-refbool-մեթոդ) | Փնտրում է փաստաթուղթը քեշում ըստ փաստաթուղթը պարունակող թղթապանակի ներքին անվան և թղթապանակի տարրի կոդի և վերադարձնում։ |
 
 ### RODocumentService.LookUpInCache(int, TimeSpan, Ref&lt;bool&gt;, bool) մեթոդ
 
 ```c#
-public async Task<T> LookUpInCache<T>(int isn, TimeSpan checkAfter, 
+public async Task<T> LookUpInCache<T>(int isn, 
+                                      TimeSpan checkAfter, 
                                       Ref<bool> isRefreshed = null, 
                                       bool lookInArc = true) where T : RODocument, new()
                                         
@@ -37,7 +38,8 @@ public async Task<T> LookUpInCache<T>(int isn, TimeSpan checkAfter,
 ### RODocumentService.LookUpInCache(string, string, TimeSpan, Ref&lt;bool&gt;) մեթոդ  
 
 ```c#
-public Task<T> LookUpInCache<T>(string folder, string key, 
+public Task<T> LookUpInCache<T>(string folder, 
+                                string key, 
                                 TimeSpan checkAfter, 
                                 Ref<bool> isRefreshed = null) where T : RODocument, new() 
 ```
@@ -57,7 +59,8 @@ public Task<T> LookUpInCache<T>(string folder, string key,
 ### RODocumentService.LookUpInCache(int, bool, Ref&lt;bool&gt;, bool) մեթոդ  
 
 ```c#
-public Task<T> LookUpInCache<T>(int isn, bool checkRelevance, 
+public Task<T> LookUpInCache<T>(int isn, 
+                                bool checkRelevance, 
                                 Ref<bool> isRefreshed = null,
                                 bool lookInArc = true) where T : RODocument, new()
                                         
@@ -77,8 +80,10 @@ public Task<T> LookUpInCache<T>(int isn, bool checkRelevance,
 ### RODocumentService.LookUpInCache(string, string, bool, DocsTableRowLoader, Ref&lt;bool&gt;) մեթոդ  
 
 ```c#
-public Task<T> LookUpInCache<T>(string folder, string key, 
-                                bool checkRelevance, DocsTableRowLoader loader = null,
+public Task<T> LookUpInCache<T>(string folder, 
+                                string key, 
+                                bool checkRelevance, 
+                                DocsTableRowLoader loader = null,
                                 Ref<bool> isRefreshed = null) where T : RODocument, new()
 ```
 
@@ -118,7 +123,8 @@ public Task<T> LookUpInCache<T>(int isn,
 ### RODocumentService.LookUpInCache(string, string, DocumentLoadSession, DocsTableRowLoader, Ref&lt;bool&gt;) մեթոդ  
 
 ```c#
-public Task<T> LookUpInCache<T>(string folder, string key, 
+public Task<T> LookUpInCache<T>(string folder, 
+                                string key, 
                                 DocumentLoadSession documentLoadSession,
                                 DocsTableRowLoader loader = null, 
                                 Ref<bool> isRefreshed = null) where T : RODocument, new()

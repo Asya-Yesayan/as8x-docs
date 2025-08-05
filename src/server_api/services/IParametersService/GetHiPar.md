@@ -8,8 +8,12 @@ title: IParametersService.GetHiPar(string, DateTime, bool, string, bool, DateTim
 
 ```c#
 public Task<(string Value, DateTime? SoftDate)> GetHiPar(
-    string paramID, DateTime date, bool softGet, string exceptionMessage = "", 
-    bool notThrowExeption = false, DateTime? maxCreationDate = null)
+                      string paramID, 
+                      DateTime date, 
+                      bool softGet, 
+                      string exceptionMessage = "", 
+                      bool notThrowExeption = false, 
+                      DateTime? maxCreationDate = null)
 ```
 
 Վերադարձնում է ժամանակագրական պարամետրի արժեքը և նշանակման ամսաթիվը։

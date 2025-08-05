@@ -9,8 +9,12 @@ title: IKernelService.GetTurnBetween(string, int, DateTime, DateTime, string, bo
 ```c#
 public Task<List<(DateTime Date, decimal DbTurn, decimal DbTurnAMD, 
                   decimal CrTurn, decimal CrTurnAMD)>> GetTurnBetween(
-    string accounting, int isn, DateTime startDate, DateTime endDate, 
-    string codeOper = "", bool bNotShowSameClAccTurn = false)
+    string accounting, 
+    int isn, 
+    DateTime startDate, 
+    DateTime endDate, 
+    string codeOper = "", 
+    bool bNotShowSameClAccTurn = false)
 ```
 
 Վերադարձնում է փաստաթղթի հաշվառվման ամենօրյա շրջանառությունների ցուցակ նշված ժամանակահատվածի համար։

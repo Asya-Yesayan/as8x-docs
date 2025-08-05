@@ -3,7 +3,9 @@ title: DocumentRoutes.LoadFromFolder(string, string, bool) մեթոդ
 ---
 
 ```c#
-public DocumentModel LoadFromFolder(string folder, string key, bool isExtended = true)
+public DocumentModel LoadFromFolder(string folder, 
+                                    string key, 
+                                    bool isExtended = true)
 ```
 
 Բեռնում է փաստաթուղթը ըստ թղթապանակի և բանալու։ Չհաջողվելու դեպքում վերադարձնում է **null**։

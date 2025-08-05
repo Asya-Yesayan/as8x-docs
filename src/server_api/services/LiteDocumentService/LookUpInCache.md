@@ -7,7 +7,7 @@ title: LiteDocumentService.LookUpInCache մեթոդ
 | Անվանում | Նկարագրություն |
 |--|--|
 | [LookUpInCache(int, TimeSpan, Ref, bool)](#litedocumentservicelookupincacheint-timespan-ref-bool-մեթոդ)| Փնտրում է փաստաթուղթը քեշում ըստ փաստաթղթի ներքին նույնականացման համարի և վերադարձնում։ |
-| [LookUpInCache(string, string, TimeSpan, Ref)](#litedocumentservicelookupincachestring-string-timespan-ref-մեթոդ) | Փնտրում է փաստաթուղթը քեշում ըստ փաստաթուղթը պարունակող թղթապանակի ներքին անվան և թղթապանակի տարրի կոդի և վերադարձնում։ |
+| [LookUpInCache(string, string, TimeSpan, Ref)](#litedocumentservicelookupincachestring-string-timespan-refbool-մեթոդ) | Փնտրում է փաստաթուղթը քեշում ըստ փաստաթուղթը պարունակող թղթապանակի ներքին անվան և թղթապանակի տարրի կոդի և վերադարձնում։ |
 
 ### LiteDocumentService.LookUpInCache(int, TimeSpan, Ref<bool>, bool) մեթոդ
 

@@ -4,7 +4,8 @@ title: ITemplateSubstitutionService.LoadTemplateFile(string, SubstitutionType) �
 
 ```c#
 public Task<(bool IsUnicode, byte[] File, bool Updatable)> LoadTemplateFile(
-    string name, SubstitutionType type)
+    string name, 
+    SubstitutionType type)
 ```
 
 Բեռնում է տպելու ձևանմուշի տվյալները պահոցի `TEMPLATES` աղյուսակից։ Բեռնման ընթացքում կատարվում է լրացուցիչ ստուգումներ, որից հետո հնարավոր է լրացնել ֆայլը։ 

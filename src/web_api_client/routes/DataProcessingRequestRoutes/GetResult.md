@@ -3,7 +3,8 @@ title: DataProcessingRequestRoutes.GetResult(Guid, bool) մեթոդ
 ---
 
 ```c#
-public T GetResult<T>(Guid id, bool delete)
+public T GetResult<T>(Guid id, 
+                      bool delete)
 ```
 
 Վերադարձնում է [Enqueue](Enqueue.md) մեթոդի միջոցով նախապես հերթի դրված [DPR](../../../server_api/definitions/dpr.md)-ի կատարման արդյունքը։

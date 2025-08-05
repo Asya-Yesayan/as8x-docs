@@ -3,7 +3,10 @@ title: BlobRoutes.UploadAsync(string, string, byte[], CancellationToken) մեթ�
 ---
 
 ```c#
-public Task<bool> UploadAsync(string container, string blobName, byte[] value, CancellationToken cancellationToken = default)
+public Task<bool> UploadAsync(string container, 
+                              string blobName, 
+                              byte[] value, 
+                              CancellationToken cancellationToken = default)
 ```
 
 Պահպանում է `value` պարամետրի պարունակությունը նշված կոնտեյների նշված ֆայլում։ 

@@ -3,9 +3,15 @@ title: Extender.AddColumn(string, string, string, FieldType, string, string, Fie
 ---
 
 ```c#
-public void AddColumn(string name, string armenianCaption, string englishCaption, FieldType columnType,
-                      string armenianDescription = null, string englishDescription = null,
-                      FieldType showType = null, short width = 0, short headlines = 2,
+public void AddColumn(string name, 
+                      string armenianCaption, 
+                      string englishCaption, 
+                      FieldType columnType,
+                      string armenianDescription = null, 
+                      string englishDescription = null,
+                      FieldType showType = null, 
+                      short width = 0, 
+                      short headlines = 2,
                       SupportedEncoding supportedEncoding = SupportedEncoding.ArmenianAnsi)
 ```
 

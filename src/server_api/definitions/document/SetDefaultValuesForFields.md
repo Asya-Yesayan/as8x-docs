@@ -10,7 +10,7 @@ title: Document.SetDefaultValuesForFields մեթոդ
 
 | Անվանում | Նկարագրություն |
 |--|--|
-| [SetDefaultValuesForFields(IList&lt;string&gt;)](#documentsetdefaultvaluesforfieldsilist-մեթոդ) | Վերագրում է լռությամբ արժեքներ փաստաթղթի տրված դաշտերին։ |
+| [SetDefaultValuesForFields(IList&lt;string&gt;)](#documentsetdefaultvaluesforfieldsiliststring-մեթոդ) | Վերագրում է լռությամբ արժեքներ փաստաթղթի տրված դաշտերին։ |
 | [SetDefaultValuesForFields(string[])](#documentsetdefaultvaluesforfieldsstring-մեթոդ) | Վերագրում է լռությամբ արժեքներ փաստաթղթի տրված դաշտերին։ |
 
 ### Document.SetDefaultValuesForFields(IList&lt;string&gt;) մեթոդ

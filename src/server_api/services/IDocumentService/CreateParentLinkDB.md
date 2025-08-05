@@ -7,7 +7,8 @@ title: IDocumentService.CreateParentLinkDB(int, int) մեթոդ
 **Համարժեքը 4x-ում՝** [AsDocEngine.CreateParentLink](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/DocumentsCirculation/CreateParentLink.html)
 
 ```c#
-public Task CreateParentLinkDB(int isn, int parentIsn = -1)
+public Task CreateParentLinkDB(int isn, 
+                               int parentIsn = -1)
 ```
 
 Փաստաթղթերի միջև ստեղծում է ծնող-զավակ կապ։ 

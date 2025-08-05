@@ -7,8 +7,9 @@ title: ITemplateSubstitutionService.IsTemplateAvailable(string, string, Document
 **Համարժեքը 4x-ում՝** [AsKernel.IsTemplAvailable](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/IsTemplAvailable.html)
 
 ```c#
-public Task<bool> IsTemplateAvailable(
-    string templateName, string templateType, Document document)
+public Task<bool> IsTemplateAvailable(string templateName, 
+                                      string templateType, 
+                                      Document document)
 ```
 
 Ստուգում է արդյոք նշված ձևանմուշը հասանելի է նշված փաստաթղթի համար, այսինքն փաստաթղթի տիպը նշված է տպվող ձևանմուշի փաստաթղթերի ցանկում և բավարարվում է ակտիվացման բանաձևը սերվիսում։

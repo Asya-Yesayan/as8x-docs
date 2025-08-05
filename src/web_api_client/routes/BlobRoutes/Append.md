@@ -3,7 +3,10 @@ title: BlobRoutes.Append(string, string, byte[], int) մեթոդ
 ---
 
 ```c#
-public bool Append(string container, string blobName, byte[] value, int size)
+public bool Append(string container, 
+                   string blobName, 
+                   byte[] value, 
+                   int size)
 ```
 
 Ավելացնում է `value` պարամետրի պարունակությունը `file` պարամետրում նշված ֆայլի վերջում։

@@ -11,7 +11,10 @@ public Task<(decimal DbTurn, decimal DbTurnAMD,
             decimal CrTurn, decimal CrTurnAMD, 
             decimal Rem, decimal RemAMD, 
             decimal StartRem, decimal StartRemAMD)> GetTurnFull(
-    string accounting, int isn, DateTime startDate, DateTime endDate)
+    string accounting, 
+    int isn, 
+    DateTime startDate, 
+    DateTime endDate)
 ```
 
 Վերադարձնում է փաստաթղթի հաշվառման դեբետային և կրեդիտային շրջանառության արժեքները տրված ժամանակաշրջանի համար, ինչպես նաև սկզբնական և վերջնական մնացորդները։

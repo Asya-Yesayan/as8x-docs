@@ -7,7 +7,10 @@ title: IFactService.LastDate(string, int, DateTime?, string) մեթոդ
 **Համարժեքը 4x-ում՝** [AsAccounting.LastFactDate](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/AsAccounting/LastFactDate.html)
 
 ```c#
-public Task<DateTime?> LastDate(string accountingCode, int isn, DateTime? upToDate, string operation = "");
+public Task<DateTime?> LastDate(string accountingCode, 
+                                int isn, 
+                                DateTime? upToDate, 
+                                string operation = "");
 ```
 
 Վերադարձնում է վերջին գործառնության ամսաթիվը նշված հաշվառումից։ 

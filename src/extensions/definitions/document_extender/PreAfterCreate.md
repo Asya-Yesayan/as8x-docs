@@ -7,7 +7,8 @@ title: DocumentExtender.PreAfterCreate(Document, AfterCreateEventArgs) մեթո�
 **Համարժեքը 4x-ում՝** ScriptExtension.DocPreAfterCreate
 
 ```c#
-public virtual Task PreAfterCreate(Document sender, AfterCreateEventArgs args)
+public virtual Task PreAfterCreate(Document sender, 
+                                   AfterCreateEventArgs args)
 ```
 
 PreAfterCreate մեթոդը կանչվում է միջուկի կողմից՝ փաստաթուղթը ստեղծելուց, [AfterCreate](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/ScriptProcs/AfterCreate.html) իրադարձությունից առաջ։

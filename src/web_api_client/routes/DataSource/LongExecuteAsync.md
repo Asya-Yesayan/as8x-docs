@@ -3,9 +3,12 @@ title: DataSource.LongExecuteAsync(P, HashSet<string>, string, bool, Cancellatio
 ---
 
 ```c#
-public Task<DataSourceResult<R>> LongExecuteAsync(P param, HashSet<string> columns = default, 
-    string isn = null, bool handleEvents = false, 
-    CancellationToken cancellationToken = default, TimeSpan? timeout = null)
+public Task<DataSourceResult<R>> LongExecuteAsync(P param, 
+                                                  HashSet<string> columns = default, 
+                                                  string isn = null, 
+                                                  bool handleEvents = false, 
+                                                  CancellationToken cancellationToken = default, 
+                                                  TimeSpan? timeout = null)
 ```
 
 Աշխատացնում է տվյալների աղբյուրը, վերադարձնում ստացված տողերի ցուցակը և կատարման ընթացքում առաջացած սխալների մանրամասն տեղեկությունը։

@@ -3,7 +3,11 @@ title: BlobRoutes.AppendAsync(string, string, byte[], int, CancellationToken) մ
 ---
 
 ```c#
-public Task<bool> AppendAsync(string container, string blobName, byte[] value, int size, CancellationToken cancellationToken = default)
+public Task<bool> AppendAsync(string container, 
+                              string blobName, 
+                              byte[] value, 
+                              int size, 
+                              CancellationToken cancellationToken = default)
 ```
 
 Ավելացնում է `value` պարամետրի պարունակությունը `file` պարամետրում նշված ֆայլի վերջում։

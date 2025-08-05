@@ -12,7 +12,9 @@ title: IPermanentStorageService.DeleteBlobAsync մեթոդ
 ### IPermanentStorageService.DeleteBlobAsync(string, string, CancellationToken) մեթոդ
 
 ```c#
-public virtual Task<bool> DeleteBlobAsync(string container, string blobName, CancellationToken cancellationToken = default)
+public virtual Task<bool> DeleteBlobAsync(string container, 
+                                          string blobName, 
+                                          CancellationToken cancellationToken = default)
 ```
 
 Հեռացնում է ֆայլը մշտական ֆայլերի պահոցից՝ ըստ անվան և կոնտեյների։ 
@@ -26,7 +28,8 @@ public virtual Task<bool> DeleteBlobAsync(string container, string blobName, Can
 ### IPermanentStorageService.DeleteBlobAsync(string, CancellationToken)  
 
 ```c#
-public virtual Task<bool> DeleteBlobAsync(string blobName, CancellationToken cancellationToken = default)
+public virtual Task<bool> DeleteBlobAsync(string blobName, 
+                                          CancellationToken cancellationToken = default)
 ```
 
 Հեռացնում է ֆայլը մշտական ֆայլերի պահոցի [Container](Container.md) հատկությամբ նշված թղթապանակից։

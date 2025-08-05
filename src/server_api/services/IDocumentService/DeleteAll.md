@@ -3,7 +3,11 @@ title: Document.DeleteAll(List<int>, bool, string, bool, bool) մեթոդ
 ---
 
 ```c#
-public Task DeleteAll(List<int> isnList, bool fullDelete, string comment, bool callDelete = true, bool inheritedDelete = false)
+public Task DeleteAll(List<int> isnList, 
+                      bool fullDelete, 
+                      string comment, 
+                      bool callDelete = true, 
+                      bool inheritedDelete = false)
 ```
 
 Ջնջում է տրված փաստաթղթերը համակարգից։  

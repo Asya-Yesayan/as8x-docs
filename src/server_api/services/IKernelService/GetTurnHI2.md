@@ -8,8 +8,13 @@ title: IKernelService.GetTurnHI2(string, int, int, DateTime, DateTime, string, i
 
 ```c#
 public Task<(decimal DbTurn, decimal DbTurnAMD, decimal CrTurn, decimal CrTurnAMD)> GetTurnHI2(
-    string accounting, int isn, int isnGl, DateTime startDate, DateTime endDate, 
-    string codeOper = "", int baseIsn = -1)
+    string accounting, 
+    int isn, 
+    int isnGl, 
+    DateTime startDate, 
+    DateTime endDate, 
+    string codeOper = "", 
+    int baseIsn = -1)
 ```
 
 Վերադարձնում է փաստաթղթի [HI2](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Database/Hi2.html) աղյուսակում գրանցվող հաշվառման դեբետային և կրեդիտային շրջանառության արժեքները ըստ տրված կուտակող օբյեկտի և տրված ժամանակաշրջանի համար։

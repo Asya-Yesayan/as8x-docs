@@ -15,8 +15,10 @@ title: ITemplateSubstitutionService.MergeFile մեթոդ
 ### ITemplateSubstitutionService.MergeFile(SubstitutionType, StorageInfo, StorageInfo, bool, bool) մեթոդ
 
 ```c#
-public Task MergeFile(SubstitutionType type, StorageInfo targetFile, 
-                      StorageInfo sourceFile, bool insertPageBreak,
+public Task MergeFile(SubstitutionType type, 
+                      StorageInfo targetFile, 
+                      StorageInfo sourceFile, 
+                      bool insertPageBreak,
                       bool check = false)
 ```
 

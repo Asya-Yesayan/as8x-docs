@@ -7,7 +7,9 @@ title: IAccountingService.GetLastHI2Rem(string, int, int) մեթոդ
 **Համարժեքը 4x-ում՝** [AsUtil.GetLastHI2Rem](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/AccManagement/GetLastHI2Rem.html)
 
 ```c#
-public Task<(decimal AMDRem, decimal CurRem)> GetLastHI2Rem(string accounting, int isn, int isnGl = -1)
+public Task<(decimal AMDRem, decimal CurRem)> GetLastHI2Rem(string accounting, 
+                                                            int isn, 
+                                                            int isnGl = -1)
 ```
 
 Վերադարձնում է 

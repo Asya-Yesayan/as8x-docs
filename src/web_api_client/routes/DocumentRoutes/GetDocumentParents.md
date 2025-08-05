@@ -3,7 +3,8 @@ title: DocumentRoutes.GetDocumentParents(int, DocumentParentsRequestModel) մե�
 ---
 
 ```c#
-public List<DocumentResponseInfo> GetDocumentParents(int isn, DocumentParentsRequestModel model)
+public List<DocumentResponseInfo> GetDocumentParents(int isn, 
+                                                     DocumentParentsRequestModel model)
 ```
 
 Վերադարձնում է `List<DocumentResponseInfo>` տիպի օբյեկտ, որը պարունակում փաստաթղթի ծնող փաստաթղերի isn-ների ու ներքին անունների (տեսակների) ցուցակը:

@@ -3,7 +3,8 @@ title: DocumentRoutes.StoreAsync(DocumentStoreRequestModel, CancellationToken) �
 ---
 
 ```c#
-public Task<DocumentModel> StoreAsync(DocumentStoreRequestModel model, CancellationToken cancellationToken = default)
+public Task<DocumentModel> StoreAsync(DocumentStoreRequestModel model, 
+                                      CancellationToken cancellationToken = default)
 ```
 
 Կատարում է պարտադիր ստուգումներ և գրանցում փաստաթուղթը տվյալների պահոցում։

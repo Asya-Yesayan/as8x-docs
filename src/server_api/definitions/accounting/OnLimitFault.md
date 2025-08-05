@@ -16,7 +16,11 @@ title: IAccountingOnLimitFault.OnLimitFault մեթոդ
 ### IAccountingOnLimitFault.OnLimitFault(int, decimal, decimal, bool, Document.Document) մեթոդ
 
 ```c#
-public Task<bool> OnLimitFault(int isn, decimal overrunning, decimal overrunningLinked = -1, bool isDeleting = false, Document.Document baseDocument = null);
+public Task<bool> OnLimitFault(int isn, 
+                               decimal overrunning, 
+                               decimal overrunningLinked = -1, 
+                               bool isDeleting = false, 
+                               Document.Document baseDocument = null);
 ```
 
 Մեթոդը կանչվում է միջուկի կողմից [HI](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Database/Hi.html) աղյուսակում գրանցված հաշվառման սահմանաչափերի խախտման ժամանակ, որոնք դրված են հաշվառում օբյեկտի վրա։
@@ -34,7 +38,10 @@ public Task<bool> OnLimitFault(int isn, decimal overrunning, decimal overrunning
 ### IAccountingOnHI2LimitFault.OnLimitFault(int, int, bool, Document.Document) մեթոդ
 
 ```c#
-public Task OnLimitFault(int isn, int glIsn, bool isDeleting = false, Document.Document baseDocument = null);
+public Task OnLimitFault(int isn, 
+                         int glIsn, 
+                         bool isDeleting = false, 
+                         Document.Document baseDocument = null);
 ```
 
 Մեթոդը կանչվում է միջուկի կողմից [HI2](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Database/Hi2.html) աղյուսակում գրանցված հաշվառման սահմանաչափերի խախտման ժամանակ, որոնք դրված են հաշվառում օբյեկտի վրա։

@@ -7,8 +7,10 @@ title: TemplateService.GetTemplateNameAndType(string, bool) մեթոդ
 **Համարժեքը 4x-ում՝** [AsKernel.GetTemplateNameAndType](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/GetTemplateNameAndType.html)
 
 ```c#
-public static (bool result, string templateName, string templateType) 
-    GetTemplateNameAndType(string templateNameWithType, bool isBackSlash = true)
+public static (bool result, 
+               string templateName, 
+               string templateType) GetTemplateNameAndType(string templateNameWithType, 
+                                                           bool isBackSlash = true)
 ```
 
 Բաժանում է `templateNameWithType` պարամետրում միավորված տպելու ձևանմուշի ներքին անունը (կոդը) և տիպը:  

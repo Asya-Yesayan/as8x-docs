@@ -16,7 +16,9 @@ title: DataSourceService.ExecuteDataSource մեթոդ
 ### DataSourceService.ExecuteDataSource(string, Dictionary&lt;string, object&gt;, CancellationToken) մեթոդ
 
 ```c#
-public Task<List<T>> ExecuteDataSource<T>(string dsName, Dictionary<string, object> parameters, CancellationToken cancellationToken = default)
+public Task<List<T>> ExecuteDataSource<T>(string dsName, 
+                                          Dictionary<string, object> parameters, 
+                                          CancellationToken cancellationToken = default)
 ```
 
 Կատարում է տվյալների աղբյուրը և վերադարձնում տողերի ցուցակ։
@@ -33,7 +35,9 @@ public Task<List<T>> ExecuteDataSource<T>(string dsName, Dictionary<string, obje
 ### DataSourceService.ExecuteDataSource(Type, Dictionary&lt;string, object&gt;, CancellationToken) մեթոդ
 
 ```c#
-public Task<List<T>> ExecuteDataSource<T>(Type dsType, Dictionary<string, object> parameters, CancellationToken cancellationToken = default)
+public Task<List<T>> ExecuteDataSource<T>(Type dsType, 
+                                          Dictionary<string, object> parameters, 
+                                          CancellationToken cancellationToken = default)
 ```
 
 Կատարում է տվյալների աղբյուրը և վերադարձնում տողերի ցուցակ։

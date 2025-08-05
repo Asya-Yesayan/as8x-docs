@@ -7,7 +7,9 @@ title: IDocumentService.Copy(int, object, int) մեթոդ
 **Համարժեքը 4x-ում՝** [AsDocEngine.CopyDoc](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/DocumentsCirculation/CopyDoc.html)
 
 ```c#
-public Task<Document> Copy(int isn, object beforeCopyParam = null, int copyDocMode = 0)
+public Task<Document> Copy(int isn, 
+                           object beforeCopyParam = null, 
+                           int copyDocMode = 0)
 ```
 
 Ստեղծում է արդեն գոյություն ունեցող փաստաթղթի պատճեն օբյեկտը։

@@ -7,7 +7,8 @@ title: IDocumentService.ReFolder(Document, StoreMode) մեթոդ
 **Համարժեքը 4x-ում՝** [AsDoc.ReFolder](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/ASDOC/ReFolder.html)
 
 ```c#
-public Task ReFolder(Document document, StoreMode mode)
+public Task ReFolder(Document document, 
+                     StoreMode mode)
 ```
 
 Իրականացնում է փաստաթղթի վերաինդեքսավորումը թղթապանակներում:

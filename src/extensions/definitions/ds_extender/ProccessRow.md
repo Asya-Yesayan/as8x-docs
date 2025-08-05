@@ -7,7 +7,8 @@ title: Extender.ProccessRow(IExtendableRow, IDataSourceArgs) մեթոդ
 **Համարժեքը 4x-ում՝** ScriptExtension.DataPostValid
 
 ```c#
-public virtual Task<bool> ProccessRow(IExtendableRow row, IDataSourceArgs args)
+public virtual Task<bool> ProccessRow(IExtendableRow row, 
+                                      IDataSourceArgs args)
 ```
 
 Մեթոդը կանչվում է միջուկի կողմից տվյալների աղբյուրի յուրաքանչյուր տողի համար։  

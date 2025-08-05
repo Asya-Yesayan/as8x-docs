@@ -7,7 +7,9 @@ title: IKernelService.UserPositionAndMask(byte, byte, short) մեթոդ
 **Համարժեքը 4x-ում՝** [AsKernel.UserPositionAndMask](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/UserPositionAndMask.html)
 
 ```c#
-public void UserPositionAndMask(out byte number, out byte mask, short suid = -1)
+public void UserPositionAndMask(out byte number, 
+                                out byte mask, 
+                                short suid = -1)
 ```
 
 Վերադարձնում է համակարգի օգտագործողի դիրքի համարը և դիմակը։ 

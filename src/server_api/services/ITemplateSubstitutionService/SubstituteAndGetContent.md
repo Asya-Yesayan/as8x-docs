@@ -4,9 +4,11 @@ title: ITemplateSubstitutionService.SubstituteAndGetContent(IPrintTemplateSubsti
 
 ```c#
 public string SubstituteAndGetContent(IPrintTemplateSubstitution printTemplateSubstitution, 
-                                      byte[] file, SubstitutionType type, 
+                                      byte[] file, 
+                                      SubstitutionType type, 
                                       HtmlImageOption htmlImageOption = default,
-                                      bool isUnicode = false, bool check = false)
+                                      bool isUnicode = false, 
+                                      bool check = false)
 ```
 
 Լրացնում Է տպելու ձևանմուշը `printTemplateSubstitution`-ում պարունակվող նախապես հաշվարկված տվյալներով և վերադարձնում որպես տեքստ։

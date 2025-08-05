@@ -7,7 +7,8 @@ title: AccountingExtender.PostOnDelete(Accounting, OnDeleteEventArgs) մեթոդ
 **Համարժեքը 4x-ում՝** [PostOnDelete](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/ScriptProcs/AccountingExtenderEvents/PostOnDelete.html)
 
 ```c#
-public virtual Task PostOnDelete(Accounting sender, OnDeleteEventArgs onDeleteEventArgs);
+public virtual Task PostOnDelete(Accounting sender, 
+                                 OnDeleteEventArgs onDeleteEventArgs);
 ```
 
 PreOnDelete իրադարձությունը առաջանում է հաշվառումը ջնջելու ժամանակ` հաշվառման OnDelete իրադարձությունից հետո։ 

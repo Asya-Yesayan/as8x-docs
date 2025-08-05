@@ -16,10 +16,14 @@ title: IDocumentService.Load մեթոդ
 ### IDocumentService.Load(int, GridLoadMode, bool, bool, bool, bool, Type, bool) մեթոդ
 
 ```c#
-public Task<Document> Load(int isn, GridLoadMode gridLoadMode = GridLoadMode.Full,
-                           bool loadImagesAndMemos = true, bool lockTableRow = false,
-                           bool throwExceptionIfDeleted = true, bool lookInArc = true,
-                           Type instanceType = null, bool loadParents = false)
+public Task<Document> Load(int isn, 
+                           GridLoadMode gridLoadMode = GridLoadMode.Full,
+                           bool loadImagesAndMemos = true, 
+                           bool lockTableRow = false,
+                           bool throwExceptionIfDeleted = true, 
+                           bool lookInArc = true,
+                           Type instanceType = null, 
+                           bool loadParents = false)
 ```
 
 Բեռնում է տվյալների պահոցում գոյություն ունեցող փաստաթուղթը ըստ ներքին նույնականացման համարի։
@@ -44,9 +48,12 @@ public Task<Document> Load(int isn, GridLoadMode gridLoadMode = GridLoadMode.Ful
 ### IDocumentService.Load(int, GridLoadMode, bool, bool, bool, bool, bool) մեթոդ
 
 ```c#
-public Task<T> Load<T>(int isn, GridLoadMode gridLoadMode = GridLoadMode.Full, 
-                       bool loadImagesAndMemos = true, bool lockTableRow = false, 
-                       bool throwExceptionIfDeleted = true, bool lookInArc = true, 
+public Task<T> Load<T>(int isn, 
+                       GridLoadMode gridLoadMode = GridLoadMode.Full, 
+                       bool loadImagesAndMemos = true, 
+                       bool lockTableRow = false, 
+                       bool throwExceptionIfDeleted = true, 
+                       bool lookInArc = true, 
                        bool loadParents = false) where T : Document
 ```
 

@@ -7,11 +7,9 @@ title: IDocumentService.GetDocumentParents(int, string, DocumentChildrenOrder, s
 **Համարժեքը 4x-ում՝** [AsDocEngine.DocParents](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/DocumentsCirculation/DocParents.html)
 
 ```c#
-public Task<List<(int isn, string docType)>> GetDocumentParents(
-    int isn, 
-    string docType = "", 
-    DocumentChildrenOrder order = DocumentChildrenOrder.UnOrdered, 
-    string docTypeLike = "")
+public Task<List<(int isn, string docType)>> GetDocumentParents(int isn, 
+                                                                string docType = "", 
+                                                                DocumentChildrenOrder order = DocumentChildrenOrder.UnOrdered, string docTypeLike = "")
 ```
 
 Վերադարձնում է փաստաթղթի ծնող փաստաթղերի isn-ների ու ներքին անունների (տեսակների) ցուցակը:

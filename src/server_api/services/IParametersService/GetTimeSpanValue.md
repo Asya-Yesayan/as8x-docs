@@ -30,7 +30,8 @@ public Task<TimeSpan> GetTimeSpanValue(string paramId)
 ### IParametersService.GetTimeSpanValue(string, short) մեթոդ  
 
 ```c#
-public Task<TimeSpan> GetTimeSpanValue(string paramId, short suid)
+public Task<TimeSpan> GetTimeSpanValue(string paramId, 
+                                       short suid)
 ```
 
 Վերադարձնում է ժամ տիպի ([TIME](../../types/system_types.md#timefieldtype), [TIMELONG](../../types/system_types.md#timefieldtype)) պարամետրի արժեքը՝ ըստ պարամետրի ներքին անվան և օգտագործողի համարի։  

@@ -3,7 +3,8 @@ title: ExtenderRoutes.GetSchemaAsync(string, CancellationToken) մեթոդ
 ---
 
 ```c#
-public Task<ExtenderSchema> GetSchemaAsync(string extenderName, CancellationToken cancellationToken = default)
+public Task<ExtenderSchema> GetSchemaAsync(string extenderName, 
+                                           CancellationToken cancellationToken = default)
 ```
 
 Վերադարձնում է տվյալների աղբյուրի ընդլայնման նկարագրությունը, որը պարունակում է ընդլայնման ներքին անունը, պարամետրերի ու սյուների հատկությունները։

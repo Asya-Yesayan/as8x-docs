@@ -10,13 +10,14 @@ title: DataSource.AfterDataReaderClose մեթոդ
 
 | Անվանում | Նկարագրություն |
 |--|--|
-| [AfterDataReaderClose(DataSourceArgs&lt;P&gt;, CancellationToken)](#datasourceafterdatareaderclosedatasourceargs-cancellationtoken-մեթոդ) | Մեթոդը կանչվում է միջուկի կողմից SQL հարցման կատարման ավարտից հետո, երբ [SqlDataReader](https://learn.microsoft.com/en-us/dotnet/api/microsoft.data.sqlclient.sqldatareader)-ը արդեն փակ է: |
-| [AfterDataReaderClose(DataSourceArgs&lt;P&gt;, R)](#datasourceafterdatareaderclosedatasourceargs-r-մեթոդ) | Մեթոդը կանչվում է միջուկի կողմից SQL հարցման կատարման ավարտից հետո ամեն մի հաշվարկված տողի համար, երբ [SqlDataReader](https://learn.microsoft.com/en-us/dotnet/api/microsoft.data.sqlclient.sqldatareader)-ը արդեն փակ է: |
+| [AfterDataReaderClose(DataSourceArgs&lt;P&gt;, CancellationToken)](#datasourceafterdatareaderclosedatasourceargsp-cancellationtoken-մեթոդ) | Մեթոդը կանչվում է միջուկի կողմից SQL հարցման կատարման ավարտից հետո, երբ [SqlDataReader](https://learn.microsoft.com/en-us/dotnet/api/microsoft.data.sqlclient.sqldatareader)-ը արդեն փակ է: |
+| [AfterDataReaderClose(DataSourceArgs&lt;P&gt;, R)](#datasourceafterdatareaderclosedatasourceargsp-r-մեթոդ) | Մեթոդը կանչվում է միջուկի կողմից SQL հարցման կատարման ավարտից հետո ամեն մի հաշվարկված տողի համար, երբ [SqlDataReader](https://learn.microsoft.com/en-us/dotnet/api/microsoft.data.sqlclient.sqldatareader)-ը արդեն փակ է: |
 
 ### DataSource.AfterDataReaderClose(DataSourceArgs&lt;P&gt;, CancellationToken) մեթոդ
 
 ```c#
-protected virtual Task AfterDataReaderClose(DataSourceArgs<P> args, CancellationToken stoppingToken)
+protected virtual Task AfterDataReaderClose(DataSourceArgs<P> args, 
+                                            CancellationToken stoppingToken)
 ```
 
 Մեթոդը կանչվում է միջուկի կողմից SQL հարցման կատարման ավարտից հետո, երբ [SqlDataReader](https://learn.microsoft.com/en-us/dotnet/api/microsoft.data.sqlclient.sqldatareader)-ը արդեն փակ է: 
@@ -28,7 +29,8 @@ protected virtual Task AfterDataReaderClose(DataSourceArgs<P> args, Cancellation
 ### DataSource.AfterDataReaderClose(DataSourceArgs&lt;P&gt;, R) մեթոդ
 
 ```c#
-protected virtual Task<bool> AfterDataReaderClose(DataSourceArgs<P> args, R row)
+protected virtual Task<bool> AfterDataReaderClose(DataSourceArgs<P> args, 
+                                                  R row)
 ```
 
 Մեթոդը կանչվում է միջուկի կողմից SQL հարցման կատարման ավարտից հետո ամեն մի հաշվարկված տողի համար, երբ [SqlDataReader](https://learn.microsoft.com/en-us/dotnet/api/microsoft.data.sqlclient.sqldatareader)-ը արդեն փակ է: 

@@ -3,7 +3,8 @@ title: Extender.BeforeProcess(IList<IExtendableRow>, IDataSourceArgs) մեթոդ
 ---
 
 ```c#
-public virtual Task BeforeProcess(IList<IExtendableRow> rows, IDataSourceArgs args)
+public virtual Task BeforeProcess(IList<IExtendableRow> rows, 
+                                  IDataSourceArgs args)
 ```
 
 Մեթոդը կանչվում է միջուկի կողմից տվյալների աղբյուրի հիմնական հաշվարկի ավարտից հետո։  

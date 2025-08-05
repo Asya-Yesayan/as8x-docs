@@ -7,7 +7,8 @@ title: DataSource.FillData(DataSourceArgs<P>, CancellationToken) մեթոդ
 **Համարժեքը 4x-ում՝** [Load](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/ScriptProcs/Load.html)
 
 ```c#
-protected virtual Task FillData(DataSourceArgs<P> args, CancellationToken stoppingToken)
+protected virtual Task FillData(DataSourceArgs<P> args, 
+                                CancellationToken stoppingToken)
 ```
 
 Մեթոդը կանչվում է միջուկի կողմից array-based տվյալների աղբյուրի դեպքում։

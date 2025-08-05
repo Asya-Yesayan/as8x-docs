@@ -8,7 +8,11 @@ title: IKernelService.GetTurn(string, int, DateTime, DateTime, string) մեթո�
 
 ```c#
 public Task<(decimal DbTurn, decimal DbTurnAMD, decimal CrTurn, decimal CrTurnAMD)> GetTurn(
-    string accounting, int isn, DateTime startDate, DateTime endDate, string codeOperList = "")
+    string accounting, 
+    int isn, 
+    DateTime startDate, 
+    DateTime endDate, 
+    string codeOperList = "")
 ```
 
 Վերադարձնում է փաստաթղթի հաշվառման դեբետային և կրեդիտային շրջանառության արժեքները տրված ժամանակաշրջանի համար։

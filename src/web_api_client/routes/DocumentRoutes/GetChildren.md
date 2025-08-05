@@ -3,7 +3,10 @@ title: DocumentRoutes.GetChildren(int, string, DocumentOrder, string) մեթոդ
 ---
 
 ```c#
-public List<DocumentResponseInfo> GetChildren(int isn, string docType = "", DocumentOrder order = DocumentOrder.UnOrdered, string docTypeLike = "")
+public List<DocumentResponseInfo> GetChildren(int isn, 
+                                              string docType = "", 
+                                              DocumentOrder order = DocumentOrder.UnOrdered, 
+                                              string docTypeLike = "")
 ```
 
 Վերադարձնում է փաստաթղթի զավակ փաստաթղերի isn-ների ու ներքին անունների (տեսակների) ցուցակը:

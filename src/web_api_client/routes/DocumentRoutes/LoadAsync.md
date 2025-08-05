@@ -3,7 +3,10 @@ title: DocumentRoutes.LoadAsync(int, bool, bool, CancellationToken) մեթոդ
 ---
 
 ```c#
-public Task<DocumentModelSimple> LoadAsync(int isn, bool throwExceptionIfDeleted = true, bool lookInArchive = false, CancellationToken cancellationToken = default)
+public Task<DocumentModelSimple> LoadAsync(int isn, 
+                                           bool throwExceptionIfDeleted = true, 
+                                           bool lookInArchive = false, 
+                                           CancellationToken cancellationToken = default)
 ```
 
 Բեռնում է տվյալների պահոցում գոյություն ունեցող փաստաթուղթը ըստ ներքին նույնականացման համարի։

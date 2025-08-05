@@ -16,8 +16,12 @@ title: IDocumentService.LoadFromFolder մեթոդ
 ### IDocumentService.LoadFromFolder(string, string, GridLoadMode, bool, Type, bool) մեթոդ
 
 ```c#
-public Task<Document> LoadFromFolder(string folder, string key, GridLoadMode gridLoadMode = GridLoadMode.Full,
-                                     bool loadImagesAndMemos = true, Type instanceType = null, bool loadParents = false)
+public Task<Document> LoadFromFolder(string folder, 
+                                     string key, 
+                                     GridLoadMode gridLoadMode = GridLoadMode.Full,
+                                     bool loadImagesAndMemos = true, 
+                                     Type instanceType = null, 
+                                     bool loadParents = false)
 ```
 
 Բեռնում է փաստաթուղթը ըստ թղթապանակի և բանալու։
@@ -34,8 +38,11 @@ public Task<Document> LoadFromFolder(string folder, string key, GridLoadMode gri
 ### IDocumentService.LoadFromFolder(string, string, GridLoadMode, bool, bool) մեթոդ
 
 ```c#
-public Task<T> LoadFromFolder<T>(string folder, string key, GridLoadMode gridLoadMode = GridLoadMode.Full,
-                                 bool loadImagesAndMemos = true, bool loadParents = false) where T : Document
+public Task<T> LoadFromFolder<T>(string folder, 
+                                 string key, 
+                                 GridLoadMode gridLoadMode = GridLoadMode.Full,
+                                 bool loadImagesAndMemos = true, 
+                                 bool loadParents = false) where T : Document
 ```
 
 Բեռնում է փաստաթուղթը ըստ թղթապանակի և բանալու։

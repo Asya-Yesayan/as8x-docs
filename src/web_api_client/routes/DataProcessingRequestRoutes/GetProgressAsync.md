@@ -3,7 +3,8 @@ title: DataProcessingRequestRoutes.GetProgressAsync(Guid, CancellationToken) մ�
 ---
 
 ```c#
-public Task<DPRProgress> GetProgressAsync(Guid id, CancellationToken cancellationToken = default)
+public Task<DPRProgress> GetProgressAsync(Guid id, 
+                                          CancellationToken cancellationToken = default)
 ```
 
 Վերադարձնում է [EnqueueAsync](EnqueueAsync.md) մեթոդի միջոցով նախապես հերթի դրված [DPR](../../../server_api/definitions/dpr.md)-ի կատարման պրոգրեսը։

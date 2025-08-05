@@ -3,7 +3,9 @@ title: Extender.AddParam(string, string, FieldType) մեթոդ
 ---
 
 ```c#
-public void AddParam(string name, string description, FieldType fieldType)
+public void AddParam(string name, 
+                     string description, 
+                     FieldType fieldType)
 ```
 
 Ընդլայնման միջոցով ավելացող նոր պարամետրի հատկությունները սահմանելու համար անհրաժեշտ է կոնստրուկտորում կանչել այս մեթոդը։

@@ -3,7 +3,9 @@ title: DataProcessingRequestRoutes.GetObjectAsync(DPRType, string, CancellationT
 ---
 
 ```c#
-public Task<DPRInfoExtended> GetObjectAsync(DPRType type, string name, CancellationToken cancellationToken = default)
+public Task<DPRInfoExtended> GetObjectAsync(DPRType type, 
+                                            string name, 
+                                            CancellationToken cancellationToken = default)
 ```
 
 Վերադարձնում է DPR-ի մետատվյալները (ներքին անուն, հայերեն/անգլերեն անվանումներ, տեսակ, սատարում է չեղարկումը թե ոչ)՝ ըստ տեսակի և ներքին անվան։

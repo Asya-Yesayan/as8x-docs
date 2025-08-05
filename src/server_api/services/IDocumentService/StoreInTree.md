@@ -7,7 +7,8 @@ title: IDocumentService.StoreInTree(Document, TreeElement) մեթոդ
 **Համարժեքը 4x-ում՝** [AsDoc.StoreInFolder](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/ASDOC/StoreInFolder.html)
 
 ```c#
-public void StoreInTree(Document document, TreeElement treeElement)
+public void StoreInTree(Document document, 
+                        TreeElement treeElement)
 ```
 
 Գրանցում է ծառի տարրը տվյալների պահոցում:

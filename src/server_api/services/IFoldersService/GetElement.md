@@ -16,7 +16,8 @@ title: IFoldersService.GetElement մեթոդ
 ### IFoldersService.GetElement(string, int) մեթոդ
 
 ```c#
-public Task<FolderElement> GetElement(string folderId, int isn);
+public Task<FolderElement> GetElement(string folderId, 
+                                      int isn);
 ```
 
 Վերադարձնում է [թղթապանակի տարրը](../../types/FolderElement.md)՝ ըստ թղթապանակի ներքին անվան և փաստաթղթի ներքին նույնականացման համարի։
@@ -31,7 +32,9 @@ public Task<FolderElement> GetElement(string folderId, int isn);
 ### IFoldersService.GetElement(string, string, bool) մեթոդ
 
 ```c#
-public Task<FolderElement> GetElement(string folderId, string key, bool noLock = false);
+public Task<FolderElement> GetElement(string folderId, 
+                                      string key, 
+                                      bool noLock = false);
 ```
 
 Վերադարձնում է [թղթապանակի տարրը](../../types/FolderElement.md)՝ ըստ թղթապանակի ներքին անվան և բանալու։

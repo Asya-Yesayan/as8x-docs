@@ -7,7 +7,8 @@ title: DocumentExtender.PostLoadGrids(Document, LoadGridsEventArgs) մեթոդ
 **Համարժեքը 4x-ում՝** ScriptExtension.DocPostLoadGrids
 
 ```c#
-public virtual Task PostLoadGrids(Document sender, LoadGridsEventArgs args)
+public virtual Task PostLoadGrids(Document sender, 
+                                  LoadGridsEventArgs args)
 ```
 
 PostLoadGrids մեթոդը կանչվում է միջուկի կողմից` փաստաթղթի աղյուսակների բեռնման ժամանակ՝ [LoadGrids](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/ScriptProcs/LoadGrid.html) իրադարձությունից հետո։

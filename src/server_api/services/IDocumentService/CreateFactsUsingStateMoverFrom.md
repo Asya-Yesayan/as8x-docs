@@ -7,7 +7,8 @@ title: IDocumentService.CreateFactsUsingStateMoverFrom(Document, int) մեթոդ
 **Համարժեքը 4x-ում՝** AsDoc.CreateFactsUsingDocStateMoverFrom
 
 ```c#
-public Task CreateFactsUsingStateMoverFrom(Document document, int state)
+public Task CreateFactsUsingStateMoverFrom(Document document, 
+                                           int state)
 ```
 
 Ֆունկցիան կանչելուց հետո [Action](../../definitions/document/Action.md)-ում [StoreFact](StoreFact.md) ֆունկցիայով գրանցվող հաշվառումների ստեղծող օգատգործող է լրացվում այն օգտագործողը, որը վերջինն է փաստաթուղթը բերել նշված վիճակ։

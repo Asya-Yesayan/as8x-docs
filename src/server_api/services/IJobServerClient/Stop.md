@@ -3,7 +3,8 @@ title: IProcessServerClient.Stop(Guid, object) մեթոդ
 ---
 
 ```c#
-public Task Stop(Guid id, object param)
+public Task Stop(Guid id, 
+                 object param)
 ```
 
 Ընդհատում է նախապես հերթի դրված [փաստաթղթի](../../definitions/document.md), [տվյալների աղբյուրի](../../definitions/ds.md) կամ [DPR](../../definitions/dpr.md)-ի կատարումը։

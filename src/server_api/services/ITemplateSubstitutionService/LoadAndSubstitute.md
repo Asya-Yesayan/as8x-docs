@@ -5,9 +5,11 @@ title: ITemplateSubstitutionService.LoadAndSubstitute(IPrintTemplateSubstitution
 ```c#
 public Task<Stream> LoadAndSubstitute(
     IPrintTemplateSubstitution printTemplateSubstitution, 
-    string name, SubstitutionType type, 
+    string name, 
+    SubstitutionType type, 
     HtmlImageOption htmlImageOption = default,
-    string outputPassword = "", bool check = false)
+    string outputPassword = "", 
+    bool check = false)
 ```
 
 Բեռնում է տպելու ձևանմուշը տվյալների պահոցից, լրացնում `printTemplateSubstitution`-ում պարունակվող նախապես հաշվարկված տվյալներով և ստացված ֆայլը վերադարձնում որպես [Stream](https://learn.microsoft.com/en-us/dotnet/api/system.io.stream):

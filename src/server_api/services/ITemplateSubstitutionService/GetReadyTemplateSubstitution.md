@@ -3,11 +3,10 @@ title: ITemplateSubstitutionService.GetReadyTemplateSubstitution(Document.Docume
 ---
 
 ```c#
-public Task<ITemplateSubstitution> GetReadyTemplateSubstitution(
-    Document.Document document,
-    string templateName,
-    SubstitutionType templateType,
-    Dictionary<string, object> parameters)
+public Task<ITemplateSubstitution> GetReadyTemplateSubstitution(Document.Document document,
+                                                                string templateName,
+                                                                SubstitutionType templateType,
+                                                                Dictionary<string, object> parameters)
 ```
 
 Հաշվարկում է փաստաթղթին կապակցված տպելու ձևանմուշի տեղադրվող արժեքները, օգտագործողի կողմից նկարագրված պարամետրերը և վերադարձնում տպելու ձևանմուշի տեղադրվող արժեքները պարունակող օբյեկտը։

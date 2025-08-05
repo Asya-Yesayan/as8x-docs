@@ -3,7 +3,8 @@ title: IErrorHandlingService.GetSqlExceptionText(SqlException, string) մեթո�
 ---
 
 ```c#           
-public string GetSqlExceptionText(SqlException exception, string duplicateErrorMessage = "")
+public string GetSqlExceptionText(SqlException exception, 
+                                  string duplicateErrorMessage = "")
 ```
 
 Փորձում է ճանաչել SQL-ական սխալը և վերադարձնել վերջնական օգտագործողներին ավելի հասկանալի հաղորդագրություն։

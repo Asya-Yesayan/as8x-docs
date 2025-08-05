@@ -30,7 +30,8 @@ public Task<short> GetShortValue(string paramId)
 ### IParametersService.GetShortValue(string, short) մեթոդ  
 
 ```c#
-public Task<short> GetShortValue(string paramId, short suid)
+public Task<short> GetShortValue(string paramId, 
+                                 short suid)
 ```
 
 Վերադարձնում է կարճ ամբողջ թիվ տիպի ([N](../../types/system_types.md#numericfieldtype), [NP](../../types/system_types.md#numericpositivefieldtype)) պարամետրի արժեքը՝ ըստ պարամետրի ներքին անվան և օգտագործողի համարի։  

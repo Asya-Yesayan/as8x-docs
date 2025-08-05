@@ -12,7 +12,9 @@ title: DocumentRoutes.DeleteAsync մեթոդ
 ### DocumentRoutes.DeleteAsync(int, DocumentDeleteModel, CancellationToken) մեթոդ
 
 ```c#
-public Task<DeletedDoc> DeleteAsync(int isn, DocumentDeleteModel model, CancellationToken cancellationToken = default)
+public Task<DeletedDoc> DeleteAsync(int isn, 
+                                    DocumentDeleteModel model, 
+                                    CancellationToken cancellationToken = default)
 ```
 
 Ջնջում է փաստաթուղթը համակարգից։  
@@ -31,7 +33,8 @@ public Task<DeletedDoc> DeleteAsync(int isn, DocumentDeleteModel model, Cancella
 ### DocumentRoutes.DeleteAsync(DocumentDeleteRequestModel, CancellationToken) մեթոդ
 
 ```c#
-public Task<DeletedDoc> DeleteAsync(DocumentDeleteRequestModel model, CancellationToken cancellationToken = default)
+public Task<DeletedDoc> DeleteAsync(DocumentDeleteRequestModel model, 
+                                    CancellationToken cancellationToken = default)
 ```
 
 Ջնջում է փաստաթուղթը համակարգից։  

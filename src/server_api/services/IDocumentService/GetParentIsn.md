@@ -29,7 +29,8 @@ public Task<int> GetParentIsn(int isn)
 ### IDocumentService.GetParentIsn(int, string) մեթոդ
 
 ```c#
-public Task<int> GetParentIsn(int isn, string docTypeLike)
+public Task<int> GetParentIsn(int isn, 
+                              string docTypeLike)
 ```
 
 Վերադարձնում է փաստաթղթի առաջին ծնող փաստաթղթի ներքին նույնականացման համարը, որը ունի նշված ներքին անունը (տեսակը)։

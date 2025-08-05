@@ -30,7 +30,8 @@ public Task<decimal> GetDecimalValue(string paramId)
 ### IParametersService.GetDecimalValue(string, short) մեթոդ  
 
 ```c#
-public Task<decimal> GetDecimalValue(string paramId, short suid)
+public Task<decimal> GetDecimalValue(string paramId, 
+                                     short suid)
 ```
 
 Վերադարձնում է կոտորակային թիվ տիպի ([N](../../types/system_types.md#numericfieldtype), [NP](../../types/system_types.md#numericpositivefieldtype), [SUMMA](../../types/system_types.md#amountfieldtype), [SUMMAP](../../types/system_types.md#amountpositivefieldtype)) պարամետրի արժեքը՝ ըստ պարամետրի ներքին անվան և օգտագործողի համարի։  

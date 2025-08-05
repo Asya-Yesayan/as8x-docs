@@ -7,7 +7,8 @@ title: Document.SetCheckValue(string, bool) մեթոդ
 **Համարժեքը 4x-ում՝** [AsDoc.CheckValue](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/ASDOC/CheckValue.html)
 
 ```c#
-public void SetCheckValue(string fieldName, bool value)
+public void SetCheckValue(string fieldName, 
+                          bool value)
 ```
 
 Նշանակում է փաստաթղթի նշված ներքին անունով դաշտի [համակարգային տիպի](../../types/system_types.md) ստուգման հայտանիշը:

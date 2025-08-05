@@ -3,7 +3,9 @@ title: IAttachmentService.Copy(int, int, bool) մեթոդ
 ---
 
 ```c#
-public Task Copy(int copyFromISN, int copyToISN, bool updateExisted = true)
+public Task Copy(int copyFromISN, 
+                 int copyToISN, 
+                 bool updateExisted = true)
 ```
 
 Պատճենում է տրված փաստաթղթի կցված ֆայլերը մեկ այլ փաստաթղթի մեջ։

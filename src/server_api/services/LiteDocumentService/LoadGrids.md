@@ -3,7 +3,8 @@ title: LiteDocumentService.LoadGrids(LiteDocument, bool) մեթոդ
 ---
 
 ```c#
-public Task LoadGrids(LiteDocument document, bool lookInArc = false);
+public Task LoadGrids(LiteDocument document, 
+                      bool lookInArc = false);
 ```
 
 Բեռնում է փաստաթղթի աղյուսակները տվյալների պահոցից և ավելացնում նշված փաստաթղթում։

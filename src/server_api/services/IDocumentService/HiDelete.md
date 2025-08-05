@@ -7,7 +7,8 @@ title: IDocumentService.HiDelete(Document, bool) մեթոդ
 **Համարժեքը 4x-ում՝** [AsDoc.HiDelete](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/ASDOC/HiDelete.html)
 
 ```c#
-public Task<(bool had01AccRow, bool hadHIRow)> HiDelete(Document doc, bool deleteDoc)
+public Task<(bool had01AccRow, bool hadHIRow)> HiDelete(Document doc, 
+                                                        bool deleteDoc)
 ```
 
 Ջնջում է փաստաթղթի նախկինում գրանցած հաշվառումները [HI](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Database/Hi.html) աղյուսակից։  

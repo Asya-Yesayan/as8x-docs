@@ -7,7 +7,8 @@ title: DocumentExtender.PostOnRejectDocumentChangeRequest(Document, RejectDocume
 **Համարժեքը 4x-ում՝** ScriptExtension.DocPostOnRejectDCR
 
 ```c#
-public virtual Task PostOnRejectDocumentChangeRequest(Document sender, RejectDocumentChangeRequestEventArgs args)
+public virtual Task PostOnRejectDocumentChangeRequest(Document sender, 
+                                                      RejectDocumentChangeRequestEventArgs args)
 ```
 
 Մեթոդը կանչվում է միջուկի կողմից՝ [փաստաթղթի փոփոխման հայտը](../../../server_api/types/DocumentChangeRequest.md) մերժելիս, [OnRejectDocumentChangeRequest](../../../server_api/definitions/document/OnRejectDocumentChangeRequest.md) մեթոդի կանչից հետո։

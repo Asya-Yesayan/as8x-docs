@@ -4,8 +4,8 @@ title: AuthenticationClient.AuthenticateWithCertificateAsync(CertificateAuthenti
 
 ```c#
 public Task<CertificateAuthenticateResponse> AuthenticateWithCertificateAsync(
-    CertificateAuthenticateRequest certificateAuthenticateRequest, 
-    CancellationToken cancellationToken = default)
+        CertificateAuthenticateRequest certificateAuthenticateRequest, 
+        CancellationToken cancellationToken = default)
 ```
 
 Նույնականացնում է օգտագործողի մուտքանունով և գաղտնաբառով, պահանջվում է սերտիֆիկատի առկայություն ([API Client](../../api_client.md))։

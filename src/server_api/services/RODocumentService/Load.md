@@ -77,7 +77,8 @@ public Task<T> Load<T>(int isn,
 ### RODocumentService.Load(int, bool, Ref&lt;bool&gt;, bool) մեթոդ  
 
 ```c#
-public Task<Dictionary<int, RODocument>> Load(IEnumerable<int> isnList, bool loadGrids = false)
+public Task<Dictionary<int, RODocument>> Load(IEnumerable<int> isnList, 
+                                              bool loadGrids = false)
 ```
 
 Բեռնում է նշված ներքին նույնականացման համարներով փաստաթղթերը հիմնական տվյալների պահոցից՝ առանց աղյուսակների բեռնման և արխիվային տվյալների ստուգման:

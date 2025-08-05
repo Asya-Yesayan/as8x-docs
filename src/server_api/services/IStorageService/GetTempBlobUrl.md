@@ -3,7 +3,8 @@ title: IStorageService.GetTempBlobUrl(string, string) մեթոդ
 ---
 
 ```c#
-public Task<string> GetTempBlobUrl(string fileExtension, out string blobName)
+public Task<string> GetTempBlobUrl(string fileExtension, 
+                                   out string blobName)
 ```
 
 Վերադարձնում է [ընթացիկ սեսիայի կոնտեյներում](Container.md) գոյություն չունեցող, պատահականության սկզբունքով ընտրված ֆայլի անուն՝ ներառյալ ընդլայնումը և ֆայլի ամբողջական ճանապարհը։

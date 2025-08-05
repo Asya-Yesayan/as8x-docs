@@ -7,9 +7,12 @@ title: IParametersService.SetHiPar(string, DateTime, int, string, string, DateTi
 **Համարժեքը 4x-ում՝** [AsKernel.HiPar](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/ParameterManagment/HiPar.html)
 
 ```c#
-public Task SetHiPar(string parID, DateTime changeDate, 
-                     int isn, string newValue, 
-                     string errMsg = "", DateTime? creationDate = null)
+public Task SetHiPar(string parID, 
+                     DateTime changeDate, 
+                     int isn, 
+                     string newValue, 
+                     string errMsg = "", 
+                     DateTime? creationDate = null)
 ```
 
 Գրանցում է ժամանակագրական պարամետրի նոր արժեք տրված ամսաթվով:

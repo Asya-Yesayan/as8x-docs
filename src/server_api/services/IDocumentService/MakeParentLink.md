@@ -7,7 +7,9 @@ title: IDocumentService.MakeParentLink(Document, int, bool) մեթոդ
 **Համարժեքը 4x-ում՝** [AsDocEngine.MakeParentLink](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/DocumentsCirculation/MakeParentLink.html)
 
 ```c#
-public Task MakeParentLink(Document document, int parentIsn, bool removeExistingLinks = true)
+public Task MakeParentLink(Document document, 
+                           int parentIsn, 
+                           bool removeExistingLinks = true)
 ```
 
 Ընթացիկ փաստաթղթի համար սահմանում է ծնողի հետ կապ։ 

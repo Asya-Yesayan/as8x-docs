@@ -3,8 +3,11 @@ title: DataSource.ExecuteAsync(P, HashSet<string>, string, CancellationToken, Ti
 ---
 
 ```c#
-public Task<DataSourceResult<R>> ExecuteAsync(P param, HashSet<string> columns = default, 
-    string isn = null, CancellationToken cancellationToken = default, TimeSpan? timeout = null)
+public Task<DataSourceResult<R>> ExecuteAsync(P param, 
+                                              HashSet<string> columns = default, 
+                                              string isn = null, 
+                                              CancellationToken cancellationToken = default, 
+                                              TimeSpan? timeout = null)
 ```
 
 Աշխատացնում է տվյալների աղբյուրը, վերադարձնում ստացված տողերի ցուցակը և կատարման ընթացքում առաջացած սխալների մանրամասն տեղեկությունը։

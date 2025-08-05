@@ -16,7 +16,9 @@ title: IStorageService.DeleteBlobAsync մեթոդ
 ### IStorageService.DeleteBlobAsync(string, string, CancellationToken) մեթոդ
 
 ```c#
-public virtual Task<bool> DeleteBlobAsync(string container, string blobName, CancellationToken cancellationToken = default)
+public virtual Task<bool> DeleteBlobAsync(string container, 
+                                          string blobName, 
+                                          CancellationToken cancellationToken = default)
 ```
 
 Հեռացնում է ֆայլը ժամանակավոր ֆայլերի պահոցից` ըստ անվան և կոնտեյների։ 
@@ -30,7 +32,8 @@ public virtual Task<bool> DeleteBlobAsync(string container, string blobName, Can
 ### IStorageService.DeleteBlobAsync(string, CancellationToken) մեթոդ
 
 ```c#
-public virtual Task<bool> DeleteBlobAsync(string blobName, CancellationToken cancellationToken = default)
+public virtual Task<bool> DeleteBlobAsync(string blobName, 
+                                          CancellationToken cancellationToken = default)
 ```
 
 Հեռացնում է ֆայլը [ընթացիկ սեսիայի կոնտեյներից](Container.md)։

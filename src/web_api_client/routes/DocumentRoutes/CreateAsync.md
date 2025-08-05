@@ -3,7 +3,9 @@ title: DocumentRoutes.CreateAsync(string, DocumentCreateRequestModel, Cancellati
 ---
 
 ```c#
-public Task<DocumentModelSimple> CreateAsync(string type, DocumentCreateRequestModel createRequestModel, CancellationToken cancellationToken = default)
+public Task<DocumentModelSimple> CreateAsync(string type, 
+                                             DocumentCreateRequestModel createRequestModel, 
+                                             CancellationToken cancellationToken = default)
 ```
 
 Ստեղծում է նշված ներքին անունով (տեսակի) փաստաթղթի նոր օբյեկտ և վերադարձնում ստեղծված փաստաթղթի տվյալները (դաշտերի, աղյուսակների անունների  արժեքների ցուցակ..)։

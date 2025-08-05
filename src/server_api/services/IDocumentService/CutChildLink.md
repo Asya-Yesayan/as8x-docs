@@ -7,7 +7,8 @@ title: IDocumentService.CutChildLink(int, int) մեթոդ
 **Համարժեքը 4x-ում՝** [AsDocEngine.CutChildLink](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/DocumentsCirculation/CutChildLink.html)
 
 ```c#
-public Task CutChildLink(int isn, int childIsn = -1)
+public Task CutChildLink(int isn, 
+                         int childIsn = -1)
 ```
 
 Ջնջում է փաստաթղթի և իրա զավակների միջև կապերը, կամ մեկ նշված զավակ փաստաթղթի հետ կապը։

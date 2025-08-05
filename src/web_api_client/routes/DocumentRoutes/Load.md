@@ -3,7 +3,9 @@ title: DocumentRoutes.Load(int, bool, bool) մեթոդ
 ---
 
 ```c#
-public DocumentModelSimple Load(int isn, bool throwExceptionIfDeleted = true, bool lookInArchive = false)
+public DocumentModelSimple Load(int isn, 
+                                bool throwExceptionIfDeleted = true, 
+                                bool lookInArchive = false)
 ```
 
 Բեռնում է տվյալների պահոցում գոյություն ունեցող փաստաթուղթը ըստ ներքին նույնականացման համարի։

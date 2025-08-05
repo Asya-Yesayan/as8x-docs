@@ -3,7 +3,10 @@ title: DocumentRoutes.LoadFromFolderAsync(string, string, bool, CancellationToke
 ---
 
 ```c#
-public Task<DocumentModel> LoadFromFolderAsync(string folder, string key, bool isExtended = true, CancellationToken cancellationToken = default)
+public Task<DocumentModel> LoadFromFolderAsync(string folder, 
+                                               string key, 
+                                               bool isExtended = true, 
+                                               CancellationToken cancellationToken = default)
 ```
 
 Բեռնում է փաստաթուղթը ըստ թղթապանակի և բանալու։ Չհաջողվելու դեպքում վերադարձնում է **null**։

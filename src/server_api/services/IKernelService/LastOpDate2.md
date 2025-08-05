@@ -7,9 +7,12 @@ title: IKernelService.LastOpDate2(string, int, DateTime?, bool, string, string) 
 **Համարժեքը 4x-ում՝** [AsKernel.LastOpDate2](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/AccManagement/LastOpDate2.html)
 
 ```c#
-public Task<DateTime?> LastOpDate2(string accountings, int isn, 
-                                   DateTime? upToDate, bool inOp = true, 
-                                   string ops = "", string dbcr = "")
+public Task<DateTime?> LastOpDate2(string accountings, 
+                                   int isn, 
+                                   DateTime? upToDate, 
+                                   bool inOp = true, 
+                                   string ops = "", 
+                                   string dbcr = "")
 ```
 
 Վերադարձնում է փաստաթղթի հաշվառման վերջին նշանակված գործողության ամսաթիվը, որը ստեղծվել է հաշվառման նշված կոդերով մինչև նշված ամսաթիվը ներառյալ։

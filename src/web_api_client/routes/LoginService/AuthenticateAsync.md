@@ -12,9 +12,13 @@ title: LoginService.AuthenticateAsync մեթոդ
 ### LoginService.AuthenticateAsync(string, HttpClient, ILogger, short, string, string, string, CancellationToken) մեթոդ
 
 ```c#
-public Task<Exception> AuthenticateAsync(string serviceAddress, HttpClient httpClient, 
-                                         ILogger logger, short apiClientId, string secret, 
-                                         string username, string configurationName = "", 
+public Task<Exception> AuthenticateAsync(string serviceAddress, 
+                                         HttpClient httpClient, 
+                                         ILogger logger, 
+                                         short apiClientId, 
+                                         string secret, 
+                                         string username, 
+                                         string configurationName = "", 
                                          CancellationToken cancellationToken = default)
 ```
 
@@ -43,9 +47,13 @@ public Task<Exception> AuthenticateAsync(string serviceAddress, HttpClient httpC
 ### LoginService.AuthenticateAsync(string, HttpClient, ILogger, X509Certificate2, short, string, string, string, CancellationToken) մեթոդ
 
 ```c#
-public Task<Exception> AuthenticateAsync(string serviceAddress, HttpClient httpClient, 
-                                         ILogger logger, X509Certificate2 x509Certificate2, 
-                                         short apiClientId, string username, string password, 
+public Task<Exception> AuthenticateAsync(string serviceAddress, 
+                                         HttpClient httpClient, 
+                                         ILogger logger, 
+                                         X509Certificate2 x509Certificate2, 
+                                         short apiClientId, 
+                                         string username, 
+                                         string password, 
                                          string configurationName = "", 
                                          CancellationToken cancellationToken = default)
 ```

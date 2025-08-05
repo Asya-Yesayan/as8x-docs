@@ -3,7 +3,8 @@ title: DataProcessingRequestRoutes.GetObject(DPRType, string) մեթոդ
 ---
 
 ```c#
-public DPRInfoExtended GetObject(DPRType type, string name)
+public DPRInfoExtended GetObject(DPRType type, 
+                                 string name)
 ```
 
 Վերադարձնում է DPR-ի մետատվյալները (ներքին անուն, հայերեն/անգլերեն անվանումներ, տեսակ, սատարում է չեղարկումը թե ոչ)՝ ըստ տեսակի և ներքին անվան։

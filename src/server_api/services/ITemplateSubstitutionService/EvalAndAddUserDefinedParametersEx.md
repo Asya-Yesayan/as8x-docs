@@ -3,10 +3,10 @@ title: ITemplateSubstitutionService.EvalAndAddUserDefinedParametersEx(string, Su
 ---
 
 ```c#
-public Task EvalAndAddUserDefinedParametersEx(
-    string name, SubstitutionType type,
-    PrintTemplateSubstitutionEx printTemplateSubstitutionEx,
-    Document.Document document)
+public Task EvalAndAddUserDefinedParametersEx(string name, 
+                                              SubstitutionType type,
+                                              PrintTemplateSubstitutionEx printTemplateSubstitutionEx,
+                                              Document.Document document)
 ```
 
 Հաշվարկում է տպելու ձևանմուշի օգտագործողի կողմից նկարագրված պարամետրերը և ավելացնում տպելու ձևանմուշի տեղադրվող արժեքները պարունակող օբյեկտում՝ `printTemplateSubstitution`:

@@ -7,8 +7,12 @@ title: IAccountingService.CalculateCacheRemFull(string, DateTime?, DateTime?, Da
 **Համարժեքը 4x-ում՝** AsUtil.CalculateCacheRemFull
 
 ```c#
-public Task CalculateCacheRemFull(string accountingType, DateTime? cacheDate1, DateTime? cacheDate2, 
-                                  DateTime? cacheDate3, DateTime? cacheDate4, DateTime? cacheDate5)
+public Task CalculateCacheRemFull(string accountingType, 
+                                  DateTime? cacheDate1, 
+                                  DateTime? cacheDate2, 
+                                  DateTime? cacheDate3, 
+                                  DateTime? cacheDate4, 
+                                  DateTime? cacheDate5)
 ```
 
 Հաշվում է հաշվառվող օբյեկտի միջանկյալ մնացորդները նշված ամսաթվերի դրությամբ և գրանցում տվյալների պահոցի [HIREST](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Database/Hirest.html) աղյուսակում։

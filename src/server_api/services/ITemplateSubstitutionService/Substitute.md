@@ -8,10 +8,13 @@ title: ITemplateSubstitutionService.Substitute(IPrintTemplateSubstitution, byte[
 
 ```c#
 public Task<Stream> Substitute(IPrintTemplateSubstitution printTemplateSubstitution, 
-                               byte[] file, SubstitutionType type,
+                               byte[] file, 
+                               SubstitutionType type,
                                HtmlImageOption htmlImageOption = default, 
-                               bool isUnicode = false, string outputPassword = "",
-                               bool protect = false, bool check = false)
+                               bool isUnicode = false, 
+                               string outputPassword = "",
+                               bool protect = false, 
+                               bool check = false)
 ```
 
 Լրացնում Է տպելու ձևանմուշը `printTemplateSubstitution`-ում պարունակվող նախապես հաշվարկված տվյալներով և վերադարձնում որպես [Stream](https://learn.microsoft.com/en-us/dotnet/api/system.io.stream):

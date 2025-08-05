@@ -3,7 +3,8 @@ title: IDocumentService.FieldsToAnsi(string, Dictionary<string, object>) մեթ�
 ---
 
 ```c#
-public Task<Dictionary<string, object>> FieldsToAnsi(string docType, Dictionary<string, object> fields)
+public Task<Dictionary<string, object>> FieldsToAnsi(string docType, 
+                                                     Dictionary<string, object> fields)
 ```
 
 <!-- Վերադարձնում է փաստաթղթի դաշտերի արժեքները՝ ձևափոխված  համապատասխան լեզվի ANSI կոդավորման։ -->

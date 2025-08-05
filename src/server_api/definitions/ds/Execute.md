@@ -7,7 +7,10 @@ title: DataSource.Execute(P, HashSet<string>, IExtender, CancellationToken) մե
 **Համարժեքը 4x-ում՝** [OpenCursor](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/ASDATA/OpenCursor.html)
 
 ```c#
-public Task<DataSourceResult<R>> Execute(P param, HashSet<string> columns = null, IExtender extender = null, CancellationToken stoppingToken = default)
+public Task<DataSourceResult<R>> Execute(P param, 
+                                         HashSet<string> columns = null, 
+                                         IExtender extender = null, 
+                                         CancellationToken stoppingToken = default)
 ```
 
 Կատարում է տվյալների աղբյուրը` որպես մուտքային պարամետրեր ստանալով տվյալների աղբյուրի՝

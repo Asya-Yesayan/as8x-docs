@@ -7,7 +7,9 @@ title: IDocumentService.SetGridDefaultValues(Document, Dictionary<string, HashSe
 **Համարժեքը 4x-ում՝** [AsKernel.SetGridDefValue](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/SetGridDefValue.html)
 
 ```c#
-public void SetGridDefaultValues(Document document, Dictionary<string, HashSet<string>> gridColumns)
+public void SetGridDefaultValues(Document document, 
+                                 Dictionary<string, 
+                                 HashSet<string>> gridColumns)
 ```
 
 Վերագրում է լռությամբ արժեքներ փաստաթղթի տրված աղյուսակների տրված սյուներին։

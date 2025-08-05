@@ -30,7 +30,8 @@ public Task<bool> GetBooleanValue(string paramId)
 ### IParametersService.GetBooleanValue(string, short) մեթոդ  
 
 ```c#
-public Task<bool> GetBooleanValue(string paramId, short suid)
+public Task<bool> GetBooleanValue(string paramId, 
+                                  short suid)
 ```
 
 Վերադարձնում է [տրամաբանական տիպի](../../types/system_types.md#booleanfieldtype) պարամետրի արժեքը՝ ըստ պարամետրի ներքին անվան և օգտագործողի համարի։  

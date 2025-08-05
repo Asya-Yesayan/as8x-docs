@@ -3,8 +3,11 @@ title: DocumentRoutes.GetChildrenAsync(int, string, DocumentOrder, string, Cance
 ---
 
 ```c#
-public Task<List<DocumentResponseInfo>> GetChildrenAsync(int isn, string docType = "", DocumentOrder order = DocumentOrder.UnOrdered, 
-                                                         string docTypeLike = "", CancellationToken cancellationToken = default)
+public Task<List<DocumentResponseInfo>> GetChildrenAsync(int isn, 
+                                                         string docType = "", 
+                                                         DocumentOrder order = DocumentOrder.UnOrdered, 
+                                                         string docTypeLike = "", 
+                                                         CancellationToken cancellationToken = default)
 ```
 
 Վերադարձնում է փաստաթղթի զավակ փաստաթղերի isn-ների ու ներքին անունների (տեսակների) ցուցակը:

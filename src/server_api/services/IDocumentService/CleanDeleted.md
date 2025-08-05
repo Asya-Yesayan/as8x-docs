@@ -7,7 +7,9 @@ title: IDocumentService.CleanDeleted(DateTime, DateTime, string) մեթոդ
 **Համարժեքը 4x-ում՝** AsUtil.CleanDelDoc
 
 ```c#
-public Task CleanDeleted(DateTime startDate, DateTime endDate, string docType = "")
+public Task CleanDeleted(DateTime startDate, 
+                         DateTime endDate, 
+                         string docType = "")
 ```
 
 Ջնջված փաստաթղթերը լրիվ հեռացնում է համակարգից ըստ ջնջման ժամանակահատվածի։

@@ -7,7 +7,8 @@ title: DocumentExtender.PostTemplateSubstitution(Document, TemplateSubstitutionE
 **Համարժեքը 4x-ում՝** [PostTemplateSubstitution](https://asya-yesayan.github.io/as4x-docs/HTM/ProgrGuide/ScriptProcs/DocExtenderEvents/PostTemplateSubstitution.html)
 
 ```c#
-public virtual Task PostTemplateSubstitution(Document sender, TemplateSubstitutionEventArgs<TemplateSubstitution> args)
+public virtual Task PostTemplateSubstitution(Document sender, 
+                                             TemplateSubstitutionEventArgs<TemplateSubstitution> args)
 ```
 
 Մեթոդը կանչվում է միջուկի կողմից, երբ փաստաթղթի համար ձևավորվում է տպման ձև և անջատված է փաստաթղթի [TemplateSubstitutionIsExtended](../../../server_api/definitions/document/TemplateSubstitutionIsExtended.md) հատկությունը։ Մեթոդը կանչվում է [TemplateSubstitution](../../../server_api/definitions/document/TemplateSubstitution.md) մեթոդի կանչից հետո։

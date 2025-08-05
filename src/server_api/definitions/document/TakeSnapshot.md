@@ -7,7 +7,9 @@ title: Document.TakeSnapshot(SnapshotContent, string, bool) մեթոդ
 **Համարժեքը 4x-ում՝** AsDoc.TakeSnapshot
 
 ```c#
-public Task TakeSnapshot(SnapshotContent content, string name, bool overwrite = true)
+public Task TakeSnapshot(SnapshotContent content, 
+						 string name, 
+						 bool overwrite = true)
 ```
 
 Քեշավորում և պահպանում է փաստաթղթի պատկերը [Snapshots](Snapshots.md)-ում։

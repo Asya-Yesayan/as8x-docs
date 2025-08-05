@@ -7,7 +7,9 @@ title: IStorageService.GetBlobAsync(string, string, CancellationToken) մեթո�
 **Համարժեքը 4x-ում՝** modRestService.DownloadFromBlobStorageToFile
 
 ```c#
-public virtual Task<Stream> GetBlobAsync(string container, string blobName, CancellationToken cancellationToken = default)
+public virtual Task<Stream> GetBlobAsync(string container, 
+                                         string blobName, 
+                                         CancellationToken cancellationToken = default)
 ```
 
 Վերադարձնում է ֆայլի պարունակությունը ժամանակավոր ֆայլերի պահոցից` որպես [Stream](https://learn.microsoft.com/en-us/dotnet/api/system.io.stream):

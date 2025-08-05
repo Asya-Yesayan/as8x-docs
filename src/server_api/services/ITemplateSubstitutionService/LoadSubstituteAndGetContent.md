@@ -9,7 +9,8 @@ title: ITemplateSubstitutionService.LoadSubstituteAndGetContent(IPrintTemplateSu
 ```c#
 public Task<string> LoadSubstituteAndGetContent(
     IPrintTemplateSubstitution printTemplateSubstitution, 
-    string name, SubstitutionType type, 
+    string name, 
+    SubstitutionType type, 
     HtmlImageOption htmlImageOption = default,
     bool check = false)
 ```
