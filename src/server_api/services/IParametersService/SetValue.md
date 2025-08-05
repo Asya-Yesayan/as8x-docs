@@ -7,12 +7,15 @@ title: IParametersService.SetValue(string, object) մեթոդ
 **Համարժեքը 4x-ում՝** [AsKernel.SetParam](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/ParameterManagment/SetParam.html) ?
 
 ```c#
-public Task SetValue(string name, object value)
+public Task SetValue(string name, 
+                     object value)
 ```
 
-Փոխում է համակարգային պարամետրի արժեքը։  
-Նոր արժեքի և պարամետրի տիպի անհամապատասխանության դեպքում առաջանում է սխալ։  
-Պարամետրի սահմանված չլինելու դեպքում առաջանում է սխալ։
+Փոխում է համակարգային պարամետրի արժեքը։ Եթե պարամետրը կտրված է ըստ օգտագործողի, ապա պարամետրի արժեքը փոփոխվում է միայն ընթացիկ օգտագործողի համար ([USERPARAMS](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Database/User%20Params.html) աղյուսակում), հակառակ դեպքում սահմանվում է պարամետրի լռությամբ արժեքը ([PARAMS](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Database/Params.html) աղյուսակում)։
+
+Եթե պարամետրի նշանակված արժեքը չի համապատասխանում նրա տիպին կամ պարամետրը սահմանված չէ, ապա առաջանում է սխալ։
+
+Եթե պարամետրը քեշավորվող է և պարամետրի արժեքը փոխվում է տրանզակցիայում, ապա առաջանում է սխալ։
 
 **Պարամետրեր**
 
