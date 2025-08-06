@@ -26,7 +26,7 @@ public sealed class Descriptor
 
 * `ParamID` - Պարամետրի ներքին անունը (id):
 * `ASType` - Պարամետրի [4X-ական համակարգային տիպը](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/types.html)։
-* `UserParam` - Ցույց է տալիս, արդյոք պարամետրը կտրված է ըստ օգտագործողի, թե ոչ։
+* `UserParam` - Ցույց է տալիս, արդյոք պարամետրը ըստ օգտագործողի է, թե ոչ։
 * `SerializedValue` - Պարամետրի արժեքը։
 * `UseFromCache` - Պարամետրի քեշում պահման և քեշից արժեքը կարդալու հայտանիշ։
 * `Kind` - Պարամետրի խումբը:

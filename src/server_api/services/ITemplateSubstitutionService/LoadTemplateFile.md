@@ -19,4 +19,4 @@ public Task<(bool IsUnicode, byte[] File, bool Updatable)> LoadTemplateFile(
 **Պարամետրեր**
 
 * `name` - Տպելու ձևանմուշի ներքին անուն:
-* `type` - [Տպելու ձևանմուշի տիպ][4XTemplateSubstitution]:
+* `type` - [Տպելու ձևանմուշի տիպ](../../types/SubstitutionType.md):

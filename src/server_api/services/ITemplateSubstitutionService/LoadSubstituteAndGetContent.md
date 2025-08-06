@@ -4,7 +4,7 @@ title: ITemplateSubstitutionService.LoadSubstituteAndGetContent(IPrintTemplateSu
 
 ## Նկարագիր
 
-**Համարժեքը 4x-ում՝** [TemplateSubstitution.SubstituteToTemplate](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/TemplateSubstitution/SubstituteToTemplate.html) ??
+**Դաս՝** [ITemplateSubstitutionService](../ITemplateSubstitutionService.md)
 
 ```c#
 public Task<string> LoadSubstituteAndGetContent(IPrintTemplateSubstitution printTemplateSubstitution, 
@@ -24,6 +24,6 @@ public Task<string> LoadSubstituteAndGetContent(IPrintTemplateSubstitution print
 
 * `printTemplateSubstitution` - Տպելու ձևանմուշի տեղադրվող արժեքները պարունակող օբյեկտ։
 * `name` - Տպելու ձևանմուշի ներքին անուն:
-* `type` - [Տպելու ձևանմուշի տիպ][4XTemplateSubstitution]:
+* `type` - [Տպելու ձևանմուշի տիպ](../../types/SubstitutionType.md):
 * `htmlImageOption` - Html տպվող տեսքերի [պատկերների տեղադրման եղանակ](../../types/HtmlImageOption.md)։
 * `check` - Տպելու ձևանմուշում առկա կոդերի ճիշտ շարահյուսության ստուգման հայտանիշ։

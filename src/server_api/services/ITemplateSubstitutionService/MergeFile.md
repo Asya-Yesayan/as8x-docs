@@ -27,7 +27,7 @@ public Task MergeFile(SubstitutionType type,
 
 **Պարամետրեր**
 
-* `type` - [Տպելու ձևանմուշի տիպ][4XTemplateSubstitution]: 
+* `type` - [Տպելու ձևանմուշի տիպ](../../types/SubstitutionType.md): 
 * `targetFile` - Առաջին ֆայլի նույնականացուցիչը սերվերում, որին կավելանա երկրորդ ֆայլը։
 * `sourceFile` - Երկրորդ ֆայլի նույնականացուցիչը սերվերում։
 * `insertPageBreak` - Երկու ֆայլերի պարունակությունների միջև break-ի նշանի տեղադրման հայտանիշ։
@@ -46,7 +46,7 @@ public Task<Stream> MergeFile(SubstitutionType type, byte[] targetFile,
 
 **Պարամետրեր**
 
-* `type` - [Տպելու ձևանմուշի տիպ][4XTemplateSubstitution]:
+* `type` - [Տպելու ձևանմուշի տիպ](../../types/SubstitutionType.md):
 * `targetFile` - Առաջին ֆայլի նույնականացուցիչը սերվերում։
 * `sourceFile` - Երկրորդ ֆայլի նույնականացուցիչը սերվերում։
 * `insertPageBreak` - Երկու ֆայլերի պարունակությունների միջև break-ի նշանի տեղադրման հայտանիշ։

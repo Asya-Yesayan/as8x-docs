@@ -16,7 +16,7 @@ public Task EvalAndAddUserDefinedParameters(string name,
 **Պարամետրեր**
 
 * `name` - Տպելու ձևանմուշի ներքին անուն:
-* `type` - [Տպելու ձևանմուշի տիպ][4XTemplateSubstitution]:
+* `type` - [Տպելու ձևանմուշի տիպ](../../types/SubstitutionType.md):
 * `printTemplateSubstitution` - Տպելու ձևանմուշի տեղադրվող արժեքները պարունակող օբյեկտ։
 * `document` - Տպելու ձևանմուշի հետ կապակցված [փաստաթղթի օբյեկտ](../../definitions/document.md)։
   Կարող է փոխանցվել `null`, եթե տպելու ձևը կապված չէ փաստաթղթի հետ։

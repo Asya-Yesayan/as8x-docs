@@ -14,4 +14,4 @@ public Task<TemplateDefinition> GetDefinition(string name,
 **Պարամետրեր**
 
 * `name` - Տպելու ձևանմուշի ներքին անուն:
-* `type` - [Տպելու ձևանմուշի տիպ][4XTemplateSubstitution]:
+* `type` - [Տպելու ձևանմուշի տիպ](../../types/SubstitutionType.md):

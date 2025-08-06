@@ -2,6 +2,10 @@
 title: ITemplateSubstitutionService.GetReadyTemplateSubstitution(Document.Document, string, SubstitutionType, Dictionary<string, object>) մեթոդ  
 ---
 
+## Նկարագիր
+
+**Դաս՝** [ITemplateSubstitutionService](../ITemplateSubstitutionService.md)
+
 ```c#
 public Task<ITemplateSubstitution> GetReadyTemplateSubstitution(Document.Document document,
                                                                 string templateName,
@@ -17,6 +21,6 @@ public Task<ITemplateSubstitution> GetReadyTemplateSubstitution(Document.Documen
 
 * `document` - Տպելու ձևանմուշի հետ կապակցված [փաստաթուղթ](../../definitions/document.md)։
 * `templateName` - Տպելու ձևանմուշի ներքին անունը։
-* `templateType` - [Տպելու ձևանմուշի տիպ][4XTemplateSubstitution]:
+* `templateType` - [Տպելու ձևանմուշի տիպ](../../types/SubstitutionType.md):
 * `parameters` - Տպելու ձևանմուշի լրացման պարամետրերի Dictionary, որտեղ բանալին՝ պարամետրի անունն է, իսկ արժեքը՝ պարամետրի արժեքը: 
   Այս պարամետրի արժեքը փոխանցվելու է տպելու ձևանմուշի տեղադրվող արժեքները հաշվարկող [TemplateSubstitution](../../definitions/document/TemplateSubstitution.md) իրադարձության մշակիչին։

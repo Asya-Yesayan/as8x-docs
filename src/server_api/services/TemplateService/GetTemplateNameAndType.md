@@ -17,7 +17,7 @@ public static (bool result,
 Վերադարձնում է՝
 * `result` - Ցույց է տալիս, արդյոք բաժանումը հաջողվել է:
 * `templateName` - Տպելու ձևանմուշի ներքին անուն: Բաժանման չհաջողվելու դեպքում վերադարձնում է `templateNameWithType` պարամետրի արժեքը։
-* `templateType` - [Տպելու ձևանմուշի տիպ][4XTemplateSubstitution]: Բաժանման չհաջողվելու դեպքում վերադարձնում է `string.Empty`։
+* `templateType` - [Տպելու ձևանմուշի տիպ](../../types/SubstitutionType.md): Բաժանման չհաջողվելու դեպքում վերադարձնում է `string.Empty`։
 
 **Պարամետրեր**
 
@@ -46,7 +46,7 @@ if (templateType != Constants.TempTypeHTML)
 public Task<string> GetType(string name)
 ```
 
-Վերադարձնում է [տպելու ձևանմուշի տիպը][4XTemplateSubstitution]՝ ըստ տպելու ձևանմուշի ներքին անվան։
+Վերադարձնում է [տպելու ձևանմուշի տիպը](../../types/SubstitutionType.md)՝ ըստ տպելու ձևանմուշի ներքին անվան։
 
 **Պարամետրեր**
 

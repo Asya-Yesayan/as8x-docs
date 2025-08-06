@@ -17,7 +17,7 @@ public Task<bool> IsTemplateAvailable(string templateName,
 **Պարամետրեր**
 
 * `templateName` - Տպելու ձևանմուշի ներքին անունը։
-* `templateType` - [Տպելու ձևանմուշի տիպ][4XTemplateSubstitution]:
+* `templateType` - [Տպելու ձևանմուշի տիպ](../../types/SubstitutionType.md):
 * `document` - Տպելու ձևանմուշի հետ կապակցված [փաստաթղթի օբյեկտ](../../definitions/document.md)։
 
 **Օգտագործում**

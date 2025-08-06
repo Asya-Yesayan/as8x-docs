@@ -23,7 +23,7 @@ public Task<Stream> Substitute(IPrintTemplateSubstitution printTemplateSubstitut
 
 * `printTemplateSubstitution` - Տպելու ձևանմուշի տեղադրվող արժեքները պարունակող օբյեկտ։
 * `file` - Տպելու ձևանմուշի պարունակությունը որպես բայտերի զանգված։
-* `type` - [Տպելու ձևանմուշի տիպ][4XTemplateSubstitution]:
+* `type` - [Տպելու ձևանմուշի տիպ](../../types/SubstitutionType.md):
 * `htmlImageOption` - Html տպվող տեսքերի [պատկերների տեղադրման եղանակ](../../types/HtmlImageOption.md)։
 * `isUnicode` - Տպելու ձևանմուշը արտահանել յունիկոդ կոդավորմամբ։
 * `outputPassword` - Վերջնական ֆայլի բացման գաղտնաբառը։
