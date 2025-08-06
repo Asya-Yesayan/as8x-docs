@@ -25,3 +25,4 @@ public Task SetSerializedValue(string parId,
 * `value` - Վերագրվող արժեք։
 * `suid` - Օգտագործողի ներքին համար (կոդ)։
 * `logChanges` - Պարամետրերի պատմությունում փոփոխությունների գրանցելու հայտանիշ։
+

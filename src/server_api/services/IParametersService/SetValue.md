@@ -21,3 +21,4 @@ public Task SetValue(string name,
 
 * `name` - Պարամետրի ներքին անուն (id)։ 
 * `value` - Վերագրվող արժեք։
+
