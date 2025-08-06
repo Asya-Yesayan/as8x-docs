@@ -4,7 +4,7 @@ title: IParametersService.SetValue(string, object) մեթոդ
 
 ## Նկարագիր
 
-**Համարժեքը 4x-ում՝** [AsKernel.SetParam](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/ParameterManagment/SetParam.html) ?
+**Համարժեքը 4x-ում՝** [AsKernel.Param](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/ParameterManagment/Param.html)
 
 ```c#
 public Task SetValue(string name, 
@@ -15,7 +15,7 @@ public Task SetValue(string name,
 
 Եթե պարամետրի նշանակված արժեքը չի համապատասխանում նրա տիպին կամ պարամետրը սահմանված չէ, ապա առաջանում է սխալ։
 
-Եթե պարամետրը քեշավորվող է և պարամետրի արժեքը փոխվում է տրանզակցիայում, ապա առաջանում է սխալ։
+Քեշավորվող պարամետրի արժեքը տրանզակցիայում փոխելիս առաջանում է սխալ։
 
 **Պարամետրեր**
 
