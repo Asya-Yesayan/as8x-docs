@@ -1,10 +1,9 @@
 ---
-layout: page
-title: "IAppCustomCondition, C# Ֆունկցիա (Այո/Ոչ)" 
 ---
 
 <div class="version-block" data-product-id="bank" data-version="250626.000, 250929.000" markdown="1">
 
+# IAppCustomCondition, C# Ֆունկցիա (Այո/Ոչ)
 
 ## C# Ֆունկցիա (Այո/Ոչ)
 

@@ -1,6 +1,4 @@
 ---
-layout: page
-title: "UserProxyService - ՀԾ-Բանկի ընդլայնման յուրահատուկ սերվիս" 
 sublinks:
 - { title: "AppForm", ref: apform }
 - { title: "AcName, AcEName", ref: acname-acename }
@@ -95,6 +93,7 @@ sublinks:
 
 <div class="version-block" data-product-id="bank" data-version="250626.000, 250929.000" markdown="1">
 
+# UserProxyService - ՀԾ-Բանկի ընդլայնման յուրահատուկ սերվիս
 
 ## Բովանդակություն
 * [Ներածություն](#ներածություն)

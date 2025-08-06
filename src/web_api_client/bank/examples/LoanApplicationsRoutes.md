@@ -1,6 +1,4 @@
 ---
-layout: page
-title: "Օրինակ LoanApplicationsRoutes" 
 sublinks:
 - { title: "Create", ref: օրինակ-1 }
 - { title: "Sign", ref: օրինակ-2 }
@@ -9,6 +7,7 @@ sublinks:
 
 <div class="version-block" data-product-id="bank" data-version="250626.000, 250929.000" markdown="1">
 
+# Օրինակ LoanApplicationsRoutes
 
 ## Բովանդակություն
 
