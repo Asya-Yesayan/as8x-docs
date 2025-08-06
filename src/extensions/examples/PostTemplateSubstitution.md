@@ -14,8 +14,15 @@ public override async Task PostTemplateSubstitution(Document sender, TemplateSub
 {
     string templateName = "Cli_FIZ";
     var substitutionType = SubstitutionType.DOCX;
-    var templateSubstiution = await this.templateSubstitutionService.GetReadyTemplateSubstitution(sender, templateName, substitutionType, null);
-    var storageInfo = await this.templateSubstitutionService.LoadSubstitutionAndGetStorage(templateSubstiution.PrintTemplateSubstitution, templateName, substitutionType);
+    var templateSubstiution = await this.templateSubstitutionService.GetReadyTemplateSubstitution(
+                                            sender, 
+                                            templateName, 
+                                            substitutionType, 
+                                            null);
+    var storageInfo = await this.templateSubstitutionService.LoadSubstitutionAndGetStorage(
+                                                templateSubstiution.PrintTemplateSubstitution, 
+                                                templateName, 
+                                                substitutionType);
     args.AddSubstitutedFile(storageInfo);
 }
 ```
