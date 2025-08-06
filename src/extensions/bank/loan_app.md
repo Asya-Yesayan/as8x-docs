@@ -8,6 +8,9 @@ sublinks:
 - { title: "Օրինակներ", ref: օրինակներ }
 ---
 
+<div class="version-block" data-product-id="bank" data-version="250626.000, 250929.000" markdown="1">
+
+
 ## Բովանդակություն
 
 - [Ներածություն](#ներածություն)
@@ -139,3 +142,4 @@ public class IsConnectedToBank : IAppCustomCondition
     }
 }
 ```
+</div>

@@ -15,6 +15,9 @@ sublinks:
 - { title: "CurrentLoansAmount", ref: currentloansamount }
 ---
 
+<div class="version-block" data-product-id="bank" data-version="250626.000, 250929.000" markdown="1">
+
+
 ## Բովանդակություն
 
 - [Ներածություն](#ներածություն)
@@ -433,3 +436,5 @@ public class AllAgrAmount : IAppCustomScore
 }
 ```
 
+
+</div>

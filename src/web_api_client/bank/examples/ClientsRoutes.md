@@ -6,6 +6,9 @@ sublinks:
 - { title: "Օրինակ CreateClientFromEkeng", ref: օրինակ-2 }
 ---
 
+<div class="version-block" data-product-id="bank" data-version="250626.000, 250929.000" markdown="1">
+
+
 ## Բովանդակություն
 - [CreateClientFromEkeng-ի օգտագործման օրինակ](#օրինակ-1)
 - [CreatePhysicalClientByFullData-ի օգտագործման օրինակ](#օրինակ-2)
@@ -93,3 +96,4 @@ private static async Task CreateClient(BankApiClient apiClient)
     } 
 }
 ```
+</div>

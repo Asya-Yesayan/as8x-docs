@@ -93,6 +93,9 @@ sublinks:
 - { title: "YEAR_END", ref: year_end }
 ---
 
+<div class="version-block" data-product-id="bank" data-version="250626.000, 250929.000" markdown="1">
+
+
 ## Բովանդակություն
 * [Ներածություն](#ներածություն)
 * [Մեթոդներ](#մեթոդներ)
@@ -2728,3 +2731,5 @@ DateTime dt =  proxyService.YEAR_END(DateTime.Parse("2024-08-17"));
 Գործողությունների կոդերը դիտելու համար գործարկեք համապատասխան հաշվառման տողի կոնտեքստային մենյուի «Դիտել» հրամանը։
 
 ![Գործողությունների կոդեր](user_proxy_service_oper_codes.png)
+
+</div>

@@ -5,6 +5,9 @@ sublinks:
 - { title: "Օրինակ AttachReservedCardToClient, GetCardAgreementFiles", ref: օրինակ-1 }
 ---
 
+<div class="version-block" data-product-id="bank" data-version="250626.000, 250929.000" markdown="1">
+
+
 ## Բովանդակություն
 - [AttachReservedCardToClient-ի, GetCardAgreementFiles-ի օգտագործման օրինակ](#օրինակ-1)
 
@@ -50,3 +53,5 @@ private static async Task GetCardAgreementFiles2(BankApiClient apiClient, string
     }
 }
 ```
+
+</div>

@@ -3,6 +3,9 @@ layout: page
 title: "IAppCustomCondition, C# Ֆունկցիա (Այո/Ոչ)" 
 ---
 
+<div class="version-block" data-product-id="bank" data-version="250626.000, 250929.000" markdown="1">
+
+
 ## C# Ֆունկցիա (Այո/Ոչ)
 
 «Վարկային հոսքագիծ» ենթահամակարգում յուրահատուկ անցման փուլի համար նախատեսված ինտերֆեյս։
@@ -19,3 +22,4 @@ public interface IAppCustomCondition
 Անցման փուլի հաշվարկման համար հարկավոր է իրականացնել այս ինտերֆեյսը և ստացված C# ֆայլը ներմուծել որպես [սերվերային մոդուլ](../definitions/server_side_module_guide.md)։
 
 Տե՛ս [ձեռնարկը](loan_app.md)
+</div>

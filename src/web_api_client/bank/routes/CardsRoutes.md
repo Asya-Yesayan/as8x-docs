@@ -2,6 +2,9 @@
 title: CardsRoutes դաս
 ---
 
+<div class="version-block" data-product-id="bank" data-version="250626.000, 250929.000" markdown="1">
+
+
 ## Ներածություն
 
 ClientsRoutes դասը պարունակում է մեթոդներ քարտերի հետ աշխատանքը ապահովելու համար։
@@ -13,3 +16,5 @@ ClientsRoutes դասը պարունակում է մեթոդներ քարտերի
 |----------|----------------|
 | [AttachReservedCardToClient(AttachReservedCardToClientRequest)](CardsRoutes/AttachReservedCardToClient.md) | Ռեզերվացրած քարտը կցում է տրված հաճախորդին։ |
 | [GetCardAgreementFiles(int, Language)](CardsRoutes/GetCardAgreementFiles.md) | Ներբեռնում է տրված քարտի համար անհրաժեշտ պայմանագրերը։ |
+
+</div>

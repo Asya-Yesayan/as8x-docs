@@ -7,6 +7,9 @@ sublinks:
 - { title: "GetPrintForms", ref: օրինակ-3 }
 ---
 
+<div class="version-block" data-product-id="bank" data-version="250626.000, 250929.000" markdown="1">
+
+
 ## Բովանդակություն
 
 - [Վարկային հայտի ստեղծման օրինակ](#օրինակ-1)
@@ -149,3 +152,5 @@ private static async Task GetLoanApplications(BankApiClient apiClient)
     }
 }
 ```
+
+</div>
