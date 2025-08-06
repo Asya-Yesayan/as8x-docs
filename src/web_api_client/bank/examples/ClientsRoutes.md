@@ -1,6 +1,4 @@
 ---
-layout: page
-title: "Օրինակ ClientsRoutes" 
 sublinks:
 - { title: "Օրինակ CreatePhysicalClientByFullData", ref: օրինակ-1 }
 - { title: "Օրինակ CreateClientFromEkeng", ref: օրինակ-2 }
@@ -8,6 +6,7 @@ sublinks:
 
 <div class="version-block" data-product-id="bank" data-version="250626.000, 250929.000" markdown="1">
 
+# Օրինակ ClientsRoutes
 
 ## Բովանդակություն
 - [CreateClientFromEkeng-ի օգտագործման օրինակ](#օրինակ-1)

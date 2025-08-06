@@ -1,6 +1,4 @@
 ---
-layout: page
-title: "AppProcessContext դաս" 
 sublinks:
 - { title: "AppForm", ref: apform }
 - { title: "ClientDoc", ref: clientdoc }
@@ -17,6 +15,7 @@ sublinks:
 
 <div class="version-block" data-product-id="bank" data-version="250626.000, 250929.000" markdown="1">
 
+# AppProcessContext դաս
 
 ## Բովանդակություն
 

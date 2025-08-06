@@ -1,12 +1,11 @@
 ---
-layout: page
-title: "Օրինակ AccountsRoutes" 
 sublinks:
 - { title: "Օրինակ CreateGeneralAccForCli", ref: օրինակ-1 }
 ---
 
 <div class="version-block" data-product-id="bank" data-version="250626.000, 250929.000" markdown="1">
 
+# Օրինակ AccountsRoutes
 
 ## Բովանդակություն
 - [CreateGeneralAccForCli-ի օգտագործման օրինակ](#օրինակ-1)
