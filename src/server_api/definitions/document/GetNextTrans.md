@@ -6,6 +6,8 @@ title: Document.GetNextTrans() մեթոդ
 
 **Համարժեքը 4x-ում՝** [AsDoc.GetNextTrans](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/ASDOC/GetNextTrans.html)
 
+**Դաս՝** [Document](../document.md)
+
 ```c#
 public int GetNextTrans()
 ```

@@ -15,6 +15,10 @@ title: IParametersService.GetDateTimeValue մեթոդ
 
 ### IParametersService.GetDateTimeValue(string) մեթոդ
 
+#### Նկարագիր
+
+**Դաս՝** [IParametersService](../IParametersService.md)
+
 ```c#
 public Task<DateTime?> GetDateTimeValue(string paramId)
 ```
@@ -28,6 +32,10 @@ public Task<DateTime?> GetDateTimeValue(string paramId)
 * `paramId` - Պարամետրի ներքին անուն (id)։
 
 ### IParametersService.GetDateTimeValue(string, short) մեթոդ  
+
+#### Նկարագիր
+
+**Դաս՝** [IParametersService](../IParametersService.md)
 
 ```c#
 public Task<DateTime?> GetDateTimeValue(string paramId, 

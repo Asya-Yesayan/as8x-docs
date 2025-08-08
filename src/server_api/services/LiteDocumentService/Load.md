@@ -11,6 +11,10 @@ title: LiteDocumentService.Load մեթոդ
 
 ### LiteDocumentService.Load(int, bool, bool, bool) մեթոդ 
 
+#### Նկարագիր
+
+**Դաս՝** [LiteDocumentService](../LiteDocumentService.md)
+
 ```c#
 public Task<LiteDocument> Load(int isn,
                                bool loadGrids = false,
@@ -31,6 +35,10 @@ public Task<LiteDocument> Load(int isn,
 * `lookInArc` - Արխիվացված փաստաթղթի բեռնման հայտանիշ։ **true** արժեքի դեպքում փաստաթուղթը հիմնական պահոցում չգտնելու դեպքում փորձում է բեռնել նաև արխիվային տվյալների պահոցից։
 
 ### LiteDocumentService.Load(IEnumerable<int>, bool) մեթոդ  
+
+#### Նկարագիր
+
+**Դաս՝** [LiteDocumentService](../LiteDocumentService.md)
 
 ```c#
 public Task<Dictionary<int, LiteDocument>> Load(IEnumerable<int> isnList, bool loadGrids = false);

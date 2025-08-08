@@ -2,6 +2,10 @@
 title: DataSource.SupportsSnapshotIsolation հատկություն
 ---
 
+## Նկարագիր
+
+**Դաս՝** [DataSource](../ds.md)
+
 ```c#
 public virtual bool SupportsSnapshotIsolation
 {

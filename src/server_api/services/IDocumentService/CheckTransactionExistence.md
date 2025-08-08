@@ -6,6 +6,8 @@ title: IDocumentService.CheckTransactionExistence(string, int, int) մեթոդ
 
 **Համարժեքը 4x-ում՝** AsDocEngine.CheckTransExist
 
+**Դաս՝** [IDocumentService](../IDocumentService.md)
+
 ```c#
 public Task CheckTransactionExistence(string description, 
                                       int isn = -1, 

@@ -6,6 +6,8 @@ title: Document.Validate(ValidateEventArgs) մեթոդ
 
 **Համարժեքը 4x-ում՝** [Validate](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/ScriptProcs/Validate.html)
 
+**Դաս՝** [Document](../document.md)
+
 ```c#
 public virtual Task Validate(ValidateEventArgs args)
 ```

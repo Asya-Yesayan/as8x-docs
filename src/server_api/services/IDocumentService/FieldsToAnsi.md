@@ -2,6 +2,10 @@
 title: IDocumentService.FieldsToAnsi(string, Dictionary<string, object>) մեթոդ
 ---
 
+## Նկարագիր
+
+**Դաս՝** [IDocumentService](../IDocumentService.md)
+
 ```c#
 public Task<Dictionary<string, object>> FieldsToAnsi(string docType, 
                                                      Dictionary<string, object> fields)

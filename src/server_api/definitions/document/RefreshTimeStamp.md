@@ -6,6 +6,8 @@ title: Document.RefreshTimeStamp() մեթոդ
 
 **Համարժեքը 4x-ում՝** [AsDoc.RefreshTS](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/ASDOC/RefreshTS.html)
 
+**Դաս՝** [Document](../document.md)
+
 ```c#
 public Task RefreshTimeStamp()
 ```

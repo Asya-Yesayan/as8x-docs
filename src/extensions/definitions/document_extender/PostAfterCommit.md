@@ -6,6 +6,8 @@ title: DocumentExtender.PostAfterCommit(Document, AfterCommitEventArgs) մեթո
 
 **Համարժեքը 4x-ում՝** ScriptExtension.DocPostAfterCommit
 
+**Դաս՝** [DocumentExtender](../document_extender.md)
+
 ```c#
 public virtual Task PostAfterCommit(Document sender, 
                                     AfterCommitEventArgs args)

@@ -6,6 +6,8 @@ title: DocumentExtender.PreAfterLoad(Document, AfterLoadEventArgs) մեթոդ
 
 **Համարժեքը 4x-ում՝** ScriptExtension.DocPreAfterLoad
 
+**Դաս՝** [DocumentExtender](../document_extender.md)
+
 ```c#
 public virtual Task PreAfterLoad(Document sender, 
                                  AfterLoadEventArgs args)

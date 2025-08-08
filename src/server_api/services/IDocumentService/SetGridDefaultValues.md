@@ -6,6 +6,8 @@ title: IDocumentService.SetGridDefaultValues(Document, Dictionary<string, HashSe
 
 **Համարժեքը 4x-ում՝** [AsKernel.SetGridDefValue](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/SetGridDefValue.html)
 
+**Դաս՝** [IDocumentService](../IDocumentService.md)
+
 ```c#
 public void SetGridDefaultValues(Document document, 
                                  Dictionary<string, 

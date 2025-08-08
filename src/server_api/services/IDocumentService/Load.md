@@ -6,6 +6,8 @@ title: IDocumentService.Load մեթոդ
 
 **Համարժեքը 4x-ում՝** [AsDocEngine.LoadDoc](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/DocumentsCirculation/LoadDoc.html)
 
+**Դաս՝** [IDocumentService](../IDocumentService.md)
+
 ## Գերբեռնումներ
 
 | Անվանում | Նկարագրություն |

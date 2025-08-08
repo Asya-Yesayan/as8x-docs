@@ -2,6 +2,10 @@
 title: IStorageService.UploadTempBlobAsync(string, string, Stream, BlobProperties, CancellationToken) մեթոդ  
 ---
 
+## Նկարագիր
+
+**Դաս՝** [IStorageService](../IStorageService.md)
+
 ```c#
 public Task<bool> UploadTempBlobAsync(string fileExtension, 
                                       out string blobName, 

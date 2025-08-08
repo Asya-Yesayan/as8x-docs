@@ -2,6 +2,10 @@
 title: Document.BuildEmbeddedUIRequest(T uiRequestExecutionProgress) մեթոդ
 ---
 
+## Նկարագիր
+
+**Դաս՝** [Document](../document.md)
+
 ```c#
 public void BuildEmbeddedUIRequest<T>(T uiRequestExecutionProgress) where T : IUIRequestExecutionProgress;
 ```

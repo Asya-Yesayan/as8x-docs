@@ -2,6 +2,10 @@
 title: IProcessServerClient.GetInfo(string) մեթոդ  
 ---
 
+## Նկարագիր
+
+**Դաս՝** [IJobServerClient](../IJobServerClient.md)
+
 ```c#
 public Task<List<ProcessInfoModel>> GetInfo(string sessionGuid)
 ```

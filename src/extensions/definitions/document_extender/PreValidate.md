@@ -6,6 +6,8 @@ title: DocumentExtender.PreValidate(Document, ValidateEventArgs) մեթոդ
 
 **Համարժեքը 4x-ում՝** ScriptExtension.DocPreValidate
 
+**Դաս՝** [DocumentExtender](../document_extender.md)
+
 ```c#
 public virtual Task PreValidate(Document sender, 
                                 ValidateEventArgs args)

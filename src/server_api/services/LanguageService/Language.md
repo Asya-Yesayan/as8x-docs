@@ -2,6 +2,10 @@
 title: LanguageService.Language հատկություն  
 ---
 
+## Նկարագիր
+
+**Դաս՝** [LanguageService](../LanguageService.md)
+
 ```c#
 public static Language Language { get; set; }
 ```

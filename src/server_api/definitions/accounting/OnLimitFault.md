@@ -6,6 +6,8 @@ title: IAccountingOnLimitFault.OnLimitFault մեթոդ
 
 **Համարժեքը 4x-ում՝** [OnLimitFault](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/ScriptProcs/OnLimitFault.html)
 
+**Դաս՝** [Accounting](../accounting.md)
+
 ## Գերբեռնումներ
 
 | Անվանում | Նկարագրություն |

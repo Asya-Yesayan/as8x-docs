@@ -6,6 +6,8 @@ title: IDocumentService.Create մեթոդ
 
 **Համարժեքը 4x-ում՝** [AsDocEngine.CreateDoc](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/DocumentsCirculation/CreateDoc.html)
 
+**Դաս՝** [IDocumentService](../IDocumentService.md)
+
 ## Գերբեռնումներ
 
 | Անվանում | Նկարագրություն |

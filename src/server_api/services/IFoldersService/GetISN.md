@@ -6,6 +6,8 @@ title: IFoldersService.GetISN(string, string) մեթոդ
 
 **Համարժեքը 4x-ում՝** [AsKernel.GetISN](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/DocumentsCirculation/GetISN.html)
 
+**Դաս՝** [IFoldersService](../IFoldersService.md)
+
 ```c#
 public Task<int> GetISN(string folderId, 
                         string key);

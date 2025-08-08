@@ -6,6 +6,8 @@ title: Document.DefaultComment(DefaultCommentEventArgs) մեթոդ
 
 **Համարժեքը 4x-ում՝** [DefaultComment](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/ScriptProcs/DefaultComment.html)
 
+**Դաս՝** [Document](../document.md)
+
 ```c#
 public virtual Task DefaultComment(DefaultCommentEventArgs args)
 ```

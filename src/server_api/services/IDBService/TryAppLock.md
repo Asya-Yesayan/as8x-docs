@@ -6,6 +6,8 @@ title: IDBService.TryAppLock(string, string, string, string) մեթոդ
 
 **Համարժեքը 4x-ում՝** AsKernel.TryAppLock
 
+**Դաս՝** [IDBService](../IDBService.md)
+
 ```c#
 public Task<bool> TryAppLock(string resource, 
                              string mode = "Exclusive", 

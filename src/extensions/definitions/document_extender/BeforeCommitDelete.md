@@ -6,6 +6,8 @@ title: DocumentExtender.BeforeCommitDelete(Document, BeforeCommitDeleteEventArgs
 
 **Համարժեքը 4x-ում՝** [BeforeCommitDelete](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/ScriptProcs/DocExtenderEvents/BeforeCommitDelete.html)
 
+**Դաս՝** [DocumentExtender](../document_extender.md)
+
 ```c#
 public virtual Task BeforeCommitDelete(Document sender, 
                                        BeforeCommitDeleteEventArgs args)

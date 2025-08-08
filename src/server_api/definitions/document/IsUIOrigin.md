@@ -6,6 +6,8 @@ title: Document.IsUIOrigin հատկություն
 
 **Համարժեքը 4x-ում՝** [AsDoc.VisualFormAvailable](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/ASDOC/VisualFormAvailable.html)
 
+**Դաս՝** [Document](../document.md)
+
 ```c#
 public bool IsUIOrigin { get; }
 ```

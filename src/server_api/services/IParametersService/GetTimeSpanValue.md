@@ -15,6 +15,10 @@ title: IParametersService.GetTimeSpanValue մեթոդ
 
 ### IParametersService.GetTimeSpanValue(string) մեթոդ
 
+#### Նկարագիր
+
+**Դաս՝** [IParametersService](../IParametersService.md)
+
 ```c#
 public Task<TimeSpan> GetTimeSpanValue(string paramId)
 ```
@@ -28,6 +32,10 @@ public Task<TimeSpan> GetTimeSpanValue(string paramId)
 * `paramId` - Պարամետրի ներքին անուն (id):
 
 ### IParametersService.GetTimeSpanValue(string, short) մեթոդ  
+
+#### Նկարագիր
+
+**Դաս՝** [IParametersService](../IParametersService.md)
 
 ```c#
 public Task<TimeSpan> GetTimeSpanValue(string paramId, 

@@ -6,6 +6,8 @@ title: DocumentExtender.PreOnRejectDocumentChangeRequest(Document, RejectDocumen
 
 **Համարժեքը 4x-ում՝** ScriptExtension.DocPreOnRejectDCR
 
+**Դաս՝** [DocumentExtender](../document_extender.md)
+
 ```c#
 public virtual Task PreOnRejectDocumentChangeRequest(Document sender, 
                                                      RejectDocumentChangeRequestEventArgs args)

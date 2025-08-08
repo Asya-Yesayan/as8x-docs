@@ -6,6 +6,8 @@ title: Document.SerializeComplexObjects(SerializeComplexObjectsEventArgs) մեթ
 
 **Համարժեքը 4x-ում՝** SerializeComplexObjects
 
+**Դաս՝** [Document](../document.md)
+
 ```c#
 public virtual Task SerializeComplexObjects(SerializeComplexObjectsEventArgs args)
 ```

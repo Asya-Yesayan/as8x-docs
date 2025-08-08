@@ -6,6 +6,8 @@ title: Document.SetCheckValue(string, bool) մեթոդ
 
 **Համարժեքը 4x-ում՝** [AsDoc.CheckValue](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/ASDOC/CheckValue.html)
 
+**Դաս՝** [Document](../document.md)
+
 ```c#
 public void SetCheckValue(string fieldName, 
                           bool value)

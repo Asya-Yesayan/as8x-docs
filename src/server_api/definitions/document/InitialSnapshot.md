@@ -6,6 +6,8 @@ title: Document.InitialSnapshot հատկություն
 
 **Համարժեքը 4x-ում՝** AsDoc.InitialSnapshot
 
+**Դաս՝** [Document](../document.md)
+
 ```c#
 public DocumentSnapshot InitialSnapshot { get; private set; }
 ```

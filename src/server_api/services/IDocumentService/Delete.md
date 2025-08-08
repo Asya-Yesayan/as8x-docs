@@ -6,6 +6,8 @@ title: IDocumentService.Delete մեթոդ
 
 **Համարժեքը 4x-ում՝** [AsDocEngine.DeleteDoc](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/DocumentsCirculation/DeleteDoc.html)
 
+**Դաս՝** [IDocumentService](../IDocumentService.md)
+
 ## Գերբեռնումներ
 
 | Անվանում | Նկարագրություն |

@@ -15,6 +15,10 @@ title: IParametersService.GetBooleanValue մեթոդ
 
 ### IParametersService.GetBooleanValue(string) մեթոդ
 
+#### Նկարագիր
+
+**Դաս՝** [IParametersService](../IParametersService.md)
+
 ```c#
 public Task<bool> GetBooleanValue(string paramId)
 ```
@@ -28,6 +32,10 @@ public Task<bool> GetBooleanValue(string paramId)
 * `paramId` - Պարամետրի ներքին անուն (id):
 
 ### IParametersService.GetBooleanValue(string, short) մեթոդ  
+
+#### Նկարագիր
+
+**Դաս՝** [IParametersService](../IParametersService.md)
 
 ```c#
 public Task<bool> GetBooleanValue(string paramId, 

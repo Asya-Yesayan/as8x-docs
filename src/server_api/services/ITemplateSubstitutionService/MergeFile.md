@@ -1,9 +1,6 @@
 ---
 title: ITemplateSubstitutionService.MergeFile մեթոդ  
 ---
-## Նկարագիր
-
-**Համարժեքը 4x-ում՝** [AsKernel.MergePrintFiles](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/MergePrintFiles.html)
 
 ## Գերբեռնումներ
 
@@ -13,6 +10,12 @@ title: ITemplateSubstitutionService.MergeFile մեթոդ
 | [MergeFile(SubstitutionType, byte\[\], byte\[\], bool, bool)](#itemplatesubstitutionservicemergefilesubstitutiontype-byte-byte-bool-bool-մեթոդ) | Միավորում է երկու տպելու ձևանմուշից ստեղծված `docx` ֆայլեր՝ տեղադրելով մեկ ընդհանուր ֆայլի մեջ։ |
 
 ### ITemplateSubstitutionService.MergeFile(SubstitutionType, StorageInfo, StorageInfo, bool, bool) մեթոդ
+
+#### Նկարագիր
+
+**Համարժեքը 4x-ում՝** [AsKernel.MergePrintFiles](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/MergePrintFiles.html)
+
+**Դաս՝** [ITemplateSubstitutionService](../ITemplateSubstitutionService.md)
 
 ```c#
 public Task MergeFile(SubstitutionType type, 
@@ -34,6 +37,12 @@ public Task MergeFile(SubstitutionType type,
 * `check` - Տպելու ձևանմուշում առկա կոդերի ճիշտ շարահյուսության ստուգման հայտանիշ։
 
 ### ITemplateSubstitutionService.MergeFile(SubstitutionType, byte[], byte[], bool, bool) մեթոդ
+
+#### Նկարագիր
+
+**Համարժեքը 4x-ում՝** [AsKernel.MergePrintFiles](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/MergePrintFiles.html)
+
+**Դաս՝** [ITemplateSubstitutionService](../ITemplateSubstitutionService.md)
 
 ```c#
 public Task<Stream> MergeFile(SubstitutionType type, byte[] targetFile, 

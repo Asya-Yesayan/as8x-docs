@@ -11,6 +11,10 @@ title: IParametersService.DefaultBranch մեթոդ
 
 ### IParametersService.DefaultBranch() մեթոդ
 
+#### Նկարագիր
+
+**Դաս՝** [IParametersService](../IParametersService.md)
+
 ```c#
 public Task<string> DefaultBranch()
 ```
@@ -18,6 +22,10 @@ public Task<string> DefaultBranch()
 Վերադարձնում է **DEFBRANCH** ներքին անունով [տող տիպի](../../types/system_types.md#stringfieldtype) պարամետրի արժեքը, որը ցույց է տալիս ընթացիկ օգտագործողի համար առաջարկվող գրասենյակի կոդը։
 
 ### IParametersService.DefaultBranch(short) մեթոդ  
+
+#### Նկարագիր
+
+**Դաս՝** [IParametersService](../IParametersService.md)
 
 ```c#
 public Task<string> DefaultBranch(short suid)

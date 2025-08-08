@@ -6,6 +6,8 @@ title: IOlapDBService.RollBackTransAsync() մեթոդ
 
 **Համարժեքը 4x-ում՝** [ASOLAPProvider.RollbackTrans](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/TransactionManagment/RollBackTrans.html)
 
+**Դաս՝** [IOlapDBService](../IOlapDBService.md)
+
 ```c#
 public Task RollBackTransAsync();
 ```

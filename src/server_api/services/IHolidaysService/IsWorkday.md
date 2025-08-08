@@ -6,6 +6,8 @@ title: IHolidaysService.IsWorkday(DateTime) մեթոդ
 
 **Համարժեքը 4x-ում՝** [AsDayStatus.IsWorkDay](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/AsDayStatus/IsWorkDay.html)
 
+**Դաս՝** [IHolidaysService](../IHolidaysService.md)
+
 ```c#
 public Task<bool> IsWorkday(DateTime value)
 ```

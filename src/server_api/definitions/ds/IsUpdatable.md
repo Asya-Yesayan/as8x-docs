@@ -6,6 +6,8 @@ title: DataSource.IsUpdatable հատկություն
 
 **Համարժեքը 4x-ում՝** [Data.UpdateSQL](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/ASDATA/UpdateSQL.html)
 
+**Դաս՝** [DataSource](../ds.md)
+
 ```c#
 public virtual bool IsUpdatable
 {

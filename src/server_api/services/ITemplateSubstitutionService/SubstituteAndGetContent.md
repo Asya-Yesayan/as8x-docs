@@ -2,6 +2,10 @@
 title: ITemplateSubstitutionService.SubstituteAndGetContent(IPrintTemplateSubstitution, byte[], SubstitutionType, HtmlImageOption, bool, bool) մեթոդ  
 ---
 
+## Նկարագիր
+
+**Դաս՝** [ITemplateSubstitutionService](../ITemplateSubstitutionService.md)
+
 ```c#
 public string SubstituteAndGetContent(IPrintTemplateSubstitution printTemplateSubstitution, 
                                       byte[] file, 

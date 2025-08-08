@@ -6,6 +6,8 @@ title: IKernelService.GetTurnBetween(string, int, DateTime, DateTime, string, bo
 
 **Համարժեքը 4x-ում՝** [Kernel.GetTurnBetween](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/AccManagement/GetTurnBetween.html)
 
+**Դաս՝** [IKernelService](../IKernelService.md)
+
 ```c#
 public Task<List<(DateTime Date, decimal DbTurn, decimal DbTurnAMD, 
                   decimal CrTurn, decimal CrTurnAMD)>> GetTurnBetween(

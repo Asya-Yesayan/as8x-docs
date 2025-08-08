@@ -6,6 +6,8 @@ title: DocumentExtender.PreFolders(Document, FoldersEventArgs) մեթոդ
 
 **Համարժեքը 4x-ում՝** ScriptExtension.DocPreFolders
 
+**Դաս՝** [DocumentExtender](../document_extender.md)
+
 ```c#
 public virtual Task PreFolders(Document sender, 
                                FoldersEventArgs args)

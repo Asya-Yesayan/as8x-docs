@@ -2,6 +2,10 @@
 title: TemplateService.GetDefinition(string, string) մեթոդ  
 ---
 
+## Նկարագիր
+
+**Դաս՝** [TemplateService](../TemplateService.md)
+
 ```c#
 public Task<TemplateDefinition> GetDefinition(string name, 
                                               string type)

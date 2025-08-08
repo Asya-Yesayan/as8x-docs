@@ -6,6 +6,8 @@ title: DataProcessingRequest.Name հատկություն
 
 **Համարժեքը 4x-ում՝** [DataProcessingRequest.Name](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/DataProcessingRequest.html#name)
 
+**Դաս՝** [DataProcessingRequest](../dpr.md)
+
 ```c#
 public string Name { get; }
 ```

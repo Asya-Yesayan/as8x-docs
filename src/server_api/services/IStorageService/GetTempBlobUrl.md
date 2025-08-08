@@ -2,6 +2,10 @@
 title: IStorageService.GetTempBlobUrl(string, string) մեթոդ  
 ---
 
+## Նկարագիր
+
+**Դաս՝** [IStorageService](../IStorageService.md)
+
 ```c#
 public Task<string> GetTempBlobUrl(string fileExtension, 
                                    out string blobName)

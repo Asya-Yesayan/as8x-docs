@@ -2,6 +2,10 @@
 title: IParametersService.GetDescriptor(string) մեթոդ  
 ---
 
+## Նկարագիր
+
+**Դաս՝** [IParametersService](../IParametersService.md)
+
 ```c#
 public Descriptor GetDescriptor(string paramId)
 ```

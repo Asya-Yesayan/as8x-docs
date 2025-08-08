@@ -2,6 +2,10 @@
 title: DataSource.Progress հատկություն
 ---
 
+## Նկարագիր
+
+**Դաս՝** [DataSource](../ds.md)
+
 ```c#
 public DataSourceExecutionProgress Progress { get; }
 ```

@@ -2,6 +2,10 @@
 title: IOlapDBService.CreateAdditionalConnection(bool, string, bool) մեթոդ  
 ---
 
+## Նկարագիր
+
+**Դաս՝** [IOlapDBService](../IOlapDBService.md)
+
 ```c#
 public SqlConnection CreateAdditionalConnection(bool pooling = true, 
                                                 string connectionName = "", 

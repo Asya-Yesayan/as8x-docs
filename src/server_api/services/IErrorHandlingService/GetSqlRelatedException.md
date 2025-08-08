@@ -2,6 +2,10 @@
 title: IErrorHandlingService.GetSqlRelatedException(SqlException, string, bool) մեթոդ
 ---
 
+## Նկարագիր
+
+**Դաս՝** [IErrorHandlingService](../IErrorHandlingService.md)
+
 ```c#           
 public Exception GetSqlRelatedException(SqlException exception, 
                                         string duplicateErrorMessage = "", 

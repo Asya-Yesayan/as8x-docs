@@ -2,6 +2,10 @@
 title: Extender.AddColumn(string, string, string, FieldType, string, string, FieldType, short, short, SupportedEncoding) մեթոդ
 ---
 
+## Նկարագիր
+
+**Դաս՝** [Extender](../ds_extender.md)
+
 ```c#
 public void AddColumn(string name, 
                       string armenianCaption, 
@@ -31,7 +35,7 @@ public void AddColumn(string name,
 * `englishDescription` - Սյան անգլերեն նկարագրությունը։
 * `showType` - Սահմանում է համակարգային տիպը ցուցադրման ժամանակ։  
   Եթե այս պարամետրը բացակայում է, ապա օգտագործվում է columnType հատկության արժեքը։
-  Սովորոբար այս հատկությունը օգտագործում են, եթե տվյալների տիպը, որը համապատասխանում է սյունակի արժեքներին, հարմար չի ցուցադրման համար։
+  Սովորաբար այս հատկությունը օգտագործում են, եթե տվյալների տիպը, որը համապատասխանում է սյունակի արժեքներին, հարմար չի ցուցադրման համար։
   Օրինակ եթե columnType = FieldTypeProvider.GetStringFieldType(150) է, բայց շատ դեպքերում բավական է տեսնել տողի սկիզբը, ապա կարելի է սահմանել showType = 
   FieldTypeProvider.GetStringFieldType(32),
 * `width` - Սյան լայնությունը:

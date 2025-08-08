@@ -6,6 +6,8 @@ title: IDocumentService.LoadFromFolder մեթոդ
 
 **Համարժեքը 4x-ում՝** [AsDocEngine.LoadDocFromFolder](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/DocumentsCirculation/LoadDocFromFolder.html)
 
+**Դաս՝** [IDocumentService](../IDocumentService.md)
+
 ## Գերբեռնումներ
 
 | Անվանում | Նկարագրություն |

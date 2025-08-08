@@ -6,6 +6,8 @@ title: IStorageService.UploadBlobAsync մեթոդ
 
 **Համարժեքը 4x-ում՝** AsUtil.UploadToStorage
 
+**Դաս՝** [IStorageService](../IStorageService.md)
+
 ## Գերբեռնումներ
 
 | Անվանում | Նկարագրություն |

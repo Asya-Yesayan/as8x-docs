@@ -11,6 +11,10 @@ title: LiteDocumentService.LookUpInCache մեթոդ
 
 ### LiteDocumentService.LookUpInCache(int, TimeSpan, Ref<bool>, bool) մեթոդ
 
+#### Նկարագիր
+
+**Դաս՝** [LiteDocumentService](../LiteDocumentService.md)
+
 ```c#
 public Task<LiteDocument> LookUpInCache(int isn,
                                         TimeSpan checkAfter,
@@ -31,6 +35,10 @@ public Task<LiteDocument> LookUpInCache(int isn,
 * `lookInArc` - Արխիվացված փաստաթղթի բեռնման հայտանիշ։ **true** արժեքի դեպքում փաստաթուղթը հիմնական պահոցում չգտնելու դեպքում փորձում է բեռնել նաև արխիվային տվյալների պահոցից, եթե այնտեղ նույնպես փաստաթութը առկա չէ, առաջանում է սխալ։
 
 ### LiteDocumentService.LookUpInCache(string, string, TimeSpan, Ref&lt;bool&gt;) մեթոդ  
+
+#### Նկարագիր
+
+**Դաս՝** [LiteDocumentService](../LiteDocumentService.md)
 
 ```c#
 public Task<LiteDocument> LookUpInCache(string folderID,

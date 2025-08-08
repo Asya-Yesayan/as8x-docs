@@ -6,6 +6,8 @@ title: IDocumentService.GetDocumentType(int) մեթոդ
 
 **Համարժեքը 4x-ում՝** [AsUtil.GetDocType](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/DocumentsCirculation/GetDocType.html)
 
+**Դաս՝** [IDocumentService](../IDocumentService.md)
+
 ```c#
 public Task<string> GetDocumentType(int isn)
 ```

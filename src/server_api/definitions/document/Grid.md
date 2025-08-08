@@ -6,6 +6,8 @@ title: Document.Grid(string) մեթոդ
 
 **Համարժեքը 4x-ում՝** [AsDoc.Grid](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/ASDOC/Grid.html)
 
+**Դաս՝** [Document](../document.md)
+
 ```c#
 public IGrid Grid(string name)
 ```

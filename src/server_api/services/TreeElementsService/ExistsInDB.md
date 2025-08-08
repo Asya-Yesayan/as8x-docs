@@ -2,6 +2,10 @@
 title: TreeElementsService.ExistsInDB(string, string) մեթոդ  
 ---
 
+## Նկարագիր
+
+**Դաս՝** [TreeElementsService](../TreeElementsService.md)
+
 ```c#
 public Task<bool> ExistsInDB(string treeId, 
                              string key)

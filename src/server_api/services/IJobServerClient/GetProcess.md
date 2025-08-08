@@ -2,6 +2,10 @@
 title: IProcessServerClient.GetProcess(Guid) մեթոդ  
 ---
 
+## Նկարագիր
+
+**Դաս՝** [IJobServerClient](../IJobServerClient.md)
+
 ```c#
 public Process GetProcess(Guid id)
 ```

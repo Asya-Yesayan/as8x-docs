@@ -6,6 +6,8 @@ title: IKernelService.LastOpDate(string, int, DateTime?, string, int) մեթոդ
 
 **Համարժեքը 4x-ում՝** [AsKernel.LastOpDate](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/AccManagement/LastOpDate.html)
 
+**Դաս՝** [IKernelService](../IKernelService.md)
+
 ```c#
 public Task<DateTime?> LastOpDate(string accCode, 
                                   int isn, 

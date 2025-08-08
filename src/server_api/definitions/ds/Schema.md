@@ -2,6 +2,10 @@
 title: DataSource.Schema հատկություն
 ---
 
+## Նկարագիր
+
+**Դաս՝** [DataSource](../ds.md)
+
 ```c#
 public Schema Schema { get; protected set; }
 ```

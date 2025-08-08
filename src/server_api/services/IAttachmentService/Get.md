@@ -6,6 +6,8 @@ title: IAttachmentService.Get(int, string) մեթոդ
 
 **Համարժեքը 4x-ում՝** AsAttachmentCollection.Item
 
+**Դաս՝** [IAttachmentService](../IAttachmentService.md)
+
 ```c#
 public Task<AttachmentModel> Get(int isn, 
                                  string fileName)

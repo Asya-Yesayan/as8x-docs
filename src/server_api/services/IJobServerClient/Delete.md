@@ -2,6 +2,10 @@
 title: IProcessServerClient.Delete(Guid) մեթոդ  
 ---
 
+## Նկարագիր
+
+**Դաս՝** [IJobServerClient](../IJobServerClient.md)
+
 ```c#
 public Task Delete(Guid id)
 ```

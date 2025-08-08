@@ -6,6 +6,8 @@ title: IDocumentChangeRequestService.IsEmpty(DocumentChangeRequest, bool) մեթ
 
 **Համարժեքը 4x-ում՝** DocChangeRequest.IsEmpty
 
+**Դաս՝** [IDocumentChangeRequestService](../IDocumentChangeRequestService.md)
+
 ```c#
 public bool IsEmpty(DocumentChangeRequest dcr, 
                     bool includeHiddenFields = true)

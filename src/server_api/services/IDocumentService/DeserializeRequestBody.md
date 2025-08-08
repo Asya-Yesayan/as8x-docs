@@ -2,6 +2,10 @@
 title: IDocumentService.DeserializeRequestBody(DocumentModel, bool) մեթոդ
 ---
 
+## Նկարագիր
+
+**Դաս՝** [IDocumentService](../IDocumentService.md)
+
 ```c#
 public Task<Document> DeserializeRequestBody(DocumentModel request, 
                                              bool isExtended = false)

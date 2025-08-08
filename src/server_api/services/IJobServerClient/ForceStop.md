@@ -2,6 +2,10 @@
 title: IProcessServerClient.ForceStop(Guid, string) մեթոդ  
 ---
 
+## Նկարագիր
+
+**Դաս՝** [IJobServerClient](../IJobServerClient.md)
+
 ```c#
 public Task<bool> ForceStop(Guid id, 
                             string message)

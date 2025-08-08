@@ -6,6 +6,8 @@ title: AppLogService.Write մեթոդ
 
 **Համարժեքը 4x-ում՝** AsUtil.WriteToAppLog
 
+**Դաս՝** [AppLogService](../AppLogService.md)
+
 ## Գերբեռնումներ
 
 | Անվանում | Նկարագրություն |

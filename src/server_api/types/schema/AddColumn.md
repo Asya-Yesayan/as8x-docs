@@ -33,7 +33,7 @@ public void AddColumn(string name, string source, string armenianCaption, string
 * `englishDescription` - Սյան անգլերեն նկարագրությունը `ANSI` կոդավորմամբ։ Լռությամբ արժեքը null է։
 * `showType` - Սահմանում է [համակարգային տիպը](../system_types.md) ցուցադրման ժամանակ։ 
                Եթե այս պարամետրը բացակայում է, ապա օգտագործվում է columnType հատկության արժեքը։ 
-               Սովորոբար այս հատկությունը օգտագործում են, եթե տվյալների տիպը, որը համապատասխանում է սյունակի արժեքներին, հարմար չի ցուցադրման համար։
+               Սովորաբար այս հատկությունը օգտագործում են, եթե տվյալների տիպը, որը համապատասխանում է սյունակի արժեքներին, հարմար չի ցուցադրման համար։
                Օրինակ եթե columnType = FieldTypeProvider.GetStringFieldType(150) է, բայց շատ դեպքերում բավական է տեսնել տողի սկիզբը, ապա կարելի է սահմանել showType = FieldTypeProvider.GetStringFieldType(32):
                Լռությամբ արժեքը null է։
 * `width` - Սյան լայնությունը: Արժեք չփոխանցելու դեպքում որոշվում է կախված սյան armenianCaption, englishCaption, columnType, showType       հատկություններից:

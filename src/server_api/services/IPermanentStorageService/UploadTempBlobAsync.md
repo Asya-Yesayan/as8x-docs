@@ -2,6 +2,10 @@
 title: IPermanentStorageService.UploadTempBlobAsync(string, string, Stream, BlobProperties, CancellationToken) մեթոդ  
 ---
 
+## Նկարագիր
+
+**Դաս՝** [IPermanentStorageService](../IPermanentStorageService.md)
+
 ```c#
 public Task<bool> UploadTempBlobAsync(string fileExtension, 
                                       out string blobName, 

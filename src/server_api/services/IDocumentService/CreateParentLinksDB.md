@@ -6,6 +6,8 @@ title: IDocumentService.CreateParentLinksDB(int, List<int>) մեթոդ
 
 **Համարժեքը 4x-ում՝** AsDocEngine.CreateParentLinks
 
+**Դաս՝** [IDocumentService](../IDocumentService.md)
+
 ```c#
 public  Task CreateParentLinksDB(int isn, 
                                  List<int> parentsIsn)

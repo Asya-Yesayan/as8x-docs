@@ -6,6 +6,8 @@ title: DataProcessingRequest.DPRType հատկություն
 
 **Համարժեքը 4x-ում՝** [DataProcessingRequest.SysType](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/DataProcessingRequest.html#systype)
 
+**Դաս՝** [DataProcessingRequest](../dpr.md)
+
 ```c#
 public DPRType DPRType { get; }
 ```

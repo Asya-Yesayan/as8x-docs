@@ -13,6 +13,10 @@ title: RODocumentService.Load մեթոդ
 
 ### RODocumentService.Load(int, bool, bool, bool) մեթոդ
 
+#### Նկարագիր
+
+**Դաս՝** [RODocumentService](../RODocumentService.md)
+
 ```c#
 public Task<Dictionary<int, RODocument>> Load(IEnumerable<int> isnList, bool loadGrids = false)
 ```
@@ -28,6 +32,10 @@ public Task<Dictionary<int, RODocument>> Load(IEnumerable<int> isnList, bool loa
 * `loadGrids` - Փաստաթղթերի աղյուսակների բեռնման հայտանիշ։
 
 ### RODocumentService.Load(int, bool, bool, bool, bool) մեթոդ  
+
+#### Նկարագիր
+
+**Դաս՝** [RODocumentService](../RODocumentService.md)
 
 ```c#
 public Task<RODocument> Load(int isn,
@@ -52,6 +60,10 @@ public Task<RODocument> Load(int isn,
 
 ### RODocumentService.Load(int, bool, bool, bool, bool) մեթոդ  
 
+#### Նկարագիր
+
+**Դաս՝** [RODocumentService](../RODocumentService.md)
+
 ```c#
 public Task<T> Load<T>(int isn,
                        bool loadGrids = true,
@@ -75,6 +87,10 @@ public Task<T> Load<T>(int isn,
 * `loadImagesAndMemos` - Փաստաթղթի նկարների ու մեծ մուտքագրման դաշտերի (մեմո) բեռնման հայտանիշ։
 
 ### RODocumentService.Load(int, bool, Ref&lt;bool&gt;, bool) մեթոդ  
+
+#### Նկարագիր
+
+**Դաս՝** [RODocumentService](../RODocumentService.md)
 
 ```c#
 public Task<Dictionary<int, RODocument>> Load(IEnumerable<int> isnList, 

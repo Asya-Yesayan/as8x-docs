@@ -6,6 +6,8 @@ title: IDocumentService.Store(Document, DocumentCheckLevel, string) մեթոդ
 
 **Համարժեքը 4x-ում՝** [AsDoc.Store](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/ASDOC/Store.html)
 
+**Դաս՝** [IDocumentService](../IDocumentService.md)
+
 ```c#
 public Task Store(Document document, 
                   DocumentCheckLevel checkLevel = DocumentCheckLevel.None, 

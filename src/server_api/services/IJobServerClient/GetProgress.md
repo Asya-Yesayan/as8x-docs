@@ -2,6 +2,10 @@
 title: IProcessServerClient.GetProgress(Guid) մեթոդ  
 ---
 
+## Նկարագիր
+
+**Դաս՝** [IJobServerClient](../IJobServerClient.md)
+
 ```c#
 public Task<object> GetProgress(Guid id)
 ```

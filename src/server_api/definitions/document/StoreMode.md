@@ -2,6 +2,10 @@
 title: Document.StoreMode հատկություն
 ---
 
+## Նկարագիր
+
+**Դաս՝** [Document](../document.md)
+
 ```c#
 public StoreMode StoreMode { get; internal set; }
 ```

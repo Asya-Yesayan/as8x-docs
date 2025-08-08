@@ -6,6 +6,8 @@ title: IDocumentService.HiDeleteAll(Document) մեթոդ
 
 **Համարժեքը 4x-ում՝** [AsDoc.HiDelete](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/ASDOC/HiDelete.html)
 
+**Դաս՝** [IDocumentService](../IDocumentService.md)
+
 ```c#
 public Task HiDeleteAll(Document doc);
 ```

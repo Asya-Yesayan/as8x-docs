@@ -6,6 +6,8 @@ title: IDocumentService.HiParDelete(Document) մեթոդ
 
 **Համարժեքը 4x-ում՝** [AsDoc.HiParDelete](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/ASDOC/HiParDelete.html)
 
+**Դաս՝** [IDocumentService](../IDocumentService.md)
+
 ```c#
 public Task HiParDelete(Document doc)
 ```

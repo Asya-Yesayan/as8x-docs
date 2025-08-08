@@ -2,6 +2,10 @@
 title: Document.TemplateSubstitutionIsExtended հատկություն
 ---
 
+## Նկարագիր
+
+**Դաս՝** [Document](../document.md)
+
 ```c#
 public virtual bool TemplateSubstitutionIsExtended { get; }
 ```

@@ -2,6 +2,10 @@
 title: LiteDocumentService.LoadGrids(LiteDocument, bool) մեթոդ  
 ---
 
+## Նկարագիր
+
+**Դաս՝** [LiteDocumentService](../LiteDocumentService.md)
+
 ```c#
 public Task LoadGrids(LiteDocument document, 
                       bool lookInArc = false);

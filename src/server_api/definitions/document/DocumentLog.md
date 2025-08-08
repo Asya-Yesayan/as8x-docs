@@ -2,6 +2,10 @@
 title: Document.DocumentLog հատկություն
 ---
 
+## Նկարագիր
+
+**Դաս՝** [Document](../document.md)
+
 ```c#
 public DocumentLog DocumentLog { get; internal set; } = new DocumentLog();
 ```

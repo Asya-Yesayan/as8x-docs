@@ -6,6 +6,8 @@ title: IDBService.RollBackTransAsync() մեթոդ
 
 **Համարժեքը 4x-ում՝** [AsDocEngine.RollbackTrans](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/TransactionManagment/RollBackTrans.html)
 
+**Դաս՝** [IDBService](../IDBService.md)
+
 ```c#
 public Task RollBackTransAsync();
 ```

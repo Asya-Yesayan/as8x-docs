@@ -6,6 +6,8 @@ title: DataSource.MakeSQLCommand(DataSourceArgs<P>, CancellationToken) մեթո�
 
 **Համարժեքը 4x-ում՝** [SQL](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/ScriptProcs/SQL.html)
 
+**Դաս՝** [DataSource](../ds.md)
+
 ```c#
 protected virtual Task<SqlCommand> MakeSQLCommand(DataSourceArgs<P> args, 
                                                   CancellationToken stoppingToken)

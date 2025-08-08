@@ -2,6 +2,10 @@
 title: Document.CancellationToken հատկություն
 ---
 
+## Նկարագիր
+
+**Դաս՝** [Document](../document.md)
+
 ```c#
 public CancellationToken CancellationToken { get; internal set; }
 ```

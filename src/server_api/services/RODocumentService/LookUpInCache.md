@@ -15,6 +15,10 @@ title: RODocumentService.LookUpInCache մեթոդ
 
 ### RODocumentService.LookUpInCache(int, TimeSpan, Ref&lt;bool&gt;, bool) մեթոդ
 
+#### Նկարագիր
+
+**Դաս՝** [RODocumentService](../RODocumentService.md)
+
 ```c#
 public async Task<T> LookUpInCache<T>(int isn, 
                                       TimeSpan checkAfter, 
@@ -37,6 +41,10 @@ public async Task<T> LookUpInCache<T>(int isn,
 
 ### RODocumentService.LookUpInCache(string, string, TimeSpan, Ref&lt;bool&gt;) մեթոդ  
 
+#### Նկարագիր
+
+**Դաս՝** [RODocumentService](../RODocumentService.md)
+
 ```c#
 public Task<T> LookUpInCache<T>(string folder, 
                                 string key, 
@@ -58,6 +66,10 @@ public Task<T> LookUpInCache<T>(string folder,
 
 ### RODocumentService.LookUpInCache(int, bool, Ref&lt;bool&gt;, bool) մեթոդ  
 
+#### Նկարագիր
+
+**Դաս՝** [RODocumentService](../RODocumentService.md)
+
 ```c#
 public Task<T> LookUpInCache<T>(int isn, 
                                 bool checkRelevance, 
@@ -78,6 +90,10 @@ public Task<T> LookUpInCache<T>(int isn,
 * `lookInArc` - Արխիվացված փաստաթղթի բեռնման հայտանիշ։ **true** արժեքի դեպքում փաստաթուղթը հիմնական պահոցում չգտնելու դեպքում փորձում է բեռնել նաև արխիվային տվյալների պահոցից, եթե այնտեղ նույնպես փաստաթութը առկա չէ, առաջանում է սխալ։
 
 ### RODocumentService.LookUpInCache(string, string, bool, DocsTableRowLoader, Ref&lt;bool&gt;) մեթոդ  
+
+#### Նկարագիր
+
+**Դաս՝** [RODocumentService](../RODocumentService.md)
 
 ```c#
 public Task<T> LookUpInCache<T>(string folder, 
@@ -101,6 +117,10 @@ public Task<T> LookUpInCache<T>(string folder,
 
 ### RODocumentService.LookUpInCache(int, DocumentLoadSession, Ref&ltbool&gt;, bool) մեթոդ  
 
+#### Նկարագիր
+
+**Դաս՝** [RODocumentService](../RODocumentService.md)
+
 ```c#
 public Task<T> LookUpInCache<T>(int isn, 
                                 DocumentLoadSession documentLoadSession,
@@ -121,6 +141,10 @@ public Task<T> LookUpInCache<T>(int isn,
 * `lookInArc` - Արխիվացված փաստաթղթի բեռնման հայտանիշ։ **true** արժեքի դեպքում փաստաթուղթը հիմնական պահոցում չգտնելու դեպքում փորձում է բեռնել նաև արխիվային տվյալների պահոցից, եթե այնտեղ նույնպես փաստաթութը առկա չէ, առաջանում է սխալ։
 
 ### RODocumentService.LookUpInCache(string, string, DocumentLoadSession, DocsTableRowLoader, Ref&lt;bool&gt;) մեթոդ  
+
+#### Նկարագիր
+
+**Դաս՝** [RODocumentService](../RODocumentService.md)
 
 ```c#
 public Task<T> LookUpInCache<T>(string folder, 

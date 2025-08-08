@@ -6,6 +6,8 @@ title: IKernelService.GetRemHI2(string, int, int, DateTime?)
 
 **Համարժեքը 4x-ում՝** [Kernel.GetRemHI2](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/AccManagement/GetRemHI2.html)
 
+**Դաս՝** [IKernelService](../IKernelService.md)
+
 ```c#
 public Task<(decimal CRem, decimal NCRem)> GetRemHI2(string accounting, 
                                                      int isn = -1, 

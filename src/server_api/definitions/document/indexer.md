@@ -6,6 +6,8 @@ title: Document.indexer հատկություն
 
 **Համարժեքը 4x-ում՝** [AsDoc.Rekv](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/ASDOC/Rekv.html)
 
+**Դաս՝** [Document](../document.md)
+
 ```c#
 public object this[string name] { get; set; }
 ```

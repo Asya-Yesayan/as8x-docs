@@ -6,9 +6,10 @@ title: DataSource.QueryTimeOut հատկություն
 
 **Համարժեքը 4x-ում՝** Data.QueryTimeout
 
+**Դաս՝** [DataSource](../ds.md)
+
 ```c#
-public int QueryTimeOut { get; set; }
+public int QueryTimeOut { get; set; } = -1;
 ```
 
-Վերադարձնում կամ արժեքավորում է տվյալների աղբյուրի [MakeSqlCommand](MakeSQLCommand.md)-ում ձևավորված հարցման կատարման առավելագույն ժամանակը (վայրկյաններով):
-Համապատասխանում է [DATA](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Defs/Data.html) նկարագրություն `QueryTimeout` հատկությանը։
+Վերադարձնում կամ արժեքավորում է տվյալների աղբյուրի [MakeSqlCommand](MakeSQLCommand.md)-ում ձևավորված Sql հարցման կատարման առավելագույն ժամանակը (վայրկյաններով): Եթե արժեքը -1 է կամ փոքր է սեսսիայի DsQueryTimeout հատկության արժեքից, ապա կիրառվում է վերջինիս արժեքը։

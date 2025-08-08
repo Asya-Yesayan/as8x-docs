@@ -2,6 +2,10 @@
 title: Document.IsLogged հատկություն
 ---
 
+## Նկարագիր
+
+**Դաս՝** [Document](../document.md)
+
 ```c#
 public bool IsLogged { get; set; }
 ```

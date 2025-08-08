@@ -2,6 +2,10 @@
 title: ITemplateSubstitutionService.LoadAndSubstitute(IPrintTemplateSubstitution, string, SubstitutionType, HtmlImageOption, string, bool) մեթոդ  
 ---
 
+## Նկարագիր
+
+**Դաս՝** [ITemplateSubstitutionService](../ITemplateSubstitutionService.md)
+
 ```c#
 public Task<Stream> LoadAndSubstitute(IPrintTemplateSubstitution printTemplateSubstitution, 
                                       string name, 

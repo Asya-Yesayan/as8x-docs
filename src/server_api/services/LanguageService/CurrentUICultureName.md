@@ -2,6 +2,10 @@
 title: LanguageService.CurrentUICultureName հատկություն  
 ---
 
+## Նկարագիր
+
+**Դաս՝** [LanguageService](../LanguageService.md)
+
 ```c#
 public static string CurrentUICultureName { get; }
 ```

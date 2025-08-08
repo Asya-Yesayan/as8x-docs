@@ -2,6 +2,10 @@
 title: Extender.AlwaysCallBeforeProcess հատկություն
 ---
 
+## Նկարագիր
+
+**Դաս՝** [Extender](../ds_extender.md)
+
 ```c#
 public virtual bool AlwaysCallBeforeProcess => false; 
 ```

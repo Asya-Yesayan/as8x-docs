@@ -2,6 +2,10 @@
 title: DataProcessingRequest.Progress հատկություն
 ---
 
+## Նկարագիր
+
+**Դաս՝** [DataProcessingRequest](../dpr.md)
+
 ```c#
 public DPRExecutionProgress Progress { get; }
 ```

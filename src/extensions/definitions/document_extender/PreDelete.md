@@ -6,6 +6,8 @@ title: DocumentExtender.PreDelete(Document, DeleteEventArgs) մեթոդ
 
 **Համարժեքը 4x-ում՝** ScriptExtension.DocPreDelete
 
+**Դաս՝** [DocumentExtender](../document_extender.md)
+
 ```c#
 public virtual Task PreDelete(Document sender, 
                               DeleteEventArgs args)

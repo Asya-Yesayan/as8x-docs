@@ -6,6 +6,8 @@ title: IDocumentService.StoreFact(Document, Fact) մեթոդ
 
 **Համարժեքը 4x-ում՝** [AsDoc.StoreFact](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/ASDOC/StoreFact.html)
 
+**Դաս՝** [IDocumentService](../IDocumentService.md)
+
 ```c#
 public Task StoreFact(Document document, 
                       Fact fact)

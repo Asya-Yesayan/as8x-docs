@@ -2,6 +2,10 @@
 title: IDBService.BeginSqlServerDistributedTransactionAsync() մեթոդ
 ---
 
+## Նկարագիր
+
+**Դաս՝** [IDBService](../IDBService.md)
+
 ```c#
 public Task BeginSqlServerDistributedTransactionAsync();
 ```

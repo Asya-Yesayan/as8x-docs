@@ -6,6 +6,8 @@ title: IDBService.Server հատկություն
 
 **Համարժեքը 4x-ում՝** [AsUtil.GetServerName](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/GetServerName.html)
 
+**Դաս՝** [IDBService](../IDBService.md)
+
 ```c#
 public string Server { get; }
 ```

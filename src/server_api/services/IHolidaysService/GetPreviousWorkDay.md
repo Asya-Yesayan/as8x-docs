@@ -6,6 +6,8 @@ title: IHolidaysService.GetPreviousWorkDay(DateTime) մեթոդ
 
 **Համարժեքը 4x-ում՝** [AsKernel.PreviousWorkday](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/PreviousWorkday.html)
 
+**Դաս՝** [IHolidaysService](../IHolidaysService.md)
+
 ```c#
 public Task<DateTime> GetPreviousWorkDay(DateTime value)
 ```

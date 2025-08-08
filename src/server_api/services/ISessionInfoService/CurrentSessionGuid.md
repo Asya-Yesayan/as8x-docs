@@ -2,6 +2,10 @@
 title: ISessionInfoService.CurrentSessionGuid հատկություն
 ---
 
+## Նկարագիր
+
+**Դաս՝** [ISessionInfoService](../ISessionInfoService.md)
+
 ```c#
 public string CurrentSessionGuid { get; }
 ```

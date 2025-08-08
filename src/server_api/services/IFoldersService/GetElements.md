@@ -11,6 +11,10 @@ title: IFoldersService.GetElements մեթոդ
 
 ### IFoldersService.GetElements(string) մեթոդ
 
+#### Նկարագիր
+
+**Դաս՝** [IFoldersService](../IFoldersService.md)
+
 ```c#
 public Task<List<FolderElement>> GetElements(string folderID);
 ```
@@ -22,6 +26,10 @@ public Task<List<FolderElement>> GetElements(string folderID);
 * `folderID` - Թղթապանակի ներքին անունը։
 
 ### IFoldersService.GetElements(string, List&lt;string&gt;) մեթոդ
+
+#### Նկարագիր
+
+**Դաս՝** [IFoldersService](../IFoldersService.md)
 
 ```c#
 public Task<List<FolderElement>> GetElements(string folderID, 

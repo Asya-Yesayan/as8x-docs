@@ -2,6 +2,10 @@
 title: ITemplateSubstitutionService.EvalAndAddUserDefinedParameters(string, SubstitutionType, PrintTemplateSubstitution, Document.Document) մեթոդ  
 ---
 
+## Նկարագիր
+
+**Դաս՝** [ITemplateSubstitutionService](../ITemplateSubstitutionService.md)
+
 ```c#
 public Task EvalAndAddUserDefinedParameters(string name, 
                                             SubstitutionType type,

@@ -19,8 +19,11 @@ public FieldType Type { get; internal set; }
 ```c#
 public FieldType ShowType { get; internal set; }
 ```
+Սահմանում է համակարգային տիպը ցուցադրման ժամանակ։  
 
-???
+Սովորաբար այս հատկությունը օգտագործում են, եթե տվյալների տիպը, որը համապատասխանում է սյունակի արժեքներին, հարմար չի ցուցադրման համար։
+Օրինակ եթե columnType = FieldTypeProvider.GetStringFieldType(150) է, բայց շատ դեպքերում բավական է տեսնել տողի սկիզբը, ապա կարելի է սահմանել showType = 
+FieldTypeProvider.GetStringFieldType(32)։
 
 ## Width
 

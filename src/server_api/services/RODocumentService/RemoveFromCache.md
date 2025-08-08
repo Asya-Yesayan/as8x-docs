@@ -11,6 +11,10 @@ title: RODocumentService.RemoveFromCache մեթոդ
 
 ### RODocumentService.RemoveFromCache(int) մեթոդ
 
+#### Նկարագիր
+
+**Դաս՝** [RODocumentService](../RODocumentService.md)
+
 ```c#
 public void RemoveFromCache(int isn)
 ```
@@ -22,6 +26,10 @@ public void RemoveFromCache(int isn)
 * `isn` - Փաստաթղթի ներքին նույնականացման համարը։
 
 ### RODocumentService.RemoveFromCache(string) մեթոդ  
+
+#### Նկարագիր
+
+**Դաս՝** [RODocumentService](../RODocumentService.md)
 
 ```c#
 public void RemoveFromCache(string docType)

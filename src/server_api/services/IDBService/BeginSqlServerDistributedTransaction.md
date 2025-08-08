@@ -2,6 +2,10 @@
 title: IDBService.BeginSqlServerDistributedTransaction() մեթոդ
 ---
 
+## Նկարագիր
+
+**Դաս՝** [IDBService](../IDBService.md)
+
 ```c#
 public void BeginSqlServerDistributedTransaction();
 ```

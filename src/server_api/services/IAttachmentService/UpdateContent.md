@@ -2,6 +2,10 @@
 title: IAttachmentService.UpdateContent(AttachmentContentModel) մեթոդ
 ---
 
+## Նկարագիր
+
+**Դաս՝** [IAttachmentService](../IAttachmentService.md)
+
 ```c#
 public Task<DateTime> UpdateContent(AttachmentContentModel attachmentContent)
 ```

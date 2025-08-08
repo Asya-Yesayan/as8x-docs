@@ -6,6 +6,8 @@ title: IAccountingService.CalculateCacheRemFull(string, DateTime?, DateTime?, Da
 
 **Համարժեքը 4x-ում՝** AsUtil.CalculateCacheRemFull
 
+**Դաս՝** [IAccountingService](../IAccountingService.md)
+
 ```c#
 public Task CalculateCacheRemFull(string accountingType, 
                                   DateTime? cacheDate1, 

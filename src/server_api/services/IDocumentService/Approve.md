@@ -6,6 +6,8 @@ title: IDocumentService.Approve(Document, DocumentCheckLevel, string) մեթոդ
 
 **Համարժեքը 4x-ում՝** [AsDoc.Confirm](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/ASDOC/Confirm.html)
 
+**Դաս՝** [IDocumentService](../IDocumentService.md)
+
 ```c#
 public Task Approve(Document document, 
                     DocumentCheckLevel checkLevel = DocumentCheckLevel.None, 

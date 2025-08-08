@@ -2,6 +2,10 @@
 title: IAccountingService.Create(string) մեթոդ
 ---
 
+## Նկարագիր
+
+**Դաս՝** [IAccountingService](../IAccountingService.md)
+
 ```c#
 public Accounting Create(string name)
 ```

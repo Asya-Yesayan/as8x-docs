@@ -2,6 +2,10 @@
 title: DataSource.Rows հատկություն
 ---
 
+## Նկարագիր
+
+**Դաս՝** [DataSource](../ds.md)
+
 ```c#
 protected List<R> Rows { get; set; }
 ```

@@ -6,6 +6,8 @@ title: Document.StoreSnapshot հատկություն
 
 **Համարժեքը 4x-ում՝** AsDoc.StoreSnapshot
 
+**Դաս՝** [Document](../document.md)
+
 ```c#
 public DocumentSnapshot StoreSnapshot { get; private set; }
 ```

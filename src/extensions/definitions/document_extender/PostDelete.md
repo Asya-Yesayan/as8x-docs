@@ -6,6 +6,8 @@ title: DocumentExtender.PostDelete(Document, DeleteEventArgs) մեթոդ
 
 **Համարժեքը 4x-ում՝** ScriptExtension.DocPostDelete
 
+**Դաս՝** [DocumentExtender](../document_extender.md)
+
 ```c#
 public virtual Task PostDelete(Document sender, 
                                DeleteEventArgs args)

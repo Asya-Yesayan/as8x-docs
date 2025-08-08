@@ -2,6 +2,10 @@
 title: Document.Progress հատկություն
 ---
 
+## Նկարագիր
+
+**Դաս՝** [Document](../document.md)
+
 ```c#
 public DocumentExecutionProgress Progress { get; private set; }
 ```

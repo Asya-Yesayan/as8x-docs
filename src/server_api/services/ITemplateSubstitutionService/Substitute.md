@@ -4,7 +4,7 @@ title: ITemplateSubstitutionService.Substitute(IPrintTemplateSubstitution, byte[
 
 ## Նկարագիր
 
-**Համարժեքը 4x-ում՝** --
+**Դաս՝** [ITemplateSubstitutionService](../ITemplateSubstitutionService.md)
 
 ```c#
 public Task<Stream> Substitute(IPrintTemplateSubstitution printTemplateSubstitution, 

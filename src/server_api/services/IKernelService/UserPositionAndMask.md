@@ -6,6 +6,8 @@ title: IKernelService.UserPositionAndMask(byte, byte, short) մեթոդ
 
 **Համարժեքը 4x-ում՝** [AsKernel.UserPositionAndMask](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/UserPositionAndMask.html)
 
+**Դաս՝** [IKernelService](../IKernelService.md)
+
 ```c#
 public void UserPositionAndMask(out byte number, 
                                 out byte mask, 

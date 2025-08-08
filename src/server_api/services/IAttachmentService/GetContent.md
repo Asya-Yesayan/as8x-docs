@@ -2,6 +2,10 @@
 title: IAttachmentService.GetContent(int, string) մեթոդ
 ---
 
+## Նկարագիր
+
+**Դաս՝** [IAttachmentService](../IAttachmentService.md)
+
 ```c#
 public Task<StorageInfo> GetContent(int isn, 
                                     string fileName)

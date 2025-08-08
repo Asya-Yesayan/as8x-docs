@@ -33,7 +33,7 @@ title: DataSource նկարագրություն
 | [EnglishCaption](ds/EnglishCaption.md) | Վերադարձնում է տվյալների աղբյուրի անգլերեն անվանումը: |
 | [Name](ds/Name.md) | Վերադարձնում է տվյալների աղբյուրի ներքին անունը: |
 | [Progress](ds/Progress.md) | Վերադարձնում է տվյալների աղբյուրի կատարման պրոգրեսը: |
-| [QueryTimeOut](ds/QueryTimeOut.md) | Վերադարձնում կամ արժեքավորում է տվյալների աղբյուրի [MakeSQLCommand(DataSourceArgs&lt;P&gt;, CancellationToken)](ds/MakeSqlCommand.md)-ում ձևավորված հարցման կատարման առավելագույն ժամանակը (վայրկյաններով): |
+| [QueryTimeOut](ds/QueryTimeOut.md) | Վերադարձնում կամ արժեքավորում է տվյալների աղբյուրի [MakeSQLCommand(DataSourceArgs&lt;P&gt;, CancellationToken)](ds/MakeSqlCommand.md)-ում ձևավորված Sql հարցման կատարման առավելագույն ժամանակը (վայրկյաններով): |
 | [Rows](ds/Rows.md) | Վերադարձնում կամ նշանակում է հաշվարկվող տվյալների աղբյուրի տողերի ցուցակը։ |
 | [Schema](ds/Schema.md) | Վերադարձնում կամ նշանակում է տվյալների աղբյուրի [սխեման](../../types/schema.md), որը պարունակում է ինֆորմացիա տվյալների աղբյուրի սյուների ու պարամետրերի հատկությունների մասին։ |
 | [AfterDataReaderCloseMode](ds/AfterDataReaderCloseMode.md) | - Մեկ կանչ բոլոր տողերի մշակման համար։ |

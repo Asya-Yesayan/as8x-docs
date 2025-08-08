@@ -6,6 +6,8 @@ title: IOlapDBService.GetApproximateServerDate() մեթոդ
 
 **Համարժեքը 4x-ում՝** AsUtil.GetApproximateServerDate
 
+**Դաս՝** [IOlapDBService](../IOlapDBService.md)
+
 ```c#
 public Task<DateTime> GetApproximateServerDate();
 ```

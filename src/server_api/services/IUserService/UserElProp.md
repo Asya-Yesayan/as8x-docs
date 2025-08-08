@@ -6,6 +6,8 @@ title: IUserService.UserElProp(short) մեթոդ
 
 **Համարժեքը 4x-ում՝** [AsKernel.UserElProp](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/SysDefManagment/UserElProp.html)
 
+**Դաս՝** [IUserService](../IUserService.md)
+
 ```c#
 public Task<UserDescription> UserElProp(short suid)
 ```

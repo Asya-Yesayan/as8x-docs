@@ -2,6 +2,10 @@
 title: DataProcessingRequest.AfterDeserializeParameter(P, JsonElement) մեթոդ
 ---
 
+## Նկարագիր
+
+**Դաս՝** [DataProcessingRequest](../dpr.md)
+
 ```c#
 protected virtual Task AfterDeserializeParameter(P parameter, 
                                                  JsonElement jsonElement)

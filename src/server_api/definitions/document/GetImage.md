@@ -6,6 +6,8 @@ title: Document.GetImage(string) մեթոդ
 
 **Համարժեքը 4x-ում՝** [AsDoc.Image](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/ASDOC/Image.html)
 
+**Դաս՝** [Document](../document.md)
+
 ```c#
 public byte[] GetImage(string name)
 ```

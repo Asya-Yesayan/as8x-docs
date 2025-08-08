@@ -2,6 +2,10 @@
 title: IProcessServerClient.Stop(Guid, object) մեթոդ  
 ---
 
+## Նկարագիր
+
+**Դաս՝** [IJobServerClient](../IJobServerClient.md)
+
 ```c#
 public Task Stop(Guid id, 
                  object param)

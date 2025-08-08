@@ -2,6 +2,10 @@
 title: IAttachmentService.Copy(int, int, bool) մեթոդ
 ---
 
+## Նկարագիր
+
+**Դաս՝** [IAttachmentService](../IAttachmentService.md)
+
 ```c#
 public Task Copy(int copyFromISN, 
                  int copyToISN, 

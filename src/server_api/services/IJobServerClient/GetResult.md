@@ -2,6 +2,10 @@
 title: IProcessServerClient.GetResult(Guid) մեթոդ  
 ---
 
+## Նկարագիր
+
+**Դաս՝** [IJobServerClient](../IJobServerClient.md)
+
 ```c#
 public Task<object> GetResult(Guid id)
 ```

@@ -2,6 +2,10 @@
 title: DataSource.AfterExecuteSQLCommand(DataSourceArgs<P>, SqlDataReader) մեթոդ
 ---
 
+## Նկարագիր
+
+**Դաս՝** [DataSource](../ds.md)
+
 ```c#
 protected virtual void AfterExecuteSQLCommand(DataSourceArgs<P> args, 
                                               SqlDataReader reader)

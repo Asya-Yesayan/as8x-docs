@@ -6,6 +6,8 @@ title: IDocumentService.CreateFactsUsingStateMoverFrom(Document, int) մեթոդ
 
 **Համարժեքը 4x-ում՝** AsDoc.CreateFactsUsingDocStateMoverFrom
 
+**Դաս՝** [IDocumentService](../IDocumentService.md)
+
 ```c#
 public Task CreateFactsUsingStateMoverFrom(Document document, 
                                            int state)

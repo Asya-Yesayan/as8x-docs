@@ -6,6 +6,8 @@ title: DataSourceService.GetDataSource մեթոդ
 
 **Համարժեքը 4x-ում՝** [AsKernel.Data](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/SysDefManagment/Data.html)
 
+**Դաս՝** [DataSourceService](../DataSourceService.md)
+
 ```c#
 public T GetDataSource<T>() where T : IDataSource
 ```

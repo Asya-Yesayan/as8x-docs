@@ -6,6 +6,8 @@ title: DocumentOperationService.Refolder(RefolderArgs, TextReport.TextReport, Ca
 
 **Համարժեքը 4x-ում՝** [AsUtil.ReindexDocs](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/ReindexDocs.html)
 
+**Դաս՝** [DocumentOperationService](../DocumentOperationService.md)
+
 ```c#
 public Task Refolder(RefolderArgs args, 
                      TextReport.TextReport report, 

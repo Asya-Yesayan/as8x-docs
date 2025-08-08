@@ -6,6 +6,8 @@ title: IDBService.CommitTransAsync() մեթոդ
 
 **Համարժեքը 4x-ում՝** [AsDocEngine.CommitTrans](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/TransactionManagment/CommitTrans.html)
 
+**Դաս՝** [IDBService](../IDBService.md)
+
 ```c#
 public Task CommitTransAsync();
 ```

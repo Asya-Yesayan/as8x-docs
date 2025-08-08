@@ -6,6 +6,8 @@ title: IOlapDBService.CommitTrans() մեթոդ
 
 **Համարժեքը 4x-ում՝** [ASOLAPProvider.CommitTrans](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/TransactionManagment/CommitTrans.html)
 
+**Դաս՝** [IOlapDBService](../IOlapDBService.md)
+
 ```c#
 public void CommitTrans();
 ```

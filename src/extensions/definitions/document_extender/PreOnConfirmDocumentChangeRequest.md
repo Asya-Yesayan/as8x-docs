@@ -6,6 +6,8 @@ title: DocumentExtender.PreOnConfirmDocumentChangeRequest(Document, ConfirmDocum
 
 **Համարժեքը 4x-ում՝** [PreOnConfirmDCR](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/ScriptProcs/DocExtenderEvents/PreOnConfirmDCR.html)
 
+**Դաս՝** [DocumentExtender](../document_extender.md)
+
 ```c#
 public virtual Task PreOnConfirmDocumentChangeRequest(Document sender, 
                                                       ConfirmDocumentChangeRequestEventArgs args)

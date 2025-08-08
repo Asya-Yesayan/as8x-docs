@@ -2,6 +2,10 @@
 title: ITemplateSubstitutionService.LoadTemplateFile(string, SubstitutionType) մեթոդ  
 ---
 
+## Նկարագիր
+
+**Դաս՝** [ITemplateSubstitutionService](../ITemplateSubstitutionService.md)
+
 ```c#
 public Task<(bool IsUnicode, byte[] File, bool Updatable)> LoadTemplateFile(
     string name, 

@@ -11,6 +11,10 @@ title: IParametersService.REPEND մեթոդ
 
 ### IParametersService.REPEND() մեթոդ
 
+#### Նկարագիր
+
+**Դաս՝** [IParametersService](../IParametersService.md)
+
 ```c#
 public Task<DateTime> REPEND()
 ```
@@ -18,6 +22,10 @@ public Task<DateTime> REPEND()
 Վերադարձնում է **REPEND** ներքին անունով [ամսաթիվ տիպի](../../types/system_types.md#datefieldtype) պարամետրի արժեքը, որը ցույց է տալիս հաշվետու ժամանակահատվածի վերջի ամսաթիվը ընթացիկ օգտագործողի համար։
 
 ### IParametersService.REPEND(short) մեթոդ  
+
+#### Նկարագիր
+
+**Դաս՝** [IParametersService](../IParametersService.md)
 
 ```c#
 public Task<DateTime> REPEND(short suid)

@@ -12,6 +12,10 @@ title: IPermanentStorageService.UploadBlobAsync մեթոդ
 
 ### IPermanentStorageService.UploadBlobAsync(string, string, byte[], CancellationToken) մեթոդ  
 
+#### Նկարագիր
+
+**Դաս՝** [IPermanentStorageService](../IPermanentStorageService.md)
+
 ```c#
 public Task<bool> UploadBlobAsync(string container, 
                                   string blobName, 
@@ -30,6 +34,10 @@ public Task<bool> UploadBlobAsync(string container,
 
 ### IPermanentStorageService.UploadBlobAsync(string, Stream, BlobProperties, CancellationToken) մեթոդ
 
+#### Նկարագիր
+
+**Դաս՝** [IPermanentStorageService](../IPermanentStorageService.md)
+
 ```c#
 public Task<bool> UploadBlobAsync(string blobName, 
                                   Stream stream, 
@@ -47,6 +55,10 @@ public Task<bool> UploadBlobAsync(string blobName,
 * `cancellationToken` - Ընդհատման օբյեկտ։
 
 ### IPermanentStorageService.UploadBlobAsync(string, string, Stream, BlobProperties, CancellationToken) մեթոդ  
+
+#### Նկարագիր
+
+**Դաս՝** [IPermanentStorageService](../IPermanentStorageService.md)
 
 ```c#
 public Task<bool> UploadBlobAsync(string containerOrBucketName, 

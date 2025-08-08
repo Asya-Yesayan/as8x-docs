@@ -2,6 +2,10 @@
 title: IParametersService.SetValueWithAdditionalConnection(string, object) մեթոդ  
 ---
 
+## Նկարագիր
+
+**Դաս՝** [IParametersService](../IParametersService.md)
+
 ```c#
 public Task SetValueWithAdditionalConnection(string name, 
                                              object value)

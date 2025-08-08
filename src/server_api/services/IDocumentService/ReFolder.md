@@ -6,6 +6,8 @@ title: IDocumentService.ReFolder(Document, StoreMode) մեթոդ
 
 **Համարժեքը 4x-ում՝** [AsDoc.ReFolder](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/ASDOC/ReFolder.html)
 
+**Դաս՝** [IDocumentService](../IDocumentService.md)
+
 ```c#
 public Task ReFolder(Document document, 
                      StoreMode mode)

@@ -6,6 +6,8 @@ title: IFactService.LastDate(string, int, DateTime?, string) մեթոդ
 
 **Համարժեքը 4x-ում՝** [AsAccounting.LastFactDate](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/AsAccounting/LastFactDate.html)
 
+**Դաս՝** [IFactService](../IFactService.md)
+
 ```c#
 public Task<DateTime?> LastDate(string accountingCode, 
                                 int isn, 

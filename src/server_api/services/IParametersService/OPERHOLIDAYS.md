@@ -2,6 +2,10 @@
 title: IParametersService.OPERHOLIDAYS() մեթոդ  
 ---
 
+## Նկարագիր
+
+**Դաս՝** [IParametersService](../IParametersService.md)
+
 ```c#
 public Task<bool> OPERHOLIDAYS()
 ```

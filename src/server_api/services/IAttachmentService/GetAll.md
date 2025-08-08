@@ -6,6 +6,8 @@ title: IAttachmentService.GetAll(int) մեթոդ
 
 **Համարժեքը 4x-ում՝** [AsAttachmentCollection․Refresh](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/AsAttachmentCollection/Refresh.html)
 
+**Դաս՝** [IAttachmentService](../IAttachmentService.md)
+
 ```c#
 public Task<List<AttachmentModel>> GetAll(int isn)
 ```

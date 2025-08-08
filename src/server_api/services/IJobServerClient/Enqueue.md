@@ -2,6 +2,10 @@
 title: IProcessServerClient.Enqueue(DPR.Descriptor, object, bool, IServiceProvider, Dictionary<int, UIRequestResultBase>, string, bool) մեթոդ  
 ---
 
+## Նկարագիր
+
+**Դաս՝** [IJobServerClient](../IJobServerClient.md)
+
 ```c#
 public Task<ProcessEnqueueResponse> Enqueue(DPR.Descriptor dpr, 
                                             object param, 

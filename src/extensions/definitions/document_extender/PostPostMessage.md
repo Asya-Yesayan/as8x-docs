@@ -6,6 +6,8 @@ title: DocumentExtender.PostPostMessage(Document, PostMessageEventArgs) մեթո
 
 **Համարժեքը 4x-ում՝** [PostPostMessage](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/ScriptProcs/DocExtenderEvents/PostPostMessage.html)
 
+**Դաս՝** [DocumentExtender](../document_extender.md)
+
 ```c#
 public virtual Task PostPostMessage(Document sender, 
                                     PostMessageEventArgs args)

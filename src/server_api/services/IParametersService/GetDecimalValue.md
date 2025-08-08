@@ -15,6 +15,10 @@ title: IParametersService.GetDecimalValue մեթոդ
 
 ### IParametersService.GetDecimalValue(string) մեթոդ
 
+#### Նկարագիր
+
+**Դաս՝** [IParametersService](../IParametersService.md)
+
 ```c#
 public Task<decimal> GetDecimalValue(string paramId)
 ```
@@ -28,6 +32,10 @@ public Task<decimal> GetDecimalValue(string paramId)
 * `paramId` - Պարամետրի ներքին անուն (id)։
 
 ### IParametersService.GetDecimalValue(string, short) մեթոդ  
+
+#### Նկարագիր
+
+**Դաս՝** [IParametersService](../IParametersService.md)
 
 ```c#
 public Task<decimal> GetDecimalValue(string paramId, 

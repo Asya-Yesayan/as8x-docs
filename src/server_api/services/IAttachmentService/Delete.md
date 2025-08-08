@@ -6,6 +6,8 @@ title: IAttachmentService.Delete(int, string) մեթոդ
 
 **Համարժեքը 4x-ում՝** [AsAttachmentCollection.Remove](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/AsAttachmentCollection/Remove.html)
 
+**Դաս՝** [IAttachmentService](../IAttachmentService.md)
+
 ```c#
 public Task Delete(int isn, 
                    string fileName)

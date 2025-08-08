@@ -2,6 +2,10 @@
 title: DataSource.AfterDataReaderCloseMode հատկություն
 ---
 
+## Նկարագիր
+
+**Դաս՝** [DataSource](../ds.md)
+
 ```c#
 public virtual CallMode AfterDataReaderCloseMode
 {

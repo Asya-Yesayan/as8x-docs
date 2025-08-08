@@ -15,6 +15,10 @@ title: IParametersService.GetIntegerValue մեթոդ
 
 ### IParametersService.GetIntegerValue(string) մեթոդ
 
+#### Նկարագիր
+
+**Դաս՝** [IParametersService](../IParametersService.md)
+
 ```c#
 public Task<int> GetIntegerValue(string paramId)
 ```
@@ -28,6 +32,10 @@ public Task<int> GetIntegerValue(string paramId)
 * `paramId` - Պարամետրի ներքին անուն (id):
 
 ### IParametersService.GetIntegerValue(string, short) մեթոդ  
+
+#### Նկարագիր
+
+**Դաս՝** [IParametersService](../IParametersService.md)
 
 ```c#
 public Task<int> GetIntegerValue(string paramId, 

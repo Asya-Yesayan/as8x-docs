@@ -2,6 +2,10 @@
 title: IErrorHandlingService.GetSqlExceptionText(SqlException, string) մեթոդ
 ---
 
+## Նկարագիր
+
+**Դաս՝** [IErrorHandlingService](../IErrorHandlingService.md)
+
 ```c#           
 public string GetSqlExceptionText(SqlException exception, 
                                   string duplicateErrorMessage = "")

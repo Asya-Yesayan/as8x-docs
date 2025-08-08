@@ -2,6 +2,10 @@
 title: LanguageService.IsArmenian հատկություն  
 ---
 
+## Նկարագիր
+
+**Դաս՝** [LanguageService](../LanguageService.md)
+
 ```c#
 public static bool IsArmenian { get; }
 ```

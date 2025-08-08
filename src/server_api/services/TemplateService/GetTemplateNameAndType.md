@@ -6,6 +6,8 @@ title: TemplateService.GetTemplateNameAndType(string, bool) մեթոդ
 
 **Համարժեքը 4x-ում՝** [AsKernel.GetTemplateNameAndType](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/GetTemplateNameAndType.html)
 
+**Դաս՝** [TemplateService](../TemplateService.md)
+
 ```c#
 public static (bool result, 
                string templateName, 

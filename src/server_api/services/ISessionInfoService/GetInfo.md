@@ -2,6 +2,10 @@
 title: ISessionInfoService.GetInfo() մեթոդ  
 ---
 
+## Նկարագիր
+
+**Դաս՝** [ISessionInfoService](../ISessionInfoService.md)
+
 ```c#
 public SessionInfo GetInfo()
 ```

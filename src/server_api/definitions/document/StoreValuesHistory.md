@@ -2,6 +2,10 @@
 title: Document.StoreValuesHistory() մեթոդ
 ---
 
+## Նկարագիր
+
+**Դաս՝** [Document](../document.md)
+
 ```c#
 public Task StoreValuesHistory()
 ```

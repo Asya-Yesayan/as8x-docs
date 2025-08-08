@@ -6,6 +6,8 @@ title: IDBService.GetApproximateServerDate() մեթոդ
 
 **Համարժեքը 4x-ում՝** AsUtil.GetApproximateServerDate
 
+**Դաս՝** [IDBService](../IDBService.md)
+
 ```c#
 public Task<DateTime> GetApproximateServerDate();
 ```

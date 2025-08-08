@@ -6,6 +6,8 @@ title: IDocumentService.GetDocumentStatus(string, int) մեթոդ
 
 **Համարժեքը 4x-ում՝** AsDocEngine.GetDocStatus
 
+**Դաս՝** [IDocumentService](../IDocumentService.md)
+
 ```c#
 public Task<byte> GetDocumentStatus(string folderID, 
                                     int isn)

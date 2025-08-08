@@ -2,6 +2,10 @@
 title: Document.AddParent(int) մեթոդ
 ---
 
+## Նկարագիր
+
+**Դաս՝** [Document](../document.md)
+
 ```c#
 public Task AddParent(int isn)
 ```

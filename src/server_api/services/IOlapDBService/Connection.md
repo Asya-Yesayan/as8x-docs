@@ -6,6 +6,8 @@ title: IOlapDBService.Connection հատկություն
 
 **Համարժեքը 4x-ում՝** [AsSqlCommand.Connection](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/AsSqlCommand/Connection.html)
 
+**Դաս՝** [IOlapDBService](../IOlapDBService.md)
+
 ```c#
 public SqlConnection Connection { get; }
 ```

@@ -2,6 +2,10 @@
 title: DataSource.SupportPrepareExecutionPhase հատկություն
 ---
 
+## Նկարագիր
+
+**Դաս՝** [DataSource](../ds.md)
+
 ```c#
 public virtual bool SupportPrepareExecutionPhase
 {

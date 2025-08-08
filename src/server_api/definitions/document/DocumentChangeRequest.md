@@ -2,6 +2,10 @@
 title: Document.DocumentChangeRequest հատկություն
 ---
 
+## Նկարագիր
+
+**Դաս՝** [Document](../document.md)
+
 ```c#
 public DocumentChangeRequest DocumentChangeRequest { get; internal set; }
 ```

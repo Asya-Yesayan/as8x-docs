@@ -11,6 +11,10 @@ title: IPermanentStorageService.DeleteBlobAsync մեթոդ
 
 ### IPermanentStorageService.DeleteBlobAsync(string, string, CancellationToken) մեթոդ
 
+#### Նկարագիր
+
+**Դաս՝** [IPermanentStorageService](../IPermanentStorageService.md)
+
 ```c#
 public virtual Task<bool> DeleteBlobAsync(string container, 
                                           string blobName, 
@@ -26,6 +30,10 @@ public virtual Task<bool> DeleteBlobAsync(string container,
 * `cancellationToken` - Ընդհատման օբյեկտ։
 
 ### IPermanentStorageService.DeleteBlobAsync(string, CancellationToken)  
+
+#### Նկարագիր
+
+**Դաս՝** [IPermanentStorageService](../IPermanentStorageService.md)
 
 ```c#
 public virtual Task<bool> DeleteBlobAsync(string blobName, 
