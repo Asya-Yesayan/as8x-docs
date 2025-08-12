@@ -5,7 +5,7 @@ title: "UserDescription դաս"
 
 Այս դասը նախատեսված է համակարգի օգտագործողի նկարագրման համար։
 
-Օգտագործվում է [IUserService](../services/IUserService.md).[UserElProp](../services/IUserService/UserElProp.md) մեթոդում։
+Օգտագործվում է [IUserService](../services/IUserService.md).[UserElProp](../services/IUserService/UserElProp.md), [UserManagerService](../services/UserManagerService.md).[GetUnhiddenUsers](../services/UserManagerService/GetUnhiddenUsers.md) մեթոդներում։
 
 ```c#
 public class UserDescription
