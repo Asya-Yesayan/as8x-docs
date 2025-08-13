@@ -71,7 +71,7 @@ public AllOperExtended(IDBService dbService)
 - Անվանումը հայրեն ANSI կոդավորմամբ (կարելի է գրել Unicode և օգտագործել ToArmenianANSI() ֆունկցիան),
 - Պարամետրի տիպը։
 
-Կոնստրուկտորի մեջ ստանում է նաև տվյալների պահոցի հետ աշխատելու `IDBService` սերվիսը [ինյեկցիայի](../../project/injection.md) միջոցով։
+Կոնստրուկտորի մեջ ստանում է նաև տվյալների պահոցի հետ աշխատելու `IDBService` սերվիսը [ինյեկցիայի](../../Project/injection.md) միջոցով։
 
 ### BeforeProcess ֆունկցիա
 

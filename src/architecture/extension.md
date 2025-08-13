@@ -75,7 +75,7 @@ sublinks:
 
 Տե՛ս նաև
 
-[Կազմակերպության սեփական նկարագրությունները և ընդլայնումները պարունակող պրոյեկտի ստեղծում](../project/customer_specific_extensions_project.md):
+[Կազմակերպության սեփական նկարագրությունները և ընդլայնումները պարունակող պրոյեկտի ստեղծում](../Project/customer_specific_extensions_project.md):
 
 * Կոմպիլյացնել պրոյեկտը, որի արդյունքում ձևավորվում է .dll ընդլայնմամբ ֆայլ:
 
@@ -89,7 +89,7 @@ sublinks:
 public class CadresExtended : DocumentExtender
 ```
 
-* [appsettings.json](../project/appsettings_json.md) կոնֆիգուրացիոն ֆայլի [Extensions](../project/appsettings_json.md#extensions) բաժնում լրացնել առաջացած ընդլայնող dll-ի մասին ինֆորմացիան (անուն, գտնվելու ճանապարհ...) և dll-ը տեղադրել [Extensions](../project/appsettings_json.md#extensions) բաժնի `Location` դաշտում նշված հասցեում։
+* [appsettings.json](../Project/appsettings_json.md) կոնֆիգուրացիոն ֆայլի [Extensions](../Project/appsettings_json.md#extensions) բաժնում լրացնել առաջացած ընդլայնող dll-ի մասին ինֆորմացիան (անուն, գտնվելու ճանապարհ...) և dll-ը տեղադրել [Extensions](../Project/appsettings_json.md#extensions) բաժնի `Location` դաշտում նշված հասցեում։
 
 **Այս եղանակի առավելություններն են՝**
 * Պրոյեկում ավելացված C# դասերը կարող են հղվել մեկը մյուսի վրա։
@@ -97,7 +97,7 @@ public class CadresExtended : DocumentExtender
 * Նկարագրություններին դիմելիս չեն կատարվում լրացուցիչ հարցումներ տվյալների պահոց և չեն ստեղծվում լրացուցիչ assembly-ներ յուրաքանչյուր նկարագրության համար։
 
 **Այս եղանակի թերություններն են՝**
-* Պրոյեկտի դասերում փոփոխություններ կատարելուց հետո անհրաժեշտ է կրկին կոմպիլացնել պրոյեկտը, արդյունքում ձևավորված .dll ընդլայնմամբ ֆայլը տեղադրելով [appsettings.json](../project/appsettings_json.md)-ի [Extensions](../project/appsettings_json.md#extensions) բաժնի `Location` դաշտում նշված հասցեում։ Արդյունքում առաջանում է կիրառությունների սերվերի վերագործարկման անհրաժեշտություն։
+* Պրոյեկտի դասերում փոփոխություններ կատարելուց հետո անհրաժեշտ է կրկին կոմպիլացնել պրոյեկտը, արդյունքում ձևավորված .dll ընդլայնմամբ ֆայլը տեղադրելով [appsettings.json](../Project/appsettings_json.md)-ի [Extensions](../Project/appsettings_json.md#extensions) բաժնի `Location` դաշտում նշված հասցեում։ Արդյունքում առաջանում է կիրառությունների սերվերի վերագործարկման անհրաժեշտություն։
 
 ![alt text](extension_assembly.png)
 *dll-ը տեղադրված ծրագրի կողքին*
@@ -108,4 +108,4 @@ public class CadresExtended : DocumentExtender
 * get անել տարբերակի համապատասխան ՀԾ-Բանկի հիմնական լուծման կոդը։
 * Ավելացնել կազմակերպության սեփական նկարագրությունները և ընդլայնումները պարունակող պրոյեկտը։
 * Build անել պրոյեկտը, սխալների առկայության դեպքում ուղղել դրանք և կրկին build անել։
-* [appsettings.json](../project/appsettings_json.md) կոնֆիգուրացիոն ֆայլի [Extensions](../project/appsettings_json.md#extensions) բաժնում լրացնել առաջացած ընդլայնող dll-ի մասին ինֆորմացիան (անուն, գտնվելու ճանապարհ...) և dll-ը տեղադրել [Extensions](../project/appsettings_json.md#extensions) բաժնի `Location` դաշտում նշված հասցեում։
+* [appsettings.json](../Project/appsettings_json.md) կոնֆիգուրացիոն ֆայլի [Extensions](../Project/appsettings_json.md#extensions) բաժնում լրացնել առաջացած ընդլայնող dll-ի մասին ինֆորմացիան (անուն, գտնվելու ճանապարհ...) և dll-ը տեղադրել [Extensions](../Project/appsettings_json.md#extensions) բաժնի `Location` դաշտում նշված հասցեում։

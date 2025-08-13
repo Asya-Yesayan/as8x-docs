@@ -7,7 +7,7 @@ title: "IPermanentStorageService սերվիս"
 IPermanentStorageService դասը նախատեսված է ծրագրի աշխատանքի ընթացքում ձևավորվող մշտական ֆայլերի պահպանման և բեռնման համար։
 Համակարգը կարող է կարգավորվել այնպես, որ ֆայլերի պահպանում կատարվի կա՛մ ֆայլային համակարգում, կա՛մ ամպային պահոցում։
 
-Կարգավորվում է [appsettings.json](../../project/appsettings_json.md) կոնֆիգուրացիոն ֆայլի [Storage](../../project/appsettings_json.md#storage) բաժնի `Permanent` ենթաբաժնում։
+Կարգավորվում է [appsettings.json](../../Project/appsettings_json.md) կոնֆիգուրացիոն ֆայլի [Storage](../../Project/appsettings_json.md#storage) բաժնի `Permanent` ենթաբաժնում։
 
 ## Մեթոդներ
 

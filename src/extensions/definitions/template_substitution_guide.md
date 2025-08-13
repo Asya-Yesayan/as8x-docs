@@ -43,7 +43,7 @@ sublinks:
 public class AccStateAdr_Extander : ITemplateSubstitutionExtender 
 ```
 
-Նոր դասում կարելի է կատարել [ինյեկցիա](../../project/injection.md) սերվերային API-ներին հասանելություն ստանալու համար։
+Նոր դասում կարելի է կատարել [ինյեկցիա](../../Project/injection.md) սերվերային API-ներին հասանելություն ստանալու համար։
 
 ```c#
 [TemplateSubstitutionExtender]

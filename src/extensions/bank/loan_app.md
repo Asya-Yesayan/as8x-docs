@@ -70,7 +70,7 @@ public class SimpleCondition : IAppCustomCondition
 
 ## Ինյեկցիաայի օրինակ
 
-Դասերում կարելի է կատարել [ինյեկցիա](../../project/injection.md) սերվերային API-ներին հասանելություն ստանալու համար։
+Դասերում կարելի է կատարել [ինյեկցիա](../../Project/injection.md) սերվերային API-ներին հասանելություն ստանալու համար։
 
 ```c#
 public class SimpleScore : IAppCustomScore

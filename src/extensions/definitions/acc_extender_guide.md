@@ -41,7 +41,7 @@ ACCEXTENDER {
 
 **Նկատառումներ**
 
-Եթե ընդլայնումը [դինամիկ](../../architecture/extension.md#ընդլայնումների-ավելացում-syscon-գործիքով-ներմուծման-միջոցով) է, ապա անհրաժեշտ է նաև `ACCEXTENDER` նկարագրությունում ավելացնել նաև `CSSOURCE` դաշտը, որը պարունակում է սերվիսային տրամաբանության C# ֆայլի [հարաբերական ճանապարհը](https://phoenixnap.com/kb/absolute-path-vs-relative-path) .as ֆայլի նկատմամբ։
+Եթե ընդլայնումը [դինամիկ](../../Architecture/extension.md#ընդլայնումների-ավելացում-syscon-գործիքով-ներմուծման-միջոցով) է, ապա անհրաժեշտ է նաև `ACCEXTENDER` նկարագրությունում ավելացնել նաև `CSSOURCE` դաշտը, որը պարունակում է սերվիսային տրամաբանության C# ֆայլի [հարաբերական ճանապարհը](https://phoenixnap.com/kb/absolute-path-vs-relative-path) .as ֆայլի նկատմամբ։
 
 Տե՛ս նաև [Նկարագրության CSSOURCE դաշտում հարաբերական ճանապարհի լրացման օրինակներ](../../server_api/examples/relative_path_examples.md):
 
@@ -63,7 +63,7 @@ ACCEXTENDER {
 public class SyntAccountingExtender : AccountingExtender
 ```
 
-- Ձևավորել ընդլայնող դասի կոնստրուկտորը՝ [ինյեկցիա](../../project/injection.md) անելով աշխատանքի համար անհրաժեշտ սերվիսները։
+- Ձևավորել ընդլայնող դասի կոնստրուկտորը՝ [ինյեկցիա](../../Project/injection.md) անելով աշխատանքի համար անհրաժեշտ սերվիսները։
 
 ```c#
 private readonly EnterpriseParametersService parametersService;

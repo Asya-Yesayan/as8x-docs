@@ -28,7 +28,7 @@ sublinks:
 Տե՛ս նաև 
 * [Տվյալների մշակման հարցման մեթոդների ու հատկությունների նկարագրություն](dpr.md)
 * [Կազմակերպության սեփական Տվյալների մշակման հարցումների (`DPR`-ի) ստեղծման ձեռնարկ](../../extensions/definitions/dpr_new_guide.md)
-* [Ասինխրոն մշակում կիրառությունների սերվերի վրա](../../architecture/appserver_async.md)
+* [Ասինխրոն մշակում կիրառությունների սերվերի վրա](../../Architecture/appserver_async.md)
 
 ## C# ֆայլի նկարագրություն
 
@@ -68,7 +68,7 @@ public class DeleteDocsByIsnDPR : DataProcessingRequest<DeleteDocsByIsnResponse,
 
 ### Կոնստրուկտորի ձևավորում
 
-* Ձևավորել կոնստրուկտորը, որտեղ անհրաժեշտ է [ինյեկցիա](../../project/injection.md) անել աշխատանքի համար անհրաժեշտ սերվիսները։
+* Ձևավորել կոնստրուկտորը, որտեղ անհրաժեշտ է [ինյեկցիա](../../Project/injection.md) անել աշխատանքի համար անհրաժեշտ սերվիսները։
   
 ```c#
 private readonly IDocumentService documentService;

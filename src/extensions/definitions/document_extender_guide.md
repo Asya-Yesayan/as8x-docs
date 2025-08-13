@@ -52,7 +52,7 @@ DOCUMENTEXTENDER {
 
 **Նկատառումներ**
 
-Եթ ընդլայնումը [դինամիկ](../../architecture/extension.md#ընդլայնումների-ավելացում-syscon-գործիքով-ներմուծման-միջոցով) է, ապա անհրաժեշտ է նաև `DOCUMENTEXTENDER` նկարագրությունում ավելացնել նաև `CSSOURCE` դաշտը, որը պարունակում է սերվիսային տրամաբանությունը պարունակող C# ֆայլի [հարաբերական ճանապարհը](https://phoenixnap.com/kb/absolute-path-vs-relative-path) .as ֆայլի նկատմամբ։
+Եթ ընդլայնումը [դինամիկ](../../Architecture/extension.md#ընդլայնումների-ավելացում-syscon-գործիքով-ներմուծման-միջոցով) է, ապա անհրաժեշտ է նաև `DOCUMENTEXTENDER` նկարագրությունում ավելացնել նաև `CSSOURCE` դաշտը, որը պարունակում է սերվիսային տրամաբանությունը պարունակող C# ֆայլի [հարաբերական ճանապարհը](https://phoenixnap.com/kb/absolute-path-vs-relative-path) .as ֆայլի նկատմամբ։
 
 Տե՛ս նաև [Նկարագրության CSSOURCE դաշտում հարաբերական ճանապարհի լրացման օրինակներ](../../server_api/examples/relative_path_examples.md):
 
@@ -76,7 +76,7 @@ DOCUMENTEXTENDER {
 public class MyDocExtension : DocumentExtender
 ```
 
-Նոր դասում կարելի է կատարել [ինյեկցիա](../../project/injection.md) սերվերային API-ներին հասանելություն ստանալու համար։
+Նոր դասում կարելի է կատարել [ինյեկցիա](../../Project/injection.md) սերվերային API-ներին հասանելություն ստանալու համար։
 
 ```c#
 [DocumentExtender]

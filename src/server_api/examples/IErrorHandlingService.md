@@ -20,7 +20,7 @@ IErrorHandlingService, GetSqlExceptionText, ILogger օգտագործման օր�
 - գրանցում լոգում,
 - գրանցում է սխալների հավաքաման տեղեկանքի մեջ։
 
-Լոգի կարգավորումները անհրաժեշտ է նախապես սահմանել [appsettings.json](../../project/appsettings_json.md) կոնֆիգուրացիոն ֆայլի [Serilog](../../project/appsettings_json.md#serilog) բաժնում:
+Լոգի կարգավորումները անհրաժեշտ է նախապես սահմանել [appsettings.json](../../Project/appsettings_json.md) կոնֆիգուրացիոն ֆայլի [Serilog](../../Project/appsettings_json.md#serilog) բաժնում:
 
 Տե՛ս նաև  
 [Ilogger interface](https://learn.microsoft.com/en-us/dotnet/api/microsoft.extensions.logging.ilogger)  
