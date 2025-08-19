@@ -5,7 +5,7 @@ tags: [Settings, appsettings]
 sublinks:
 - { title: "additionalSettings", ref: additionalsettings }
 - { title: "Autentication", ref: autentication }
-- { title: "db", ref: db }
+- { title: "masterdb", ref: masterdb }
 - { title: "Extensions", ref: extensions }
 - { title: "Hangfire", ref: hangfire }
 - { title: "JwtConfig", ref: jwtconfig }
@@ -27,7 +27,7 @@ sublinks:
 - [Ներածություն](#ներածություն)
 - [additionalSettings](#additionalsettings)
 - [Autentication](#autentication)
-- [db](#db)
+- [masterdb](#masterdb)
 - [Extensions](#extensions)
 - [Hangfire](#hangfire)
 - [JwtConfig](#jwtconfig)
@@ -119,14 +119,14 @@ Azure AD-ով կամ Windows ADFS-ով նույնականացման կարգավ
   * `RedirectUri` - Նույնականացումից հետո վերահղման համար URL-ը:
   * `TokenMapping` - Նույնականացման համար անհրաժեշտ տոկենի տեսակը` [SID](https://www.techtarget.com/searchsecurity/definition/security-identifier):
 
-## db
+## masterdb
 
 Այս բաժինը նախատեսված է տվյալների բազայի կարգավորումները տալու համար։
 
 ```json
-"db": {
+"masterdb": {
     "server": "TEST-SERVER",
-    "database": "test_db",
+    "database": "test_masterdb",
     "login": "test-user",
     "password": "test-password",
     "readOnly" : "1",
@@ -192,7 +192,7 @@ Azure AD-ով կամ Windows ADFS-ով նույնականացման կարգավ
 
 "Hangfire": {
     "server": "TEST-SERVER",
-    "database": "test_db",
+    "database": "test_masterdb",
     "login": "test-user",
     "password": "test-password",
     "workerCount": 10,
@@ -220,7 +220,7 @@ Azure AD-ով կամ Windows ADFS-ով նույնականացման կարգավ
 ```json
 "JwtConfig": {
     "secret": "7V{)Grmn0/12cx^TY<gnl.568",
-    "issuer": "test_db",
+    "issuer": "test_masterdb",
     "expirationInMinutes": 1440,
     "refreshExpirationInMinutes": 43200
 }
