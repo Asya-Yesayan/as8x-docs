@@ -21,4 +21,4 @@ public class ReportCallsStoreModel
 * `Duration` - Դիտելու ձևի կատարման տևողությունը վայրկյաններով։
 * `RowCount` - Դիտելու ձևի տողերի քանակը։
 * `Cancelled` - UI-ից կատարման ընդհատման հայտանիշ։
-* `ReportParameters` - Տվյալների աղբյուրի կատարման [պարամետրերի նկարագրությունների](ReportParametersModel.md) ցուցակը։
+* `ReportParameters` - Դիտելու ձևի կատարման [պարամետրերի նկարագրությունների](ReportParametersModel.md) ցուցակը։

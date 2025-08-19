@@ -14,4 +14,4 @@ public Task<List<ReportParametersModel>> GetParameters(string reportCallId)
 
 **Պարամետրեր**
  
-* `reportCallId` - Տվյալների աղբյուրի `REPORTCALLS` աղյուսակում գրանցված գրառման id-ն։
+* `reportCallId` - Տվյալների աղբյուրի [REPORTCALLS](https://asya-yesayan.github.io/as4x-docs/HTM/ProgrGuide/Database/REPORTCALLS.html) աղյուսակում գրանցված գրառման id-ն։
