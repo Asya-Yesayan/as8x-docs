@@ -12,11 +12,13 @@ title: IDBService.CreateCommand(TimeoutType) մեթոդ
 public SqlCommand CreateCommand(TimeoutType timeoutType = TimeoutType.QueryTimeout);
 ```
 
-Ստեղծում է [SqlCommand](https://learn.microsoft.com/en-us/dotnet/api/microsoft.data.sqlclient.sqlcommand), և անմիջապես լրացնում է [CommandTimeout](https://learn.microsoft.com/en-us/dotnet/api/microsoft.data.sqlclient.sqlcommand.commandtimeout) ըստ օգտագործողի դրույթներում սահմանված հացման առավելագույն ժամանակի։
+Ստեղծում է [SqlCommand](https://learn.microsoft.com/en-us/dotnet/api/microsoft.data.sqlclient.sqlcommand) դասի օբյեկտ՝ sql հարցման կատարման համար և լրացնում է [CommandTimeout](https://learn.microsoft.com/en-us/dotnet/api/microsoft.data.sqlclient.sqlcommand.commandtimeout) հատկության արժեքը `timeoutType` պարամետրի միջոցով, որով սահմանվում է հարցման կատարման առավելագույն ժամանակը։
+
+**IDBService.Connection.CreateCommand**-ի միջոցով հարցումը կատարելու դեպքում որպես հարցման կատարման առավելագույն ժամանակ ([CommandTimeout](https://learn.microsoft.com/en-us/dotnet/api/microsoft.data.sqlclient.sqlcommand.commandtimeout)) լռությամբ սահմանվում է 30 վրկը։
 
 **Պարամետրեր**
 
-- `timeoutType` - [SQL հարցման կատարման առավելագույն ժամանակի տիպը](../../types/TimeoutType.md)՝ սովորական հարցումների կամ հաշվետվությունների հարցման համար։ 
+- `timeoutType` - [SQL հարցման կատարման առավելագույն ժամանակի տիպը](../../types/TimeoutType.md)։ 
 
 <!-- ### CreateConnectionString
 
