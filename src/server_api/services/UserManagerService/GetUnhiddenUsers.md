@@ -3,8 +3,6 @@ title: UserManagerService․GetUnhiddenUsers() մեթոդ
 ---
  
 ## Նկարագիր
- 
-**Համարժեքը 4x-ում՝** FrmAccessControl.Form_Load-ի մի մաս
 
 **Դաս՝** [UserManagerService](../UserManagerService.md)
  

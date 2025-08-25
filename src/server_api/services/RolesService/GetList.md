@@ -4,9 +4,7 @@ title: RolesService.GetList մեթոդ
  
 ## Նկարագիր
  
-**Համարժեքը 4x-ում՝**
- 
-**Դաս՝**
+**Դաս՝** [RolesService](../RolesService.md)
  
 ```c#
 public Task<List<RolesModel>> GetList()
