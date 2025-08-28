@@ -1,13 +1,8 @@
 ---
-title: "Փաստաթղթի Custom UI Request-ի ավելացման օրինակ" 
+title: "Փաստաթղթում Custom UI Request-ի ավելացման օրինակ" 
 ---
 
-Այս օրինակում՝
-* բեռնվում են փաստաթղթի ծնող փաստաթղթերի isn-ների ու տեսակների ցուցակը՝ [IDocumentService](../services/IDocumentService.md)-ի [GetDocumentParents](../services/IDocumentService/GetDocumentParents.md) մեթոդի միջոցով,
-* [բեռնվում](../services/IDocumentService/Load.md) են բոլոր ծնող փաստաթղթերը՝ ըստ isn-ի,
-* յուրաքանչյուր ծնող փաստաթղթի մասին ինֆորմացիան (տեսակը, հայերեն, անգլերեն անվանումները, [ստեղծման ամսաթիվը](../definitions/document/CreationDate.md)) ավելացվում է [տեքստային հաշվետվությունում](../types/TextReport.md),
-* փակվում է հաշվետվությունը, պահպանվում [ընթացիկ սեսսիայի կոնտեյներում](../services/IStorageService/Container.md) [TextReport](../types/TextReport.md)-ի [SaveToStorageAndClose](../types/TextReport/SaveToStorageAndClose.md) մեթոդի միջոցով, որը վերադարձնում է հաշվետվությունը պարունակող թղթապանակի, ֆայլի անունները `StoragInfo` տիպի օբյեկտով,
-* `StoragInfo` տիպի օբյեկտը ուղարկվում է կլիենտական հատված `AddCustomUIRequest` մեթոդի միջոցով։
+Այս օրինակում [բեռնվում](../services/IDocumentService/Load.md) են ընթացիկ փաստաթղթի [ծնող փաստաթղթերը](../services/IDocumentService/GetDocumentParents.md), ծնող փաստաթղթերի մասին ինֆորմացիան ավելացվում է [տեքստային հաշվետվությունում](../types/TextReport.md), որը պահվում է ընթացիկ սեսսիայի [կոնտեյներում](../services/IStorageService/Container.md)՝ [SaveToStorageAndClose](../types/TextReport/SaveToStorageAndClose.md) մեթոդի միջոցով: Պահված հաշվետվությունը պարունակող թղթապանակի, ֆայլի անունները ուղարկվում են կլիենտական հատված `AddCustomUIRequest` մեթոդի միջոցով՝ փոխանցելով `StoragInfo` տիպի օբյեկտ։
 
 ```c#
 public override async Task<TemplateSubstitution> TemplateSubstitution(Dictionary<string, bool> mode,
@@ -47,12 +42,12 @@ Public Sub FillUIRequestConfig(ByVal oEventArgsUIRequestConfig As EventArgsUIReq
 End Sub
 ```
 
-Custom UI Request-ը մշակող UIRequestHandler պրոցեդուրան ստանում է `EventArgsUIRequest` օբյեկտ, որը պարունակում է սերվիսից եկող պարամետրերը dictionary ձևաչափով։
+Custom UI Request-ը մշակող UIRequestHandler պրոցեդուրան ստանում է `EventArgsUIRequest` օբյեկտ, որը պարունակում է սերվիսից եկող պարամետրերը Dictionary ձևաչափով։
 
-* UIRequestHandler-ում ստեղծվում է `StorageInfo` տիպի օբյեկտ, որին փոխանցվում է սերվիսից եկած `StorageInfo`-ի ֆայլի և թղթապանակի անունները,
-* ստեղծվում է տեքստային հաշվետվություն [CreateRepViewer](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/CreateRepViewer.html) մեթոդի միջոցով,
-* բեռնվում է սերվիսում հավաքված տեքստային հաշվետվությունը `LoadFromStorageInService` մեթոդի միջոցով,
-* եթե բեռնված հաշվետվությունը դատարկ չի, ապա այն ցուցադրվում է [Show](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/AsRepViewer/Show.html) մեթոդի միջոցով։
+* UIRequestHandler-ում ստեղծվում է `StorageInfo` տիպի օբյեկտ, որին փոխանցվում է սերվիսից եկած `StorageInfo`-ի ֆայլի և թղթապանակի անունները:
+* Ստեղծվում է դատարկ տեքստային հաշվետվություն [CreateRepViewer](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/CreateRepViewer.html) մեթոդի միջոցով։
+* Բեռնվում է սերվիսում հավաքված տեքստային հաշվետվությունը `LoadFromStorageInService` մեթոդի միջոցով։
+* Եթե բեռնված հաշվետվությունը դատարկ չի, ապա այն ցուցադրվում է [Show](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/AsRepViewer/Show.html) մեթոդի միջոցով։
 
 ```vb
 Public Sub UIRequestHandler(ByVal args As EventArgsUIRequest)
@@ -60,6 +55,7 @@ Public Sub UIRequestHandler(ByVal args As EventArgsUIRequest)
 	Dim Report As AsRepViewer
 	Dim oStorageInfo As StorageInfo
 
+    ' args պարամետրի REQUEST հատկությունը Dictionary տիպի է, որը պարունակում է սերվիսից եկած տվյալները
 	oStorageInfo.BlobName = args.REQUEST("BlobName")
 	oStorageInfo.Container = args.REQUEST("Container")
 	Set Report = CreateRepViewer()
@@ -68,4 +64,5 @@ Public Sub UIRequestHandler(ByVal args As EventArgsUIRequest)
 	If Not Report Is Nothing AndAlso Report.RowCount > 0 Then
 		Report.Show
 	End If
+End Sub
 ```
