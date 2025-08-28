@@ -6,18 +6,23 @@ title: UIRequestExecutionProgress.MessageBox մեթոդ
 
 | Անվանում | Նկարագրություն |
 |--|--|
-| [MessageBox(string, MessageBoxButtons, MessageBoxIconType, MessageBoxDefaultButton, string, TimeSpan, int?)](#uirequestexecutionprogressmessageboxstring-messageboxbuttons-messageboxicontype-messageboxdefaultbutton-string-timespan-int-մեթոդ) | Այս մեթոդը օգտագործվում է [DataSource](../../definitions/ds.md), [DPR](../../definitions/dpr.md), [Document](../../definitions/document.md)-ի կատարման ընթացքում 8X սերվիսից 4X կամ 8X կլիենտին հաղորդագրություն ուղարկելու, հաղորդագրության պատասխանը ստանալու և այն սերվիսում մշակելու համար։ |
-| [MessageBox(string, MessageBoxButtons, MessageBoxIconType, MessageBoxDefaultButton, string, int, int?)](#uirequestexecutionprogressmessageboxstring-messageboxbuttons-messageboxicontype-messageboxdefaultbutton-string-int-int-մեթոդ) | Այս մեթոդը օգտագործվում է [DataSource](../../definitions/ds.md), [DPR](../../definitions/dpr.md), [Document](../../definitions/document.md)-ի կատարման ընթացքում 8X սերվիսից 4X կամ 8X կլիենտին հաղորդագրություն ուղարկելու, հաղորդագրության պատասխանը ստանալու և այն սերվիսում մշակելու համար։ |
+[MessageBox(string, MessageBoxButtons, MessageBoxIconType, MessageBoxDefaultButton, string, TimeSpan, int?, bool)](#uirequestexecutionprogressmessageboxstring-messageboxbuttons-messageboxicontype-messageboxdefaultbutton-string-timespan-int-bool-մեթոդ)
+[MessageBox(string, MessageBoxButtons, MessageBoxIconType, MessageBoxDefaultButton, string, int, int?, bool)](#uirequestexecutionprogressmessageboxstring-messageboxbuttons-messageboxicontype-messageboxdefaultbutton-string-int-int-bool-մեթոդ)
 
-### UIRequestExecutionProgress.MessageBox(string, MessageBoxButtons, MessageBoxIconType, MessageBoxDefaultButton, string, TimeSpan, int?) մեթոդ
+### UIRequestExecutionProgress.MessageBox(string, MessageBoxButtons, MessageBoxIconType, MessageBoxDefaultButton, string, TimeSpan, int?, bool) մեթոդ
 
 ```c#
-public Task<MessageBoxResult> MessageBox(string prompt, MessageBoxButtons messageBoxButtons,
-                                         MessageBoxIconType messageBoxIcon, MessageBoxDefaultButton messageBoxDefaultButton,
-                                         string title, TimeSpan timeSpanToShow, int? id = null)
+public Task<MessageBoxResult> MessageBox(string prompt, 
+                                         MessageBoxButtons messageBoxButtons,
+                                         MessageBoxIconType messageBoxIcon, 
+                                         MessageBoxDefaultButton messageBoxDefaultButton,
+                                         string title, 
+                                         TimeSpan timeSpanToShow, 
+                                         int? id = null, 
+                                         bool supportRememberTheAnswer = false)
 ```
 
-Այս մեթոդը օգտագործվում է [DataSource](../../definitions/ds.md), [DPR](../../definitions/dpr.md), [Document](../../definitions/document.md)-ի կատարման ընթացքում 8X սերվիսից 4X կամ 8X կլիենտին հաղորդագրություն ուղարկելու, հաղորդագրության պատասխանը ստանալու և այն սերվիսում մշակելու համար։
+Այս մեթոդը օգտագործվում է [DataSource](../../definitions/ds.md)-ի, [DPR](../../definitions/dpr.md)-ի, [Document](../../definitions/document.md)-ի կատարման ընթացքում 8X սերվիսից 4X կամ 8X կլիենտին հաղորդագրություն ուղարկելու, հաղորդագրության պատասխանը ստանալու և այն սերվիսում մշակելու համար։
 
 **Պարամետրեր**
 
@@ -28,17 +33,22 @@ public Task<MessageBoxResult> MessageBox(string prompt, MessageBoxButtons messag
 * `title` - Հաղորդագրության պատուհանի գլխագիրը։ 
 * `timeSpanToShow` - Հաղորդագրության պատուհանի էկրանին երևալու ժամանակը:
 * `id` - Հաղորդագրության պատուհանի ներքին նույնականացման համարը (id):
+* `supportRememberTheAnswer` - «Կիրառել պատասխանը հաջորդների համար նույնպես» նշիչի ցուցադրման հայտանիշ։ Պարամետրի **true** արժեքի և նշիչի ընտրման հաղորդագրության պատուհանը կփակվի այն կոճակով, որը սեղմվել է առաջին ցուցադրման ժամանակ։
 
-### UIRequestExecutionProgress.MessageBox(string, MessageBoxButtons, MessageBoxIconType, MessageBoxDefaultButton, string, int, int?) մեթոդ
+### UIRequestExecutionProgress.MessageBox(string, MessageBoxButtons, MessageBoxIconType, MessageBoxDefaultButton, string, int, int?, bool) մեթոդ
 
 ```c#
-public Task<MessageBoxResult> MessageBox(string prompt, MessageBoxButtons messageBoxButtons = MessageBoxButtons.OK,
+public Task<MessageBoxResult> MessageBox(string prompt, 
+                                         MessageBoxButtons messageBoxButtons = MessageBoxButtons.OK,
                                          MessageBoxIconType messageBoxIcon = MessageBoxIconType.Default,
                                          MessageBoxDefaultButton messageBoxDefaultButton = MessageBoxDefaultButton.DefaultButton1,
-                                         string title = "", int millisecondsToShow = 15000, int? id = null)
+                                         string title = "", 
+                                         int millisecondsToShow = 15000, 
+                                         int? id = null, 
+                                         bool supportRememberTheAnswer = false)
 ```
 
-Այս մեթոդը օգտագործվում է [DataSource](../../definitions/ds.md), [DPR](../../definitions/dpr.md), [Document](../../definitions/document.md)-ի կատարման ընթացքում 8X սերվիսից 4X կամ 8X կլիենտին հաղորդագրություն ուղարկելու, հաղորդագրության պատասխանը ստանալու և այն սերվիսում մշակելու համար։
+Այս մեթոդը օգտագործվում է [DataSource](../../definitions/ds.md)-ի, [DPR](../../definitions/dpr.md)-ի, [Document](../../definitions/document.md)-ի կատարման ընթացքում 8X սերվիսից 4X կամ 8X կլիենտին հաղորդագրություն ուղարկելու, հաղորդագրության պատասխանը ստանալու և այն սերվիսում մշակելու համար։
 
 **Պարամետրեր**
 
@@ -49,6 +59,7 @@ public Task<MessageBoxResult> MessageBox(string prompt, MessageBoxButtons messag
 * `title` - Հաղորդագրության պատուհանի գլխագիրը։ Չլրացնելու դեպքում գլխագիր հանդիսանալու է ծրագրի անունը, օրինակ "ՀԾ Բանկ", "ՀԾ Ձեռնարկություն"...:
 * `millisecondsToShow` - Հաղորդագրության պատուհանի էկրանին երևալու ժամանակը միլիվայրկյաններով: Չլրացնելու դեպքում պատուհանը փակվելու է 15 վրկ հետո՝ սեղմելով լռությամբ ընտրված կոճակը (`messageBoxDefaultButton`)։
 * `id` - Հաղորդագրության պատուհանի ներքին նույնականացման համարը (id):
+* `supportRememberTheAnswer` - «Կիրառել պատասխանը հաջորդների համար նույնպես» նշիչի ցուցադրման հայտանիշ։ Պարամետրի **true** արժեքի և նշիչի ընտրման հաղորդագրության պատուհանը կփակվի այն կոճակով, որը սեղմվել է առաջին ցուցադրման ժամանակ։
 
 ### Օրինակ
 

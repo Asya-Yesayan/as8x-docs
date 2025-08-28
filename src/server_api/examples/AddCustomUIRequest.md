@@ -2,7 +2,7 @@
 title: "Փաստաթղթում Custom UI Request-ի ավելացման օրինակ" 
 ---
 
-Այս օրինակում [բեռնվում](../services/IDocumentService/Load.md) են ընթացիկ փաստաթղթի [ծնող փաստաթղթերը](../services/IDocumentService/GetDocumentParents.md), ծնող փաստաթղթերի մասին ինֆորմացիան ավելացվում է [տեքստային հաշվետվությունում](../types/TextReport.md), որը պահվում է ընթացիկ սեսսիայի [կոնտեյներում](../services/IStorageService/Container.md)՝ [SaveToStorageAndClose](../types/TextReport/SaveToStorageAndClose.md) մեթոդի միջոցով: Պահված հաշվետվությունը պարունակող թղթապանակի, ֆայլի անունները ուղարկվում են կլիենտական հատված `AddCustomUIRequest` մեթոդի միջոցով՝ փոխանցելով `StoragInfo` տիպի օբյեկտ։
+Այս օրինակում [բեռնվում](../services/IDocumentService/Load.md) են ընթացիկ փաստաթղթի [ծնող փաստաթղթերը](../services/IDocumentService/GetDocumentParents.md), ծնող փաստաթղթերի մասին ինֆորմացիան ավելացվում է [տեքստային հաշվետվությունում](../types/TextReport.md), որը պահվում է ընթացիկ սեսսիայի [կոնտեյներում](../services/IStorageService/Container.md)՝ [SaveToStorageAndClose](../types/TextReport/SaveToStorageAndClose.md) մեթոդի միջոցով: Պահված հաշվետվությունը պարունակող թղթապանակի, ֆայլի անունները ուղարկվում են կլիենտական հատված [AddCustomUIRequest](../types/UIRequestExecutionProgress/AddCustomUIRequest.md) մեթոդի միջոցով՝ փոխանցելով `StoragInfo` տիպի օբյեկտ։
 
 ```c#
 public override async Task<TemplateSubstitution> TemplateSubstitution(Dictionary<string, bool> mode,
