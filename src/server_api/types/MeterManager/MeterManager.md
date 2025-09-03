@@ -7,11 +7,10 @@ title: MeterManager սերվիս
 Այս դասը նախատեսված է մետրիկաների հավաքագրումը ապահովելու համար։
 
 ## Մեթոդներ
-
 | Անվանում | Նկարագրություն |
 |----------|----------------|
-| [TryConfigure](Methods/TryConfigure.md) | Այս մեթոդը նախատեսված է մետրիկաների արտահանումը կազմակերպելու համար։ |
-| [Configure](Methods/Configure.md) | * հերթում սպասող, կատարվող և ավարտված երկար տևող հարցումների քանակը ([OTLPPROCMETERENABLED](../../../../server_api/types/otlp_parameters.md#otlpprocmeterenabled) պարամետրի **true** արժեքի դեպքում)։ |
+| [TryConfigure](Methods/TryConfigure.md) | [OTLPENABLED](../otlp_parameters.md#otlpenabled) պարամետրի **true** արժեքի դեպքում կանչում է [Configure](Methods/Configure.md) մեթոդը, որը ստեղծում և կոնֆիգուրացնում է համակարգի հիմնական մետրիկաները ([Histogram](https://learn.microsoft.com/en-us/dotnet/api/system.diagnostics.metrics.histogram-1)-ներ, [Gauge](https://learn.microsoft.com/en-us/dotnet/api/system.diagnostics.metrics.observablegauge-1)-ներ, [UpDownCounter](https://learn.microsoft.com/en-us/dotnet/api/system.diagnostics.metrics.updowncounter-1)-ներ)։ |
+| [Configure](Methods/Configure.md) | Լռությամբ ստեղծում և կոնֆիգուրացնում է համակարգի հիմնական մետրիկաները ([Histogram](https://learn.microsoft.com/en-us/dotnet/api/system.diagnostics.metrics.histogram-1)-ներ, [Gauge](https://learn.microsoft.com/en-us/dotnet/api/system.diagnostics.metrics.observablegauge-1)-ներ, [UpDownCounter](https://learn.microsoft.com/en-us/dotnet/api/system.diagnostics.metrics.updowncounter-1)-ներ)։ |
 
 ## Հատկություններ
 

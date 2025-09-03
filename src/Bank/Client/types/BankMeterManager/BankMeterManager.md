@@ -10,4 +10,4 @@ title: BankMeterManager սերվիս
 
 | Անվանում | Նկարագրություն |
 |----------|----------------|
-| [Configure](Configure.md) | Այս մեթոդը նախատեսված է մետրիկաների արտահանումը կազմակերպելու համար։ |
+| [Configure](Methods/Configure.md) | Ստեղծում և կոնֆիգուրացնում է ՀԾ-Բանկին յուրահատուկ և համակարգի [հիմնական մետրիկաները](../../../../server_api/types/MeterManager/Methods/Configure.md): |

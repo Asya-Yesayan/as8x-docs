@@ -6,11 +6,7 @@ title: MeterManager.TryConfigure(IParametersService) մեթոդ
 public void TryConfigure(IParametersService parametersService)
 ```
 
-Այս մեթոդը նախատեսված է մետրիկաների արտահանումը կազմակերպելու համար։ 
-
-**Կարևոր**
-
-Մետրիկաների արտահանումը տեղի է ունենում միայն [OTLPENABLED](../../../../server_api/types/otlp_parameters.md#otlpenabled) պարամետրի միացված լինելու դեպքում։
+[OTLPENABLED](../../otlp_parameters.md#otlpenabled) պարամետրի **true** արժեքի դեպքում կանչում է [Configure](Configure.md) մեթոդը, որը ստեղծում և կոնֆիգուրացնում է համակարգի հիմնական մետրիկաները ([Histogram](https://learn.microsoft.com/en-us/dotnet/api/system.diagnostics.metrics.histogram-1)-ներ, [Gauge](https://learn.microsoft.com/en-us/dotnet/api/system.diagnostics.metrics.observablegauge-1)-ներ, [UpDownCounter](https://learn.microsoft.com/en-us/dotnet/api/system.diagnostics.metrics.updowncounter-1)-ներ)։
 
 **Պարամետրեր**
 

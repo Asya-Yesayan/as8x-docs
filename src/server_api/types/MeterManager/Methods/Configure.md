@@ -6,7 +6,7 @@ title: MeterManager.Configure(IParametersService) մեթոդ
 protected virtual void Configure(IParametersService parametersService)
 ```
 
-Լռությամբ ստեղծում է մետրիկաներ ([Histogram](https://learn.microsoft.com/en-us/dotnet/api/system.diagnostics.metrics.histogram-1)-ներ, [Gauge](https://learn.microsoft.com/en-us/dotnet/api/system.diagnostics.metrics.observablegauge-1)-ներ, [UpDownCounter](https://learn.microsoft.com/en-us/dotnet/api/system.diagnostics.metrics.updowncounter-1)-ներ), որոնք գրանցում են՝
+Լռությամբ ստեղծում և կոնֆիգուրացնում է համակարգի հիմնական մետրիկաները ([Histogram](https://learn.microsoft.com/en-us/dotnet/api/system.diagnostics.metrics.histogram-1)-ներ, [Gauge](https://learn.microsoft.com/en-us/dotnet/api/system.diagnostics.metrics.observablegauge-1)-ներ, [UpDownCounter](https://learn.microsoft.com/en-us/dotnet/api/system.diagnostics.metrics.updowncounter-1)-ներ), որոնք գրանցում են՝
 * [տվյալների աղբյուրների](../../../../server_api/definitions/ds.md) կատարման տևողությունները ([OTLPDSMETERENABLED](../../../../server_api/types/otlp_parameters.md#otlpdsmeterenabled) պարամետրի **true** արժեքի դեպքում),
 * [տվյալների մշակման հարցումների](../../../../server_api/definitions/dpr.md) (DPR) կատարման տևողությունները ([OTLPDPRMETERENABLED](../../../../server_api/types/otlp_parameters.md#otlpdprmeterenabled) պարամետրի **true** արժեքի դեպքում),
 * գրանցված [փաստաթղթերի](../../../../server_api/definitions/document.md) քանակը և գրանցման տևողությունները ([OTLPDOCSMETERENABLED](../../../../server_api/types/otlp_parameters.md#otlpdocsmeterenabled) պարամետրի **true** արժեքի դեպքում),
@@ -15,4 +15,4 @@ protected virtual void Configure(IParametersService parametersService)
 
 **Պարամետրեր**
 
-* `parametersService` - [IParametersService](../../../../server_api/services/IParametersService.md) դասի օբյեկտ, որը արժեքավորվում է ավտոմատ կերպով։
+* `parametersService` - [IParametersService](../../../../server_api/services/IParametersService.md) դասի օբյեկտ։
