@@ -1,15 +1,6 @@
 ---
-title: "BankMeterManager դաս" 
+title: BankMeterManager.Configure(IParametersService) մեթոդ
 ---
-
-## Ներածություն
-
-Այս դասը նախատեսված է ՀԾ-Բանկին յուրահատուկ մետրիկաների հավաքագրումը ապահովելու համար։
-
-
-## Մեթոդներ
-
-### 
 
 ```c#
 protected override void Configure(IParametersService parametersService)
@@ -26,10 +17,25 @@ protected override void Configure(IParametersService parametersService)
     {
         this.CBMessagesGauge = this.Meter.CreateObservableGauge(
             "armsoft_messages_queue",
-            GetCardTransferMetric,
+            GetMessagesMetric,
             null,
             "Messages"
         );
+    }
+}
+```
+
+```c#
+private IEnumerable<Measurement<int>> GetMessagesMetric()
+{
+    IEnumerable<(int Count, Dictionary<string, object> Tags)> result = this.CardTransferMetrics;
+    foreach (var (count, tags) in result)
+    {
+        foreach (var tag in this.GlobalTags)
+        {
+            tags[tag.Key] = tag.Value;
+        }
+        yield return new Measurement<int>(count, tags);
     }
 }
 ```
