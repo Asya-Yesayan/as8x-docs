@@ -17,6 +17,6 @@ title: MeterManager սերվիս
 
 | Անվանում | Նկարագրություն |
 |----------|----------------|
-| [Configuration](Properties/Methods/Configuration.md) | Վերադարձնում է [IConfiguration](https://learn.microsoft.com/en-us/dotnet/api/microsoft.extensions.configuration.iconfiguration) դասի օբյեկտ, որը հնարավորություն է տալիս ստանալ ծրագրի կարգավորումները, կոնֆիգուրացիան։ |
-| [Meter](Properties/Methods/Meter.md) | Վերադարձնում է [Meter](https://learn.microsoft.com/en-us/dotnet/api/system.diagnostics.metrics.meter) դասի օբյեկտ, որը հնարավորություն է տալիս ապահովել մետրիկաների հետ աշխատանքը։ |
-| [GlobalTags](Properties/Methods/GlobalTags.md) | Վերադարձնում է մետրիկաներում ավելացվող հիմնական tag-երի անունների և արժեքների ցուցակը (ծրագրի, սերվերի, տվյալների բազայի, մեքենայի անունները, օգտագործողի համարը...)։ |
+| [Configuration](Properties/Configuration.md) | Վերադարձնում է [IConfiguration](https://learn.microsoft.com/en-us/dotnet/api/microsoft.extensions.configuration.iconfiguration) դասի օբյեկտ, որը հնարավորություն է տալիս ստանալ ծրագրի կարգավորումները, կոնֆիգուրացիան։ |
+| [Meter](Properties/Meter.md) | Վերադարձնում է [Meter](https://learn.microsoft.com/en-us/dotnet/api/system.diagnostics.metrics.meter) դասի օբյեկտ, որը հնարավորություն է տալիս ապահովել մետրիկաների հետ աշխատանքը։ |
+| [GlobalTags](Properties/GlobalTags.md) | Վերադարձնում է մետրիկաներում ավելացվող հիմնական tag-երի անունների և արժեքների ցուցակը (ծրագրի, սերվերի, տվյալների բազայի, մեքենայի անունները, օգտագործողի համարը...)։ |
