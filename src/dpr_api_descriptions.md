@@ -38,14 +38,7 @@
 
 ### DPRInfoExtended
 
-| Անվանում | Տեսակ | Նկարագրություն |
-| --- | --- | --- |
-| sysType | number | DPR-ի տեսակը։  <br>21 - Հաշվետվությունների տվյալների մշակման հարցում (**Report**),  <br>22 - Օլապ տվյալների մշակման հարցում (**OLAP**),  <br>23 - Առաջադրանքների տվյալների մշակման հարցում (**JobElement**),  <br>29 - Այլ տվյալների մշակման հարցում (**Other**)։ |
-| name | string | DPR-ի ներքին անունը։ |
-| armenianCaption | string | DPR-ի հայերեն անվանումը։ |
-| englishCaption | string | DPR-ի անգլերեն անվանումը։ |
-| parameters | object | DPR-ի պարամետրերի [նկարագրությունների](#parametersdescription) ցուցակը։ |
-| isCancellationSupported | boolean | DPR-ի կատարման UI-ից ընդհատման հայտանիշ։ |
+{% include descriptions/DPRInfoExtended.md %}
 
 ---
 
