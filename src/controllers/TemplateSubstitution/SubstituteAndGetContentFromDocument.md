@@ -2,7 +2,7 @@
 title: "SubstituteAndGetContentFromDocument մեթոդ" 
 ---
 
-```http
+```
 POST {{base_url}}/api/TemplateSubstitution/{{docIsn}}/Content?name={{templateName}}&type={{templateType}}
 ```
 
@@ -22,6 +22,5 @@ POST {{base_url}}/api/TemplateSubstitution/{{docIsn}}/Content?name={{templateNam
 
 ### Body պարամետրեր
 
-| Անվանում | Տեսակ | **Պարտադիր/Ոչ պարտադիր** | **Նկարագրություն** |
-| --- | --- | --- | --- |
+{% include Descriptions/TableStructure.md %}
 {% include Descriptions/TemplateSubstitution/Parameters.md %}
