@@ -11,3 +11,9 @@ title: "Պրոյեկտների կառուցվածք"
 * [appsettings.json Կարգավորման ֆայլ](Project/appsettings_json.md)
 * [config.as Կարգավորման ֆայլ](Project/config_as.md)
 * [ՀԾ-Բանկի պրոյեկտը բեռնելու ձևը գործընկերի համար](Project/get_project.md)
+
+Test
+
+[SubstituteAndGetContentFromDocument](controllers/TemplateSubstitution/SubstituteAndGetContentFromDocument.md)
+
+[SubstituteAndGetContentFromDocument1](controllers/TemplateSubstitution/SubstituteAndGetContentFromDocument1.md)
