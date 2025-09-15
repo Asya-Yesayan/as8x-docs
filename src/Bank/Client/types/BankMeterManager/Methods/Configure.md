@@ -14,28 +14,19 @@ protected override void Configure(IParametersService parametersService)
 |--|--|
 | parametersService | [IParametersService](../../../../server_api/services/IParametersService.md) դասի օբյեկտ։ |
 
-## Օրինակ
+## ՀԾ-Բանկի պրոյեկտում մետրիկաների ավելացման օրինակ
 
 Նշված օրինակում`
-* տեղծվում է [BankMeterManager](../BankMeterManager.md) դասի ժառանգ՝ կազմակերպության սեփական մետրիկաների հավաքագրման համար,
-* մշակվում է Configure վիրտուալ մեթոդը, որում կանչվում է բազային դասի իրականացումը՝ ՀԾ-Բանկին յուրահատուկ և համակարգի [հիմնական մետրիկաները](../../../../../server_api/types/MeterManager/Methods/Configure.md) կոնֆիգուրացնելու նպատակով,
-* բազային դասի [Meter](../../../../../server_api/types/MeterManager/Properties/Meter.md) հատկությունից կանչվում է [CreateObservableGauge](https://learn.microsoft.com/en-us/dotnet/api/system.diagnostics.metrics.meter.createobservablegauge#system-diagnostics-metrics-meter-createobservablegauge-1(system-string-system-func((system-collections-generic-ienumerable((system-diagnostics-metrics-measurement((-0))))))-system-string-system-string)) մեթոդը՝ փոխանցելով ստեղծվող [ObservableGauge](https://learn.microsoft.com/en-us/dotnet/api/system.diagnostics.metrics.observablegauge-1) տիպի մետրիկայի id-ն, **նախապես հաշվարկված տվյալները** և [ավելացվող tag](../../../../../server_api/types/MeterManager/Properties/GlobalTags.md)-երը վերադարձնող ֆունկցիան, մետրիկայի չափման միավորը և նկարագրությունը, 
+* [BankMeterManager](../BankMeterManager.md) դասի Configure մեթոդում բազային դասի [Meter](../../../../../server_api/types/MeterManager/Properties/Meter.md) հատկությունից կանչվում է [CreateObservableGauge](https://learn.microsoft.com/en-us/dotnet/api/system.diagnostics.metrics.meter.createobservablegauge#system-diagnostics-metrics-meter-createobservablegauge-1(system-string-system-func((system-collections-generic-ienumerable((system-diagnostics-metrics-measurement((-0))))))-system-string-system-string)) մեթոդը՝ փոխանցելով ստեղծվող [ObservableGauge](https://learn.microsoft.com/en-us/dotnet/api/system.diagnostics.metrics.observablegauge-1) տիպի մետրիկայի id-ն, **նախապես հաշվարկված տվյալները** և [ավելացվող tag](../../../../../server_api/types/MeterManager/Properties/GlobalTags.md)-երը վերադարձնող ֆունկցիան, մետրիկայի չափման միավորը և նկարագրությունը, 
 * գրանցվող տվյալների հաշվարկը տեղի է ունենում [BackgroundService](https://learn.microsoft.com/en-us/dotnet/api/microsoft.extensions.hosting.backgroundservice)-ի միջոցով, որը հաշվարկում է .NET ThreadPool-ի ծանրաբեռնվածության տոկոսը։
 
 ```c#
-public class CompanySpecificMeterManager : BankMeterManager
+public class BankMeterManager(IMeterFactory meterFactory, IConfiguration configuration, IServiceScopeFactory serviceScopeFactory,
+                              DocumentCacheService<LiteDocument> liteDocumentCacheService,
+                              DocumentCacheService<RODocument> roDocumentCacheService)
+            : MeterManager(meterFactory, configuration, liteDocumentCacheService, roDocumentCacheService)
 {
     internal double ThreadPoolUtilization { get; set; }
-
-    public CompanySpecificMeterManager(IMeterFactory meterFactory,
-                                       IConfiguration configuration,
-                                       IServiceScopeFactory serviceScopeFactory,
-                                       DocumentCacheService<LiteDocument> liteDocumentCacheService,
-                                       DocumentCacheService<RODocument> roDocumentCacheService) :
-                                       base(meterFactory, configuration, serviceScopeFactory, liteDocumentCacheService, roDocumentCacheService)
-    {
-
-    }
 
     protected override void Configure(IParametersService parametersService)
     {
