@@ -12,34 +12,30 @@ title: IDocumentService.Load մեթոդ
 
 | Անվանում | Նկարագրություն |
 |--|--|
-| [Load(int, GridLoadMode, bool, bool, bool, bool, Type, bool)](#idocumentserviceloadint-gridloadmode-bool-bool-bool-bool-type-bool-մեթոդ) | Բեռնում է տվյալների պահոցում գոյություն ունեցող փաստաթուղթը ըստ ներքին նույնականացման համարի։ |
-| [Load(int, GridLoadMode, bool, bool, bool, bool, bool)](#idocumentserviceloadint-gridloadmode-bool-bool-bool-bool-bool-մեթոդ) | Բեռնում է տվյալների պահոցում գոյություն ունեցող փաստաթուղթը ըստ ներքին նույնականացման համարի։ |
+[Load(int, GridLoadMode, bool, DocumentLockMode, bool, bool, Type, bool)](#idocumentserviceloadint-gridloadmode-bool-documentlockmode-bool-bool-type-bool-մեթոդ)
+[Load(int, GridLoadMode, bool, DocumentLockMode, bool, bool, bool)](#idocumentserviceloadint-gridloadmode-bool-documentlockmode-bool-bool-bool-մեթոդ)
 
-### IDocumentService.Load(int, GridLoadMode, bool, bool, bool, bool, Type, bool) մեթոդ
+### IDocumentService.Load(int, GridLoadMode, bool, DocumentLockMode, bool, bool, Type, bool) մեթոդ
 
 ```c#
 public Task<Document> Load(int isn, 
                            GridLoadMode gridLoadMode = GridLoadMode.Full,
                            bool loadImagesAndMemos = true, 
-                           bool lockTableRow = false,
+                           DocumentLockMode lockMode = DocumentLockMode.ReadLock,
                            bool throwExceptionIfDeleted = true, 
                            bool lookInArc = true,
                            Type instanceType = null, 
                            bool loadParents = false)
 ```
 
-Բեռնում է տվյալների պահոցում գոյություն ունեցող փաստաթուղթը ըստ ներքին նույնականացման համարի։
-
-Վերադարձնում է Փաստաթղթի օբյեկտը, եթե հայտնաբերվել է։  
-Եթե չի հայտնաբերվել առաջացնում է սխալ կամ վերադարձնում է **null** կախված `throwExceptionIfDeleted` պարամետրից։
+{{ site.data.Constants.Document.LoadWithIsn }}
 
 **Պարամետրեր**
 
 * `isn` - Բեռնվող փաստաթղթի ներքին նույնականացման համարը։
 * `gridLoadMode` - [Աղյուսակների բեռնման հայտանիշ](../../types/GridLoadMode.md)։
 * `loadImagesAndMemos` - Նկարների ու մեծ մուտքագրման դաշտերի բեռնման հայտանիշ։ 
-* `lockTableRow` - Տվյալների պահոցում արգելափակման (lock) միացման հայտանիշ։ 
-  true արժեքի դեպքում դրվում է թարմացման (update) արգելափակում։ 
+* `lockMode` - Տվյալների պահոցում արգելափակման (lock) միացման [ռեժիմը](../../types/DocumentLockMode.md)։ 
 * `throwExceptionIfDeleted` - Պահանջվող փաստաթղթի հեռացված լինելու դեպքում սխալի առջացման հայտանիշ։ 
 * `lookInArc` - Արխիվացված փաստաթղթի բեռնման հայտանիշ։ 
   **true** արժեքի դեպքում փաստաթղթի բեռնումը փորձում է կատարել նաև արխիվային տվյալների պահոցից, եթե այնտեղ նույնպես փաստաթութը առկա չէ, առաջանում է սխալ։ 
@@ -47,22 +43,19 @@ public Task<Document> Load(int isn,
   [Document](../../definitions/document.md) դասից ժառանգ հանդիսացող դաս, որ տիպի փաստաթղթի օբյեկտ պետք է ստեղծվի:
 * `loadParents` - Ծնող փաստաթղթերի ISN-ների ցուցակի բեռնման հայտանիշ։
 
-### IDocumentService.Load(int, GridLoadMode, bool, bool, bool, bool, bool) մեթոդ
+### IDocumentService.Load(int, GridLoadMode, bool, DocumentLockMode, bool, bool, bool) մեթոդ
 
 ```c#
 public Task<T> Load<T>(int isn, 
                        GridLoadMode gridLoadMode = GridLoadMode.Full, 
                        bool loadImagesAndMemos = true, 
-                       bool lockTableRow = false, 
+                       DocumentLockMode lockMode = DocumentLockMode.ReadLock, 
                        bool throwExceptionIfDeleted = true, 
                        bool lookInArc = true, 
                        bool loadParents = false) where T : Document
 ```
 
-Բեռնում է տվյալների պահոցում գոյություն ունեցող փաստաթուղթը ըստ ներքին նույնականացման համարի։
-
-Վերադարձնում է Փաստաթղթի օբյեկտը, եթե հայտնաբերվել է։  
-Եթե չի հայտնաբերվել առաջացնում է սխալ կամ վերադարձնում է **null** կախված `throwExceptionIfDeleted` պարամետրից։
+{{ site.data.Constants.Document.LoadWithIsn }}
 
 **Պարամետրեր**
 
@@ -70,8 +63,7 @@ public Task<T> Load<T>(int isn,
 * `isn` - Բեռնվող փաստաթղթի ներքին նույնականացման համարը։
 * `gridLoadMode` - [Աղյուսակների բեռնման հայտանիշ](../../types/GridLoadMode.md)։
 * `loadImagesAndMemos` - Նկարների ու մեծ մուտքագրման դաշտերի բեռնման հայտանիշ։ 
-* `lockTableRow` - Տվյալների պահոցում արգելափակման (lock) միացման հայտանիշ։ 
-  **true** արժեքի դեպքում դրվում է թարմացման (update) արգելափակում։ 
+* `lockMode` - Տվյալների պահոցում արգելափակման (lock) միացման [ռեժիմը](../../types/DocumentLockMode.md)։ 
 * `throwExceptionIfDeleted` - Պահանջվող փաստաթղթի հեռացված լինելու դեպքում սխալի առաջացման հայտանիշ։ 
 * `lookInArc` - Արխիվացված փաստաթղթի բեռնման հայտանիշ։ 
   **true** արժեքի դեպքում փաստաթղթի բեռնումը փորձում է կատարել նաև արխիվային տվյալների պահոցից, եթե այնտեղ նույնպես փաստաթութը առկա չէ, առաջանում է սխալ։ 
