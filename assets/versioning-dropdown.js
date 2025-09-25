@@ -16,12 +16,16 @@ function showVersionBlocks(fullValue) {
         const exactVersions = el.getAttribute('data-version');
         const min = el.getAttribute('data-version-min');
         const max = el.getAttribute('data-version-max');
+        const excludeVersions = el.getAttribute('data-version-exclude');
 
         const productMatch = !productId || productId === selectedProductId;
 
         let versionMatch = false;
 
-        if (exactVersions) {
+        if (excludeVersions) {
+            const excluded = excludeVersions.split(',').map(v => v.trim());
+            versionMatch = !excluded.includes(selectedVersion);
+        } else if (exactVersions) {
             const versions = exactVersions.split(',').map(v => v.trim());
             versionMatch = versions.includes(selectedVersion);
         } else {
