@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "DocumentAttribute դաս" 
+title: "DocumentAttribute" 
 ---
 
 Document ատրիբուտը նախատեսված է [Document](../../definitions/document.md)-ը նկարագրող դասի վրա դնելու համար։
@@ -21,13 +21,13 @@ public class DocumentAttribute
 }
 ```
 
-* `Name` - [Փաստաթղթի](../../definitions/document.md) ներքին անունը (տեսակը)։ Չլրացնելու դեպքում հանդիսանալու է [փաստաթուղթը](../../definitions/document.md) նկարագրող դասի անունը։
-* `ShowProgress` - [Փաստաթղթի](../../definitions/document.md) [գրանցման](../../services/IDocumentService/Store.md)/[հեռացման](../../services/IDocumentService/Delete.md) ընթացքում պրոգրեսի պատուհանի ցուցադրման հայտանիշ։ Լռությամբ պրոգրեսի պատուհանը չի ցուցադրվում։ 
-    * **FeatureAvailability.Enabled** - Պրոգրեսի պատուհանը ցուցադրվում է։
-    * **FeatureAvailability.Disabled** - Պրոգրեսի պատուհանը չի ցուցադրվում:
-* `IsCancellationSupported` - UI-ից [փաստաթղթի](../../definitions/document.md) [գրանցման](../../services/IDocumentService/Store.md)/[հեռացման](../../services/IDocumentService/Delete.md) ընթացքում ընդհատման հնարավորության հայտանիշ։ Դադարեցման հնարավորությունը հասանելի է միայն այն դեպքում, երբ ակտիվացված է պրոգրեսի պատուհանի ցուցադրումը (`ShowProgress`)։ Լռությամբ UI-ից ընդհատումը թույլատրված է։
-    * **FeatureAvailability.Enabled** - Թույլատրված է ընդհատումը UI-ից։
-    * **FeatureAvailability.Disabled** - Արգելված է ընդհատումը UI-ից։
+## Հատկություններ
+
+| Անվանում | Տեսակ | Լռությամբ արժեք | Նկարագրություն |
+|-----------|-------|-----------------|----------------|
+| `Name` | string | [Փաստաթուղթը](../../definitions/document.md) նկարագրող դասի անունը։ | [Փաստաթղթի](../../definitions/document.md) ներքին անունը (տեսակը)։ |
+| `ShowProgress` | FeatureAvailability | **FeatureAvailability.Disabled** | [Փաստաթղթի](../../definitions/document.md) [գրանցման](../../services/IDocumentService/Store.md)/[հեռացման](../../services/IDocumentService/Delete.md) ընթացքում պրոգրեսի պատուհանի ցուցադրման հայտանիշ։ <br> **FeatureAvailability.Enabled** – Պրոգրեսի պատուհանը ցուցադրվում է։ <br> **FeatureAvailability.Disabled** – Պրոգրեսի պատուհանը չի ցուցադրվում։ |
+| `IsCancellationSupported` | FeatureAvailability | **FeatureAvailability.Enabled** | UI-ից [փաստաթղթի](../../definitions/document.md) [գրանցման](../../services/IDocumentService/Store.md)/[հեռացման](../../services/IDocumentService/Delete.md) ընթացքում ընդհատման հնարավորության հայտանիշ։ Հասանելի է միայն այն դեպքում, երբ ակտիվացված է `ShowProgress` հատկությունը։ <br> **FeatureAvailability.Enabled** – Թույլատրված է ընդհատումը UI-ից։ <br> **FeatureAvailability.Disabled** – Արգելված է ընդհատումը UI-ից։ |
 
 **Օրինակ**
 

@@ -44,9 +44,9 @@ public override Task DeserializeComplexObjects(DeserializeComplexObjectsEventArg
 ```c#
 private async Task DeleteDocuments()
 {
-	if (this.Properties.TryGetValue("DocISNs", out var value))
+    if (this.Properties.TryGetValue("DocISNs", out var value))
     {
-        await this.DocumentService.DeleteAll(this.DocISNs, true, "Փաստաթղթերի խմբային հեռացում");
+	    await this.DocumentService.DeleteAll(this.DocISNs, true, "Փաստաթղթերի խմբային հեռացում");
     }
 }
 ```

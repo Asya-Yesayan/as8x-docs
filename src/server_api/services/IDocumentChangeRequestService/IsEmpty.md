@@ -19,5 +19,7 @@ public bool IsEmpty(DocumentChangeRequest dcr,
 
 **Պարամետրեր**
 
-* `dcr` - [Փաստաթղթի փոփոխման հայտը](../../../server_api/types/DocumentChangeRequest.md)։
-* `includeHiddenFields` - Պարամետրի **true** արժեքի դեպքում ստուգումը կներառի նաև փաստաթղթի անտեսանելի դաշտերը։
+| Անվանում | Տեսակ | Լռությամբ արժեք | Նկարագրություն |
+|-----------|-------|-----------------|----------------|
+| `dcr` | [DocumentChangeRequest](../../../server_api/types/DocumentChangeRequest.md) | – | [Փաստաթղթի փոփոխման հայտը](../../../server_api/types/DocumentChangeRequest.md)։ |
+| `includeHiddenFields` | bool | true | Ստուգման ընթացքում անտեսանելի դաշտերի ներառման հայտանիշ։ |
