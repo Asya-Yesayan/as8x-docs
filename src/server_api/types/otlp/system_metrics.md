@@ -1,7 +1,7 @@
 ---
 title: "Համակարգում գրանցվող մետրիկաների նկարագրություն" 
 ---
-armsoft_process_completed_in_cache  
+
 | **Անվանում** | **Տեսակ** | **Label-ներ** | **Նկարագրություն** |
 | --- | --- | --- | --- |
 | armsoft_process_enqueued_counter | counter | `ApiClientId`, `Application`, `CustomerId`, `Database`, `MachineName`, `Name`, `Server`, `ServiceVersion`, `Type`, `UserId` | Գրանցում է հերթում սպասող երկար տևող հարցումների ([փաստաթղթերի](../../definitions/document.md) [գրանցում]((../../definitions/document/Store.md))/[հեռացում](../../definitions/document/Delete.md), [տվյալների աղբյուրների](../../definitions/ds.md), [DPR](../../definitions/dpr.md)-ների կատարում) քանակը։ Կիրառելի է [OTLPPROCMETERENABLED](parameters.md#otlpprocmeterenabled) պարամետրի **true** արժեքի դեպքում։ |
