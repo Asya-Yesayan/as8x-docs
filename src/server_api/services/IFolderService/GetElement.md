@@ -1,25 +1,25 @@
 ---
-title: IFoldersService.GetElement մեթոդ  
+title: IFolderService.GetElement մեթոդ  
 ---
 
 ## Նկարագիր
 
 **Համարժեքը 4x-ում՝** [AsUtil.FolderElByISN](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/DocumentsCirculation/FolderElByISN.html)
 
-**Դաս՝** [IFoldersService](../IFoldersService.md)
+**Դաս՝** [IFolderService](../IFolderService.md)
 
 ## Գերբեռնումներ
 
 | Անվանում | Նկարագրություն |
 |--|--|
-| [GetElement(string, int)](#ifoldersservicegetelementstring-int-մեթոդ) | Վերադարձնում է [թղթապանակի տարրը](../../types/FolderElement.md)՝ ըստ թղթապանակի ներքին անվան և փաստաթղթի ներքին նույնականացման համարի։ |
-| [GetElement(string, string, bool)](#ifoldersservicegetelementstring-string-bool-մեթոդ) | Վերադարձնում է [թղթապանակի տարրը](../../types/FolderElement.md)՝ ըստ թղթապանակի ներքին անվան և բանալու։ |
+[GetElement(string, int)](#ifolderservicegetelementstring-int-մեթոդ)
+[GetElement(string, string, bool)](#ifolderservicegetelementstring-string-bool-մեթոդ)
 
-### IFoldersService.GetElement(string, int) մեթոդ
+### IFolderService.GetElement(string, int) մեթոդ
 
 ```c#
-public Task<FolderElement> GetElement(string folderId, 
-                                      int isn);
+public virtual Task<FolderElement> GetElement(string folderId, 
+                                              int isn);
 ```
 
 Վերադարձնում է [թղթապանակի տարրը](../../types/FolderElement.md)՝ ըստ թղթապանակի ներքին անվան և փաստաթղթի ներքին նույնականացման համարի։
@@ -31,12 +31,12 @@ public Task<FolderElement> GetElement(string folderId,
 * `folderId` - Թղթապանակի ներքին անունը։
 * `isn` - Թղթապանակում գրանցված փաստաթղթի ներքին նույնականացման համարը։
 
-### IFoldersService.GetElement(string, string, bool) մեթոդ
+### IFolderService.GetElement(string, string, bool) մեթոդ
 
 ```c#
-public Task<FolderElement> GetElement(string folderId, 
-                                      string key, 
-                                      bool noLock = false);
+public virtual Task<FolderElement> GetElement(string folderId, 
+                                              string key, 
+                                              bool noLock = false);
 ```
 
 Վերադարձնում է [թղթապանակի տարրը](../../types/FolderElement.md)՝ ըստ թղթապանակի ներքին անվան և բանալու։

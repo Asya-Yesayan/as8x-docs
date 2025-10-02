@@ -6,7 +6,7 @@ title: MeterManager.TryConfigure(IParametersService) մեթոդ
 public void TryConfigure(IParametersService parametersService)
 ```
 
-[OTLPENABLED](../../otlp_parameters.md#otlpenabled) պարամետրի **true** արժեքի դեպքում կանչում է [Configure](Configure.md) մեթոդը, որը ստեղծում և կոնֆիգուրացնում է համակարգի հիմնական մետրիկաները։
+[OTLPENABLED](../../otlp/parameters.md#otlpenabled) պարամետրի **true** արժեքի դեպքում կանչում է [Configure](Configure.md) մեթոդը, որը ստեղծում և կոնֆիգուրացնում է համակարգի հիմնական մետրիկաները։
 
 **Պարամետրեր**
 

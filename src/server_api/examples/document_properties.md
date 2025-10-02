@@ -4,8 +4,8 @@ title: "Փաստաթղթի Properties-ի հետ աշխատանքի օրինակ"
 
 Այս օրինակում`
 * [ստեղծվում](../services/IDocumentService/Create.md) է **Doc1** տիպի փաստաթուղթ, [արժեքավորվում](../definitions/document/indexer.md) են որոշ դաշտեր և փաստաթուղթը ավելացվում է ընթացիկ փաստաթղթի [Properties](../definitions/document/Properties.md)-ում,
-* [SerializeComplexObjects](../definitions/document/SerializeComplexObjects.md) մեթոդում ստուգվում է [Properties](../definitions/document/Properties.md)-ում "DocName" անունով տարրի առկայությունը և առկայության դեպքում այն սերիալիզացվում է **DocumentModel** տիպի՝ [IDocumentService](../services/IDocumentService.md)-ի [SerializeResponseBody](../services/IDocumentService/SerializeResponseBody.md) մեթոդի միջոցով,
-* սերիալիզացված տարրը ավելացվում է փաստաթղթի նկարագրությունում **args** պարամետրի **Serialize** մեթոդի օգնությամբ:
+* [SerializeComplexObjects](../definitions/document/SerializeComplexObjects.md) մեթոդում ստուգվում է [Properties](../definitions/document/Properties.md)-ում "DocName" անունով տարրի (փաստաթղթի) առկայությունը և առկայության դեպքում այն սերիալիզացվում է **DocumentModel** տիպի՝ [IDocumentService](../services/IDocumentService.md)-ի [SerializeResponseBody](../services/IDocumentService/SerializeResponseBody.md) մեթոդի միջոցով,
+* սերիալիզացված տարրը ավելացվում է փաստաթղթի նկարագրությունում **args** պարամետրի **Serialize** մեթոդի օգնությամբ։
 
 ```c#
 public override async Task BeforeCommit(BeforeCommitEventArgs args)

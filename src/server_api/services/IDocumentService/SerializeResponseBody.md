@@ -19,4 +19,3 @@ public Task<T> SerializeResponseBody<T>(Document document,
 
 * `document` - [Փաստաթղթի օբյեկտ](../../definitions/document.md)։
 * `isExtended` - Փաստաթղթի ընդլայնված դաշտերի սերիալիզացման հայտանիշ։
-նկարագրությունները։

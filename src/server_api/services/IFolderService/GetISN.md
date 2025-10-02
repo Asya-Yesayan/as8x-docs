@@ -1,16 +1,16 @@
 ---
-title: IFoldersService.GetISN(string, string) մեթոդ  
+title: IFolderService.GetISN(string, string) մեթոդ  
 ---
 
 ## Նկարագիր
 
 **Համարժեքը 4x-ում՝** [AsKernel.GetISN](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/DocumentsCirculation/GetISN.html)
 
-**Դաս՝** [IFoldersService](../IFoldersService.md)
+**Դաս՝** [IFolderService](../IFolderService.md)
 
 ```c#
-public Task<int> GetISN(string folderId, 
-                        string key);
+public virtual Task<int> GetISN(string folderId, 
+                                string key);
 ```
 
 Վերադարձնում է թղթապանակում գրանցված փաստաթղթի ներքին նույնականացման համարը՝ ըստ թղթապանակի ներքին անվան և բանալու։

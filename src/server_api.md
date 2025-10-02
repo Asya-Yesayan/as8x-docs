@@ -24,7 +24,7 @@ title: "Սերվերային API"
 * [IDBService](server_api/services/IDBService.md)
 * [IErrorHandlingService](server_api/services/IErrorHandlingService.md)
 * [IFactService](server_api/services/IFactService.md)
-* [IFoldersService](server_api/services/IFoldersService.md)
+* [IFolderService](server_api/services/IFolderService.md)
 * [IHolidaysService](server_api/services/IHolidaysService.md)
 * [IMailService](server_api/services/IMailService.md)
 * [IParametersService](server_api/services/IParametersService.md)
