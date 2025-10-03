@@ -86,7 +86,7 @@ public class CadresExtended : DocumentExtender
 
 Տե՛ս նաև
 
-* [Կազմակերպության սեփական նկարագրությունները և ընդլայնումները պարունակող պրոյեկտի ստեղծում](../Project/customer_specific_extensions_project.md)
+* [Կազմակերպության սեփական նկարագրությունները և ընդլայնումները պարունակող պրոյեկտի ստեղծում](../project/customer_specific_extensions_project.md)
 * [Կազմակերպության սեփական նկարագրությունները և ընդլայնումները պարունակող պրոյեկտի կարգավորում](../project/appsettings_json.md#extensions):
 
 **Այս եղանակի առավելություններն են՝**
