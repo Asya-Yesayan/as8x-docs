@@ -28,11 +28,25 @@ sublinks:
 - [OTLPENABLED](#otlpenabled)
 - [OTLPENDPOINT](#otlpendpoint)
 - [OTLPPROCMETERENABLED](#otlpprocmeterenabled)
+<div class="version-block" data-product-id="bank" data-version="250626.000" markdown="1">
+
 - [OTLPPROTOCOL](#otlpprotocol)
+
+</div>
 
 ## Ներածություն
 
+<div class="version-block" data-product-id="bank" data-version="250626.000" markdown="1">
+
 Այս բաժնում նշված բոլոր պարամետրերը կազդեն միայն այն դեպքում, երբ [OTLPENABLED](#otlpenabled) պարամետրի արժեքը **true** է և [OTLPENDPOINT](#otlpendpoint)-ում նշված է OTLP collector-ի հասցեն։
+
+</div>
+
+<div class="version-block" data-product-id="bank" data-version-exclude="250626.000" markdown="1">
+
+Այս բաժնում նշված բոլոր պարամետրերը կազդեն միայն այն դեպքում, երբ [OTLPENABLED](#otlpenabled) պարամետրի արժեքը **true** է։
+
+</div>
 
 ## OTLPAUTOPROCTRACING
 
@@ -95,8 +109,12 @@ sublinks:
 * կատարվող երկար տևող հարցումների քանակը,
 * ավարտված երկար տևող հարցումների քանակը։
 
+<div class="version-block" data-product-id="bank" data-version="250626.000" markdown="1">
+
 ## OTLPPROTOCOL 
 
 Սահմանում է OTLP պրոտոկոլի տեսակը։ Ընդունում է հետևյալ արժեքները՝
 * `0` - gRPC,
 * `1` - HTTP Protobuf: 
+
+</div>
