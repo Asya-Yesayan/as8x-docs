@@ -18,7 +18,7 @@ public string CurrentSessionGuid { get; }
 public Task Add(SessionInfo sessionInfo)
 ```
 
-Ավելացնում է նոր [սեսսիա](../../types/SessionInfo.md) տվյալների պահոցի `SESSIONINFO` աղյուսակում և քեշում։
+Ավելացնում է նոր [սեսսիա](../../types/SessionInfo.md) տվյալների պահոցի [SESSIONINFO](https://asya-yesayan.github.io/as4x-docs/HTM/ProgrGuide/Database/SessionInfo.html) աղյուսակում և քեշում։
 
 Նոր սեսսիա ավտոմատ կերպով բացվում է ծրագիր մուտք գործելիս։
 
