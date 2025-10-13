@@ -40,15 +40,8 @@
     </main>
 
     {% include footer.html %}
-    <script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.6/dist/medium-zoom.min.js"></script>
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            mediumZoom('.home img, .wrapper img, img', {
-                background: 'rgba(0, 0, 0, 0.8)',
-                margin: 24
-            });
-        });
-    </script>
+    <link rel="stylesheet" href="{{ '/assets/zoom-button.css' | relative_url }}">
+    <script src="{{ '/assets/zoom-button.js' | relative_url }}"></script>
 
 </body>
 
