@@ -21,4 +21,4 @@ LanguageService-ը ստատիկ դաս է, որը նախատեսված է ծրա
 
 | Անվանում | Նկարագրություն |
 |----------|----------------|
-| [GetAcceptLanguage(CultureInfo)](LanguageService/GetAcceptLanguage.md) | Վերադարձնում է `Accept-Language` header-ի արժեքը (օրինակ "hy-AM,hy;q=0.5")՝ հիմնվելով տրված [CultureInfo](https://learn.microsoft.com/en-us/dotnet/api/system.globalization.cultureinfo)-ի վրա։ |
+| [GetAcceptLanguage(CultureInfo)](LanguageService/GetAcceptLanguage.md) | Վերադարձնում է տեքստային արժեք, որը կարող է օգտագործվել api հարցման `Accept-Language` header-ում (օրինակ "hy-AM,hy;q=0.5")՝ հիմնվելով տրված [CultureInfo](https://learn.microsoft.com/en-us/dotnet/api/system.globalization.cultureinfo)-ի վրա։ |

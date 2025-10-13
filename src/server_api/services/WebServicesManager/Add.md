@@ -12,4 +12,4 @@ public async Task Add(WebServiceInfo service)
 
 | Անվանում | Տեսակ | Լռությամբ արժեք | Նկարագրություն |
 |-----------|-------|-----------------|----------------|
-| service | WebServiceInfo | - | Վեբ ծառայության նկարագրությունը։ |
+| service | WebServiceInfo | - | Վեբ ծառայության [նկարագրությունը](../../types/WebServiceInfo.md): |

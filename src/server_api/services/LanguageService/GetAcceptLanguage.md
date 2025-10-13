@@ -10,7 +10,7 @@ title: LanguageService.GetAcceptLanguage(CultureInfo) մեթոդ
 public static string GetAcceptLanguage(CultureInfo cultureInfo = null)
 ```
 
-Վերադարձնում է `Accept-Language` header-ի արժեքը (օրինակ "hy-AM,hy;q=0.5")՝ հիմնվելով տրված [CultureInfo](https://learn.microsoft.com/en-us/dotnet/api/system.globalization.cultureinfo)-ի վրա։  
+Վերադարձնում է տեքստային արժեք, որը կարող է օգտագործվել api հարցման `Accept-Language` header-ում (օրինակ "hy-AM,hy;q=0.5")՝ հիմնվելով տրված [CultureInfo](https://learn.microsoft.com/en-us/dotnet/api/system.globalization.cultureinfo)-ի վրա։  
 Եթե cultureInfo պարամետրը չի նշված, ապա օգտագործվում է ընթացիկ [CultureInfo](https://learn.microsoft.com/en-us/dotnet/api/system.globalization.cultureinfo)-ն։  
 
 **Պարամետրեր**
