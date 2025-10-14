@@ -296,32 +296,32 @@ Azure AD-ով կամ Windows ADFS-ով նույնականացման կարգավ
 
 ```json
 "RateLimiter": {
-  //"Default": "Global",
-  //"EnableActionAutoLimiting" : true,
-  //"FixedWindow": [
-  //    {
-  //        "Name": "Policy1",
-  //        "Urls": [ "/api/Test/Test" ],
-  //        "PermitLimit": 10000,
-  //        "Window": 30
-  //    }
-  //],
-  //"SlidingWindow": [
-  //    {
-  //        "Name": "Policy2",
-  //        "Urls": [],
-  //        "PermitLimit": 10000,
-  //        "Window": 30,
-  //        "SegmentsPerWindow": 5
-  //    }
-  //],
-  //"Concurrency": [
-  //    {
-  //        "Name": "Policy3",
-  //        "Urls": [],
-  //        "PermitLimit": 50
-  //    }
-  //],
+  "Default": "Global",
+  "EnableActionAutoLimiting" : true,
+  "FixedWindow": [
+    {
+        "Name": "Policy1",
+        "Urls": [ "/api/Test/Test" ],
+        "PermitLimit": 10000,
+        "Window": 30
+    }
+  ],
+  "SlidingWindow": [
+    {
+        "Name": "Policy2",
+        "Urls": [],
+        "PermitLimit": 10000,
+        "Window": 30,
+        "SegmentsPerWindow": 5
+    }
+  ],
+  "Concurrency": [
+    {
+        "Name": "Policy3",
+        "Urls": [],
+        "PermitLimit": 50
+    }
+  ],
   "TokenBucket": [
       {
           "Name": "Global",
@@ -338,6 +338,52 @@ Azure AD-ով կամ Windows ADFS-ով նույնականացման կարգավ
 Այս բաժինը նախատեսված է [Rate Limiting](https://bytebytego.com/courses/system-design-interview/design-a-rate-limiter)-ի ալգորիթմի ընտրության և կարգավորման համար։
 
 Այս բաժնում տրվել է հնարավորություն սահմանելու Rate Limiting-ի ալգորիթմի տարբեր կոնֆիգուրացիաներ` policy-ներ (տարբեր պարամետրերով) և դրանք կիրառել անհրաժեշտ api-ների համար՝ օգտագործելով [EnableRateLimiting](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.ratelimiting.enableratelimitingattribute) ատրիբուտը( ատրիբուտում նշելով սահմանված policy-ի անունը (**Name**)) կամ policy-ի **Urls** դաշտում նշելով api-ների հասցեները։
+
+| Անվանում | Տվյալների տիպ | Պարտադիր/Ոչ պարտադիր | Լռությամբ արժեք | Նկարագրություն |
+|-----------|----------------|------------------------|------------------|----------------|
+| Default | string | Ոչ պարտադիր | — | Գլոբալ policy-ի անունը (**Name**)։ Այն կիրառելի է դառնում բոլոր այն api-ների համար, որոնց համար նշված չէ [DisableRateLimiting](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.ratelimiting.disableratelimitingattribute) ատրիբուտը կամ [EnableRateLimiting](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.ratelimiting.enableratelimitingattribute) ատրիբուտը՝ անհրաժեշտ policy-ի անունով։ |
+| EnableActionAutoLimiting | bool | Ոչ պարտադիր | false |  |
+
+**Սատարվող Rate Limiting-ի ալգորիթմներ**
+
+* [Fixed Window](https://bytebytego.com/courses/system-design-interview/design-a-rate-limiter#fixed-window-counter-algorithm)
+
+| Անվանում | Տվյալների տիպ | Պարտադիր/Ոչ պարտադիր | Լռությամբ արժեք | Նկարագրություն |
+|-----------|----------------|------------------------|------------------|----------------|
+| FixedWindow | array | Ոչ պարտադիր | — | Սահմանում է [Fixed Window](https://bytebytego.com/courses/system-design-interview/design-a-rate-limiter#fixed-window-counter-algorithm) տիպի Policy-ների ցուցակը։ |
+| &nbsp;&nbsp;Name | string | **Պարտադիր** | — | Policy-ի անունը։ |
+| &nbsp;&nbsp;PermitLimit | int | **Պարտադիր** | — | Թույլատրված հարցումների առավելագույն քանակը մեկ պատուհանի ընթացքում։ |
+| &nbsp;&nbsp;Window | int (վայրկյան) | **Պարտադիր** | — | Ժամանակային պատուհանի տևողությունը վայրկյաններով։ |
+
+* [Sliding Window](https://bytebytego.com/courses/system-design-interview/design-a-rate-limiter#sliding-window-log-algorithm)
+
+| Անվանում | Տվյալների տիպ | Պարտադիր/Ոչ պարտադիր | Լռությամբ արժեք | Նկարագրություն |
+|-----------|----------------|------------------------|------------------|----------------|
+| SlidingWindow | array | Ոչ պարտադիր | — | Սահմանում է [Sliding Window](https://bytebytego.com/courses/system-design-interview/design-a-rate-limiter#sliding-window-log-algorithm) տիպի Policy-ների ցուցակը։  |
+| &nbsp;&nbsp;Name | string | **Պարտադիր** | — | Policy-ի անունը։ |
+| &nbsp;&nbsp;PermitLimit | int | **Պարտադիր** | — | Թույլատրված հարցումների առավելագույն քանակը պատուհանի ընթացքում։ |
+| &nbsp;&nbsp;Window | int (վայրկյան) | **Պարտադիր** | — | Ժամանակային պատուհանի ընդհանուր տևողությունը։ |
+| &nbsp;&nbsp;SegmentsPerWindow | int | **Պարտադիր** | — | Ժամանակային պատուհանի բաժանումների քանակը։ |
+
+* Concurrency
+
+| Անվանում | Տվյալների տիպ | Պարտադիր/Ոչ պարտադիր | Լռությամբ արժեք | Նկարագրություն |
+|-----------|----------------|------------------------|------------------|----------------|
+| Concurrency | array | Ոչ պարտադիր | — | Սահմանում է Concurrency տիպի Policy-ների ցուցակը։ |
+| &nbsp;&nbsp;Name | string | **Պարտադիր** | — | Policy-ի անունը։ |
+| &nbsp;&nbsp;PermitLimit | int | **Պարտադիր** | — | Թույլատրված միաժամանակյա հարցումների առավելագույն քանակը։ |
+
+* [Token Bucket](https://bytebytego.com/courses/system-design-interview/design-a-rate-limiter#token-bucket-algorithm)
+
+| Անվանում | Տվյալների տիպ | Պարտադիր/Ոչ պարտադիր | Լռությամբ արժեք | Նկարագրություն |
+|-----------|----------------|------------------------|------------------|----------------|
+| TokenBucket | array | **Պարտադիր** | — | հմանում է [Token Bucket](https://bytebytego.com/courses/system-design-interview/design-a-rate-limiter#token-bucket-algorithm) տիպի Policy-ների ցուցակը։ |
+| &nbsp;&nbsp;Name | string | **Պարտադիր** | — | Policy-ի անունը։ |
+| &nbsp;&nbsp;TokenLimit | int | **Պարտադիր** | — | Թույլատրելի token-ների առավելագույն քանակը bucket-ում։ |
+| &nbsp;&nbsp;ReplenishmentPeriod | int (վայրկյան) | **Պարտադիր** | — | Ժամանակային միջակայքը, որի ընթացքում bucket-ը համալրվում է նոր token-ներով։ |
+| &nbsp;&nbsp;TokensPerPeriod | int | **Պարտադիր** | — | Քանի token պետք է ավելացվի յուրաքանչյուր լրացման շրջանի ընթացքում։ |
+| &nbsp;&nbsp;QueueLimit | int | Ոչ պարտադիր | 0 | Սպասման հերթի առավելագույն երկարությունը։ |
+| &nbsp;&nbsp;QueueProcessingOrder | int | Ոչ պարտադիր | 0 | Սպասման հերթի մշակման կարգը (0՝ FIFO, 1՝ LIFO)։ |
 
 **Օրինակ**
 
@@ -377,50 +423,6 @@ public async Task<JsonResult> Execute(string name,
       ]
 }        
 ``` 
-
-Ինչպես նաև տրվել է հնարավորություն սահմանելու գլոբալ policy-ը, որի անունը (**Name**) անհրաժեշտ է նշել կոնֆիգի **Default** դաշտում։ Այն կիրառելի է դառնում բոլոր այն api-ների համար, որոնց համար նշված չէ [DisableRateLimiting](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.ratelimiting.disableratelimitingattribute) ատրիբուտը կամ [EnableRateLimiting](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.ratelimiting.enableratelimitingattribute) ատրիբուտը՝ անհրաժեշտ policy-ի անունով։
-
-Սատարվող Rate Limiting-ի ալգորիթմներն են՝
-* [Fixed Window](https://bytebytego.com/courses/system-design-interview/design-a-rate-limiter#fixed-window-counter-algorithm)
-* [Sliding Window](https://bytebytego.com/courses/system-design-interview/design-a-rate-limiter#sliding-window-log-algorithm)
-* Concurrency
-* [Token Bucket](https://bytebytego.com/courses/system-design-interview/design-a-rate-limiter#token-bucket-algorithm)
-
-| Անվանում | Տվյալների տիպ | Պարտադիր/Ոչ պարտադիր | Լռությամբ արժեք | Նկարագրություն |
-|-----------|----------------|------------------------|------------------|----------------|
-| Default | string | Ոչ պարտադիր | — | Գլոբալ policy-ի անունը։ |
-| EnableActionAutoLimiting | bool | Ոչ պարտադիր | false |  |
-
-| Անվանում | Տվյալների տիպ | Պարտադիր/Ոչ պարտադիր | Լռությամբ արժեք | Նկարագրություն |
-|-----------|----------------|------------------------|------------------|----------------|
-| FixedWindow | array | Ոչ պարտադիր | — | Սահմանում է [Fixed Window](https://bytebytego.com/courses/system-design-interview/design-a-rate-limiter#fixed-window-counter-algorithm) տիպի Policy-ների ցուցակը։ |
-| &nbsp;&nbsp;Name | string | **Պարտադիր** | — | Policy-ի անունը։ |
-| &nbsp;&nbsp;PermitLimit | int | **Պարտադիր** | — | Թույլատրված հարցումների առավելագույն քանակը մեկ պատուհանի ընթացքում։ |
-| &nbsp;&nbsp;Window | int (վայրկյան) | **Պարտադիր** | — | Ժամանակային պատուհանի տևողությունը վայրկյաններով։ |
-
-| Անվանում | Տվյալների տիպ | Պարտադիր/Ոչ պարտադիր | Լռությամբ արժեք | Նկարագրություն |
-|-----------|----------------|------------------------|------------------|----------------|
-| SlidingWindow | array | Ոչ պարտադիր | — | Սահմանում է [Sliding Window](https://bytebytego.com/courses/system-design-interview/design-a-rate-limiter#sliding-window-log-algorithm) տիպի Policy-ների ցուցակը։  |
-| &nbsp;&nbsp;Name | string | **Պարտադիր** | — | Policy-ի անունը։ |
-| &nbsp;&nbsp;PermitLimit | int | **Պարտադիր** | — | Թույլատրված հարցումների առավելագույն քանակը պատուհանի ընթացքում։ |
-| &nbsp;&nbsp;Window | int (վայրկյան) | **Պարտադիր** | — | Ժամանակային պատուհանի ընդհանուր տևողությունը։ |
-| &nbsp;&nbsp;SegmentsPerWindow | int | **Պարտադիր** | — | Ժամանակային պատուհանի բաժանումների քանակը։ |
-
-| Անվանում | Տվյալների տիպ | Պարտադիր/Ոչ պարտադիր | Լռությամբ արժեք | Նկարագրություն |
-|-----------|----------------|------------------------|------------------|----------------|
-| Concurrency | array | Ոչ պարտադիր | — | Սահմանում է Concurrency տիպի Policy-ների ցուցակը։ |
-| &nbsp;&nbsp;Name | string | **Պարտադիր** | — | Policy-ի անունը։ |
-| &nbsp;&nbsp;PermitLimit | int | **Պարտադիր** | — | Թույլատրված միաժամանակյա հարցումների առավելագույն քանակը։ |
-
-| Անվանում | Տվյալների տիպ | Պարտադիր/Ոչ պարտադիր | Լռությամբ արժեք | Նկարագրություն |
-|-----------|----------------|------------------------|------------------|----------------|
-| TokenBucket | array | **Պարտադիր** | — | հմանում է [Token Bucket](https://bytebytego.com/courses/system-design-interview/design-a-rate-limiter#token-bucket-algorithm) տիպի Policy-ների ցուցակը։ |
-| &nbsp;&nbsp;Name | string | **Պարտադիր** | — | Policy-ի անունը։ |
-| &nbsp;&nbsp;TokenLimit | int | **Պարտադիր** | — | Թույլատրելի token-ների առավելագույն քանակը bucket-ում։ |
-| &nbsp;&nbsp;ReplenishmentPeriod | int (վայրկյան) | **Պարտադիր** | — | Ժամանակային միջակայքը, որի ընթացքում bucket-ը համալրվում է նոր token-ներով։ |
-| &nbsp;&nbsp;TokensPerPeriod | int | **Պարտադիր** | — | Քանի token պետք է ավելացվի յուրաքանչյուր լրացման շրջանի ընթացքում։ |
-| &nbsp;&nbsp;QueueLimit | int | Ոչ պարտադիր | 0 | Սպասման հերթի առավելագույն երկարությունը։ |
-| &nbsp;&nbsp;QueueProcessingOrder | int | Ոչ պարտադիր | 0 | Սպասման հերթի մշակման կարգը (0՝ FIFO, 1՝ LIFO)։ |
 
 ## redisCachingSettings
 
@@ -676,7 +678,7 @@ Seq սերվերում գրանցումը ապահովելու համար անհ
 
 ```json
 "Service": {
-  "Id": "Wages"
+  "Id": "ServiceId"
 }
 ```
 

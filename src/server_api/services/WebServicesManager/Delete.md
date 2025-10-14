@@ -3,7 +3,7 @@ title: WebServicesManager.Delete(string) մեթոդ
 ---
 
 ```c#
-public async Task Delete(string id)
+public Task Delete(string id)
 ```
 
 Հեռացնում է վեբ ծառայությունը:

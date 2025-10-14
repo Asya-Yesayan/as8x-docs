@@ -6,7 +6,7 @@ title: SessionInfoCacheService սերվիս
 
 | Անվանում | Նկարագրություն |
 |----------|----------------|
-| [Get](SessionInfoCacheService/Get.md) | Վերադարձնում է քեշավորված [սեսսիայի նկարագրությունը](../types/SessionInfo.md)՝ ըստ ներքին նույնականացման համարի (**guid**)։ Քեշում բացակայության դեպքում վերադարձնում է null: |
+| [Get](SessionInfoCacheService/Get.md) | Վերադարձնում է քեշավորված [սեսսիայի նկարագրությունը](../types/SessionInfo.md)՝ ըստ ներքին նույնականացման համարի (**guid**)։ |
 | [GetAll](SessionInfoCacheService/GetAll.md) | Վերադարձնում է բոլոր քեշավորված [սեսսիաների նկարագրությունների](../types/SessionInfo.md) ցուցակը։ |
 | [GetActiveSessionsAndReset](SessionInfoCacheService/GetActiveSessionsAndReset.md) | Վերադարձնում է բոլոր ակտիվ քեշավորված [սեսսիաների նկարագրությունների](../types/SessionInfo.md) ցուցակը և հեռացնում քեշից։ |
 | [UpdateLastActiveDate](SessionInfoCacheService/UpdateLastActiveDate.md) | Թարմացնում է նշված **guid**-ով [սեսսիայի](../types/SessionInfo.md) վերջին ակտիվության ամսաթիվը/ժամանակը: |

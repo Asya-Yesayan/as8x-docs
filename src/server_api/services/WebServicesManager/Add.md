@@ -3,7 +3,7 @@ title: WebServicesManager.Add(WebServiceInfo) մեթոդ
 ---
 
 ```c#
-public async Task Add(WebServiceInfo service)
+public Task Add(WebServiceInfo service)
 ```
 
 Ավելացնում է նոր վեբ ծառայություն։
@@ -12,4 +12,4 @@ public async Task Add(WebServiceInfo service)
 
 | Անվանում | Տեսակ | Լռությամբ արժեք | Նկարագրություն |
 |-----------|-------|-----------------|----------------|
-| service | WebServiceInfo | - | Վեբ ծառայության [նկարագրությունը](../../types/WebServiceInfo.md): |
+| service | [WebServiceInfo](../../types/WebServiceInfo.md) | - | Վեբ ծառայության նկարագրությունը: |

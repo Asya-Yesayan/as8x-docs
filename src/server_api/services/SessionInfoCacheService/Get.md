@@ -2,8 +2,6 @@
 title: SessionInfoCacheService.Get(string) մեթոդ
 ---
 
-(string)
-
 ```c#
 public SessionInfo Get(string sessionGuid)
 ```
@@ -14,4 +12,4 @@ public SessionInfo Get(string sessionGuid)
 
 | Անվանում | Տեսակ | Նկարագրություն |
 |-----------|-------|-----------------|
-| sessionGuid | string | [Սեսսիայի](../../types/SessionInfo.md) ներքին նույնականացման համարը (Guid)։ |
+| sessionGuid | string | [Սեսսիայի](../../types/SessionInfo.md) ներքին նույնականացման համարը (guid)։ |
