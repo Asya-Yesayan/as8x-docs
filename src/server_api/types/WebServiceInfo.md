@@ -10,7 +10,7 @@ title: "WebServiceInfo դաս"
 
 | Անվանում | Տեսակ | Նկարագրություն |
 |-----------|-------|----------------|
-| Id | string | Վեբ ծառայության ներքին նույնականացման համարը (id-ն)։ |
-| Address | string | Վեբ ծառայության հասցեն (օրինակ https://services/testdb)։ |
-| InnerAddress | string | Վեբ ծառայության ներքին հասցեն։ |
-| Role | string | Վեբ ծառայության դերը (նշանակությունը) (օրինակ Desktop, Integration, JobExecutor, ...)։ |
+| Id | string | Ներքին նույնականացման համարը (id-ն)։ |
+| Address | string | Հասցեն (օրինակ https://services/testdb)։ |
+| InnerAddress | string | Ներքին հասցեն։ |
+| Role | string | Դերը (նշանակությունը) (օրինակ՝ Desktop, Integration, JobExecutor, ...)։ |
