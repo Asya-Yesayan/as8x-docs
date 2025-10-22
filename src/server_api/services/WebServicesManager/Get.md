@@ -13,4 +13,4 @@ public async Task<List<WebServiceInfo>> Get(string id = null, string role = null
 | Անվանում | Տեսակ | Լռությամբ արժեք | Նկարագրություն |
 |-----------|-------|-----------------|----------------|
 | service | string | null | Վեբ ծառայության id-ն։ |
-| role | string | null | Վեբ ծառայության դերը (նշանակությունը)։ |
+| role | string | null | Վեբ ծառայության դերը (նշանակությունը) (օրինակ՝ Desktop, Integration, JobExecutor, ...)։  |
