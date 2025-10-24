@@ -13,7 +13,6 @@ TextReport-ի ստեղծման, լրացման ու պահման օրինակի 
 | Անվանում | Նկարագրություն |
 |----------|----------------|
 | [TextReport(IStorageService, TempFileCleanupMode)](TextReport/TextReport1.md) | Ստեղծում է TextReport դասի օբյեկտ։ |
-| [TextReport(IServiceProvider, TempFileCleanupMode)](TextReport/TextReport2.md) | Ստեղծում է TextReport դասի օբյեկտ։ Կոնստրուկտորը օգտագործվում է առաջադրանքների կատարման ժամանակ տեքստային հաշվետվություններ ձևավորելու նպատակով: |
 
 ## Մեթոդներ
 
