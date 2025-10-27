@@ -7,7 +7,7 @@ title: LoginController.AuthenticateWithCertificate(CertificateAuthenticateReques
 public Task<CertificateAuthenticateResponse> AuthenticateWithCertificate([FromBody] CertificateAuthenticateRequest request)
 ```
 
-Նույնականացնում է այն օգտագործողին, որը ստեղծվել է սերտիֆիկատով վավերացվող [Api կլիենտ](https://armsoft.github.io/as8x-docs/src/web_api_client/api_client.html) ծրագրի միջոցով։
+Նույնականացնում է այն օգտագործողին, որը ստեղծվել է սերտիֆիկատով վավերացվող [Api կլիենտ](../../web_api_client/api_client.md) ծրագրի միջոցով։
 
 Տե՛ս օգտագործման [օրինակը](https://www.postman.com/asya-01/armsoft/example/33237126-d89ae17b-6323-4ef7-a123-b11f6a0d92e9)։
 
@@ -17,8 +17,8 @@ public Task<CertificateAuthenticateResponse> AuthenticateWithCertificate([FromBo
 
 | Անվանում | Տեսակ | **Պարտադիր/Ոչ պարտադիր** | **Նկարագրություն** |
 | --- | --- | --- | --- |
-| **ApiClientId** | short | Պարտադիր | Այն [Api կլիենտ](https://armsoft.github.io/as8x-docs/src/web_api_client/api_client.html) ծրագրի id-ն, որում ստեղծվել է նույնականացվող օգտագործողը։  <br>Նշված id-ով կլիենտ ծրագրի բացակայության դեպքում առաջանում է սխալ։ |
-| **Certificate** | byte\[\] | Պարտադիր | [Api կլիենտը](https://armsoft.github.io/as8x-docs/src/web_api_client/api_client.html) ստեղծելիս տրված սերտիֆիկատի պարունակությունը: սերտիֆիկատի անվավերության դեպքում առաջանում է սխալ։ |
+| **ApiClientId** | short | Պարտադիր | Այն [Api կլիենտ](../../web_api_client/api_client.md) ծրագրի id-ն, որում ստեղծվել է նույնականացվող օգտագործողը։  <br>Նշված id-ով կլիենտ ծրագրի բացակայության դեպքում առաջանում է սխալ։ |
+| **Certificate** | byte\[\] | Պարտադիր | [Api կլիենտը](../../web_api_client/api_client.md) ստեղծելիս տրված սերտիֆիկատի պարունակությունը: սերտիֆիկատի անվավերության դեպքում առաջանում է սխալ։ |
 | **Username** | string | Պարտադիր | Օգտագործողի մուտքանունը։ |
 | **Password** | string | Պարտադիր | Օգտագործողի գաղտնաբառը։ |
 | RequestTime | DateTime? | Ոչ պարտադիր | Նույնականացման հարցման կատարման ամսաթիվը/ժամանակը։ |
@@ -39,7 +39,7 @@ public Task<CertificateAuthenticateResponse> AuthenticateWithCertificate([FromBo
 | IsAdmin | bool | Ադմինիստրատոր հանդիսանալու հայտանիշ։ |
 | DbName | string | Տվյալների պահոցի անունը, որին միացված է օգտագործողը։ |
 | Server | string | Տվյալների պահոցը պարունակող սերվերի անունը։ |
-| SessionGuid | guid | Օգտագործողի համակարգ մուտք գործման արդյունքում բացված [սեսսիայի](https://../../server_api/types/SessionInfo.md) id-ն։ |
+| SessionGuid | guid | Օգտագործողի համակարգ մուտք գործման արդյունքում բացված [սեսսիայի](../../server_api/types/SessionInfo.md) id-ն։ |
 | Token | string | Տոկեն, որը նախատեսված է օգտագործողի կողմից դեպի սերվիս api կանչերի նույնականացման համար։ |
 | RefreshToken | string | Հիմնական տոկենի վավերականության ժամկետի լրացումից հետո տրվող թարմացման տոկենը։ |
 | MustChangePassword | bool | Համակարգ մուտք գործելուց հետո օգտագործողը պետք է փոխի գաղտնաբառը, թե ոչ։ |

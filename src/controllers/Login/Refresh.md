@@ -8,7 +8,7 @@ title: LoginController.Refresh(RefreshRequest) մեթոդ
 public Task<string> Refresh([FromBody] RefreshRequest refreshRequest)
 ```
 
-Թարմացնում է տրված նույնականացված օգտագործողի նույնականացման տվյալները։ Վերադարձված տոկենների վավերականության ժամկետը սահմանվում է [appsettings.json](https://armsoft.github.io/as8x-docs/src/project/appsettings_json.html) կոնֆիգուրացիոն ֆայլի [<b>JwtConfig</b>](https://armsoft.github.io/as8x-docs/src/project/appsettings_json.html#jwtconfig) սեկցիայի միջոցով։
+Թարմացնում է տրված նույնականացված օգտագործողի նույնականացման տվյալները։ Վերադարձված տոկենների վավերականության ժամկետը սահմանվում է [appsettings.json](../../project/appsettings_json.md) կոնֆիգուրացիոն ֆայլի [<b>JwtConfig</b>](../../project/appsettings_json.md#jwtconfig) սեկցիայի միջոցով։
 
 Տե՛ս օգտագործման [օրինակը](https://www.postman.com/asya-01/armsoft/example/33237126-00be2b64-b8e1-488f-aed6-1deb7e120b13)։
 
