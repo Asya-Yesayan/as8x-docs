@@ -1,5 +1,5 @@
 ---
-title: LoginController.Delete մեթոդ
+title: LoginController.Delete(LoginService) մեթոդ
 ---
 
 ```c#
