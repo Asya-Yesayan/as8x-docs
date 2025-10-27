@@ -20,7 +20,7 @@ public Task<AuthenticateResponse> AuthenticateWithSecret([Required][FromHeader] 
 | Անվանում | Տեսակ | **Պարտադիր/Ոչ պարտադիր** | **Նկարագրություն** |
 | --- | --- | --- | --- |
 | **apiClientId** | short | Պարտադիր | Այն [Api կլիենտ](../../web_api_client/api_client.md) ծրագրի id-ն, որում ստեղծվել է նույնականացվող օգտագործողը։  <br>Նշված id-ով կլիենտ ծրագրի բացակայության դեպքում առաջանում է սխալ։ |
-| **x-api-key** | short | Պարտադիր | Նույնականացման բանալի անունը, որը նշվել է [Api կլիենտ](../../web_api_client/api_client.md) ստեղծելիս։ Արժեքը լրացնելուց պետք է նայել պատճենել ApiClientSecret նախդիրը։ |
+| **x-api-key** | short | Պարտադիր | Նույնականացման բանալի անունը, որը նշվել է [Api կլիենտ](../../web_api_client/api_client.md) ստեղծելիս։ Արժեքը լրացնելուց պետք է նայել պատճենել ApiClientSecret նախդիրը։ Օրինակ՝ "ApiClientSecret ZSGQD3zUZeEy7RdRayZaywaS7KrSbO16MdsHyrjT6WK4vbUv2lxgLcweD1NqYYbFRCcxNrkNrQRXMAc4VIPwdq1vAq23kqdAiTSaGxc6zKekW3baem3dmWGUh679pPdOP6Q": |
 
 ## Body պարամետրեր
 
