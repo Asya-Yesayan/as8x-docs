@@ -7,7 +7,7 @@ title: LoginController.AuthenticateWithCertificate(CertificateAuthenticateReques
 public Task<CertificateAuthenticateResponse> AuthenticateWithCertificate([FromBody] CertificateAuthenticateRequest request)
 ```
 
-Նույնականացնում է այն օգտագործողին, որը ստեղծվել է սերտիֆիկատով վավերացվող [Api կլիենտ](../../web_api_client/api_client.md) ծրագրի միջոցով։
+Նույնականացնում է այն օգտագործողին, որը ստեղծվել է սերտիֆիկատով վավերացվող [Api կլիենտների](../../web_api_client/api_client.md) համար։
 
 Տե՛ս օգտագործման [օրինակը](https://www.postman.com/asya-01/armsoft/example/33237126-d89ae17b-6323-4ef7-a123-b11f6a0d92e9)։
 

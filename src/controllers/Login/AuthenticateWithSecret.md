@@ -9,7 +9,7 @@ public Task<AuthenticateResponse> AuthenticateWithSecret([Required][FromHeader] 
                                                                [FromBody] SecretAuthenticateRequest request)
 ```
 
-Նույնականացնում է այն օգտագործողին, որը ստեղծվել է բանալիով վավերացվող [Api կլիենտ](../../web_api_client/api_client.md) ծրագրի միջոցով։
+Նույնականացնում է այն օգտագործողին, որը ստեղծվել է բանալիով վավերացվող [Api կլիենտների](../../web_api_client/api_client.md) համար։
 
 Տե՛ս օգտագործման [օրինակը](https://www.postman.com/asya-01/armsoft/example/33237126-4bbeb85b-c497-4439-8f07-1943d228ba90)։
 
