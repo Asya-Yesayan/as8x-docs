@@ -13,7 +13,7 @@ public Task<CertificateAuthenticateResponse> AuthenticateWithCertificate([FromBo
 
 ## Պարամետրեր
 
-## Body պարամետրեր
+### Body պարամետրեր
 
 | Անվանում | Տեսակ | **Պարտադիր/Ոչ պարտադիր** | **Նկարագրություն** |
 | --- | --- | --- | --- |

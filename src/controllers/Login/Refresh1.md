@@ -14,7 +14,7 @@ public Task<RefreshResponse> Refresh([FromBody] RefreshRequest refreshRequest)
 
 ## Պարամետրեր
 
-Body պարամետրեր
+### Body պարամետրեր
 
 | Անվանում | Տեսակ | Պարտադիր/Ոչ պարտադիր | Նկարագրություն |
 | --- | --- | --- | --- |
