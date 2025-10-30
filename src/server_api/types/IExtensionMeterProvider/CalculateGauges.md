@@ -5,7 +5,7 @@ title: IExtensionMeterProvider.CalculateGauges(IDBService) մեթոդ
 ```c#
 public void CalculateGauges(IDBService dbService)
 ```
-[](##appssre)
+
 Այս մեթոդը նախատեսված է սեփական նկարագրությունները պարունակող assembly-ում ստեղծված մետրիկաների արժեքների հաշվարկի համար։ Մեթոդը կանչվում է համակարգի կողմից [appsettings.json](../../../project/appsettings_json.md) կոնֆիգուրացիոն ֆայլի [OTLP:Metrics։PeriodicExporting:ExportIntervalMilliseconds](../../../project/appsettings_json.md#otlp) դաշտում նշված ինտերվալը մեկ։
 
 **Պարամետրեր**

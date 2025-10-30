@@ -10,8 +10,8 @@ title: IExtensionMeterProvider սերվիս
 
 | Անվանում | Նկարագրություն |
 |----------|----------------|
-| [Configure](Configure.md) | Այս մեթոդը նախատեսված է կազմակերպության սեփական նկարագրությունները պարունակող assembly-ում մետրիկաներ ստեղծելու/կոնֆիգուրացնելու համար՝ օգտագործելով [Meter](https://learn.microsoft.com/en-us/dotnet/api/system.diagnostics.metrics.meter) պարամետրը։ |
-| [CalculateGauges](CalculateGauges.md) | Այս մեթոդը նախատեսված է սեփական նկարագրությունները պարունակող assembly-ում ստեղծված մետրիկաների արժեքների հաշվարկի համար։ |
+| [Configure(IParametersService, Meter)](Configure.md) | Այս մեթոդը նախատեսված է կազմակերպության սեփական նկարագրությունները պարունակող assembly-ում մետրիկաներ ստեղծելու/կոնֆիգուրացնելու համար՝ օգտագործելով [Meter](https://learn.microsoft.com/en-us/dotnet/api/system.diagnostics.metrics.meter) պարամետրը։ |
+| [CalculateGauges(IDBService)](CalculateGauges.md) | Այս մեթոդը նախատեսված է սեփական նկարագրությունները պարունակող assembly-ում ստեղծված մետրիկաների արժեքների հաշվարկի համար։ |
 
 ## Օրինակ
 
@@ -43,6 +43,7 @@ public class TestExtensionMeterProvider : IExtensionMeterProvider
             description: "Number of currently active SQL sessions."
         );
 
+        // ստեղծվում է gauge, որում գրանցվող արժեքը անհրաժեշտ է վերադարձնել GetTransactionCount մեթոդի միջոցով:
         meter.CreateObservableGauge(
             name: "sqlserver_transaction_count",
             observeValue: GetTransactionCount,
@@ -55,10 +56,12 @@ public class TestExtensionMeterProvider : IExtensionMeterProvider
     // իսկ CreateObservableGauge-ի observeValue պարամետրում վերադարձնել նախապես հաշվարկված մետրիկայի արժեքը:
     public void CalculateGauges(IDBService dbService)
     {
+        // ստեղծում և կատարում է Sql հարցում, որը վերադարձնում է Sql-ում ակտիվ տրանզակցիաների քանակը
         using var command = dbService.CreateCommand();
         command.CommandText = "SELECT COUNT(*) FROM sys.dm_tran_active_transactions";
         this.transactionCount = (long)command.ExecuteScalar();
 
+        // ստեղծում և կատարում է Sql հարցում, որը վերադարձնում է Sql-ում ակտիվ սեսսիաների քանակը
         command.CommandText = "SELECT COUNT(*) FROM sys.dm_exec_sessions WHERE status = 'running'";
         this.activeSessionsCount = (long)command.ExecuteScalar();
     }
@@ -71,6 +74,7 @@ public class TestExtensionMeterProvider : IExtensionMeterProvider
 
     private Measurement<long> GetActiveSessionsCount()
     {
+        // վերադարձնում է Measurement<long> տիպի օբյեկտ, որը ստանում է մետրիկայի արժեքը և tag-երի ցուցակը
         return new Measurement<long>(this.activeSessionsCount, commonTags);
     }
 }
