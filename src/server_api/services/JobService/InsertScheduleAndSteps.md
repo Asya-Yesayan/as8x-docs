@@ -12,4 +12,4 @@ public Task<int> InsertScheduleAndSteps(ScheduledJob job)
 
 | Անվանում | Տեսակ | **Նկարագրություն** |
 | --- | --- | --- |
-| job | [ScheduledJob](../../../types/ScheduledJob.md) | Հերթագրման ենթակա առաջադրանքի նկարագրությունը։ |
+| job | [ScheduledJob](../../types/ScheduledJob.md) | Հերթագրման ենթակա առաջադրանքի նկարագրությունը։ |
