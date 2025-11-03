@@ -6,19 +6,8 @@ title: "DocumentAttribute"
 Document ատրիբուտը նախատեսված է [Document](../../definitions/document.md)-ը նկարագրող դասի վրա դնելու համար։
 
 ```c#
+[AttributeUsage(AttributeTargets.Class, Inherited = true, AllowMultiple = false)]
 public class DocumentAttribute
-{
-    public string Name { get; protected set; }
-
-    public FeatureAvailability IsCancellationSupported { get; set; } = FeatureAvailability.Enabled;
-
-    public FeatureAvailability ShowProgress { get; set; } = FeatureAvailability.Disabled;
-
-    public DocumentAttribute(string name = "")
-    {
-        this.Name = name;
-    }
-}
 ```
 
 ## Հատկություններ
