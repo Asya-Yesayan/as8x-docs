@@ -50,7 +50,8 @@ title: "IParametersService սերվիս"
 | [REPEND(short)](IParametersService/REPEND.md#iparametersservicerependshort-մեթոդ) | Վերադարձնում է **REPEND** ներքին անունով [ամսաթիվ տիպի](../types/system_types.md#datefieldtype) պարամետրի արժեքը, որը ցույց է տալիս հաշվետու ժամանակահատվածի վերջի ամսաթիվը `suid` ներքին համարով օգտագործողի համար։ |
 | [REPSTART()](IParametersService/REPSTART.md#iparametersservicerepstart-մեթոդ) | Վերադարձնում է **REPSTART** ներքին անունով [ամսաթիվ տիպի](../types/system_types.md#datefieldtype) պարամետրի արժեքը, որը ցույց է տալիս հաշվետու ժամանակահատվածի սկզբի ամսաթիվը ընթացիկ օգտագործողի համար։ |
 | [REPSTART(short)](IParametersService/REPSTART.md#iparametersservicerepstartshort-մեթոդ) | Վերադարձնում է **REPSTART** ներքին անունով [ամսաթիվ տիպի](../types/system_types.md#datefieldtype) պարամետրի արժեքը, որը ցույց է տալիս հաշվետու ժամանակահատվածի սկզբի ամսաթիվը `suid` ներքին համարով օգտագործողի համար։ |
+| [SetDefaultValue(string, object, bool, bool)](IParametersService/SetDefaultValue.md) | Փոխում է համակարգային պարամետրի լռությամբ արժեքը ([PARAMS](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Database/Params.html) աղյուսակում)։ |
 | [SetHiPar(string, DateTime, int, string, string, DateTime?)](IParametersService/SetHiPar.md) | Գրանցում է ժամանակագրական պարամետրի նոր արժեք տրված ամսաթվով: |
+| [SetSerializedDefaultValue(string, string, bool, bool)](IParametersService/SetSerializedDefaultValue.md) | Փոխում է համակարգային պարամետրի լռությամբ արժեքը ([PARAMS](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Database/Params.html) աղյուսակում)։ |
 | [SetValue(string, object)](IParametersService/SetValue.md) | Փոխում է համակարգային պարամետրի արժեքը։ |
 | [SetValueWithAdditionalConnection(string, object)](IParametersService/SetValueWithAdditionalConnection.md) | Փոխում է համակարգային պարամետրի արժեքը [լրացուցիչ sql միացման](IDBService/CreateAdditionalConnection.md) միջոցով։ |
-
