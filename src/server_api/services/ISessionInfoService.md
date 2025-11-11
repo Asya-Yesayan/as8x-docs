@@ -22,6 +22,8 @@ public string CurrentSessionGuid { get }
 | Անվանում | Նկարագրություն |
 |----------|----------------|
 | [GetInfo()](ISessionInfoService/GetInfo.md) | Վերադարձնում է ընթացիկ [սեսսիայի մասին ինֆորմացիան](../types/SessionInfo.md)։ |
+| [Exists(string)](ISessionInfoService/Exists.md) | Ստուգում է նշված [սեսսիայի](../types/SessionInfo.md) առկայությունը սերվիսի քեշում։ |
+| [ExistsInDB(string)](ISessionInfoService/ExistsInDB.md) | Ստուգում է նշված [սեսսիայի](../types/SessionInfo.md) առկայությունը տվյալների պահոցի [SESSIONINFO](https://asya-yesayan.github.io/as4x-docs/HTM/ProgrGuide/Database/SessionInfo.html) աղյուսակում։ |
 
 ## Հատկություններ
 
