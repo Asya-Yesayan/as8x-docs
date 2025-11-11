@@ -19,7 +19,7 @@ public PrintTemplateSubstitutionImage Image(string name)
 ```c#
 public Task PersonalData(TemplateSubstitution templateSubstitution)
     templateSubstitution.AddImage("1111");
-    templateSubstitution.Image("1111").File = foto;
+    templateSubstitution.Image("1111").File = photo;
     templateSubstitution.Image("1111").Width = 60;
     templateSubstitution.Image("1111").Height = 15;
 ```
