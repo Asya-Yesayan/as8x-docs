@@ -6,7 +6,7 @@ title: IExtensionMeterProvider.Configure(IParametersService, Meter) մեթոդ
 public void Configure(IParametersService parametersService, Meter meter)
 ```
 
-Այս մեթոդը նախատեսված է կազմակերպության սեփական նկարագրությունները պարունակող assembly-ում մետրիկաներ ստեղծելու/կոնֆիգուրացնելու համար՝ օգտագործելով [Meter](https://learn.microsoft.com/en-us/dotnet/api/system.diagnostics.metrics.meter) պարամետրը։
+Այս մեթոդը նախատեսված է կազմակերպության սեփական նկարագրությունները պարունակող assembly-ում մետրիկաներ ստեղծելու, կոնֆիգուրացնելու համար՝ օգտագործելով [Meter](https://learn.microsoft.com/en-us/dotnet/api/system.diagnostics.metrics.meter) պարամետրը։
 
 **Պարամետրեր**
 

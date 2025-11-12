@@ -14,3 +14,15 @@ public void Add(string code, object value)
 | --- | --- | --- | --- |
 | code | string | - | Ատոմար արժեքի ներքին անունը (կոդը)։ |
 | value | string | - | Տեղադրվող արժեքը։ |
+
+**Օրինակ**
+
+```c#
+public async Task<TemplateSubstitution> InnerSubstitute(Document doc)
+{
+    var result = new TemplateSubstitution();
+    result.Add("001", doc["DocNum"].Value);
+    result.Add("103", doc["Address"].Value);
+    return result;
+}
+```

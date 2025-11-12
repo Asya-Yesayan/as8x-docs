@@ -21,3 +21,14 @@ public void AddGridValuesFromDoc(Document.Document document,
 | prefix | string | "" | Աղյուսակի ներքին անվան (կոդի) համար ավելացվող նախածանց։ |
 | postfix | string | "" | Աղյուսակի ներքին անվան (կոդի) համար ավելացվող վերջածանց։ |
 | fillLeafColumns | bool | true | Աղյուսակում առկա զավակ (ParentCol ունեցող) սյունակների հաշվարկման և տեղադրման հայտանիշ։  |
+
+**Օրինակ**
+
+```c#
+public async Task<TemplateSubstitution> InnerSubstitute(Document doc)
+{
+    var result = new TemplateSubstitution();
+    result.AddGridValuesFromDoc(doc, "VISITORS");
+    return result;
+}
+```
