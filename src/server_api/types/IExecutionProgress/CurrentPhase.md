@@ -6,4 +6,4 @@ title: IExecutionProgress.CurrentPhase հատկություն
 public ProgressPhase CurrentPhase { get; set; }
 ```
 
-Սահմանում կամ վերադարձնում է կատարման պրոգրեսի ընթացիկ կատարման փուլ։
+Սահմանում կամ վերադարձնում է կատարման պրոգրեսի ընթացիկ [կատարման փուլը](../ProgressPhase.md)։
