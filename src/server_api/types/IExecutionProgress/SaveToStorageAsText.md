@@ -1,0 +1,20 @@
+---
+title: IExecutionProgress.SaveToStorageAsText(StorageInfo, bool, bool, bool) մեթոդ
+---
+
+```c#
+public Task SaveToStorageAsText(StorageInfo storageInfo, bool replaceTags = false, bool htmlFormat = false, bool toUnicode = false);
+```
+
+Պահպանում է տեքստային հաշվետվության պարունակությունը ֆայլի մեջ։
+
+Առաջադրանքի կատարման ժամանակ մեթոդի կանչը անտեսվում է։
+
+**Պարամետրեր**
+
+| Անվանում    | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն                                                    |
+| ----------- | ------------- | --------------- | ----------------------------------------------------------------- |
+| storageInfo | StorageInfo   | -               | Տեքստային հաշվետվությունը պարունակող ֆայլի, թղթապանակի անունները։                 |
+| replaceTags | bool          | false           | Հաշվետվության տեքստից թեգերի հեռացման հայտանիշ։ |
+| htmlFormat  | bool          | false           | Հաշվետվության տեքստի HTML ֆորմատով պահպանման հայտանիշ։   |
+| toUnicode   | bool          | false           | Հաշվետվության տեքստի Unicode կոդավորմամբ պահման հայտանիշ։ **false** արժեքի դեպքում տեքստը պահվելու է **Ansi** կոդավորմամբ։   |
