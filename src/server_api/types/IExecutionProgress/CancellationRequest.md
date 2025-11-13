@@ -6,4 +6,4 @@ title: IExecutionProgress.CancellationRequest հատկություն
 public CancellationRequest CancellationRequest { get; }
 ```
 
-Վերադարձնում է կատարման պրոգրեսի չեղարկման օբյեկտը։
+Վերադարձնում է կատարման պրոգրեսի [չեղարկման օբյեկտը](../CancellationRequest.md)։
