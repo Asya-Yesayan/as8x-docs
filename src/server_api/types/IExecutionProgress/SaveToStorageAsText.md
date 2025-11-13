@@ -3,7 +3,10 @@ title: IExecutionProgress.SaveToStorageAsText(StorageInfo, bool, bool, bool) մ�
 ---
 
 ```c#
-public Task SaveToStorageAsText(StorageInfo storageInfo, bool replaceTags = false, bool htmlFormat = false, bool toUnicode = false);
+public Task SaveToStorageAsText(StorageInfo storageInfo, 
+                               bool replaceTags = false, 
+                               bool htmlFormat = false, 
+                               bool toUnicode = false);
 ```
 
 Պահպանում է տեքստային հաշվետվության պարունակությունը ֆայլի մեջ։

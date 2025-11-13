@@ -3,7 +3,9 @@ title: IExecutionProgress.DefineReport(string, string, bool) մեթոդ
 ---
 
 ```c#
-public void DefineReport(string armenianCaption, string englishCaption = "", bool useFormatting = false);
+public void DefineReport(string armenianCaption, 
+                        string englishCaption = "", 
+                        bool useFormatting = false);
 ```
 
 Ստեղծում է տեքստային հաշվետվություն՝ 120 լայնությամբ հատվածով (ֆրագմենտով)։ Մեթոդի կրկնակի կանչի դեպքում առաջանում է սխալ։

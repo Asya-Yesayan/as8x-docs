@@ -1,5 +1,5 @@
 ---
-title: RODocument դաս
+title: ProgressPhase դաս
 ---
 
 ## Ներածություն

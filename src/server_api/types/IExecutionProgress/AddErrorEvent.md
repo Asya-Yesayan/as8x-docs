@@ -3,7 +3,8 @@ title: IExecutionProgress.AddErrorEvent(string, Exception) մեթոդ
 ---
 
 ```c#
-public void AddErrorEvent(string message, Exception exception = null);
+public void AddErrorEvent(string message, 
+                          Exception exception = null);
 ```
 
 Ավելացնում է նոր տող տեքստային հաշվետվությունում, եթե մեթոդը չի կանչվել առաջադրանքի կատարման ժամանակ։ Առաջադրանքի կատարման ընթացքում կանչի դեպքում միայն Seq-ում ավելացվում է նոր իրադարձություն՝ նշված հաղորդագրությամբ, սխալի հաղորդագրությամբ և Error լոգավորման մակարդակով։

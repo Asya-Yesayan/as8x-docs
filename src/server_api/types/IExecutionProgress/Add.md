@@ -3,7 +3,8 @@ title: IExecutionProgress.Add(int, string) մեթոդ
 ---
 
 ```c#
-public void Add(int id, string name);
+public void Add(int id, 
+                string name);
 ```
 
 Ավելացնում է նոր փուլ կատարման պրոգրեսում։
