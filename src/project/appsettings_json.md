@@ -126,12 +126,17 @@ Azure AD-ով կամ Windows ADFS-ով նույնականացման կարգավ
 | &nbsp;&nbsp;**RedirectUri** | string | Պարտադիր | - | Նույնականացումից հետո վերահղման համար URL-ը։ |
 | &nbsp;&nbsp;**TokenMapping** | string | Պարտադիր | - | Նույնականացման համար անհրաժեշտ տոկենի տեսակը՝ [SID](https://www.techtarget.com/searchsecurity/definition/security-identifier)։ |
 
+<div class="version-block" data-product-id="bank" markdown="1">
+
 ## BackgroundJobs
+
+Այս բաժինը նախատեսված է առաջադրանքների աշխատանքի կարգավորման համար։ 
 
 ```json
 "BackgroundJobs": {
   "Enabled": false,
-  "CheckIntervalSeconds": 30
+  "CheckIntervalSeconds": 30,
+  "Scheduler": false
 }
 ```
 
@@ -139,8 +144,11 @@ Azure AD-ով կամ Windows ADFS-ով նույնականացման կարգավ
 
 | Անվանում | Տվյալների տիպ | Պարտադիր/Ոչ պարտադիր | Լռությամբ արժեք | Նկարագրություն |
 |------------|----------------|----------------------|------------------|----------------|
-| Enabled | bool | Ոչ պարտադիր | false | Նշում է՝ արդյոք ֆոնային առաջադրանքների (Background Jobs) գործարկումը միացված է, թե ոչ։ |
-| CheckIntervalSeconds | int | Ոչ պարտադիր | 30 | Սահմանում է ֆոնային առաջադրանքների վիճակի ստուգման հաճախականությունը վայրկյաններով։ |
+| Enabled | bool | Ոչ պարտադիր | false | Առաջադրանքների հերթագրման և կատարման մեխանիզմի միացման հայտանիշ։ |
+| CheckIntervalSeconds | int | Ոչ պարտադիր | 30 | Առաջադրանքների հերթագրման և կատարման պարբերականությունը վայրկյաններով։ |
+| Scheduler | bool | Ոչ պարտադիր | false | Պարամետրի true արժեքի դեպքում սերվիսը հեթագրում և կատարում է առաջադրանքները, հակառակ դեպքում` միայն կատարում: |
+
+</div>
 
 ## db
 
@@ -256,6 +264,8 @@ Azure AD-ով կամ Windows ADFS-ով նույնականացման կարգավ
 
 Այս բաժինը նախատեսված է trace-ների և մետրիկաների կարգավորումների սահմանման համար։ 
 
+<div class="version-block" markdown="1">
+
 ```json
 "OTLP": {
     "Metrics": {
@@ -264,7 +274,7 @@ Azure AD-ով կամ Windows ADFS-ով նույնականացման կարգավ
             "ExportIntervalMilliseconds": 10000,
             "MaxExceptionLogCount": 5
             },
-        "CachedItemsCountEnabled": false
+        "CachedItemsCountEnabled": false,
         },
       "Tracing": {
           "EnableDefaultInstrumentations": false,
@@ -291,6 +301,50 @@ Azure AD-ով կամ Windows ADFS-ով նույնականացման կարգավ
 | &nbsp;&nbsp;SqlClientInstrumentation | object | Ոչ պարտադիր |  | Այս բաժինը նախատեսված է Sql հարցումների համար trace-երի կարգավորման համար: |
 | &nbsp;&nbsp;&nbsp;&nbsp;Enabled | bool | Ոչ պարտադիր | false | Ծրագրի աշխատանքի ընթացքում կատարված Sql հարցումների համար trace-երի հավաքագրման հայտանիշ: |
 | &nbsp;&nbsp;&nbsp;&nbsp;AddSqlParameters | bool | Ոչ պարտադիր | false | Sql հարցման [պարամետրերի](https://learn.microsoft.com/en-us/dotnet/api/microsoft.data.sqlclient.sqlparameter) մասին ինֆորմացիան trace-երում ներառելու հայտանիշ: |
+
+</div>
+
+<div class="version-block" data-product-id="bank" markdown="1">
+
+```json
+"OTLP": {
+    "Metrics": {
+        "EnableDefaultInstrumentations": false,
+        "PeriodicExporting": {
+            "ExportIntervalMilliseconds": 10000,
+            "MaxExceptionLogCount": 5
+            },
+        "CachedItemsCountEnabled": false,
+        "CBMessagesEnabled": false
+        },
+      "Tracing": {
+          "EnableDefaultInstrumentations": false,
+          "SqlClientInstrumentation": {
+              "Enabled": false,
+              "AddSqlParameters": false
+            }
+        }
+    }
+```
+
+**Պարամետրեր**
+
+| Անվանում | Տվյալների տիպ | Պարտադիր/Ոչ պարտադիր | Լռությամբ արժեք | Նկարագրություն |
+| --- | --- | --- | --- | --- |
+| Metrics | object | Ոչ պարտադիր |  | Այս բաժինը նախատեսված է մետրիկաների կարգավորման համար: |
+| &nbsp;&nbsp;EnableDefaultInstrumentations | bool | Ոչ պարտադիր | false | Ծրագրի աշխատանքի ընթացքում եկած Api հարցումների մասին մետրիկաների հավաքագրման հայտանիշ: |
+| &nbsp;&nbsp;PeriodicExporting | object | Ոչ պարտադիր |  | Այս բաժինը նախատեսված է պարբերական մետրիկաների կարգավորման համար: |
+| &nbsp;&nbsp;&nbsp;&nbsp;ExportIntervalMilliseconds | int | Ոչ պարտադիր | 60000 | Պարբերական մետրիկաների արտահանման ինտերվալը միլիվայրկյաններով: |
+| &nbsp;&nbsp;&nbsp;&nbsp;MaxExceptionLogCount | int | Ոչ պարտադիր | 5 | Մետրիկաները արտահանելիս առաջացող սխալների լոգավորման առավելագույն քանակը։ |
+| &nbsp;&nbsp;CachedItemsCountEnabled | bool | Ոչ պարտադիր | false | Lite և RO Document տիպի օբյեկտների քանակի գրանցման հայտանիշ: |
+| &nbsp;&nbsp;CBMessagesEnabled | bool | Ոչ պարտադիր | false | ԿԲ հաղորդագրությունների (CB_MESSAGES) մետրիկաների հավաքագրման և արտահանման հայտանիշ։ |
+| Tracing | object | Ոչ պարտադիր |  | Այս բաժինը նախատեսված է trace-ների կարգավորման համար: |
+| &nbsp;&nbsp;EnableDefaultInstrumentations | bool | Ոչ պարտադիր | false | Ծրագրի աշխատանքի ընթացքում եկած Api հարցումների մասին trace-ների հավաքագրման հայտանիշ: |
+| &nbsp;&nbsp;SqlClientInstrumentation | object | Ոչ պարտադիր |  | Այս բաժինը նախատեսված է Sql հարցումների համար trace-երի կարգավորման համար: |
+| &nbsp;&nbsp;&nbsp;&nbsp;Enabled | bool | Ոչ պարտադիր | false | Ծրագրի աշխատանքի ընթացքում կատարված Sql հարցումների համար trace-երի հավաքագրման հայտանիշ: |
+| &nbsp;&nbsp;&nbsp;&nbsp;AddSqlParameters | bool | Ոչ պարտադիր | false | Sql հարցման [պարամետրերի](https://learn.microsoft.com/en-us/dotnet/api/microsoft.data.sqlclient.sqlparameter) մասին ինֆորմացիան trace-երում ներառելու հայտանիշ: |
+
+</div>
 
 ## RateLimiter
 
