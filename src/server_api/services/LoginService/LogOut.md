@@ -1,9 +1,0 @@
----
-title: LoginService.LogOut() մեթոդ
----
-
-```c#
-public Task LogOut()
-```
-
-Հեռացնում է ընթացիկ օգտագործողի [սեսսիան](../../../server_api/types/SessionInfo.md), որի հետ համատեղ հեռացվում են նաև սեսսիայի ընթացքում առաջացած ժամանակավոր ֆայլերը, ընդհատվում և քեշից հեռացվում են երկար կատարվող պրոցեսները (փաստաթղթերի [գրանցում](../../../server_api/definitions/document/Store.md)/[հեռացում](../../../server_api/definitions/document/Delete.md), [տվյալների աղբյուրների](../../../server_api/definitions/ds.md), [DPR](../../../server_api/definitions/dpr.md)\-ների կատարում)։

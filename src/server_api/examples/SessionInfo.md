@@ -5,7 +5,7 @@ title: "Օրինակ SessionInfo, SUID, UserID, QueryTimeout, IsAdmin, WkDate"
 
 ISessionInfoService, GetInfo, DsQueryTimeout օգտագործման օրինակներ։
 
-Օրինակում օգտագործվում են ընթացիկ օգտագործողի սեսսիայի տվյալները։
+Ընթացիկ սեսսիայի հետ կապված օրինակ
 
 Օրինակում ստեղծվում է [SqlCommand](https://learn.microsoft.com/en-us/dotnet/api/microsoft.data.sqlclient.sqlcommand) դասի օբյեկտ՝ [IDBService](../services/IDBService.md) դասի [CreateCommand](../services/IDBService/CreateCommand.md) մեթոդի միջոցով` Sql հարցումներ կատարելու համար։
 
