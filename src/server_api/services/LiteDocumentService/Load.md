@@ -7,7 +7,7 @@ title: LiteDocumentService.Load մեթոդ
 | Անվանում | Նկարագրություն |
 |--|--|
 | [Load(int, bool, bool, bool)](#litedocumentserviceloadint-bool-bool-bool-մեթոդ) | Բեռնում է փաստաթուղթը տվյալների պահոցից ըստ փաստաթղթի ներքին նույնականացման համարի։ |
-| [Load(IEnumerable, bool)](#litedocumentserviceloadienumerable-bool-մեթոդ) | Բեռնում է նշված ներքին նույնականացման համարներով փաստաթղթերը հիմնական տվյալների պահոցից՝ առանց աղյուսակների բեռնման և արխիվային տվյալների ստուգման: |
+| [Load(IEnumerable&lt;int&gt;, bool, bool, bool, bool)](#litedocumentserviceloadienumerableint-bool-bool-bool-bool-մեթոդ) | Բեռնում է նշված ներքին նույնականացման համարներով (isn-ներով) փաստաթղթերը հիմնական տվյալների պահոցից և վերադարձնում Dictionary, որտեղ բանալին փաստաթղթի isn-ն է, իսկ արժեքը՝ տվյալ փաստաթուղթը։ |
 
 ### LiteDocumentService.Load(int, bool, bool, bool) մեթոդ 
 
@@ -36,7 +36,7 @@ public Task<LiteDocument> Load(int isn,
 | lookInArc                | bool          | true             | Արխիվացված փաստաթղթի բեռնման հայտանիշ։ <br> Պարամետրի **true** արժեքի և հիմնական տվյալների պահոցում փաստաթղթի բացակայության դեպքում փորձում է այն բեռնել արխիվայինից։ Հիմնական, արխիվային տվյալների պահոցումներում փաստաթղթի բացակայության և **throwExceptionIfDeleted** պարամետրի true արժեքի դեպքում առաջացնում է սխալ։ |
 
 
-### LiteDocumentService.Load(IEnumerable<int>, bool) մեթոդ  
+### LiteDocumentService.Load(IEnumerable&lt;int&gt;, bool, bool, bool, bool) մեթոդ  
 
 #### Նկարագիր
 

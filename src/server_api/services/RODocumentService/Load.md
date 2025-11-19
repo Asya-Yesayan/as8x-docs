@@ -9,7 +9,8 @@ title: RODocumentService.Load մեթոդ
 | [Load(int, bool, bool, bool)](#rodocumentserviceloadint-bool-bool-bool-մեթոդ) | Բեռնում է նշված ներքին նույնականացման համարներով փաստաթղթերը հիմնական տվյալների պահոցից՝ առանց աղյուսակների բեռնման և արխիվային տվյալների ստուգման: |
 | [Load(int, bool, bool, bool, bool)](#rodocumentserviceloadint-bool-bool-bool-bool-մեթոդ) | Բեռնում է փաստաթուղթը տվյալների պահոցից ըստ փաստաթղթի ներքին նույնականացման համարի։ |
 | [Load(int isn, bool, bool, bool, bool)](#rodocumentserviceloadint-bool-bool-bool-bool-մեթոդ) | Բեռնում է փաստաթուղթը տվյալների պահոցից ըստ փաստաթղթի ներքին նույնականացման համարի։ |
-| [Load(int, bool, Ref, bool)](#rodocumentserviceloadint-bool-ref-bool-մեթոդ) | Բեռնում է նշված ներքին նույնականացման համարներով փաստաթղթերը հիմնական տվյալների պահոցից՝ առանց աղյուսակների բեռնման և արխիվային տվյալների ստուգման: |
+| [Load(int, bool, Ref, bool)](#rodocumentserviceloadint-bool-refbool-bool-մեթոդ) | Բեռնում է նշված ներքին նույնականացման համարներով փաստաթղթերը հիմնական տվյալների պահոցից՝ առանց աղյուսակների բեռնման և արխիվային տվյալների ստուգման: |
+| [Load(IEnumerable&lt;int&gt;, bool, bool, bool, bool)](#rodocumentserviceloadienumerableint-bool-bool-bool-bool-մեթոդ) | Բեռնում է նշված ներքին նույնականացման համարներով (isn-ներով) փաստաթղթերը հիմնական տվյալների պահոցից և վերադարձնում Dictionary, որտեղ բանալին փաստաթղթի isn-ն է, իսկ արժեքը՝ տվյալ փաստաթուղթը։ |
 
 ### RODocumentService.Load(int, bool, bool, bool) մեթոդ
 
@@ -106,3 +107,31 @@ public Task<Dictionary<int, RODocument>> Load(IEnumerable<int> isnList,
 
 * `isnList` - Փաստաթղթերի ներքին նույնականացման համարների ցուցակ։
 * `loadGrids` - Փաստաթղթերի աղյուսակների բեռնման հայտանիշ։
+
+### RODocumentService.Load(IEnumerable&lt;int&gt;, bool, bool, bool, bool) մեթոդ  
+
+#### Նկարագիր
+
+**Դաս՝** [RODocumentService](../RODocumentService.md)
+
+```c#
+public Task<Dictionary<int, RODocument>> Load(IEnumerable<int> isnList, 
+                                              bool loadGrids = false, 
+                                              bool loadImagesAndMemos = false,
+                                              bool throwExceptionIfDelet  false, 
+                                              bool lookInArc = false)
+```
+
+Բեռնում է նշված ներքին նույնականացման համարներով (isn-ներով) փաստաթղթերը հիմնական տվյալների պահոցից և վերադարձնում Dictionary, որտեղ բանալին փաստաթղթի isn-ն է, իսկ արժեքը՝ տվյալ փաստաթուղթը։
+
+Փաստաթղթերի հիմնական տվյալները ստացվում են մեկ Sql հարցումով։
+
+**Պարամետրեր**
+
+| Անվանում | Տվյալների տիպ | Լռությամբ արժեք | **Նկարագրություն** |
+| --- | --- | --- | --- |
+| isnList | IEnumerable<int> | - | Փաստաթղթերի ներքին նույնականացման համարների ցուցակ։ |
+| loadGrids | bool | false | Փաստաթղթերի աղյուսակների բեռնման հայտանիշ։ |
+| loadImagesAndMemos | bool | false | Փաստաթղթերի նկարների ու մեծ մուտքագրման դաշտերի բեռնման հայտանիշ։ |
+| throwExceptionIfDeleted | bool | false | Պահանջվող փաստաթղթերից որևէ մեկի հեռացված լինելու դեպքում սխալի առաջացման հայտանիշ։ |
+| lookInArc | bool | false | Արխիվացված փաստաթղթերի բեռնման հայտանիշ։ <br> Պարամետրի **true** արժեքի և հիմնական տվյալների պահոցում փաստաթղթերի բացակայության դեպքում փորձում է բեռնել արխիվայինից։ Հիմնական, արխիվային տվյալների պահոցումներում փաստաթղթերից որևէ մեկի բացակայության և **throwExceptionIfDeleted** պարամետրի true արժեքի դեպքում առաջացնում է սխալ։ |
