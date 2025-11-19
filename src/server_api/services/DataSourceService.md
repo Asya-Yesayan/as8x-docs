@@ -10,6 +10,7 @@ DataSourceService դասը նախատեսված է տվյալների աղբյո
 
 | Անվանում | Նկարագրություն |
 |----------|----------------|
+| [ClearDefinitions(IEnumerable&lt;string&gt;)](DataSourceService/ClearDefinitions.md) | Հեռացնում է նշված տվյալների աղբյուրների նկարագրությունների քեշը սերվիսից։ |
 | [ExecuteDataSource(string, Dictionary&lt;string, object&gt;, CancellationToken)](DataSourceService/ExecuteDataSource.md#datasourceserviceexecutedatasourcestring-dictionarystring-object-cancellationtoken-մեթոդ) | Կատարում է տվյալների աղբյուրը և վերադարձնում տողերի ցուցակ։ |
 | [ExecuteDataSource(Type, Dictionary&lt;string, object&gt;, CancellationToken)](DataSourceService/ExecuteDataSource.md#datasourceserviceexecutedatasourcetype-dictionarystring-object-cancellationtoken-մեթոդ) | Կատարում է տվյալների աղբյուրը և վերադարձնում տողերի ցուցակ։ |
 | [GetColumnsDefinition(string)](DataSourceService/GetColumnsDefinition.md) | Վերադարձնում է տվյալների աղբյուրի սյուների նկարագրությունների ցանկը։ |
