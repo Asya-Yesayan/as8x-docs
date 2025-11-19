@@ -11,10 +11,8 @@ RODocumentService դասը նախատեսված է [RODocument](../types/RODocum
 | Անվանում | Նկարագրություն |
 |----------|----------------|
 | [ClearCache()](RODocumentService/ClearCache.md) | Հեռացնում է բոլոր փաստաթղթերը քեշից։ |
-| [Load(int, bool, bool, bool, bool)](RODocumentService/Load.md#rodocumentserviceloadint-bool-bool-bool-bool-մեթոդ) | Բեռնում է փաստաթուղթը տվյալների պահոցից ըստ փաստաթղթի ներքին նույնականացման համարի։ |
-| [Load(int, bool, bool, bool, bool)](RODocumentService/Load.md#rodocumentserviceloadint-bool-bool-bool-bool-մեթոդ-1) | Բեռնում է փաստաթուղթը տվյալների պահոցից ըստ փաստաթղթի ներքին նույնականացման համարի։ |
-| [Load(int, bool, bool, bool)](RODocumentService/Load.md#rodocumentserviceloadint-bool-bool-bool-մեթոդ) | Բեռնում է փաստաթուղթը տվյալների պահոցից ըստ փաստաթղթի ներքին նույնականացման համարի։ |
-| [Load(int, bool, Ref&lt;bool&gt;, bool)](RODocumentService/Load.md#rodocumentserviceloadint-bool-ref-bool-մեթոդ) | Բեռնում է նշված ներքին նույնականացման համարներով փաստաթղթերը հիմնական տվյալների պահոցից՝ առանց աղյուսակների բեռնման և արխիվային տվյալների ստուգման: |
+| [Load(int, bool, bool, bool, bool)](RODocumentService/Load.md#rodocumentserviceloadint-bool-bool-bool-bool-մեթոդ) | Բեռնում է փաստաթուղթը պահոցից՝ ըստ ներքին նույնականացման համարի և վերադարձնում այն [RODocument](../types/RODocument.md) բազային դասով։ |
+| [Load(int, bool, bool, bool, bool)](RODocumentService/Load.md#rodocumentserviceloadint-bool-bool-bool-bool-մեթոդ-1) | Բեռնում է փաստաթուղթը պահոցից՝ ըստ ներքին նույնականացման համարի և վերադարձնում այն T դասով, որը հանդիսանում է [RODocument](../types/RODocument.md)-ի ժառանգ։ |
 | [Load(IEnumerable&lt;int&gt;, bool, bool, bool, bool)](RODocumentService/Load#rodocumentserviceloadienumerableint-bool-bool-bool-bool-մեթոդ) | Բեռնում է նշված ներքին նույնականացման համարներով (isn-ներով) փաստաթղթերը հիմնական տվյալների պահոցից և վերադարձնում Dictionary, որտեղ բանալին փաստաթղթի isn-ն է, իսկ արժեքը՝ տվյալ փաստաթուղթը։ |
 | [LookUpInCache(int, bool, Ref&lt;bool&gt;, bool)](RODocumentService/LookUpInCache.md#rodocumentservicelookupincacheint-bool-ref-bool-մեթոդ) | Փնտրում է փաստաթուղթը քեշում ըստ փաստաթղթի ներքին նույնականացման համարի և վերադարձնում։ |
 | [LookUpInCache(int, DocumentLoadSession, Ref&ltbool&gt;, bool)](RODocumentService/LookUpInCache.md#rodocumentservicelookupincacheint-documentloadsession-ref-bool-մեթոդ) | Փնտրում է փաստաթուղթը քեշում ըստ փաստաթղթի ներքին նույնականացման համարի և վերադարձնում։ |
