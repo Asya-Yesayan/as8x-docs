@@ -24,7 +24,7 @@ private async Task<T> CreateCustomType<T>(string moduleName, string typeName)
     var moduleMetadata = await ServerSideModuleHelper.GetServerSideModuleMetadata(dBService, moduleName);
 
     // ստուգում է սերվերային մոդուլում typeName անունով class-ի առկայությունը,
-    // բացակայության դեպքում առաջացնում է սխալ։
+    // բացակայության դեպքում առաջանում է սխալ։
     if (!moduleMetadata.TryGetType(typeName, out var customType))
     {
         throw new InvalidOperationException(string.Format("{0} տիպը գոյություն չունի {1} սերվերային մոդուում։", typeName, moduleName));

@@ -6,7 +6,7 @@ title: ServerSideModuleHelper.GetServerSideModuleMetadata(IDBService, string) մ
 public static Task<ServerSideModuleMetadata> GetServerSideModuleMetadata(IDBService dbService, string name)
 ```
 
-Վերադարձնում է սերվերային մոդուլի [նկարագրությունը](../ServerSideModuleMetadata/ServerSideModuleMetadata.md)՝ ըստ ներքին անվան (կոդի)։ Տրված ներքին անունով [սերվերային մոդուլի](../../../extensions/definitions/server_side_module.md) բացակայության դեպքում առաջացնում է սխալ։
+Վերադարձնում է սերվերային մոդուլի [նկարագրությունը](../ServerSideModuleMetadata/ServerSideModuleMetadata.md)՝ ըստ ներքին անվան (կոդի)։ Տրված ներքին անունով [սերվերային մոդուլի](../../../extensions/definitions/server_side_module.md) բացակայության դեպքում առաջանում է սխալ։
 
 Տե՛ս օգտագործման [օրինակը](../ServerSideModuleMetadata/TryGetType.md#օրինակ):
 

@@ -9,7 +9,7 @@ public Task<DPRProgress> GetProgressAsync(Guid id,
 
 Վերադարձնում է [EnqueueAsync](EnqueueAsync.md) մեթոդի միջոցով նախապես հերթի դրված [DPR](../../../server_api/definitions/dpr.md)-ի կատարման պրոգրեսը։
 
-Եթե նշված id-ով DPR-ի կատարման առաջադրանք գոյություն չունի, ապա առաջացնում է սխալ։
+Եթե նշված id-ով DPR-ի կատարման առաջադրանք գոյություն չունի, ապա առաջանում է սխալ։
 
 **Պարամետրեր**
 
