@@ -28,10 +28,10 @@ versions:
     versions: ["250626.000", "250929.000"]
   - id: enterprise
     product: "ՀԾ-Ձեռնարկություն"
-    versions: ["4.0060.0"]
+    versions: ["4.0060.0", "4.0061.0"]
   - id: wages
     product: "ՀԾ-Աշխատավարձ"
-    versions: ["4.0061.0"]
+    versions: ["4.0061.0", "4.0062.0"]
 
 config_docservice_path1: ../services/IDocumentService.md#store
 config_docservice_path2: ../../services/IDocumentService.md#store
