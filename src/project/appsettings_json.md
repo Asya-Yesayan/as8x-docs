@@ -23,7 +23,7 @@ sublinks:
 
 ## Բովանդակություն
 
-<div class="version-block" data-product="bank" markdown="1">
+<div class="version-block" data-product-id="bank" data-version="250929.000" markdown="1">
 
 - [Ներածություն](#ներածություն)
 - [additionalSettings](#additionalsettings)
@@ -154,7 +154,7 @@ Azure AD-ով կամ Windows ADFS-ով նույնականացման կարգավ
 | &nbsp;&nbsp;**RedirectUri** | string | Պարտադիր | - | Նույնականացումից հետո վերահղման համար URL-ը։ |
 | &nbsp;&nbsp;**TokenMapping** | string | Պարտադիր | - | Նույնականացման համար անհրաժեշտ տոկենի տեսակը՝ [SID](https://www.techtarget.com/searchsecurity/definition/security-identifier)։ |
 
-<div class="version-block" data-product-id="bank" markdown="1">
+<div class="version-block" data-product-id="bank" data-version="250929.000" markdown="1">
 
 ## BackgroundJobs
 
