@@ -48,6 +48,30 @@ sublinks:
 
 </div>
 
+<div class="version-block" data-product-id="bank" data-version="250626.000" markdown="1">
+
+- [Ներածություն](#ներածություն)
+- [additionalSettings](#additionalsettings)
+- [Autentication](#autentication)
+- [db](#db)
+- [Extensions](#extensions)
+- [Hangfire](#hangfire)
+- [JwtConfig](#jwtconfig)
+- [OTLP](#otlp)
+- [RateLimiter](#ratelimiter)
+- [redisCachingSettings](#rediscachingsettings)
+  - [redisCachedItems](#rediscacheditems)
+- [Serilog](#serilog)
+  - [MinimumLevel-ի կարգավորում](#minimumlevel-ի-կարգավորում)
+  - [Լոգի գրանցում ֆայլում](#լոգի-գրանցում-ֆայլում)
+  - [Լոգի գրանցում Seq սերվերում](#լոգի-գրանցում-seq-սերվերում)
+  - [Լոգի ֆիլտրում](#լոգի-ֆիլտրում)
+  - [Մի քանի լոգերի կիրառում](#մի-քանի-լոգերի-կիրառում)
+- [Service](#service)
+- [Storage](#storage)
+
+</div>
+
 <div class="version-block" data-product="wages,enterprise" markdown="1">
 
 - [Ներածություն](#ներածություն)
