@@ -48,7 +48,7 @@ sublinks:
 
 </div>
 
-<div class="version-block" data-version-exclude="bank" markdown="1">
+<div class="version-block" data-product="wages,enterprise" data-product-exclude="bank" markdown="1">
 
 - [Ներածություն](#ներածություն)
 - [additionalSettings](#additionalsettings)

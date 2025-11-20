@@ -13,12 +13,32 @@ function showVersionBlocks(fullValue) {
 
     document.querySelectorAll('.version-block').forEach(el => {
         const productId = el.getAttribute('data-product-id');
+        const productList = el.getAttribute('data-product');
+        const productExclude = el.getAttribute('data-product-exclude');
+
         const exactVersions = el.getAttribute('data-version');
         const min = el.getAttribute('data-version-min');
         const max = el.getAttribute('data-version-max');
         const excludeVersions = el.getAttribute('data-version-exclude');
 
-        const productMatch = !productId || productId === selectedProductId;
+        let productMatch = true;
+
+        if (productId) {
+            productMatch = (productId === selectedProductId);
+        }
+
+        if (productList) {
+            const allowed = productList.split(',').map(v => v.trim());
+            productMatch = allowed.includes(selectedProductId);
+        }
+
+        // 3) Exclude specific products
+        if (productExclude) {
+            const excluded = productExclude.split(',').map(v => v.trim());
+            if (excluded.includes(selectedProductId)) {
+                productMatch = false;
+            }
+        }
 
         let versionMatch = false;
 
