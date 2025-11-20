@@ -1,8 +1,10 @@
 ---
-title: LiteDocumentService.LoadGrids(LiteDocument, bool) մեթոդ  
+title: LiteDocumentService.LoadGrids մեթոդ  
 ---
 
-## Նկարագիր
+## LiteDocumentService.LoadGrids(LiteDocument, bool) մեթոդ 
+
+### Նկարագիր
 
 **Դաս՝** [LiteDocumentService](../LiteDocumentService.md)
 
@@ -15,5 +17,28 @@ public Task LoadGrids(LiteDocument document,
 
 **Պարամետրեր**
 
-* `document` - Փաստաթուղթի օբյեկտ։
-* `lookInArc` - Արխիվացված փաստաթղթի աղյուսակների բեռնման հայտանիշ։ **true** արժեքի դեպքում փաստաթուղթը հիմնական պահոցում չգտնելու դեպքում փորձում է աղյուսակները բեռնել նաև արխիվային տվյալների պահոցից, եթե այնտեղ նույնպես փաստաթութը առկա չէ, առաջանում է սխալ։ 
+| Անվանում | Տվյալների տիպ | Լռությամբ արժեք | **Նկարագրություն** |
+| --- | --- | --- | --- |
+| document | LiteDocument | - | Փաստաթղթի օբյեկտ։ |
+| lookInArc | bool | false | Արխիվացված փաստաթղթի աղյուսակների բեռնման հայտանիշ։ <br> Պարամետրի **true** արժեքի և հիմնական տվյալների պահոցում փաստաթղթի աղյուսակների բացակայության դեպքում փորձում է բեռնել արխիվայինից։ |
+
+## LiteDocumentService.LoadGrids(List&lt;LiteDocument&gt;, bool) մեթոդ 
+
+### Նկարագիր
+
+**Դաս՝** [LiteDocumentService](../LiteDocumentService.md)
+
+```c#
+public async Task LoadGrids(List<LiteDocument> documents, 
+                            bool lookInArc = false)
+```
+
+Բեռնում է նշված փաստաթղթերի աղյուսակները տվյալների պահոցից։
+
+**Պարամետրեր**
+
+| Անվանում | Տվյալների տիպ | Լռությամբ արժեք | **Նկարագրություն** |
+| --- | --- | --- | --- |
+| documents | List<LiteDocument> | - | Փաստաթղթերի ցուցակ։ |
+| lookInArc | bool | false | Արխիվացված փաստաթղթերի աղյուսակների բեռնման հայտանիշ։ <br> Պարամետրի **true** արժեքի և հիմնական տվյալների պահոցում փաստաթղթերի աղյուսակների բացակայության դեպքում փորձում է բեռնել արխիվայինից։ |
+
