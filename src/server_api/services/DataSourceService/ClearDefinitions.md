@@ -1,5 +1,5 @@
 ---
-title: DataSourceService.ClearDefinitions(IEnumerable&lt;string&gt;) մեթոդ
+title: DataSourceService.ClearDefinitions(IEnumerable<string>) մեթոդ
 ---
 
 ## Նկարագիր
