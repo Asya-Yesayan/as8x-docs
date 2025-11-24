@@ -1,5 +1,5 @@
 ---
-title: LoggerService.ErrorForContext մեթոդ
+title: LoggerService.ErrorForContext(string) մեթոդ
 ---
 
 ```c#

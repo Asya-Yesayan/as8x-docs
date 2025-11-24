@@ -15,5 +15,5 @@ public void Error(ILogger logger,
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | **Նկարագրություն** |
 | --- | --- | --- | --- |
 | logger | ILogger | - | ILogger դասի օբյեկտ, որի միջոցով կատարվում է լոգավորումը։ |
-| messageTemplate | string | - | Լոգի իրադարձությունում գրանցվող [հաղորդագրության ձևանմուշը](https://github.com/serilog/serilog/wiki/Writing-Log-Events#message-template-syntax)։ |
-| propertyValues | object[] | - | Հաղորդագրության ձևանմուշում տեղադրվող արժեքների բազմությունը։ |
+| messageTemplate | string | - | Լոգի իրադարձությունում գրանցվող [հաղորդագրությունը](https://github.com/serilog/serilog/wiki/Writing-Log-Events#message-template-syntax)։ |
+| propertyValues | object[] | - | Հաղորդագրությունում տեղադրվող արժեքների բազմությունը։ |

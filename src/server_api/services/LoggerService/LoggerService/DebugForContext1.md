@@ -1,5 +1,5 @@
 ---
-title: LoggerService.DebugForContext մեթոդ
+title: LoggerService.DebugForContext(string, object[]) մեթոդ
 ---
 
 ```c#
@@ -13,8 +13,8 @@ public void DebugForContext<T>(string messageTemplate, params object[] propertyV
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | **Նկարագրություն** |
 | --- | --- | --- | --- |
 | T | T | - | Լոգի իրադարձության [կոնտեքսը](https://github.com/serilog/serilog/wiki/Writing-Log-Events#source-contexts), որը գրանցվում է SourceContext թեգում։ |
-| messageTemplate | string | - | Լոգի իրադարձությունում գրանցվող [հաղորդագրության ձևանմուշը](https://github.com/serilog/serilog/wiki/Writing-Log-Events#message-template-syntax)։ |
-| propertyValues | object[] | - | Հաղորդագրության ձևանմուշում տեղադրվող արժեքների բազմությունը։ |
+| messageTemplate | string | - | Լոգի իրադարձությունում գրանցվող [հաղորդագրությունը](https://github.com/serilog/serilog/wiki/Writing-Log-Events#message-template-syntax)։ |
+| propertyValues | object[] | - | Հաղորդագրությունում տեղադրվող արժեքների բազմությունը։ |
 
 **Օրինակ**
 
