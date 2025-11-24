@@ -14,7 +14,6 @@ public void Error(ILogger logger,
 
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | **Նկարագրություն** |
 | --- | --- | --- | --- |
-| --- | --- | --- | --- |
 | logger | ILogger | - | ILogger դասի օբյեկտ, որի միջոցով կատարվում է լոգավորումը։ |
 | exception | Exception | - | Լոգում գրանցվող [սխալը](https://learn.microsoft.com/en-us/dotnet/api/system.exception)։ |
 | messageTemplate | string | - | Լոգի իրադարձությունում գրանցվող հաղորդագրությունը։ |
