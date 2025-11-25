@@ -6,7 +6,7 @@ title: IExecutionProgress.Add(string) մեթոդ
 public void Add(string name);
 ```
 
-Ավելացնում է նոր փուլ կատարման պրոգրեսում:
+Ավելացնում է նոր [փուլ](../ProgressPhase.md) կատարման պրոգրեսում:
 
 **Պարամետրեր**
 

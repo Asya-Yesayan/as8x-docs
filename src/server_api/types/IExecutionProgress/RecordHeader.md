@@ -1,9 +1,9 @@
 ---
-title: IExecutionProgress.AddHeader(string) մեթոդ
+title: IExecutionProgress.RecordHeader(string) մեթոդ
 ---
 
 ```c#
-public void AddHeader(string header);
+public void RecordHeader(string header);
 ```
 
 Ավելացնում է նոր գլխագիր տող տեքստային հաշվետվության վերին հատվածում։ Առաջադրանքի կատարման ընթացքում մեթոդի կանչի դեպքում տեքստային հաշվետվությունը մնում է անփոփոխ։

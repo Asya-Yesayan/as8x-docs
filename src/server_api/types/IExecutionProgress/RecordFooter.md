@@ -1,9 +1,9 @@
 ---
-title: IExecutionProgress.AddFooter(string) մեթոդ
+title: IExecutionProgress.RecordFooter(string) մեթոդ
 ---
 
 ```c#
-public void AddFooter(string footer);
+public void RecordFooter(string footer);
 ```
 
 Ավելացնում է նոր տող տեքստային հաշվետվության ստորին հատվածում։ Առաջադրանքի կատարման ընթացքում մեթոդի կանչի դեպքում տեքստային հաշվետվությունը մնում է անփոփոխ։
