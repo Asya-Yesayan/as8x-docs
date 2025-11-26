@@ -8,70 +8,124 @@ title: IDocumentService.Create մեթոդ
 
 **Դաս՝** [IDocumentService](../IDocumentService.md)
 
-## Գերբեռնումներ
-
-| Անվանում | Նկարագրություն |
-|--|--|
-| [Create(List\<int\>, DocumentOrigin)](#idocumentservicecreatelistint-documentorigin-մեթոդ) | Ստեղծում է նշված տիպի փաստաթղթի նոր օբյեկտ։ |
-| [Create(int, DocumentOrigin)](#idocumentservicecreateint-documentorigin-մեթոդ) | Ստեղծում է նշված տիպի փաստաթղթի նոր օբյեկտ։ |
-| [Create(string, List\<int\>, Type, DocumentOrigin)](#idocumentservicecreatestring-listint-type-documentorigin-մեթոդ) | Ստեղծում է նշված ներքին անունով (տեսակի) փաստաթղթի նոր օբյեկտ։ |
-
-### IDocumentService.Create(List&lt;int&gt;, DocumentOrigin) մեթոդ
+## IDocumentService.Create(List&lt;int&gt;, object[]) մեթոդ
 
 ```c#
 public Task<T> Create<T>(List<int> parentsISN = null, 
-                         DocumentOrigin origin = DocumentOrigin.AsService
+                         params object[] parameters
                          ) where T : Document
 ```
-<!-- public Task<T> Create<T>(List<int> parentsISN = null, DocumentOrigin origin = DocumentOrigin.AsService, params object[] parameters) where T : Document -->
 
-Ստեղծում է նշված տիպի փաստաթղթի նոր օբյեկտ։
+Ստեղծում է նշված տիպի փաստաթղթի նոր օբյեկտ և վերադարձնում այն T դասով, որը հանդիսանում է [Document](../../definitions/document.md)-ի ժառանգ։
 
 **Պարամետրեր**
 
-* `T` - Փաստաթղթի նկարագրված դաս 8X-ում, [Document](../../definitions/document.md) դասի ժառանգ։
-* `parentsISN` - Փաստաթղթի ծնող փաստաթղթերի ISN-ների ցուցակ:
-* `origin` - [Փաստաթղթի ստեղծման աղբյուրը](../../types/DocumentOrigin.md):
-<!-- * `parameters` - Արգումենտների զանգված, որոնք փոխանցվում են փաստաթղթի կոնստրուկտորին և պիտի թվով, հերթականությամբ, տիպերով համընկնեն կանչվող կոնստրուկտորի շարահյուսությանը։
-Չփոխանցելու դեպքում փաստաթղթի նոր օբյեկտը ստեղծվելու է պարամետրեր չպարունակող կոնստրուկտորի միջոցով։ -->
+| Անվանում     | Տվյալների տիպ | Լռությամբ արժեք               | Նկարագրություն |
+|--------------|---------------|-------------------------------|----------------|
+| T            | T | —                         | Փաստաթղթի նկարագրված դաս 8X-ում, Document դասի ժառանգ։ |
+| parentsISN   | List<int>     | null                          | Փաստաթղթի ծնող փաստաթղթերի ISN-ների ցուցակ: |
+| parameters      | object[]    | - | Արգումենտների զանգված, որոնք փոխանցվում են փաստաթղթի կոնստրուկտորին և պիտի թվով, հերթականությամբ, տիպերով համընկնեն կանչվող կոնստրուկտորի շարահյուսությանը։ <br> Չփոխանցելու դեպքում փաստաթղթի նոր օբյեկտը ստեղծվելու է պարամետրեր չպարունակող կոնստրուկտորի միջոցով։ |
 
-### IDocumentService.Create(int, DocumentOrigin) մեթոդ
+## IDocumentService.Create(List&lt;int&gt;, bool, object[]) մեթոդ
+
+```c#
+public Task<T> Create<T>(List<int> parentsISN = null,
+                         bool suppressProgress,
+                         params object[] parameters
+                         ) where T : Document
+```
+
+Ստեղծում է նշված տիպի փաստաթղթի նոր օբյեկտ և վերադարձնում այն T դասով, որը հանդիսանում է [Document](../../definitions/document.md)-ի ժառանգ։
+
+**Պարամետրեր**
+
+| Անվանում     | Տվյալների տիպ | Լռությամբ արժեք               | Նկարագրություն |
+|--------------|---------------|-------------------------------|----------------|
+| T            | T | —                         | Փաստաթղթի նկարագրված դաս 8X-ում, Document դասի ժառանգ։ |
+| parentsISN   | List<int>     | null                          | Փաստաթղթի ծնող փաստաթղթերի ISN-ների ցուցակ: |
+| suppressProgress   | bool               | —                          | Փաստաթղթի կատարման պրոգրեսի ցուցադրման հայտանիշ։  |
+| parameters      | object[]    | - | Արգումենտների զանգված, որոնք փոխանցվում են փաստաթղթի կոնստրուկտորին և պիտի թվով, հերթականությամբ, տիպերով համընկնեն կանչվող կոնստրուկտորի շարահյուսությանը։ <br> Չփոխանցելու դեպքում փաստաթղթի նոր օբյեկտը ստեղծվելու է պարամետրեր չպարունակող կոնստրուկտորի միջոցով։ |
+
+## IDocumentService.Create(int, object[]) մեթոդ
 
 ```c#
 public Task<T> Create<T>(int parentISN, 
-                         DocumentOrigin origin = DocumentOrigin.AsService
+                         params object[] parameters
                          ) where T : Document
 ```
-<!-- public Task<T> Create<T>(int parentISN, DocumentOrigin origin = DocumentOrigin.AsService, params object[] parameters) where T : Document -->
 
-Ստեղծում է նշված տիպի փաստաթղթի նոր օբյեկտ։
+Ստեղծում է նշված տիպի փաստաթղթի նոր օբյեկտ և վերադարձնում այն T դասով, որը հանդիսանում է [Document](../../definitions/document.md)-ի ժառանգ։
 
 **Պարամետրեր**
 
-* `T` - Փաստաթղթի նկարագրված դաս 8X-ում, [Document](../../definitions/document.md) դասի ժառանգ։
-* `parentISN` - Փաստաթղթի ծնող փաստաթղթի ISN-ը:
-* `origin` - [Փաստաթղթի ստեղծման աղբյուրը](../../types/DocumentOrigin.md):
-<!-- * `parameters` - Արգումենտների զանգված, որոնք փոխանցվում են փաստաթղթի կոնստրուկտորին և պիտի թվով, հերթականությամբ, տիպերով համընկնեն կանչվող կոնստրուկտորի շարահյուսությանը։
-Չփոխանցելու դեպքում փաստաթղթի նոր օբյեկտը ստեղծվելու է պարամետրեր չպարունակող կոնստրուկտորի միջոցով։ -->
+| Անվանում    | Տվյալների տիպ    | Լռությամբ արժեք            | Նկարագրություն |
+|-------------|-------------------|----------------------------|----------------|
+| T           | T | —                        | Փաստաթղթի նկարագրված դաս 8X-ում, Document դասի ժառանգ։ |
+| parentISN   | int               | —                          | Փաստաթղթի ծնող փաստաթղթի ISN-ը: |
+| parameters      | object[]    | - | Արգումենտների զանգված, որոնք փոխանցվում են փաստաթղթի կոնստրուկտորին և պիտի թվով, հերթականությամբ, տիպերով համընկնեն կանչվող կոնստրուկտորի շարահյուսությանը։ <br> Չփոխանցելու դեպքում փաստաթղթի նոր օբյեկտը ստեղծվելու է պարամետրեր չպարունակող կոնստրուկտորի միջոցով։ |
 
-### IDocumentService.Create(string, List&lt;int&gt;, Type, DocumentOrigin) մեթոդ
+## IDocumentService.Create(int, bool, object[]) մեթոդ
+
+```c#
+public Task<T> Create<T>(int parentISN,
+                         bool suppressProgress,
+                         params object[] parameters
+                         ) where T : Document
+```
+
+Ստեղծում է նշված տիպի փաստաթղթի նոր օբյեկտ և վերադարձնում այն T դասով, որը հանդիսանում է [Document](../../definitions/document.md)-ի ժառանգ։
+
+**Պարամետրեր**
+
+| Անվանում    | Տվյալների տիպ    | Լռությամբ արժեք            | Նկարագրություն |
+|-------------|-------------------|----------------------------|----------------|
+| T           | T | —                        | Փաստաթղթի նկարագրված դաս 8X-ում, Document դասի ժառանգ։ |
+| parentISN   | int               | —                          | Փաստաթղթի ծնող փաստաթղթի ISN-ը: |
+| suppressProgress   | bool               | —                          | Փաստաթղթի կատարման պրոգրեսի ցուցադրման հայտանիշ։  |
+| parameters      | object[]    | - | Արգումենտների զանգված, որոնք փոխանցվում են փաստաթղթի կոնստրուկտորին և պիտի թվով, հերթականությամբ, տիպերով համընկնեն կանչվող կոնստրուկտորի շարահյուսությանը։ <br> Չփոխանցելու դեպքում փաստաթղթի նոր օբյեկտը ստեղծվելու է պարամետրեր չպարունակող կոնստրուկտորի միջոցով։ |
+
+## IDocumentService.Create(string, List&lt;int&gt;, Type, Dictionary&lt;string, object&gt;, object[]) մեթոդ
 
 ```c#
 public Task<Document> Create(string typeName, 
                              List<int> parentISN = null, 
-                             Type instanceType = null, 
-                             DocumentOrigin origin = DocumentOrigin.AsService)
+                             Type instanceType = null,
+                             Dictionary<string, object> properties = null, 
+                             params object[] parameters)
 ```
-<!-- public Task<Document> Create(string typeName, List<int> parentISN = null, Type instanceType = null, DocumentOrigin origin = DocumentOrigin.AsService, params object[] parameters) -->
 
-Ստեղծում է նշված ներքին անունով (տեսակի) փաստաթղթի նոր օբյեկտ։
+Ստեղծում է նշված տեսակի (ներքին անունով) փաստաթղթի նոր օբյեկտ և վերադարձնում այն [Document](../../definitions/document.md) բազային դասով։
 
 **Պարամետրեր**
 
-* `typeName` - Փաստաթղթի ներքին անուն (տեսակ)։
-* `parentsISN` - Փաստաթղթի ծնող փաստաթղթերի ISN-ների ցուցակ:
-* `instanceType` - Փաստաթղթի նկարագրված դաս 8X-ում, [Document](../../definitions/document.md) դասի ժառանգ։։
-* `origin` - [Փաստաթղթի ստեղծման աղբյուրը](../../types/DocumentOrigin.md):
-<!-- * `parameters` - Արգումենտների զանգված, որոնք փոխանցվում են փաստաթղթի կոնստրուկտորին և պիտի թվով, հերթականությամբ, տիպերով համընկնեն կանչվող կոնստրուկտորի շարահյուսությանը։
-Չփոխանցելու դեպքում փաստաթղթի նոր օբյեկտը ստեղծվելու է պարամետրեր չպարունակող կոնստրուկտորի միջոցով։ -->
+| Անվանում      | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
+|---------------|---------------|-----------------|----------------|
+| typeName      | string        | —               | Փաստաթղթի ներքին անուն (տեսակ)։ |
+| parentsISN    | List<int>     | —               | Փաստաթղթի ծնող փաստաթղթերի ISN-ների ցուցակ: |
+| instanceType  | Type          | —               | Փաստաթղթի նկարագրված դաս 8X-ում, Document դասի ժառանգ։ |
+| properties  | Dictionary<string, object>          | null               | Անուն/արժեքների ցուցակ, որոնք ավելացվելու են ստեղծվող փաստաթղթի Properties-ում։ |
+| parameters      | object[]    | - | Արգումենտների զանգված, որոնք փոխանցվում են փաստաթղթի կոնստրուկտորին և պիտի թվով, հերթականությամբ, տիպերով համընկնեն կանչվող կոնստրուկտորի շարահյուսությանը։ <br> Չփոխանցելու դեպքում փաստաթղթի նոր օբյեկտը ստեղծվելու է պարամետրեր չպարունակող կոնստրուկտորի միջոցով։ |
 
+## IDocumentService.Create(string, List&lt;int&gt;, Type, Dictionary&lt;string, object&gt;, bool, object[]) մեթոդ
+
+```c#
+public Task<Document> Create(string typeName, 
+                             List<int> parentISN = null, 
+                             Type instanceType = null,
+                             Dictionary<string, object> properties = null,
+                             bool suppressProgress, 
+                             params object[] parameters)
+```
+
+Ստեղծում է նշված տեսակի (ներքին անունով) փաստաթղթի նոր օբյեկտ և վերադարձնում այն [Document](../../definitions/document.md) բազային դասով։
+
+**Պարամետրեր**
+
+| Անվանում      | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
+|---------------|---------------|-----------------|----------------|
+| typeName      | string        | —               | Փաստաթղթի ներքին անուն (տեսակ)։ |
+| parentsISN    | List<int>     | —               | Փաստաթղթի ծնող փաստաթղթերի ISN-ների ցուցակ: |
+| instanceType  | Type          | —               | Փաստաթղթի նկարագրված դաս 8X-ում, Document դասի ժառանգ։ |
+| properties  | Dictionary<string, object>          | null               | Անուն/արժեքների ցուցակ, որոնք ավելացվելու են ստեղծվող փաստաթղթի Properties-ում։ |
+| suppressProgress   | bool               | —                          | Փաստաթղթի կատարման պրոգրեսի ցուցադրման հայտանիշ։  |
+| parameters      | object[]    | - | Արգումենտների զանգված, որոնք փոխանցվում են փաստաթղթի կոնստրուկտորին և պիտի թվով, հերթականությամբ, տիպերով համընկնեն կանչվող կոնստրուկտորի շարահյուսությանը։ <br> Չփոխանցելու դեպքում փաստաթղթի նոր օբյեկտը ստեղծվելու է պարամետրեր չպարունակող կոնստրուկտորի միջոցով։ |
