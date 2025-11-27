@@ -27,7 +27,7 @@ title: IExecutionProgress դաս
 | [CancellationRequest](IExecutionProgress/CancellationRequest.md) | Վերադարձնում է կատարման պրոգրեսով պրոցեսի [չեղարկման օբյեկտը](CancellationRequest.md)։ |
 | [CurrentPhase](IExecutionProgress/CurrentPhase.md) | Սահմանում կամ վերադարձնում է կատարման պրոգրեսի ընթացիկ [կատարման փուլը](ProgressPhase.md)։ |
 | [HasError](IExecutionProgress/HasError.md) | Սահմանում կամ վերադարձնում է արժեք, որը ցույց է տալիս՝ արդյոք առաջադրանքի կատարման ընթացքում տեղի է ունեցել սխալ։ |
-| [LoggingEnabled](IExecutionProgress/LoggingEnabled.md) | Հատկությունը ցույց է տալիս՝ արդյոք IExecutionProgres տիպի օբյեկտը ստեղծվել է առաջադրանքի կատարման ընթացքում։ |
+| [LoggingEnabled](IExecutionProgress/LoggingEnabled.md) | Հատկությունը որոշում է IExecutionProgress-ի տողեր ավելացնող մեթոդների ([RecordError](RecordError.md), [RecordInformation](RecordInformation.md), [RecordHeader](RecordHeader.md), ...) հաղորդագրությունները գրանցում են Seq-ում, թե ավելացվում՝ տեքստային հաշվետվությունում։ |
 | [LoggingAdditionalData](IExecutionProgress/LoggingAdditionalData.md) | Եթե IExecutionProgress տիպի օբյեկտը ստեղծվել է առաջադրանքի կատարման ընթացքում, ապա հատկությունը վերադարձնում է առաջադրանքներին յուրահատուկ թեգ/արժեքների ցուցակը, որոնք ավելացվել են կատարման ընթացքում գրանցվող լոգի իրադարձություններում, հակառակ դեպքում՝ null: |
 | [Source](IExecutionProgress/Source.md) | Վերադարձնում է կատարման պրոգրեսի [ստեղծման աղբյուրը](../ExecutionSource.md)։ |
 

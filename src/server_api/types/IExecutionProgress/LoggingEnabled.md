@@ -6,4 +6,4 @@ title: IExecutionProgress.LoggingEnabled հատկություն
 public bool LoggingEnabled { get; }
 ```
 
-Հատկությունը ցույց է տալիս՝ արդյոք IExecutionProgres տիպի օբյեկտը ստեղծվել է առաջադրանքի կատարման ընթացքում։ true արժեքի դեպքում IExecutionProgress-ի տողեր ավելացնող մեթոդները ([RecordError](RecordError.md), [RecordInformation](RecordInformation.md), [RecordHeader](RecordHeader.md)) հաղորդագրությունները գրանցում են Seq-ում, հակառակ դեպքում` տեքստային հաշվետվությունում։
+Հատկությունը որոշում է IExecutionProgress-ի տողեր ավելացնող մեթոդների ([RecordError](RecordError.md), [RecordInformation](RecordInformation.md), [RecordHeader](RecordHeader.md), ...) հաղորդագրությունները գրանցում են Seq-ում, թե ավելացվում՝ տեքստային հաշվետվությունում։
