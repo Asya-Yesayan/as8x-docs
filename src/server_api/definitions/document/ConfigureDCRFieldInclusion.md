@@ -4,7 +4,7 @@ title: Document.ConfigureDCRFieldInclusion(ConfigureDCRFieldInclusionEventArgs) 
 
 ## Նկարագիր
 
-**Համարժեքը 4x-ում՝** ConfigureDCRFields
+**Համարժեքը 4x-ում՝** [ConfigureDCRFields](https://asya-yesayan.github.io/as4x-docs/HTM/ProgrGuide/ScriptProcs/ConfigureDCRFields.html)
 
 **Դաս՝** [Document](../document.md)
 
@@ -16,9 +16,11 @@ public virtual Task ConfigureDCRFieldInclusion(ConfigureDCRFieldInclusionEventAr
 
 Լռությամբ տեքստային հաշվետվությունում ցուցադրվում են այն դաշտերը, որոնք չունեն **H** ատրիբուտը։
 
+**Պարամետրեր**
+
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 | --- | --- | --- | --- |
-| args | ConfigureDCRFieldInclusionEventArgs | - | [ConfigureDCRFieldInclusionEventArgs](../../types/ConfigureDCRFieldInclusionEventArgs.md) դասի օբյեկտ։ |
+| args | [ConfigureDCRFieldInclusionEventArgs](../../types/ConfigureDCRFieldInclusionEventArgs.md) | - | [ConfigureDCRFieldInclusionEventArgs](../../types/ConfigureDCRFieldInclusionEventArgs.md) դասի օբյեկտ։ |
 
 **Օրինակ**
 
