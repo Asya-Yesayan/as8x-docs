@@ -27,8 +27,8 @@ public virtual Task ConfigureDCRFieldInclusion(ConfigureDCRFieldInclusionEventAr
 ```c#
 public override Task ConfigureDCRFieldInclusion(ConfigureDCRFieldInclusionEventArgs args)
 {
-    args.FieldInclusions.Add("TYPE", true);
-    args.FieldInclusions.Add("CODE", false);
+    args.FieldInclusions.Add(nameof(this.Type), true);
+    args.FieldInclusions.Add(nameof(this.Code), false);
     return Task.CompletedTask;
 }
 ```
