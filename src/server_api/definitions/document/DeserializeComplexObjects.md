@@ -14,7 +14,14 @@ public virtual Task DeserializeComplexObjects(DeserializeComplexObjectsEventArgs
 
 Մեթոդը անհրաժեշտ է մշակել այն դեպքում, երբ 4X-ական փաստաթղթի [Properties](Properties.md) հատկությունով եկած բարդ օբյեկտները անհրաժեշտ է բերել համապատասխան c#-ական տիպերի 8X-ում։
 
+**Պարամետրեր**
+
+| Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
+| --- | --- | --- | --- |
+| args | [DeserializeComplexObjectsEventArgs](../../types/args/DeserializeComplexObjectsEventArgs.md) | - | [DeserializeComplexObjectsEventArgs](../../types/args/DeserializeComplexObjectsEventArgs.md) դասի օբյեկտ։ |
+
 **Օրինակ**
+
 ```c#
 public override async Task DeserializeComplexObjects(DeserializeComplexObjectsEventArgs args)
 {

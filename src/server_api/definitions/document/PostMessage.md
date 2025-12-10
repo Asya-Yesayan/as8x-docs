@@ -13,3 +13,9 @@ public virtual Task PostMessage(PostMessageEventArgs args)
 ```
 
 Մեթոդը կանչվում է միջուկի կողմից, երբ կից փաստաթղթից այս փաստաթղթին ուղարկվում է ծրագրային հաղորդագրություն [SendMessage](SendMessage.md) ֆունկցիայի միջոցով, դրանից հետո այս փաստաթուղթը գրանցվում է տվյալների պահոցում։
+
+**Պարամետրեր**
+
+| Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
+| --- | --- | --- | --- |
+| args | [PostMessageEventArgs](../../types/args/PostMessageEventArgs.md) | - | [PostMessageEventArgs](../../types/args/PostMessageEventArgs.md) դասի օբյեկտ։ |

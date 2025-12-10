@@ -7,7 +7,7 @@ title: Document.Progress հատկություն
 **Դաս՝** [Document](../document.md)
 
 ```c#
-public DocumentExecutionProgress Progress { get; private set; }
+public IUIRequestExecutionProgress Progress { get; private set; }
 ```
 
 Վերադարձնում է փաստաթղթի կատարման պրոգրեսը։

@@ -12,5 +12,11 @@ title: Document.BeforeImportProcessing(BeforeImportProcessingEventArgs) մեթո
 public virtual Task BeforeImportProcessing(BeforeImportProcessingEventArgs args)
 ```
 
-Մեթոդը կանչվում է միջուկի կողմից փաստաթղթերի ներմուծման ժամանակ փաստաթղթի օբյեկտի ստեղծելուց հետո։
+Մեթոդը կանչվում է միջուկի կողմից՝ փաստաթղթերի ներմուծման ժամանակ փաստաթղթի օբյեկտի ստեղծելուց հետո։
+
+**Պարամետրեր**
+
+| Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
+| --- | --- | --- | --- |
+| args | [BeforeImportProcessingEventArgs](../../types/args/BeforeImportProcessingEventArgs.md) | - | [BeforeImportProcessingEventArgs](../../types/args/BeforeImportProcessingEventArgs.md) դասի օբյեկտ։ |
 

@@ -12,7 +12,13 @@ title: Document.AfterLoad(AfterLoadEventArgs) մեթոդ
 public virtual Task AfterLoad(AfterLoadEventArgs args)
 ```
 
-Մեթոդը կանչվում է միջուկի կողմից [IDocumentService](../../services/IDocumentService.md).[Load](../../services/IDocumentService/Load.md) ֆունկցիայով փաստաթուղթը տվյալների պահոցից բեռնելուց անմիջապես հետո։
+Մեթոդը կանչվում է միջուկի կողմից՝ [IDocumentService.Load](../../services/IDocumentService/Load.md) ֆունկցիայով փաստաթուղթը տվյալների պահոցից բեռնելուց անմիջապես հետո։
 
 Մեթոդում սովորաբար փաստաթղթի դաշտերին տրվում են ժամանակավոր արժեքներ։
+
+**Պարամետրեր**
+
+| Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
+| --- | --- | --- | --- |
+| args | [AfterLoadEventArgs](../../types/args/AfterLoadEventArgs.md) | - | [AfterLoadEventArgs](../../types/args/AfterLoadEventArgs.md) դասի օբյեկտ։ |
 

@@ -16,3 +16,9 @@ public virtual Task OnRefuse(RefuseEventArgs args)
 
 Այս մեթոդի մշակման դեպքում իմաստ չունի մշակել [Delete](Delete.md) մեթոդը, քանի որ մեթոդը չի կանչվելու միջուկի կողմից։
 
+**Պարամետրեր**
+
+| Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
+| --- | --- | --- | --- |
+| args | [RefuseEventArgs](../../types/args/RefuseEventArgs.md) | - | [RefuseEventArgs](../../types/args/RefuseEventArgs.md) դասի օբյեկտ։ |
+

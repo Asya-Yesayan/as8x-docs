@@ -12,5 +12,13 @@ title: Document.AfterCommit(AfterCommitEventArgs) մեթոդ
 public virtual Task AfterCommit(AfterCommitEventArgs args)
 ```
 
-Մեթոդը կանչվում է միջուկի կողմից [IDocumentService](../../services/IDocumentService.md).[Load](../../services/IDocumentService/Load.md) ֆունկցիայով փաստաթուղթը տվյալների պահոցից բեռնելուց անմիջապես հետո։
+Մեթոդը կանչվում է միջուկի կողմից՝ [IDocumentService.Store](../../services/IDocumentService/Store.md) ֆունկցիայով փաստաթուղթը գրանցելիս, գրանցման տրանզակցիայից ավարտից հետո։
+
+Մեթոդում իմաստ չունի փոխել փաստաթղթի հատկությունները, դաշտերը, գեներացնել հաշվառումներ և այլն, քանի որ փաստաթուղթը արդեն գրանցվել է տվյալների պահոցում և գրանցման տրանզակցիան ավարտվել է։
+
+**Պարամետրեր**
+
+| Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
+| --- | --- | --- | --- |
+| args | [AfterCommitEventArgs](../../types/args/AfterCommitEventArgs.md) | - | [AfterCommitEventArgs](../../types/args/AfterCommitEventArgs.md) դասի օբյեկտ։ |
 

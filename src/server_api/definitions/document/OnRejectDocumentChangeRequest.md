@@ -16,7 +16,9 @@ public virtual Task OnRejectDocumentChangeRequest(RejectDocumentChangeRequestEve
 
 **Պարամետրեր**
 
-* `args` - [RejectDocumentChangeRequestEventArgs](../../types/args/RejectDocumentChangeRequestEventArgs.md) դասի օբյեկտ:
+| Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
+| --- | --- | --- | --- |
+| args | [RejectDocumentChangeRequestEventArgs](../../types/args/RejectDocumentChangeRequestEventArgs.md) | - | [RejectDocumentChangeRequestEventArgs](../../types/args/RejectDocumentChangeRequestEventArgs.md) դասի օբյեկտ։ |
 
 **Նկատառումներ**
 

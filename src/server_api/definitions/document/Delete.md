@@ -12,7 +12,13 @@ title: Document.Delete(DeleteEventArgs) մեթոդ
 public virtual Task Delete(DeleteEventArgs args)
 ```
 
-Մեթոդը կանչվում է միջուկի կողմից [IDocumentService](../../services/IDocumentService.md).[Delete](../../services/IDocumentService/Delete.md) ֆունկցիայով փաստաթղթի ջնջելուց առաջ։
+Մեթոդը կանչվում է միջուկի կողմից՝ [IDocumentService.Delete](../../services/IDocumentService/Delete.md) ֆունկցիայով փաստաթուղթը ջնջելիս։
 
-Նախատեսված է ջնջելուց առաջ ստուգումներ կատարելու և կապակցված տվյալներ ջնջելու համար։
+Նախատեսված է ջնջելուց առաջ ստուգումներ կատարելու և այլ տվյալներ ջնջելու համար։
+
+**Պարամետրեր**
+
+| Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
+| --- | --- | --- | --- |
+| args | [DeleteEventArgs](../../types/args/DeleteEventArgs.md) | - | [DeleteEventArgs](../../types/args/DeleteEventArgs.md) դասի օբյեկտ։ |
 

@@ -20,5 +20,7 @@ protected virtual Task DoLoadGrids(LoadGridsEventArgs args)
 
 **Պարամետրեր**
 
-* `args` - LoadGridsEventArgs տիպի օբյեկտ, որը պարունակում է [GridLoadMode](../../types/GridLoadMode.md) տիպի օբյեկտ, որը սահմանում է փաստաթղթի աղյուսակների բեռնման ռեժիմը։
+| Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
+| --- | --- | --- | --- |
+| args | [LoadGridsEventArgs](../../types/args/LoadGridsEventArgs.md) | - | [LoadGridsEventArgs](../../types/args/LoadGridsEventArgs.md) դասի օբյեկտ։ |
 
