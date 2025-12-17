@@ -19,6 +19,8 @@ title: IExecutionProgress դաս
 | [RecordError(string, Exception, int, string, int, Dictionary&lt;string, object&gt;)](IExecutionProgress/RecordError1.md) | Ավելացնում է նոր տող տեքստային հաշվետվությունում, եթե մեթոդը չի կանչվել առաջադրանքի կատարման ժամանակ։ <br> Առաջադրանքի կատարման ընթացքում կանչի դեպքում միայն Seq-ում ավելացվում է նոր իրադարձություն՝ նշված հաղորդագրությունով, սխալի հաղորդագրությամբ և Error լոգավորման մակարդակով, իսկ տեքստային հաշվետվությունը մնում է անփոփոխ։ |
 | [SaveToStorageAndClose()](IExecutionProgress/SaveToStorageAndClose.md) | Փակում է հաշվետվությունը և պահպանում [ընթացիկ սեսսիայի կոնտեյներում](../services/IStorageService/Container.md): |
 | [SaveToStorageAsText(StorageInfo, bool, bool, bool)](IExecutionProgress/SaveToStorageAsText.md) | Պահպանում է տեքստային հաշվետվության պարունակությունը ֆայլի մեջ։ |
+| [RecordWarning(IEnumerable&lt;string&gt;, int, string, int, Dictionary&lt;string, object&gt;)](IExecutionProgress/RecordWarning1.md) | Ավելացնում է նոր տողեր տեքստային հաշվետվությունում, եթե մեթոդը չի կանչվել առաջադրանքի կատարման ժամանակ։ <br> Առաջադրանքի կատարման ընթացքում կանչի դեպքում միայն Seq-ում ավելացվում է նոր իրադարձություն՝ նշված հաղորդագրություններով և Warning լոգավորման մակարդակով, իսկ տեքստային հաշվետվությունը մնում է անփոփոխ։ |
+| [RecordWarning(string, int, string, int, Dictionary&lt;string, object&gt;)](IExecutionProgress/RecordWarning.md) | Ավելացնում է նոր տող տեքստային հաշվետվությունում, եթե մեթոդը չի կանչվել առաջադրանքի կատարման ժամանակ։ <br> Առաջադրանքի կատարման ընթացքում կանչի դեպքում միայն Seq-ում ավելացվում է նոր իրադարձություն՝ նշված հաղորդագրությունով և Warning լոգավորման մակարդակով, իսկ տեքստային հաշվետվությունը մնում է անփոփոխ։ |
 
 ## Հատկություններ
 
