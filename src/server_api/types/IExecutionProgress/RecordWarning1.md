@@ -9,10 +9,10 @@ title: IExecutionProgress.RecordWarning(IEnumerable<string>, int, string, int,
 
 ```c#
 public void RecordWarning(IEnumerable<string> messages, 
-                              int isn = -1, 
-                              string rowDesc = "", 
-                              int splitSize = -1,
-                              Dictionary<string, object> loggingAdditionalData = null);
+                          int isn = -1, 
+                          string rowDesc = "", 
+                          int splitSize = -1,
+                          Dictionary<string, object> loggingAdditionalData = null);
 ```
 
 Ավելացնում է նոր տողեր [տեքստային հաշվետվությունում](../TextReport.md), եթե մեթոդը չի կանչվել առաջադրանքի կատարման ժամանակ։ 
