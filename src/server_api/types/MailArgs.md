@@ -26,24 +26,18 @@ public class MailArgs
 ```
 
 **Պարամետրեր**
+| Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
+|----------|----------------|----------------|----------------|
+| BodyFormat | BodyFormatSE | BodyFormatSE.Text | Հաղորդագրության տեքստի ձևաչափը։ BodyFormatSE.Text - Ստանդարտ, ոչ ֆորմատավորված տեքստ, BodyFormatSE.Html - HTML ձևաչափի տեքստ |
+| Importance | ImportanceSE | ImportanceSE.Normal | Հաղորդագրության կարևորության աստիճանը։ ImportanceSE.Low - Ցածր կարևորության, ImportanceSE.Normal - Միջին կարևորության, ImportanceSE.High - Բարձր կարևորության |
+| Sensitivity | SensitivitySE | SensitivitySE.Normal | Հաղորդագրության գաղտնիության աստիճանը։ SensitivitySE.Normal - Ստանդարտ, SensitivitySE.Personal - Պարունակում է անձնական տվյալներ, SensitivitySE.Private - Պարունակում է անձնական/գաղտնի տվյալներ, SensitivitySE.Confidential - Պարունակում է խիստ գաղտնի տվյալներ |
+| SmptParameterNamePrefix | string | string.Empty | Օգտագործվում է `MailKitMailService`-ով հաղորդագրություն ուղարկելիս։ |
+| ProfileName | string | - | [Պրոֆիլի անունը](https://learn.microsoft.com/en-us/sql/relational-databases/system-stored-procedures/sp-send-dbmail-transact-sql#----profile_name), որը օգտագործվում է `DBMailService`-ով [Database Mail](https://learn.microsoft.com/en-us/sql/relational-databases/database-mail/database-mail) ուղարկելիս։ |
+| Recipients | IEnumerable<string> | - | Հաղորդագրությունը ստացողների էլեկտրոնային հասցեների ցուցակը։ |
+| CopyRecipients | IEnumerable<string> | - | Այն էլեկտրոնային հասցեների ցուցակը, որոնք ստանալու են հաղորդագրության պատճենը այնպես, որ հաղորդագրության մնացած ստացողները (`Recipients`, `CopyRecipients`) չկարողանան տեսնել նրանց հասցեները։ |
+| BlindCopyRecipients | IEnumerable<string> | - | - |
+| Subject | string | - | Հաղորդագրության թեման։ |
+| Body | string | - | Հաղորդագրության տեքստը։ |
+| FileAttachments | List<string> | [] | Հաղորդագրությանը կցվող ֆայլերի ամբողջական ճանապարհների ցուցակ։ |
+| RequestReceipt | bool | - | Ցույց է տալիս, արդյոք հաղորդագրություն ուղարկողը կստանա ծանուցում ստացող(ներ)ի կողմից հաղորդագրությունը բացելիս։ |
 
-* `BodyFormat` - Հաղորդագրության տեքստի ձևաչափը։
-    * BodyFormatSE.Text - Ստանդարտ, ոչ ֆորմատավորված տեքստ
-    * BodyFormatSE.Html - HTML ձևաչափի տեքստ
-* `Importance` - Հաղորդագրության կարևորության աստիճանը։
-    * ImportanceSE.Low - Ցածր կարևորության
-    * ImportanceSE.Normal - Միջին կարևորության
-    * ImportanceSE.High - Բարձր կարևորության
-* `Sensitivity` - Հաղորդագրության գաղտնիության աստիճանը։
-    * SensitivitySE.Normal - Ստանդարտ
-    * SensitivitySE.Personal - Պարունակում է անձնական տվյալներ
-    * SensitivitySE.Private - Պարունակում է անձնական/գաղտնի տվյալներ
-    * SensitivitySE.Confidential - Պարունակում է խիստ գաղտնի տվյալներ
-* `SmptParameterNamePrefix` - Օգտագործվում է `MailKitMailService`-ով հաղորդագրություն ուղարկելիս։
-* `ProfileName` - [Պրոֆիլի անունը](https://learn.microsoft.com/en-us/sql/relational-databases/system-stored-procedures/sp-send-dbmail-transact-sql#----profile_name), որը օգտագործվում է `DBMailService`-ով [Database Mail](https://learn.microsoft.com/en-us/sql/relational-databases/database-mail/database-mail) ուղարկելիս։
-* `Recipients` - Հաղորդագրությունը ստացողների էլեկտրոնային հասցեների ցուցակը։
-* `CopyRecipients` - Այն էլեկտրոնային հասցեների ցուցակը, որոնք ստանալու են հաղորդագրության պատճենը այնպես, որ հաղորդագրության մնացած ստացողները (`Recipients`, `CopyRecipients`) չկարողանան տեսնել նրանց հասցեները։
-* `Subject` - Հաղորդագրության թեման։
-* `Body` - Հաղորդագրության տեքստը։
-* `FileAttachments` - Հաղորդագրությանը կցվող ֆայլերի ամբողջական ճանապարհների ցուցակ։
-* `RequestReceipt` - Ցույց է տալիս, արդյոք հաղորդագրություն ուղարկողը կստանա ծանուցում ստացող(ներ)ի կողմից հաղորդագրությունը բացելիս։

@@ -13,5 +13,6 @@ public Task<List<ReportParametersModel>> GetParameters(string reportCallId)
 Վերադարձնում է նշված id-ով կանչված հաշվետվության [պարամետրերի նկարագրությունների](../../types/ReportParametersModel.md) ցուցակը։ 
 
 **Պարամետրեր**
- 
-* `reportCallId` - Տվյալների աղբյուրի [REPORTCALLS](https://asya-yesayan.github.io/as4x-docs/HTM/ProgrGuide/Database/REPORTCALLS.html) աղյուսակում գրանցված գրառման id-ն։
+| Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
+|-----------------|----------------------|----------------|----------------|
+| reportCallId    | string               | -              | Տվյալների աղբյուրի [REPORTCALLS](https://asya-yesayan.github.io/as4x-docs/HTM/ProgrGuide/Database/REPORTCALLS.html) աղյուսակում գրանցված գրառման id-ն։ |

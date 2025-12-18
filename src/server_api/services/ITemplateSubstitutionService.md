@@ -42,14 +42,15 @@ public Task Substitute(IPrintTemplateSubstitution printTemplateSubstitution,
 Լրացնում Է տպելու ձևանմուշը `printTemplateSubstitution`-ում պարունակվող նախապես հաշվարկված տվյալներով։
 
 **Պարամետրեր**
-
-* `printTemplateSubstitution` - Տպելու ձևանմուշի տեղադրվող արժեքները պարունակող օբյեկտ։
-* `file` - Տպելու ձևանմուշը պարունակող ֆայլի և թղթապանակի անունները։
-* `type` - [Տպելու ձևանմուշի տիպ][4XTemplateSubstitution]:
-* `htmlImageOption` - Html տպվող տեսքերի [պատկերների տեղադրման եղանակ](../․․/types/HtmlImageOption.md)։
-* `isUnicode` - Տպելու ձևանմուշի տվյալների `Unicode` կոդավորմամբ լրացման հայտանիշ։
-* `protect` - `true` արժեքի դեպքում տպելու ձևանմուշի ֆայլը բացվում է միայն կարդալու թույլտվությամբ, հակառակ դեպքում՝ կարդալու/խմբագրելու թույլտվությամբ։
-* `check` - Տպելու ձևանմուշում առկա կոդերի ճիշտ շարահյուսության ստուգման հայտանիշ։ -->
+| Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
+|-----------------|----------------------|----------------|----------------|
+| printTemplateSubstitution | IPrintTemplateSubstitution | -              | Տպելու ձևանմուշի տեղադրվող արժեքները պարունակող օբյեկտ։ |
+| file            | StorageInfo          | -              | Տպելու ձևանմուշը պարունակող ֆայլի և թղթապանակի անունները։ |
+| type            | SubstitutionType     | -              | [Տպելու ձևանմուշի տիպ][4XTemplateSubstitution]: |
+| htmlImageOption | HtmlImageOption      | default        | Html տպվող տեսքերի [պատկերների տեղադրման եղանակ](../․․/types/HtmlImageOption.md)։ |
+| isUnicode       | bool                 | false          | Տպելու ձևանմուշի տվյալների `Unicode` կոդավորմամբ լրացման հայտանիշ։ |
+| protect         | bool                 | false          | `true` արժեքի դեպքում տպելու ձևանմուշի ֆայլը բացվում է միայն կարդալու թույլտվությամբ, հակառակ դեպքում՝ կարդալու/խմբագրելու թույլտվությամբ։ |
+| check           | bool                 | false          | Տպելու ձևանմուշում առկա կոդերի ճիշտ շարահյուսության ստուգման հայտանիշ։ --> |
 
 <!-- ### SubstituteAndGetContent
 
@@ -63,10 +64,11 @@ public Task<string> SubstituteAndGetContent(IPrintTemplateSubstitution printTemp
 Լրացնում Է տպելու ձևանմուշը `printTemplateSubstitution`-ում պարունակվող նախապես հաշվարկված տվյալներով և վերադարձնում որպես տեքստ։
 
 **Պարամետրեր**
-
-* `printTemplateSubstitution` - Տպելու ձևանմուշի տեղադրվող արժեքները պարունակող օբյեկտ։
-* `file` - Տպելու ձևանմուշը պարունակող ֆայլի և թղթապանակի անունները։
-* `type` - [Տպելու ձևանմուշի տիպ][4XTemplateSubstitution]:
-* `htmlImageOption` - Html տպվող տեսքերի [պատկերների տեղադրման եղանակ](../../types/HtmlImageOption.md)։
-* `isUnicode` - Տպելու ձևանմուշի տվյալների `Unicode` կոդավորմամբ լրացման հայտանիշ։
-* `check` - Տպելու ձևանմուշում առկա կոդերի ճիշտ շարահյուսության ստուգման հայտանիշ։ -->
+| Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
+|-----------------|----------------------|----------------|----------------|
+| printTemplateSubstitution | IPrintTemplateSubstitution | -              | Տպելու ձևանմուշի տեղադրվող արժեքները պարունակող օբյեկտ։ |
+| file            | StorageInfo          | -              | Տպելու ձևանմուշը պարունակող ֆայլի և թղթապանակի անունները։ |
+| type            | SubstitutionType     | -              | [Տպելու ձևանմուշի տիպ][4XTemplateSubstitution]: |
+| htmlImageOption | HtmlImageOption      | default        | Html տպվող տեսքերի [պատկերների տեղադրման եղանակ](../../types/HtmlImageOption.md)։ |
+| isUnicode       | bool                 | false          | Տպելու ձևանմուշի տվյալների `Unicode` կոդավորմամբ լրացման հայտանիշ։ |
+| check           | bool                 | false          | Տպելու ձևանմուշում առկա կոդերի ճիշտ շարահյուսության ստուգման հայտանիշ։ --> |

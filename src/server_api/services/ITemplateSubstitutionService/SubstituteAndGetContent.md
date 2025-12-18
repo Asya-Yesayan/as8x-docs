@@ -18,10 +18,11 @@ public string SubstituteAndGetContent(IPrintTemplateSubstitution printTemplateSu
 Լրացնում Է տպելու ձևանմուշը `printTemplateSubstitution`-ում պարունակվող նախապես հաշվարկված տվյալներով և վերադարձնում որպես տեքստ։
 
 **Պարամետրեր**
-
-* `printTemplateSubstitution` - Տպելու ձևանմուշի տեղադրվող արժեքները պարունակող օբյեկտ։
-* `file` - Տպելու ձևանմուշի պարունակությունը որպես byte տիպի զանգված։
-* `type` - [Տպելու ձևանմուշի տիպ](../../types/SubstitutionType.md):
-* `htmlImageOption` - Html տպվող տեսքերի [պատկերների տեղադրման եղանակ](../../types/HtmlImageOption.md)։
-* `isUnicode` - Տպելու ձևանմուշի տվյալների `Unicode` կոդավորմամբ լրացման հայտանիշ։
-* `check` - Տպելու ձևանմուշում առկա կոդերի ճիշտ շարահյուսության ստուգման հայտանիշ։
+| Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
+|-----------------|----------------------|----------------|----------------|
+| printTemplateSubstitution | IPrintTemplateSubstitution | -              | Տպելու ձևանմուշի տեղադրվող արժեքները պարունակող օբյեկտ։ |
+| file            | byte[]               | -              | Տպելու ձևանմուշի պարունակությունը որպես byte տիպի զանգված։ |
+| type            | SubstitutionType     | -              | [Տպելու ձևանմուշի տիպ](../../types/SubstitutionType.md): |
+| htmlImageOption | HtmlImageOption      | default        | Html տպվող տեսքերի [պատկերների տեղադրման եղանակ](../../types/HtmlImageOption.md)։ |
+| isUnicode       | bool                 | false          | Տպելու ձևանմուշի տվյալների `Unicode` կոդավորմամբ լրացման հայտանիշ։ |
+| check           | bool                 | false          | Տպելու ձևանմուշում առկա կոդերի ճիշտ շարահյուսության ստուգման հայտանիշ։ |

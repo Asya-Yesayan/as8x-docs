@@ -29,13 +29,14 @@ public Task<Document> LoadFromFolder(string folder,
 Բեռնում է փաստաթուղթը ըստ թղթապանակի և բանալու։
 
 **Պարամետրեր**
-
-* `folder` - Թղթապանակի ներքին անուն։
-* `key` - Թղթապանակի տարրի բանալի։
-* `gridLoadMode` - [Աղյուսակների բեռնման հայտանիշ](../../types/GridLoadMode.md)։
-* `loadImagesAndMemos` - Նկարների ու մեծ մուտքագրման դաշտերի բեռնման հայտանիշ։ 
-* `instanceType` - Փաստաթղթի նկարագրված դաս 8X-ում, [Document](../../definitions/document.md) դասի ժառանգ։։
-* `loadParents` - Ծնող փաստաթղթերի ISN-ների ցուցակի բեռնման հայտանիշ։
+| Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
+|-----------------|----------------------|----------------|----------------|
+| folder          | string               | -              | Թղթապանակի ներքին անուն։ |
+| key             | string               | -              | Թղթապանակի տարրի բանալի։ |
+| gridLoadMode    | GridLoadMode         | GridLoadMode.Full | [Աղյուսակների բեռնման հայտանիշ](../../types/GridLoadMode.md)։ |
+| loadImagesAndMemos | bool                 | true           | Նկարների ու մեծ մուտքագրման դաշտերի բեռնման հայտանիշ։ |
+| instanceType    | Type                 | null           | Փաստաթղթի նկարագրված դաս 8X-ում, [Document](../../definitions/document.md) դասի ժառանգ։։ |
+| loadParents     | bool                 | false          | Ծնող փաստաթղթերի ISN-ների ցուցակի բեռնման հայտանիշ։ |
 
 ### IDocumentService.LoadFromFolder(string, string, GridLoadMode, bool, bool) մեթոդ
 
@@ -50,11 +51,11 @@ public Task<T> LoadFromFolder<T>(string folder,
 Բեռնում է փաստաթուղթը ըստ թղթապանակի և բանալու։
 
 **Պարամետրեր**
-
-* `T` - Փաստաթղթի նկարագրված դաս 8X-ում, [Document](../../definitions/document.md) դասի ժառանգ։
-* `folder` - Թղթապանակի ներքին անուն։
-* `key` - Թղթապանակի տարրի բանալի։
-* `gridLoadMode` - [Աղյուսակների բեռնման հայտանիշ](../../types/GridLoadMode.md)։
-* `loadImagesAndMemos` - Նկարների ու մեծ մուտքագրման դաշտերի բեռնման հայտանիշ։ 
-* `loadParents` - Ծնող փաստաթղթերի ISN-ների ցուցակի բեռնման հայտանիշ։
+| Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
+|-----------------|----------------------|----------------|----------------|
+| folder          | string               | -              | Թղթապանակի ներքին անուն։ |
+| key             | string               | -              | Թղթապանակի տարրի բանալի։ |
+| gridLoadMode    | GridLoadMode         | GridLoadMode.Full | [Աղյուսակների բեռնման հայտանիշ](../../types/GridLoadMode.md)։ |
+| loadImagesAndMemos | bool                 | true           | Նկարների ու մեծ մուտքագրման դաշտերի բեռնման հայտանիշ։ |
+| loadParents     | bool                 | false          | Ծնող փաստաթղթերի ISN-ների ցուցակի բեռնման հայտանիշ։ |
 

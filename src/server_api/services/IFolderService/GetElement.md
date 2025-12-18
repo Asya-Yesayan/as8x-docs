@@ -27,9 +27,10 @@ public virtual Task<FolderElement> GetElement(string folderId,
 Տարրի առկա չլինելու դեպքում վերադարձնում է **null**։
 
 **Պարամետրեր**
-
-* `folderId` - Թղթապանակի ներքին անունը։
-* `isn` - Թղթապանակում գրանցված փաստաթղթի ներքին նույնականացման համարը։
+| Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
+|-----------------|----------------------|----------------|----------------|
+| folderId        | string               | -              | Թղթապանակի ներքին անունը։ |
+| isn             | int                  | -              | Թղթապանակում գրանցված փաստաթղթի ներքին նույնականացման համարը։ |
 
 ### IFolderService.GetElement(string, string, bool) մեթոդ
 
@@ -44,8 +45,9 @@ public virtual Task<FolderElement> GetElement(string folderId,
 Տարրի առկա չլինելու դեպքում վերադարձնում է **null**։
 
 **Պարամետրեր**
-
-* `folderId` - Թղթապանակի ներքին անունը։
-* `key` - Տարրի բանալին թղթապանակում։
-* `noLock` - Թղթապանակի տարրը վերադարձնող Sql հարցման [NOLOCK](https://learn.microsoft.com/en-us/sql/t-sql/queries/hints-transact-sql-table?view=sql-server-ver16#readuncommitted) (READUNCOMMITTED) ռեժիմով կատարման հայտանիշ։
+| Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
+|-----------------|----------------------|----------------|----------------|
+| folderId        | string               | -              | Թղթապանակի ներքին անունը։ |
+| key             | string               | -              | Տարրի բանալին թղթապանակում։ |
+| noLock          | bool                 | false          | Թղթապանակի տարրը վերադարձնող Sql հարցման [NOLOCK](https://learn.microsoft.com/en-us/sql/t-sql/queries/hints-transact-sql-table?view=sql-server-ver16#readuncommitted) (READUNCOMMITTED) ռեժիմով կատարման հայտանիշ։ |
 

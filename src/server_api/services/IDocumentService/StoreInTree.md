@@ -18,6 +18,7 @@ public void StoreInTree(Document document,
 Ծառի տարրերը անմիջապես չեն գրանցվում տվյալների պահոցում անմիջապես, գրանցումները կատարվում են [Folders](../../definitions/document/Folders.md) իրադարձության մշակիչի ավարտից հետո։
 
 **Պարամետրեր**
-
-* `document` - [Փաստաթղթի օբյեկտ](../../definitions/document.md)։
-* `treeElement` - [Ծառի տարր](../../types/TreeElement.md):
+| Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
+|-----------------|----------------------|----------------|----------------|
+| document        | Document             | -              | [Փաստաթղթի օբյեկտ](../../definitions/document.md)։ |
+| treeElement     | TreeElement          | -              | [Ծառի տարր](../../types/TreeElement.md): |

@@ -21,9 +21,10 @@ public Task<string> LoadSubstituteAndGetContent(IPrintTemplateSubstitution print
 Տե՛ս [օրինակը](../../examples/ITemplateSubstitutionService.md#օրինակ-1)։
 
 **Պարամետրեր**
-
-* `printTemplateSubstitution` - Տպելու ձևանմուշի տեղադրվող արժեքները պարունակող օբյեկտ։
-* `name` - Տպելու ձևանմուշի ներքին անուն:
-* `type` - [Տպելու ձևանմուշի տիպ](../../types/SubstitutionType.md):
-* `htmlImageOption` - Html տպվող տեսքերի [պատկերների տեղադրման եղանակ](../../types/HtmlImageOption.md)։
-* `check` - Տպելու ձևանմուշում առկա կոդերի ճիշտ շարահյուսության ստուգման հայտանիշ։
+| Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
+|-----------------|----------------------|----------------|----------------|
+| printTemplateSubstitution | IPrintTemplateSubstitution | -              | Տպելու ձևանմուշի տեղադրվող արժեքները պարունակող օբյեկտ։ |
+| name            | string               | -              | Տպելու ձևանմուշի ներքին անուն: |
+| type            | SubstitutionType     | -              | [Տպելու ձևանմուշի տիպ](../../types/SubstitutionType.md): |
+| htmlImageOption | HtmlImageOption      | default        | Html տպվող տեսքերի [պատկերների տեղադրման եղանակ](../../types/HtmlImageOption.md)։ |
+| check           | bool                 | false          | Տպելու ձևանմուշում առկա կոդերի ճիշտ շարահյուսության ստուգման հայտանիշ։ |

@@ -15,5 +15,6 @@ public void SetIsolationLevel(IsolationLevel level);
 Տրանզակցիաների բացվում են Read Committed մակարդակով։
 
 **Պարամետրեր**
-
-* `level` - [Տրանզակցիայի իզոլյացիայի մակարդակը](https://learn.microsoft.com/en-us/dotnet/api/system.data.isolationlevel)։
+| Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
+|-----------------|----------------------|----------------|----------------|
+| level           | IsolationLevel       | -              | [Տրանզակցիայի իզոլյացիայի մակարդակը](https://learn.microsoft.com/en-us/dotnet/api/system.data.isolationlevel)։ |

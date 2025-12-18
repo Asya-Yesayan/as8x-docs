@@ -39,6 +39,7 @@ public Task<string> GetTempBlobUrlAsync(string fileExtension, out string blobNam
 **Օրինակ** `C:\\Storage\\Files\\76dfc298-66c0-4b41-8981-434582400aeb\\lsrbuqgy.jay.txt`:
 
 **Պարամետրեր**
-
-* `fileExtension` - Ֆայլի ընդլայնումը։
-* `blobName` - Վերադարձնում է ֆայլի անունը՝ նշված ընդլայնմամբ։ -->
+| Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
+|-----------------|----------------------|----------------|----------------|
+| fileExtension   | string               | -              | Ֆայլի ընդլայնումը։ |
+| blobName        | string               | -              | Վերադարձնում է ֆայլի անունը՝ նշված ընդլայնմամբ։ --> |

@@ -17,7 +17,8 @@ public Task ReFolder(Document document,
 Այսինքն առաջացնում է [Folders](../../definitions/document/Folders.md) իրադարձությունը և համապատասխան մշակիչը։
 
 **Պարամետրեր**
-
-* `document` - [Փաստաթղթի օբյեկտ](../../definitions/document.md)։
-* `mode` - [Փաստաթղթի պահպանման ռեժիմը](../../types/StoreMode.md)։
+| Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
+|-----------------|----------------------|----------------|----------------|
+| document        | Document             | -              | [Փաստաթղթի օբյեկտ](../../definitions/document.md)։ |
+| mode            | StoreMode            | -              | [Փաստաթղթի պահպանման ռեժիմը](../../types/StoreMode.md)։ |
   Տե՛ս [Document](../../definitions/document.md).[StoreMode](../../definitions/document/StoreMode.md) հատկությունը։

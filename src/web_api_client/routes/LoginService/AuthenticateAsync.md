@@ -27,18 +27,16 @@ public Task<Exception> AuthenticateAsync(string serviceAddress,
 Նույնականացման ձախողման դեպքում վերադարձնում է առաջացած սխալը, հակառակ դեպքում վերադարձնում է null:
 
 **Պարամետրեր**
-
-* `serviceAddress` - 8X սերվիսի հասցեն։
-* `httpClient` - [HttpClient](https://learn.microsoft.com/en-us/dotnet/api/system.net.http.httpclient) դասի օբյեկտ, որը նախատեսված է նույնականացման և նույնականացումից հետո Http հարցումներ կատարելու համար է։
-  Օբյեկտը հարկավոր է բաց պահել քանի դեռ կատարվում են հարցումներ։
-* `logger` - [ILogger](https://learn.microsoft.com/en-us/dotnet/api/microsoft.extensions.logging.ilogger) դասի օբյեկտ, որը օգտագործվում է հարցումների և արդյունքների լոգավորման համար լոգավորման համար։  
-  Կարող է փոխանցվել `null`։
-* `apiClientId` - Կլիենտ ծրագրի id-ն (API Client Id)։
-* `secret` - Կլիենտ ծրագրի բանալի (API Client Secret)։
-* `username` - Օգտագործողի մուտքանունը (ներքին անունը)։
-* `configurationName` - Այս պարամետրի արժեքը փոխանցվում է [ConfigurationName](ConfigurationName.md) հատկությանը:
-  Այն ինֆորմատիվ բնույթ է կրում։
-* `cancellationToken` - Ընդհատման օբյեկտ։
+| Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
+|-----------------|----------------------|----------------|----------------|
+| serviceAddress  | string               | -              | 8X սերվիսի հասցեն։ |
+| httpClient      | HttpClient           | -              | [HttpClient](https://learn.microsoft.com/en-us/dotnet/api/system.net.http.httpclient) դասի օբյեկտ, որը նախատեսված է նույնականացման և նույնականացումից հետո Http հարցումներ կատարելու համար է։ Օբյեկտը հարկավոր է բաց պահել քանի դեռ կատարվում են հարցումներ։ |
+| logger          | ILogger              | -              | [ILogger](https://learn.microsoft.com/en-us/dotnet/api/microsoft.extensions.logging.ilogger) դասի օբյեկտ, որը օգտագործվում է հարցումների և արդյունքների լոգավորման համար լոգավորման համար։ Կարող է փոխանցվել `null`։  |
+| apiClientId     | short                | -              | Կլիենտ ծրագրի id-ն (API Client Id)։ |
+| secret          | string               | -              | Կլիենտ ծրագրի բանալի (API Client Secret)։ |
+| username        | string               | -              | Օգտագործողի մուտքանունը (ներքին անունը)։ |
+| configurationName | string               | ""             | Այս պարամետրի արժեքը փոխանցվում է [ConfigurationName](ConfigurationName.md) հատկությանը: Այն ինֆորմատիվ բնույթ է կրում։ |
+| cancellationToken | CancellationToken    | default        | Ընդհատման օբյեկտ։ |
 
 **Օրինակ**
 
@@ -63,16 +61,14 @@ public Task<Exception> AuthenticateAsync(string serviceAddress,
 Նույնականացման ձախողման դեպքում վերադարձնում է առաջացած սխալը, հակառակ դեպքում վերադարձնում է null:
 
 **Պարամետրեր**
-
-* `serviceAddress` - 8X սերվիսի հասցեն։
-* `httpClient` - [HttpClient](https://learn.microsoft.com/en-us/dotnet/api/system.net.http.httpclient) դասի օբյեկտ, որը նախատեսված է նույնականացման և նույնականացումից հետո Http հարցումներ կատարելու համար է։
-  Օբյեկտը հարկավոր է բաց պահել քանի դեռ կատարվում են հարցումներ։
-* `logger` - [ILogger](https://learn.microsoft.com/en-us/dotnet/api/microsoft.extensions.logging.ilogger) դասի օբյեկտ, որը օգտագործվում է հարցումների և արդյունքների լոգավորման համար լոգավորման համար։  
-  Կարող է փոխանցվել `null`։
-* `x509Certificate2` - Սերտիֆիկատ, որն օգտագործվում է կլիենտ ծրագրի նույնականացման համար:
-* `apiClientId` - Կլիենտ ծրագրի id-ն (API Client Id)։
-* `username` - Օգտագործողի մուտքանունը։
-* `password` - Օգտագործողի գաղտնաբառը։
-* `configurationName` - Այս պարամետրի արժեքը փոխանցվում է [ConfigurationName](ConfigurationName.md) հատկությանը:
-  Այն ինֆորմատիվ բնույթ է կրում։
-* `cancellationToken` - Ընդհատման օբյեկտ։
+| Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
+|-----------------|----------------------|----------------|----------------|
+| serviceAddress  | string               | -              | 8X սերվիսի հասցեն։ |
+| httpClient      | HttpClient           | -              | [HttpClient](https://learn.microsoft.com/en-us/dotnet/api/system.net.http.httpclient) դասի օբյեկտ, որը նախատեսված է նույնականացման և նույնականացումից հետո Http հարցումներ կատարելու համար է։ Օբյեկտը հարկավոր է բաց պահել քանի դեռ կատարվում են հարցումներ։ |
+| logger          | ILogger              | -              |  [ILogger](https://learn.microsoft.com/en-us/dotnet/api/microsoft.extensions.logging.ilogger) դասի օբյեկտ, որը օգտագործվում է հարցումների և արդյունքների լոգավորման համար լոգավորման համար։  Կարող է փոխանցվել `null`։ |
+| x509Certificate2 | X509Certificate2     | -              | Սերտիֆիկատ, որն օգտագործվում է կլիենտ ծրագրի նույնականացման համար: |
+| apiClientId     | short                | -              | Կլիենտ ծրագրի id-ն (API Client Id)։ |
+| username        | string               | -              | Օգտագործողի մուտքանունը։ |
+| password        | string               | -              | Օգտագործողի գաղտնաբառը։ |
+| configurationName | string               | ""             | Այս պարամետրի արժեքը փոխանցվում է [ConfigurationName](ConfigurationName.md) հատկությանը: Այն ինֆորմատիվ բնույթ է կրում։ |
+| cancellationToken | CancellationToken    | default        | Ընդհատման օբյեկտ։ |

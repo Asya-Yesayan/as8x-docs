@@ -9,10 +9,9 @@ protected override void Configure(IParametersService parametersService)
 Ստեղծում և կոնֆիգուրացնում է ՀԾ-Բանկին յուրահատուկ և համակարգի [հիմնական մետրիկաները](../../../../../server_api/types/MeterManager/Methods/Configure.md):
 
 **Պարամետրեր** 
-
-| Անվանում | Նկարագրություն |
-|--|--|
-| parametersService | [IParametersService](../../../../server_api/services/IParametersService.md) դասի օբյեկտ։ |
+| Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
+|-----------------|----------------------|----------------|----------------|
+| parametersService | IParametersService   | -              | parametersService | [IParametersService](../../../../server_api/services/IParametersService.md) դասի օբյեկտ։ |
 
 ## ՀԾ-Բանկի պրոյեկտում մետրիկաների ավելացման օրինակ
 

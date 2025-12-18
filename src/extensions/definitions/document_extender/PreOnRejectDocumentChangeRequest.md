@@ -16,9 +16,10 @@ public virtual Task PreOnRejectDocumentChangeRequest(Document sender,
 Մեթոդը կանչվում է միջուկի կողմից՝ [փաստաթղթի փոփոխման հայտը](../../../server_api/types/DocumentChangeRequest.md)մերժելիս, [OnRejectDocumentChangeRequest](../../../server_api/definitions/document/OnRejectDocumentChangeRequest.md) մեթոդի կանչից առաջ։
 
 **Պարամետրեր**
-
-* `sender` - [Փաստաթղթի օբյեկտը](../../../server_api/definitions/document.md), որի հիման վրա ստեղծվել է ընթացիկ փոփոխման հայտը։
-* `args` - [RejectDocumentChangeRequestEventArgs](../../../server_api/types/args/RejectDocumentChangeRequestEventArgs.md) դասի օբյեկտ։
+| Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
+|-----------------|----------------------|----------------|----------------|
+| sender          | Document             | -              | [Փաստաթղթի օբյեկտը](../../../server_api/definitions/document.md), որի հիման վրա ստեղծվել է ընթացիկ փոփոխման հայտը։ |
+| args            | RejectDocumentChangeRequestEventArgs | -              | [RejectDocumentChangeRequestEventArgs](../../../server_api/types/args/RejectDocumentChangeRequestEventArgs.md) դասի օբյեկտ։ |
 
 **Նկատառումներ**
 

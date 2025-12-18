@@ -15,11 +15,12 @@ public Task<AuthenticateResponse> AuthenticateWithSecretAsync(
 Նույնականացման հաջողման դեպքում վերադարձնում է [օգտագործողի տվյալները և թոքեն՝ դեպի սերվիս հարցումներ կատարելու համար](../../types/AuthenticateResponse.md), հակառակ դեպքում առաջացնում է սխալ։
 
 **Պարամետրեր**
-
-* `username` - Օգտագործողի մուտքանունը (ներքին անունը)։
-* `apiClientId` - Կլիենտ ծրագրի id-ն (API Client Id)։
-* `secret` - Կլիենտ ծրագրի բանալի (API Client Secret)։
-* `cancellationToken` - Ընդհատման օբյեկտ։
+| Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
+|-----------------|----------------------|----------------|----------------|
+| username        | string               | -              | Օգտագործողի մուտքանունը (ներքին անունը)։ |
+| apiClientId     | short                | -              | Կլիենտ ծրագրի id-ն (API Client Id)։ |
+| secret          | string               | -              | Կլիենտ ծրագրի բանալի (API Client Secret)։ |
+| cancellationToken | CancellationToken    | default        | Ընդհատման օբյեկտ։ |
 
 **Օրինակ**
 

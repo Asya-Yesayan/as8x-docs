@@ -15,5 +15,6 @@ public virtual Task<bool> Exists(string folderId);
 Ստուգում է որևէ տարրի առկայությունը տվյալների պահոցի [FOLDERS](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Database/Folders.html) աղյուսակում։
 
 **Պարամետրեր**
-
-* `folderId` - Թղթապանակի ներքին անունը։
+| Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
+|-----------------|----------------------|----------------|----------------|
+| folderId        | string               | -              | Թղթապանակի ներքին անունը։ |

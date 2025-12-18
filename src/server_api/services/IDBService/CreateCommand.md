@@ -17,8 +17,9 @@ public SqlCommand CreateCommand(TimeoutType timeoutType = TimeoutType.QueryTimeo
 **IDBService.Connection.CreateCommand**-ի միջոցով հարցումը կատարելու դեպքում որպես հարցման կատարման առավելագույն ժամանակ ([CommandTimeout](https://learn.microsoft.com/en-us/dotnet/api/microsoft.data.sqlclient.sqlcommand.commandtimeout)) լռությամբ սահմանվում է 30 վայրկյանը։
 
 **Պարամետրեր**
-
-- `timeoutType` - [SQL հարցման կատարման առավելագույն ժամանակի տիպը](../../types/TimeoutType.md)։ 
+| Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
+|-----------------|----------------------|----------------|----------------|
+| timeoutType     | TimeoutType          | TimeoutType.QueryTimeout | [SQL հարցման կատարման առավելագույն ժամանակի տիպը](../../types/TimeoutType.md)։ |
 
 <!-- ### CreateConnectionString
 
@@ -32,12 +33,14 @@ public string CreateConnectionString(string sqlServer, string dbName, string log
 Օգտագործում է [SqlConnectionStringBuilder](https://learn.microsoft.com/en-us/dotnet/api/microsoft.data.sqlclient.sqlconnectionstringbuilder) և փոխանցում է ֆունկցիայի պարամետրերը համապատասխան հատկություններին։
 
 **Պարամետրեր**
-* `sqlServer` - Սերվերի անունը։
-* `dbName` - Սերվերում տվյալների պահոցի անուն։
-* `login` - Օգտագործողի մուտքանունը։
-* `password` - Օգտագործողի գաղտնաբառը։
-* `encrypt` - Նշում է, թե արդյոք տվյալների պահոցին միացումը ծածկագրվի, թե ոչ։
-* `pooling` - Օգտագործել միացումների քեշ, թե ոչ։
-* `connectionName` - Ծրագրի անունը։ 
-* `maxPoolSize` - Միացումների քեշի առավելագույն քանակ։
-* `withoutDecrypting` - Նշվում է որ պետք չէ գաղտնաբառը ապակոդավորվի։ -->
+| Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
+|-----------------|----------------------|----------------|----------------|
+| sqlServer       | string               | -              | Սերվերի անունը։ |
+| dbName          | string               | -              | Սերվերում տվյալների պահոցի անուն։ |
+| login           | string               | -              | Օգտագործողի մուտքանունը։ |
+| password        | string               | -              | Օգտագործողի գաղտնաբառը։ |
+| encrypt         | bool                 | -              | Նշում է, թե արդյոք տվյալների պահոցին միացումը ծածկագրվի, թե ոչ։ |
+| pooling         | bool                 | true           | Օգտագործել միացումների քեշ, թե ոչ։ |
+| connectionName  | string               | Constants.DBConnections.Main | Ծրագրի անունը։ |
+| maxPoolSize     | int?                 | null           | Միացումների քեշի առավելագույն քանակ։ |
+| withoutDecrypting | bool                 | false          | Նշվում է որ պետք չէ գաղտնաբառը ապակոդավորվի։ --> |

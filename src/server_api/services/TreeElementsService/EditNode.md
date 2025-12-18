@@ -15,5 +15,6 @@ public Task<List<TreeNode>> EditNode(TreeElement treeElement)
 Խմբագրում է ծառի հանգույցը և գրանցում տվյալների պահոցում։
 
 **Պարամետրեր**
-
-* `treeElement` - [Ծառի տարրը](../../types/TreeElement.md)։
+| Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
+|-----------------|----------------------|----------------|----------------|
+| treeElement     | TreeElement          | -              | [Ծառի տարրը](../../types/TreeElement.md)։ |

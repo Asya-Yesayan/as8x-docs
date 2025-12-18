@@ -18,6 +18,7 @@ public void StoreInFolder(Document document,
 Թղթապանակի տարրերը անմիջապես չեն գրանցվում տվյալների պահոցում անմիջապես, գրանցումները կատարվում են [Folders](../../definitions/document/Folders.md) իրադարձության մշակիչի ավարտից հետո։
 
 **Պարամետրեր**
-
-* `document` - [Փաստաթղթի օբյեկտ](../../definitions/document.md)։
-* `folderElement` - [Թղթապանակի տարր](../../types/FolderElement.md)։
+| Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
+|-----------------|----------------------|----------------|----------------|
+| document        | Document             | -              | [Փաստաթղթի օբյեկտ](../../definitions/document.md)։ |
+| folderElement   | FolderElement        | -              | [Թղթապանակի տարր](../../types/FolderElement.md)։ |

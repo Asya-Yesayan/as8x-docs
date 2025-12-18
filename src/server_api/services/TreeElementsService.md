@@ -34,8 +34,9 @@ public Task<(bool, byte[], Dictionary<string, TreeElement>)> CheckAndLoadIfNeede
 Վերադարձնում է՝ արդյոք բեռնվել են ծառի հանգույցները, վերջին բեռնման ժամանակը՝ որպես byte-երի զանգված, և հանգույցները նկարագրող dictionary-ն։ Եթե բեռնումը տեղի չի ունեցել, վերադարձնում է null-եր։
 
 **Պարամետրեր**
-
-* `treeID` - Ծառի ներքին անունը։
+| Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
+|-----------------|----------------------|----------------|----------------|
+| treeID              | string | -              |Ծառի ներքին անունը։  |
 * `ts` -  
 
 ### ClearOldsFromCache
@@ -47,9 +48,10 @@ public static void ClearOldsFromCache(SqlConnection connection, string treeId = 
 Մաքրում է ծառի նկարագրությունը և հանգույցները քեշից։
 
 **Պարամետրեր**
-
-* `connection` - [SqlConnection](https://learn.microsoft.com/en-us/dotnet/api/microsoft.data.sqlclient.sqlconnection?view=sqlclient-dotnet-standard-5.2) դեպի ծառը պարունակող տվյալների պահոց։
-* `treeID` - Ծառի ներքին անունը։ 
+| Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
+|-----------------|----------------------|----------------|----------------|
+| connection      | SqlConnection        | -              | [SqlConnection](https://learn.microsoft.com/en-us/dotnet/api/microsoft.data.sqlclient.sqlconnection?view=sqlclient-dotnet-standard-5.2) դեպի ծառը պարունակող տվյալների պահոց։ |
+| treeId          | string               | null           | Ծառի ներքին անունը։ |
 
 -->
 
@@ -62,8 +64,11 @@ public Task<List<TreeNode>> Store(int isn, Dictionary<string, TreeElement> cols,
 Գրանցում է `cols` պարամետրում տրված ծառի հանգույցները տվյալների պահոցի [TREES](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Database/Trees.html) աղյուսակում և վերադարձնում 
 
 **Պարամետրեր**
-
-* `isn` - Գրանցման ենթակա ծառի հանգույցներին տարրերին կապակցված փաստաթղթի ներքին նույնակականացման համարը։
-* `cols` - Գրանցման ենթակա ծառի հանգույցների ցուցակը։
+| Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
+|-----------------|----------------------|----------------|----------------|
+| isn             | int                  | -              | Գրանցման ենթակա ծառի հանգույցներին տարրերին կապակցված փաստաթղթի ներքին նույնակականացման համարը։ |
+| cols            | Dictionary<string, TreeElement> | -              | Գրանցման ենթակա ծառի հանգույցների ցուցակը։ |
+| existsInDB      | bool                 | -              | — |
+| returnModifiedTreeNodes | bool                 | -              | — |
 * `existsInDB` - 
 * `returnModifiedTreeNodes` -  -->

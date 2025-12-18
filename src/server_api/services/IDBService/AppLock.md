@@ -25,10 +25,11 @@ public Task AppLock(string resource,
 Արգելափակման համար օգտագործվում է [sp_getapplock](https://learn.microsoft.com/en-us/sql/relational-databases/system-stored-procedures/sp-getapplock-transact-sql) պրոցեդուրան։
 
 **Պարամետրեր**
-* `resource` - [Ռեսուրսի ներքին անունը (@Resource)](https://learn.microsoft.com/en-us/sql/relational-databases/system-stored-procedures/sp-getapplock-transact-sql#----nresource)։
-* `errorMsg` - Արգելափակման տեղադրման չստացվելու դեպքում առաջացող սխալի հաղորդագրությունը։ 
-  Եթե պարամետրի արժեքը դատարկ տող է, ապա առաջանում է ստանդարտ տեքստով սխալ։
-* `mode` - [Արգելափակման տեղադրման եղանակը (@LockMode)](https://learn.microsoft.com/en-us/sql/relational-databases/system-stored-procedures/sp-getapplock-transact-sql#----lockmode): 
-* `owner` - [Արգելափակման տեղադրման սեփականատերը (@LockOwner)](https://learn.microsoft.com/en-us/sql/relational-databases/system-stored-procedures/sp-getapplock-transact-sql#----lockowner)։ 
-* `timeout` - [Արգելափակման տեղադրման առավելագույն ժամանակը միլիվայրկյաններով (@LockTimeout)](https://learn.microsoft.com/en-us/sql/relational-databases/system-stored-procedures/sp-getapplock-transact-sql#----locktimeout)։ 
-* `dbPrincipal` - [Տվյալների պահոցում իրավասություն ունեցող կողմ (@DbPrincipal)](https://learn.microsoft.com/en-us/sql/relational-databases/system-stored-procedures/sp-getapplock-transact-sql#----ndbprincipal):
+| Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
+|-----------------|----------------------|----------------|----------------|
+| resource        | string               | -              | [Ռեսուրսի ներքին անունը (@Resource)](https://learn.microsoft.com/en-us/sql/relational-databases/system-stored-procedures/sp-getapplock-transact-sql#----nresource)։ |
+| errorMsg        | string               | ""             | Արգելափակման տեղադրման չստացվելու դեպքում առաջացող սխալի հաղորդագրությունը։ Եթե պարամետրի արժեքը դատարկ տող է, ապա առաջանում է ստանդարտ տեքստով սխալ։ |
+| mode            | string               | "Exclusive"    | [Արգելափակման տեղադրման եղանակը (@LockMode)](https://learn.microsoft.com/en-us/sql/relational-databases/system-stored-procedures/sp-getapplock-transact-sql#----lockmode): |
+| owner           | string               | "Transaction"  |  [Արգելափակման տեղադրման սեփականատերը (@LockOwner)](https://learn.microsoft.com/en-us/sql/relational-databases/system-stored-procedures/sp-getapplock-transact-sql#----lockowner)։ |
+| timeout         | int                  | 0              | [Արգելափակման տեղադրման առավելագույն ժամանակը միլիվայրկյաններով (@LockTimeout)](https://learn.microsoft.com/en-us/sql/relational-databases/system-stored-procedures/sp-getapplock-transact-sql#----locktimeout)։  |
+| dbPrincipal     | string               | "public"       | [Տվյալների պահոցում իրավասություն ունեցող կողմ (@DbPrincipal)](https://learn.microsoft.com/en-us/sql/relational-databases/system-stored-procedures/sp-getapplock-transact-sql#----ndbprincipal): |

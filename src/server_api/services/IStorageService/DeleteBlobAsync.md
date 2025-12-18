@@ -26,10 +26,11 @@ public virtual Task<bool> DeleteBlobAsync(string container,
 Հեռացնում է ֆայլը ժամանակավոր ֆայլերի պահոցից` ըստ անվան և կոնտեյների։ 
 
 **Պարամետրեր**
-
-* `container` - Կոնտեյների անունը։ 
-* `blobName` - Ֆայլի անունը` ներառյալ ֆայլի ընդլայնումը։
-* `cancellationToken` - Ընդհատման օբյեկտ։
+| Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
+|-----------------|----------------------|----------------|----------------|
+| container       | string               | -              | Կոնտեյների անունը։ |
+| blobName        | string               | -              | Ֆայլի անունը` ներառյալ ֆայլի ընդլայնումը։ |
+| cancellationToken | CancellationToken    | default        | Ընդհատման օբյեկտ։ |
 
 ### IStorageService.DeleteBlobAsync(string, CancellationToken) մեթոդ
 
@@ -41,7 +42,8 @@ public virtual Task<bool> DeleteBlobAsync(string blobName,
 Հեռացնում է ֆայլը [ընթացիկ սեսիայի կոնտեյներից](Container.md)։
 
 **Պարամետրեր**
-
-* `blobName` - Ֆայլի անունը` ներառյալ ֆայլի ընդլայնումը։
-* `cancellationToken` - Ընդհատման օբյեկտ։
+| Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
+|-----------------|----------------------|----------------|----------------|
+| blobName        | string               | -              | Ֆայլի անունը` ներառյալ ֆայլի ընդլայնումը։ |
+| cancellationToken | CancellationToken    | default        | Ընդհատման օբյեկտ։ |
 

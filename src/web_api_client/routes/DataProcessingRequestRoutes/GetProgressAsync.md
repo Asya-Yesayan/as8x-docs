@@ -12,6 +12,7 @@ public Task<DPRProgress> GetProgressAsync(Guid id,
 Եթե նշված id-ով DPR-ի կատարման առաջադրանք գոյություն չունի, ապա առաջանում է սխալ։
 
 **Պարամետրեր**
-
-* `id` - [DPR](../../../server_api/definitions/dpr.md)-ի կատարման առաջադրանքի id-ն, որը ստացվում է [EnqueueAsync](DPR](../../../server_api/definitions/dpr.md)-ի կատարման առաջադրանքի id-ն, որը ստացվում է [EnqueueAsync](EnqueueAsync.md) մեթոդի կանչի արդյունքում։
-* `cancellationToken` - Ընդհատման օբյեկտ:
+| Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
+|-----------------|----------------------|----------------|----------------|
+| id              | Guid                 | -              | [DPR](../../../server_api/definitions/dpr.md)-ի կատարման առաջադրանքի id-ն, որը ստացվում է [EnqueueAsync](EnqueueAsync.md) մեթոդի կանչի արդյունքում։ |
+| cancellationToken | CancellationToken    | default        | Ընդհատման օբյեկտ: |

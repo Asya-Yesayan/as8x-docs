@@ -17,7 +17,8 @@ public Task Refolder(RefolderArgs args,
 Կատարում է փաստաթղթերի վերաինդեքսավորում։
 
 **Պարամետրեր**
-
-* `args` - [RefolderArgs](../../types/args/RefolderArgs.md) դասի օբյեկտ։
-* `report` - [Տեքստային հաշվետվություն](../../types/TextReport.md), որտեղ լրացվում են մեթոդի կատարման ընթացքում առաջացած սխալների մասին հաղորդագրությունները։
-* `stoppingToken` - Ընդհատման օբյեկտ:
+| Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
+|-----------------|----------------------|----------------|----------------|
+| args            | RefolderArgs         | -              | [RefolderArgs](../../types/args/RefolderArgs.md) դասի օբյեկտ։ |
+| report          | TextReport.TextReport | -              | [Տեքստային հաշվետվություն](../../types/TextReport.md), որտեղ լրացվում են մեթոդի կատարման ընթացքում առաջացած սխալների մասին հաղորդագրությունները։ |
+| stoppingToken   | CancellationToken    | default        | Ընդհատման օբյեկտ: |

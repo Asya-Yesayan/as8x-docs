@@ -17,9 +17,10 @@ public Task<bool> UploadTempBlobAsync(string fileExtension,
 Պահպանում է `stream` պարամետրի պարունակությունը մշտական ֆայլերի պահոցի [Container](Container.md) հատկությամբ նշված թղթապանակում` տրված ընդլայնմամբ ֆայլում, որի անունը ձևավորվում է ավտոմատ։ 
 
 **Պարամետրեր**
-
-* `fileExtension` - Ֆայլի ընդլայնումը։
-* `blobName` - Վերադարձնում է ստեղծված ֆայլի անունը` ներառյալ ֆայլի ընդլայնումը։
-* `stream` - Ֆայլի պարունակությունը որպես [Stream](https://learn.microsoft.com/en-us/dotnet/api/system.io.stream):
-* `properties` - Ֆայլի հատկությունները։ 
-* `cancellationToken` - Ընդհատման օբյեկտ։
+| Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
+|-----------------|----------------------|----------------|----------------|
+| fileExtension   | string               | -              | Ֆայլի ընդլայնումը։ |
+| blobName        | string               | -              | Վերադարձնում է ստեղծված ֆայլի անունը` ներառյալ ֆայլի ընդլայնումը։ |
+| stream          | Stream               | -              | Ֆայլի պարունակությունը որպես [Stream](https://learn.microsoft.com/en-us/dotnet/api/system.io.stream): |
+| properties      | BlobProperties       | null           | Ֆայլի հատկությունները։ |
+| cancellationToken | CancellationToken    | default        | Ընդհատման օբյեկտ։ |

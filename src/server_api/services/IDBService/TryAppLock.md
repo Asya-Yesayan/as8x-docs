@@ -22,7 +22,9 @@ public Task<bool> TryAppLock(string resource,
 Արգելափակման համար օգտագործվում է [sp_getapplock](https://learn.microsoft.com/en-us/sql/relational-databases/system-stored-procedures/sp-getapplock-transact-sql) պրոցեդուրան։
 
 **Պարամետրեր**
-* `resource` - [Ռեսուրսի ներքին անունը (@Resource)](https://learn.microsoft.com/en-us/sql/relational-databases/system-stored-procedures/sp-getapplock-transact-sql#----nresource)։
-* `mode` - [Արգելափակման տեղադրման եղանակը (@LockMode)](https://learn.microsoft.com/en-us/sql/relational-databases/system-stored-procedures/sp-getapplock-transact-sql#----lockmode): 
-* `owner` - [Արգելափակման տեղադրման սեփականատերը (@LockOwner)](https://learn.microsoft.com/en-us/sql/relational-databases/system-stored-procedures/sp-getapplock-transact-sql#----lockowner)։ 
-* `dbPrincipal` - [Տվյալների պահոցում իրավասություն ունեցող կողմ (@DbPrincipal)](https://learn.microsoft.com/en-us/sql/relational-databases/system-stored-procedures/sp-getapplock-transact-sql#----ndbprincipal): 
+| Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
+|-----------------|----------------------|----------------|----------------|
+| resource        | string               | -              | [Ռեսուրսի ներքին անունը (@Resource)](https://learn.microsoft.com/en-us/sql/relational-databases/system-stored-procedures/sp-getapplock-transact-sql#----nresource)։ |
+| mode            | string               | "Exclusive"    | [Արգելափակման տեղադրման եղանակը (@LockMode)](https://learn.microsoft.com/en-us/sql/relational-databases/system-stored-procedures/sp-getapplock-transact-sql#----lockmode): |
+| owner           | string               | "Transaction"  | [Արգելափակման տեղադրման սեփականատերը (@LockOwner)](https://learn.microsoft.com/en-us/sql/relational-databases/system-stored-procedures/sp-getapplock-transact-sql#----lockowner)։ |
+| dbPrincipal     | string               | "public"       | [Տվյալների պահոցում իրավասություն ունեցող կողմ (@DbPrincipal)](https://learn.microsoft.com/en-us/sql/relational-databases/system-stored-procedures/sp-getapplock-transact-sql#----ndbprincipal): |

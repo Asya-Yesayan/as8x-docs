@@ -13,6 +13,7 @@ public Task<CertificateAuthenticateResponse> AuthenticateWithCertificateAsync(
 Նույնականացման հաջողման դեպքում վերադարձնում է [օգտագործողի տվյալները և թոքեն՝ դեպի սերվիս հարցումներ կատարելու համար](../../types/CertificateAuthenticateResponse.md), հակառակ դեպքում առաջացնում է սխալ։
 
 **Պարամետրեր**
-
-* `certificateAuthenticateRequest` - [Օգտագործողի և API Client-ի տվյալները](../../types/CertificateAuthenticateRequest.md)։
-* `cancellationToken` - Ընդհատման օբյեկտ։
+| Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
+|-----------------|----------------------|----------------|----------------|
+| certificateAuthenticateRequest | CertificateAuthenticateRequest | -              | [Օգտագործողի և API Client-ի տվյալները](../../types/CertificateAuthenticateRequest.md)։ |
+| cancellationToken | CancellationToken    | default        | Ընդհատման օբյեկտ։ |

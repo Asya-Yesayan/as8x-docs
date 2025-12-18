@@ -18,10 +18,11 @@ public Task<Stream> LoadAndSubstitute(IPrintTemplateSubstitution printTemplateSu
 Բեռնում է տպելու ձևանմուշը տվյալների պահոցից, լրացնում `printTemplateSubstitution`-ում պարունակվող նախապես հաշվարկված տվյալներով և ստացված ֆայլը վերադարձնում որպես [Stream](https://learn.microsoft.com/en-us/dotnet/api/system.io.stream):
 
 **Պարամետրեր**
-
-* `printTemplateSubstitution` - Տպելու ձևանմուշի տեղադրվող արժեքները պարունակող օբյեկտ։
-* `name` - Տպելու ձևանմուշի ներքին անուն:
-* `type` - [Տպելու ձևանմուշի տիպ](../../types/SubstitutionType.md):
-* `htmlImageOption` - Html տպվող տեսքերի [պատկերների տեղադրման եղանակ](../../types/HtmlImageOption.md)։
-* `outputPassword` - Վերջնական ֆայլի բացման գաղտնաբառը։
-* `check` - Տպելու ձևանմուշում առկա կոդերի ճիշտ շարահյուսության ստուգման հայտանիշ։
+| Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
+|-----------------|----------------------|----------------|----------------|
+| printTemplateSubstitution | IPrintTemplateSubstitution | -              | Տպելու ձևանմուշի տեղադրվող արժեքները պարունակող օբյեկտ։ |
+| name            | string               | -              | Տպելու ձևանմուշի ներքին անուն: |
+| type            | SubstitutionType     | -              | [Տպելու ձևանմուշի տիպ](../../types/SubstitutionType.md): |
+| htmlImageOption | HtmlImageOption      | default        | Html տպվող տեսքերի [պատկերների տեղադրման եղանակ](../../types/HtmlImageOption.md)։ |
+| outputPassword  | string               | ""             | Վերջնական ֆայլի բացման գաղտնաբառը։ |
+| check           | bool                 | false          | Տպելու ձևանմուշում առկա կոդերի ճիշտ շարահյուսության ստուգման հայտանիշ։ |

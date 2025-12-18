@@ -17,10 +17,11 @@ public Task Approve(Document document,
 Հաստատում է փաստաթուղթը և գրանցում տվյալների պահոցում։
 
 **Պարամետրեր**
-
-* `document` - [Փաստաթղթի օբյեկտ](../../definitions/document.md)։
-* `checkLevel` - [Փաստաթղթի գրանցման եղանակ](../../types/DocumentCheckLevel.md)։
-* `logComment` - Փաստաթղթի պատմության մեջ գրանցվող հաղորդագրություն։
+| Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
+|-----------------|----------------------|----------------|----------------|
+| document        | Document             | -              | [Փաստաթղթի օբյեկտ](../../definitions/document.md)։ |
+| checkLevel      | DocumentCheckLevel   | DocumentCheckLevel.None | [Փաստաթղթի գրանցման եղանակ](../../types/DocumentCheckLevel.md)։ |
+| logComment      | string               | ""             | Փաստաթղթի պատմության մեջ գրանցվող հաղորդագրություն։ |
 
 <!-- ### CheckAndStore
 
@@ -35,9 +36,10 @@ public Task CheckAndStore(Document document,
 Անցկացնում է պարտադիր ստուգումներ և սահմանված ռեժիմով գրանցում փաստաթուղթը տվյալների պահոցում։
 
 **Պարամետրեր**
-
-* `document` - [Փաստաթղթի օբյեկտ](../../definitions/document.md)։
-* `mode` - [Փաստաթղթի պահպանման ռեժիմը](StoreMode.md)։
-* `checkLevel` - [Փաստաթղթի ստուգման մակարդակը](DocumentCheckLevel.md)։
-* `stateBeforeCallPostMessage` - Փաստաթղթի վիճակը PostMessage մեթոդի կանչից առաջ։
-* `logComment` - Փաստաթղթի պատմության մեջ գրանցվող հաղորդագրություն։ -->
+| Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
+|-----------------|----------------------|----------------|----------------|
+| document        | Document             | -              | [Փաստաթղթի օբյեկտ](../../definitions/document.md)։ |
+| mode            | StoreMode            | -              | [Փաստաթղթի պահպանման ռեժիմը](StoreMode.md)։ |
+| checkLevel      | DocumentCheckLevel   | DocumentCheckLevel.None | [Փաստաթղթի ստուգման մակարդակը](DocumentCheckLevel.md)։ |
+| stateBeforeCallPostMessage | int                  | 0              | Փաստաթղթի վիճակը PostMessage մեթոդի կանչից առաջ։ |
+| logComment      | string               | ""             | Փաստաթղթի պատմության մեջ գրանցվող հաղորդագրություն։ --> |

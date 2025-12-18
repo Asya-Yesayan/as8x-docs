@@ -10,6 +10,7 @@ public Task<DocumentModel> StoreAsync(DocumentStoreRequestModel model,
 Կատարում է պարտադիր ստուգումներ և գրանցում փաստաթուղթը տվյալների պահոցում։
 
 **Պարամետրեր**
-
-* `model` - Գրանցվող փաստաթղթի տվյալները ([փաստաթղթի ստուգման մակարդակ](../../../server_api/types/DocumentCheckLevel.md), isn, գրանցվող դաշտերի արժեքներ...)։
-* `cancellationToken` - Ընդհատման օբյեկտ:
+| Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
+|-----------------|----------------------|----------------|----------------|
+| model           | DocumentStoreRequestModel | -              | Գրանցվող փաստաթղթի տվյալները ([փաստաթղթի ստուգման մակարդակ](../../../server_api/types/DocumentCheckLevel.md), isn, գրանցվող դաշտերի արժեքներ...)։ |
+| cancellationToken | CancellationToken    | default        | Ընդհատման օբյեկտ: |

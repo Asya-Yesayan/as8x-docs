@@ -18,9 +18,10 @@ public Task EvalAndAddUserDefinedParametersEx(string name,
 Տե՛ս [Տպելու ձևանմուշի ընդլայնման ձեռնարկ](../../../extensions/definitions/template_substitution_guide.md)։
 
 **Պարամետրեր**
-
-* `name` - Տպելու ձևանմուշի ներքին անուն:
-* `type` - [Տպելու ձևանմուշի տիպ](../../types/SubstitutionType.md):
-* `printTemplateSubstitutionEx` - Տպելու ձևանմուշի տեղադրվող արժեքները տիպիզացված ձևով պարունակող օբյեկտ։
-* `document` - Տպելու ձևանմուշի հետ կապակցված [փաստաթղթի օբյեկտ](../../definitions/document.md)։
-  Կարող է փոխանցվել `null`, եթե տպելու ձևը կապված չէ փաստաթղթի հետ։
+| Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
+|-----------------|----------------------|----------------|----------------|
+| name            | string               | -              | Տպելու ձևանմուշի ներքին անուն: |
+| type            | SubstitutionType     | -              | [Տպելու ձևանմուշի տիպ](../../types/SubstitutionType.md): |
+| printTemplateSubstitutionEx | PrintTemplateSubstitutionEx | -              | Տպելու ձևանմուշի տեղադրվող արժեքները տիպիզացված ձևով պարունակող օբյեկտ։ |
+| document        | Document.Document    | -              | Տպելու ձևանմուշի հետ կապակցված [փաստաթղթի օբյեկտ](../../definitions/document.md)։ Կարող է փոխանցվել `null`, եթե տպելու ձևը կապված չէ փաստաթղթի հետ։ |
+  

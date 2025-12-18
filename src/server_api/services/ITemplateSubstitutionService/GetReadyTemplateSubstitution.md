@@ -18,9 +18,10 @@ public Task<ITemplateSubstitution> GetReadyTemplateSubstitution(Document.Documen
 Տե՛ս [օրինակը](../../examples/ITemplateSubstitutionService.md#օրինակ-1)։
 
 **Պարամետրեր**
-
-* `document` - Տպելու ձևանմուշի հետ կապակցված [փաստաթուղթ](../../definitions/document.md)։
-* `templateName` - Տպելու ձևանմուշի ներքին անունը։
-* `templateType` - [Տպելու ձևանմուշի տիպ](../../types/SubstitutionType.md):
-* `parameters` - Տպելու ձևանմուշի լրացման պարամետրերի Dictionary, որտեղ բանալին՝ պարամետրի անունն է, իսկ արժեքը՝ պարամետրի արժեքը: 
-  Այս պարամետրի արժեքը փոխանցվելու է տպելու ձևանմուշի տեղադրվող արժեքները հաշվարկող [TemplateSubstitution](../../definitions/document/TemplateSubstitution.md) իրադարձության մշակիչին։
+| Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
+|-----------------|----------------------|----------------|----------------|
+| document        | Document.Document    | -              | Տպելու ձևանմուշի հետ կապակցված [փաստաթուղթ](../../definitions/document.md)։ |
+| templateName    | string               | -              | Տպելու ձևանմուշի ներքին անունը։ |
+| templateType    | SubstitutionType     | -              | [Տպելու ձևանմուշի տիպ](../../types/SubstitutionType.md): |
+| parameters      | Dictionary<string, object> | -              | Տպելու ձևանմուշի լրացման պարամետրերի Dictionary, որտեղ բանալին՝ պարամետրի անունն է, իսկ արժեքը՝ պարամետրի արժեքը: <br> Այս պարամետրի արժեքը փոխանցվելու է տպելու ձևանմուշի տեղադրվող արժեքները հաշվարկող [TemplateSubstitution](../../definitions/document/TemplateSubstitution.md) իրադարձության մշակիչին։ |
+  

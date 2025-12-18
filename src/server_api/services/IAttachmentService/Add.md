@@ -20,8 +20,9 @@ public Task<AttachmentModel> Add(AttachmentAddModel attachment)
 Տե՛ս [օրինակը](../../examples/IAttachmentService.md#օրինակ-1)։
 
 **Պարամետրեր**
-
-* `attachment` - [Կցվող ֆայլի տվյալներ](../../types/AttachmentAddModel.md)՝ փաստաթղթի ISN, ֆայլի անուն, նույնականացուցիչ, մեկնաբանություն, կցման ձև։
+| Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
+|-----------------|----------------------|----------------|----------------|
+| attachment      | AttachmentAddModel   | -              | [Կցվող ֆայլի տվյալներ](../../types/AttachmentAddModel.md)՝ փաստաթղթի ISN, ֆայլի անուն, նույնականացուցիչ, մեկնաբանություն, կցման ձև։ |
 
 <!-- **Կարևոր**
 

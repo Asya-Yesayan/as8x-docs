@@ -28,11 +28,12 @@ public Task<bool> UploadBlobAsync(string container,
 Պահպանում է `value` պարամետրի պարունակությունը ժամանակավոր ֆայլերի պահոցում` ըստ կոնտեյների և ֆայլի անվան։ 
 
 **Պարամետրեր**
-
-* `container` - Կոնտեյների անունը, որտեղ պետք է պահպանվի ֆայլը։
-* `blobName` - Ֆայլի անունը` ներառյալ ֆայլի ընդլայնումը։
-* `value` - Ֆայլի պարունակությունը` որպես byte-երի զանգված։
-* `cancellationToken` - Ընդհատման օբյեկտ։
+| Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
+|-----------------|----------------------|----------------|----------------|
+| container       | string               | -              | Կոնտեյների անունը, որտեղ պետք է պահպանվի ֆայլը։ |
+| blobName        | string               | -              | Ֆայլի անունը` ներառյալ ֆայլի ընդլայնումը։ |
+| value           | byte[]               | -              | Ֆայլի պարունակությունը` որպես byte-երի զանգված։ |
+| cancellationToken | CancellationToken    | default        | Ընդհատման օբյեկտ։ |
 
 ### IStorageService.UploadBlobAsync(string, Stream, BlobProperties, CancellationToken) մեթոդ  
 
@@ -46,11 +47,12 @@ public Task<bool> UploadBlobAsync(string blobName,
 Պահպանում է `stream` պարամետրի պարունակությունը [ընթացիկ սեսիայի կոնտեյների](Container.md) նշված ֆայլում։ 
 
 **Պարամետրեր**
-
-* `blobName` - Ֆայլի անունը` ներառյալ ֆայլի ընդլայնումը։
-* `stream` - Ֆայլի պարունակությունը որպես [Stream](https://learn.microsoft.com/en-us/dotnet/api/system.io.stream):
-* `properties` - Ֆայլի հատկությունները։ 
-* `cancellationToken` - Ընդհատման օբյեկտ։
+| Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
+|-----------------|----------------------|----------------|----------------|
+| blobName        | string               | -              | Ֆայլի անունը` ներառյալ ֆայլի ընդլայնումը։ |
+| stream          | Stream               | -              | Ֆայլի պարունակությունը որպես [Stream](https://learn.microsoft.com/en-us/dotnet/api/system.io.stream): |
+| properties      | BlobProperties       | null           | Ֆայլի հատկությունները։ |
+| cancellationToken | CancellationToken    | default        | Ընդհատման օբյեկտ։ |
 
 ### IStorageService.UploadBlobAsync(string, string, Stream, BlobProperties, CancellationToken) մեթոդ
 
@@ -65,10 +67,11 @@ public Task<bool> UploadBlobAsync(string containerOrBucketName,
 Պահպանում է `stream` պարամետրի պարունակությունը ժամանակավոր ֆայլերի պահոցում՝ նշված կոնտեյների նշված ֆայլում։ 
 
 **Պարամետրեր**
-
-* `containerOrBucketName` - Կոնտեյների անունը։ 
-* `blobName` - Ֆայլի անունը` ներառյալ ֆայլի ընդլայնումը։
-* `stream` - Ֆայլի պարունակությունը որպես [Stream](https://learn.microsoft.com/en-us/dotnet/api/system.io.stream):
-* `properties` - Ֆայլի հատկությունները։ 
-* `cancellationToken` - Ընդհատման օբյեկտ։
+| Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
+|-----------------|----------------------|----------------|----------------|
+| containerOrBucketName | string               | -              | Կոնտեյների անունը։ |
+| blobName        | string               | -              | Ֆայլի անունը` ներառյալ ֆայլի ընդլայնումը։ |
+| stream          | Stream               | -              | Ֆայլի պարունակությունը որպես [Stream](https://learn.microsoft.com/en-us/dotnet/api/system.io.stream): |
+| properties      | BlobProperties       | null           | Ֆայլի հատկությունները։ |
+| cancellationToken | CancellationToken    | default        | Ընդհատման օբյեկտ։ |
 

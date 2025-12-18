@@ -15,11 +15,11 @@ public Exception GetSqlRelatedException(SqlException exception,
 Ձևափոխում է SQL-ական սխալը փոխելով հաղորդագրությունը տեքստը ըստ [GetSqlExceptionText](GetSqlExceptionText.md)-ի։
 
 **Պարամետրեր**
-
-* `exception` - [SqlException](https://learn.microsoft.com/en-us/dotnet/api/microsoft.data.sqlclient.sqlexception) տիպի սխալ:
-* `duplicateErrorMessage` - Այն հաղորդագրությունը, որը կվերադարձնի տվյալների պահոցում տվյալի կրկնության դեպքում։
-  Սա միայն հատուկ թույլատրված աղյուսակների՝ դրանցում կրկնությունների, դեպքում է։
-* `duplicateIsRestException` - Վերադարձնել `RESTException`, եթե տվյալի կրկնության կրկնության սխալ է։
+| Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
+|-----------------|----------------------|----------------|----------------|
+| exception       | SqlException         | -              | [SqlException](https://learn.microsoft.com/en-us/dotnet/api/microsoft.data.sqlclient.sqlexception) տիպի սխալ: |
+| duplicateErrorMessage | string               | ""             | Այն հաղորդագրությունը, որը կվերադարձնի տվյալների պահոցում տվյալի կրկնության դեպքում։ Սա միայն հատուկ թույլատրված աղյուսակների՝ դրանցում կրկնությունների, դեպքում է։ |
+| duplicateIsRestException | bool                 | false          | Վերադարձնել `RESTException`, եթե տվյալի կրկնության կրկնության սխալ է։ |
 
 **Օրինակ**
 

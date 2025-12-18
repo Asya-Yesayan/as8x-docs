@@ -17,7 +17,8 @@ public Task Store(Document document,
 Անցկացնում է պարտադիր ստուգումներ և գրանցում փաստաթուղթը տվյալների պահոցում։
 
 **Պարամետրեր**
-
-* `document` - [Փաստաթղթի օբյեկտ](../../definitions/document.md)։
-* `checkLevel` - [Փաստաթղթի ստուգման մակարդակը](../../types/DocumentCheckLevel.md)։
-* `logComment` - Փաստաթղթի պատմության մեջ գրանցվող հաղորդագրությունը։
+| Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
+|-----------------|----------------------|----------------|----------------|
+| document        | Document             | -              | [Փաստաթղթի օբյեկտ](../../definitions/document.md)։ |
+| checkLevel      | DocumentCheckLevel   | DocumentCheckLevel.None | [Փաստաթղթի ստուգման մակարդակը](../../types/DocumentCheckLevel.md)։ |
+| logComment      | string               | ""             | Փաստաթղթի պատմության մեջ գրանցվող հաղորդագրությունը։ |
