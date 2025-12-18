@@ -10,6 +10,7 @@ public async Task<List<WebServiceInfo>> Get(string id = null, string role = null
 
 **Պարամետրեր**
 
+
 | Անվանում | Տեսակ | Լռությամբ արժեք | Նկարագրություն |
 |-----------|-------|-----------------|----------------|
 | service | string | null | Վեբ ծառայության id-ն։ |

@@ -17,6 +17,7 @@ public virtual Task<Stream> GetBlobAsync(string container,
 Վերադարձնում է ֆայլի պարունակությունը ժամանակավոր ֆայլերի պահոցից` որպես [Stream](https://learn.microsoft.com/en-us/dotnet/api/system.io.stream):
 
 **Պարամետրեր**
+
 | Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
 |-----------------|----------------------|----------------|----------------|
 | container       | string               | -              | Կոնտեյների անունը։ |

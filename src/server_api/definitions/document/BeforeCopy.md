@@ -16,6 +16,7 @@ public virtual Task BeforeCopy(BeforeCopyEventArgs args)
 
 **Պարամետրեր**
 
+
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 | --- | --- | --- | --- |
 | args | [BeforeCopyEventArgs](../../types/args/BeforeCopyEventArgs.md) | - | [BeforeCopyEventArgs](../../types/args/BeforeCopyEventArgs.md) դասի օբյեկտ։ |

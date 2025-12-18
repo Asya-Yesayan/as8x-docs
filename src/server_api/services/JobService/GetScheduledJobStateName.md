@@ -16,6 +16,7 @@ public Task<byte> GetScheduledJobState(int scheduledId)
 
 **Պարամետրեր**
 
+
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | **Նկարագրություն** |
 | --- | --- | --- | --- |
 | scheduledId | int | - | Հերթագրված առաջադրանքի id-ն։ |

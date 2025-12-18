@@ -10,6 +10,7 @@ public SessionInfo Get(string sessionGuid)
 
 **Պարամետրեր**
 
+
 | Անվանում | Տեսակ | Նկարագրություն |
 |-----------|-------|-----------------|
 | sessionGuid | string | [Սեսսիայի](../../types/SessionInfo.md) ներքին նույնականացման համարը (guid)։ |

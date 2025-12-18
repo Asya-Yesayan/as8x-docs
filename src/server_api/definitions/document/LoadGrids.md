@@ -16,6 +16,7 @@ public Task LoadGrids(LoadGridsEventArgs args)
 
 **Պարամետրեր**
 
+
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 | --- | --- | --- | --- |
 | args | [LoadGridsEventArgs](../../types/args/LoadGridsEventArgs.md) | - | [LoadGridsEventArgs](../../types/args/LoadGridsEventArgs.md) դասի օբյեկտ։ |

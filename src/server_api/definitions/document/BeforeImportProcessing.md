@@ -16,6 +16,7 @@ public virtual Task BeforeImportProcessing(BeforeImportProcessingEventArgs args)
 
 **Պարամետրեր**
 
+
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 | --- | --- | --- | --- |
 | args | [BeforeImportProcessingEventArgs](../../types/args/BeforeImportProcessingEventArgs.md) | - | [BeforeImportProcessingEventArgs](../../types/args/BeforeImportProcessingEventArgs.md) դասի օբյեկտ։ |

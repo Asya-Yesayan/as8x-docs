@@ -12,6 +12,7 @@ public void CalculateGauges(IDBService dbService)
 
 **Պարամետրեր**
 
+
 | Անվանում | Տեսակ | Նկարագրություն |
 |----------|----------|----------|
 | dbService | [IDBService](../../services/IDBService.md) | [IDBService](../../services/IDBService.md) դասի օբյեկտ, որը տալիս է հնարավորություն ստանալ Sql միացում դեպի ընթացիկ տվյալների պահոց և կատարել Sql հարցումներ։ |

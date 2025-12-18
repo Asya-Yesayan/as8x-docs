@@ -18,6 +18,7 @@ public virtual Task AfterCreate(AfterCreateEventArgs args)
 
 **Պարամետրեր**
 
+
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 | --- | --- | --- | --- |
 | args | [AfterCreateEventArgs](../../types/args/AfterCreateEventArgs.md) | - | [AfterCreateEventArgs](../../types/args/AfterCreateEventArgs.md) դասի օբյեկտ։ |

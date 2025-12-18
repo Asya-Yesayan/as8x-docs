@@ -10,6 +10,8 @@ public Task<CreateGeneralAccResponse> CreateGeneralAccForCli(CreateGeneralAccReq
 Վերադարձնում ստեղծված հաշվի համարը։
 
 **Պարամետրեր**
+
+
 | Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
 |-----------------|----------------------|----------------|----------------|
 | request         | CreateGeneralAccRequest | -              | Ավելացվող հաճախորդի տվյալներ։ |

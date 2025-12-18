@@ -29,6 +29,7 @@ public Task MergeFile(SubstitutionType type,
 Միավորված ֆայլը գրանցում է `targetFile`-ի մեջ։
 
 **Պարամետրեր**
+
 | Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
 |-----------------|----------------------|----------------|----------------|
 | type            | SubstitutionType     | -              | [Տպելու ձևանմուշի տիպ](../../types/SubstitutionType.md): |
@@ -55,6 +56,7 @@ public Task<Stream> MergeFile(SubstitutionType type, byte[] targetFile,
 Միավորված ֆայլը վերադարձնում է որպես [Stream](https://learn.microsoft.com/en-us/dotnet/api/system.io.stream):
 
 **Պարամետրեր**
+
 | Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
 |-----------------|----------------------|----------------|----------------|
 | type            | SubstitutionType     | -              | [Տպելու ձևանմուշի տիպ](../../types/SubstitutionType.md): |

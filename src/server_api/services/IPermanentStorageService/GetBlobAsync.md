@@ -15,6 +15,7 @@ public virtual Task<Stream> GetBlobAsync(string container,
 Վերադարձնում է ֆայլի պարունակությունը մշտական ֆայլերից պահոցից՝ որպես [Stream](https://learn.microsoft.com/en-us/dotnet/api/system.io.stream):
 
 **Պարամետրեր**
+
 | Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
 |-----------------|----------------------|----------------|----------------|
 | container       | string               | -              | Կոնտեյների անունը։ |
@@ -32,6 +33,7 @@ public Task<string> GetTempBlobUrlAsync(string fileExtension, out string blobNam
 **Օրինակ** `C:\\Storage\\Files\\76dfc298-66c0-4b41-8981-434582400aeb\\lsrbuqgy.jay.txt`:
 
 **Պարամետրեր**
+
 | Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
 |-----------------|----------------------|----------------|----------------|
 | fileExtension   | string               | -              | Ֆայլի ընդլայնումը։ |

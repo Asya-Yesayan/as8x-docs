@@ -10,6 +10,7 @@ public bool TryGetType(string typeName, out Type type)
 
 **Պարամետրեր**
 
+
 | Անվանում | Տեսակ | Լռությամբ արժեք | Նկարագրություն |
 |----------|----------|----------|----------|
 | typeName | string | - | [Սերվերային մոդուլում](../../../extensions/definitions/server_side_module.md) որոնվող դասի անունը։ |

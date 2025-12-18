@@ -10,6 +10,7 @@ public void Information(ILogger logger, string messageTemplate)
 
 **Պարամետրեր**
 
+
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | **Նկարագրություն** |
 | --- | --- | --- | --- |
 | logger | ILogger | - | ILogger դասի օբյեկտ, որի միջոցով կատարվում է լոգավորումը։ |

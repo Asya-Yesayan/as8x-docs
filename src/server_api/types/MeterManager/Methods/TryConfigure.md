@@ -9,6 +9,7 @@ public void TryConfigure(IParametersService parametersService)
 [OTLPENABLED](../../otlp/parameters.md#otlpenabled) պարամետրի **true** արժեքի դեպքում կանչում է [Configure](Configure.md) մեթոդը, որը ստեղծում և կոնֆիգուրացնում է համակարգի հիմնական մետրիկաները։
 
 **Պարամետրեր**
+
 | Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
 |-----------------|----------------------|----------------|----------------|
 | parametersService | IParametersService   | -              | [IParametersService](../../../../server_api/services/IParametersService.md) դասի օբյեկտ։ |

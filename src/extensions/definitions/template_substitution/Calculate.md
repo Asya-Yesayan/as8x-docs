@@ -13,6 +13,8 @@ public Task Calculate(TemplateSubstitutionExtenderArgs templateSubstitutionExten
 Իրականացնում է տպելու ձևանմուշի ընդլայնման պարամետրերի հաշվարկը։
 
 **Պարամետրեր**
+
+
 | Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
 |-----------------|----------------------|----------------|----------------|
 | templateSubstitutionExtenderArgs | TemplateSubstitutionExtenderArgs | -              | Տպելու ձևանմուշի պարամետրերը նկարագրող դասը։ |

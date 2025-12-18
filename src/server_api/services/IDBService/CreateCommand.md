@@ -17,6 +17,7 @@ public SqlCommand CreateCommand(TimeoutType timeoutType = TimeoutType.QueryTimeo
 **IDBService.Connection.CreateCommand**-ի միջոցով հարցումը կատարելու դեպքում որպես հարցման կատարման առավելագույն ժամանակ ([CommandTimeout](https://learn.microsoft.com/en-us/dotnet/api/microsoft.data.sqlclient.sqlcommand.commandtimeout)) լռությամբ սահմանվում է 30 վայրկյանը։
 
 **Պարամետրեր**
+
 | Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
 |-----------------|----------------------|----------------|----------------|
 | timeoutType     | TimeoutType          | TimeoutType.QueryTimeout | [SQL հարցման կատարման առավելագույն ժամանակի տիպը](../../types/TimeoutType.md)։ |
@@ -33,6 +34,7 @@ public string CreateConnectionString(string sqlServer, string dbName, string log
 Օգտագործում է [SqlConnectionStringBuilder](https://learn.microsoft.com/en-us/dotnet/api/microsoft.data.sqlclient.sqlconnectionstringbuilder) և փոխանցում է ֆունկցիայի պարամետրերը համապատասխան հատկություններին։
 
 **Պարամետրեր**
+
 | Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
 |-----------------|----------------------|----------------|----------------|
 | sqlServer       | string               | -              | Սերվերի անունը։ |

@@ -10,6 +10,7 @@ public static string GetEventException(string eventId)
 
 **Պարամետրեր**
 
+
 | Անվանում | Տեսակ | **Նկարագրություն** |
 | --- | --- | --- |
 | eventId | string | [Seq](https://datalust.co/)-ում գրանցված իրադարձության id-ն (eventId)։ |

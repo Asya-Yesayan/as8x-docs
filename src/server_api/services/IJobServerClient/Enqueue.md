@@ -19,6 +19,7 @@ public Task<ProcessEnqueueResponse> Enqueue(DPR.Descriptor dpr,
 Հերթի է դնում [DPR](../../definitions/dpr.md)-ի կատարումը և վերադարձնում է Id՝ [DPR](../../definitions/dpr.md)-ի կատարման ընթացքին հետևելու համար։
 
 **Պարամետրեր**
+
 | Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
 |-----------------|----------------------|----------------|----------------|
 | dpr             | DPR.Descriptor       | -              | [DPR-ի մետատվյալները նկարագրող դասի օբյեկտ](../../types/DPR_Descriptor.md)։ |

@@ -10,6 +10,7 @@ public IReadOnlyDictionary<string, Type> GetByAttribute<T>() where T : Attribute
 
 **Պարամետրեր**
 
+
 | Անվանում | Տեսակ | Լռությամբ արժեք | Նկարագրություն |
 |----------|----------|----------|----------|
 | T | [Attribute](https://learn.microsoft.com/en-us/dotnet/api/system.attribute) | - | Այն ատրիբուտի տեսակը, ըստ որի կատարվում է դասերի որոնումը [սերվերային մոդուլում](../../../extensions/definitions/server_side_module.md)։ |

@@ -16,6 +16,7 @@ public Task<TemplateDefinition> GetDefinition(string name,
 Ֆայլի արժքների տեղադրման համար տե՛ս [LoadTemplateFile](../ITemplateSubstitutionService/LoadTemplateFile.md)։
 
 **Պարամետրեր**
+
 | Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
 |-----------------|----------------------|----------------|----------------|
 | name            | string               | -              | Տպելու ձևանմուշի ներքին անուն: |

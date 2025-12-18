@@ -17,6 +17,7 @@ public string GetSqlExceptionText(SqlException exception,
   - `Ցանցային կապի խզում: Կապվեք ցանցի ադմինիստրատորի հետ`
 
 **Պարամետրեր**
+
 | Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
 |-----------------|----------------------|----------------|----------------|
 | exception       | SqlException         | -              | [SqlException](https://learn.microsoft.com/en-us/dotnet/api/microsoft.data.sqlclient.sqlexception) տիպի սխալ, որի հաղորդագրությունը պետք է վերադարձնել: |

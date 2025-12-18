@@ -16,6 +16,8 @@ public virtual Task PostOnRejectDocumentChangeRequest(Document sender,
 Մեթոդը կանչվում է միջուկի կողմից՝ [փաստաթղթի փոփոխման հայտը](../../../server_api/types/DocumentChangeRequest.md) մերժելիս, [OnRejectDocumentChangeRequest](../../../server_api/definitions/document/OnRejectDocumentChangeRequest.md) մեթոդի կանչից հետո։
 
 **Պարամետրեր**
+
+
 | Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
 |-----------------|----------------------|----------------|----------------|
 | sender          | Document             | -              | [Փաստաթղթի օբյեկտը](../../../server_api/definitions/document.md), որի հիման վրա ստեղծվել է ընթացիկ փոփոխման հայտը։ |

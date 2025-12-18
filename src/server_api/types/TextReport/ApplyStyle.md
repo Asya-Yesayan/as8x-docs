@@ -13,6 +13,7 @@ public static string ApplyStyle(string source, TextReportStyle style)
 Ֆորմատավորված տեքստը ավելացվում է հաշվետվությանը [AddRow](AddRow.md), [AddHeader](AddHeader.md), [AddFooter](AddFooter.md) մեթոդների միջոցով։
 
 **Պարամետրեր**
+
 | Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
 |-----------------|----------------------|----------------|----------------|
 | source          | string               | -              | Ֆորմատավորման ենթակա տեքստը։ |

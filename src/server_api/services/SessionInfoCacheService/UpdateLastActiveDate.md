@@ -10,6 +10,7 @@ public void UpdateLastActiveDate(string guid, DateTime lastActiveDate)
 
 **Պարամետրեր**
 
+
 | Անվանում | Տեսակ | Նկարագրություն |
 |-----------|-------|-----------------|
 | guid | string | [Սեսսիայի](../../types/SessionInfo.md) ներքին նույնականացման համարը (guid)։ |

@@ -29,6 +29,7 @@ public Task<(decimal DbTurn, decimal DbTurnAMD, decimal CrTurn, decimal CrTurnAM
 
 **Պարամետրեր**
 
+
 | Անվանում    | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 |-------------|--------------|----------------|----------------|
 | accounting  | string       |    -            | Հաշվառման կոդ (ներքին անուն): |

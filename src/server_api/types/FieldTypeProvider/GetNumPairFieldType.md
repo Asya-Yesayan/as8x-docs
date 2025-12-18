@@ -9,6 +9,7 @@ public static NumPairFieldType GetNumPairFieldType(NumericFieldType numericField
 Վերադարձնում է [NumPairFieldType](../system_types.md#numericpositivefieldtype) դասի օբյեկտ քեշից կամ ստեղծում նորը քեշում բացակայության դեպքում և քեշավորում։
 
 **Պարամետրեր**
+
 | Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
 |-----------------|----------------------|----------------|----------------|
 | numericField1   | NumericFieldType     | -              | NumericFieldType դասի օբյեկտ։ |

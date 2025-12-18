@@ -17,6 +17,7 @@ public Task Store(DocumentCheckLevel checkLevel = DocumentCheckLevel.None,
 
 **Պարամետրեր**
 
+
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 | --- | --- | --- | --- |
 | checkLevel | DocumentCheckLevel | None | [Փաստաթղթի գրանցման եղանակ](../../types/DocumentCheckLevel.md), որը որոշում է թե ինչ ստանդարտ ստուգումներ և մշակիչներ ([Action](Action.md), [Validate](Validate.md)) կարող են անջատվել կամ միացվել փաստաթղթի գրանցման ընթացքում, ինչպես նաև, թե ինչ լրացուցիչ մշակիչներ պետք է գործարկվեն։ |

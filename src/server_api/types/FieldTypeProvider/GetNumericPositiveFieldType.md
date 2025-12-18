@@ -11,6 +11,7 @@ public static NumericPositiveFieldType GetNumericPositiveFieldType(short fieldLe
 Վերադարձնում է [NumericPositiveFieldType](../system_types.md#numericpositivefieldtype) դասի օբյեկտ քեշից կամ ստեղծում նորը քեշում բացակայության դեպքում և քեշավորում։
 
 **Պարամետրեր**
+
 | Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
 |-----------------|----------------------|----------------|----------------|
 | fieldLength     | short                | -              | Թվի նիշերի ընդհանուր քանակ։ Նիշերի առավելագույն քանակը կարող է լինել 19 (ներառյալ կետի նշանը)։ |

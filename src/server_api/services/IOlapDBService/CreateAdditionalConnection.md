@@ -15,6 +15,7 @@ public SqlConnection CreateAdditionalConnection(bool pooling = true,
 Բացում և վերադարձնում է նոր [SQL միացում](https://learn.microsoft.com/en-us/dotnet/api/microsoft.data.sqlclient.sqlconnection) դեպի **OLAP** տվյալների պահոց։
 
 **Պարամետրեր**
+
 | Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
 |-----------------|----------------------|----------------|----------------|
 | pooling         | bool                 | true           | Օգտագործել միացումների քեշ, թե ոչ։ <br> Փոխանցում է [SqlConnectionStringBuilder](https://learn.microsoft.com/en-us/dotnet/api/microsoft.data.sqlclient.sqlconnectionstringbuilder).[Pooling](https://learn.microsoft.com/en-us/dotnet/api/microsoft.data.sqlclient.sqlconnectionstringbuilder.pooling) հատկությանը։ |

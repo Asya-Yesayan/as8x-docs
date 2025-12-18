@@ -18,6 +18,7 @@ public virtual Task AfterCommit(AfterCommitEventArgs args)
 
 **Պարամետրեր**
 
+
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 | --- | --- | --- | --- |
 | args | [AfterCommitEventArgs](../../types/args/AfterCommitEventArgs.md) | - | [AfterCommitEventArgs](../../types/args/AfterCommitEventArgs.md) դասի օբյեկտ։ |

@@ -19,6 +19,7 @@ public virtual Task Folders(FoldersEventArgs args)
 
 **Պարամետրեր**
 
+
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 | --- | --- | --- | --- |
 | args | [FoldersEventArgs](../../types/args/FoldersEventArgs.md) | - | [FoldersEventArgs](../../types/args/FoldersEventArgs.md) դասի օբյեկտ։ |

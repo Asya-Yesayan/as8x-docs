@@ -17,6 +17,7 @@ public Task<DateTime> UpdateContent(AttachmentContentModel attachmentContent)
 Տե՛ս [օրինակը](../../examples/IAttachmentService.md#օրինակ-2)։
 
 **Պարամետրեր**
+
 | Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
 |-----------------|----------------------|----------------|----------------|
 | attachmentContent | AttachmentContentModel | -              | [Կցված ֆայլի պարունակության փոփոխման տվյալներ](../../types/AttachmentContentModel.md)՝ փաստաթղթի ISN, ֆայլի անունը, նոր պարունակությամբ ֆայլի նույնականացուցիչը սերվերային պահոցում։ |

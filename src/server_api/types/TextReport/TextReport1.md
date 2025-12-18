@@ -11,6 +11,7 @@ public TextReport(IStorageService storageService,
 
 **Պարամետրեր**
 
+
 | Անվանում | Տեսակ | Լռությամբ արժեք | Նկարագրություն |
 |----------|-------|-----------------|----------------|
 | storageService | [IStorageService](../../services/IStorageService.md) | - | IStorageService դասի օբյեկտ։ |

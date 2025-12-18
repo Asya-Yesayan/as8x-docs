@@ -21,6 +21,7 @@ public Task<string> LoadSubstituteAndGetContent(IPrintTemplateSubstitution print
 Տե՛ս [օրինակը](../../examples/ITemplateSubstitutionService.md#օրինակ-1)։
 
 **Պարամետրեր**
+
 | Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
 |-----------------|----------------------|----------------|----------------|
 | printTemplateSubstitution | IPrintTemplateSubstitution | -              | Տպելու ձևանմուշի տեղադրվող արժեքները պարունակող օբյեկտ։ |

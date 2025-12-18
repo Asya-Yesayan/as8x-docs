@@ -20,6 +20,7 @@ public Task CheckTransactionExistence(string description,
 
 **Պարամետրեր**
 
+
 | Անվանում      | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 |---------------|---------------|------------------|----------------|
 | description   | string        | —                | [APPLOG](https://asya-yesayan.github.io/as4x-docs/HTM/ProgrGuide/Database/APPLOG.html) աղյուսակում գրանցվող լոգի նկարագրությունը։ |

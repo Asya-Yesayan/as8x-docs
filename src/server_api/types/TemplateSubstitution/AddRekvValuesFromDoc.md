@@ -12,6 +12,7 @@ public void AddRekvValuesFromDoc(Document.Document document,
 
 **Պարամետրեր**
 
+
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 | --- | --- | --- | --- |
 | document | Document | - | Տպելու ձևանմուշին կապակցված փաստաթղթի օբյեկտը։ |

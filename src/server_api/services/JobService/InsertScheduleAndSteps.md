@@ -10,6 +10,7 @@ public Task<int> InsertScheduleAndSteps(ScheduledJob job)
 
 **Պարամետրեր**
 
+
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | **Նկարագրություն** |
 | --- | --- | --- | --- |
 | job | [ScheduledJob](../../types/ScheduledJob.md) | - | Հերթագրման ենթակա առաջադրանքի նկարագրությունը։ |

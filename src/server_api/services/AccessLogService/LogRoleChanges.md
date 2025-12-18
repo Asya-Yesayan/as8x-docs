@@ -15,6 +15,7 @@ public Task LogRoleChanges(HashSet<string> addedRoles, HashSet<string> removedRo
 Գրանցում է օգտագործողի դերերի փոփոխությունների մասին ինֆորմացիան տվյալների պահոցի [ACCESSLOG](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Database/AccessLog.html), `ACCESSARM` աղյուսակներում:
 
 **Պարամետրեր**
+
 | Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
 |-----------------|----------------------|----------------|----------------|
 | addedRoles      | HashSet<string>      | -              | Օգտագործողին ավելացված դերերի ներքին անունների ցուցակը։ |

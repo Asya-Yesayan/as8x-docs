@@ -10,6 +10,7 @@ public void Configure(IParametersService parametersService, Meter meter)
 
 **Պարամետրեր**
 
+
 | Անվանում | Տեսակ | Նկարագրություն |
 |----------|----------|----------|
 | parametersService | [IParametersService](../../services/IParametersService.md) | [IParametersService](../../services/IParametersService.md) դասի օբյեկտ: |

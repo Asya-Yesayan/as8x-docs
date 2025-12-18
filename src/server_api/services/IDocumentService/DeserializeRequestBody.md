@@ -16,6 +16,7 @@ public Task<Document> DeserializeRequestBody(DocumentModel request,
 Սովորաբար օգտագործվում է փաստաթղթի [DeserializeComplexObjects](../../definitions/document/DeserializeComplexObjects.md) մշակիչի մեջ։
 
 **Պարամետրեր**
+
 | Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
 |-----------------|----------------------|----------------|----------------|
 | request         | DocumentModel        | -              | Փաստաթղթի ցանցով փոխանցվող օբյեկտ։ |

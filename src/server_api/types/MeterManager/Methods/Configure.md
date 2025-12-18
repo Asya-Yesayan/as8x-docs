@@ -11,6 +11,7 @@ protected virtual void Configure(IParametersService parametersService)
 Հավաքագրվող մետրիկաների ցուցակին ծանոթանալու համար տե՛ս հետևյալ [հղումը](../../otlp/parameters.md):
 
 **Պարամետրեր**
+
 | Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
 |-----------------|----------------------|----------------|----------------|
 | parametersService | IParametersService   | -              | [IParametersService](../../../../server_api/services/IParametersService.md) դասի օբյեկտ։ |

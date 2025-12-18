@@ -18,6 +18,7 @@ public Task<ITemplateSubstitution> GetReadyTemplateSubstitution(Document.Documen
 Տե՛ս [օրինակը](../../examples/ITemplateSubstitutionService.md#օրինակ-1)։
 
 **Պարամետրեր**
+
 | Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
 |-----------------|----------------------|----------------|----------------|
 | document        | Document.Document    | -              | Տպելու ձևանմուշի հետ կապակցված [փաստաթուղթ](../../definitions/document.md)։ |

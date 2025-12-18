@@ -9,6 +9,7 @@ public Task ChangeRequest(ChangeRequestEventArgs args)
 Մեթոդը կանչվում է փաստաթղթի փոփոխման հայտի մշակման ընթացքում։ 
 
 **Պարամետրեր**
+
 | Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
 |-----------------|----------------------|----------------|----------------|
 | args            | ChangeRequestEventArgs | -              | [ChangeRequestEventArgs](../args/ChangeRequestEventArgs.md) դասի օբյեկտ, որը պարունակում է փաստաթղթի [փոփոխման հայտը](../DocumentChangeRequest.md) և սահմանում է հայտի վիճակը մեթոդի կանչից հետո։ |

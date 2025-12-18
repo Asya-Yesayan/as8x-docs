@@ -18,6 +18,7 @@ public virtual bool IsValid(FieldType fieldType)
 
 **Պարամետրեր**
 
+
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | **Նկարագրություն** |
 | --- | --- | --- | --- |
 | fieldType | FieldType | - | Համակարգային տիպը։ |

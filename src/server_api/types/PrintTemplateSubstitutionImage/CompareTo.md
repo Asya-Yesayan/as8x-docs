@@ -10,6 +10,7 @@ public int CompareTo(PrintTemplateSubstitutionImage other)
 
 **Պարամետրեր**
 
+
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 | --- | --- | --- | --- |
 | other | PrintTemplateSubstitutionImage | - | Տպելու ձևանմուշում տեղադրվող նկարի նկարագրությունը։ |

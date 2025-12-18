@@ -15,6 +15,7 @@ public Task HiParDelete(Document doc)
 [HIPAR](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Database/HiPar.html) աղյուսակից ջնջում է այս փաստաթղթի նախկինում գրանցած պարամետրերի արժեքները։
 
 **Պարամետրեր**
+
 | Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
 |-----------------|----------------------|----------------|----------------|
 | doc             | Document             | -              | [Փաստաթղթի օբյեկտ](../../definitions/document.md)։ |

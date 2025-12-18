@@ -12,6 +12,8 @@ public Task<AttachReservedCardToClientResponse> AttachReservedCardToClient(
 Այն պետք է բացված լինի տեխնիկական հաճախորդի կոդով (սահմանվում է RESERVEDCARDSCLIENTS պարամետրով)։
 
 **Պարամետրեր**
+
+
 | Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
 |-----------------|----------------------|----------------|----------------|
 | request         | AttachReservedCardToClientRequest | -              | Պարունակում է հաճախորդի կոդը և քարտի համարը։ |

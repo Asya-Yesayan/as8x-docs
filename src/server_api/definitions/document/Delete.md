@@ -18,6 +18,7 @@ public virtual Task Delete(DeleteEventArgs args)
 
 **Պարամետրեր**
 
+
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 | --- | --- | --- | --- |
 | args | [DeleteEventArgs](../../types/args/DeleteEventArgs.md) | - | [DeleteEventArgs](../../types/args/DeleteEventArgs.md) դասի օբյեկտ։ |

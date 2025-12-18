@@ -12,6 +12,7 @@ public void InformationForContext(string contextPropertyName,
 
 **Պարամետրեր**
 
+
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | **Նկարագրություն** |
 | --- | --- | --- | --- |
 | contextPropertyName | string | - | Լոգի իրադարձության [կոնտեքսը](https://github.com/serilog/serilog/wiki/Writing-Log-Events#correlation), որը գրանցվում է այս պարամետրում նշված անունով թեգում։ |

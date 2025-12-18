@@ -15,6 +15,8 @@ public virtual Task OnAdd(OnAddEventArgs args);
 Մեթոդը կանչվում է միջուկի կողմից [DocumentService](../../services/IDocumentService.md) դասի [StoreFact](../../services/IDocumentService/StoreFact.md) մեթոդով հաշվառումները գրանցելիս։
 
 **Պարամետրեր**
+
+
 | Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
 |-----------------|----------------------|----------------|----------------|
 | args            | OnAddEventArgs       | -              | Գրանցման ենթակա հաշվառումը նկարագրող դասը։ |

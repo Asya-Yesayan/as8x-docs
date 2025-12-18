@@ -18,6 +18,7 @@ public Task EvalAndAddUserDefinedParametersEx(string name,
 Տե՛ս [Տպելու ձևանմուշի ընդլայնման ձեռնարկ](../../../extensions/definitions/template_substitution_guide.md)։
 
 **Պարամետրեր**
+
 | Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
 |-----------------|----------------------|----------------|----------------|
 | name            | string               | -              | Տպելու ձևանմուշի ներքին անուն: |

@@ -18,6 +18,7 @@ public virtual Task ConfigureDCRFieldInclusion(ConfigureDCRFieldInclusionEventAr
 
 **Պարամետրեր**
 
+
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 | --- | --- | --- | --- |
 | args | [ConfigureDCRFieldInclusionEventArgs](../../types/ConfigureDCRFieldInclusionEventArgs.md) | - | [ConfigureDCRFieldInclusionEventArgs](../../types/ConfigureDCRFieldInclusionEventArgs.md) դասի օբյեկտ։ |

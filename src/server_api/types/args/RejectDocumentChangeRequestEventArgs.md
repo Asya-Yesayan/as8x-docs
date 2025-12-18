@@ -8,6 +8,7 @@ tags: OnRejectDCR
 
 **Պարամետրեր**
 
+
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 | --- | --- | --- | --- |
 | DCR | `DocumentChangeRequest` | - | `DCR` - [Փաստաթղթի փոփոխման հայտը](../DocumentChangeRequest.md)։ |

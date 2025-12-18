@@ -18,6 +18,8 @@ public virtual Task BeforeProcess(IList<IExtendableRow> rows,
 Մեթոդը չի կանչվում միջուկի կողմից, եթե հիմնական հաշվարկի մեջ տողեր չկան և [AlwaysCallBeforeProcess](AlwaysCallBeforeProcess.md) հատկության արժեքը false է։
 
 **Պարամետրեր**
+
+
 | Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
 |-----------------|----------------------|----------------|----------------|
 | rows            | IList<IExtendableRow> | -              | Տվյալների աղբյուրի ընդլայնման տողերի ցուցակ։ |

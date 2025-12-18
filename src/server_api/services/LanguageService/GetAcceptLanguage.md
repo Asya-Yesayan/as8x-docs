@@ -15,6 +15,7 @@ public static string GetAcceptLanguage(CultureInfo cultureInfo = null)
 
 **Պարամետրեր**
 
+
 | Անվանում | Տեսակ | Լռությամբ արժեք | Նկարագրություն |
 |-----------|-------|-----------------|----------------|
 | cultureInfo | CultureInfo | null | [CultureInfo](https://learn.microsoft.com/en-us/dotnet/api/system.globalization.cultureinfo) դասի օբյեկտ, որի հիման վրա որոշվում է `Accept-Language` header-ի արժեքը։ |

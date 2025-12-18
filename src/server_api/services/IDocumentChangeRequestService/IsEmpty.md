@@ -19,6 +19,7 @@ public bool IsEmpty(DocumentChangeRequest dcr,
 
 **Պարամետրեր**
 
+
 | Անվանում | Տեսակ | Լռությամբ արժեք | Նկարագրություն |
 |-----------|-------|-----------------|----------------|
 | `dcr` | [DocumentChangeRequest](../../../server_api/types/DocumentChangeRequest.md) | – | [Փաստաթղթի փոփոխման հայտը](../../../server_api/types/DocumentChangeRequest.md)։ |

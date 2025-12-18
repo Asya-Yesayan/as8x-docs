@@ -18,6 +18,8 @@ public virtual Task PostTemplateSubstitution(Document sender,
 Տե՛ս օգտագործման [օրինակը](../../examples/PostTemplateSubstitution.md):
 
 **Պարամետրեր**
+
+
 | Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
 |-----------------|----------------------|----------------|----------------|
 | sender          | Document             | -              | Տպելու ձևանմուշին կապակցված [փաստաթղթի](../../../server_api/definitions/document.md) օբյեկտ։ |

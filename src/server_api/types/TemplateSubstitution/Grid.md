@@ -10,6 +10,7 @@ public PrintTemplateSubstitutionGrid Grid(string name)
 
 **Պարամետրեր**
 
+
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 | --- | --- | --- | --- |
 | name | string | - | Աղյուսակի ներքին անունը (կոդը)։ |

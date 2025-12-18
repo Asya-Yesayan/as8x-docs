@@ -10,6 +10,7 @@ public PrintTemplateSubstitutionImage Image(string name)
 
 **Պարամետրեր**
 
+
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 | --- | --- | --- | --- |
 | name | string | - | Նկարի ներքին անունը (կոդը)։ |
