@@ -2,6 +2,10 @@
 title: IExecutionProgress.Add(string) մեթոդ
 ---
 
+## Նկարագիր
+
+**Դաս՝** [IExecutionProgress](../IExecutionProgress.md)
+
 ```c#
 public void Add(string name);
 ```

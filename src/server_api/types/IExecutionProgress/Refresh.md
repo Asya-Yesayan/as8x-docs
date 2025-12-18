@@ -2,6 +2,10 @@
 title: IExecutionProgress.Refresh(string) մեթոդ
 ---
 
+## Նկարագիր
+
+**Դաս՝** [IExecutionProgress](../IExecutionProgress.md)
+
 ```c#
 public void Refresh(string name);
 ```

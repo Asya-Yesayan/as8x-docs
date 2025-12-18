@@ -2,6 +2,10 @@
 title: IExecutionProgress.CurrentPhase հատկություն
 ---
 
+## Նկարագիր
+
+**Դաս՝** [IExecutionProgress](../IExecutionProgress.md)
+
 ```c#
 public ProgressPhase CurrentPhase { get; set; }
 ```

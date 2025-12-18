@@ -2,12 +2,16 @@
 title: IExecutionProgress.SaveToStorageAndClose() մեթոդ
 ---
 
+## Նկարագիր
+
+**Դաս՝** [IExecutionProgress](../IExecutionProgress.md)
+
 ```c#
 public Task<StorageInfo> SaveToStorageAndClose();
 ```
 
-Փակում է հաշվետվությունը և պահպանում [ընթացիկ սեսսիայի կոնտեյներում](../../services/IStorageService/Container.md):
+Փակում է [տեքստային հաշվետվությունը](../TextReport.md) և պահպանում [ընթացիկ սեսսիայի կոնտեյներում](../../services/IStorageService/Container.md):
 
 Վերադարձնում է հաշվետվությունը պարունակող [կոնտեյների](../../services/IStorageService/Container.md) և ֆայլի անունները։
 
-Առաջադրանքի կատարման ընթացքում մեթոդի կանչի դեպքում տեքստային հաշվետվությունը մնում է անփոփոխ։ 
+Առաջադրանքի կատարման ընթացքում մեթոդի կանչի դեպքում հաշվետվությունը մնում է անփոփոխ։ 

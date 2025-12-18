@@ -2,8 +2,12 @@
 title: IExecutionProgress.LoggingEnabled հատկություն
 ---
 
+## Նկարագիր
+
+**Դաս՝** [IExecutionProgress](../IExecutionProgress.md)
+
 ```c#
 public bool LoggingEnabled { get; }
 ```
 
-Հատկությունը որոշում է IExecutionProgress-ի տողեր ավելացնող մեթոդների ([RecordError](RecordError.md), [RecordInformation](RecordInformation.md), [RecordHeader](RecordHeader.md), ...) հաղորդագրությունները գրանցում են Seq-ում, թե ավելացվում՝ տեքստային հաշվետվությունում։
+Հատկությունը որոշում է [IExecutionProgress](../IExecutionProgress.md)-ի տողեր ավելացնող մեթոդների ([RecordError](RecordError.md), [RecordInformation](RecordInformation.md), [RecordHeader](RecordHeader.md), ...) հաղորդագրությունները գրանցում են [Seq](https://datalust.co/)-ում, թե ավելացվում՝ [տեքստային հաշվետվությունում](../TextReport.md)։
