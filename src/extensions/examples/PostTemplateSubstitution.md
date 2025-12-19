@@ -7,7 +7,7 @@ title: "PostTemplateSubstitution-ի օգտագործման օրինակ"
 Այս օրինակում՝
 * [GetReadyTemplateSubstitution](../../server_api/services/ITemplateSubstitutionService/GetReadyTemplateSubstitution.md) մեթոդի միջոցով հաշվարկվում է տպելու ձևանմուշի տեղադրվող արժեքները, օգտագործողի կողմից նկարագրված պարամետրերը և վերադարձվում է նշված արժեքները պարունակող օբյեկտը,
 * [LoadSubstitutionAndGetStorage](../../server_api/services/ITemplateSubstitutionService/LoadSubstitutionAndGetStorage.md) մեթոդի միջոցով բեռնվում է տպելու ձևանմուշը, լրացվում է նախապես հաշվարկված տեղադրվող արժեքներով, պահպանվում է սերվերային պահոցում և վերադարձվում է ֆայլը պարունակող թղթապանակի, ֆայլի անունները `StoragInfo` տիպի օբյեկտով,
-* `StoragInfo` տիպի օբյեկտը կապակցվում է [PostTemplateSubstitution](../definitions/document_extender/PostTemplateSubstitution.md) մեթոդի [TemplateSubstitutionEventArgs](../types/args/TemplateSubstitutionEventArgs.md) պարամետրին [AddSubstitutedFile](../types/args/TemplateSubstitutionEventArgs/AddSubstitutedFile.md) մեթոդի միջոցով՝ ապահովելով հիմնական տպելու ձևանմուշը տպելիս մեկ այլ ձևանմուշի տպումը։
+* `StoragInfo` տիպի օբյեկտը կապակցվում է [PostTemplateSubstitution](../definitions/document_extender/Methods/PostTemplateSubstitution.md) մեթոդի [TemplateSubstitutionEventArgs](../types/args/TemplateSubstitutionEventArgs.md) պարամետրին [AddSubstitutedFile](../types/args/TemplateSubstitutionEventArgs/Methods/AddSubstitutedFile.md) մեթոդի միջոցով՝ ապահովելով հիմնական տպելու ձևանմուշը տպելիս մեկ այլ ձևանմուշի տպումը։
 
 ```c#
 public override async Task PostTemplateSubstitution(Document sender, TemplateSubstitutionEventArgs<TemplateSubstitution> args)

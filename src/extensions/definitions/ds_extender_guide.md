@@ -121,7 +121,7 @@ public override Task<bool> ProccessRow(IExtendableRow row, IDataSourceArgs args)
 
 ### BeforeProcess ֆունկցիա
 
-Եթե ինչ-որ տվյալներ հարկավոր է հաշվարկել և քեշավորել նախքան [ProccessRow](ds_extender/ProccessRow.md)-ի աշխատանքը, ապա հարկավոր է մշակել [BeforeProcess](ds_extender/BeforeProcess.md) ֆունկցիան։ 
+Եթե ինչ-որ տվյալներ հարկավոր է հաշվարկել և քեշավորել նախքան [ProccessRow](ds_extender/Methods/ProccessRow.md)-ի աշխատանքը, ապա հարկավոր է մշակել [BeforeProcess](ds_extender/Methods/BeforeProcess.md) ֆունկցիան։ 
 Տվյալ ֆունկցիան օգտագործվում է նաև կամայական տողի ձևափոխման համար։
 
 ``` cs

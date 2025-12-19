@@ -6,4 +6,4 @@ title: IDocumentChangeRequest դաս
 
 | Անվանում | Նկարագրություն |
 |----------|----------------|
-| [ChangeRequest(ChangeRequestEventArgs)](IDocumentChangeRequest/ChangeRequest.md) | Մեթոդը կանչվում է փաստաթղթի փոփոխման հայտի մշակման ընթացքում։ |
+| [ChangeRequest(ChangeRequestEventArgs)](IDocumentChangeRequest/Methods/ChangeRequest.md) | Մեթոդը կանչվում է փաստաթղթի փոփոխման հայտի մշակման ընթացքում։ |

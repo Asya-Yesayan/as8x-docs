@@ -41,5 +41,5 @@ RODocument տեսակի փաստաթուղթը տվյալների պահոցից
 | [ISN](RODocument/ISN.md) | Վերադարձնում է փաստաթղթի ներքին նույնականացման համարը (isn-ը): |
 | [LastLookup](RODocument/LastLookup.md) | Վերադարձնում է փաստաթղթի քեշում փնտրման և քեշից բեռնման վերջին ամսաթիվը/ժամանակը: |
 | [LastTSCheck](RODocument/LastTSCheck.md) | Վերադարձնում է փաստաթղթի [TimeStamp](RODocument/TimeStamp.md)-ի տվյալների պահոցից վերջին ստուգման ամսաթիվը/ժամանակը: |
-| [TimeStamp](RODocument/TimeStamp.md) | Նշանակում է կամ վերադարձնում փաստաթղթի վերջին փոփոխման ամսաթիվը և ժամանակը` որպես byte տիպի զանգված: |
+| [TimeStamp](RODocument/Properties/TimeStamp.md) | Նշանակում է կամ վերադարձնում փաստաթղթի վերջին փոփոխման ամսաթիվը և ժամանակը` որպես byte տիպի զանգված: |
 | [State](RODocument/State.md) | Վերադարձնում կամ նշանակում է փաստաթղթի վիճակը: |

@@ -85,7 +85,7 @@ public DeleteDocsByIsnDPR(IDocumentService documentService, IStorageService stor
 
 Հիմնական տրամաբանությունը հարկավոր է իրականացնել [Execute](dpr/Execute.md) մեթոդում, այն ստանում է մուտքային պարամետրերը նկարագրող դասը և պետք է վերադարձնի կատարման արդյունքում ստացվող տվյալները նկարագրող դասը։
 
-Ստորև օրինակում նկարագրված Տվյալների մշակման հարցումը (`DPR`) հեռացնում է կատարման պարամետրում տրված ISN-ներով փաստաթղթերը համակարգից [IDocumentService](../services/IDocumentService.md).[Delete](../services/IDocumentService/Delete.md) մեթոդի միջոցով, ստեղծում է [TextReport](../types/TextReport.md), որում լրացնում է կատարման ընթացքում առաջացած սխալները և վերադարձնում է կլիենտին։
+Ստորև օրինակում նկարագրված Տվյալների մշակման հարցումը (`DPR`) հեռացնում է կատարման պարամետրում տրված ISN-ներով փաստաթղթերը համակարգից [IDocumentService](../services/IDocumentService.md).[Delete](../services/IDocumentService/Methods/Delete.md) մեթոդի միջոցով, ստեղծում է [TextReport](../types/TextReport.md), որում լրացնում է կատարման ընթացքում առաջացած սխալները և վերադարձնում է կլիենտին։
 
 ```c#
 public override async Task<DeleteDocsByIsnResponse> Execute(DeleteDocsByIsnRequest request, CancellationToken stoppingToken)

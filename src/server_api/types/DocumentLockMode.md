@@ -2,7 +2,7 @@
 title: "DocumentLockMode enum" 
 ---
 
-Այս enum-ը նախատեսված է փաստաթղթի [բեռնման](../services/IDocumentService/Load.md) ժամանակ տվյալների պահոցում կիրառվող արգելափակման (lock) ռեժիմի սահմանման համար։
+Այս enum-ը նախատեսված է փաստաթղթի [բեռնման](../services/IDocumentService/Methods/Load.md) ժամանակ տվյալների պահոցում կիրառվող արգելափակման (lock) ռեժիմի սահմանման համար։
 
 ```c#
 public enum DocumentLockMode

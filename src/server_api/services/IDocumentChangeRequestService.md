@@ -10,4 +10,4 @@ IDocumentChangeRequestService դասը նախատեսված է [փաստաթղթ
 
 | Անվանում | Նկարագրություն |
 |----------|----------------|
-| [IsEmpty(DocumentChangeRequest, bool)](IDocumentChangeRequestService/IsEmpty.md) | Ստուգում է [փաստաթղթի փոփոխման հայտի](../../server_api/types/DocumentChangeRequest.md) դատարկությունը։ |
+| [IsEmpty(DocumentChangeRequest, bool)](IDocumentChangeRequestService/Methods/IsEmpty.md) | Ստուգում է [փաստաթղթի փոփոխման հայտի](../../server_api/types/DocumentChangeRequest.md) դատարկությունը։ |

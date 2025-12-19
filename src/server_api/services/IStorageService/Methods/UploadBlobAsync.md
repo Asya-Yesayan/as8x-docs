@@ -13,7 +13,7 @@ title: IStorageService.UploadBlobAsync մեթոդ
 | Անվանում | Նկարագրություն |
 |--|--|
 | [UploadBlobAsync(string, string, byte\[\], CancellationToken)](#istorageserviceuploadblobasyncstring-string-byte-cancellationtoken-մեթոդ) | Պահպանում է `value` պարամետրի պարունակությունը ժամանակավոր ֆայլերի պահոցում` ըստ կոնտեյների և ֆայլի անվան։  |
-| [UploadBlobAsync(string, Stream, BlobProperties, CancellationToken)](#istorageserviceuploadblobasyncstring-stream-blobproperties-cancellationtoken-մեթոդ) | Պահպանում է `stream` պարամետրի պարունակությունը [ընթացիկ սեսիայի կոնտեյների](Container.md) նշված ֆայլում։ |
+| [UploadBlobAsync(string, Stream, BlobProperties, CancellationToken)](#istorageserviceuploadblobasyncstring-stream-blobproperties-cancellationtoken-մեթոդ) | Պահպանում է `stream` պարամետրի պարունակությունը [ընթացիկ սեսիայի կոնտեյների](../Properties/Container.md) նշված ֆայլում։ |
 | [UploadBlobAsync(string, string, Stream, BlobProperties, CancellationToken)](#istorageserviceuploadblobasyncstring-string-stream-blobproperties-cancellationtoken-մեթոդ)| Պահպանում է `stream` պարամետրի պարունակությունը ժամանակավոր ֆայլերի պահոցում՝ նշված կոնտեյների նշված ֆայլում։ |
 
 ### IStorageService.UploadBlobAsync(string, string, byte[], CancellationToken) մեթոդ
@@ -45,7 +45,7 @@ public Task<bool> UploadBlobAsync(string blobName,
                                   CancellationToken cancellationToken = default)
 ```
 
-Պահպանում է `stream` պարամետրի պարունակությունը [ընթացիկ սեսիայի կոնտեյների](Container.md) նշված ֆայլում։ 
+Պահպանում է `stream` պարամետրի պարունակությունը [ընթացիկ սեսիայի կոնտեյների](../Properties/Container.md) նշված ֆայլում։ 
 
 **Պարամետրեր**
 

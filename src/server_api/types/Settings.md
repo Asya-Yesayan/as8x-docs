@@ -10,4 +10,4 @@ title: Settings դաս
 
 | Անվանում | Նկարագրություն |
 |----------|----------------|
-| [CurrentServiceId](Settings/CurrentServiceId.md) | Վերադարձնում է ընթացիկ սերվիսի id-ն։ |
+| [CurrentServiceId](Settings/Properties/CurrentServiceId.md) | Վերադարձնում է ընթացիկ սերվիսի id-ն։ |

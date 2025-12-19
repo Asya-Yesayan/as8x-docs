@@ -6,4 +6,4 @@ title: "DocumentOperationService սերվիս"
 
 | Անվանում | Նկարագրություն |
 |----------|----------------|
-| [Refolder(RefolderArgs, TextReport.TextReport, CancellationToken)](DocumentOperationService/Refolder.md) | Կատարում է փաստաթղթերի վերաինդեքսավորում։ |
+| [Refolder(RefolderArgs, TextReport.TextReport, CancellationToken)](DocumentOperationService/Methods/Refolder.md) | Կատարում է փաստաթղթերի վերաինդեքսավորում։ |

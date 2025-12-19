@@ -75,7 +75,7 @@ public AllOperExtended(IDBService dbService)
 
 ### BeforeProcess ֆունկցիա
 
-Պարամետրին դիմելու համար [BeforeProcess](ds_extender/BeforeProcess.md) ֆունկցիայում 
+Պարամետրին դիմելու համար [BeforeProcess](ds_extender/Methods/BeforeProcess.md) ֆունկցիայում 
 - ստանում է տվյալների աղբյուրին փոխանցված պարամետրերը `extenderParameters` փոփոխականի մեջ,
 - ստուգվում է հաճախորդ պարամետրի փոխանցված (լրացված) լինելը,
 - կատարվում է SQL հարցում, որի արդյունքում վերադարձվում են տվյալ հաճախորդի բոլոր հաշիվները

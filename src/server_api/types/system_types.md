@@ -38,7 +38,7 @@ tags: [FieldType, FieldTypes, type]
 Հանդիսանում է 4x-ում նկարագրված [AmAcc](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Types/Amacc.html) համակարգային տիպի համարժեքը 8x-ում։
 Համարժեք c#-ական ներդրված տիպը [string](https://learn.microsoft.com/en-us/dotnet/api/system.string)-ն է:
 
-Տիպի նոր օբյեկտ ստեղծելու համար անհրաժեշտ է կանչել [FieldTypeProvider](FieldTypeProvider.md) ստատիկ դասի [AmAcc](FieldTypeProvider/AmAcc.md) հատկությունը։
+Տիպի նոր օբյեկտ ստեղծելու համար անհրաժեշտ է կանչել [FieldTypeProvider](FieldTypeProvider.md) ստատիկ դասի [AmAcc](FieldTypeProvider/Properties/AmAcc.md) հատկությունը։
 
 **Օրինակ**
 

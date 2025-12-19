@@ -17,4 +17,4 @@ IMailService ինտերֆեյսը նախատեսված է էլեկտրոնայի
 
 | Անվանում | Նկարագրություն |
 |----------|----------------|
-| [SendMail(MailArgs)](IMailService/SendMail.md) | Ուղարկում է էլեկտրոնային նամակ (email) ըստ `args` տվյալների։ |
+| [SendMail(MailArgs)](IMailService/Methods/SendMail.md) | Ուղարկում է էլեկտրոնային նամակ (email) ըստ `args` տվյալների։ |

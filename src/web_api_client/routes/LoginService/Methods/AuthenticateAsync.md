@@ -36,7 +36,7 @@ public Task<Exception> AuthenticateAsync(string serviceAddress,
 | apiClientId     | short                | -              | Կլիենտ ծրագրի id-ն (API Client Id)։ |
 | secret          | string               | -              | Կլիենտ ծրագրի բանալի (API Client Secret)։ |
 | username        | string               | -              | Օգտագործողի մուտքանունը (ներքին անունը)։ |
-| configurationName | string               | ""             | Այս պարամետրի արժեքը փոխանցվում է [ConfigurationName](ConfigurationName.md) հատկությանը: Այն ինֆորմատիվ բնույթ է կրում։ |
+| configurationName | string               | ""             | Այս պարամետրի արժեքը փոխանցվում է [ConfigurationName](../Properties/ConfigurationName.md) հատկությանը: Այն ինֆորմատիվ բնույթ է կրում։ |
 | cancellationToken | CancellationToken    | default        | Ընդհատման օբյեկտ։ |
 
 **Օրինակ**
@@ -72,5 +72,5 @@ public Task<Exception> AuthenticateAsync(string serviceAddress,
 | apiClientId     | short                | -              | Կլիենտ ծրագրի id-ն (API Client Id)։ |
 | username        | string               | -              | Օգտագործողի մուտքանունը։ |
 | password        | string               | -              | Օգտագործողի գաղտնաբառը։ |
-| configurationName | string               | ""             | Այս պարամետրի արժեքը փոխանցվում է [ConfigurationName](ConfigurationName.md) հատկությանը: Այն ինֆորմատիվ բնույթ է կրում։ |
+| configurationName | string               | ""             | Այս պարամետրի արժեքը փոխանցվում է [ConfigurationName](../Properties/ConfigurationName.md) հատկությանը: Այն ինֆորմատիվ բնույթ է կրում։ |
 | cancellationToken | CancellationToken    | default        | Ընդհատման օբյեկտ։ |

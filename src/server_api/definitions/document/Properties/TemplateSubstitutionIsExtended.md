@@ -10,7 +10,7 @@ title: Document.TemplateSubstitutionIsExtended հատկություն
 public virtual bool TemplateSubstitutionIsExtended { get; }
 ```
 
-Այս հատկության `true` արժեքի դեպքում փաստաթղթի տպելու ձևանմուշի լրացվող արժեքների հաշվարկը անհրաժեշտ է իրականացնել [TemplateSubstitutionEx](TemplateSubstitutionEx.md) մեթոդի միջոցով, հակառակ դեպքում՝ [TemplateSubstitution](TemplateSubstitution.md) մեթոդի միջոցով։
+Այս հատկության `true` արժեքի դեպքում փաստաթղթի տպելու ձևանմուշի լրացվող արժեքների հաշվարկը անհրաժեշտ է իրականացնել [TemplateSubstitutionEx](../Methods/TemplateSubstitutionEx.md) մեթոդի միջոցով, հակառակ դեպքում՝ [TemplateSubstitution](../Methods/TemplateSubstitution.md) մեթոդի միջոցով։
 
 Այս մեթոդի մշակման դեպքում տպելու ձևանմուշում արժեքները ավելացվում են տիպիզացված ձևով, ոչ թե object տիպով։
 

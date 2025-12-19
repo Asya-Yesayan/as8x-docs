@@ -6,7 +6,7 @@ title: "StoreMode"
 ## Փաստաթղթի պահպանման ռեժիմը
 
 Այս դասը նախատեսված է փաստաթղթի պահպանման ռեժիմի սահմանման համար։  
-Տե՛ս [Document](../definitions/document.md).[StoreMode](../definitions/document/StoreMode.md) հատկությունը։
+Տե՛ս [Document](../definitions/document.md).[StoreMode](../definitions/document/Properties/StoreMode.md) հատկությունը։
 
 
 ```c#

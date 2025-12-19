@@ -18,15 +18,15 @@ title: DataProcessingRequest նկարագրություն
 
 | Անվանում | Նկարագրություն |
 |----------|----------------|
-| [AfterDeserializeParameter(P, JsonElement)](dpr/AfterDeserializeParameter.md) | Մեթոդը կանչվում է միջուկի կողմից DPR-ը հերթագրման դնելուց առաջ։ |
-| [Execute(P, CancellationToken)](dpr/Execute.md) | Մեթոդը կանչվում է միջուկի կողմից, այստեղ հարկավոր է մշակել սերվերում աշխատող տրամաբանությունը։ |
+| [AfterDeserializeParameter(P, JsonElement)](dpr/Methods/AfterDeserializeParameter.md) | Մեթոդը կանչվում է միջուկի կողմից DPR-ը հերթագրման դնելուց առաջ։ |
+| [Execute(P, CancellationToken)](dpr/Methods/Execute.md) | Մեթոդը կանչվում է միջուկի կողմից, այստեղ հարկավոր է մշակել սերվերում աշխատող տրամաբանությունը։ |
 
 ## Հատկություններ
 
 | Անվանում | Նկարագրություն |
 |----------|----------------|
-| [ArmenianCaption](dpr/ArmenianCaption.md) | Վերադարձնում է տվյալների մշակման հարցման (`DPR`-ի) հայերեն անվանումը ANSI կոդավորմամբ: |
-| [EnglishCaption](dpr/EnglishCaption.md) | Վերադարձնում է տվյալների մշակման հարցման (`DPR`-ի) անգլերեն անվանումը: |
-| [Name](dpr/Name.md) | Վերադարձնում է տվյալների մշակման հարցման (`DPR`-ի) ներքին անունը: |
-| [Progress](dpr/Progress.md) | Վերադարձնում է տվյալների մշակման հարցման (`DPR`-ի) կատարման պրոգրեսը: |
-| [DPRType](dpr/DPRType.md) | Վերադարձնում է տվյալների մշակման հարցման (`DPR`-ի) տեսակը, որը լրացված է նկարագրվող դասի վրա [DPR ատրիբուտի](../types/attributes/DPRAttribute.md) մեջ։ |
+| [ArmenianCaption](dpr/Properties/ArmenianCaption.md) | Վերադարձնում է տվյալների մշակման հարցման (`DPR`-ի) հայերեն անվանումը ANSI կոդավորմամբ: |
+| [EnglishCaption](dpr/Properties/EnglishCaption.md) | Վերադարձնում է տվյալների մշակման հարցման (`DPR`-ի) անգլերեն անվանումը: |
+| [Name](dpr/Properties/Name.md) | Վերադարձնում է տվյալների մշակման հարցման (`DPR`-ի) ներքին անունը: |
+| [Progress](dpr/Properties/Progress.md) | Վերադարձնում է տվյալների մշակման հարցման (`DPR`-ի) կատարման պրոգրեսը: |
+| [DPRType](dpr/Properties/DPRType.md) | Վերադարձնում է տվյալների մշակման հարցման (`DPR`-ի) տեսակը, որը լրացված է նկարագրվող դասի վրա [DPR ատրիբուտի](../types/attributes/DPRAttribute.md) մեջ։ |

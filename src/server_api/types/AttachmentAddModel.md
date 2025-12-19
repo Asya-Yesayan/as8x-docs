@@ -5,7 +5,7 @@ title: "AttachmentAddModel դաս"
 
 Դասը պարունակում է փաստաթղթին նոր ֆայլ կցելու տվյալներ։
 
-Օգտագործվում է [IAttachmentService](../services/IAttachmentService.md).[Add](../services/IAttachmentService/Add.md) մեթոդով փաստաթղթին ֆայլ կցելիս։
+Օգտագործվում է [IAttachmentService](../services/IAttachmentService.md).[Add](../services/IAttachmentService/Methods/Add.md) մեթոդով փաստաթղթին ֆայլ կցելիս։
 
 Տե՛ս [օրինակը](../examples/IAttachmentService.md#օրինակ-1)։
 

@@ -4,7 +4,7 @@ title: "ChangeRequestEventArgs"
 tags: ChangeRequest
 ---
 
-Այս դասը օգտագործվում է փաստաթղթի [IDocumentChangeRequest](../IDocumentChangeRequest.md)-ի [ChangeRequest](../IDocumentChangeRequest/ChangeRequest.md) մեթոդում։
+Այս դասը օգտագործվում է փաստաթղթի [IDocumentChangeRequest](../IDocumentChangeRequest.md)-ի [ChangeRequest](../IDocumentChangeRequest/Methods/ChangeRequest.md) մեթոդում։
 
 ```c#
 public class ChangeRequestEventArgs

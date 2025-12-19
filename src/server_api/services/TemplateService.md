@@ -200,6 +200,6 @@ public Task UpdateDataGroups(int rowId, string dataGroups)
 
 | Անվանում | Նկարագրություն |
 |----------|----------------|
-| [ExistsTemplate(string, string)](TemplateService/ExistsTemplate.md) | Ստուգում է տպելու ձևանմուշի նկարագրության առկայությունը տվյալների պահոցի `TEMPLATES` աղյուսակում։ |
-| [GetDefinition(string, string)](TemplateService/GetDefinition.md) | Վերադարձնում է տպելու ձևանմուշի նկարագրությունը տվյալների պահոցի `TEMPLATES` աղյուսակից՝ ըստ տպելու ձևանմուշի ներքին անվան և տիպի։ |
-| [GetTemplateNameAndType(string, bool)](TemplateService/GetTemplateNameAndType.md) | Բաժանում է `templateNameWithType` պարամետրում միավորված տպելու ձևանմուշի ներքին անունը (կոդը) և տիպը: |
+| [ExistsTemplate(string, string)](TemplateService/Methods/ExistsTemplate.md) | Ստուգում է տպելու ձևանմուշի նկարագրության առկայությունը տվյալների պահոցի `TEMPLATES` աղյուսակում։ |
+| [GetDefinition(string, string)](TemplateService/Methods/GetDefinition.md) | Վերադարձնում է տպելու ձևանմուշի նկարագրությունը տվյալների պահոցի `TEMPLATES` աղյուսակից՝ ըստ տպելու ձևանմուշի ներքին անվան և տիպի։ |
+| [GetTemplateNameAndType(string, bool)](TemplateService/Methods/GetTemplateNameAndType.md) | Բաժանում է `templateNameWithType` պարամետրում միավորված տպելու ձևանմուշի ներքին անունը (կոդը) և տիպը: |

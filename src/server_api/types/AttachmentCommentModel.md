@@ -5,7 +5,7 @@ title: "AttachmentCommentModel դաս"
 
 Դասը պարունակում է փաստաթղթին կցված ֆայլի մեկնաբանությունը փոխելու տվյալներ։
 
-Օգտագործվում է [IAttachmentService](../services/IAttachmentService.md).[ChangeComment](../services/IAttachmentService/ChangeComment.md) մեթոդով փաստաթղթին կցված ֆայլի մեկնաբանությունը փոխելուց։
+Օգտագործվում է [IAttachmentService](../services/IAttachmentService.md).[ChangeComment](../services/IAttachmentService/Methods/ChangeComment.md) մեթոդով փաստաթղթին կցված ֆայլի մեկնաբանությունը փոխելուց։
 
 ```c#
 public class AttachmentCommentModel 

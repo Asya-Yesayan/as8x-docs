@@ -12,8 +12,8 @@ title: ApiClient դաս
 
 | Անվանում | Նկարագրություն |
 |----------|----------------|
-| [Blob](ApiClient/Blob.md) | Վերադարձնում է [BlobRoutes](../routes/BlobRoutes.md) դասի օբյեկտ, որը պարունակում է մեթոդներ սերվերում պահպանված ֆայլերի հետ աշխատանքը ապահովելու համար։ |
-| [Document](ApiClient/Document.md) | Վերադարձնում է [DocumentRoutes](../routes/DocumentRoutes.md) դասի օբյեկտ, որը պարունակում է մեթոդներ փաստաթղթերի հետ աշխատանքը ապահովելու համար։ |
-| [DPR](ApiClient/DPR.md) | Վերադարձնում է [DataProcessingRequestRoutes](../routes/DataProcessingRequestRoutes.md) դասի օբյեկտ, որը պարունակում է մեթոդներ տվյալների մշակման հարցումների հետ աշխատանքը ապահովելու համար։ |
-| [Extender](ApiClient/Extender.md) | Վերադարձնում է [ExtenderRoutes](../routes/ExtenderRoutes.md) դասի օբյեկտ, որը պարունակում է մեթոդներ ընդլայնումների հետ աշխատանքը (ընդլայնման նկարագրության ստացում, ընդլայնման կոդի կոմպիլացում...) ապահովելու համար։ |
-| [Version](ApiClient/Version.md) | Վերադարձնում է `VersionRoutes` դասի օբյեկտ, որը պարունակում է մեթոդներ պրոյեկտների տարբերակների ստացման համար։ |
+| [Blob](ApiClient/Properties/Blob.md) | Վերադարձնում է [BlobRoutes](../routes/BlobRoutes.md) դասի օբյեկտ, որը պարունակում է մեթոդներ սերվերում պահպանված ֆայլերի հետ աշխատանքը ապահովելու համար։ |
+| [Document](ApiClient/Properties/Document.md) | Վերադարձնում է [DocumentRoutes](../routes/DocumentRoutes.md) դասի օբյեկտ, որը պարունակում է մեթոդներ փաստաթղթերի հետ աշխատանքը ապահովելու համար։ |
+| [DPR](ApiClient/Properties/DPR.md) | Վերադարձնում է [DataProcessingRequestRoutes](../routes/DataProcessingRequestRoutes.md) դասի օբյեկտ, որը պարունակում է մեթոդներ տվյալների մշակման հարցումների հետ աշխատանքը ապահովելու համար։ |
+| [Extender](ApiClient/Properties/Extender.md) | Վերադարձնում է [ExtenderRoutes](../routes/ExtenderRoutes.md) դասի օբյեկտ, որը պարունակում է մեթոդներ ընդլայնումների հետ աշխատանքը (ընդլայնման նկարագրության ստացում, ընդլայնման կոդի կոմպիլացում...) ապահովելու համար։ |
+| [Version](ApiClient/Properties/Version.md) | Վերադարձնում է `VersionRoutes` դասի օբյեկտ, որը պարունակում է մեթոդներ պրոյեկտների տարբերակների ստացման համար։ |

@@ -7,7 +7,7 @@ title: IPermanentStorageService.DeleteBlobAsync մեթոդ
 | Անվանում | Նկարագրություն |
 |--|--|
 | [DeleteBlobAsync(string, string, CancellationToken)](#ipermanentstorageservicedeleteblobasyncstring-string-cancellationtoken-մեթոդ) | Հեռացնում է ֆայլը մշտական ֆայլերի պահոցից՝ ըստ անվան և կոնտեյների։ |
-| [DeleteBlobAsync(string, CancellationToken)](#ipermanentstorageservicedeleteblobasyncstring-cancellationtoken) |  Հեռացնում է ֆայլը մշտական ֆայլերի պահոցի [Container](Container.md) հատկությամբ նշված թղթապանակից։|
+| [DeleteBlobAsync(string, CancellationToken)](#ipermanentstorageservicedeleteblobasyncstring-cancellationtoken) |  Հեռացնում է ֆայլը մշտական ֆայլերի պահոցի [Container](../Properties/Container.md) հատկությամբ նշված թղթապանակից։|
 
 ### IPermanentStorageService.DeleteBlobAsync(string, string, CancellationToken) մեթոդ
 

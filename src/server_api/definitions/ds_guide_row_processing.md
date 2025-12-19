@@ -23,13 +23,13 @@ sublinks:
 
 ## Ներածություն
 
-Sql-based տվյալների աղբյուրի տողերի հավելյալ մշակման, ֆիլտրման և հաշվարկային սյուների արժեքների հաշվարկման համար կարող են օգտագործվել երկու մեթոդներ՝ [ProcessRow](ds/ProcessRow.md) և [AfterDataReaderClose](ds/AfterDataReaderClose.md): 
+Sql-based տվյալների աղբյուրի տողերի հավելյալ մշակման, ֆիլտրման և հաշվարկային սյուների արժեքների հաշվարկման համար կարող են օգտագործվել երկու մեթոդներ՝ [ProcessRow](ds/Methods/ProcessRow.md) և [AfterDataReaderClose](ds/Methods/AfterDataReaderClose.md): 
 
 Երկու մեթոդները փոխարինում են 4X համակարգում նկարագրված [OnEachRow](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/ScriptProcs/OnEachRow.html) և [Valid](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/ScriptProcs/Valid_Data.html) իրադարձություններին:
 
 ## ProcessRow 
 
-Մեթոդը կանչվում է [MakeSqlCommand](ds/MakeSQLCommand.md) մեթոդում ձևավորված SQL հարցման կատարման ընթացքում, երբ հարցման տվյալները կարդացող [SqlDataReader](https://learn.microsoft.com/en-us/dotnet/api/microsoft.data.sqlclient.sqldatareader)-ը դեռ բաց է:
+Մեթոդը կանչվում է [MakeSqlCommand](ds/Methods/MakeSQLCommand.md) մեթոդում ձևավորված SQL հարցման կատարման ընթացքում, երբ հարցման տվյալները կարդացող [SqlDataReader](https://learn.microsoft.com/en-us/dotnet/api/microsoft.data.sqlclient.sqldatareader)-ը դեռ բաց է:
 
 Մեթոդը է վերադարձնում են bool տիպի արժեք, որը ցույց է տալիս թե ընթացիկ տողը պետք է ընդգրկվի տվյալների աղբյուրի տողերի վերջնական ցուցակում, թե ոչ։
 

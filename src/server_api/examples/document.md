@@ -6,7 +6,7 @@ tags: [Doc, Document]
 
 ## Օրինակ 1
 
-Բեռնել 2319 isn-ով փաստաթուղթը [DocumentService](../services/IDocumentService.md) դասի [Load](../services/IDocumentService/Load.md) մեթոդով։ Ստանալ փաստաթղթի մուտքագրման դաշտերը Description հատկության  Fields հատկության միջոցով, առանձնացնել և պահել պարտադիր լրացման դաշտերը։
+Բեռնել 2319 isn-ով փաստաթուղթը [DocumentService](../services/IDocumentService.md) դասի [Load](../services/IDocumentService/Methods/Load.md) մեթոդով։ Ստանալ փաստաթղթի մուտքագրման դաշտերը Description հատկության  Fields հատկության միջոցով, առանձնացնել և պահել պարտադիր լրացման դաշտերը։
 
 ```c#
 // Պարտադիր լրացման դաշտերի պահման համար dictionary-ի սահմանում

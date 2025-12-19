@@ -16,7 +16,7 @@ IErrorHandlingService, GetSqlExceptionText, ILogger օգտագործման օր�
 
 Օրինակում տվյալների պահոցում փորձում է գրանցել պատվերները։ 
 Եթե պատվերի գրանցման ընթացքում առաջանում է SQL-ական սխալ, ապա
-- մշակում է սխալի հաղորդագրությունը [GetSqlExceptionText](../services/IErrorHandlingService/GetSqlExceptionText.md) մեթոդի միջոցով,
+- մշակում է սխալի հաղորդագրությունը [GetSqlExceptionText](../services/IErrorHandlingService/Methods/GetSqlExceptionText.md) մեթոդի միջոցով,
 - գրանցում լոգում,
 - գրանցում է սխալների հավաքաման տեղեկանքի մեջ։
 
@@ -84,9 +84,9 @@ public class OrderProcessingService
 
 ## Օրինակ 2
 
-Օրինակում ստեղծվում է [SqlCommand](https://learn.microsoft.com/en-us/dotnet/api/microsoft.data.sqlclient.sqlcommand) դասի օբյեկտ՝ [IDBService](../services/IDBService.md) դասի [CreateCommand](../services/IDBService/CreateCommand.md) մեթոդի միջոցով` Sql հարցումներ կատարելու համար։
+Օրինակում ստեղծվում է [SqlCommand](https://learn.microsoft.com/en-us/dotnet/api/microsoft.data.sqlclient.sqlcommand) դասի օբյեկտ՝ [IDBService](../services/IDBService.md) դասի [CreateCommand](../services/IDBService/Methods/CreateCommand.md) մեթոդի միջոցով` Sql հարցումներ կատարելու համար։
 
-Հարցումով տվյալների պահոցում փորձում է գրանցել փաստաթուղթը, և եթե տվյալների պահոցում արդեն գոյություն ունի գրանցվող փաստաթղթի isn-ով տվյալ, ապա առաջացած [SqlException](https://learn.microsoft.com/en-us/dotnet/api/microsoft.data.sqlclient.sqlexception) սխալի հաղորդագրությունը փոխարինում է վերջնական օգտագործողներին ավելի հասկանալի հաղորդագրության [GetSqlRelatedException](../services/IErrorHandlingService/GetSqlRelatedException.md)մեթոդի միջոցով։
+Հարցումով տվյալների պահոցում փորձում է գրանցել փաստաթուղթը, և եթե տվյալների պահոցում արդեն գոյություն ունի գրանցվող փաստաթղթի isn-ով տվյալ, ապա առաջացած [SqlException](https://learn.microsoft.com/en-us/dotnet/api/microsoft.data.sqlclient.sqlexception) սխալի հաղորդագրությունը փոխարինում է վերջնական օգտագործողներին ավելի հասկանալի հաղորդագրության [GetSqlRelatedException](../services/IErrorHandlingService/Methods/GetSqlRelatedException.md)մեթոդի միջոցով։
 
 ```c#
 private async Task CreateDocumentInner(Document document)
