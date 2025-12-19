@@ -4,7 +4,7 @@ title: IDocumentService.FieldsToAnsi(string, Dictionary<string, object>) մեթ�
 
 ## Նկարագիր
 
-**Դաս՝** [IDocumentService](../IDocumentService.md)
+**Դաս՝** [IDocumentService](../../IDocumentService.md)
 
 ```c#
 public Task<Dictionary<string, object>> FieldsToAnsi(string docType, 

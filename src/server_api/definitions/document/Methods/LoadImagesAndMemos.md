@@ -4,7 +4,7 @@ title: Document.LoadImagesAndMemos(ArchiveInfo) մեթոդ
 
 ## Նկարագիր
 
-**Դաս՝** [Document](../document.md)
+**Դաս՝** [Document](../../document.md)
 
 ```c#
 public Task LoadImagesAndMemos(ArchiveInfo archiveInfo = null)
@@ -16,5 +16,5 @@ public Task LoadImagesAndMemos(ArchiveInfo archiveInfo = null)
 
 | Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
 |-----------------|----------------------|----------------|----------------|
-| archiveInfo     | ArchiveInfo          | null           | ArchiveInfo դասի օբյեկտ, որը պարունակում է արխիվացված փաստաթուղթը պարունակող տվյալների պահոցի անունը և [IDBService](../../services/IDBService.md) դասի օբյեկտ՝ այդ պահոցի հետ Sql միացում ապահովելու համար։ null արժեքի դեպքում նկարները և մեմոները բեռնում է հիմնական տվյալների պահոցից։ |
+| archiveInfo     | ArchiveInfo          | null           | ArchiveInfo դասի օբյեկտ, որը պարունակում է արխիվացված փաստաթուղթը պարունակող տվյալների պահոցի անունը և [IDBService](../../../services/IDBService.md) դասի օբյեկտ՝ այդ պահոցի հետ Sql միացում ապահովելու համար։ null արժեքի դեպքում նկարները և մեմոները բեռնում է հիմնական տվյալների պահոցից։ |
 

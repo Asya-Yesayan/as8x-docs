@@ -4,7 +4,7 @@ title: IAttachmentService.UpdateContent(AttachmentContentModel) մեթոդ
 
 ## Նկարագիր
 
-**Դաս՝** [IAttachmentService](../IAttachmentService.md)
+**Դաս՝** [IAttachmentService](../../../examples/IAttachmentService.md)
 
 ```c#
 public Task<DateTime> UpdateContent(AttachmentContentModel attachmentContent)
@@ -14,14 +14,14 @@ public Task<DateTime> UpdateContent(AttachmentContentModel attachmentContent)
 
 Փաստաթղթին կարելի է կցել առավելագույնը 10 մբ ծավալով ֆայլ։
 
-Տե՛ս [օրինակը](../../examples/IAttachmentService.md#օրինակ-2)։
+Տե՛ս [օրինակը](../../../examples/IAttachmentService.md)։
 
 **Պարամետրեր**
 
 | Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
 |-----------------|----------------------|----------------|----------------|
-| attachmentContent | AttachmentContentModel | -              | [Կցված ֆայլի պարունակության փոփոխման տվյալներ](../../types/AttachmentContentModel.md)՝ փաստաթղթի ISN, ֆայլի անունը, նոր պարունակությամբ ֆայլի նույնականացուցիչը սերվերային պահոցում։ |
+| attachmentContent | AttachmentContentModel | -              | [Կցված ֆայլի պարունակության փոփոխման տվյալներ](../../../types/AttachmentContentModel.md)՝ փաստաթղթի ISN, ֆայլի անունը, նոր պարունակությամբ ֆայլի նույնականացուցիչը սերվերային պահոցում։ |
 
 <!-- **Կարևոր**
 
-Փաստաթղթին կցված ֆայլը թարմացնելու համար անհրաժեշտ է նոր ֆայլը նախապես պահպանել [ընթացիկ սեսսիայի կոնտեյներ](../../services/IStorageService.md#container)-ում [IStorageService](IStorageService.md).[UploadTempBlobAsync](IStorageService.md#uploadtempblobasync) մեթոդով։ -->
+Փաստաթղթին կցված ֆայլը թարմացնելու համար անհրաժեշտ է նոր ֆայլը նախապես պահպանել [ընթացիկ սեսսիայի կոնտեյներ](../../IStorageService.md)-ում [IStorageService](../../IStorageService.md).[UploadTempBlobAsync](../../IStorageService.md) մեթոդով։ -->

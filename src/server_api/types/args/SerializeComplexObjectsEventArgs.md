@@ -3,7 +3,7 @@ layout: page
 title: "SerializeComplexObjectsEventArgs դաս" 
 ---
 
-Այս դասը օգտագործվում է [Document.SerializeComplexObjects](../../definitions/document/SerializeComplexObjects.md) մեթոդում։
+Այս դասը օգտագործվում է [Document.SerializeComplexObjects](../../definitions/document/Methods/SerializeComplexObjects.md) մեթոդում։
 
 ## Հատկություններ
 

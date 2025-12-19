@@ -6,7 +6,7 @@ title: Document.DefineLimits(string, int, DateTime, decimal, decimal) մեթոդ
 
 **Համարժեքը 4x-ում՝** AsDoc.DefineLimits
 
-**Դաս՝** [Document](../document.md)
+**Դաս՝** [Document](../../document.md)
 
 ```c#
 public void DefineLimits(string accountingType, 

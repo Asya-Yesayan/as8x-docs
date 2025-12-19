@@ -4,7 +4,7 @@ title: IErrorHandlingService.GetSqlRelatedException(SqlException, string, bool) 
 
 ## Նկարագիր
 
-**Դաս՝** [IErrorHandlingService](../IErrorHandlingService.md)
+**Դաս՝** [IErrorHandlingService](../../../examples/IErrorHandlingService.md)
 
 ```c#           
 public Exception GetSqlRelatedException(SqlException exception, 
@@ -24,4 +24,4 @@ public Exception GetSqlRelatedException(SqlException exception,
 
 **Օրինակ**
 
-Տե՛ս օգտագործման [օրինակը](../../examples/IErrorHandlingService.md#օրինակ-2)։
+Տե՛ս օգտագործման [օրինակը](../../../examples/IErrorHandlingService.md)։

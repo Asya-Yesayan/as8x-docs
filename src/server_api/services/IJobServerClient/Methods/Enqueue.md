@@ -16,16 +16,16 @@ public Task<ProcessEnqueueResponse> Enqueue(DPR.Descriptor dpr,
                                             bool isUnicode = false)
 ```
 
-Հերթի է դնում [DPR](../../definitions/dpr.md)-ի կատարումը և վերադարձնում է Id՝ [DPR](../../definitions/dpr.md)-ի կատարման ընթացքին հետևելու համար։
+Հերթի է դնում [DPR](../../../definitions/dpr.md)-ի կատարումը և վերադարձնում է Id՝ [DPR](../../../definitions/dpr.md)-ի կատարման ընթացքին հետևելու համար։
 
 **Պարամետրեր**
 
 | Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
 |-----------------|----------------------|----------------|----------------|
-| dpr             | DPR.Descriptor       | -              | [DPR-ի մետատվյալները նկարագրող դասի օբյեկտ](../../types/DPR_Descriptor.md)։ |
-| param           | object               | -              | [DPR](../../definitions/dpr.md)-ի կատարման համար անհրաժեշտ պարամետրերը նկարագրող դասի օբյեկտ։ |
+| dpr             | DPR.Descriptor       | -              | [DPR-ի մետատվյալները նկարագրող դասի օբյեկտ](../../../types/DPR_Descriptor.md)։ |
+| param           | object               | -              | [DPR](../../../definitions/dpr.md)-ի կատարման համար անհրաժեշտ պարամետրերը նկարագրող դասի օբյեկտ։ |
 | enableUIRequest | bool                 | -              | Սերվիսից կլիենտ հաղորդագրություն ուղարկելու, հաղորդագրության պատասխանը ստանալու և այն սերվիսում մշակելու համար հնարավորության միացման հայտանիշ։ |
-| serviceProvider | IServiceProvider     | -              | [IServiceProvider](https://learn.microsoft.com/en-us/dotnet/api/system.iserviceprovider) դասի օբյեկտ, որը օգտագործվում է մեթոդի աշխատանքի համար անհրաժեշտ սերվիսները [ինյեկցիա](../../../Project/injection.md) անելու համար։ |
+| serviceProvider | IServiceProvider     | -              | [IServiceProvider](https://learn.microsoft.com/en-us/dotnet/api/system.iserviceprovider) դասի օբյեկտ, որը օգտագործվում է մեթոդի աշխատանքի համար անհրաժեշտ սերվիսները [ինյեկցիա](../../../../project/injection.md) անելու համար։ |
 | uiResponse      | Dictionary<int, UIRequestResultBase> | -              | — |
-| sessionGuid     | string               | -              | Այն [սեսսիայի](../../types/SessionInfo.md) id-ն, որում հերթի է դրվում DPR-ը։ Սովորաբար այս պարամետրին տրվում է ընթացիկ սեսսիայի id-ն, որը կարելի է ստանալ [ISessionInfoService](../ISessionInfoService.md).[CurrentSessionGuid](../ISessionInfoService/CurrentSessionGuid.md) հատկության միջոցով։ |
+| sessionGuid     | string               | -              | Այն [սեսսիայի](../../../examples/SessionInfo.md) id-ն, որում հերթի է դրվում DPR-ը։ Սովորաբար այս պարամետրին տրվում է ընթացիկ սեսսիայի id-ն, որը կարելի է ստանալ [ISessionInfoService](../../ISessionInfoService.md).[CurrentSessionGuid](../../ISessionInfoService/Properties/CurrentSessionGuid.md) հատկության միջոցով։ |
 | isUnicode       | bool                 | false          | Ցույց է տալիս, թե DPR-ի կատարման պրոգրեսում տվյալները պետք է ցուցադրվեն `Unicode` կոդավորմամբ թե ոչ։ `false` արժեքի դեպքում տվյալները ցուցադրվում են `ANSI` կոդավորմամբ։ |

@@ -4,7 +4,7 @@ title: IDBService.CreateReadOnlyConnection(bool) մեթոդ
 
 ## Նկարագիր
 
-**Դաս՝** [IDBService](../IDBService.md)
+**Դաս՝** [IDBService](../../IDBService.md)
 
 ```c#
 public SqlConnection CreateReadOnlyConnection(bool pooling = true);

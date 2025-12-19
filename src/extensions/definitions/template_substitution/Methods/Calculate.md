@@ -4,7 +4,7 @@ title: ITemplateSubstitutionExtender.Calculate(TemplateSubstitutionExtenderArgs)
 
 ## Նկարագիր
 
-**Դաս՝** [ITemplateSubstitutionExtender](../template_substitution.md)
+**Դաս՝** [ITemplateSubstitutionExtender](../../template_substitution.md)
 
 ```c#
 public Task Calculate(TemplateSubstitutionExtenderArgs templateSubstitutionExtenderArgs);

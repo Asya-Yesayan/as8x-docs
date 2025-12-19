@@ -6,4 +6,4 @@ title: LiteDocument.RefreshLastTSCheck() մեթոդ
 public void RefreshLastTSCheck();
 ```
 
-Թարմացնում է [LastTSCheck](LastTSCheck.md) հատկության արժեքը՝ նշանակելով ընթացիկ ամսաթիվը/ժամանակը։
+Թարմացնում է [LastTSCheck](../Properties/LastTSCheck.md) հատկության արժեքը՝ նշանակելով ընթացիկ ամսաթիվը/ժամանակը։

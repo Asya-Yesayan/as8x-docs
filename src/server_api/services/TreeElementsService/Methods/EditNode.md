@@ -6,7 +6,7 @@ title: TreeElementsService.EditNode(TreeElement) մեթոդ
 
 **Համարժեքը 4x-ում՝** AsTree.EditNodeTree
 
-**Դաս՝** [TreeElementsService](../TreeElementsService.md)
+**Դաս՝** [TreeElementsService](../../TreeElementsService.md)
 
 ```c#
 public Task<List<TreeNode>> EditNode(TreeElement treeElement)
@@ -18,4 +18,4 @@ public Task<List<TreeNode>> EditNode(TreeElement treeElement)
 
 | Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
 |-----------------|----------------------|----------------|----------------|
-| treeElement     | TreeElement          | -              | [Ծառի տարրը](../../types/TreeElement.md)։ |
+| treeElement     | TreeElement          | -              | [Ծառի տարրը](../../../types/TreeElement.md)։ |

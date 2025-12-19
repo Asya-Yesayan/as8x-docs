@@ -13,7 +13,7 @@ title: LiteDocumentService.RemoveFromCache մեթոդ
 
 #### Նկարագիր
 
-**Դաս՝** [LiteDocumentService](../LiteDocumentService.md)
+**Դաս՝** [LiteDocumentService](../../LiteDocumentService.md)
 
 ```c#
 public void RemoveFromCache(int isn);
@@ -31,7 +31,7 @@ public void RemoveFromCache(int isn);
 
 #### Նկարագիր
 
-**Դաս՝** [LiteDocumentService](../LiteDocumentService.md)
+**Դաս՝** [LiteDocumentService](../../LiteDocumentService.md)
 
 ```c#
 public void RemoveFromCache(string docType);

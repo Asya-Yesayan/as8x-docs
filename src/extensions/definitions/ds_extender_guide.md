@@ -76,7 +76,7 @@ public class DataRow
 }
 ```
 
-2. Ընդլայնող դասի կոնստրուկտորի մեջ՝ [AddColumn](ds_extender/AddColumn.md) ֆունկցիայի միջոցով։
+2. Ընդլայնող դասի կոնստրուկտորի մեջ՝ [AddColumn](ds_extender/Methods/AddColumn.md) ֆունկցիայի միջոցով։
 
 ``` cs
 public AgrsInfoC3Artonyal()
@@ -95,7 +95,7 @@ public AgrsInfoC3Artonyal()
 
 ### ProccessRow ֆունկցիա
 
-Ընդլայնված սյունակների հաշվարկը հարկավոր է կատարել [ProccessRow](ds_extender/ProccessRow.md) ֆունկցիայի մեջ, որը կանչվում է յուրաքանչյուր տողի համար։
+Ընդլայնված սյունակների հաշվարկը հարկավոր է կատարել [ProccessRow](ds_extender/Methods/ProccessRow.md) ֆունկցիայի մեջ, որը կանչվում է յուրաքանչյուր տողի համար։
 
 Ստորև օրինակում
 - ստանում է պայմանագրի ամփոփման տողը,
@@ -121,14 +121,14 @@ public override Task<bool> ProccessRow(IExtendableRow row, IDataSourceArgs args)
 
 ### BeforeProcess ֆունկցիա
 
-Եթե ինչ-որ տվյալներ հարկավոր է հաշվարկել և քեշավորել նախքան [ProccessRow](ds_extender/ProccessRow.md)-ի աշխատանքը, ապա հարկավոր է մշակել [BeforeProcess](ds_extender/BeforeProcess.md) ֆունկցիան։ 
+Եթե ինչ-որ տվյալներ հարկավոր է հաշվարկել և քեշավորել նախքան [ProccessRow](ds_extender/Methods/ProccessRow.md)-ի աշխատանքը, ապա հարկավոր է մշակել [BeforeProcess](ds_extender/Methods/BeforeProcess.md) ֆունկցիան։ 
 Տվյալ ֆունկցիան օգտագործվում է նաև կամայական տողի ձևափոխման համար։
 
 ``` cs
 public override Task BeforeProcess(IList<IExtendableRow> rows, IDataSourceArgs args)
 ```
 
-Տվյալ օրինակում քեշավորվել են ծառի էլեմենտները և հետո օգտագործվել [ProccessRow](ds_extender/ProccessRow.md) ֆունկցիայում։
+Տվյալ օրինակում քեշավորվել են ծառի էլեմենտները և հետո օգտագործվել [ProccessRow](ds_extender/Methods/ProccessRow.md) ֆունկցիայում։
 
 ``` cs
 private Dictionary<string, TreeElement> noteElements;

@@ -6,7 +6,7 @@ title: AppLogService.Write մեթոդ
 
 **Համարժեքը 4x-ում՝** AsUtil.WriteToAppLog
 
-**Դաս՝** [AppLogService](../AppLogService.md)
+**Դաս՝** [AppLogService](../../AppLogService.md)
 
 ## Գերբեռնումներ
 
@@ -27,7 +27,7 @@ public Task Write(AppLogInfo appLogInfo)
 
 | Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
 |-----------------|----------------------|----------------|----------------|
-| appLogInfo      | AppLogInfo           | -              | [Հատուկ իրադարձության մանրամասները նկարագրող դասի օբյեկտ](../../types/AppLogInfo.md): |
+| appLogInfo      | AppLogInfo           | -              | [Հատուկ իրադարձության մանրամասները նկարագրող դասի օբյեկտ](../../../types/AppLogInfo.md): |
 
 ### AppLogService.Write(string, string, string, int, int) մեթոդ
 

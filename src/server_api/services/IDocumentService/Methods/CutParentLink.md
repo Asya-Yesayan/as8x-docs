@@ -6,7 +6,7 @@ title: IDocumentService.CutParentLink(int, int) մեթոդ
 
 **Համարժեքը 4x-ում՝** [AsDocEngine.CutParentLink](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/DocumentsCirculation/CutParentLink.html)
 
-**Դաս՝** [IDocumentService](../IDocumentService.md)
+**Դաս՝** [IDocumentService](../../IDocumentService.md)
 
 ```c#
 public Task CutParentLink(int isn, 

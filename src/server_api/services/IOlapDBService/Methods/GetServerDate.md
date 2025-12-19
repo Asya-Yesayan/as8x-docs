@@ -6,7 +6,7 @@ title: IOlapDBService.GetServerDate() մեթոդ
 
 **Համարժեքը 4x-ում՝** [Util.GetServerDate](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/GetServerDate.html)
 
-**Դաս՝** [IOlapDBService](../IOlapDBService.md)
+**Դաս՝** [IOlapDBService](../../IOlapDBService.md)
 
 ```c#
 public Task<DateTime> GetServerDate();

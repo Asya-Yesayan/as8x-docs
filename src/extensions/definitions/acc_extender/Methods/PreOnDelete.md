@@ -6,7 +6,7 @@ title: AccountingExtender.PreOnDelete(Accounting, OnDeleteEventArgs) մեթոդ
 
 **Համարժեքը 4x-ում՝** [PreOnDelete](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/ScriptProcs/AccountingExtenderEvents/PreOnDelete.html)
 
-**Դաս՝** [AccountingExtender](../acc_extender.md)
+**Դաս՝** [AccountingExtender](../../acc_extender.md)
 
 ```c#
 public virtual Task PreOnDelete(Accounting sender, 

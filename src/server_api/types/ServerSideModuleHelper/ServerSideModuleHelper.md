@@ -6,4 +6,4 @@ title: ServerSideModuleHelper դաս
 
 | Անվանում | Նկարագրություն |
 |----------|----------------|
-| [GetServerSideModuleMetadata(IDBService, string)](GetServerSideModuleMetadata.md) | Վերադարձնում է սերվերային մոդուլի [նկարագրությունը](../ServerSideModuleMetadata/ServerSideModuleMetadata.md)` ըստ ներքին անվան (կոդի)։ |
+| [GetServerSideModuleMetadata(IDBService, string)](Methods/GetServerSideModuleMetadata.md) | Վերադարձնում է սերվերային մոդուլի [նկարագրությունը](../ServerSideModuleMetadata/ServerSideModuleMetadata.md)` ըստ ներքին անվան (կոդի)։ |

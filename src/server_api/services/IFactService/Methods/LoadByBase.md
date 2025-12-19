@@ -6,7 +6,7 @@ title: IFactService.LoadByBase(int, string, string, bool) մեթոդ
 
 **Համարժեքը 4x-ում՝** [AsKernel.LoadFactByBase](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/AccManagement/LoadFactByBase.html)
 
-**Դաս՝** [IFactService](../IFactService.md)
+**Դաս՝** [IFactService](../../IFactService.md)
 
 ```c#
 public Task<List<Fact>> LoadByBase(int baseIsn, 

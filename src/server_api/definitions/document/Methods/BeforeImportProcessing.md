@@ -6,7 +6,7 @@ title: Document.BeforeImportProcessing(BeforeImportProcessingEventArgs) մեթո
 
 **Համարժեքը 4x-ում՝** [BeforeImport](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/ScriptProcs/BeforeImport.html)
 
-**Դաս՝** [Document](../document.md)
+**Դաս՝** [Document](../../document.md)
 
 ```c#
 public virtual Task BeforeImportProcessing(BeforeImportProcessingEventArgs args)
@@ -19,5 +19,5 @@ public virtual Task BeforeImportProcessing(BeforeImportProcessingEventArgs args)
 
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 | --- | --- | --- | --- |
-| args | [BeforeImportProcessingEventArgs](../../types/args/BeforeImportProcessingEventArgs.md) | - | [BeforeImportProcessingEventArgs](../../types/args/BeforeImportProcessingEventArgs.md) դասի օբյեկտ։ |
+| args | [BeforeImportProcessingEventArgs](../../../types/args/BeforeImportProcessingEventArgs.md) | - | [BeforeImportProcessingEventArgs](../../../types/args/BeforeImportProcessingEventArgs.md) դասի օբյեկտ։ |
 

@@ -8,12 +8,12 @@
 ## Ներածություն
 
 AccountsRoutes դասը պարունակում է մեթոդներ հաշիվների տվյալների հետ աշխատանքը ապահովելու համար։
-Այն հասանելի է [BankApiClient](../../../../web_api_client/bank/types/BankApiClient.md) դասի միջից։
+Այն հասանելի է [BankApiClient](../../types/BankApiClient/BankApiClient.md) դասի միջից։
 
 ## Մեթոդներ
 
 | Անվանում | Նկարագրություն |
 |----------|----------------|
-| [CreateGeneralAccForCli(CreateGeneralAccRequest)](AccountsRoutes/CreateGeneralAccForCli.md) | Ստեղծում է հաճախորդի հաշվարկային հաշիվ ստանալով հաճախորդին և արժույթը։ |
+| [CreateGeneralAccForCli(CreateGeneralAccRequest)](Methods/CreateGeneralAccForCli.md) | Ստեղծում է հաճախորդի հաշվարկային հաշիվ ստանալով հաճախորդին և արժույթը։ |
 
 </div>

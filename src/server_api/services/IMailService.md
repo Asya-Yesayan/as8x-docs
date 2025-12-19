@@ -11,10 +11,10 @@ IMailService ինտերֆեյսը նախատեսված է էլեկտրոնայի
 - `DBMailService` - Էլ. նակաների ուղարկումը կատարվում է SQL սերվերի sp_send_dbmail պրոցեդուրայով։
 - `MailKitMailService` - Էլ. նակաների ուղարկումը կատարվում է 8X սերվիսից։
 
-Տե՛ս [օրինակը](../examples/ITemplateSubstitutionService.md#օրինակ-1)։
+Տե՛ս [օրինակը](../examples/ITemplateSubstitutionService.md)։
 
 ## Մեթոդներ
 
 | Անվանում | Նկարագրություն |
 |----------|----------------|
-| [SendMail(MailArgs)](IMailService/SendMail.md) | Ուղարկում է էլեկտրոնային նամակ (email) ըստ `args` տվյալների։ |
+| [SendMail(MailArgs)](IMailService/Methods/SendMail.md) | Ուղարկում է էլեկտրոնային նամակ (email) ըստ `args` տվյալների։ |

@@ -4,7 +4,7 @@ title: IStorageService.Container հատկություն
 
 ## Նկարագիր
 
-**Դաս՝** [IStorageService](../IStorageService.md)
+**Դաս՝** [IStorageService](../../IStorageService.md)
 
 ```c#
 public string Container { get; }

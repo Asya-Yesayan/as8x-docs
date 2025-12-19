@@ -4,7 +4,7 @@ title: IPermanentStorageService.Container հատկություն
 
 ## Նկարագիր
 
-**Դաս՝** [IPermanentStorageService](../IPermanentStorageService.md)
+**Դաս՝** [IPermanentStorageService](../../IPermanentStorageService.md)
 
 ```c#
 public string Container { get; set; }

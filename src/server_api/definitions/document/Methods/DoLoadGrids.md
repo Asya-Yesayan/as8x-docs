@@ -6,13 +6,13 @@ title: Document.DoLoadGrids(LoadGridsEventArgs) մեթոդ
 
 **Համարժեքը 4x-ում՝** [LoadGrid](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/ScriptProcs/LoadGrid.html)
 
-**Դաս՝** [Document](../document.md)
+**Դաս՝** [Document](../../document.md)
 
 ```c#
 protected virtual Task DoLoadGrids(LoadGridsEventArgs args)
 ```
 
-Մեթոդը կանչվում է միջուկի կողմից [IDocumentService](../../services/IDocumentService.md).[Load](../../services/IDocumentService/Load.md) մեթոդի միջոցով փաստաթուղթը բեռնելիս։
+Մեթոդը կանչվում է միջուկի կողմից [IDocumentService](../../../services/IDocumentService.md).[Load](../../../../controllers/Document/Methods/Load.md) մեթոդի միջոցով փաստաթուղթը բեռնելիս։
 
 Նախատեսված է [DOCSG](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Database/DocsG.html) աղյուսակում չպահվող փաստաթղթի աղյուսակների բեռնման տրամաբանության սահմանման համար։
 
@@ -23,5 +23,5 @@ protected virtual Task DoLoadGrids(LoadGridsEventArgs args)
 
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 | --- | --- | --- | --- |
-| args | [LoadGridsEventArgs](../../types/args/LoadGridsEventArgs.md) | - | [LoadGridsEventArgs](../../types/args/LoadGridsEventArgs.md) դասի օբյեկտ։ |
+| args | [LoadGridsEventArgs](../../../types/args/LoadGridsEventArgs.md) | - | [LoadGridsEventArgs](../../../types/args/LoadGridsEventArgs.md) դասի օբյեկտ։ |
 

@@ -6,7 +6,7 @@ title: Document.ExistsRekvizit(string) մեթոդ
 
 **Համարժեքը 4x-ում՝** [AsDoc.ExistsRekv](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/ASDOC/ExistsRekv.html)
 
-**Դաս՝** [Document](../document.md)
+**Դաս՝** [Document](../../document.md)
 
 ```c#
 public bool ExistsRekvizit(string rekv)

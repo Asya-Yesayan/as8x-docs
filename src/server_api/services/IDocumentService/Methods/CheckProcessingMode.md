@@ -4,7 +4,7 @@ title: IDocumentService.CheckProcessingMode(string) մեթոդ
 
 ## Նկարագիր
 
-**Դաս՝** [IDocumentService](../IDocumentService.md)
+**Դաս՝** [IDocumentService](../../IDocumentService.md)
 
 ```c#
 public Task CheckProcessingMode(string docType)

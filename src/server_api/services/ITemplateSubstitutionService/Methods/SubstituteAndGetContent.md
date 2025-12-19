@@ -4,7 +4,7 @@ title: ITemplateSubstitutionService.SubstituteAndGetContent(IPrintTemplateSubsti
 
 ## Նկարագիր
 
-**Դաս՝** [ITemplateSubstitutionService](../ITemplateSubstitutionService.md)
+**Դաս՝** [ITemplateSubstitutionService](../../../examples/ITemplateSubstitutionService.md)
 
 ```c#
 public string SubstituteAndGetContent(IPrintTemplateSubstitution printTemplateSubstitution, 
@@ -23,7 +23,7 @@ public string SubstituteAndGetContent(IPrintTemplateSubstitution printTemplateSu
 |-----------------|----------------------|----------------|----------------|
 | printTemplateSubstitution | IPrintTemplateSubstitution | -              | Տպելու ձևանմուշի տեղադրվող արժեքները պարունակող օբյեկտ։ |
 | file            | byte[]               | -              | Տպելու ձևանմուշի պարունակությունը որպես byte տիպի զանգված։ |
-| type            | SubstitutionType     | -              | [Տպելու ձևանմուշի տիպ](../../types/SubstitutionType.md): |
-| htmlImageOption | HtmlImageOption      | default        | Html տպվող տեսքերի [պատկերների տեղադրման եղանակ](../../types/HtmlImageOption.md)։ |
+| type            | SubstitutionType     | -              | [Տպելու ձևանմուշի տիպ](../../../types/SubstitutionType.md): |
+| htmlImageOption | HtmlImageOption      | default        | Html տպվող տեսքերի [պատկերների տեղադրման եղանակ](../../../types/HtmlImageOption.md)։ |
 | isUnicode       | bool                 | false          | Տպելու ձևանմուշի տվյալների `Unicode` կոդավորմամբ լրացման հայտանիշ։ |
 | check           | bool                 | false          | Տպելու ձևանմուշում առկա կոդերի ճիշտ շարահյուսության ստուգման հայտանիշ։ |

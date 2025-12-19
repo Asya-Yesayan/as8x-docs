@@ -6,7 +6,7 @@ title: IParametersService.SetDefaultValue(string, object, bool, bool) մեթոդ
 
 **Համարժեքը 4x-ում՝** [AsKernel.SetParam](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/ParameterManagment/SetParam.html)
 
-**Դաս՝** [IParametersService](../IParametersService.md)
+**Դաս՝** [IParametersService](../../IParametersService.md)
 
 ```c#
 public Task SetDefaultValue(string paramId, 

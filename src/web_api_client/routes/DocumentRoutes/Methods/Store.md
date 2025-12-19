@@ -12,4 +12,4 @@ public DocumentModel Store(DocumentStoreRequestModel model)
 
 | Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
 |-----------------|----------------------|----------------|----------------|
-| model           | DocumentStoreRequestModel | -              | Գրանցվող փաստաթղթի տվյալները ([փաստաթղթի ստուգման մակարդակ](../../../server_api/types/DocumentCheckLevel.md), isn, գրանցվող դաշտերի արժեքներ...)։ |
+| model           | DocumentStoreRequestModel | -              | Գրանցվող փաստաթղթի տվյալները ([փաստաթղթի ստուգման մակարդակ](../../../../server_api/types/DocumentCheckLevel.md), isn, գրանցվող դաշտերի արժեքներ...)։ |

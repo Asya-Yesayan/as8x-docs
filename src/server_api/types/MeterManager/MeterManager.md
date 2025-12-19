@@ -10,7 +10,7 @@ title: MeterManager սերվիս
 
 | Անվանում | Նկարագրություն |
 |----------|----------------|
-| [TryConfigure](Methods/TryConfigure.md) | [OTLPENABLED](../otlp/parameters.md#otlpenabled) պարամետրի **true** արժեքի դեպքում կանչում է [Configure](Methods/Configure.md) մեթոդը, որը ստեղծում և կոնֆիգուրացնում է համակարգի հիմնական մետրիկաները ([Histogram](https://learn.microsoft.com/en-us/dotnet/api/system.diagnostics.metrics.histogram-1)-ներ, [Gauge](https://learn.microsoft.com/en-us/dotnet/api/system.diagnostics.metrics.observablegauge-1)-ներ, [UpDownCounter](https://learn.microsoft.com/en-us/dotnet/api/system.diagnostics.metrics.updowncounter-1)-ներ)։ |
+| [TryConfigure](Methods/TryConfigure.md) | [OTLPENABLED](../../../extensions/types/args/TemplateSubstitutionEventArgs/Properties/Parameters.md) պարամետրի **true** արժեքի դեպքում կանչում է [Configure](Methods/Configure.md) մեթոդը, որը ստեղծում և կոնֆիգուրացնում է համակարգի հիմնական մետրիկաները ([Histogram](https://learn.microsoft.com/en-us/dotnet/api/system.diagnostics.metrics.histogram-1)-ներ, [Gauge](https://learn.microsoft.com/en-us/dotnet/api/system.diagnostics.metrics.observablegauge-1)-ներ, [UpDownCounter](https://learn.microsoft.com/en-us/dotnet/api/system.diagnostics.metrics.updowncounter-1)-ներ)։ |
 | [Configure](Methods/Configure.md) | Լռությամբ ստեղծում և կոնֆիգուրացնում է համակարգի հիմնական մետրիկաները ([Histogram](https://learn.microsoft.com/en-us/dotnet/api/system.diagnostics.metrics.histogram-1)-ներ, [Gauge](https://learn.microsoft.com/en-us/dotnet/api/system.diagnostics.metrics.observablegauge-1)-ներ, [UpDownCounter](https://learn.microsoft.com/en-us/dotnet/api/system.diagnostics.metrics.updowncounter-1)-ներ)։ |
 
 ## Հատկություններ

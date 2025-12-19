@@ -4,7 +4,7 @@ title: ITemplateSubstitutionService.GetReadyTemplateSubstitution(Document.Docume
 
 ## Նկարագիր
 
-**Դաս՝** [ITemplateSubstitutionService](../ITemplateSubstitutionService.md)
+**Դաս՝** [ITemplateSubstitutionService](../../../examples/ITemplateSubstitutionService.md)
 
 ```c#
 public Task<ITemplateSubstitution> GetReadyTemplateSubstitution(Document.Document document,
@@ -15,14 +15,14 @@ public Task<ITemplateSubstitution> GetReadyTemplateSubstitution(Document.Documen
 
 Հաշվարկում է փաստաթղթին կապակցված տպելու ձևանմուշի տեղադրվող արժեքները, օգտագործողի կողմից նկարագրված պարամետրերը և վերադարձնում տպելու ձևանմուշի տեղադրվող արժեքները պարունակող օբյեկտը։
 
-Տե՛ս [օրինակը](../../examples/ITemplateSubstitutionService.md#օրինակ-1)։
+Տե՛ս [օրինակը](../../../examples/ITemplateSubstitutionService.md)։
 
 **Պարամետրեր**
 
 | Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
 |-----------------|----------------------|----------------|----------------|
-| document        | Document.Document    | -              | Տպելու ձևանմուշի հետ կապակցված [փաստաթուղթ](../../definitions/document.md)։ |
+| document        | Document.Document    | -              | Տպելու ձևանմուշի հետ կապակցված [փաստաթուղթ](../../../definitions/document.md)։ |
 | templateName    | string               | -              | Տպելու ձևանմուշի ներքին անունը։ |
-| templateType    | SubstitutionType     | -              | [Տպելու ձևանմուշի տիպ](../../types/SubstitutionType.md): |
-| parameters      | Dictionary<string, object> | -              | Տպելու ձևանմուշի լրացման պարամետրերի Dictionary, որտեղ բանալին՝ պարամետրի անունն է, իսկ արժեքը՝ պարամետրի արժեքը: <br> Այս պարամետրի արժեքը փոխանցվելու է տպելու ձևանմուշի տեղադրվող արժեքները հաշվարկող [TemplateSubstitution](../../definitions/document/TemplateSubstitution.md) իրադարձության մշակիչին։ |
+| templateType    | SubstitutionType     | -              | [Տպելու ձևանմուշի տիպ](../../../types/SubstitutionType.md): |
+| parameters      | Dictionary<string, object> | -              | Տպելու ձևանմուշի լրացման պարամետրերի Dictionary, որտեղ բանալին՝ պարամետրի անունն է, իսկ արժեքը՝ պարամետրի արժեքը: <br> Այս պարամետրի արժեքը փոխանցվելու է տպելու ձևանմուշի տեղադրվող արժեքները հաշվարկող [TemplateSubstitution](../../../definitions/document/Methods/TemplateSubstitution.md) իրադարձության մշակիչին։ |
   

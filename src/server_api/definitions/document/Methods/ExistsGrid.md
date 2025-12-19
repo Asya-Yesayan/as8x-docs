@@ -6,7 +6,7 @@ title: Document.ExistsGrid(string) մեթոդ
 
 **Համարժեքը 4x-ում՝** [AsDoc.ExistsGrid](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/ASDOC/ExistsGrid.html)
 
-**Դաս՝** [Document](../document.md)
+**Դաս՝** [Document](../../document.md)
 
 ```c#
 public bool ExistsGrid(string grid)

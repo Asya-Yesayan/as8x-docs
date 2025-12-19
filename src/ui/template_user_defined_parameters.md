@@ -56,7 +56,7 @@ title: Տպելու ձևանմուշների օգտ․ կողմից նկ․ պա
 
 | **Դաշտի անվանում** | **Նկարագրություն** |
 | --- | --- |
-| Ընդլայնման նկարագրության անվանում | Տպելու ձևանմուշի 8x-ական ընդլայնման [նկարագրության](../extensions/definitions/server_side_module.md) ներքին անունը ([SERVERSIDEMODULE](../extensions/definitions/server_side_module.md#serversidemodule-նկարագրություն)-ի [NAME](../extensions/definitions/server_side_module.md#name) դաշտի արժեքը): |
-| Դասի անուն նկարագրությունում | Տպելու ձևանմուշի 8x-ական ընդլայնման C# դասի անունը ([SERVERSIDEMODULE](../extensions/definitions/server_side_module.md#serversidemodule-նկարագրություն)-ի [CSSOURCE](../extensions/definitions/server_side_module.md#cssource) դաշտի արժեքը): |
+| Ընդլայնման նկարագրության անվանում | Տպելու ձևանմուշի 8x-ական ընդլայնման [նկարագրության](../extensions/definitions/server_side_module.md) ներքին անունը ([SERVERSIDEMODULE](../extensions/definitions/server_side_module.md)-ի [NAME](../extensions/definitions/server_side_module.md) դաշտի արժեքը): |
+| Դասի անուն նկարագրությունում | Տպելու ձևանմուշի 8x-ական ընդլայնման C# դասի անունը ([SERVERSIDEMODULE](../extensions/definitions/server_side_module.md)-ի [CSSOURCE](../extensions/definitions/server_side_module.md) դաշտի արժեքը): |
 | Ցույց տալ նկարագրությունը | Այս կոճակը .txt ընդլայնմամբ ֆայլում արտահանում է տպելու ձևանմուշի 8x-ական ընդլայնման C# դասի պարունակությունը։ |
 | Պարամետրեր | Տպելու ձևանմուշի 8x-ական ընդլայնման պարամետրերի (ատոմար արժեքներ, աղյուսակներ․․․) կոդ/նկարագրությունների ցուցակը։ Կրում է նկարագրական բնույթ, լրացումը պարտադիր չէ։ |

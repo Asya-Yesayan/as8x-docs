@@ -16,8 +16,8 @@ public Task<ExtenderSchema> GetSchemaAsync(string extenderName,
 | extenderName    | string               | -              | Տվյալների աղբյուրի ընդլայնման ներքին անունը։ |
 | cancellationToken | CancellationToken    | default        | Ընդհատման օբյեկտ: |
 
-Մեթոդի վերադարձված արժեքը անհրաժեշտ է վերագրել [տվյալների աղբյուր](../DataSource.md)-ի [ExtenderSchema](../DataSource/ExtenderSchema.md) հատկությանը, որի արդյունքում տվյալների աղբյուրը կատարելիս կհաշվարկվի նաև ընդլայնումը։
+Մեթոդի վերադարձված արժեքը անհրաժեշտ է վերագրել [տվյալների աղբյուր](../../../examples/DataSource.md)-ի [ExtenderSchema](../../DataSource/Properties/ExtenderSchema.md) հատկությանը, որի արդյունքում տվյալների աղբյուրը կատարելիս կհաշվարկվի նաև ընդլայնումը։
 
 **Օրինակ**
 
-Տե՛ս օգտագործման [օրինակը](../../examples/DataSource.md#օրինակ-2)։
+Տե՛ս օգտագործման [օրինակը](../../../examples/DataSource.md)։

@@ -6,7 +6,7 @@ title: DocumentExtender.PostValidate(Document, ValidateEventArgs) մեթոդ
 
 **Համարժեքը 4x-ում՝** ScriptExtension.DocPostValidate
 
-**Դաս՝** [DocumentExtender](../document_extender.md)
+**Դաս՝** [DocumentExtender](../../document_extender.md)
 
 ```c#
 public virtual Task PostValidate(Document sender, 

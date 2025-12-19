@@ -6,7 +6,7 @@ title: DataSourceService.ExecuteDataSource մեթոդ
 
 **Համարժեքը 4x-ում՝** [OpenCursor](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/ASDATA/OpenCursor.html)
 
-**Դաս՝** [DataSourceService](../DataSourceService.md)
+**Դաս՝** [DataSourceService](../../DataSourceService.md)
 
 ## Գերբեռնումներ
 
@@ -33,7 +33,7 @@ public Task<List<T>> ExecuteDataSource<T>(string dsName,
 | parameters      | Dictionary<string, object> | -              | Տվյալների աղբյուրի պարամետրերի ցանկը: |
 | cancellationToken | CancellationToken    | default        | Ընդհատման օբյեկտ: |
 
-Օգտագործման օրինակին ծանոթանալու համար [տե՛ս](../../examples/ds.md#չտիպիզացված-կատարում):
+Օգտագործման օրինակին ծանոթանալու համար [տե՛ս](../../../definitions/ds.md):
 
 ### DataSourceService.ExecuteDataSource(Type, Dictionary&lt;string, object&gt;, CancellationToken) մեթոդ
 
@@ -53,5 +53,5 @@ public Task<List<T>> ExecuteDataSource<T>(Type dsType,
 | parameters      | Dictionary<string, object> | -              | Տվյալների աղբյուրի պարամետրերի ցանկը: |
 | cancellationToken | CancellationToken    | default        | Ընդհատման օբյեկտ: |
 
-Օգտագործման օրինակին ծանոթանալու համար [տե՛ս](../../examples/ds.md#չտիպիզացված-կատարում):
+Օգտագործման օրինակին ծանոթանալու համար [տե՛ս](../../../definitions/ds.md):
 

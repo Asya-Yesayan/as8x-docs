@@ -14,4 +14,4 @@ public DocumentModelSimple Create(string type,
 | Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
 |-----------------|----------------------|----------------|----------------|
 | type            | string               | -              | Փաստաթղթի ներքին անունը (տեսակը)։ |
-| createRequestModel | DocumentCreateRequestModel | -              | Ստեղծվող փաստաթղթի տվյալներ (ծնող փաստաթղթերի isn-ների ցուցակ, [ստեղծման աղբյուր](../../../server_api/types/DocumentOrigin.md)...): |
+| createRequestModel | DocumentCreateRequestModel | -              | Ստեղծվող փաստաթղթի տվյալներ (ծնող փաստաթղթերի isn-ների ցուցակ, [ստեղծման աղբյուր](../../../../server_api/types/DocumentOrigin.md)...): |

@@ -4,7 +4,7 @@ title: ITemplateSubstitutionService.LoadSubstitutionAndGetStorage(IPrintTemplate
 
 ## Նկարագիր
 
-**Դաս՝** [ITemplateSubstitutionService](../ITemplateSubstitutionService.md)
+**Դաս՝** [ITemplateSubstitutionService](../../../examples/ITemplateSubstitutionService.md)
 
 ```c#
 public Task<StorageInfo> LoadSubstitutionAndGetStorage(IPrintTemplateSubstitution printTemplateSubstitution, 
@@ -23,7 +23,7 @@ public Task<StorageInfo> LoadSubstitutionAndGetStorage(IPrintTemplateSubstitutio
 |-----------------|----------------------|----------------|----------------|
 | printTemplateSubstitution | IPrintTemplateSubstitution | -              | Տպելու ձևանմուշի տեղադրվող արժեքները պարունակող օբյեկտ։ |
 | name            | string               | -              | Տպելու ձևանմուշի ներքին անուն: |
-| type            | SubstitutionType     | -              | [Տպելու ձևանմուշի տիպ](../../types/SubstitutionType.md): |
-| htmlImageOption | HtmlImageOption      | default        | Html տպվող տեսքերի [պատկերների տեղադրման եղանակ](../../types/HtmlImageOption.md)։ |
+| type            | SubstitutionType     | -              | [Տպելու ձևանմուշի տիպ](../../../types/SubstitutionType.md): |
+| htmlImageOption | HtmlImageOption      | default        | Html տպվող տեսքերի [պատկերների տեղադրման եղանակ](../../../types/HtmlImageOption.md)։ |
 | outputPassword  | string               | ""             | Վերջնական ֆայլի բացման գաղտնաբառը։ |
 | check           | bool                 | false          | Տպելու ձևանմուշում առկա կոդերի ճիշտ շարահյուսության ստուգման հայտանիշ։ |

@@ -13,26 +13,26 @@ IOlapDBService դասը նախատեսված է **OLAP** տվյալների պա
 
 **OLAP** տվյալների պահոցի անունը հիմնական տվյալների պահոցից միշտ տարբերվում է միայն `_OLAP` վերջավորությամբ։
 
-**OLAP** միացման կարգավորումները անհրաժեշտ է տալ [appsettings.json](../../Project/appsettings_json.md) կոնֆիգուրացիոն ֆայլի [db](../../Project/appsettings_json.md#db) բաժնում` որպես տվյալների պահոցի անուն նշելով **OLAP** տվյալների պահոցին համապատասխան հիմնական պահոցի անունը։
+**OLAP** միացման կարգավորումները անհրաժեշտ է տալ [appsettings.json](../../Project/appsettings_json.md) կոնֆիգուրացիոն ֆայլի [db](../../project/appsettings_json.md) բաժնում` որպես տվյալների պահոցի անուն նշելով **OLAP** տվյալների պահոցին համապատասխան հիմնական պահոցի անունը։
 
-Օրինակ եթե **OLAP** տվյալների պահոցի անունը `test_bank_Olap` է, ապա [appsettings.json](../../Project/appsettings_json.md) կոնֆիգուրացիոն ֆայլի [db](../../Project/appsettings_json.md#db) բաժնի `database` բաժնում անհրաժեշտ է նշել `test_bank`։
+Օրինակ եթե **OLAP** տվյալների պահոցի անունը `test_bank_Olap` է, ապա [appsettings.json](../../Project/appsettings_json.md) կոնֆիգուրացիոն ֆայլի [db](../../project/appsettings_json.md) բաժնի `database` բաժնում անհրաժեշտ է նշել `test_bank`։
 
 ## Մեթոդներ
 
 | Անվանում | Նկարագրություն |
 |----------|----------------|
-| [BeginTrans()](IOlapDBService/BeginTrans.md) | [Սկսում է](https://learn.microsoft.com/en-us/sql/t-sql/language-elements/begin-transaction-transact-sql) SQL տրանզակցիա **OLAP** տվյալների պահոցում։ |
-| [BeginTransAsync()](IOlapDBService/BeginTransAsync.md) | [Սկսում է](https://learn.microsoft.com/en-us/sql/t-sql/language-elements/begin-transaction-transact-sql) SQL տրանզակցիա **OLAP** տվյալների պահոցում։ |
-| [CommitTrans()](IOlapDBService/CommitTrans.md) | [Ավարտում է](https://learn.microsoft.com/en-us/sql/t-sql/language-elements/commit-transaction-transact-sql) SQL տրանզակցիան **OLAP** տվյալների պահոցում։ |
-| [CommitTransAsync()](IOlapDBService/CommitTransAsync.md) | [Ավարտում է](https://learn.microsoft.com/en-us/sql/t-sql/language-elements/commit-transaction-transact-sql) SQL տրանզակցիան **OLAP** տվյալների պահոցում։ |
-| [CreateAdditionalConnection(bool, string, bool)](IOlapDBService/CreateAdditionalConnection.md) | Բացում և վերադարձնում է նոր [SQL միացում](https://learn.microsoft.com/en-us/dotnet/api/microsoft.data.sqlclient.sqlconnection) դեպի **OLAP** տվյալների պահոց։ |
-| [GetApproximateServerDate()](IOlapDBService/GetApproximateServerDate.md) | Վերադարձնում է SQL սերվերի ընթացիկ ամսաթիվը/ժամը որոշակի շեղման հավանականությամբ։ |
-| [GetServerDate()](IOlapDBService/GetServerDate.md) | Վերադարձնում է SQL սերվերի ընթացիկ ամսաթիվը/ժամը կանչելով SQL-ի [GetDate](https://learn.microsoft.com/en-us/sql/t-sql/functions/getdate-transact-sql) ֆունկցիան։ |
-| [RollBackTrans()](IOlapDBService/RollBackTrans.md) | [Հետարկում է](https://learn.microsoft.com/en-us/sql/t-sql/language-elements/rollback-transaction-transact-sql) SQL տրանզակցիան **OLAP** տվյալների պահոցում։ |
-| [RollBackTransAsync()](IOlapDBService/RollBackTransAsync.md) | [Հետարկում է](https://learn.microsoft.com/en-us/sql/t-sql/language-elements/rollback-transaction-transact-sql) SQL տրանզակցիան **OLAP** տվյալների պահոցում։ |
+| [BeginTrans()](IDBService/Methods/BeginTrans.md) | [Սկսում է](https://learn.microsoft.com/en-us/sql/t-sql/language-elements/begin-transaction-transact-sql) SQL տրանզակցիա **OLAP** տվյալների պահոցում։ |
+| [BeginTransAsync()](IDBService/Methods/BeginTransAsync.md) | [Սկսում է](https://learn.microsoft.com/en-us/sql/t-sql/language-elements/begin-transaction-transact-sql) SQL տրանզակցիա **OLAP** տվյալների պահոցում։ |
+| [CommitTrans()](IDBService/Methods/CommitTrans.md) | [Ավարտում է](https://learn.microsoft.com/en-us/sql/t-sql/language-elements/commit-transaction-transact-sql) SQL տրանզակցիան **OLAP** տվյալների պահոցում։ |
+| [CommitTransAsync()](IDBService/Methods/CommitTransAsync.md) | [Ավարտում է](https://learn.microsoft.com/en-us/sql/t-sql/language-elements/commit-transaction-transact-sql) SQL տրանզակցիան **OLAP** տվյալների պահոցում։ |
+| [CreateAdditionalConnection(bool, string, bool)](IDBService/Methods/CreateAdditionalConnection.md) | Բացում և վերադարձնում է նոր [SQL միացում](https://learn.microsoft.com/en-us/dotnet/api/microsoft.data.sqlclient.sqlconnection) դեպի **OLAP** տվյալների պահոց։ |
+| [GetApproximateServerDate()](IDBService/Methods/GetApproximateServerDate.md) | Վերադարձնում է SQL սերվերի ընթացիկ ամսաթիվը/ժամը որոշակի շեղման հավանականությամբ։ |
+| [GetServerDate()](IDBService/Methods/GetServerDate.md) | Վերադարձնում է SQL սերվերի ընթացիկ ամսաթիվը/ժամը կանչելով SQL-ի [GetDate](https://learn.microsoft.com/en-us/sql/t-sql/functions/getdate-transact-sql) ֆունկցիան։ |
+| [RollBackTrans()](IDBService/Methods/RollBackTrans.md) | [Հետարկում է](https://learn.microsoft.com/en-us/sql/t-sql/language-elements/rollback-transaction-transact-sql) SQL տրանզակցիան **OLAP** տվյալների պահոցում։ |
+| [RollBackTransAsync()](IDBService/Methods/RollBackTransAsync.md) | [Հետարկում է](https://learn.microsoft.com/en-us/sql/t-sql/language-elements/rollback-transaction-transact-sql) SQL տրանզակցիան **OLAP** տվյալների պահոցում։ |
 
 ## Հատկություններ
 
 | Անվանում | Նկարագրություն |
 |----------|----------------|
-| [Connection](IOlapDBService/Connection.md) | Վերադարձնում է բաց [SQL միացումը](https://learn.microsoft.com/en-us/dotnet/api/microsoft.data.sqlclient.sqlconnection) դեպի **OLAP** տվյալների պահոց։ |
+| [Connection](IDBService/Properties/Connection.md) | Վերադարձնում է բաց [SQL միացումը](https://learn.microsoft.com/en-us/dotnet/api/microsoft.data.sqlclient.sqlconnection) դեպի **OLAP** տվյալների պահոց։ |

@@ -6,4 +6,4 @@ title: RODocument.RefreshLastLookup() մեթոդ
 public void RefreshLastLookup();
 ```
 
-Թարմացնում է [LastLookup](LastLookup.md) հատկության արժեքը՝ նշանակելով ընթացիկ ամսաթիվը/ժամանակը։
+Թարմացնում է [LastLookup](../../LiteDocument/Properties/LastLookup.md) հատկության արժեքը՝ նշանակելով ընթացիկ ամսաթիվը/ժամանակը։

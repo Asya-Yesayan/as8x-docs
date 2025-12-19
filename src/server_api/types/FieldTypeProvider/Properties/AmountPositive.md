@@ -6,4 +6,4 @@ title: FieldTypeProvider.AmountPositive հատկություն
 public static AmountPositiveFieldType AmountPositive { get; }
 ```
 
-Վերադարձնում է [AmountPositiveFieldType](../system_types.md#amountpositivefieldtype) դասի օբյեկտ քեշից կամ ստեղծում նորը քեշում բացակայության դեպքում և քեշավորում։
+Վերադարձնում է [AmountPositiveFieldType](../../system_types.md) դասի օբյեկտ քեշից կամ ստեղծում նորը քեշում բացակայության դեպքում և քեշավորում։

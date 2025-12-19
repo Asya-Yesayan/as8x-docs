@@ -6,20 +6,20 @@ title: Document.DeserializeComplexObjects(DeserializeComplexObjectsEventArgs) մ
 
 **Համարժեքը 4x-ում՝** DeserializeComplexObjects
 
-**Դաս՝** [Document](../document.md)
+**Դաս՝** [Document](../../document.md)
 
 ```c#
 public virtual Task DeserializeComplexObjects(DeserializeComplexObjectsEventArgs args)
 ```
 
-Մեթոդը անհրաժեշտ է մշակել այն դեպքում, երբ 4X-ական փաստաթղթի [Properties](Properties.md) հատկությունով եկած բարդ օբյեկտները անհրաժեշտ է բերել համապատասխան c#-ական տիպերի 8X-ում։
+Մեթոդը անհրաժեշտ է մշակել այն դեպքում, երբ 4X-ական փաստաթղթի [Properties](../Properties/Properties.md) հատկությունով եկած բարդ օբյեկտները անհրաժեշտ է բերել համապատասխան c#-ական տիպերի 8X-ում։
 
 **Պարամետրեր**
 
 
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 | --- | --- | --- | --- |
-| args | [DeserializeComplexObjectsEventArgs](../../types/args/DeserializeComplexObjectsEventArgs.md) | - | [DeserializeComplexObjectsEventArgs](../../types/args/DeserializeComplexObjectsEventArgs.md) դասի օբյեկտ։ |
+| args | [DeserializeComplexObjectsEventArgs](../../../types/args/DeserializeComplexObjectsEventArgs.md) | - | [DeserializeComplexObjectsEventArgs](../../../types/args/DeserializeComplexObjectsEventArgs.md) դասի օբյեկտ։ |
 
 **Օրինակ**
 

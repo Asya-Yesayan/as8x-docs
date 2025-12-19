@@ -54,7 +54,7 @@ public class Params
 }
 ```
 
-2. Ընդլայնող դասի կոնստրուկտորի մեջ՝ [AddParam](ds_extender/AddParam.md) ֆունկցիայի միջոցով։
+2. Ընդլայնող դասի կոնստրուկտորի մեջ՝ [AddParam](ds_extender/Methods/AddParam.md) ֆունկցիայի միջոցով։
 
 ``` cs
 private readonly IDBService dbService;
@@ -66,7 +66,7 @@ public AllOperExtended(IDBService dbService)
 }
 ```
 
-[AddParam](ds_extender/AddParam.md) ֆունկցիային հարկավոր է փոխանցել հետևյալ արժեքները՝
+[AddParam](ds_extender/Methods/AddParam.md) ֆունկցիային հարկավոր է փոխանցել հետևյալ արժեքները՝
 - Պարամետրի ներքին անուն՝ կոդ (նույնանուն հատկության պետք է լինի ստեղծված `Params` դասի մեջ),
 - Անվանումը հայրեն ANSI կոդավորմամբ (կարելի է գրել Unicode և օգտագործել ToArmenianANSI() ֆունկցիան),
 - Պարամետրի տիպը։
@@ -75,7 +75,7 @@ public AllOperExtended(IDBService dbService)
 
 ### BeforeProcess ֆունկցիա
 
-Պարամետրին դիմելու համար [BeforeProcess](ds_extender/BeforeProcess.md) ֆունկցիայում 
+Պարամետրին դիմելու համար [BeforeProcess](ds_extender/Methods/BeforeProcess.md) ֆունկցիայում 
 - ստանում է տվյալների աղբյուրին փոխանցված պարամետրերը `extenderParameters` փոփոխականի մեջ,
 - ստուգվում է հաճախորդ պարամետրի փոխանցված (լրացված) լինելը,
 - կատարվում է SQL հարցում, որի արդյունքում վերադարձվում են տվյալ հաճախորդի բոլոր հաշիվները
@@ -98,8 +98,8 @@ public override async Task BeforeProcess(IList<IExtendableRow> rows, IDataSource
 
 ### ProccessRow ֆունկցիա
 
-Եթե ընդլայնված պարամետրով փոխանցված հաճախորդի կոդ, ապա [ProccessRow](ds_extender/ProccessRow.md) ֆունկցիայում ստուգվում է, որ տվյալների աղբյուրի յուրաքանչյուր տողում գրված հաշիվը (դեբետում կամ կրեդիտում) լինի [BeforeProcess](ds_extender/BeforeProcess.md)-ում ստացած հաշիվների ցանկում։
-Եվ առկայության դեպքում [ProccessRow](ds_extender/ProccessRow.md) ֆունկցիան վերադարձնում է `true`, որպեսզի տողը ընդգրկվի վերջնական ցանկում։ Ցանկում չլինելու դեպքում վերադարձնում է `false` տողը վերջնական ցանկից հանելու համար։
+Եթե ընդլայնված պարամետրով փոխանցված հաճախորդի կոդ, ապա [ProccessRow](ds_extender/Methods/ProccessRow.md) ֆունկցիայում ստուգվում է, որ տվյալների աղբյուրի յուրաքանչյուր տողում գրված հաշիվը (դեբետում կամ կրեդիտում) լինի [BeforeProcess](ds_extender/Methods/BeforeProcess.md)-ում ստացած հաշիվների ցանկում։
+Եվ առկայության դեպքում [ProccessRow](ds_extender/Methods/ProccessRow.md) ֆունկցիան վերադարձնում է `true`, որպեսզի տողը ընդգրկվի վերջնական ցանկում։ Ցանկում չլինելու դեպքում վերադարձնում է `false` տողը վերջնական ցանկից հանելու համար։
 
 ``` cs
 public override Task<bool> ProccessRow(IExtendableRow row, IDataSourceArgs args)

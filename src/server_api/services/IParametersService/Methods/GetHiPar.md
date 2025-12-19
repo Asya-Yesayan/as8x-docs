@@ -6,7 +6,7 @@ title: IParametersService.GetHiPar(string, DateTime, bool, string, bool, DateTim
 
 **Համարժեքը 4x-ում՝** [AsKernel.GetHiPar](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/ParameterManagment/GetHiPar.html)
 
-**Դաս՝** [IParametersService](../IParametersService.md)
+**Դաս՝** [IParametersService](../../IParametersService.md)
 
 ```c#
 public Task<(string Value, DateTime? SoftDate)> GetHiPar(

@@ -6,7 +6,7 @@ title: RODocumentService.Load մեթոդ
 
 ### Նկարագիր
 
-**Դաս՝** [RODocumentService](../RODocumentService.md)
+**Դաս՝** [RODocumentService](../../RODocumentService.md)
 
 ```c#
 public Task<RODocument> Load(int isn,
@@ -16,7 +16,7 @@ public Task<RODocument> Load(int isn,
                              bool loadImagesAndMemos = false)
 ```
 
-Բեռնում է փաստաթուղթը պահոցից՝ ըստ ներքին նույնականացման համարի և վերադարձնում այն [RODocument](../../types/RODocument.md) բազային դասով։
+Բեռնում է փաստաթուղթը պահոցից՝ ըստ ներքին նույնականացման համարի և վերադարձնում այն [RODocument](../../../types/RODocument.md) բազային դասով։
 
 Փաստաթղթի բացակայության դեպքում վերադարձնում է **null** կամ առաջանում է սխալ՝ կախված throwExceptionIfDeleted պարամետրից։
 
@@ -35,7 +35,7 @@ public Task<RODocument> Load(int isn,
 
 ### Նկարագիր
 
-**Դաս՝** [RODocumentService](../RODocumentService.md)
+**Դաս՝** [RODocumentService](../../RODocumentService.md)
 
 ```c#
 public Task<T> Load<T>(int isn,
@@ -45,7 +45,7 @@ public Task<T> Load<T>(int isn,
                        bool loadImagesAndMemos = false) where T : RODocument, new()
 ```
 
-Բեռնում է փաստաթուղթը պահոցից՝ ըստ ներքին նույնականացման համարի և վերադարձնում այն T դասով, որը հանդիսանում է [RODocument](../../types/RODocument.md)-ի ժառանգ։
+Բեռնում է փաստաթուղթը պահոցից՝ ըստ ներքին նույնականացման համարի և վերադարձնում այն T դասով, որը հանդիսանում է [RODocument](../../../types/RODocument.md)-ի ժառանգ։
 
 Փաստաթղթի բացակայության դեպքում վերադարձնում է **null** կամ առաջանում է սխալ՝ կախված throwExceptionIfDeleted պարամետրից։
 
@@ -65,7 +65,7 @@ public Task<T> Load<T>(int isn,
 
 ### Նկարագիր
 
-**Դաս՝** [RODocumentService](../RODocumentService.md)
+**Դաս՝** [RODocumentService](../../RODocumentService.md)
 
 ```c#
 public Task<Dictionary<int, RODocument>> Load(IEnumerable<int> isnList, 

@@ -10,9 +10,9 @@ public Task<AuthenticateResponse> AuthenticateWithSecretAsync(
     CancellationToken cancellationToken = default)
 ```
 
-Նույնականացնում է ինտեգրման ծրագրի համար ստեղծված բանալիով ([API Client](../../api_client.md))։
+Նույնականացնում է ինտեգրման ծրագրի համար ստեղծված բանալիով ([API Client](../../../api_client.md))։
 
-Նույնականացման հաջողման դեպքում վերադարձնում է [օգտագործողի տվյալները և թոքեն՝ դեպի սերվիս հարցումներ կատարելու համար](../../types/AuthenticateResponse.md), հակառակ դեպքում առաջացնում է սխալ։
+Նույնականացման հաջողման դեպքում վերադարձնում է [օգտագործողի տվյալները և թոքեն՝ դեպի սերվիս հարցումներ կատարելու համար](../../../types/AuthenticateResponse.md), հակառակ դեպքում առաջացնում է սխալ։
 
 **Պարամետրեր**
 
@@ -25,4 +25,4 @@ public Task<AuthenticateResponse> AuthenticateWithSecretAsync(
 
 **Օրինակ**
 
-Տե՛ս օգտագործման [օրինակը](../../examples/AuthenticationClient.md)։
+Տե՛ս օգտագործման [օրինակը](../../../examples/AuthenticationClient.md)։

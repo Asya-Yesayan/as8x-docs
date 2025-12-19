@@ -4,7 +4,7 @@ title: LiteDocumentService.ClearCache() մեթոդ
 
 ## Նկարագիր
 
-**Դաս՝** [LiteDocumentService](../LiteDocumentService.md)
+**Դաս՝** [LiteDocumentService](../../LiteDocumentService.md)
 
 ```c#
 public void ClearCache();

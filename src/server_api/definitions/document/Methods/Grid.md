@@ -6,7 +6,7 @@ title: Document.Grid(string) մեթոդ
 
 **Համարժեքը 4x-ում՝** [AsDoc.Grid](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/ASDOC/Grid.html)
 
-**Դաս՝** [Document](../document.md)
+**Դաս՝** [Document](../../document.md)
 
 ```c#
 public IGrid Grid(string name)
@@ -14,7 +14,7 @@ public IGrid Grid(string name)
 
 Վերադարձնում է փաստաթղթի տրված ներքին անունով աղյուսակը։
 
-IGrid-ի տակից կարող է լինել չտիպիզացված կամ տիպիզացված աղյուսակ` կախված նրանից, թե [CodeGen](../../../CodeGen/CodeGen.md) գործիքի միջոցով աղյուսակերը ձևավորվել են տիպիզացված թե չտիպիզացված ձևով։
+IGrid-ի տակից կարող է լինել չտիպիզացված կամ տիպիզացված աղյուսակ` կախված նրանից, թե [CodeGen](../../../../CodeGen/CodeGen.md) գործիքի միջոցով աղյուսակերը ձևավորվել են տիպիզացված թե չտիպիզացված ձևով։
 
 **Պարամետրեր**
 

@@ -4,7 +4,7 @@ title: TemplateSubstitutionEventArgs.Mode հատկություն
 
 ## Նկարագիր
 
-**Դաս՝** [TemplateSubstitutionEventArgs](../TemplateSubstitutionEventArgs.md)
+**Դաս՝** [TemplateSubstitutionEventArgs](../../TemplateSubstitutionEventArgs.md)
 
 ```c#
 public Dictionary<string, bool> Mode { get; set; }

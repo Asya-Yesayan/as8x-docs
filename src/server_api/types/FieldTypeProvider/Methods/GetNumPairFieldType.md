@@ -6,7 +6,7 @@ title: FieldTypeProvider.GetNumPairFieldType(NumericFieldType, NumericFieldType,
 public static NumPairFieldType GetNumPairFieldType(NumericFieldType numericField1, NumericFieldType numericField2, string comment, bool isNullable = false)
 ```
 
-Վերադարձնում է [NumPairFieldType](../system_types.md#numericpositivefieldtype) դասի օբյեկտ քեշից կամ ստեղծում նորը քեշում բացակայության դեպքում և քեշավորում։
+Վերադարձնում է [NumPairFieldType](../../system_types.md) դասի օբյեկտ քեշից կամ ստեղծում նորը քեշում բացակայության դեպքում և քեշավորում։
 
 **Պարամետրեր**
 

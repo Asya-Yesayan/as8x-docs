@@ -4,7 +4,7 @@ title: SystemStateService.ForceToRelogin(bool) մեթոդ
 
 ## Նկարագիր
 
-**Դաս՝** [SystemStateService](../SystemStateService.md)
+**Դաս՝** [SystemStateService](../../SystemStateService.md)
 
 ```c#
 public Task ForceToRelogin(bool excludeCaller = true)

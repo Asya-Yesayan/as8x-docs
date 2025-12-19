@@ -4,7 +4,7 @@ title: DataSource.Rows հատկություն
 
 ## Նկարագիր
 
-**Դաս՝** [DataSource](../ds.md)
+**Դաս՝** [DataSource](../../ds.md)
 
 ```c#
 protected List<R> Rows { get; set; }
@@ -12,4 +12,4 @@ protected List<R> Rows { get; set; }
 
 Վերադարձնում կամ նշանակում է հաշվարկվող տվյալների աղբյուրի տողերի ցուցակը։
 
-Տե՛ս տողերի ավելացման [օրինակը](../ds_guide_row_processing.md#օրինակ-2-1)։
+Տե՛ս տողերի ավելացման [օրինակը](../../ds_guide_row_processing.md)։

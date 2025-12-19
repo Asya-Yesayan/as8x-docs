@@ -52,7 +52,7 @@ DOCUMENTEXTENDER {
 
 **Նկատառումներ**
 
-Եթ ընդլայնումը [դինամիկ](../../Architecture/extension.md#ընդլայնումների-ավելացում-syscon-գործիքով-ներմուծման-միջոցով) է, ապա անհրաժեշտ է նաև `DOCUMENTEXTENDER` նկարագրությունում ավելացնել նաև `CSSOURCE` դաշտը, որը պարունակում է սերվիսային տրամաբանությունը պարունակող C# ֆայլի [հարաբերական ճանապարհը](https://phoenixnap.com/kb/absolute-path-vs-relative-path) .as ֆայլի նկատմամբ։
+Եթ ընդլայնումը [դինամիկ](../../architecture/extension.md) է, ապա անհրաժեշտ է նաև `DOCUMENTEXTENDER` նկարագրությունում ավելացնել նաև `CSSOURCE` դաշտը, որը պարունակում է սերվիսային տրամաբանությունը պարունակող C# ֆայլի [հարաբերական ճանապարհը](https://phoenixnap.com/kb/absolute-path-vs-relative-path) .as ֆայլի նկատմամբ։
 
 Տե՛ս նաև [Նկարագրության CSSOURCE դաշտում հարաբերական ճանապարհի լրացման օրինակներ](../../server_api/examples/relative_path_examples.md):
 
@@ -68,7 +68,7 @@ DOCUMENTEXTENDER {
 ## .cs ֆայլի ստեղծում
 
 Լրացուցիչ տրամաբանությունը անհրաժեշտ է նկարագրել C#-ով համապատասխան .cs ֆայլում։
-.cs ֆայլում հարկավոր է ստեղծել class, որը ժառանգվում է [DocumentExtender](document_extender.md#documentextender-դաս) դասից։
+.cs ֆայլում հարկավոր է ստեղծել class, որը ժառանգվում է [DocumentExtender](document_extender.md) դասից։
 Հարկավոր է նաև ավելացնել `[DocumentExtender]` ատրիբուտը։ Օրինակ՝
 
 ```c#

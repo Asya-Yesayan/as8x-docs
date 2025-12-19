@@ -6,7 +6,7 @@ title: Document.TakeSnapshot(SnapshotContent, string, bool) մեթոդ
 
 **Համարժեքը 4x-ում՝** AsDoc.TakeSnapshot
 
-**Դաս՝** [Document](../document.md)
+**Դաս՝** [Document](../../document.md)
 
 ```c#
 public Task TakeSnapshot(SnapshotContent content, 
@@ -14,13 +14,13 @@ public Task TakeSnapshot(SnapshotContent content,
 						 bool overwrite = true)
 ```
 
-Քեշավորում և պահպանում է փաստաթղթի պատկերը [Snapshots](Snapshots.md)-ում։
+Քեշավորում և պահպանում է փաստաթղթի պատկերը [Snapshots](../Properties/Snapshots.md)-ում։
 
 **Պարամետրեր**
 
 | Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
 |-----------------|----------------------|----------------|----------------|
 | content         | SnapshotContent      | -              | Սահմանում է փաստաթղթի քեշավորվող կտորները, որը կարող է ընդունել հետևյալ արժեքները՝ |
-| name            | string               | -              | Ստեղծվող քեշավորման օբյեկտի ներքին անուն, որը հանդիսանալու է բանալի [Snapshots](Snapshots.md)-ում։ |
-| overwrite       | bool                 | true           | [Snapshots](Snapshots.md)-ում բանալիի առկայության դեպքում վերարտագրման հայտանիշ։ |
+| name            | string               | -              | Ստեղծվող քեշավորման օբյեկտի ներքին անուն, որը հանդիսանալու է բանալի [Snapshots](../Properties/Snapshots.md)-ում։ |
+| overwrite       | bool                 | true           | [Snapshots](../Properties/Snapshots.md)-ում բանալիի առկայության դեպքում վերարտագրման հայտանիշ։ |
 

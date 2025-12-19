@@ -7,13 +7,13 @@ title: IPermanentStorageService.DeleteBlobAsync մեթոդ
 | Անվանում | Նկարագրություն |
 |--|--|
 | [DeleteBlobAsync(string, string, CancellationToken)](#ipermanentstorageservicedeleteblobasyncstring-string-cancellationtoken-մեթոդ) | Հեռացնում է ֆայլը մշտական ֆայլերի պահոցից՝ ըստ անվան և կոնտեյների։ |
-| [DeleteBlobAsync(string, CancellationToken)](#ipermanentstorageservicedeleteblobasyncstring-cancellationtoken) |  Հեռացնում է ֆայլը մշտական ֆայլերի պահոցի [Container](Container.md) հատկությամբ նշված թղթապանակից։|
+| [DeleteBlobAsync(string, CancellationToken)](#ipermanentstorageservicedeleteblobasyncstring-cancellationtoken) |  Հեռացնում է ֆայլը մշտական ֆայլերի պահոցի [Container](../Properties/Container.md) հատկությամբ նշված թղթապանակից։|
 
 ### IPermanentStorageService.DeleteBlobAsync(string, string, CancellationToken) մեթոդ
 
 #### Նկարագիր
 
-**Դաս՝** [IPermanentStorageService](../IPermanentStorageService.md)
+**Դաս՝** [IPermanentStorageService](../../IPermanentStorageService.md)
 
 ```c#
 public virtual Task<bool> DeleteBlobAsync(string container, 
@@ -35,14 +35,14 @@ public virtual Task<bool> DeleteBlobAsync(string container,
 
 #### Նկարագիր
 
-**Դաս՝** [IPermanentStorageService](../IPermanentStorageService.md)
+**Դաս՝** [IPermanentStorageService](../../IPermanentStorageService.md)
 
 ```c#
 public virtual Task<bool> DeleteBlobAsync(string blobName, 
                                           CancellationToken cancellationToken = default)
 ```
 
-Հեռացնում է ֆայլը մշտական ֆայլերի պահոցի [Container](Container.md) հատկությամբ նշված թղթապանակից։
+Հեռացնում է ֆայլը մշտական ֆայլերի պահոցի [Container](../Properties/Container.md) հատկությամբ նշված թղթապանակից։
 
 **Պարամետրեր**
 

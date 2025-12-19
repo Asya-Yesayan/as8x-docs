@@ -4,7 +4,7 @@ title: IParametersService.GetDetailedDescription(string) մեթոդ
 
 ## Նկարագիր
 
-**Դաս՝** [IParametersService](../IParametersService.md)
+**Դաս՝** [IParametersService](../../IParametersService.md)
 
 ```c#
 public Task<string> GetDetailedDescription(string paramId)

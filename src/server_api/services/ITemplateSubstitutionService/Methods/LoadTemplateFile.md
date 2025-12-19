@@ -4,7 +4,7 @@ title: ITemplateSubstitutionService.LoadTemplateFile(string, SubstitutionType) �
 
 ## Նկարագիր
 
-**Դաս՝** [ITemplateSubstitutionService](../ITemplateSubstitutionService.md)
+**Դաս՝** [ITemplateSubstitutionService](../../../examples/ITemplateSubstitutionService.md)
 
 ```c#
 public Task<(bool IsUnicode, byte[] File, bool Updatable)> LoadTemplateFile(
@@ -25,4 +25,4 @@ public Task<(bool IsUnicode, byte[] File, bool Updatable)> LoadTemplateFile(
 | Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
 |-----------------|----------------------|----------------|----------------|
 | name       | string                 | -              | Տպելու ձևանմուշի ներքին անուն: |
-| type            | SubstitutionType               | -              | [Տպելու ձևանմուշի տիպ](../../types/SubstitutionType.md): |
+| type            | SubstitutionType               | -              | [Տպելու ձևանմուշի տիպ](../../../types/SubstitutionType.md): |

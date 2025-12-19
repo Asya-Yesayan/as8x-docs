@@ -6,7 +6,7 @@ title: FieldTypeProvider.GetStringFieldType(short, bool) մեթոդ
 public static StringFieldType GetStringFieldType(short fieldLength, bool isNullable = false)
 ```
 
-Վերադարձնում է [StringFieldType](../system_types.md#stringfieldtype) դասի օբյեկտ քեշից կամ ստեղծում նորը քեշում բացակայության դեպքում և քեշավորում։
+Վերադարձնում է [StringFieldType](../../system_types.md) դասի օբյեկտ քեշից կամ ստեղծում նորը քեշում բացակայության դեպքում և քեշավորում։
 
 **Պարամետրեր**
 

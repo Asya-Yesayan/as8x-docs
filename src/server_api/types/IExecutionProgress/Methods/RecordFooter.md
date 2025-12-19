@@ -4,13 +4,13 @@ title: IExecutionProgress.RecordFooter(string) մեթոդ
 
 ## Նկարագիր
 
-**Դաս՝** [IExecutionProgress](../IExecutionProgress.md)
+**Դաս՝** [IExecutionProgress](../../IExecutionProgress.md)
 
 ```c#
 public void RecordFooter(string footer);
 ```
 
-Ավելացնում է նոր տող [տեքստային հաշվետվության](../TextReport.md) ստորին հատվածում։ Առաջադրանքի կատարման ընթացքում մեթոդի կանչի դեպքում տեքստային հաշվետվությունը մնում է անփոփոխ։
+Ավելացնում է նոր տող [տեքստային հաշվետվության](../../TextReport.md) ստորին հատվածում։ Առաջադրանքի կատարման ընթացքում մեթոդի կանչի դեպքում տեքստային հաշվետվությունը մնում է անփոփոխ։
 
 **Պարամետրեր**
 

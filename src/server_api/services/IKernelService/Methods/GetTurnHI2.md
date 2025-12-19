@@ -6,7 +6,7 @@ title: IKernelService.GetTurnHI2(string, int, int, DateTime, DateTime, string, i
 
 **Համարժեքը 4x-ում՝** [Kernel.GetTurnHI2](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/AccManagement/GetTurnHI2.html)
 
-**Դաս՝** [IKernelService](../IKernelService.md)
+**Դաս՝** [IKernelService](../../IKernelService.md)
 
 ```c#
 public Task<(decimal DbTurn, decimal DbTurnAMD, decimal CrTurn, decimal CrTurnAMD)> GetTurnHI2(

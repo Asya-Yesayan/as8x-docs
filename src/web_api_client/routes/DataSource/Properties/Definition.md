@@ -8,7 +8,7 @@ public DataSourceDefinition Definition { get; set; }
 
 Վերադարձնում կամ նշանակում է տվյալների աղբյուրի նկարագրությունը, որը պարունակում է տվյալների աղբյուրի, սյուների և պարամետրերի հատկությունները։
 
-Այս հատկությունը լրացվում է [LoadDefinitionAsync](LoadDefinitionAsync.md) մեթոդի կանչով։
+Այս հատկությունը լրացվում է [LoadDefinitionAsync](../Methods/LoadDefinitionAsync.md) մեթոդի կանչով։
 
 Այդ օբյեկտը կարելի է քեշավորել և բազմակի օգտագործել։
-Տե՛ս [օրինակը](../../examples/DataSource.md#օրինակ-4)։
+Տե՛ս [օրինակը](../../../examples/DataSource.md)։

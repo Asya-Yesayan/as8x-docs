@@ -20,7 +20,7 @@ public void RecordError(string message,
 
 Առաջադրանքի կատարման ընթացքում կանչի դեպքում միայն [Seq](https://datalust.co/)-ում ավելացվում է նոր իրադարձություն՝ նշված հաղորդագրությամբ, սխալի հաղորդագրությամբ և Error լոգավորման մակարդակով, իսկ [տեքստային հաշվետվությունը](../TextReport.md) մնում է անփոփոխ։
 
-Մեթոդի կատարման արդյունքում [IExecutionProgress․HasError](HasError.md) հատկության արժեքը դառնում է true:
+Մեթոդի կատարման արդյունքում [IExecutionProgress․HasError](Properties/HasError.md) հատկության արժեքը դառնում է true:
 
 **Պարամետրեր**
 

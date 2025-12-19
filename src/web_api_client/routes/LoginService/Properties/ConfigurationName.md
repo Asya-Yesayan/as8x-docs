@@ -6,5 +6,5 @@ title: LoginService.ConfigurationName հատկություն
 public string ConfigurationName { get; private set; }
 ```
 
-Նույնականացումից հետո վերադարձնում է [AuthenticateAsync](AuthenticateAsync.md) կանչին փոխանցված համապատասխան պարամետրը։ 
+Նույնականացումից հետո վերադարձնում է [AuthenticateAsync](../Methods/AuthenticateAsync.md) կանչին փոխանցված համապատասխան պարամետրը։ 
 Այն ինֆորմատիվ բնույթ է կրում։

@@ -6,7 +6,7 @@ title: DataSource.IsSQLBased հատկություն
 
 **Համարժեքը 4x-ում՝** [Data.ArrayBased](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/ASDATA/ArrayBased.html)
 
-**Դաս՝** [DataSource](../ds.md)
+**Դաս՝** [DataSource](../../ds.md)
 
 ```c#
 public virtual bool IsSQLBased
