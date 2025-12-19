@@ -14,9 +14,9 @@ public class ChangeRequestEventArgs
 }
 ```
 
-* `DCR` - [Փաստաթղթի փոփոխման հայտը](../DocumentChangeRequest.md)։
-* `DCRResult` - Որոշում է [փաստաթղթի փոփոխման հայտի](../DocumentChangeRequest.md) վիճակը [ChangeRequest](../IDocumentChangeRequest/ChangeRequest.md) մեթոդի կանչից հետո՝
-  * **DCRResult.NotCreated** - փոփոխման հայտը ստեղծվել է,
-  * **DCRResult.CreatedAndConfirmed** - փոփոխման հայտը ստեղծվել և հաստատվել է,
-  * **DCRResult.CreatedAndNotConfirmed** - փոփոխման հայտը ստեղծվել է և չի հաստատվել,
-  * **DCRResult.CreatedAndConfirmedWithOnConfirm** - փոփոխման հայտը ստեղծվել և ուղարկվել է կրկնակի հաստատման [PreOnConfirmDocumentChangeRequest](../../../extensions/definitions/document_extender/PreOnConfirmDocumentChangeRequest.md), [OnConfirmDocumentChangeRequest](../../definitions/document/OnConfirmDocumentChangeRequest.md), [PostOnConfirmDocumentChangeRequest](../../../extensions/definitions/document_extender/PostOnConfirmDocumentChangeRequest.md) մեթոդների միջոցով։
+## Հատկություններ
+
+| Անվանում  | Տվյալների տիպ | Լռությամբ արժեք      | Նկարագրություն  |
+| --------- | ------------- | -------------------- | ----------------------- |
+| DCR       |  DocumentChangeRequest             |         -             | [Փաստաթղթի փոփոխման հայտը](../DocumentChangeRequest.md)։   |
+| DCRResult |  DCRResult             | DCRResult.NotCreated | Որոշում է [փաստաթղթի փոփոխման հայտի](../DocumentChangeRequest.md) վիճակը [ChangeRequest](../IDocumentChangeRequest/ChangeRequest.md) մեթոդի կանչից հետո՝<br>**DCRResult.NotCreated** - փոփոխման հայտը ստեղծվել է,<br>**DCRResult.CreatedAndConfirmed** - փոփոխման հայտը ստեղծվել և հաստատվել է,<br>**DCRResult.CreatedAndNotConfirmed** - փոփոխման հայտը ստեղծվել է և չի հաստատվել,<br>**DCRResult.CreatedAndConfirmedWithOnConfirm** - փոփոխման հայտը ստեղծվել և ուղարկվել է կրկնակի հաստատման [PreOnConfirmDocumentChangeRequest](../../../extensions/definitions/document_extender/PreOnConfirmDocumentChangeRequest.md), [OnConfirmDocumentChangeRequest](../../definitions/document/OnConfirmDocumentChangeRequest.md), [PostOnConfirmDocumentChangeRequest](../../../extensions/definitions/document_extender/PostOnConfirmDocumentChangeRequest.md) մեթոդների միջոցով։ |
