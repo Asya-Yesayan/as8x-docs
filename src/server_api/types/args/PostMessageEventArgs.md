@@ -3,7 +3,7 @@ layout: page
 title: "PostMessageEventArgs դաս" 
 ---
 
-Այս դասը օգտագործվում է [Document.PostMessage](../../definitions/document/Methods/PostMessage.md) մեթոդում։
+Այս դասը օգտագործվում է [Document.PostMessage](../../definitions/document/PostMessage.md) մեթոդում։
 
 ## Հատկություններ
 

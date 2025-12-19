@@ -6,7 +6,7 @@ title: Document.OnConfirmDocumentChangeRequest(ConfirmDocumentChangeRequestEvent
 
 **Համարժեքը 4x-ում՝** [OnConfirmDCR](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/ScriptProcs/OnConfirmDCR.html)
 
-**Դաս՝** [Document](../../document.md)
+**Դաս՝** [Document](../document.md)
 
 ```c#
 public virtual Task OnConfirmDocumentChangeRequest(ConfirmDocumentChangeRequestEventArgs args)
@@ -19,5 +19,5 @@ public virtual Task OnConfirmDocumentChangeRequest(ConfirmDocumentChangeRequestE
 
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 | --- | --- | --- | --- |
-| args | [ConfirmDocumentChangeRequestEventArgs](../../../types/args/ConfirmDocumentChangeRequestEventArgs.md) | - | [ConfirmDocumentChangeRequestEventArgs](../../../types/args/ConfirmDocumentChangeRequestEventArgs.md) դասի օբյեկտ։ |
+| args | [ConfirmDocumentChangeRequestEventArgs](../../types/args/ConfirmDocumentChangeRequestEventArgs.md) | - | [ConfirmDocumentChangeRequestEventArgs](../../types/args/ConfirmDocumentChangeRequestEventArgs.md) դասի օբյեկտ։ |
 

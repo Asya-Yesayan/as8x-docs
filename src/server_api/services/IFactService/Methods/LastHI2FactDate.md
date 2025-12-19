@@ -6,7 +6,7 @@ title: IFactService.LastHI2FactDate(string, int, int, DateTime?, string) մեթ�
 
 **Համարժեքը 4x-ում՝** [AsKernel.LastHI2FactDate](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/AccManagement/LastHI2FactDate.html)
 
-**Դաս՝** [IFactService](../../IFactService.md)
+**Դաս՝** [IFactService](../IFactService.md)
 
 ```c#
 public Task<DateTime?> LastHI2FactDate(string accountingCode, 

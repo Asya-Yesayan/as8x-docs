@@ -13,7 +13,7 @@ title: LiteDocumentService.LookUpInCache մեթոդ
 
 #### Նկարագիր
 
-**Դաս՝** [LiteDocumentService](../../LiteDocumentService.md)
+**Դաս՝** [LiteDocumentService](../LiteDocumentService.md)
 
 ```c#
 public Task<LiteDocument> LookUpInCache(int isn,
@@ -39,7 +39,7 @@ public Task<LiteDocument> LookUpInCache(int isn,
 
 #### Նկարագիր
 
-**Դաս՝** [LiteDocumentService](../../LiteDocumentService.md)
+**Դաս՝** [LiteDocumentService](../LiteDocumentService.md)
 
 ```c#
 public Task<LiteDocument> LookUpInCache(string folderID,

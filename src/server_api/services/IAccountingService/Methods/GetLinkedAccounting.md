@@ -4,7 +4,7 @@ title: IAccountingService.GetLinkedAccounting(string) մեթոդ
 
 ## Նկարագիր
 
-**Դաս՝** [IAccountingService](../../IAccountingService.md)
+**Դաս՝** [IAccountingService](../IAccountingService.md)
 
 ```c#
 public string GetLinkedAccounting(ref string acc)

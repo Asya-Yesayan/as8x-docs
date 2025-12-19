@@ -6,7 +6,7 @@ title: FieldTypeProvider.GetFolderFieldType(string, short, bool) մեթոդ
 public static FolderFieldType GetFolderFieldType(string name, short length, bool isNullable = false)
 ```
 
-Վերադարձնում է [FolderFieldType](../../system_types.md) դասի օբյեկտ քեշից կամ ստեղծում նորը քեշում բացակայության դեպքում և քեշավորում։
+Վերադարձնում է [FolderFieldType](../system_types.md#folderfieldtype) դասի օբյեկտ քեշից կամ ստեղծում նորը քեշում բացակայության դեպքում և քեշավորում։
 
 **Պարամետրեր**
 

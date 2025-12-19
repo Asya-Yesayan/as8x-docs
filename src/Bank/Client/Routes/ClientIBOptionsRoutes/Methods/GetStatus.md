@@ -31,4 +31,4 @@ public Task<GetStatusResponse> GetStatus(GetStatusRequest request)
 
 **Օրինակ**
 
-Տե՛ս օգտագործման [օրինակը](../../../Examples/ClientIBOptionsRoutes.md)։
+Տե՛ս օգտագործման [օրինակը](../../../../web_api_client/bank/examples/ClientIBOptionsRoutes.md#օրինակ-1)։

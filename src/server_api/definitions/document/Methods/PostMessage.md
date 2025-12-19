@@ -6,7 +6,7 @@ title: Document.PostMessage(PostMessageEventArgs) մեթոդ
 
 **Համարժեքը 4x-ում՝** [PostMessage](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/ScriptProcs/PostMessage.html)
 
-**Դաս՝** [Document](../../document.md)
+**Դաս՝** [Document](../document.md)
 
 ```c#
 public virtual Task PostMessage(PostMessageEventArgs args)
@@ -19,4 +19,4 @@ public virtual Task PostMessage(PostMessageEventArgs args)
 
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 | --- | --- | --- | --- |
-| args | [PostMessageEventArgs](../../../types/args/PostMessageEventArgs.md) | - | [PostMessageEventArgs](../../../types/args/PostMessageEventArgs.md) դասի օբյեկտ։ |
+| args | [PostMessageEventArgs](../../types/args/PostMessageEventArgs.md) | - | [PostMessageEventArgs](../../types/args/PostMessageEventArgs.md) դասի օբյեկտ։ |

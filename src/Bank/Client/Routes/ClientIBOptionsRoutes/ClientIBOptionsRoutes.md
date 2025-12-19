@@ -8,12 +8,12 @@
 ## Ներածություն
 
 ClientIBOptionsRoutes դասը պարունակում է մեթոդներ հաճախորդների ԻԲ կարգավորումների տվյալների հետ աշխատանքը ապահովելու համար։
-Այն հասանելի է [BankApiClient](../../types/BankApiClient/BankApiClient.md) դասի միջից։
+Այն հասանելի է [BankApiClient](../../../../web_api_client/bank/types/BankApiClient.md) դասի միջից։
 
 ## Մեթոդներ
 
 | Անվանում | Նկարագրություն |
 |----------|----------------|
-| [GetStatus(GetStatusRequest)](Methods/GetStatus.md) | Վերադարձնում է հաճախորդի ԻԲ կարգավիճակը։ |
+| [GetStatus(GetStatusRequest)](../../../Bank/Client/Routes/ClientIBOptionsRoutes/GetStatus.md) | Վերադարձնում է հաճախորդի ԻԲ կարգավիճակը։ |
 
 </div>

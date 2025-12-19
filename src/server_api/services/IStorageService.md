@@ -7,26 +7,26 @@ title: "IStorageService սերվիս"
 IStorageService դասը նախատեսված է ծրագրի աշխատանքի ընթացքում ձևավորվող ժամանակավոր ֆայլերի պահպանման և բեռնման համար։
 Համակարգը կարող է կարգավորվել այնպես, որ ֆայլերի պահպանում կատարվի կա՛մ ֆայլային համակարգում, կա՛մ ամպային պահոցում։
 
-Կարգավորվում է [appsettings.json](../../Project/appsettings_json.md) կոնֆիգուրացիոն ֆայլի [Storage](../../project/appsettings_json.md) բաժնում։
+Կարգավորվում է [appsettings.json](../../Project/appsettings_json.md) կոնֆիգուրացիոն ֆայլի [Storage](../../Project/appsettings_json.md#storage) բաժնում։
 
 ## Մեթոդներ
 
 | Անվանում | Նկարագրություն |
 |----------|----------------|
-| [DeleteBlobAsync(string, string, CancellationToken)](IPermanentStorageService/Methods/DeleteBlobAsync.md) | Հեռացնում է ֆայլը ժամանակավոր ֆայլերի պահոցից` ըստ անվան և կոնտեյների։ |
-| [DeleteBlobAsync(string, CancellationToken)](IPermanentStorageService/Methods/DeleteBlobAsync.md) | Հեռացնում է ֆայլը [ընթացիկ սեսիայի կոնտեյներից](IPermanentStorageService/Properties/Container.md)։ |
-| [GetBlobAsync(string, string, CancellationToken)](IPermanentStorageService/Methods/GetBlobAsync.md) | Վերադարձնում է ֆայլի պարունակությունը ժամանակավոր ֆայլերի պահոցից` որպես [Stream](https://learn.microsoft.com/en-us/dotnet/api/system.io.stream): |
-| [GetTempBlobUrl(string, string)](IStorageService/Methods/GetTempBlobUrl.md) | Վերադարձնում է [ընթացիկ սեսիայի կոնտեյներում](IPermanentStorageService/Properties/Container.md) գոյություն չունեցող, պատահականության սկզբունքով ընտրված ֆայլի անուն՝ ներառյալ ընդլայնումը և ֆայլի ամբողջական ճանապարհը։ |
+| [DeleteBlobAsync(string, string, CancellationToken)](IStorageService/DeleteBlobAsync.md#istorageservicedeleteblobasyncstring-string-cancellationtoken-մեթոդ) | Հեռացնում է ֆայլը ժամանակավոր ֆայլերի պահոցից` ըստ անվան և կոնտեյների։ |
+| [DeleteBlobAsync(string, CancellationToken)](IStorageService/DeleteBlobAsync.md#istorageservicedeleteblobasyncstring-cancellationtoken-մեթոդ) | Հեռացնում է ֆայլը [ընթացիկ սեսիայի կոնտեյներից](IStorageService/Container.md)։ |
+| [GetBlobAsync(string, string, CancellationToken)](IStorageService/GetBlobAsync.md) | Վերադարձնում է ֆայլի պարունակությունը ժամանակավոր ֆայլերի պահոցից` որպես [Stream](https://learn.microsoft.com/en-us/dotnet/api/system.io.stream): |
+| [GetTempBlobUrl(string, string)](IStorageService/GetTempBlobUrl.md) | Վերադարձնում է [ընթացիկ սեսիայի կոնտեյներում](IStorageService/Container.md) գոյություն չունեցող, պատահականության սկզբունքով ընտրված ֆայլի անուն՝ ներառյալ ընդլայնումը և ֆայլի ամբողջական ճանապարհը։ |
 | [UploadBlobAsync(string, string, byte[], CancellationToken)](IStorageService/UploadBlobAsync.md#istorageserviceuploadblobasyncstring-string-byte-cancellationtoken-մեթոդ) | Պահպանում է `value` պարամետրի պարունակությունը ժամանակավոր ֆայլերի պահոցում` ըստ կոնտեյների և ֆայլի անվան։ |
-| [UploadBlobAsync(string, Stream, BlobProperties, CancellationToken)](IPermanentStorageService/Methods/UploadBlobAsync.md) | Պահպանում է `stream` պարամետրի պարունակությունը [ընթացիկ սեսիայի կոնտեյների](IPermanentStorageService/Properties/Container.md) նշված ֆայլում։ |
-| [UploadBlobAsync(string, string, Stream, BlobProperties, CancellationToken)](IPermanentStorageService/Methods/UploadBlobAsync.md) | Պահպանում է `stream` պարամետրի պարունակությունը ժամանակավոր ֆայլերի պահոցում՝ նշված կոնտեյների նշված ֆայլում։ |
-| [UploadTempBlobAsync(string, string, Stream, BlobProperties, CancellationToken)](IPermanentStorageService/Methods/UploadTempBlobAsync.md) | Պահպանում է `stream` պարամետրի պարունակությունը [ընթացիկ սեսիայի կոնտեյների](IPermanentStorageService/Properties/Container.md) նշված ընդլայնմամբ ֆայլում, որի անունը ձևավորվում է ավտոմատ։ |
+| [UploadBlobAsync(string, Stream, BlobProperties, CancellationToken)](IStorageService/UploadBlobAsync.md#istorageserviceuploadblobasyncstring-stream-blobproperties-cancellationtoken-մեթոդ) | Պահպանում է `stream` պարամետրի պարունակությունը [ընթացիկ սեսիայի կոնտեյների](IStorageService/Container.md) նշված ֆայլում։ |
+| [UploadBlobAsync(string, string, Stream, BlobProperties, CancellationToken)](IStorageService/UploadBlobAsync.md#istorageserviceuploadblobasyncstring-string-stream-blobproperties-cancellationtoken-մեթոդ) | Պահպանում է `stream` պարամետրի պարունակությունը ժամանակավոր ֆայլերի պահոցում՝ նշված կոնտեյների նշված ֆայլում։ |
+| [UploadTempBlobAsync(string, string, Stream, BlobProperties, CancellationToken)](IStorageService/UploadTempBlobAsync.md) | Պահպանում է `stream` պարամետրի պարունակությունը [ընթացիկ սեսիայի կոնտեյների](IStorageService/Container.md) նշված ընդլայնմամբ ֆայլում, որի անունը ձևավորվում է ավտոմատ։ |
 
 ## Հատկություններ
 
 | Անվանում | Նկարագրություն |
 |----------|----------------|
-| [Container](IPermanentStorageService/Properties/Container.md) | Վերադարձնում է այն կոնտեյների/թղթապանակի անունը, որտեղ պահվում են ընթացիկ սեսիայի ժամանակավոր ստեղծվող ֆայլերը։ |
+| [Container](IStorageService/Container.md) | Վերադարձնում է այն կոնտեյների/թղթապանակի անունը, որտեղ պահվում են ընթացիկ սեսիայի ժամանակավոր ստեղծվող ֆայլերը։ |
 
 <!-- ### GetTempBlobUrlAsync
 

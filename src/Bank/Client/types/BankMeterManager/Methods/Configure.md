@@ -13,7 +13,7 @@ protected override void Configure(IParametersService parametersService)
 
 | Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
 |-----------------|----------------------|----------------|----------------|
-| parametersService | IParametersService   | -              | parametersService | [IParametersService](../../../../../server_api/services/IParametersService.md) դասի օբյեկտ։ |
+| parametersService | IParametersService   | -              | parametersService | [IParametersService](../../../../server_api/services/IParametersService.md) դասի օբյեկտ։ |
 
 ## ՀԾ-Բանկի պրոյեկտում մետրիկաների ավելացման օրինակ
 

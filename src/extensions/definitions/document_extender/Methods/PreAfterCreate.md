@@ -6,7 +6,7 @@ title: DocumentExtender.PreAfterCreate(Document, AfterCreateEventArgs) մեթո�
 
 **Համարժեքը 4x-ում՝** ScriptExtension.DocPreAfterCreate
 
-**Դաս՝** [DocumentExtender](../../document_extender.md)
+**Դաս՝** [DocumentExtender](../document_extender.md)
 
 ```c#
 public virtual Task PreAfterCreate(Document sender, 

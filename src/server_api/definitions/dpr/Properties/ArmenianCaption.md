@@ -6,7 +6,7 @@ title: DataProcessingRequest.ArmenianCaption հատկություն
 
 **Համարժեքը 4x-ում՝** [DataProcessingRequest.Caption](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/DataProcessingRequest.html#caption)
 
-**Դաս՝** [DataProcessingRequest](../../dpr.md)
+**Դաս՝** [DataProcessingRequest](../dpr.md)
 
 ```c#
 public string ArmenianCaption { get; }

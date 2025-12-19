@@ -6,4 +6,4 @@ title: TextReport.MaxLength հատկություն
 public int MaxLength { get; protected set; }
 ```
 
-Վերադարձնում է հաշվետվություն [AddFragment](../Methods/AddFragment.md) մեթոդի միջոցով ավելացված բոլոր հատվածների լայնությունների գումարը։
+Վերադարձնում է հաշվետվություն [AddFragment](AddFragment.md) մեթոդի միջոցով ավելացված բոլոր հատվածների լայնությունների գումարը։

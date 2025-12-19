@@ -6,7 +6,7 @@ title: IDocumentService.StoreInFolder(Document, FolderElement) մեթոդ
 
 **Համարժեքը 4x-ում՝** [AsDoc.StoreInFolder](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/ASDOC/StoreInFolder.html)
 
-**Դաս՝** [IDocumentService](../../IDocumentService.md)
+**Դաս՝** [IDocumentService](../IDocumentService.md)
 
 ```c#
 public void StoreInFolder(Document document, 
@@ -14,12 +14,12 @@ public void StoreInFolder(Document document,
 ```
 
 Գրանցում է թղթապանակի տարրը տվյալների պահոցում:
-Մեթոդը հարկավոր է կանչել միմիայն փաստաթղթի [Folders](../../../definitions/document/Methods/Folders.md) իրադարձության մշակիչի մեջ։  
-Թղթապանակի տարրերը անմիջապես չեն գրանցվում տվյալների պահոցում անմիջապես, գրանցումները կատարվում են [Folders](../../../definitions/document/Methods/Folders.md) իրադարձության մշակիչի ավարտից հետո։
+Մեթոդը հարկավոր է կանչել միմիայն փաստաթղթի [Folders](../../definitions/document/Folders.md) իրադարձության մշակիչի մեջ։  
+Թղթապանակի տարրերը անմիջապես չեն գրանցվում տվյալների պահոցում անմիջապես, գրանցումները կատարվում են [Folders](../../definitions/document/Folders.md) իրադարձության մշակիչի ավարտից հետո։
 
 **Պարամետրեր**
 
 | Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
 |-----------------|----------------------|----------------|----------------|
-| document        | Document             | -              | [Փաստաթղթի օբյեկտ](../../../definitions/document.md)։ |
-| folderElement   | FolderElement        | -              | [Թղթապանակի տարր](../../../types/FolderElement.md)։ |
+| document        | Document             | -              | [Փաստաթղթի օբյեկտ](../../definitions/document.md)։ |
+| folderElement   | FolderElement        | -              | [Թղթապանակի տարր](../../types/FolderElement.md)։ |

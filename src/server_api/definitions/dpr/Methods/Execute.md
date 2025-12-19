@@ -6,7 +6,7 @@ title: DataProcessingRequest.Execute(P, CancellationToken) մեթոդ
 
 **Համարժեքը 4x-ում՝** [AsKernel.ExecuteDPR](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/8X/ExecuteDPR.html)
 
-**Դաս՝** [DataProcessingRequest](../../dpr.md)
+**Դաս՝** [DataProcessingRequest](../dpr.md)
 
 ```c#
 public abstract Task<R> Execute(P p, 
@@ -22,4 +22,4 @@ public abstract Task<R> Execute(P p,
 | p               | P                    | -              | Մուտքային պարամետրերի նկարագրված դասի օբյեկտ։ |
 | stoppingToken   | CancellationToken    | -              | Դադարեցման տոկենը։ |
 
-Տե՛ս օգտագործման [օրինակը](../../dpr_guide.md)։
+Տե՛ս օգտագործման [օրինակը](../dpr_guide.md#execute)։

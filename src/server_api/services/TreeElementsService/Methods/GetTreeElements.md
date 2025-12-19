@@ -6,7 +6,7 @@ title: TreeElementsService.GetTreeElements(int, Dictionary<string, TreeElement>,
 
 **Համարժեքը 4x-ում՝** [TreeElements](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/DocumentsCirculation/TreeElements.html)
 
-**Դաս՝** [TreeElementsService](../../TreeElementsService.md)
+**Դաս՝** [TreeElementsService](../TreeElementsService.md)
 
 ```c#
 public Task<Dictionary<string, TreeElement>> GetTreeElements(string treeId, 

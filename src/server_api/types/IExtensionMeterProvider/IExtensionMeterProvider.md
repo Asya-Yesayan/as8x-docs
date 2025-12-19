@@ -5,14 +5,14 @@ title: IExtensionMeterProvider ինտերֆեյս
 
 Այս ինտերֆեյսը անհրաժեշտ է իրականացնել կազմակերպության սեփական նկարագրությունները պարունակող assembly-ում մետրիկաներ (gauge, counter...) կոնֆիգուրացնելու, հաշվարկելու համար: 
 
-Մետրիկաները ստեղծող և հաշվարկող մեթոդները կգործարկվեն համակարգի կողմից միայն այն դեպքում, երբ [OTLPENABLED](../../../extensions/types/args/TemplateSubstitutionEventArgs/Properties/Parameters.md) համակարգային պարամետրի արժեքը true է։
+Մետրիկաները ստեղծող և հաշվարկող մեթոդները կգործարկվեն համակարգի կողմից միայն այն դեպքում, երբ [OTLPENABLED](../otlp/parameters.md#otlpenabled) համակարգային պարամետրի արժեքը true է։
 
 ## Մեթոդներ
 
 | Անվանում | Նկարագրություն |
 |----------|----------------|
-| [Configure(IParametersService, Meter)](../../../Bank/Client/types/BankMeterManager/Methods/Configure.md) | Այս մեթոդը նախատեսված է կազմակերպության սեփական նկարագրությունները պարունակող assembly-ում մետրիկաներ ստեղծելու, կոնֆիգուրացնելու համար՝ օգտագործելով [Meter](https://learn.microsoft.com/en-us/dotnet/api/system.diagnostics.metrics.meter) պարամետրը։ |
-| [CalculateGauges(IDBService)](Methods/CalculateGauges.md) | Այս մեթոդը նախատեսված է սեփական նկարագրությունները պարունակող assembly-ում ստեղծված մետրիկաների արժեքների հաշվարկի համար։ <br> Մեթոդը ավտոմատ կերպով կանչվում է համակարգի կողմից՝ [appsettings.json](../../../project/appsettings_json.md) կոնֆիգուրացիոն ֆայլի [OTLP:Metrics։PeriodicExporting:ExportIntervalMilliseconds](../../../project/appsettings_json.md) դաշտում սահմանված արտահանման պարբերականությամբ։ |
+| [Configure(IParametersService, Meter)](Configure.md) | Այս մեթոդը նախատեսված է կազմակերպության սեփական նկարագրությունները պարունակող assembly-ում մետրիկաներ ստեղծելու, կոնֆիգուրացնելու համար՝ օգտագործելով [Meter](https://learn.microsoft.com/en-us/dotnet/api/system.diagnostics.metrics.meter) պարամետրը։ |
+| [CalculateGauges(IDBService)](CalculateGauges.md) | Այս մեթոդը նախատեսված է սեփական նկարագրությունները պարունակող assembly-ում ստեղծված մետրիկաների արժեքների հաշվարկի համար։ <br> Մեթոդը ավտոմատ կերպով կանչվում է համակարգի կողմից՝ [appsettings.json](../../../project/appsettings_json.md) կոնֆիգուրացիոն ֆայլի [OTLP:Metrics։PeriodicExporting:ExportIntervalMilliseconds](../../../project/appsettings_json.md#otlp) դաշտում սահմանված արտահանման պարբերականությամբ։ |
 
 ## Օրինակ
 

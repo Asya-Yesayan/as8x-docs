@@ -23,13 +23,13 @@ sublinks:
 
 ## Ներածություն
 
-Sql-based տվյալների աղբյուրի տողերի հավելյալ մշակման, ֆիլտրման և հաշվարկային սյուների արժեքների հաշվարկման համար կարող են օգտագործվել երկու մեթոդներ՝ [ProcessRow](ds/Methods/ProcessRow.md) և [AfterDataReaderClose](ds/Methods/AfterDataReaderClose.md): 
+Sql-based տվյալների աղբյուրի տողերի հավելյալ մշակման, ֆիլտրման և հաշվարկային սյուների արժեքների հաշվարկման համար կարող են օգտագործվել երկու մեթոդներ՝ [ProcessRow](ds/ProcessRow.md) և [AfterDataReaderClose](ds/AfterDataReaderClose.md): 
 
 Երկու մեթոդները փոխարինում են 4X համակարգում նկարագրված [OnEachRow](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/ScriptProcs/OnEachRow.html) և [Valid](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/ScriptProcs/Valid_Data.html) իրադարձություններին:
 
 ## ProcessRow 
 
-Մեթոդը կանչվում է [MakeSqlCommand](ds/Methods/MakeSQLCommand.md) մեթոդում ձևավորված SQL հարցման կատարման ընթացքում, երբ հարցման տվյալները կարդացող [SqlDataReader](https://learn.microsoft.com/en-us/dotnet/api/microsoft.data.sqlclient.sqldatareader)-ը դեռ բաց է:
+Մեթոդը կանչվում է [MakeSqlCommand](ds/MakeSQLCommand.md) մեթոդում ձևավորված SQL հարցման կատարման ընթացքում, երբ հարցման տվյալները կարդացող [SqlDataReader](https://learn.microsoft.com/en-us/dotnet/api/microsoft.data.sqlclient.sqldatareader)-ը դեռ բաց է:
 
 Մեթոդը է վերադարձնում են bool տիպի արժեք, որը ցույց է տալիս թե ընթացիկ տողը պետք է ընդգրկվի տվյալների աղբյուրի տողերի վերջնական ցուցակում, թե ոչ։
 
@@ -63,7 +63,7 @@ protected override bool ProcessRow(DataSourceArgs<Param> args, DataRow row, SqlD
 
 Ներկայացված է տվյալների աղբյուրի տողերի ֆիլտրացիայի օրինակ՝ վերջնական տողերի ցուցակում ընդգրկվում են այն տողերը, որտեղ ստուգվում է տարիքը։
 
-reader-ից տողերը կարդալը առավել արագացնելու համար կարելի է [AfterExecuteSQLCommand](ds/Methods/AfterExecuteSQLCommand.md) մեթոդում ստանալ reader-ի մեջ հարկավոր դիրքերը։
+reader-ից տողերը կարդալը առավել արագացնելու համար կարելի է [AfterExecuteSQLCommand](../definitions/ds/AfterExecuteSQLCommand.md) մեթոդում ստանալ reader-ի մեջ հարկավոր դիրքերը։
 
 ```c#
 private int ageOrdinal;
@@ -91,7 +91,7 @@ protected override bool ProcessRow(DataSourceArgs<Param> args, DataRow row, SqlD
 AfterDataReaderClose-ը կանչվում է SQL հարցման կատարման ավարտից հետո, երբ [SqlDataReader](https://learn.microsoft.com/en-us/dotnet/api/microsoft.data.sqlclient.sqldatareader)-ը արդեն փակ է: 
 Մեթոդում թույլատրվում է կատարել այլ sql հարցումներ և կանչել ասինխրոն ֆունկցիաներ։
 
-AfterDataReaderClose-ի աշխատանքի երկու տարբերակ կա կախված գերբեռնվող [AfterDataReaderCloseMode](ds/Properties/AfterDataReaderCloseMode.md) հատկության արժեքից՝
+AfterDataReaderClose-ի աշխատանքի երկու տարբերակ կա կախված գերբեռնվող [AfterDataReaderCloseMode](ds/AfterDataReaderCloseMode.md) հատկության արժեքից՝
 - Ամեն տողի համար առանձին կանչ,
 - Մեկ կանչ բոլոր տողերի մշակման համար։
 

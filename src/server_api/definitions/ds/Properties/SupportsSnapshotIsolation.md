@@ -4,7 +4,7 @@ title: DataSource.SupportsSnapshotIsolation հատկություն
 
 ## Նկարագիր
 
-**Դաս՝** [DataSource](../../ds.md)
+**Դաս՝** [DataSource](../ds.md)
 
 ```c#
 public virtual bool SupportsSnapshotIsolation
@@ -34,4 +34,4 @@ public Task<DataSourceResult<R>> Execute(DataSourceArgs<P> args, CancellationTok
 * stoppingToken - չեղարկման տոկենը,
 * extender - տվյալների աղբյուրի ընդլայնումը,
 
-Տե՛ս [օրինակը](../../ds.md)։ -->
+Տե՛ս [օրինակը](../../examples/ds.md#2-տիպիզացված-կատարում)։ -->

@@ -6,7 +6,7 @@ title: Document.Archived հատկություն
 
 **Համարժեքը 4x-ում՝** [AsDoc.Archived](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/ASDOC/Archived.html)
 
-**Դաս՝** [Document](../../document.md)
+**Դաս՝** [Document](../document.md)
 
 ```c#
 public bool Archived { get; internal set; }

@@ -6,7 +6,7 @@ title: Document.IsNew հատկություն
 
 **Համարժեքը 4x-ում՝** [AsDoc.IsNew](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/ASDOC/IsNew.html)
 
-**Դաս՝** [Document](../../document.md)
+**Դաս՝** [Document](../document.md)
 
 ```c#
 public bool IsNew { get; internal set; }

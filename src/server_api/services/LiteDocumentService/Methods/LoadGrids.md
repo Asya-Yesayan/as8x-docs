@@ -6,7 +6,7 @@ title: LiteDocumentService.LoadGrids մեթոդ
 
 ### Նկարագիր
 
-**Դաս՝** [LiteDocumentService](../../LiteDocumentService.md)
+**Դաս՝** [LiteDocumentService](../LiteDocumentService.md)
 
 ```c#
 public Task LoadGrids(LiteDocument document, 
@@ -27,7 +27,7 @@ public Task LoadGrids(LiteDocument document,
 
 ### Նկարագիր
 
-**Դաս՝** [LiteDocumentService](../../LiteDocumentService.md)
+**Դաս՝** [LiteDocumentService](../LiteDocumentService.md)
 
 ```c#
 public async Task LoadGrids(List<LiteDocument> documents, 

@@ -4,10 +4,10 @@ title: TreeEventHandler սերվիս
 
 ## Ներածություն 
 
-Այս դասը նախատեսված է ծառի հանգույցի հետ կատարվող հիմնական գործողություններից ([ավելացում](TreeElementsService/Methods/AddNode.md), [հեռացում](TreeElementsService/Methods/DeleteNode.md)...) առաջ/հետո աշխատող վիրտուալ մեթոդների նկարագրման համար։
+Այս դասը նախատեսված է ծառի հանգույցի հետ կատարվող հիմնական գործողություններից ([ավելացում](TreeElementsService/AddNode.md), [հեռացում](TreeElementsService/DeleteNode.md)...) առաջ/հետո աշխատող վիրտուալ մեթոդների նկարագրման համար։
 
 ## Մեթոդներ
 
 | Անվանում | Նկարագրություն |
 |----------|----------------|
-| [BeforeDeleteNode](TreeEventHandler/Methods/BeforeDeleteNode.md) | Մեթոդը կանչվում է ծառը հանգույցը հեռացնելիս՝ նախքան հանգույցը տվյալների պահոցից հեռացնելը։ |
+| [BeforeDeleteNode](TreeEventHandler/BeforeDeleteNode.md) | Մեթոդը կանչվում է ծառը հանգույցը հեռացնելիս՝ նախքան հանգույցը տվյալների պահոցից հեռացնելը։ |

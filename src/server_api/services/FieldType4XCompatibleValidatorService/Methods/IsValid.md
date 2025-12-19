@@ -6,7 +6,7 @@ title: FieldType4XCompatibleValidatorService.IsValid(FieldType) մեթոդ
 
 **Համարժեքը 4x-ում՝** AsUtil.CheckSysType
 
-**Դաս՝** [FieldType4XCompatibleValidatorService](../../FieldType4XCompatibleValidatorService.md)
+**Դաս՝** [FieldType4XCompatibleValidatorService](../FieldType4XCompatibleValidatorService.md)
 
 ```c#
 public virtual bool IsValid(FieldType fieldType)

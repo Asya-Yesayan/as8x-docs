@@ -6,7 +6,7 @@ title: IDocumentService.GetGrandChildren(int, string, string, string, string) մ
 
 **Համարժեքը 4x-ում՝** [AsDocEngine.DocGrandChildren](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/DocumentsCirculation/DocGrandChildren.html)
 
-**Դաս՝** [IDocumentService](../../IDocumentService.md)
+**Դաս՝** [IDocumentService](../IDocumentService.md)
 
 ```c#
 public Task<List<int>> GetGrandChildren(int isn, 

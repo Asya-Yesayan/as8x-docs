@@ -4,7 +4,7 @@ title: IExecutionProgress.HasError հատկություն
 
 ## Նկարագիր
 
-**Դաս՝** [IExecutionProgress](../../IExecutionProgress.md)
+**Դաս՝** [IExecutionProgress](../IExecutionProgress.md)
 
 ```c#
 public bool HasError { get; set; }

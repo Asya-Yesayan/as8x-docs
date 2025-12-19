@@ -11,6 +11,6 @@ IErrorHandlingService դասը նախատեսված է ծրագրի աշխատա
 
 | Անվանում | Նկարագրություն |
 |----------|----------------|
-| [GetSqlExceptionDetails(SqlException)](IErrorHandlingService/Methods/GetSqlExceptionDetails.md) | Վերադարձնում է `sqlException` պարամետրում պարունակվող SQL-ական ենթասխալների [մանրամասների](../types/ErrorDetail.md) ցուցակը։ |
-| [GetSqlExceptionText(SqlException, string)](IErrorHandlingService/Methods/GetSqlExceptionText.md) | Փորձում է ճանաչել SQL-ական սխալը և վերադարձնել վերջնական օգտագործողներին ավելի հասկանալի հաղորդագրություն։ |
-| [GetSqlRelatedException(SqlException, string, bool)](IErrorHandlingService/Methods/GetSqlRelatedException.md) | Ձևափոխում է SQL-ական սխալը փոխելով հաղորդագրությունը տեքստը ըստ [GetSqlExceptionText(SqlException, string)](IErrorHandlingService/Methods/GetSqlExceptionText.md)-ի։ |
+| [GetSqlExceptionDetails(SqlException)](IErrorHandlingService/GetSqlExceptionDetails.md) | Վերադարձնում է `sqlException` պարամետրում պարունակվող SQL-ական ենթասխալների [մանրամասների](../types/ErrorDetail.md) ցուցակը։ |
+| [GetSqlExceptionText(SqlException, string)](IErrorHandlingService/GetSqlExceptionText.md) | Փորձում է ճանաչել SQL-ական սխալը և վերադարձնել վերջնական օգտագործողներին ավելի հասկանալի հաղորդագրություն։ |
+| [GetSqlRelatedException(SqlException, string, bool)](IErrorHandlingService/GetSqlRelatedException.md) | Ձևափոխում է SQL-ական սխալը փոխելով հաղորդագրությունը տեքստը ըստ [GetSqlExceptionText(SqlException, string)](IErrorHandlingService/GetSqlExceptionText.md)-ի։ |

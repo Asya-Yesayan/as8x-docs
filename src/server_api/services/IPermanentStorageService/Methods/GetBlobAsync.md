@@ -4,7 +4,7 @@ title: IPermanentStorageService.GetBlobAsync(string, string, CancellationToken) 
 
 ## Նկարագիր
 
-**Դաս՝** [IPermanentStorageService](../../IPermanentStorageService.md)
+**Դաս՝** [IPermanentStorageService](../IPermanentStorageService.md)
 
 ```c#
 public virtual Task<Stream> GetBlobAsync(string container, 

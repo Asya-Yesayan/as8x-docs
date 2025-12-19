@@ -15,5 +15,5 @@ public Task<DocumentModelSimple> CreateAsync(string type,
 | Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
 |-----------------|----------------------|----------------|----------------|
 | type            | string               | -              | Փաստաթղթի ներքին անունը (տեսակը)։ |
-| createRequestModel | DocumentCreateRequestModel | -              | Ստեղծվող փաստաթղթի տվյալներ (ծնող փաստաթղթերի isn-ների ցուցակ, [ստեղծման աղբյուր](../../../../server_api/types/DocumentOrigin.md)...): |
+| createRequestModel | DocumentCreateRequestModel | -              | Ստեղծվող փաստաթղթի տվյալներ (ծնող փաստաթղթերի isn-ների ցուցակ, [ստեղծման աղբյուր](../../../server_api/types/DocumentOrigin.md)...): |
 | cancellationToken | CancellationToken    | default        | Ընդհատման օբյեկտ: |

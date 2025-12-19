@@ -4,7 +4,7 @@ title: "ChangeRequestEventArgs"
 tags: ChangeRequest
 ---
 
-Այս դասը օգտագործվում է փաստաթղթի [IDocumentChangeRequest](../IDocumentChangeRequest.md)-ի [ChangeRequest](../IDocumentChangeRequest/Methods/ChangeRequest.md) մեթոդում։
+Այս դասը օգտագործվում է փաստաթղթի [IDocumentChangeRequest](../IDocumentChangeRequest.md)-ի [ChangeRequest](../IDocumentChangeRequest/ChangeRequest.md) մեթոդում։
 
 ```c#
 public class ChangeRequestEventArgs
@@ -19,4 +19,4 @@ public class ChangeRequestEventArgs
 | Անվանում  | Տվյալների տիպ | Լռությամբ արժեք      | Նկարագրություն  |
 | --------- | ------------- | -------------------- | ----------------------- |
 | DCR       |  DocumentChangeRequest             |         -             | [Փաստաթղթի փոփոխման հայտը](../DocumentChangeRequest.md)։   |
-| DCRResult |  DCRResult             | DCRResult.NotCreated | Որոշում է [փաստաթղթի փոփոխման հայտի](../DocumentChangeRequest.md) վիճակը [ChangeRequest](../IDocumentChangeRequest/Methods/ChangeRequest.md) մեթոդի կանչից հետո՝<br>**DCRResult.NotCreated** - փոփոխման հայտը ստեղծվել է,<br>**DCRResult.CreatedAndConfirmed** - փոփոխման հայտը ստեղծվել և հաստատվել է,<br>**DCRResult.CreatedAndNotConfirmed** - փոփոխման հայտը ստեղծվել է և չի հաստատվել,<br>**DCRResult.CreatedAndConfirmedWithOnConfirm** - փոփոխման հայտը ստեղծվել և ուղարկվել է կրկնակի հաստատման [PreOnConfirmDocumentChangeRequest](../../../extensions/definitions/document_extender/Methods/PreOnConfirmDocumentChangeRequest.md), [OnConfirmDocumentChangeRequest](../../definitions/document/Methods/OnConfirmDocumentChangeRequest.md), [PostOnConfirmDocumentChangeRequest](../../../extensions/definitions/document_extender/Methods/PostOnConfirmDocumentChangeRequest.md) մեթոդների միջոցով։ |
+| DCRResult |  DCRResult             | DCRResult.NotCreated | Որոշում է [փաստաթղթի փոփոխման հայտի](../DocumentChangeRequest.md) վիճակը [ChangeRequest](../IDocumentChangeRequest/ChangeRequest.md) մեթոդի կանչից հետո՝<br>**DCRResult.NotCreated** - փոփոխման հայտը ստեղծվել է,<br>**DCRResult.CreatedAndConfirmed** - փոփոխման հայտը ստեղծվել և հաստատվել է,<br>**DCRResult.CreatedAndNotConfirmed** - փոփոխման հայտը ստեղծվել է և չի հաստատվել,<br>**DCRResult.CreatedAndConfirmedWithOnConfirm** - փոփոխման հայտը ստեղծվել և ուղարկվել է կրկնակի հաստատման [PreOnConfirmDocumentChangeRequest](../../../extensions/definitions/document_extender/PreOnConfirmDocumentChangeRequest.md), [OnConfirmDocumentChangeRequest](../../definitions/document/OnConfirmDocumentChangeRequest.md), [PostOnConfirmDocumentChangeRequest](../../../extensions/definitions/document_extender/PostOnConfirmDocumentChangeRequest.md) մեթոդների միջոցով։ |

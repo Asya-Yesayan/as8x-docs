@@ -4,7 +4,7 @@ title: DataSource.CommandBehaviorFlag հատկություն
 
 ## Նկարագիր
 
-**Դաս՝** [DataSource](../../ds.md)
+**Դաս՝** [DataSource](../ds.md)
 
 ```c#
 protected virtual CommandBehavior CommandBehaviorFlag
@@ -13,4 +13,4 @@ protected virtual CommandBehavior CommandBehaviorFlag
 }
 ```
 
-Այս հատկության միջոցով ձևավորվում է [MakeSqlCommand](../Methods/MakeSQLCommand.md)-ում ձևավորված հարցման [ExecuteReaderAsync](https://learn.microsoft.com/en-us/dotnet/api/microsoft.data.sqlclient.sqlcommand.executereaderasync#microsoft-data-sqlclient-sqlcommand-executereaderasync(system-data-commandbehavior-system-threading-cancellationtoken))-ի մեթոդով կատարման ժամանակ `behavior` պարամետրի արժեքը։
+Այս հատկության միջոցով ձևավորվում է [MakeSqlCommand](MakeSQLCommand.md)-ում ձևավորված հարցման [ExecuteReaderAsync](https://learn.microsoft.com/en-us/dotnet/api/microsoft.data.sqlclient.sqlcommand.executereaderasync#microsoft-data-sqlclient-sqlcommand-executereaderasync(system-data-commandbehavior-system-threading-cancellationtoken))-ի մեթոդով կատարման ժամանակ `behavior` պարամետրի արժեքը։

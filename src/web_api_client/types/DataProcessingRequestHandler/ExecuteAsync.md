@@ -23,8 +23,8 @@ public Task<(bool, R)> ExecuteAsync<T, R>(DPRType type, string name, T request, 
 |--------------------|--------------------------------------------------|----------------|----------------|
 | T                  | T                                     |      -          | DPR-ի կատարման համար անհրաժեշտ պարամետրերը նկարագրող դասը։ |
 | R                  | R                                     |     -           | DPR-ի կատարման արդյունքում ստացվող տվյալները նկարագրող դասը։ |
-| type               | DPRType                                          |      -          | DPR-ի [տեսակը](../../../server_api/definitions/dpr/Properties/DPRType.md)։ |
-| name               | string                                           |      -          | DPR-ի [ներքին անունը](../../../server_api/definitions/dpr/Properties/Name.md)։ |
+| type               | DPRType                                          |      -          | DPR-ի [տեսակը](../../../server_api/definitions/dpr/DPRType.md)։ |
+| name               | string                                           |      -          | DPR-ի [ներքին անունը](../../../server_api/definitions/dpr/Name.md)։ |
 | request            | T                                                |      -          | DPR-ի կատարման համար անհրաժեշտ պարամետրերը նկարագրող դասի օբյեկտ։ |
 | enableUIRequest    | bool                                             | true           | DPR-ի կատարման ընթացքում սերվիսից կլիենտ հաղորդագրություն ուղարկելու, հաղորդագրության պատասխանը ստանալու և այն սերվիսում մշակելու համար հնարավորության միացման հայտանիշ։ |
 | retryAttempts      | int                                              | 1              | DPR-ի կատարման պրոգրեսի պատուհանի թարմացման ժամանակ սերվիսից պրոգրեսի ստացման ձախողման դեպքում վերաստացման փորձերի քանակը։ |

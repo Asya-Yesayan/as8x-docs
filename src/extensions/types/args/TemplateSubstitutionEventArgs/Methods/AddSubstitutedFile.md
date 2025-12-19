@@ -4,7 +4,7 @@ title: TemplateSubstitutionEventArgs.AddSubstitutedFile(StorageInfo) մեթոդ
 
 ## Նկարագիր
 
-**Դաս՝** [TemplateSubstitutionEventArgs](../../TemplateSubstitutionEventArgs.md)
+**Դաս՝** [TemplateSubstitutionEventArgs](../TemplateSubstitutionEventArgs.md)
 
 ```c#
 public void AddSubstitutedFile(StorageInfo storageInfo)
@@ -12,7 +12,7 @@ public void AddSubstitutedFile(StorageInfo storageInfo)
 
 Մեթոդը տալիս է հնարավորություն փաստաթղթին կապակցված տպելու ձևանմուշը տպելիս տպել նաև այլ ձևանմուշներ։
 
-Տե՛ս օգտագործման [օրինակը](../../../../definitions/document_extender/Methods/PostTemplateSubstitution.md):
+Տե՛ս օգտագործման [օրինակը](../../../examples/PostTemplateSubstitution.md):
 
 **Պարամետրեր**
 

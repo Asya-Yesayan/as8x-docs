@@ -9,5 +9,5 @@ title: "TempFileCleanupMode enum"
 | Անվանում | Նկարագրություն |
 |----------|----------------|
 | Never | Ժամանակավոր ֆայլերը չեն հեռացվում ավտոմատ կերպով, հեռացվում են սեսսիայի փակման ժամանակ։ |
-| Auto | Ժամանակավոր ֆայլերը հեռացվում են [Dispose](https://learn.microsoft.com/en-us/dotnet/api/system.idisposable.dispose) մեթոդի կանչի ժամանակ, եթե չեն պահպանվել ֆայլային պահոցում (SaveToFileAndClose, [SaveToStorageAndClose](IExecutionProgress/Methods/SaveToStorageAndClose.md), ...)։ |
+| Auto | Ժամանակավոր ֆայլերը հեռացվում են [Dispose](https://learn.microsoft.com/en-us/dotnet/api/system.idisposable.dispose) մեթոդի կանչի ժամանակ, եթե չեն պահպանվել ֆայլային պահոցում (SaveToFileAndClose, [SaveToStorageAndClose](TextReport/SaveToStorageAndClose.md), ...)։ |
 | OnDispose | Ժամանակավոր ֆայլերը հեռացվում են [Dispose](https://learn.microsoft.com/en-us/dotnet/api/system.idisposable.dispose) մեթոդի կանչի ժամանակ։ |

@@ -6,7 +6,7 @@ title: IDocumentService.Copy(int, object, int) մեթոդ
 
 **Համարժեքը 4x-ում՝** [AsDocEngine.CopyDoc](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/DocumentsCirculation/CopyDoc.html)
 
-**Դաս՝** [IDocumentService](../../IDocumentService.md)
+**Դաս՝** [IDocumentService](../IDocumentService.md)
 
 ```c#
 public Task<Document> Copy(int isn, 
@@ -22,5 +22,5 @@ public Task<Document> Copy(int isn,
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 |----------|----------------|----------------|----------------|
 | isn | int | --- | Պատճենման ենթակա փաստաթղթի ներքին նույնականացման համար։ |
-| beforeCopyParam | object | null | Տվյալ պարամետրի արժեքը փոխանցվում է փաստաթղթի [BeforeCopy](../../../definitions/document/Methods/BeforeCopy.md) իրադարձության մշակիչին։ |
+| beforeCopyParam | object | null | Տվյալ պարամետրի արժեքը փոխանցվում է փաստաթղթի [BeforeCopy](../../definitions/document/BeforeCopy.md) իրադարձության մշակիչին։ |
 | copyDocMode | int | 0 | Փաստաթղթի պատճենման ռեժիմ։ `0` - Պատճենվում են բոլոր դաշտերի արժեքները։ `1` - Պատճենման ռեժիմը կախված է փաստաթղթի նկարագրության [CopyAsRepeatable](https://github.com/armsoft/as4x-docs/blob/master/HTM/ProgrGuide/Defs/doc.md) հատկության արժեքից։ `2` - Պատճենվում են միայն այն դաշտերը, որոնք պարունակում են `N` հայտանիշը։ |

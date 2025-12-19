@@ -4,7 +4,7 @@ title: IDBService.CurrentIsolationLevel հատկություն
 
 ## Նկարագիր
 
-**Դաս՝** [IDBService](../../IDBService.md)
+**Դաս՝** [IDBService](../IDBService.md)
 
 ```c#
 public IsolationLevel CurrentIsolationLevel { get; }

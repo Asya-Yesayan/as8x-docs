@@ -10,7 +10,7 @@ title: IProcessServerClient.GetResult(Guid) մեթոդ
 public Task<object> GetResult(Guid id)
 ```
 
-Վերադարձնում է նախապես հերթի դրված [փաստաթղթի](../../../definitions/document.md), [տվյալների աղբյուրի](../../../definitions/ds.md) կամ [DPR](../../../definitions/dpr.md)-ի կատարման արդյունքը։
+Վերադարձնում է նախապես հերթի դրված [փաստաթղթի](../../definitions/document.md), [տվյալների աղբյուրի](../../definitions/ds.md) կամ [DPR](../../definitions/dpr.md)-ի կատարման արդյունքը։
 
 Եթե կատարումը դեռ չի ավարտվել կամ նշված id-ով կատարման առաջադրանք գոյություն չունի, ապա առաջանում է սխալ։
 
@@ -18,4 +18,4 @@ public Task<object> GetResult(Guid id)
 
 | Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
 |-----------------|----------------------|----------------|----------------|
-| id              | Guid                 | -              | [Փաստաթղթի](../../../definitions/document.md), [տվյալների աղբյուրի](../../../definitions/ds.md) կամ [DPR](../../../definitions/dpr.md)-ի կատարման առաջադրանքի id-ն։ |
+| id              | Guid                 | -              | [Փաստաթղթի](../../definitions/document.md), [տվյալների աղբյուրի](../../definitions/ds.md) կամ [DPR](../../definitions/dpr.md)-ի կատարման առաջադրանքի id-ն։ |

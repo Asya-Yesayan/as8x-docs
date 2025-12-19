@@ -7,19 +7,19 @@ title: IFolderService.GetElements մեթոդ
 | Անվանում | Նկարագրություն |
 |--|--|
 [GetElements(string)](#ifolderservicegetelementsstring-մեթոդ)
-| [GetElements(string, List)](#ifoldersservicegetelementsstring-liststring-մեթոդ) | Վերադարձնում է թղթապանակի նշված բանալիներով [տարրերը](../../../types/FolderElement.md): |
+| [GetElements(string, List)](#ifoldersservicegetelementsstring-liststring-մեթոդ) | Վերադարձնում է թղթապանակի նշված բանալիներով [տարրերը](../../types/FolderElement.md): |
 
 ### IFolderService.GetElements(string) մեթոդ
 
 #### Նկարագիր
 
-**Դաս՝** [IFolderService](../../IFolderService.md)
+**Դաս՝** [IFolderService](../IFolderService.md)
 
 ```c#
 public virtual Task<List<FolderElement>> GetElements(string folderID);
 ```
 
-Վերադարձնում է թղթապանակի բոլոր [տարրերը](../../../types/FolderElement.md):
+Վերադարձնում է թղթապանակի բոլոր [տարրերը](../../types/FolderElement.md):
 
 **Պարամետրեր**
 
@@ -31,14 +31,14 @@ public virtual Task<List<FolderElement>> GetElements(string folderID);
 
 #### Նկարագիր
 
-**Դաս՝** [IFolderService](../../IFolderService.md)
+**Դաս՝** [IFolderService](../IFolderService.md)
 
 ```c#
 public virtual Task<List<FolderElement>> GetElements(string folderID, 
                                                      List<string> keys);
 ```
 
-Վերադարձնում է թղթապանակի նշված բանալիներով [տարրերը](../../../types/FolderElement.md):
+Վերադարձնում է թղթապանակի նշված բանալիներով [տարրերը](../../types/FolderElement.md):
 
 **Պարամետրեր**
 

@@ -6,4 +6,4 @@ title: RODocument.RefreshLastTSCheck() մեթոդ
 public void RefreshLastTSCheck();
 ```
 
-Թարմացնում է [LastTSCheck](../../LiteDocument/Properties/LastTSCheck.md) հատկության արժեքը՝ նշանակելով ընթացիկ ամսաթիվը/ժամանակը։
+Թարմացնում է [LastTSCheck](LastTSCheck.md) հատկության արժեքը՝ նշանակելով ընթացիկ ամսաթիվը/ժամանակը։

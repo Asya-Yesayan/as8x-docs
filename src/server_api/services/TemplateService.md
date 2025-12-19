@@ -179,20 +179,20 @@ public Task UpdateDataGroups(int rowId, string dataGroups)
 
 | Անվանում | Նկարագրություն |
 |----------|----------------|
-| [ExistsTemplate(string, string)](TemplateService/Methods/ExistsTemplate.md) | Ստուգում է տպելու ձևանմուշի նկարագրության առկայությունը տվյալների պահոցի `TEMPLATES` աղյուսակում։ |
+| [ExistsTemplate(string, string)](TemplateService/ExistsTemplate.md) | Ստուգում է տպելու ձևանմուշի նկարագրության առկայությունը տվյալների պահոցի `TEMPLATES` աղյուսակում։ |
 | [GetDataGroups](TemplateService/GetDataGroups.md) | Վերադարձնում է տպելու ձևանմուշի տվյալների խմբերի անունները որպես տեքստ, որտեղ խմբերը իրարից տարանջատված են ստորակետերով։ |
-| [GetDefinition(string, string)](DataSourceService/Methods/GetDefinition.md) | Վերադարձնում է տպելու ձևանմուշի նկարագրությունը տվյալների պահոցի `TEMPLATES` աղյուսակից՝ ըստ տպելու ձևանմուշի ներքին անվան և տիպի։ |
+| [GetDefinition(string, string)](TemplateService/GetDefinition.md) | Վերադարձնում է տպելու ձևանմուշի նկարագրությունը տվյալների պահոցի `TEMPLATES` աղյուսակից՝ ըստ տպելու ձևանմուշի ներքին անվան և տիպի։ |
 | [GetMappingCount](TemplateService/GetMappingCount.md) | Վերադարձնում է տպելու ձևանմուշին կապակցված փաստաթղթերի քանակը։ |
 | [GetPrintDataGroups](TemplateService/GetPrintDataGroups.md) | Վերադարձնում է նշված տեսակի փաստաթղթին կապակցված տպելու ձևանմուշների տվյալների խմբերի նկարագրությունների ցուցակը։ |
 | [GetRowId](TemplateService/GetRowId.md) | Վերադարձնում է տպելու ձևանմուշի ներքին նույնականացման համարը (rowId) տվյալների պահոցի `TEMPLATES` աղյուսակից՝ ըստ տպելու ձևանմուշի ներքին անվան և տիպի։ |
-| [GetTemplateNameAndType(string, bool)](TemplateService/Methods/GetTemplateNameAndType.md) | Բաժանում է `templateNameWithType` պարամետրում միավորված տպելու ձևանմուշի ներքին անունը (կոդը) և տիպը: |
+| [GetTemplateNameAndType(string, bool)](TemplateService/GetTemplateNameAndType.md) | Բաժանում է `templateNameWithType` պարամետրում միավորված տպելու ձևանմուշի ներքին անունը (կոդը) և տիպը: |
 | [UpdateDataGroups](TemplateService/UpdateDataGroups.md) | Թարմացնում է տպելու ձևանմուշի տվյալների խմբերը։ |
 
 ## Հատկություններ
 
 | Անվանում | Նկարագրություն |
 |----------|----------------|
-| [Store](../definitions/document/Methods/Store.md) | Գրանցում է տպելու ձևանմուշի նկարագրությունը տվյալների պահոցի `TEMPLATES` աղյուսակում։ |
+| [Store](TemplateService/Store.md) | Գրանցում է տպելու ձևանմուշի նկարագրությունը տվյալների պահոցի `TEMPLATES` աղյուսակում։ |
 
  -->
 
@@ -200,6 +200,6 @@ public Task UpdateDataGroups(int rowId, string dataGroups)
 
 | Անվանում | Նկարագրություն |
 |----------|----------------|
-| [ExistsTemplate(string, string)](TemplateService/Methods/ExistsTemplate.md) | Ստուգում է տպելու ձևանմուշի նկարագրության առկայությունը տվյալների պահոցի `TEMPLATES` աղյուսակում։ |
-| [GetDefinition(string, string)](DataSourceService/Methods/GetDefinition.md) | Վերադարձնում է տպելու ձևանմուշի նկարագրությունը տվյալների պահոցի `TEMPLATES` աղյուսակից՝ ըստ տպելու ձևանմուշի ներքին անվան և տիպի։ |
-| [GetTemplateNameAndType(string, bool)](TemplateService/Methods/GetTemplateNameAndType.md) | Բաժանում է `templateNameWithType` պարամետրում միավորված տպելու ձևանմուշի ներքին անունը (կոդը) և տիպը: |
+| [ExistsTemplate(string, string)](TemplateService/ExistsTemplate.md) | Ստուգում է տպելու ձևանմուշի նկարագրության առկայությունը տվյալների պահոցի `TEMPLATES` աղյուսակում։ |
+| [GetDefinition(string, string)](TemplateService/GetDefinition.md) | Վերադարձնում է տպելու ձևանմուշի նկարագրությունը տվյալների պահոցի `TEMPLATES` աղյուսակից՝ ըստ տպելու ձևանմուշի ներքին անվան և տիպի։ |
+| [GetTemplateNameAndType(string, bool)](TemplateService/GetTemplateNameAndType.md) | Բաժանում է `templateNameWithType` պարամետրում միավորված տպելու ձևանմուշի ներքին անունը (կոդը) և տիպը: |

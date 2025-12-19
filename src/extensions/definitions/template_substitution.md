@@ -17,4 +17,4 @@ title: ITemplateSubstitutionExtender նկարագրություն
 
 | Անվանում | Նկարագրություն |
 |----------|----------------|
-| [Calculate(TemplateSubstitutionExtenderArgs)](template_substitution/Methods/Calculate.md) | Իրականացնում է տպելու ձևանմուշի ընդլայնման պարամետրերի հաշվարկը։ |
+| [Calculate(TemplateSubstitutionExtenderArgs)](template_substitution/Calculate.md) | Իրականացնում է տպելու ձևանմուշի ընդլայնման պարամետրերի հաշվարկը։ |

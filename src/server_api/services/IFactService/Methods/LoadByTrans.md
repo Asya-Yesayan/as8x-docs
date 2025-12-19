@@ -6,7 +6,7 @@ title: IFactService.LoadByTrans(int, int, string, string) մեթոդ
 
 **Համարժեքը 4x-ում՝** [AsKernel.LoadFactByTrans](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/AccManagement/LoadFactByTrans.html)
 
-**Դաս՝** [IFactService](../../IFactService.md)
+**Դաս՝** [IFactService](../IFactService.md)
 
 ```c#
 public Task<List<Fact>> LoadByTrans(int baseIsn, 

@@ -21,13 +21,13 @@ public void AddColumn(string name, string source, string armenianCaption, string
 | source | string | - | Sql-based տվյալների աղբյուրի դեպքում նշվում է SQL-ից կարդացվող սյան անունը, իսկ Array-based-ի դեպքում՝ սյան համարը։ |
 | armenianCaption | string | - | Սյան հայերեն անվանումը `ANSI` կոդավորմամբ։ |
 | englishCaption | string | - | Սյան անգլերեն անվանումը։ |
-| columnType | FieldType | - | Սյան [համակարգային տիպը](../../system_types.md)։ |
+| columnType | FieldType | - | Սյան [համակարգային տիպը](../system_types.md)։ |
 | isPermanent | bool | false | Սյունը հավերժական է թե ոչ: Ընթացիկ դիտելու ձևից ծրագրային կարելի է կարդալ միայն հավերժական սյունակները։ |
 | start | short | 0 | Սահմանում է մեկնարկային դիրքը, որից սկսած ցույց է տալիս արժեք որևէ ձևաչափված դաշտից։ Նախատեսված է fSPEC-ից կամ այլ տողային դաշտերից տվյալը ճիշտ տիպով կարդալու և ցույց տալու համար։ Կարդացվող արժեքի երկարությունը որոշվում է columnType-ից կախված։ |
 | autoProcess | bool | true | Այս հատկության false արժեքի դեպքում սյունը համարվում է հաշվարկային։ Սյան արժեքների հաշվարկը կարելի է իրականացնել գերբեռնելով `ProcessRow` կամ `AfterDataReaderClose` մեթոդը։ Այս հատկությունը ունեցող սյան համար որպես source կարելի է նշել կամայական տեքստ։ |
 | armenianDescription | string | null | Սյան հայերեն նկարագրությունը `ANSI` կոդավորմամբ։ |
 | englishDescription | string | null | Սյան անգլերեն նկարագրությունը `ANSI` կոդավորմամբ։ |
-| showType | FieldType | null | Սահմանում է [համակարգային տիպը](../../system_types.md) ցուցադրման ժամանակ։ Եթե այս պարամետրը բացակայում է, ապա օգտագործվում է columnType հատկության արժեքը։ Սովորաբար այս հատկությունը օգտագործում են, եթե տվյալների տիպը, որը համապատասխանում է սյունակի արժեքներին, հարմար չի ցուցադրման համար։ Օրինակ եթե columnType = FieldTypeProvider.GetStringFieldType(150) է, բայց շատ դեպքերում բավական է տեսնել տողի սկիզբը, ապա կարելի է սահմանել showType = FieldTypeProvider.GetStringFieldType(32): |
+| showType | FieldType | null | Սահմանում է [համակարգային տիպը](../system_types.md) ցուցադրման ժամանակ։ Եթե այս պարամետրը բացակայում է, ապա օգտագործվում է columnType հատկության արժեքը։ Սովորաբար այս հատկությունը օգտագործում են, եթե տվյալների տիպը, որը համապատասխանում է սյունակի արժեքներին, հարմար չի ցուցադրման համար։ Օրինակ եթե columnType = FieldTypeProvider.GetStringFieldType(150) է, բայց շատ դեպքերում բավական է տեսնել տողի սկիզբը, ապա կարելի է սահմանել showType = FieldTypeProvider.GetStringFieldType(32): |
 | width | short | 0 | Սյան լայնությունը: Արժեք չփոխանցելու դեպքում որոշվում է կախված սյան armenianCaption, englishCaption, columnType, showType հատկություններից։ |
 | headlines | short | 2 | Սյան անվանման մեջ տողերի քանակ։ |
 | isTrimEnd | bool | false | Սյան արժեքների աջակողմյան բացատները հեռացվում են թե ոչ։ |

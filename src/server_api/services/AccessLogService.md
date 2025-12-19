@@ -10,4 +10,4 @@ AccessLogService դասը նախատեսված է դերերի և իրավասո
 
 | Անվանում | Նկարագրություն |
 |----------|----------------|
-| [LogRoleChanges](AccessLogService/Methods/LogRoleChanges.md)| Գրանցում է օգտագործողի դերերի փոփոխությունների մասին ինֆորմացիան տվյալների պահոցի [ACCESSLOG](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Database/AccessLog.html), `ACCESSARM` աղյուսակներում: |
+| [LogRoleChanges](AccessLogService/LogRoleChanges.md)| Գրանցում է օգտագործողի դերերի փոփոխությունների մասին ինֆորմացիան տվյալների պահոցի [ACCESSLOG](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Database/AccessLog.html), `ACCESSARM` աղյուսակներում: |

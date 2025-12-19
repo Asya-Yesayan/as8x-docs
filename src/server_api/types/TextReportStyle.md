@@ -6,7 +6,7 @@ tags: [AsRepViewer, textReport]
 
 Այս enum-ը նախատեսված է տեքստային հաշվետվությունում (TextReport) ավելացող տողի ոճավորման համար։
 
-Պարունակում է HTML թեգերի բազմություն, որոնք կարելի է ավելացնել տեքստին [TextReport](TextReport.md).[ApplyStyle](TextReport/Methods/ApplyStyle.md) մեթոդի միջոցով։
+Պարունակում է HTML թեգերի բազմություն, որոնք կարելի է ավելացնել տեքստին [TextReport](TextReport.md).[ApplyStyle](TextReport/ApplyStyle.md) մեթոդի միջոցով։
 
 ```c#
 public enum TextReportStyle

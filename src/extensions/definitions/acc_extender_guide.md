@@ -20,7 +20,7 @@ tags: [AccountingExtender, AccExtender]
 
 8X համակարգում հաշվառման ընդլայնում նկարագրելու համար հարկավոր է ունենալ՝
 
-* .as ընդլայնմամբ ֆայլ սկրիպտերում [ACCEXTENDER](acc_extender.md) նկարագրությամբ, որը պարունակում է մետատվյալներ ընդլայնման մասին,
+* .as ընդլայնմամբ ֆայլ սկրիպտերում [ACCEXTENDER](acc_extender.md#accextender-նկարագրություն) նկարագրությամբ, որը պարունակում է մետատվյալներ ընդլայնման մասին,
 * .cs ընդլայնմամբ ֆայլ, որը պարունակում է սերվերում աշխատող տրամաբանությունը։
 
 ## .as ֆայլի ստեղծում
@@ -41,7 +41,7 @@ ACCEXTENDER {
 
 **Նկատառումներ**
 
-Եթե ընդլայնումը [դինամիկ](../../architecture/extension.md) է, ապա անհրաժեշտ է նաև `ACCEXTENDER` նկարագրությունում ավելացնել նաև `CSSOURCE` դաշտը, որը պարունակում է սերվիսային տրամաբանության C# ֆայլի [հարաբերական ճանապարհը](https://phoenixnap.com/kb/absolute-path-vs-relative-path) .as ֆայլի նկատմամբ։
+Եթե ընդլայնումը [դինամիկ](../../Architecture/extension.md#ընդլայնումների-ավելացում-syscon-գործիքով-ներմուծման-միջոցով) է, ապա անհրաժեշտ է նաև `ACCEXTENDER` նկարագրությունում ավելացնել նաև `CSSOURCE` դաշտը, որը պարունակում է սերվիսային տրամաբանության C# ֆայլի [հարաբերական ճանապարհը](https://phoenixnap.com/kb/absolute-path-vs-relative-path) .as ֆայլի նկատմամբ։
 
 Տե՛ս նաև [Նկարագրության CSSOURCE դաշտում հարաբերական ճանապարհի լրացման օրինակներ](../../server_api/examples/relative_path_examples.md):
 
@@ -56,7 +56,7 @@ ACCEXTENDER {
 
 ## .cs ֆայլի ստեղծում
 
-- Ստեղծել դաս, որը ունի `AccountingExtender` ատրիբուտը և  ժառանգում է [AccountingExtender](acc_extender.md) դասը:
+- Ստեղծել դաս, որը ունի `AccountingExtender` ատրիբուտը և  ժառանգում է [AccountingExtender](acc_extender.md#accountingextender-դաս) դասը:
 
 ```c#
 [AccountingExtender]
@@ -76,7 +76,7 @@ public SyntAccountingExtender(EnterpriseParametersService parametersService, IDB
 }
 ```
 
-- [OnDelete](../../server_api/definitions/accounting/Methods/OnDelete.md) մեթոդով [հաշվառումը](../../server_api/definitions/accounting.md) հեռացնելուց առաջ լրացուցիչ տրամաբանություն ավելացնելու համար անհրաժեշտ է override անել [PreOnDelete](acc_extender/Methods/PreOnDelete.md) մեթոդը։
+- [OnDelete](../../server_api/definitions/accounting/OnDelete.md) մեթոդով [հաշվառումը](../../server_api/definitions/accounting.md) հեռացնելուց առաջ լրացուցիչ տրամաբանություն ավելացնելու համար անհրաժեշտ է override անել [PreOnDelete](acc_extender/PreOnDelete.md) մեթոդը։
 
 Մեթոդը կանչվում է միջուկի կողմից։
 
@@ -92,7 +92,7 @@ public override async Task PreOnDelete(Core.Accounting.Accounting sender, OnDele
 }
 ```
 
-- [OnDelete](../../server_api/definitions/accounting/Methods/OnDelete.md) մեթոդով [հաշվառումը](../../server_api/definitions/accounting.md) հեռացնելուց հետո լրացուցիչ տրամաբանություն ավելացնելու համար անհրաժեշտ է override անել [PostOnDelete](acc_extender/Methods/PostOnDelete.md) մեթոդը։
+- [OnDelete](../../server_api/definitions/accounting/OnDelete.md) մեթոդով [հաշվառումը](../../server_api/definitions/accounting.md) հեռացնելուց հետո լրացուցիչ տրամաբանություն ավելացնելու համար անհրաժեշտ է override անել [PostOnDelete](acc_extender/PostOnDelete.md) մեթոդը։
 
 Մեթոդը կանչվում է միջուկի կողմից։
 

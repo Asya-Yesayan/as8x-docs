@@ -6,4 +6,4 @@ title: DPR.Schema.Parameters հատկություն
 public List<ParametersDescription> Parameters { get; set; } = null;
 ```
 
-Վերադարձնում կամ արժեքավորում է տվյալների մշակման հարցման (**DPR**) սխեմայում ավելացված [պարամետրերի](../../ParametersDescription.md) նկարագրությունների ցուցակը։
+Վերադարձնում կամ արժեքավորում է տվյալների մշակման հարցման (**DPR**) սխեմայում ավելացված [պարամետրերի](../ParametersDescription.md) նկարագրությունների ցուցակը։

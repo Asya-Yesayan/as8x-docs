@@ -6,7 +6,7 @@ title: IFolderService.GetElement մեթոդ
 
 **Համարժեքը 4x-ում՝** [AsUtil.FolderElByISN](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/DocumentsCirculation/FolderElByISN.html)
 
-**Դաս՝** [IFolderService](../../IFolderService.md)
+**Դաս՝** [IFolderService](../IFolderService.md)
 
 ## Գերբեռնումներ
 
@@ -22,7 +22,7 @@ public virtual Task<FolderElement> GetElement(string folderId,
                                               int isn);
 ```
 
-Վերադարձնում է [թղթապանակի տարրը](../../../types/FolderElement.md)՝ ըստ թղթապանակի ներքին անվան և փաստաթղթի ներքին նույնականացման համարի։
+Վերադարձնում է [թղթապանակի տարրը](../../types/FolderElement.md)՝ ըստ թղթապանակի ներքին անվան և փաստաթղթի ներքին նույնականացման համարի։
 
 Տարրի առկա չլինելու դեպքում վերադարձնում է **null**։
 
@@ -41,7 +41,7 @@ public virtual Task<FolderElement> GetElement(string folderId,
                                               bool noLock = false);
 ```
 
-Վերադարձնում է [թղթապանակի տարրը](../../../types/FolderElement.md)՝ ըստ թղթապանակի ներքին անվան և բանալու։
+Վերադարձնում է [թղթապանակի տարրը](../../types/FolderElement.md)՝ ըստ թղթապանակի ներքին անվան և բանալու։
 
 Տարրի առկա չլինելու դեպքում վերադարձնում է **null**։
 

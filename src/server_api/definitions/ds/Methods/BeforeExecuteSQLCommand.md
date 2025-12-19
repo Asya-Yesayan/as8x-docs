@@ -6,7 +6,7 @@ title: DataSource.BeforeExecuteSQLCommand(DataSourceArgs<P>, CancellationToken) 
 
 **Համարժեքը 4x-ում՝** [OnOpen](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/ScriptProcs/OnOpen.html)
 
-**Դաս՝** [DataSource](../../ds.md)
+**Դաս՝** [DataSource](../ds.md)
 
 ```c#
 protected virtual Task BeforeExecuteSQLCommand(DataSourceArgs<P> args, 

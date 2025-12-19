@@ -16,13 +16,13 @@ title: Extender նկարագրություն
 
 | Անվանում | Նկարագրություն |
 |----------|----------------|
-| [AddColumn(string, string, string, FieldType, string, string, FieldType, short, short, SupportedEncoding)](ds_extender/Methods/AddColumn.md) | Ընդլայնման միջոցով ավելացող նոր սյան հատկությունները սահմանելու համար անհրաժեշտ է կոնստրուկտորում կանչել այս մեթոդը։ |
-| [AddParam(string, string, FieldType)](ds_extender/Methods/AddParam.md) | Ընդլայնման միջոցով ավելացող նոր պարամետրի հատկությունները սահմանելու համար անհրաժեշտ է կոնստրուկտորում կանչել այս մեթոդը։ |
-| [BeforeProcess(IList&lt;IExtendableRow&gt;, IDataSourceArgs)](ds_extender/Methods/BeforeProcess.md) | Մեթոդը կանչվում է միջուկի կողմից տվյալների աղբյուրի հիմնական հաշվարկի ավարտից հետո։ |
-| [ProccessRow(IExtendableRow, IDataSourceArgs)](ds_extender/Methods/ProccessRow.md) | Մեթոդը կանչվում է միջուկի կողմից տվյալների աղբյուրի յուրաքանչյուր տողի համար։ |
+| [AddColumn(string, string, string, FieldType, string, string, FieldType, short, short, SupportedEncoding)](ds_extender/AddColumn.md) | Ընդլայնման միջոցով ավելացող նոր սյան հատկությունները սահմանելու համար անհրաժեշտ է կոնստրուկտորում կանչել այս մեթոդը։ |
+| [AddParam(string, string, FieldType)](ds_extender/AddParam.md) | Ընդլայնման միջոցով ավելացող նոր պարամետրի հատկությունները սահմանելու համար անհրաժեշտ է կոնստրուկտորում կանչել այս մեթոդը։ |
+| [BeforeProcess(IList&lt;IExtendableRow&gt;, IDataSourceArgs)](ds_extender/BeforeProcess.md) | Մեթոդը կանչվում է միջուկի կողմից տվյալների աղբյուրի հիմնական հաշվարկի ավարտից հետո։ |
+| [ProccessRow(IExtendableRow, IDataSourceArgs)](ds_extender/ProccessRow.md) | Մեթոդը կանչվում է միջուկի կողմից տվյալների աղբյուրի յուրաքանչյուր տողի համար։ |
 
 ## Հատկություններ
 
 | Անվանում | Նկարագրություն |
 |----------|----------------|
-| [AlwaysCallBeforeProcess](ds_extender/Properties/AlwaysCallBeforeProcess.md) | [BeforeProcess(IList&lt;IExtendableRow&gt;, IDataSourceArgs)](ds_extender/Methods/BeforeProcess.md) մեթոդը կանչվում է միայն տողեր պարունակող տվյալների աղբյուրի համար։ Դատարկ տվյալների աղբյուրի համար մեթոդի կանչը ապահովելու համար անհրաժեշտ է override անել այս հատկությունը և վերադարձնել true արժեք։ |
+| [AlwaysCallBeforeProcess](ds_extender/AlwaysCallBeforeProcess.md) | [BeforeProcess(IList&lt;IExtendableRow&gt;, IDataSourceArgs)](ds_extender/BeforeProcess.md) մեթոդը կանչվում է միայն տողեր պարունակող տվյալների աղբյուրի համար։ Դատարկ տվյալների աղբյուրի համար մեթոդի կանչը ապահովելու համար անհրաժեշտ է override անել այս հատկությունը և վերադարձնել true արժեք։ |

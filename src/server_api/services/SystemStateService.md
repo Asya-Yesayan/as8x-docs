@@ -6,4 +6,4 @@ title: "SystemStateService սերվիս"
 
 | Անվանում | Նկարագրություն |
 |----------|----------------|
-| [ForceToRelogin(bool)](SystemStateService/Methods/ForceToRelogin.md) | Ընթացիկ օգտագործողի տվյալների պահոցով մուտք գործած օգտագործողներին պարտադրում է կրկին մուտք գործել համակարգ։ |
+| [ForceToRelogin(bool)](SystemStateService/ForceToRelogin.md) | Ընթացիկ օգտագործողի տվյալների պահոցով մուտք գործած օգտագործողներին պարտադրում է կրկին մուտք գործել համակարգ։ |

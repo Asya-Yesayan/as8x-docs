@@ -4,7 +4,7 @@ title: TemplateService.GetDefinition(string, string) մեթոդ
 
 ## Նկարագիր
 
-**Դաս՝** [TemplateService](../../TemplateService.md)
+**Դաս՝** [TemplateService](../TemplateService.md)
 
 ```c#
 public Task<TemplateDefinition> GetDefinition(string name, 
@@ -13,11 +13,11 @@ public Task<TemplateDefinition> GetDefinition(string name,
 
 Վերադարձնում է տպելու ձևանմուշի նկարագրությունը տվյալների պահոցի `TEMPLATES` աղյուսակից՝ ըստ տպելու ձևանմուշի ներքին անվան և տիպի։
 
-Ֆայլի արժքների տեղադրման համար տե՛ս [LoadTemplateFile](../../ITemplateSubstitutionService/Methods/LoadTemplateFile.md)։
+Ֆայլի արժքների տեղադրման համար տե՛ս [LoadTemplateFile](../ITemplateSubstitutionService/LoadTemplateFile.md)։
 
 **Պարամետրեր**
 
 | Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
 |-----------------|----------------------|----------------|----------------|
 | name            | string               | -              | Տպելու ձևանմուշի ներքին անուն: |
-| type            | string               | -              | [Տպելու ձևանմուշի տիպ](../../../types/SubstitutionType.md): |
+| type            | string               | -              | [Տպելու ձևանմուշի տիպ](../../types/SubstitutionType.md): |

@@ -4,14 +4,14 @@ title: IExecutionProgress.Add(int, string) մեթոդ
 
 ## Նկարագիր
 
-**Դաս՝** [IExecutionProgress](../../IExecutionProgress.md)
+**Դաս՝** [IExecutionProgress](../IExecutionProgress.md)
 
 ```c#
 public void Add(int id, 
                 string name);
 ```
 
-Ավելացնում է նոր [փուլ](../../ProgressPhase.md) կատարման պրոգրեսում։
+Ավելացնում է նոր [փուլ](../ProgressPhase.md) կատարման պրոգրեսում։
 
 **Պարամետրեր**
 

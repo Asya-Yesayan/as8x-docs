@@ -25,9 +25,9 @@ End Sub
 
 **Կարևոր**
 
-4x-ի **Properties**-ում ավելացված բարդ օբյեկտները դեսերիալիզացնելու համար 8x-ում անհրաժեշտ է մշակել [DeserializeComplexObjects](../definitions/document/Methods/DeserializeComplexObjects.md) մեթոդը։
+4x-ի **Properties**-ում ավելացված բարդ օբյեկտները դեսերիալիզացնելու համար 8x-ում անհրաժեշտ է մշակել [DeserializeComplexObjects](../definitions/document/DeserializeComplexObjects.md) մեթոդը։
 
-* [DeserializeComplexObjects](../definitions/document/Methods/DeserializeComplexObjects.md) մեթոդի **EventArgsDocSerializeObjects** պարամետրի **ComplexObjectsJson** հատկությունում ստուգում է "DOCISNS" անունով տարրի առկայությունը և առկայության դեպքում այն ավելացվում է փաստաթղթի [Properties](../definitions/document/Properties/Properties.md)-ում՝ այլ մեթոդներում կիրառելու նպատակով:
+* [DeserializeComplexObjects](../definitions/document/DeserializeComplexObjects.md) մեթոդի **EventArgsDocSerializeObjects** պարամետրի **ComplexObjectsJson** հատկությունում ստուգում է "DOCISNS" անունով տարրի առկայությունը և առկայության դեպքում այն ավելացվում է փաստաթղթի [Properties](../definitions/document/Properties.md)-ում՝ այլ մեթոդներում կիրառելու նպատակով:
 
 ```c#
 public override Task DeserializeComplexObjects(DeserializeComplexObjectsEventArgs args)
@@ -39,7 +39,7 @@ public override Task DeserializeComplexObjects(DeserializeComplexObjectsEventArg
 }
 ```
 
-Փաստաթղթի [Properties](../definitions/document/Properties/Properties.md)-ում ստուգվում է "DocISNs" անունով տարրի առկայությունը և առկայության դեպքում խմբային հեռացնում է նշված հատկությունում նշված բոլոր փաստաթղթերը։
+Փաստաթղթի [Properties](../definitions/document/Properties.md)-ում ստուգվում է "DocISNs" անունով տարրի առկայությունը և առկայության դեպքում խմբային հեռացնում է նշված հատկությունում նշված բոլոր փաստաթղթերը։
 
 ```c#
 private async Task DeleteDocuments()

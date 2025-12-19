@@ -4,7 +4,7 @@ title: IStorageService.UploadTempBlobAsync(string, string, Stream, BlobPropertie
 
 ## Նկարագիր
 
-**Դաս՝** [IStorageService](../../IStorageService.md)
+**Դաս՝** [IStorageService](../IStorageService.md)
 
 ```c#
 public Task<bool> UploadTempBlobAsync(string fileExtension, 
@@ -14,7 +14,7 @@ public Task<bool> UploadTempBlobAsync(string fileExtension,
                                       CancellationToken cancellationToken = default)
 ```
 
-Պահպանում է `stream` պարամետրի պարունակությունը [ընթացիկ սեսիայի կոնտեյների](../../IPermanentStorageService/Properties/Container.md) նշված ընդլայնմամբ ֆայլում, որի անունը ձևավորվում է ավտոմատ։ 
+Պահպանում է `stream` պարամետրի պարունակությունը [ընթացիկ սեսիայի կոնտեյների](Container.md) նշված ընդլայնմամբ ֆայլում, որի անունը ձևավորվում է ավտոմատ։ 
 
 **Պարամետրեր**
 

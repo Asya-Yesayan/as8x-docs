@@ -14,6 +14,6 @@ title: "Պրոյեկտների կառուցվածք"
 
 Test
 
-[SubstituteAndGetContentFromDocument](controllers/TemplateSubstitution/Methods/SubstituteAndGetContentFromDocument.md)
+[SubstituteAndGetContentFromDocument](controllers/TemplateSubstitution/SubstituteAndGetContentFromDocument.md)
 
-[SubstituteAndGetContentFromDocument1](controllers/TemplateSubstitution/Methods/SubstituteAndGetContentFromDocument1.md)
+[SubstituteAndGetContentFromDocument1](controllers/TemplateSubstitution/SubstituteAndGetContentFromDocument1.md)

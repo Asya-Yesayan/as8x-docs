@@ -196,7 +196,7 @@ public UserAccounts(IParametersService parameterService, IServiceProvider servic
 
 ### Validate
 
-Դաշտերի արժեքների ստուգման անհրաժեշտության դեպքում override անել [Validate](document/Methods/Validate.md) մեթոդը:
+Դաշտերի արժեքների ստուգման անհրաժեշտության դեպքում override անել [Validate](document/Validate.md) մեթոդը:
 
 ```c#
 public override Task Validate(ValidateEventArgs args)
@@ -211,7 +211,7 @@ public override Task Validate(ValidateEventArgs args)
 
 ### Action
 
-Փաստաթղթի գրանցման ժամանակ հավելյալ ստուգումներ կատարելու, լոգում, տվյալների բազայի աղյուսակներում փոխկապակցված գրանցումներ կատարելու, ինչ-որ պայմաններից կախված փաստաթղթի էլեմենտների(ռեկվիզիտ, մեմո, աղյուսակ) և հատկությունների արժեքները փոփոխելու համար անհրաժեշտ է override անել [Action](document/Methods/Action.md) մեթոդը:
+Փաստաթղթի գրանցման ժամանակ հավելյալ ստուգումներ կատարելու, լոգում, տվյալների բազայի աղյուսակներում փոխկապակցված գրանցումներ կատարելու, ինչ-որ պայմաններից կախված փաստաթղթի էլեմենտների(ռեկվիզիտ, մեմո, աղյուսակ) և հատկությունների արժեքները փոփոխելու համար անհրաժեշտ է override անել [Action](document/Action.md) մեթոդը:
 
 ```c#
 public override async Task Action(ActionEventArgs args)
@@ -225,7 +225,7 @@ public override async Task Action(ActionEventArgs args)
 
 ### Folders
 
-Փաստաթուղթը FOLDERS աղյուսակում գրանցելու համար անհրաժեշտ է override անել [Folders](document/Methods/Folders.md) մեթոդը՝ ստեղծելով և գրանցելով `FolderElement`, որը հանդիսանում է 4x համակարգում նկարագրված [AsFoldElement](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/AsFoldElement.html) դասի համարժեքը։
+Փաստաթուղթը FOLDERS աղյուսակում գրանցելու համար անհրաժեշտ է override անել [Folders](document/Folders.md) մեթոդը՝ ստեղծելով և գրանցելով `FolderElement`, որը հանդիսանում է 4x համակարգում նկարագրված [AsFoldElement](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/AsFoldElement.html) դասի համարժեքը։
 
 ```c#
 public override Task Folders(FoldersEventArgs args)
@@ -246,7 +246,7 @@ public override Task Folders(FoldersEventArgs args)
 
 ### Delete
 
-Եթե կա անհրաժեշտություն փաստաթղթի հեռացումից առաջ ստուգումներ կատարելու և կապակցված տվյալներ հեռացնելու, ապա անհրաժեշտ է override անել [Delete](../../controllers/Document/Methods/Delete.md) մեթոդը:
+Եթե կա անհրաժեշտություն փաստաթղթի հեռացումից առաջ ստուգումներ կատարելու և կապակցված տվյալներ հեռացնելու, ապա անհրաժեշտ է override անել [Delete](document/Delete.md) մեթոդը:
 
 ```c#
 public override async Task Delete(DeleteEventArgs args)

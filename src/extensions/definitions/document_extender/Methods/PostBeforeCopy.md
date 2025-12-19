@@ -6,7 +6,7 @@ title: DocumentExtender.PostBeforeCopy(Document, BeforeCopyEventArgs) մեթոդ
 
 **Համարժեքը 4x-ում՝** ScriptExtension.DocPostBeforeCopy
 
-**Դաս՝** [DocumentExtender](../../document_extender.md)
+**Դաս՝** [DocumentExtender](../document_extender.md)
 
 ```c#
 public virtual Task PostBeforeCopy(Document sender, 

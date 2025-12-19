@@ -8,7 +8,7 @@ public static string ApplyStyle(string source, TextReportStyle style)
 
 Ֆորմատավորում է նշված տեքստը՝ ավելացնելով հատուկ թեգեր, որի միջոցով տեքստը հնարավոր է դարձնել թավ, շեղատառ, վրագծված կամ ընդգծված։
 
-Այս մեթոդը կիրառելուց առաջ անհրաժեշտ է հաշվետվության [UseFormatting](../Properties/UseFormatting.md) հատկության արժեքը դնել `true`:
+Այս մեթոդը կիրառելուց առաջ անհրաժեշտ է հաշվետվության [UseFormatting](UseFormatting.md) հատկության արժեքը դնել `true`:
 
 Ֆորմատավորված տեքստը ավելացվում է հաշվետվությանը [AddRow](AddRow.md), [AddHeader](AddHeader.md), [AddFooter](AddFooter.md) մեթոդների միջոցով։
 
@@ -17,7 +17,7 @@ public static string ApplyStyle(string source, TextReportStyle style)
 | Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
 |-----------------|----------------------|----------------|----------------|
 | source          | string               | -              | Ֆորմատավորման ենթակա տեքստը։ |
-| style           | TextReportStyle      | -              | [Ավելացվող թեգի տեսակը](../../TextReportStyle.md)։ |
+| style           | TextReportStyle      | -              | [Ավելացվող թեգի տեսակը](../TextReportStyle.md)։ |
 
 **Օրինակ**
 

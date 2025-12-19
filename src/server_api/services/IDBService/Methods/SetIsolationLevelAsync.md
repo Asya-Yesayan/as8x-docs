@@ -4,7 +4,7 @@ title: IDBService.SetIsolationLevelAsync(IsolationLevel) մեթոդ
 
 ## Նկարագիր
 
-**Դաս՝** [IDBService](../../IDBService.md)
+**Դաս՝** [IDBService](../IDBService.md)
 
 ```c#
 public Task SetIsolationLevelAsync(IsolationLevel level);

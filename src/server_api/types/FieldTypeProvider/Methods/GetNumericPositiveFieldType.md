@@ -8,7 +8,7 @@ public static NumericPositiveFieldType GetNumericPositiveFieldType(short fieldLe
                                                                    string csType = "", bool isNullable = false)
 ```
 
-Վերադարձնում է [NumericPositiveFieldType](../../system_types.md) դասի օբյեկտ քեշից կամ ստեղծում նորը քեշում բացակայության դեպքում և քեշավորում։
+Վերադարձնում է [NumericPositiveFieldType](../system_types.md#numericpositivefieldtype) դասի օբյեկտ քեշից կամ ստեղծում նորը քեշում բացակայության դեպքում և քեշավորում։
 
 **Պարամետրեր**
 

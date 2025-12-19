@@ -6,7 +6,7 @@ title: Document.State հատկություն
 
 **Համարժեքը 4x-ում՝** [AsDoc.State](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/ASDOC/State.html)
 
-**Դաս՝** [Document](../../document.md)
+**Դաս՝** [Document](../document.md)
 
 ```c#
 public short State { get; set; }

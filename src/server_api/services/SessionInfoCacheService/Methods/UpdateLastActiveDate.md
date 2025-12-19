@@ -6,12 +6,12 @@ title: SessionInfoCacheService.UpdateLastActiveDate(string, DateTime) մեթոդ
 public void UpdateLastActiveDate(string guid, DateTime lastActiveDate)
 ```
 
-Թարմացնում է նշված **guid**-ով [սեսսիայի](../../../examples/SessionInfo.md) վերջին ակտիվության ամսաթիվը/ժամանակը: 
+Թարմացնում է նշված **guid**-ով [սեսսիայի](../../types/SessionInfo.md) վերջին ակտիվության ամսաթիվը/ժամանակը: 
 
 **Պարամետրեր**
 
 
 | Անվանում | Տեսակ | Նկարագրություն |
 |-----------|-------|-----------------|
-| guid | string | [Սեսսիայի](../../../examples/SessionInfo.md) ներքին նույնականացման համարը (guid)։ |
+| guid | string | [Սեսսիայի](../../types/SessionInfo.md) ներքին նույնականացման համարը (guid)։ |
 | lastActiveDate | DateTime | Վերջին ակտիվության ամսաթիվը/ժամանակը։ |

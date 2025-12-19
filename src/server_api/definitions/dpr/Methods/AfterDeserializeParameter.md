@@ -4,7 +4,7 @@ title: DataProcessingRequest.AfterDeserializeParameter(P, JsonElement) մեթո�
 
 ## Նկարագիր
 
-**Դաս՝** [DataProcessingRequest](../../dpr.md)
+**Դաս՝** [DataProcessingRequest](../dpr.md)
 
 ```c#
 protected virtual Task AfterDeserializeParameter(P parameter, 

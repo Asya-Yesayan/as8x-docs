@@ -18,4 +18,4 @@ public Task<CreateGeneralAccResponse> CreateGeneralAccForCli(CreateGeneralAccReq
 
 **Օրինակ**
 
-Տե՛ս օգտագործման [օրինակը](../../../Examples/AccountsRoutes.md)։
+Տե՛ս օգտագործման [օրինակը](../../examples/AccountsRoutes.md#օրինակ-1)։

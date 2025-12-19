@@ -6,7 +6,7 @@ title: StatisticsService․StoreReportCallsAndParams(ReportCallsStoreModel) մե
  
 **Համարժեքը 4x-ում՝** AsUtil.StoreReportCallAndParams
  
-**Դաս՝** [StatisticsService](../../StatisticsService.md)
+**Դաս՝** [StatisticsService](../StatisticsService.md)
  
 ```c#
 public Task StoreReportCallsAndParams(ReportCallsStoreModel reportCallsStoreModel)
@@ -18,4 +18,4 @@ public Task StoreReportCallsAndParams(ReportCallsStoreModel reportCallsStoreMode
 
 | Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
 |-----------------|----------------------|----------------|----------------|
-| reportCallsStoreModel | ReportCallsStoreModel | -              | [ReportCallsStoreModel](../../../types/ReportCallsStoreModel.md) դասի օբյեկտ։ |
+| reportCallsStoreModel | ReportCallsStoreModel | -              | [ReportCallsStoreModel](../../types/ReportCallsStoreModel.md) դասի օբյեկտ։ |

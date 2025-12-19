@@ -18,5 +18,5 @@ title: AccountingExtender նկարագրություն
 
 | Անվանում | Նկարագրություն |
 |----------|----------------|
-| [PreOnDelete(Accounting, OnDeleteEventArgs)](acc_extender/Methods/PreOnDelete.md) | PreOnDelete իրադարձությունը առաջանում է հաշվառումը ջնջելու ժամանակ` հաշվառման OnDelete իրադարձությունից առաջ։ |
-| [PostOnDelete(Accounting, OnDeleteEventArgs)](acc_extender/Methods/PostOnDelete.md) | PreOnDelete իրադարձությունը առաջանում է հաշվառումը ջնջելու ժամանակ` հաշվառման OnDelete իրադարձությունից հետո։ |
+| [PreOnDelete(Accounting, OnDeleteEventArgs)](acc_extender/PreOnDelete.md) | PreOnDelete իրադարձությունը առաջանում է հաշվառումը ջնջելու ժամանակ` հաշվառման OnDelete իրադարձությունից առաջ։ |
+| [PostOnDelete(Accounting, OnDeleteEventArgs)](acc_extender/PostOnDelete.md) | PreOnDelete իրադարձությունը առաջանում է հաշվառումը ջնջելու ժամանակ` հաշվառման OnDelete իրադարձությունից հետո։ |

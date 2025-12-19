@@ -6,7 +6,7 @@ title: IMailService.SendMail(MailArgs) մեթոդ
 
 **Համարժեքը 4x-ում՝** AsKernel.SendMail
 
-**Դաս՝** [IMailService](../../IMailService.md)
+**Դաս՝** [IMailService](../IMailService.md)
 
 ```c#
 public Task SendMail(MailArgs args)
@@ -18,4 +18,4 @@ public Task SendMail(MailArgs args)
 
 | Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
 |-----------------|----------------------|----------------|----------------|
-| args            | MailArgs             | -              | [Էլ. նամակի տվյալներ](../../../types/MailArgs.md)։ |
+| args            | MailArgs             | -              | [Էլ. նամակի տվյալներ](../../types/MailArgs.md)։ |

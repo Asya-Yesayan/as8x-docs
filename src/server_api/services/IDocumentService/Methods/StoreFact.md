@@ -6,7 +6,7 @@ title: IDocumentService.StoreFact(Document, Fact) մեթոդ
 
 **Համարժեքը 4x-ում՝** [AsDoc.StoreFact](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/ASDOC/StoreFact.html)
 
-**Դաս՝** [IDocumentService](../../IDocumentService.md)
+**Դաս՝** [IDocumentService](../IDocumentService.md)
 
 ```c#
 public Task StoreFact(Document document, 
@@ -14,12 +14,12 @@ public Task StoreFact(Document document,
 ```
 
 Գրանցում է փաստաթղթի հաշվառումը տվյալների պահոցում:
-Մեթոդը պետք է կանչել փաստաթղթի [Action](../../../definitions/document/Methods/Action.md) իրադարձության մշակիչից։  
-Այս մեթոդի կանչից հետո հաշվառումները անմիջապես չեն գրանցվում տվյալների պահոցում, դրանց գրանցումը կատարվում է միմիայն [Action](../../../definitions/document/Methods/Action.md) իրադարձության մշակիչի ավարտից հետո։
+Մեթոդը պետք է կանչել փաստաթղթի [Action](../../definitions/document/Action.md) իրադարձության մշակիչից։  
+Այս մեթոդի կանչից հետո հաշվառումները անմիջապես չեն գրանցվում տվյալների պահոցում, դրանց գրանցումը կատարվում է միմիայն [Action](../../definitions/document/Action.md) իրադարձության մշակիչի ավարտից հետո։
 
 **Պարամետրեր**
 
 | Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
 |-----------------|----------------------|----------------|----------------|
-| document        | Document             | -              | [Փաստաթղթի օբյեկտ](../../../definitions/document.md)։ |
+| document        | Document             | -              | [Փաստաթղթի օբյեկտ](../../definitions/document.md)։ |
 | fact            | Fact                 | -              | Գրանցման ենթակա հաշվառում։ |

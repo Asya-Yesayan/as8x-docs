@@ -15,7 +15,7 @@ title: ITemplateSubstitutionService.MergeFile մեթոդ
 
 **Համարժեքը 4x-ում՝** [AsKernel.MergePrintFiles](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/MergePrintFiles.html)
 
-**Դաս՝** [ITemplateSubstitutionService](../../../examples/ITemplateSubstitutionService.md)
+**Դաս՝** [ITemplateSubstitutionService](../ITemplateSubstitutionService.md)
 
 ```c#
 public Task MergeFile(SubstitutionType type, 
@@ -32,7 +32,7 @@ public Task MergeFile(SubstitutionType type,
 
 | Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
 |-----------------|----------------------|----------------|----------------|
-| type            | SubstitutionType     | -              | [Տպելու ձևանմուշի տիպ](../../../types/SubstitutionType.md): |
+| type            | SubstitutionType     | -              | [Տպելու ձևանմուշի տիպ](../../types/SubstitutionType.md): |
 | targetFile      | StorageInfo          | -              | Առաջին ֆայլի նույնականացուցիչը սերվերում, որին կավելանա երկրորդ ֆայլը։ |
 | sourceFile      | StorageInfo          | -              | Երկրորդ ֆայլի նույնականացուցիչը սերվերում։ |
 | insertPageBreak | bool                 | -              | Երկու ֆայլերի պարունակությունների միջև break-ի նշանի տեղադրման հայտանիշ։ |
@@ -44,7 +44,7 @@ public Task MergeFile(SubstitutionType type,
 
 **Համարժեքը 4x-ում՝** [AsKernel.MergePrintFiles](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/MergePrintFiles.html)
 
-**Դաս՝** [ITemplateSubstitutionService](../../../examples/ITemplateSubstitutionService.md)
+**Դաս՝** [ITemplateSubstitutionService](../ITemplateSubstitutionService.md)
 
 ```c#
 public Task<Stream> MergeFile(SubstitutionType type, byte[] targetFile, 
@@ -59,7 +59,7 @@ public Task<Stream> MergeFile(SubstitutionType type, byte[] targetFile,
 
 | Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
 |-----------------|----------------------|----------------|----------------|
-| type            | SubstitutionType     | -              | [Տպելու ձևանմուշի տիպ](../../../types/SubstitutionType.md): |
+| type            | SubstitutionType     | -              | [Տպելու ձևանմուշի տիպ](../../types/SubstitutionType.md): |
 | targetFile      | byte[]               | -              | Առաջին ֆայլի նույնականացուցիչը սերվերում։ |
 | sourceFile      | byte[]               | -              | Երկրորդ ֆայլի նույնականացուցիչը սերվերում։ |
 | insertPageBreak | bool                 | -              | Երկու ֆայլերի պարունակությունների միջև break-ի նշանի տեղադրման հայտանիշ։ |

@@ -6,7 +6,7 @@ title: IOlapDBService.BeginTrans() մեթոդ
 
 **Համարժեքը 4x-ում՝** [ASOLAPProvider.BeginTrans](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/TransactionManagment/BeginTrans.html)
 
-**Դաս՝** [IOlapDBService](../../IOlapDBService.md)
+**Դաս՝** [IOlapDBService](../IOlapDBService.md)
 
 ```c#
 public void BeginTrans();

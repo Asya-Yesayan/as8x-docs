@@ -4,10 +4,10 @@ title: IParametersService.OPERHOLIDAYS() մեթոդ
 
 ## Նկարագիր
 
-**Դաս՝** [IParametersService](../../IParametersService.md)
+**Դաս՝** [IParametersService](../IParametersService.md)
 
 ```c#
 public Task<bool> OPERHOLIDAYS()
 ```
 
-Վերադարձնում է **OPERHOLIDAYS** ներքին անունով [տրամաբանական տիպի](../../../types/system_types.md) պարամետրի արժեքը, որը ցույց է տալիս, արդյոք բաց գործառնական ժամանակահատվածում հանգստյան օրերի արգելումը ակտիվ է։
+Վերադարձնում է **OPERHOLIDAYS** ներքին անունով [տրամաբանական տիպի](../../types/system_types.md#booleanfieldtype) պարամետրի արժեքը, որը ցույց է տալիս, արդյոք բաց գործառնական ժամանակահատվածում հանգստյան օրերի արգելումը ակտիվ է։

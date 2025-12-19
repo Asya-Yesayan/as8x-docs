@@ -6,4 +6,4 @@ title: TreeService սերվիս
 
 | Անվանում | Նկարագրություն |
 |----------|----------------|
-| [Exists(string)](IFactService/Methods/Exists.md) | Ստուգում է նշված ծառի առկայությունը տվյալների պահոցում։ |
+| [Exists(string)](TreeService/Exists.md) | Ստուգում է նշված ծառի առկայությունը տվյալների պահոցում։ |

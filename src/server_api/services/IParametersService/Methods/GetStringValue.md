@@ -10,20 +10,20 @@ title: IParametersService.GetStringValue մեթոդ
 
 | Անվանում | Նկարագրություն |
 |--|--|
-| [GetStringValue(string)](#iparametersservicegetstringvaluestring-մեթոդ) | Վերադարձնում է տող տիպի ([C](../../../types/system_types.md), [CH](../../../types/system_types.md), [FOLDER](../../../types/system_types.md), [AMACC](../../../types/system_types.md), [TREE](../../../types/system_types.md), [FULLTREE](../../../types/system_types.md), [PATH](../../../types/system_types.md), [FILE](../../../types/system_types.md)) պարամետրի արժեքը՝ ըստ պարամետրի ներքին անվան։ |
-| [GetStringValue(string, short)](#iparametersservicegetstringvaluestring-short-մեթոդ) | Վերադարձնում է տող տիպի ([C](../../../types/system_types.md), [CH](../../../types/system_types.md), [FOLDER](../../../types/system_types.md), [AMACC](../../../types/system_types.md), [TREE](../../../types/system_types.md), [FULLTREE](../../../types/system_types.md), [PATH](../../../types/system_types.md), [FILE](../../../types/system_types.md)) պարամետրի արժեքը՝ ըստ պարամետրի ներքին անվան և օգտագործողի համարի։ |
+| [GetStringValue(string)](#iparametersservicegetstringvaluestring-մեթոդ) | Վերադարձնում է տող տիպի ([C](../../types/system_types.md#stringfieldtype), [CH](../../types/system_types.md#chfieldtype), [FOLDER](../../types/system_types.md#folderfieldtype), [AMACC](../../types/system_types.md#amaccfieldtype), [TREE](../../types/system_types.md#treefieldtype), [FULLTREE](../../types/system_types.md#treefieldtype), [PATH](../../types/system_types.md#pathfieldtype), [FILE](../../types/system_types.md#filefieldtype)) պարամետրի արժեքը՝ ըստ պարամետրի ներքին անվան։ |
+| [GetStringValue(string, short)](#iparametersservicegetstringvaluestring-short-մեթոդ) | Վերադարձնում է տող տիպի ([C](../../types/system_types.md#stringfieldtype), [CH](../../types/system_types.md#chfieldtype), [FOLDER](../../types/system_types.md#folderfieldtype), [AMACC](../../types/system_types.md#amaccfieldtype), [TREE](../../types/system_types.md#treefieldtype), [FULLTREE](../../types/system_types.md#treefieldtype), [PATH](../../types/system_types.md#pathfieldtype), [FILE](../../types/system_types.md#filefieldtype)) պարամետրի արժեքը՝ ըստ պարամետրի ներքին անվան և օգտագործողի համարի։ |
 
 ### IParametersService.GetStringValue(string) մեթոդ
 
 #### Նկարագիր
 
-**Դաս՝** [IParametersService](../../IParametersService.md)
+**Դաս՝** [IParametersService](../IParametersService.md)
 
 ```c#
 public Task<string> GetStringValue(string paramId)
 ```
 
-Վերադարձնում է տող տիպի ([C](../../../types/system_types.md), [CH](../../../types/system_types.md), [FOLDER](../../../types/system_types.md), [AMACC](../../../types/system_types.md), [TREE](../../../types/system_types.md), [FULLTREE](../../../types/system_types.md), [PATH](../../../types/system_types.md), [FILE](../../../types/system_types.md)) պարամետրի արժեքը՝ ըստ պարամետրի ներքին անվան։  
+Վերադարձնում է տող տիպի ([C](../../types/system_types.md#stringfieldtype), [CH](../../types/system_types.md#chfieldtype), [FOLDER](../../types/system_types.md#folderfieldtype), [AMACC](../../types/system_types.md#amaccfieldtype), [TREE](../../types/system_types.md#treefieldtype), [FULLTREE](../../types/system_types.md#treefieldtype), [PATH](../../types/system_types.md#pathfieldtype), [FILE](../../types/system_types.md#filefieldtype)) պարամետրի արժեքը՝ ըստ պարամետրի ներքին անվան։  
 Տիպի անհամապատասխանության դեպքում առաջանում է սխալ։  
 Պարամետրի սահմանված չլինելու դեպքում առաջանում է սխալ։
 
@@ -38,14 +38,14 @@ public Task<string> GetStringValue(string paramId)
 
 #### Նկարագիր
 
-**Դաս՝** [IParametersService](../../IParametersService.md)
+**Դաս՝** [IParametersService](../IParametersService.md)
 
 ```c#
 public Task<string> GetStringValue(string paramId, 
                                    short suid)
 ```
 
-Վերադարձնում է տող տիպի ([C](../../../types/system_types.md), [CH](../../../types/system_types.md), [FOLDER](../../../types/system_types.md), [AMACC](../../../types/system_types.md), [TREE](../../../types/system_types.md), [FULLTREE](../../../types/system_types.md), [PATH](../../../types/system_types.md), [FILE](../../../types/system_types.md)) պարամետրի արժեքը՝ ըստ պարամետրի ներքին անվան և օգտագործողի համարի։  
+Վերադարձնում է տող տիպի ([C](../../types/system_types.md#stringfieldtype), [CH](../../types/system_types.md#chfieldtype), [FOLDER](../../types/system_types.md#folderfieldtype), [AMACC](../../types/system_types.md#amaccfieldtype), [TREE](../../types/system_types.md#treefieldtype), [FULLTREE](../../types/system_types.md#treefieldtype), [PATH](../../types/system_types.md#pathfieldtype), [FILE](../../types/system_types.md#filefieldtype)) պարամետրի արժեքը՝ ըստ պարամետրի ներքին անվան և օգտագործողի համարի։  
 Տիպի անհամապատասխանության դեպքում առաջանում է սխալ։  
 Պարամետրի սահմանված չլինելու դեպքում առաջանում է սխալ։
 

@@ -18,13 +18,13 @@ public void AddParam(string name, string description, FieldType fieldType, strin
 |--------------------|--------------------|------------------------------------|----------------|
 | name               | string             | -                                | Պարամետրի ներքին անունը։ |
 | description        | string             | -                                | Պարամետրի հայերեն նկարագրությունը `ANSI` կոդավորմամբ։ |
-| fieldType          | FieldType          | -                                | Պարամետրի [համակարգային տիպը](../../system_types.md)։ |
+| fieldType          | FieldType          | -                                | Պարամետրի [համակարգային տիպը](../system_types.md)։ |
 | userReportValue    | string             | null                               | Սահմանում է պարամետրի արժեքը օգտագործողի կողմից նկարագրվող հաշվետվություններում։ Այս արժեքը չի կարող փոփոխվել օգտագործողի կողմից։ |
 | supportedFilterType| MultiFilterTypes   | MultiFilterTypes.IsUndefined       | Եթե պարամետրի տիպը ժառանգ է ParamValuePair<T> դասից, ապա պետք է նշել պարամետրի ֆիլտրման հասանելի տիպերը։ |
 | required           | bool               | false                              | Պարամետրի արժեքի լրացումը պարտադիր է, թե ոչ։ |
 | eDescription       | string             | string.Empty                        | Պարամետրի անգլերեն նկարագրությունը։ |
 | nullable           | bool               | false                              | Պարամետրը կարող է ընդունել null տիպի արժեք թե ոչ։ |
-| allowTime          | bool               | false                              | Եթե պարամետրի [համակարգային տիպը](../../system_types.md) ամսաթվային տիպի է (Date, DateLong, DateRep), ապա ամսաթվի հետ միասին լինի ժամանակը թե ոչ։ |
+| allowTime          | bool               | false                              | Եթե պարամետրի [համակարգային տիպը](../system_types.md) ամսաթվային տիպի է (Date, DateLong, DateRep), ապա ամսաթվի հետ միասին լինի ժամանակը թե ոչ։ |
 
                 
 **Օրինակ**

@@ -4,13 +4,13 @@ title: IErrorHandlingService.GetSqlExceptionDetails(SqlException) մեթոդ
 
 ## Նկարագիր
 
-**Դաս՝** [IErrorHandlingService](../../../examples/IErrorHandlingService.md)
+**Դաս՝** [IErrorHandlingService](../IErrorHandlingService.md)
 
 ```c#        
 public List<ErrorDetail> GetSqlExceptionDetails(SqlException sqlException)
 ```
 
-Վերադարձնում է `sqlException` պարամետրում պարունակվող SQL-ական ենթասխալների [մանրամասների](../../../types/ErrorDetail.md) ցուցակը։
+Վերադարձնում է `sqlException` պարամետրում պարունակվող SQL-ական ենթասխալների [մանրամասների](../../types/ErrorDetail.md) ցուցակը։
 
 **Պարամետրեր**
 

@@ -6,7 +6,7 @@ tags: [Doc, Document]
 
 ## Օրինակ 1
 
-Բեռնել 2319 isn-ով փաստաթուղթը [DocumentService](../services/IDocumentService.md) դասի [Load](../../controllers/Document/Methods/Load.md) մեթոդով։ Ստանալ փաստաթղթի մուտքագրման դաշտերը Description հատկության  Fields հատկության միջոցով, առանձնացնել և պահել պարտադիր լրացման դաշտերը։
+Բեռնել 2319 isn-ով փաստաթուղթը [DocumentService](../services/IDocumentService.md) դասի [Load](../services/IDocumentService/Load.md) մեթոդով։ Ստանալ փաստաթղթի մուտքագրման դաշտերը Description հատկության  Fields հատկության միջոցով, առանձնացնել և պահել պարտադիր լրացման դաշտերը։
 
 ```c#
 // Պարտադիր լրացման դաշտերի պահման համար dictionary-ի սահմանում
@@ -31,7 +31,7 @@ foreach (KeyValuePair<string, DocumentFieldDefinition> field in allFields)
 
 ## Օրինակ 2
 
-Ստեղծել "TemplGrp" տիպի փաստաթուղթ [DocumentService](../services/IDocumentService.md) դասի [Create](../../Bank/Client/Routes/LoanApplicationsRoutes/Methods/Create.md) մեթոդով, լրացնել դաշտերի արժեքները ու փաստաթուղթը գրանցել տվյալների պահոցում [DocumentService](../services/IDocumentService.md) դասի [Store](../definitions/document/Methods/Store.md) մեթոդով։
+Ստեղծել "TemplGrp" տիպի փաստաթուղթ [DocumentService](../services/IDocumentService.md) դասի [Create](../services/IDocumentService/Create.md) մեթոդով, լրացնել դաշտերի արժեքները ու փաստաթուղթը գրանցել տվյալների պահոցում [DocumentService](../services/IDocumentService.md) դասի [Store](../services/IDocumentService/Store.md) մեթոդով։
 
 ```c#
 // TemplGrp տիպի փաստաթղթի ստեղծում

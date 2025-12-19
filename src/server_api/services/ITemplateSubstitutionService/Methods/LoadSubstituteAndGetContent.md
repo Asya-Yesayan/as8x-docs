@@ -4,7 +4,7 @@ title: ITemplateSubstitutionService.LoadSubstituteAndGetContent(IPrintTemplateSu
 
 ## Նկարագիր
 
-**Դաս՝** [ITemplateSubstitutionService](../../../examples/ITemplateSubstitutionService.md)
+**Դաս՝** [ITemplateSubstitutionService](../ITemplateSubstitutionService.md)
 
 ```c#
 public Task<string> LoadSubstituteAndGetContent(IPrintTemplateSubstitution printTemplateSubstitution, 
@@ -18,7 +18,7 @@ public Task<string> LoadSubstituteAndGetContent(IPrintTemplateSubstitution print
 
 Նախատեսված է `htm` և `txt` տիպի ձևանմուշների լրացումից հետո վերջնական տեքստը ստանալու համար։
 
-Տե՛ս [օրինակը](../../../examples/ITemplateSubstitutionService.md)։
+Տե՛ս [օրինակը](../../examples/ITemplateSubstitutionService.md#օրինակ-1)։
 
 **Պարամետրեր**
 
@@ -26,6 +26,6 @@ public Task<string> LoadSubstituteAndGetContent(IPrintTemplateSubstitution print
 |-----------------|----------------------|----------------|----------------|
 | printTemplateSubstitution | IPrintTemplateSubstitution | -              | Տպելու ձևանմուշի տեղադրվող արժեքները պարունակող օբյեկտ։ |
 | name            | string               | -              | Տպելու ձևանմուշի ներքին անուն: |
-| type            | SubstitutionType     | -              | [Տպելու ձևանմուշի տիպ](../../../types/SubstitutionType.md): |
-| htmlImageOption | HtmlImageOption      | default        | Html տպվող տեսքերի [պատկերների տեղադրման եղանակ](../../../types/HtmlImageOption.md)։ |
+| type            | SubstitutionType     | -              | [Տպելու ձևանմուշի տիպ](../../types/SubstitutionType.md): |
+| htmlImageOption | HtmlImageOption      | default        | Html տպվող տեսքերի [պատկերների տեղադրման եղանակ](../../types/HtmlImageOption.md)։ |
 | check           | bool                 | false          | Տպելու ձևանմուշում առկա կոդերի ճիշտ շարահյուսության ստուգման հայտանիշ։ |

@@ -8,7 +8,7 @@ title: "SessionInfo դաս"
 
 Սեսսիայի փակման հետ համատեղ հեռացվում են նաև սեսսիայի ընթացքում առաջացած ժամանակավոր ֆայլերը, ընդհատվում ընթացիկ job-երը։
 
-Ընթացիկ սեսսիան ստացվում է [ISessionInfoService](../services/ISessionInfoService.md).[GetInfo](../services/IJobServerClient/Methods/GetInfo.md) մեթոդով։
+Ընթացիկ սեսսիան ստացվում է [ISessionInfoService](../services/ISessionInfoService.md).[GetInfo](../services/ISessionInfoService/GetInfo.md) մեթոդով։
 
 Սեսսիայի մասին ինֆորմացիան պահվում է տվյալների պահոցի [SESSIONINFO](https://asya-yesayan.github.io/as4x-docs/HTM/ProgrGuide/Database/SessionInfo.html) աղյուսակում և քեշում։
 

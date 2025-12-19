@@ -7,8 +7,8 @@ title: "TreeElementsService սերվիս"
 TreeElementService դասը նախատեսված է ծառի հանգույցների հետ աշխատանքը ապահովելու համար։
 
 Ծառի հանգույցները ծրագրային ստեղծվում են երկու ձևով, 
-- փաստաթղթերի հետ կապված [IDocumentService](IDocumentService.md).[StoreInTree](IDocumentService/Methods/StoreInTree.md) ֆունկցիայով,
-- անկախ հանգույցներ [AddNode(TreeElement, bool)](TreeElementsService/Methods/AddNode.md) ֆունկցիայով։
+- փաստաթղթերի հետ կապված [IDocumentService](IDocumentService.md).[StoreInTree](IDocumentService/StoreInTree.md) ֆունկցիայով,
+- անկախ հանգույցներ [AddNode(TreeElement, bool)](TreeElementsService/AddNode.md) ֆունկցիայով։
 
 Ծառի հանգույցները պահվում են [TREES](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Database/Trees.html) աղյուսակում։
 
@@ -16,12 +16,12 @@ TreeElementService դասը նախատեսված է ծառի հանգույցն�
 
 | Անվանում | Նկարագրություն |
 |----------|----------------|
-| [AddNode(TreeElement, bool)](TreeElementsService/Methods/AddNode.md) | Ավելացնում է ծառի նոր հանգույց տվյալների պահոցում։ |
-| [DeleteNode(string, string)](TreeElementsService/Methods/DeleteNode.md) | Հեռացնում է ծառի հանգույցը տվյալների պահոցից։ |
-| [EditNode(TreeElement)](TreeElementsService/Methods/EditNode.md) | Խմբագրում է ծառի հանգույցը և գրանցում տվյալների պահոցում։ |
-| [ExistsInDB(string, string)](../definitions/document/Properties/ExistsInDB.md) | Ստուգում է ծառի հանգույցի առկայությունը տվյալների պահոցում։ |
-| [Get(string, string, bool)](IAttachmentService/Methods/Get.md) | Բեռնում է [ծառի տարրը](../types/TreeElement.md) տվյալների պահոցից կամ քեշից, եթե ծառը քեշավոևվող է։ |
-| [GetTreeElements(int, Dictionary<string, TreeElement>, bool, bool)](TreeElementsService/Methods/GetTreeElements.md) | Վերադարձնում է ծառի տարրերը տվյալների պահոցից կամ քեշից, եթե ծառը քեշավորվող է։ |
+| [AddNode(TreeElement, bool)](TreeElementsService/AddNode.md) | Ավելացնում է ծառի նոր հանգույց տվյալների պահոցում։ |
+| [DeleteNode(string, string)](TreeElementsService/DeleteNode.md) | Հեռացնում է ծառի հանգույցը տվյալների պահոցից։ |
+| [EditNode(TreeElement)](TreeElementsService/EditNode.md) | Խմբագրում է ծառի հանգույցը և գրանցում տվյալների պահոցում։ |
+| [ExistsInDB(string, string)](TreeElementsService/ExistsInDB.md) | Ստուգում է ծառի հանգույցի առկայությունը տվյալների պահոցում։ |
+| [Get(string, string, bool)](TreeElementsService/Get.md) | Բեռնում է [ծառի տարրը](../types/TreeElement.md) տվյալների պահոցից կամ քեշից, եթե ծառը քեշավոևվող է։ |
+| [GetTreeElements(int, Dictionary<string, TreeElement>, bool, bool)](TreeElementsService/GetTreeElements.md) | Վերադարձնում է ծառի տարրերը տվյալների պահոցից կամ քեշից, եթե ծառը քեշավորվող է։ |
 
 <!-- ### CheckAndLoadIfNeeded
 

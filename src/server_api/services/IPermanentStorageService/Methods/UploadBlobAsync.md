@@ -7,14 +7,14 @@ title: IPermanentStorageService.UploadBlobAsync մեթոդ
 | Անվանում | Նկարագրություն |
 |--|--|
 | [UploadBlobAsync(string, string, byte\[\], CancellationToken)](#ipermanentstorageserviceuploadblobasyncstring-string-byte-cancellationtoken-մեթոդ) | Պահպանում է `value` պարամետրի պարունակությունը մշտական ֆայլերի պահոցում՝ նշված կոնտեյների նշված ֆայլում։ |
-| [UploadBlobAsync(string, Stream, BlobProperties, CancellationToken)](#ipermanentstorageserviceuploadblobasyncstring-stream-blobproperties-cancellationtoken-մեթոդ) | Պահպանում է `value` պարամետրի պարունակությունը մշտական ֆայլերի պահոցի [Container](../Properties/Container.md) հատկությամբ նշված թղթապանակում՝ `blobName` պարամետրում նշված ֆայլում։ |
+| [UploadBlobAsync(string, Stream, BlobProperties, CancellationToken)](#ipermanentstorageserviceuploadblobasyncstring-stream-blobproperties-cancellationtoken-մեթոդ) | Պահպանում է `value` պարամետրի պարունակությունը մշտական ֆայլերի պահոցի [Container](Container.md) հատկությամբ նշված թղթապանակում՝ `blobName` պարամետրում նշված ֆայլում։ |
 | [UploadBlobAsync(string, string, Stream, BlobProperties, CancellationToken)](#ipermanentstorageserviceuploadblobasyncstring-string-stream-blobproperties-cancellationtoken-մեթոդ) | Պահպանում է `stream` պարամետրի պարունակությունը մշտական ֆայլերի պահոցում՝ նշված կոնտեյների նշված ֆայլում։ |
 
 ### IPermanentStorageService.UploadBlobAsync(string, string, byte[], CancellationToken) մեթոդ  
 
 #### Նկարագիր
 
-**Դաս՝** [IPermanentStorageService](../../IPermanentStorageService.md)
+**Դաս՝** [IPermanentStorageService](../IPermanentStorageService.md)
 
 ```c#
 public Task<bool> UploadBlobAsync(string container, 
@@ -38,7 +38,7 @@ public Task<bool> UploadBlobAsync(string container,
 
 #### Նկարագիր
 
-**Դաս՝** [IPermanentStorageService](../../IPermanentStorageService.md)
+**Դաս՝** [IPermanentStorageService](../IPermanentStorageService.md)
 
 ```c#
 public Task<bool> UploadBlobAsync(string blobName, 
@@ -47,7 +47,7 @@ public Task<bool> UploadBlobAsync(string blobName,
                                   CancellationToken cancellationToken = default)
 ```
 
-Պահպանում է `value` պարամետրի պարունակությունը մշտական ֆայլերի պահոցի [Container](../Properties/Container.md) հատկությամբ նշված թղթապանակում՝ `blobName` պարամետրում նշված ֆայլում։
+Պահպանում է `value` պարամետրի պարունակությունը մշտական ֆայլերի պահոցի [Container](Container.md) հատկությամբ նշված թղթապանակում՝ `blobName` պարամետրում նշված ֆայլում։
 
 **Պարամետրեր**
 
@@ -62,7 +62,7 @@ public Task<bool> UploadBlobAsync(string blobName,
 
 #### Նկարագիր
 
-**Դաս՝** [IPermanentStorageService](../../IPermanentStorageService.md)
+**Դաս՝** [IPermanentStorageService](../IPermanentStorageService.md)
 
 ```c#
 public Task<bool> UploadBlobAsync(string containerOrBucketName, 

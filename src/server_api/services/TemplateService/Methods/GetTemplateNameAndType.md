@@ -6,7 +6,7 @@ title: TemplateService.GetTemplateNameAndType(string, bool) մեթոդ
 
 **Համարժեքը 4x-ում՝** [AsKernel.GetTemplateNameAndType](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/GetTemplateNameAndType.html)
 
-**Դաս՝** [TemplateService](../../TemplateService.md)
+**Դաս՝** [TemplateService](../TemplateService.md)
 
 ```c#
 public static (bool result, 
@@ -19,7 +19,7 @@ public static (bool result,
 Վերադարձնում է՝
 * `result` - Ցույց է տալիս, արդյոք բաժանումը հաջողվել է:
 * `templateName` - Տպելու ձևանմուշի ներքին անուն: Բաժանման չհաջողվելու դեպքում վերադարձնում է `templateNameWithType` պարամետրի արժեքը։
-* `templateType` - [Տպելու ձևանմուշի տիպ](../../../types/SubstitutionType.md): Բաժանման չհաջողվելու դեպքում վերադարձնում է `string.Empty`։
+* `templateType` - [Տպելու ձևանմուշի տիպ](../../types/SubstitutionType.md): Բաժանման չհաջողվելու դեպքում վերադարձնում է `string.Empty`։
 
 **Պարամետրեր**
 
@@ -50,7 +50,7 @@ if (templateType != Constants.TempTypeHTML)
 public Task<string> GetType(string name)
 ```
 
-Վերադարձնում է [տպելու ձևանմուշի տիպը](../../../types/SubstitutionType.md)՝ ըստ տպելու ձևանմուշի ներքին անվան։
+Վերադարձնում է [տպելու ձևանմուշի տիպը](../../types/SubstitutionType.md)՝ ըստ տպելու ձևանմուշի ներքին անվան։
 
 **Պարամետրեր**
 

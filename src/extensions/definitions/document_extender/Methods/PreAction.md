@@ -6,7 +6,7 @@ title: DocumentExtender.PreAction(Document, ActionEventArgs) մեթոդ
 
 **Համարժեքը 4x-ում՝** ScriptExtension.DocPreAction
 
-**Դաս՝** [DocumentExtender](../../document_extender.md)
+**Դաս՝** [DocumentExtender](../document_extender.md)
 
 ```c#
 public virtual Task PreAction(Document sender, 

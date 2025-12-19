@@ -4,7 +4,7 @@ title: Document.Grids հատկություն
 
 ## Նկարագիր
 
-**Դաս՝** [Document](../../document.md)
+**Դաս՝** [Document](../document.md)
 
 ```c#
 public IReadOnlyDictionary<string, IGrid> Grids { get; private set; }

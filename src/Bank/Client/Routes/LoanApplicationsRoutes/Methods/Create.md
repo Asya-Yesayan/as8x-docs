@@ -17,4 +17,4 @@ public async Task<CreateResponse> Create(CreateRequest request)
 
 **Օրինակ**
 
-Տե՛ս օգտագործման [օրինակը](../../../Examples/LoanApplicationsRoutes.md)։
+Տե՛ս օգտագործման [օրինակը](../../../../web_api_client/bank/examples/LoanApplicationsRoutes.md#օրինակ-1)։

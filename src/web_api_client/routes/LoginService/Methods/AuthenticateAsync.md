@@ -6,8 +6,8 @@ title: LoginService.AuthenticateAsync մեթոդ
 
 | Անվանում | Նկարագրություն |
 |--|--|
-| [AuthenticateAsync(string, HttpClient, ILogger, short, string, string, string, CancellationToken)](#loginserviceauthenticateasyncstring-httpclient-ilogger-short-string-string-string-cancellationtoken-մեթոդ) | Նույնականացնում է ինտեգրման ծրագրի համար ստեղծված բանալիով ([API Client](../../../api_client.md))։ |
-| [AuthenticateAsync(string, HttpClient, ILogger, X509Certificate2, short, string, string, string, CancellationToken)](#loginserviceauthenticateasyncstring-httpclient-ilogger-x509certificate2-short-string-string-string-cancellationtoken-մեթոդ)| Նույնականացնում է օգտագործողի մուտքանունով և գաղտնաբառով, պահանջվում է սերտիֆիկատի առկայություն ([API Client](../../../api_client.md))։ |
+| [AuthenticateAsync(string, HttpClient, ILogger, short, string, string, string, CancellationToken)](#loginserviceauthenticateasyncstring-httpclient-ilogger-short-string-string-string-cancellationtoken-մեթոդ) | Նույնականացնում է ինտեգրման ծրագրի համար ստեղծված բանալիով ([API Client](../../api_client.md))։ |
+| [AuthenticateAsync(string, HttpClient, ILogger, X509Certificate2, short, string, string, string, CancellationToken)](#loginserviceauthenticateasyncstring-httpclient-ilogger-x509certificate2-short-string-string-string-cancellationtoken-մեթոդ)| Նույնականացնում է օգտագործողի մուտքանունով և գաղտնաբառով, պահանջվում է սերտիֆիկատի առկայություն ([API Client](../../api_client.md))։ |
 
 ### LoginService.AuthenticateAsync(string, HttpClient, ILogger, short, string, string, string, CancellationToken) մեթոդ
 
@@ -22,7 +22,7 @@ public Task<Exception> AuthenticateAsync(string serviceAddress,
                                          CancellationToken cancellationToken = default)
 ```
 
-Նույնականացնում է ինտեգրման ծրագրի համար ստեղծված բանալիով ([API Client](../../../api_client.md))։
+Նույնականացնում է ինտեգրման ծրագրի համար ստեղծված բանալիով ([API Client](../../api_client.md))։
 
 Նույնականացման ձախողման դեպքում վերադարձնում է առաջացած սխալը, հակառակ դեպքում վերադարձնում է null:
 
@@ -36,12 +36,12 @@ public Task<Exception> AuthenticateAsync(string serviceAddress,
 | apiClientId     | short                | -              | Կլիենտ ծրագրի id-ն (API Client Id)։ |
 | secret          | string               | -              | Կլիենտ ծրագրի բանալի (API Client Secret)։ |
 | username        | string               | -              | Օգտագործողի մուտքանունը (ներքին անունը)։ |
-| configurationName | string               | ""             | Այս պարամետրի արժեքը փոխանցվում է [ConfigurationName](../Properties/ConfigurationName.md) հատկությանը: Այն ինֆորմատիվ բնույթ է կրում։ |
+| configurationName | string               | ""             | Այս պարամետրի արժեքը փոխանցվում է [ConfigurationName](ConfigurationName.md) հատկությանը: Այն ինֆորմատիվ բնույթ է կրում։ |
 | cancellationToken | CancellationToken    | default        | Ընդհատման օբյեկտ։ |
 
 **Օրինակ**
 
-Տե՛ս օգտագործման [օրինակը](../../../examples/LoginService.md)։
+Տե՛ս օգտագործման [օրինակը](../../examples/LoginService.md)։
 
 ### LoginService.AuthenticateAsync(string, HttpClient, ILogger, X509Certificate2, short, string, string, string, CancellationToken) մեթոդ
 
@@ -57,7 +57,7 @@ public Task<Exception> AuthenticateAsync(string serviceAddress,
                                          CancellationToken cancellationToken = default)
 ```
 
-Նույնականացնում է օգտագործողի մուտքանունով և գաղտնաբառով, պահանջվում է սերտիֆիկատի առկայություն ([API Client](../../../api_client.md))։
+Նույնականացնում է օգտագործողի մուտքանունով և գաղտնաբառով, պահանջվում է սերտիֆիկատի առկայություն ([API Client](../../api_client.md))։
 
 Նույնականացման ձախողման դեպքում վերադարձնում է առաջացած սխալը, հակառակ դեպքում վերադարձնում է null:
 
@@ -72,5 +72,5 @@ public Task<Exception> AuthenticateAsync(string serviceAddress,
 | apiClientId     | short                | -              | Կլիենտ ծրագրի id-ն (API Client Id)։ |
 | username        | string               | -              | Օգտագործողի մուտքանունը։ |
 | password        | string               | -              | Օգտագործողի գաղտնաբառը։ |
-| configurationName | string               | ""             | Այս պարամետրի արժեքը փոխանցվում է [ConfigurationName](../Properties/ConfigurationName.md) հատկությանը: Այն ինֆորմատիվ բնույթ է կրում։ |
+| configurationName | string               | ""             | Այս պարամետրի արժեքը փոխանցվում է [ConfigurationName](ConfigurationName.md) հատկությանը: Այն ինֆորմատիվ բնույթ է կրում։ |
 | cancellationToken | CancellationToken    | default        | Ընդհատման օբյեկտ։ |

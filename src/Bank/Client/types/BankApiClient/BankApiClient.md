@@ -15,10 +15,10 @@
 
 | Անվանում | Նկարագրություն |
 |----------|----------------|
-| [Accounts](Properties/Accounts.md) | Վերադարձնում է [AccountsRoutes](../../../Bank/Client../../Routes/AccountsRoutes/AccountsRoutes.mdարունակում է մեթոդներ հաշիվների տվյալների հետ աշխատանքը ապահովելու համար։ |
-| [Cards](Properties/Cards.md) | Վերադարձնում է [CardsRoutes](../../../Bank/Client../../Routes/CardsRoutes/CardsRoutes.mdարունակում է մեթոդներ քարտերի հետ աշխատանքը ապահովելու համար։ |
-| [ClientIBOptions](Properties/ClientIBOptions.md) | Վերադարձնում է [ClientIBOptionsRoutes](../../../Bank/Client../../Routes/ClientIBOptionsRoutes/ClientIBOptionsRoutes.mdարունակում է մեթոդներ հաճախորդների ԻԲ կարգավորումների տվյալների հետ աշխատանքը ապահովելու համար։ |
-| [Clients](Properties/Clients.md) | Վերադարձնում է [ClientsRoutes](../../../Bank/Client../../Routes/ClientsRoutes/ClientsRoutes.mdարունակում է մեթոդներ հաճախորդների տվյալների հետ աշխատանքը ապահովելու համար։ |
-| [LoanApplications](Properties/LoanApplications.md) | Վերադարձնում է [LoanApplicationsRoutes](../../../Bank/Client../../Routes/LoanApplicationsRoutes/LoanApplicationsRoutes.mdարունակում է մեթոդներ վարկային հայտերի հետ աշխատանքը ապահովելու համար։ |
+| [Accounts](BankApiClient/Accounts.md) | Վերադարձնում է [AccountsRoutes](../../../Bank/Client../../Routes/AccountsRoutes/AccountsRoutes.mdարունակում է մեթոդներ հաշիվների տվյալների հետ աշխատանքը ապահովելու համար։ |
+| [Cards](BankApiClient/Cards.md) | Վերադարձնում է [CardsRoutes](../../../Bank/Client../../Routes/CardsRoutes/CardsRoutes.mdարունակում է մեթոդներ քարտերի հետ աշխատանքը ապահովելու համար։ |
+| [ClientIBOptions](BankApiClient/ClientIBOptions.md) | Վերադարձնում է [ClientIBOptionsRoutes](../../../Bank/Client../../Routes/ClientIBOptionsRoutes/ClientIBOptionsRoutes.mdարունակում է մեթոդներ հաճախորդների ԻԲ կարգավորումների տվյալների հետ աշխատանքը ապահովելու համար։ |
+| [Clients](BankApiClient/Clients.md) | Վերադարձնում է [ClientsRoutes](../../../Bank/Client../../Routes/ClientsRoutes/ClientsRoutes.mdարունակում է մեթոդներ հաճախորդների տվյալների հետ աշխատանքը ապահովելու համար։ |
+| [LoanApplications](BankApiClient/LoanApplications.md) | Վերադարձնում է [LoanApplicationsRoutes](../../../Bank/Client../../Routes/LoanApplicationsRoutes/LoanApplicationsRoutes.mdարունակում է մեթոդներ վարկային հայտերի հետ աշխատանքը ապահովելու համար։ |
 
 </div>

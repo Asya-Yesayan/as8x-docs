@@ -6,4 +6,4 @@ title: LiteDocument.RefreshLastLookup() մեթոդ
 public void RefreshLastLookup();
 ```
 
-Թարմացնում է [LastLookup](../Properties/LastLookup.md) հատկության արժեքը՝ նշանակելով ընթացիկ ամսաթիվը/ժամանակը։
+Թարմացնում է [LastLookup](LastLookup.md) հատկության արժեքը՝ նշանակելով ընթացիկ ամսաթիվը/ժամանակը։

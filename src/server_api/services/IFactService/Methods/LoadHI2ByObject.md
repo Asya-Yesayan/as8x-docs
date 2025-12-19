@@ -6,7 +6,7 @@ title: IFactService.LoadHI2ByObject(string, int, long, DateTime?, DateTime?, str
 
 **Համարժեքը 4x-ում՝** [AsKernel.LoadHI2FactByObject](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/AccManagement/LoadHI2FactByObject.html)
 
-**Դաս՝** [IFactService](../../IFactService.md)
+**Դաս՝** [IFactService](../IFactService.md)
 
 ```c#
 public Task<List<Fact>> LoadHI2ByObject(string accounting, 

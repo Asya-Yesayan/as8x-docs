@@ -6,4 +6,4 @@ title: FieldType4XCompatibleValidatorService սերվիս
 
 | Անվանում | Նկարագրություն |
 |----------|----------------|
-| [IsValid(FieldType)](FieldType4XCompatibleValidatorService/Methods/IsValid.md) | Ստուգում է արդյոք նշված համակարգային տիպը համապատասխանում է 4x-ում [համակարգային տիպերի](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/types.html) համար սահմանված կանոններին։ |
+| [IsValid(FieldType)](FieldType4XCompatibleValidatorService/IsValid.md) | Ստուգում է արդյոք նշված համակարգային տիպը համապատասխանում է 4x-ում [համակարգային տիպերի](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/types.html) համար սահմանված կանոններին։ |

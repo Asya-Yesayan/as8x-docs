@@ -6,7 +6,7 @@ title: IFactService.LoadHI2ByBase(int, string, string, long) մեթոդ
 
 **Համարժեքը 4x-ում՝** [AsKernel.LoadHI2FactByBase](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/AccManagement/LoadHI2FactByBase.html)
 
-**Դաս՝** [IFactService](../../IFactService.md)
+**Դաս՝** [IFactService](../IFactService.md)
 
 ```c#
 public Task<List<Fact>> LoadHI2ByBase(int baseIsn, 

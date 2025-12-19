@@ -4,7 +4,7 @@ title: Document.InitGrids() մեթոդ
 
 ## Նկարագիր
 
-**Դաս՝** [Document](../../document.md)
+**Դաս՝** [Document](../document.md)
 
 ```c#
 protected void InitGrids()

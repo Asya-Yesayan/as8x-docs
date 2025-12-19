@@ -10,20 +10,20 @@ title: IParametersService.GetDateTimeValue մեթոդ
 
 | Անվանում | Նկարագրություն |
 |--|--|
-| [GetDateTimeValue(string)](#iparametersservicegetdatetimevaluestring-մեթոդ) | Վերադարձնում է ամսաթիվ տիպի ([DATE](../../../types/system_types.md), [DATELONG](../../../types/system_types.md)) պարամետրի արժեքը՝ ըստ պարամետրի ներքին անվան։ |
-| [GetDateTimeValue(string, short)](#iparametersservicegetdatetimevaluestring-short-մեթոդ) | Վերադարձնում է ամսաթիվ տիպի ([DATE](../../../types/system_types.md), [DATELONG](../../../types/system_types.md)) պարամետրի արժեքը՝ ըստ պարամետրի ներքին անվան և օգտագործողի համարի։ |
+| [GetDateTimeValue(string)](#iparametersservicegetdatetimevaluestring-մեթոդ) | Վերադարձնում է ամսաթիվ տիպի ([DATE](../../types/system_types.md#datefieldtype), [DATELONG](../../types/system_types.md#datefieldtype)) պարամետրի արժեքը՝ ըստ պարամետրի ներքին անվան։ |
+| [GetDateTimeValue(string, short)](#iparametersservicegetdatetimevaluestring-short-մեթոդ) | Վերադարձնում է ամսաթիվ տիպի ([DATE](../../types/system_types.md#datefieldtype), [DATELONG](../../types/system_types.md#datefieldtype)) պարամետրի արժեքը՝ ըստ պարամետրի ներքին անվան և օգտագործողի համարի։ |
 
 ### IParametersService.GetDateTimeValue(string) մեթոդ
 
 #### Նկարագիր
 
-**Դաս՝** [IParametersService](../../IParametersService.md)
+**Դաս՝** [IParametersService](../IParametersService.md)
 
 ```c#
 public Task<DateTime?> GetDateTimeValue(string paramId)
 ```
 
-Վերադարձնում է ամսաթիվ տիպի ([DATE](../../../types/system_types.md), [DATELONG](../../../types/system_types.md)) պարամետրի արժեքը՝ ըստ պարամետրի ներքին անվան։  
+Վերադարձնում է ամսաթիվ տիպի ([DATE](../../types/system_types.md#datefieldtype), [DATELONG](../../types/system_types.md#datefieldtype)) պարամետրի արժեքը՝ ըստ պարամետրի ներքին անվան։  
 Տիպի անհամապատասխանության դեպքում առաջանում է սխալ։  
 Պարամետրի սահմանված չլինելու դեպքում առաջանում է սխալ։
 
@@ -38,14 +38,14 @@ public Task<DateTime?> GetDateTimeValue(string paramId)
 
 #### Նկարագիր
 
-**Դաս՝** [IParametersService](../../IParametersService.md)
+**Դաս՝** [IParametersService](../IParametersService.md)
 
 ```c#
 public Task<DateTime?> GetDateTimeValue(string paramId, 
                                         short suid)
 ```
 
-Վերադարձնում է ամսաթիվ տիպի ([DATE](../../../types/system_types.md), [DATELONG](../../../types/system_types.md)) պարամետրի արժեքը՝ ըստ պարամետրի ներքին անվան և օգտագործողի համարի։  
+Վերադարձնում է ամսաթիվ տիպի ([DATE](../../types/system_types.md#datefieldtype), [DATELONG](../../types/system_types.md#datefieldtype)) պարամետրի արժեքը՝ ըստ պարամետրի ներքին անվան և օգտագործողի համարի։  
 Տիպի անհամապատասխանության դեպքում առաջանում է սխալ։  
 Պարամետրի սահմանված չլինելու դեպքում առաջանում է սխալ։
 

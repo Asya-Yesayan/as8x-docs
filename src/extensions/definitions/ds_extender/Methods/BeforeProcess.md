@@ -4,7 +4,7 @@ title: Extender.BeforeProcess(IList<IExtendableRow>, IDataSourceArgs) մեթոդ
 
 ## Նկարագիր
 
-**Դաս՝** [Extender](../../ds_extender.md)
+**Դաս՝** [Extender](../ds_extender.md)
 
 ```c#
 public virtual Task BeforeProcess(IList<IExtendableRow> rows, 
@@ -15,7 +15,7 @@ public virtual Task BeforeProcess(IList<IExtendableRow> rows,
 Հիմնականում օգտագործվում է [ProccessRow](ProccessRow.md)-ում կիրառվող տվյալների բեռնման և քեշավորման համար։  
 Կարող է օգտագործվել հիմնական հաշվարկված բոլոր տողերի մշակման (փոփոխելու, ջնջելու, ավելացնելու) համար։
 
-Մեթոդը չի կանչվում միջուկի կողմից, եթե հիմնական հաշվարկի մեջ տողեր չկան և [AlwaysCallBeforeProcess](../Properties/AlwaysCallBeforeProcess.md) հատկության արժեքը false է։
+Մեթոդը չի կանչվում միջուկի կողմից, եթե հիմնական հաշվարկի մեջ տողեր չկան և [AlwaysCallBeforeProcess](AlwaysCallBeforeProcess.md) հատկության արժեքը false է։
 
 **Պարամետրեր**
 

@@ -6,7 +6,7 @@ title: LiteDocumentService.Load մեթոդ
 
 ### Նկարագիր
 
-**Դաս՝** [LiteDocumentService](../../LiteDocumentService.md)
+**Դաս՝** [LiteDocumentService](../LiteDocumentService.md)
 
 ```c#
 public Task<LiteDocument> Load(int isn,
@@ -34,7 +34,7 @@ public Task<LiteDocument> Load(int isn,
 
 ### Նկարագիր
 
-**Դաս՝** [LiteDocumentService](../../LiteDocumentService.md)
+**Դաս՝** [LiteDocumentService](../LiteDocumentService.md)
 
 ```c#
 public Task<Dictionary<int, LiteDocument>> Load(IEnumerable<int> isnList, 

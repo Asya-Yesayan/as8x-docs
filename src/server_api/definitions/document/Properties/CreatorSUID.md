@@ -6,7 +6,7 @@ title: Document.CreatorSUID հատկություն
 
 **Համարժեքը 4x-ում՝** [AsDoc․CreatorSUID](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/ASDOC/CreatorSUID.html)
 
-**Դաս՝** [Document](../../document.md)
+**Դաս՝** [Document](../document.md)
 
 ```c#
 public short CreatorSUID { get; internal set; }

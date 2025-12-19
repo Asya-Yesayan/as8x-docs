@@ -4,7 +4,7 @@ title: TemplateSubstitutionEventArgs.Parameters հատկություն
 
 ## Նկարագիր
 
-**Դաս՝** [TemplateSubstitutionEventArgs](../../TemplateSubstitutionEventArgs.md)
+**Դաս՝** [TemplateSubstitutionEventArgs](../TemplateSubstitutionEventArgs.md)
 
 ```c#
 public Dictionary<string, object> Parameters { get; set; }

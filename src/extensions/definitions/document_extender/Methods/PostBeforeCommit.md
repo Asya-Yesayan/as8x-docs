@@ -6,7 +6,7 @@ title: DocumentExtender.PostBeforeCommit(Document, BeforeCommitEventArgs) մեթ
 
 **Համարժեքը 4x-ում՝** ScriptExtension.DocPostBeforeCommit
 
-**Դաս՝** [DocumentExtender](../../document_extender.md)
+**Դաս՝** [DocumentExtender](../document_extender.md)
 
 ```c#
 public virtual Task PostBeforeCommit(Document sender, 

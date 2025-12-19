@@ -3,7 +3,7 @@ layout: page
 title: "NestedTransactionErrorEventArgs" 
 ---
 
-Այս դասը օգտագործվում է [IDocumentNestedTransactionWithError.NestedTransactionError](../IDocumentNestedTransactionWithError/Methods/NestedTransactionError.md) մեթոդում։
+Այս դասը օգտագործվում է [IDocumentNestedTransactionWithError.NestedTransactionError](../IDocumentNestedTransactionWithError/NestedTransactionError.md) մեթոդում։
 
 ```c#
 public class NestedTransactionErrorEventArgs<T>
@@ -16,6 +16,6 @@ public class NestedTransactionErrorEventArgs<T>
 
 | Անվանում     | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն   |
 | ------------ | ------------- | --------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Value        |      T         |      -           | [IDocumentService.NestedTransactions](../../services/IDocumentService/Methods/NestedTransactions.md) մեթոդով մշակվող հերթական տարրը, որի մշակման ընթացքում առաջացել է սխալ։                                |
-| Report       |     TextReport.TextReport          |        -         | [IDocumentService.NestedTransactions](../../services/IDocumentService/Methods/NestedTransactions.md) մեթոդի կատարման ընթացքում առաջացած սխալները պարունակող [տեքստային հաշվետվությունը](../TextReport.md)։ |
+| Value        |      T         |      -           | [IDocumentService.NestedTransactions](../../services/IDocumentService/NestedTransactions.md) մեթոդով մշակվող հերթական տարրը, որի մշակման ընթացքում առաջացել է սխալ։                                |
+| Report       |     TextReport.TextReport          |        -         | [IDocumentService.NestedTransactions](../../services/IDocumentService/NestedTransactions.md) մեթոդի կատարման ընթացքում առաջացած սխալները պարունակող [տեքստային հաշվետվությունը](../TextReport.md)։ |
 | ErrorMessage |    string           |        -         |       |

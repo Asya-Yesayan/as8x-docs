@@ -4,13 +4,13 @@ title: IExecutionProgress.Refresh(string) մեթոդ
 
 ## Նկարագիր
 
-**Դաս՝** [IExecutionProgress](../../IExecutionProgress.md)
+**Դաս՝** [IExecutionProgress](../IExecutionProgress.md)
 
 ```c#
 public void Refresh(string name);
 ```
 
-Թարմացնում է կատարման պրոգրեսի ընթացիկ [փուլը](../../ProgressPhase.md)՝ ցուցադրելով տրված անվանումը։
+Թարմացնում է կատարման պրոգրեսի ընթացիկ [փուլը](../ProgressPhase.md)՝ ցուցադրելով տրված անվանումը։
 
 **Պարամետրեր**
 

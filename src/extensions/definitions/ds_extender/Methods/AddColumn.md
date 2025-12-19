@@ -4,7 +4,7 @@ title: Extender.AddColumn(string, string, string, FieldType, string, string, Fie
 
 ## Նկարագիր
 
-**Դաս՝** [Extender](../../ds_extender.md)
+**Դաս՝** [Extender](../ds_extender.md)
 
 ```c#
 public void AddColumn(string name, 

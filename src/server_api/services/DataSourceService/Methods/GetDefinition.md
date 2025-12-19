@@ -4,7 +4,7 @@ title: DataSourceService.GetDefinition(string, bool) մեթոդ
 
 ## Նկարագիր
 
-**Դաս՝** [DataSourceService](../../DataSourceService.md)
+**Դաս՝** [DataSourceService](../DataSourceService.md)
 
 ```c#
 public Task<DataSourceDefinition> GetDefinition(string dsName, 

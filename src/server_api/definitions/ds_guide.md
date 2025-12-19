@@ -39,7 +39,7 @@ sublinks:
 - sql-based (տվյալները ստացվում են տվյալների բազայից՝ sql հարցման միջոցով),
 - array-based (տվյալները ստացվում են այլ աղբյուրներից և ավելացվում տվյալների աղբյուրի տողերի զանգվածին):
   
-Տեսակը որոշվում է տվյալների աղբյուրը նկարագրող դասի [IsSQLBased](ds/Properties/IsSQLBased.md) հատկության միջոցով, որի լռությամբ արժեքը **true** է։
+Տեսակը որոշվում է տվյալների աղբյուրը նկարագրող դասի [IsSQLBased](ds/IsSQLBased.md) հատկության միջոցով, որի լռությամբ արժեքը **true** է։
 
 8X-ում տվյալների աղբյուրի նկարագրության համար հարկավոր է ունենալ [DATA](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Defs/Data.html) նկարագրություն `.as` ֆայլում, սահմանել պարամետրերի և տողերի դասերը, սահմանել կառուցվածքի սխեման և իրականացնել հաշվարկները C# դասում (`.cs` ֆայլում)։  
 
@@ -127,7 +127,7 @@ sublinks:
   ```
 
 - Կոնստրուկտորում ավելացնել տվյալների աղբյուրի սխեման, որը նախատեսված է տվյալների աղբյուրի սյուների ու պարամետրերի հատկությունները պահման համար։
-  Դա անելու համար անհրաժեշտ է բազային դասի [Schema](ds/Properties/Schema.md) հատկությանը վերագրել [Schema](../types/schema.md) տիպի նոր օբյեկտ՝ կոնստրուկտորին փոխանցելով հետևյալ պարամետրերը՝
+  Դա անելու համար անհրաժեշտ է բազային դասի [Schema](ds/Schema.md) հատկությանը վերագրել [Schema](../types/schema.md) տիպի նոր օբյեկտ՝ կոնստրուկտորին փոխանցելով հետևյալ պարամետրերը՝
   - `name` - Սխեմայի ներքին անունը։
   - `armenianCaption` - Սխեմայի հայերեն անվանումը ANSI կոդավորմամբ։
   - `englishCaption` - Սխեմայի անգլերեն անվանումը։
@@ -138,7 +138,7 @@ sublinks:
   this.Schema = new Schema(this.Name, "Ծառի հանգույցներ".ToArmenianANSI(), "Tree nodes", typeof(DataRow), typeof(Param));
   ```
 
-- Սխեմայում ավելացնել տվյալների աղբյուրի սյուների հատկությունները [Schema](../types/schema.md) դասի [AddColumn](../../extensions/definitions/ds_extender/Methods/AddColumn.md) մեթոդի միջոցով` փոխանցելով հետևյալ պարամետրերը՝
+- Սխեմայում ավելացնել տվյալների աղբյուրի սյուների հատկությունները [Schema](../types/schema.md) դասի [AddColumn](../types/schema/AddColumn.md) մեթոդի միջոցով` փոխանցելով հետևյալ պարամետրերը՝
   - `name` - Սյան ներքին անունը, որի պետք է համընկնի սյուները նկարագրող դասում ավելացված համապատասխան սյան անվան հետ:
   - `source` - SQL-ից կարդացվող սյան անունը:
   - `armenianCaption` - Սյան հայերեն անվանումը ANSI կոդավորմամբ։
@@ -150,7 +150,7 @@ sublinks:
   this.Schema.AddColumn(nameof(DataRow.Name), "Name", "Անվանում".ToArmenianANSI(), "Name", FieldTypeProvider.GetStringFieldType(50));
   ```
 
-- Սխեմայում ավելացնել պարամետրերի հատկությունները [Schema](../types/schema.md) դասի [AddParam](../../extensions/definitions/ds_extender/Methods/AddParam.md) մեթոդի միջոցով` փոխանցելով հետևյալ պարամետրերը՝
+- Սխեմայում ավելացնել պարամետրերի հատկությունները [Schema](../types/schema.md) դասի [AddParam](../types/schema/AddParam.md) մեթոդի միջոցով` փոխանցելով հետևյալ պարամետրերը՝
   - `name` - Պարամետրի ներքին անունը, որի պետք է համընկնի պարամետրերը նկարագրող դասում ավելացված համապատասխան պարամետրի անվան հետ:
   - `description` - Պարամետրի հայերեն անվանումը ANSI կոդավորմամբ։
   - `eDescription` - Պարամետրի անգլերեն անվանումը։
@@ -167,9 +167,9 @@ sublinks:
 
 ### Sql հարցման ձևավորում
 
-Վերևում նշված [ընդհանուր քայլերից](#տվյալների-աղբյուրի-նկարագրման-համար-անհրաժեշտ-ընդհանուր-քայլեր) կատարումից հետո անհրաժեշտ է override անել [MakeSQLCommand](ds/Methods/MakeSQLCommand.md) մեթոդը։
+Վերևում նշված [ընդհանուր քայլերից](#տվյալների-աղբյուրի-նկարագրման-համար-անհրաժեշտ-ընդհանուր-քայլեր) կատարումից հետո անհրաժեշտ է override անել [MakeSQLCommand](ds/MakeSQLCommand.md) մեթոդը։
 
-[MakeSQLCommand](ds/Methods/MakeSQLCommand.md) մեթոդում անհրաժեշտ է ստեղծել և վերադարձնել [SqlCommand](https://learn.microsoft.com/en-us/dotnet/api/microsoft.data.sqlclient.sqlcommand) դասի օբյեկտ՝ [IDBService](../services/IDBService.md) դասի [CreateCommand](../services/IDBService/Methods/CreateCommand.md) մեթոդի միջոցով։  
+[MakeSQLCommand](ds/MakeSQLCommand.md) մեթոդում անհրաժեշտ է ստեղծել և վերադարձնել [SqlCommand](https://learn.microsoft.com/en-us/dotnet/api/microsoft.data.sqlclient.sqlcommand) դասի օբյեկտ՝ [IDBService](../services/IDBService.md) դասի [CreateCommand](../services/IDBService/CreateCommand.md) մեթոդի միջոցով։  
 Այստեղ հարկավոր է ձևավորել sql հարցման տեքստը հաշվի առնելով նաև փոխանցված պարամետրերի արժեքները։
 
 ```c#
@@ -203,9 +203,9 @@ Sql հարցման կատարումից բացի հնարավոր է նաև լր
 
 ### Տվյալների ձևավորում
 
-Վերևում նշված [ընդհանուր քայլերից](#տվյալների-աղբյուրի-նկարագրման-համար-անհրաժեշտ-ընդհանուր-քայլեր) կատարումից հետո անհրաժեշտ է override անել [IsSQLBased](ds/Properties/IsSQLBased.md) հատկությունը՝ վերադարձնելով false արժեք և [FillData](ds/Methods/FillData.md) մեթոդը՝ տվյալները ձևավորելու համար։  
+Վերևում նշված [ընդհանուր քայլերից](#տվյալների-աղբյուրի-նկարագրման-համար-անհրաժեշտ-ընդհանուր-քայլեր) կատարումից հետո անհրաժեշտ է override անել [IsSQLBased](ds/IsSQLBased.md) հատկությունը՝ վերադարձնելով false արժեք և [FillData](ds/FillData.md) մեթոդը՝ տվյալները ձևավորելու համար։  
 
-[FillData](ds/Methods/FillData.md) մեթոդում անհրաժեշտ է ստեղծել տվյալների աղբյուրի սյուները նկարագրող դասի օբյեկտներ, լրացնել սյուների   արժեքները և ստեղծված տողերը ավելացնել տվյալների աղբյուրի [Rows](ds/Properties/Rows.md) տողերի ցուցակին։
+[FillData](ds/FillData.md) մեթոդում անհրաժեշտ է ստեղծել տվյալների աղբյուրի սյուները նկարագրող դասի օբյեկտներ, լրացնել սյուների   արժեքները և ստեղծված տողերը ավելացնել տվյալների աղբյուրի [Rows](ds/Rows.md) տողերի ցուցակին։
 
 ```c#
 public override bool IsSQLBased => false;

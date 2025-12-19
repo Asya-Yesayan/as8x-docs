@@ -5,7 +5,7 @@ title: "CertificateAuthenticateResponse դաս"
 
 Դասը պարունակում է նույնականացումը անցած կլիենտ ծրագրի և օգտագործողի տվյալները։
 
-Օգտագործվում է [AuthenticationClient](../routes/AuthenticationClient.md).[AuthenticateWithCertificateAsync](../routes/AuthenticationClient/Methods/AuthenticateWithCertificateAsync.md) մեթոդում։
+Օգտագործվում է [AuthenticationClient](../routes/AuthenticationClient.md).[AuthenticateWithCertificateAsync](../routes/AuthenticationClient/AuthenticateWithCertificateAsync.md) մեթոդում։
 
 ```c#
 public class CertificateAuthenticateResponse

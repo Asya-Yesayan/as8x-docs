@@ -21,11 +21,11 @@ public Task<DataSourceResult<R>> LongExecuteAsync(P param,
 |-----------------|----------------------|----------------|----------------|
 | param           | P                    | -              | Տվյալների աղբյուրի պարամետրերը նկարագրող դասի օբյեկտ՝ `ParameterCollection` դասի ժառանգ։ |
 | columns         | HashSet<string>      | default        | Տվյալների աղբյուրի վերադարձվող սյուների անունների ցուցակ։ Արժեք չփոխանցելու դեպքում կատարման արդյունքում վերադարձվելու են բոլոր սյուները։ |
-| isn             | string               | null           | Տվյալների աղբյուրի նշված նույնականացուցիչով ֆիլտրման արժեք։ Տե՛ս [IsUpdatable](../../../../server_api/definitions/ds/Properties/IsUpdatable.md)։ |
+| isn             | string               | null           | Տվյալների աղբյուրի նշված նույնականացուցիչով ֆիլտրման արժեք։ Տե՛ս [IsUpdatable](../../../server_api/definitions/ds/IsUpdatable.md)։ |
 | handleEvents    | bool                 | false          | — |
 | cancellationToken | CancellationToken    | default        | Ընդհատման օբյեկտ: |
 | timeout         | TimeSpan?            | null           | Տվյալների աղբյուրի աշխատանքի առավելագույն ժամանակը։ Արժեք չփոխանցելու դեպքում առավելագույն ժամանակ համարվելու է 180 վայրկյան (3 րոպե)։ |
 
 **Oրինակ**
 
-- [Տվյալների աղբյուրի և ընդլայնման կլիենտից կանչի օրինակ ոչ տիպիզացված եղանակով](../../../examples/DataSource.md)
+- [Տվյալների աղբյուրի և ընդլայնման կլիենտից կանչի օրինակ ոչ տիպիզացված եղանակով](../../examples/DataSource.md#օրինակ-2)

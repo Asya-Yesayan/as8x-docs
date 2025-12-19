@@ -4,7 +4,7 @@ title: DataSource.AfterDataReaderCloseMode հատկություն
 
 ## Նկարագիր
 
-**Դաս՝** [DataSource](../../ds.md)
+**Դաս՝** [DataSource](../ds.md)
 
 ```c#
 public virtual CallMode AfterDataReaderCloseMode
@@ -13,8 +13,8 @@ public virtual CallMode AfterDataReaderCloseMode
 }
 ```
 
-[AfterDataReaderClose](../Methods/AfterDataReaderClose.md)-ի աշխատանքի երկու տարբերակ կա կախված այս հատկության արժեքից՝
+[AfterDataReaderClose](AfterDataReaderClose.md)-ի աշխատանքի երկու տարբերակ կա կախված այս հատկության արժեքից՝
 - Ամեն տողի համար առանձին կանչ,
 - Մեկ կանչ բոլոր տողերի մշակման համար։
 
-Տե՛ս [օրինակը](../../ds_guide_row_processing.md)։
+Տե՛ս [օրինակը](../ds_guide_row_processing.md#օրինակ-2-1)։

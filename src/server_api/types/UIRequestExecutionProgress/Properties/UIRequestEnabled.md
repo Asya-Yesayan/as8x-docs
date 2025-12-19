@@ -6,4 +6,4 @@ title: UIRequestExecutionProgress.UIRequestEnabled հատկություն
 public bool UIRequestEnabled { get; internal set; }
 ```
 
-Ստուգում է արդյոք հասանելի է UI-ը թե ոչ։ Միայն UI-ի հասանելիության դեպքում է հնարավոր ցույց տալ սերվիսից եկող [հաղորդագրության պատուհանները](../Methods/MessageBox.md)։
+Ստուգում է արդյոք հասանելի է UI-ը թե ոչ։ Միայն UI-ի հասանելիության դեպքում է հնարավոր ցույց տալ սերվիսից եկող [հաղորդագրության պատուհանները](MessageBox.md)։

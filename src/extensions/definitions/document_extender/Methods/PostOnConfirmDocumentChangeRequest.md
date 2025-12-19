@@ -6,11 +6,11 @@ title: DocumentExtender.PostOnConfirmDocumentChangeRequest(Document, ConfirmDocu
 
 **Համարժեքը 4x-ում՝** [PostOnConfirmDCR](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/ScriptProcs/DocExtenderEvents/PostOnConfirmDCR.html)
 
-**Դաս՝** [DocumentExtender](../../document_extender.md)
+**Դաս՝** [DocumentExtender](../document_extender.md)
 
 ```c#
 public virtual Task PostOnConfirmDocumentChangeRequest(Document sender, 
                                                        ConfirmDocumentChangeRequestEventArgs args)
 ```
 
-PreOnConfirmDocumentChangeRequest մեթոդը կանչվում է միջուկի կողմից` փաստաթղթի պահպանման ժամանակ ([Store](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/ASDOC/Store.html)), [OnConfirmDocumentChangeRequest](../../../../server_api/definitions/document/Methods/OnConfirmDocumentChangeRequest.md) իրադարձություններից հետո։
+PreOnConfirmDocumentChangeRequest մեթոդը կանչվում է միջուկի կողմից` փաստաթղթի պահպանման ժամանակ ([Store](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/ASDOC/Store.html)), [OnConfirmDocumentChangeRequest](../../../server_api/definitions/document/OnConfirmDocumentChangeRequest.md) իրադարձություններից հետո։

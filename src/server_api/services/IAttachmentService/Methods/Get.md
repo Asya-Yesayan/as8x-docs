@@ -6,14 +6,14 @@ title: IAttachmentService.Get(int, string) մեթոդ
 
 **Համարժեքը 4x-ում՝** AsAttachmentCollection.Item
 
-**Դաս՝** [IAttachmentService](../../../examples/IAttachmentService.md)
+**Դաս՝** [IAttachmentService](../IAttachmentService.md)
 
 ```c#
 public Task<AttachmentModel> Get(int isn, 
                                  string fileName)
 ```
 
-Վերադարձնում է փաստաթղթին [կցված ֆայլի տվյալները](../../../types/AttachmentModel.md)՝ ըստ ֆայլի անվան և փաստաթղթի ներքին նույնականացման համարի (ISN)։
+Վերադարձնում է փաստաթղթին [կցված ֆայլի տվյալները](../../types/AttachmentModel.md)՝ ըստ ֆայլի անվան և փաստաթղթի ներքին նույնականացման համարի (ISN)։
 
 **Պարամետրեր**
 

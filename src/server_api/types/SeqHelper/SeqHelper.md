@@ -6,4 +6,4 @@ title: SeqHelper դաս
 
 | Անվանում | Նկարագրություն |
 |----------|----------------|
-| [GetEventException(string)](Methods/GetEventException.md) | Վերադարձնում է [Seq](https://datalust.co/)-ում գրանցված իրադարձությունում պարունակվող սխալի հաղորդագրությունը (Message): |
+| [GetEventException(string)](GetEventException.md) | Վերադարձնում է [Seq](https://datalust.co/)-ում գրանցված իրադարձությունում պարունակվող սխալի հաղորդագրությունը (Message): |
