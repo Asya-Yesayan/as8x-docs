@@ -12,10 +12,10 @@ title: "8x-ի ճարտարապետության հիմունքները"
 * Կիրառությունների սերվերը (application server) իրականացված որպես է ASP.NET Core Web API։
 * Տվյալների բազան (database) օգտագործում է Microsoft SQL Server-ը։
 
-![8x Ճարտարապետությունը](fundamentals_architecture_simple.png)  
+![8x Ճարտարապետությունը](Images/fundamentals_architecture_simple.png)  
 *8x ճարտարապետությունը պարզեցված*
 
 8x Windows կլիենտը աշխատում է կիրառությունների սերվերը հետ ստանդարտ REST(http,json) արձանագրությամբ։ Օգտագործելով 8x REST API-ը այլ համակարգեր նույն պես կարող են աշխատել կիրառությունների սերվերի հետ, օրինակ ինտեգման նպատակով։ 4x Windows կլիենտը օգտագործում է 8x REST API-ը 4x-ից դեպի 8x անցման ժամանակ։ 
 
-![8x Ճարտարապետությունը](fundamentals_architecture_rest_usage.png)  
+![8x Ճարտարապետությունը](Images/fundamentals_architecture_rest_usage.png)  
 *8x REST API-ի օգտագործման օրինակ*
