@@ -6,7 +6,7 @@ title: Document.TakeSnapshot(SnapshotContent, string, bool) մեթոդ
 
 **Համարժեքը 4x-ում՝** AsDoc.TakeSnapshot
 
-**Դաս՝** [Document](../../document.md)
+**Դաս՝** [Document](../../Document.md)
 
 ```c#
 public Task TakeSnapshot(SnapshotContent content, 

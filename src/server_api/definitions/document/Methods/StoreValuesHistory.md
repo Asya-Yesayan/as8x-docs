@@ -4,7 +4,7 @@ title: Document.StoreValuesHistory() մեթոդ
 
 ## Նկարագիր
 
-**Դաս՝** [Document](../../document.md)
+**Դաս՝** [Document](../../Document.md)
 
 ```c#
 public Task StoreValuesHistory()

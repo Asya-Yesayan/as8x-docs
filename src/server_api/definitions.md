@@ -3,7 +3,7 @@ layout: page
 title: "Բոլոր նկարագրությունները" 
 ---
 
-* [Փաստաթղթի նկարագրություն](definitions/document.md)
+* [Փաստաթղթի նկարագրություն](definitions/Document.md)
 * [Տվյալների աղբյուրի նկարագրություն](definitions/ds.md)
 * [Տվյալների մշակման հարցման (DPR) նկարագրություն](definitions/dpr.md)
 * [Սերվերային մոդուլի նկարագրություն](../extensions/Definitions/server_side_module.md)

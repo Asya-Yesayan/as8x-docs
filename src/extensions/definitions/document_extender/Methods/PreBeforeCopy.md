@@ -6,7 +6,7 @@ title: DocumentExtender.PreBeforeCopy(Document, BeforeCopyEventArgs) մեթոդ
 
 **Համարժեքը 4x-ում՝** ScriptExtension.DocPreBeforeCopy
 
-**Դաս՝** [DocumentExtender](../document_extender.md)
+**Դաս՝** [DocumentExtender](../../document_extender.md)
 
 ```c#
 public virtual Task PreBeforeCopy(Document sender, 

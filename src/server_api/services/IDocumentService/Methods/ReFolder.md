@@ -14,12 +14,12 @@ public Task ReFolder(Document document,
 ```
 
 Իրականացնում է փաստաթղթի վերաինդեքսավորումը թղթապանակներում:
-Այսինքն առաջացնում է [Folders](../../definitions/document/Folders.md) իրադարձությունը և համապատասխան մշակիչը։
+Այսինքն առաջացնում է [Folders](../../../definitions/Document/Methods/Folders.md) իրադարձությունը և համապատասխան մշակիչը։
 
 **Պարամետրեր**
 
 | Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
 |-----------------|----------------------|----------------|----------------|
-| document        | Document             | -              | [Փաստաթղթի օբյեկտ](../../definitions/document.md)։ |
+| document        | Document             | -              | [Փաստաթղթի օբյեկտ](../../definitions/Document.md)։ |
 | mode            | StoreMode            | -              | [Փաստաթղթի պահպանման ռեժիմը](../../types/StoreMode.md)։ |
-  Տե՛ս [Document](../../definitions/document.md).[StoreMode](../../definitions/document/StoreMode.md) հատկությունը։
+  Տե՛ս [Document](../../../definitions/Document.md).[StoreMode](../../../definitions/Document/Properties/StoreMode.md) հատկությունը։

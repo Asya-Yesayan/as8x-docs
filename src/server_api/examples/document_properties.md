@@ -3,8 +3,8 @@ title: "Փաստաթղթի Properties-ի հետ աշխատանքի օրինակ"
 ---
 
 Այս օրինակում`
-* [ստեղծվում](../services/IDocumentService/Create.md) է **Doc1** տիպի փաստաթուղթ, [արժեքավորվում](../definitions/document/indexer.md) են որոշ դաշտեր և փաստաթուղթը ավելացվում է ընթացիկ փաստաթղթի [Properties](../definitions/document/Properties.md)-ում,
-* [SerializeComplexObjects](../definitions/document/SerializeComplexObjects.md) մեթոդում ստուգվում է [Properties](../definitions/document/Properties.md)-ում "DocName" անունով տարրի (փաստաթղթի) առկայությունը և առկայության դեպքում այն սերիալիզացվում է **DocumentModel** տիպի՝ [IDocumentService](../services/IDocumentService.md)-ի [SerializeResponseBody](../services/IDocumentService/SerializeResponseBody.md) մեթոդի միջոցով,
+* [ստեղծվում](../services/IDocumentService/Methods/Create.md) է **Doc1** տիպի փաստաթուղթ, [արժեքավորվում](../definitions/Document/Properties/indexer.md) են որոշ դաշտեր և փաստաթուղթը ավելացվում է ընթացիկ փաստաթղթի [Properties](../definitions/Document/Properties/Properties.md)-ում,
+* [SerializeComplexObjects](../definitions/Document/Methods/SerializeComplexObjects.md) մեթոդում ստուգվում է [Properties](../definitions/Document/Properties/Properties.md)-ում "DocName" անունով տարրի (փաստաթղթի) առկայությունը և առկայության դեպքում այն սերիալիզացվում է **DocumentModel** տիպի՝ [IDocumentService](../services/IDocumentService.md)-ի [SerializeResponseBody](../services/IDocumentService/Methods/SerializeResponseBody.md) մեթոդի միջոցով,
 * սերիալիզացված տարրը ավելացվում է փաստաթղթի նկարագրությունում **args** պարամետրի **Serialize** մեթոդի օգնությամբ։
 
 ```c#
@@ -29,7 +29,7 @@ public override async Task SerializeComplexObjects(SerializeComplexObjectsEventA
 
 **Կարևոր**
 
-8x-ի [Properties](../definitions/document/Properties.md)-ում ավելացված բարդ օբյեկտները դեսերիալիզացնելու համար 4x-ում անհրաժեշտ է մշակել **DeserializeComplexObjects** իրադարձությունը։
+8x-ի [Properties](../definitions/Document/Properties/Properties.md)-ում ավելացված բարդ օբյեկտները դեսերիալիզացնելու համար 4x-ում անհրաժեշտ է մշակել **DeserializeComplexObjects** իրադարձությունը։
 
 * **DeserializeComplexObjects** իրադարձության **oEventArgsDocDeserializeObjects** արգումենտի ComplexObjectsJson հատկությունում ստուգվում է "DocName" անունով օբյեկտի առկայությունը՝ [ObjectOf](https://www.chilkatsoft.com/refdoc/xChilkatJsonObjectRef.html#ObjectOf) մեթոդի միջոցով,
 * առկայության դեպքում [ստացվում](https://www.chilkatsoft.com/refdoc/xChilkatJsonObjectRef.html#ObjectOf) է օբյեկտի պարունակությունը, [ստեղծվում](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/DocumentsCirculation/CreateDoc.html) դատարկ փաստաթուղթ և փաստաթղթին վերագրվում օբյեկտի պարունակությունը՝ **DeserialiseResponseBody** մեթոդի միջոցով,

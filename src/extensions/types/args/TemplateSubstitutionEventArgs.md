@@ -14,7 +14,7 @@ title: "TemplateSubstitutionEventArgs դաս"
 |----------|----------------|
 | [Mode](TemplateSubstitutionEventArgs/Properties/Mode.md) | Վերադարձնում կամ նշանակում է տպելու ձևանմուշի տվյալների խմբերի և յուրաքանչյուր խմբի թույլատրված լինելու հայտանիշների բազմությունը։ |
 | [Parameters](TemplateSubstitutionEventArgs/Properties/Parameters.md) | Վերադարձնում կամ նշանակում է փաստաթղթի [TemplateSubstitutionParameters](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/ScriptProcs/TemplateSubstitutionParameters.html) մեթոդի կանչի արդյունքում ձևավորված տպելու ձևանմուշի լրացվող արժեքների բազմությունը։ |
-| [Result](TemplateSubstitutionEventArgs/Properties/Result.md) | Վերադարձնում կամ նշանակում է փաստաթղթի [TemplateSubstitution](../../../server_api/definitions/document/TemplateSubstitution.md) մեթոդի կանչի արդյունքում ձևավորված տպելու ձևանմուշի լրացվող արժեքների բազմությունը։ |
+| [Result](TemplateSubstitutionEventArgs/Properties/Result.md) | Վերադարձնում կամ նշանակում է փաստաթղթի [TemplateSubstitution](../../../server_api/definitions/Document/Methods/TemplateSubstitution.md) մեթոդի կանչի արդյունքում ձևավորված տպելու ձևանմուշի լրացվող արժեքների բազմությունը։ |
 
 ## Մեթոդներ
 

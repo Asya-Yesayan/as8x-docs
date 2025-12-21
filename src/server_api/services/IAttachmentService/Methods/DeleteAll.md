@@ -4,7 +4,7 @@ title: IAttachmentService.DeleteAll(int) մեթոդ
 
 ## Նկարագիր
 
-**Դաս՝** [IAttachmentService](../IAttachmentService.md)
+**Դաս՝** [IAttachmentService](../../IAttachmentService.md)
 
 ```c#
 public Task DeleteAll(int isn)

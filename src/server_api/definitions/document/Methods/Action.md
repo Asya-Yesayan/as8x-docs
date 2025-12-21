@@ -6,7 +6,7 @@ title: Document.Action(ActionEventArgs) մեթոդ
 
 **Համարժեքը 4x-ում՝** [Action](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/ScriptProcs/Action.html)
 
-**Դաս՝** [Document](../../document.md)
+**Դաս՝** [Document](../../Document.md)
 
 ```c#
 public virtual Task Action(ActionEventArgs args)

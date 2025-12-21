@@ -8,7 +8,7 @@ title: "IKernelService սերվիս"
 |----------|----------------|
 | [GetExchangeRate(string, DateTime, DateTime?)](IKernelService/Methods/GetExchangeRate.md) | Վերադարձնում է արտարժույթի ՀՀ ԿԲ փոխարժեքը։ |
 | [GetRem(string, int, DateTime?)](IKernelService/Methods/GetRem.md) | Վերադարձնում է փաստաթղթի հաշվառման մնացորդը նշված ամսաթվի դրությամբ։ |
-| [GetRemHI2](IKernelService/GetRemHI2.md) | Վերադարձնում է փաստաթղթի [HI2](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Database/Hi2.html) աղյուսակում գրանցվող հաշվառման մնացորդը նշված ամսաթվի դրությամբ։ |
+| [GetRemHI2](IKernelService/Methods/GetRemHI2.md) | Վերադարձնում է փաստաթղթի [HI2](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Database/Hi2.html) աղյուսակում գրանցվող հաշվառման մնացորդը նշված ամսաթվի դրությամբ։ |
 | [GetTurn(string, int, DateTime, DateTime, string)](IKernelService/Methods/GetTurn.md) | Վերադարձնում է փաստաթղթի հաշվառման դեբետային և կրեդիտային շրջանառության արժեքները տրված ժամանակաշրջանի համար։ |
 | [GetTurnHI2(string, int, int, DateTime, DateTime, string, int)](IKernelService/Methods/GetTurnHI2.md) | Վերադարձնում է փաստաթղթի [HI2](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Database/Hi2.html) աղյուսակում գրանցվող հաշվառման դեբետային և կրեդիտային շրջանառության արժեքները ըստ տրված կուտակող օբյեկտի և տրված ժամանակաշրջանի համար։ |
 | [GetTurnFull(string, int, DateTime, DateTime)](IKernelService/Methods/GetTurnFull.md) | Վերադարձնում է փաստաթղթի հաշվառման դեբետային և կրեդիտային շրջանառության արժեքները տրված ժամանակաշրջանի համար, ինչպես նաև սկզբնական և վերջնական մնացորդները։ |

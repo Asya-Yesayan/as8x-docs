@@ -18,4 +18,4 @@ public Task HiParDelete(Document doc)
 
 | Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
 |-----------------|----------------------|----------------|----------------|
-| doc             | Document             | -              | [Փաստաթղթի օբյեկտ](../../definitions/document.md)։ |
+| doc             | Document             | -              | [Փաստաթղթի օբյեկտ](../../definitions/Document.md)։ |

@@ -6,7 +6,7 @@ title: Document.StoredFacts հատկություն
 
 **Համարժեքը 4x-ում՝** [AsDoc.StoredFacts](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/ASDOC/StoredFacts.html)
 
-**Դաս՝** [Document](../../document.md)
+**Դաս՝** [Document](../../Document.md)
 
 ```c#
 public List<Fact> StoredFacts { get; internal set; }

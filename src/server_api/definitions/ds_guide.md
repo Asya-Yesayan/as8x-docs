@@ -127,7 +127,7 @@ sublinks:
   ```
 
 - Կոնստրուկտորում ավելացնել տվյալների աղբյուրի սխեման, որը նախատեսված է տվյալների աղբյուրի սյուների ու պարամետրերի հատկությունները պահման համար։
-  Դա անելու համար անհրաժեշտ է բազային դասի [Schema](ds/Schema.md) հատկությանը վերագրել [Schema](../types/schema.md) տիպի նոր օբյեկտ՝ կոնստրուկտորին փոխանցելով հետևյալ պարամետրերը՝
+  Դա անելու համար անհրաժեշտ է բազային դասի [Schema](ds/Properties/Schema.md) հատկությանը վերագրել [Schema](../types/schema.md) տիպի նոր օբյեկտ՝ կոնստրուկտորին փոխանցելով հետևյալ պարամետրերը՝
   - `name` - Սխեմայի ներքին անունը։
   - `armenianCaption` - Սխեմայի հայերեն անվանումը ANSI կոդավորմամբ։
   - `englishCaption` - Սխեմայի անգլերեն անվանումը։
@@ -167,9 +167,9 @@ sublinks:
 
 ### Sql հարցման ձևավորում
 
-Վերևում նշված [ընդհանուր քայլերից](#տվյալների-աղբյուրի-նկարագրման-համար-անհրաժեշտ-ընդհանուր-քայլեր) կատարումից հետո անհրաժեշտ է override անել [MakeSQLCommand](ds/MakeSQLCommand.md) մեթոդը։
+Վերևում նշված [ընդհանուր քայլերից](#տվյալների-աղբյուրի-նկարագրման-համար-անհրաժեշտ-ընդհանուր-քայլեր) կատարումից հետո անհրաժեշտ է override անել [MakeSQLCommand](ds/Methods/MakeSQLCommand.md) մեթոդը։
 
-[MakeSQLCommand](ds/MakeSQLCommand.md) մեթոդում անհրաժեշտ է ստեղծել և վերադարձնել [SqlCommand](https://learn.microsoft.com/en-us/dotnet/api/microsoft.data.sqlclient.sqlcommand) դասի օբյեկտ՝ [IDBService](../services/IDBService.md) դասի [CreateCommand](../services/IDBService/CreateCommand.md) մեթոդի միջոցով։  
+[MakeSQLCommand](ds/Methods/MakeSQLCommand.md) մեթոդում անհրաժեշտ է ստեղծել և վերադարձնել [SqlCommand](https://learn.microsoft.com/en-us/dotnet/api/microsoft.data.sqlclient.sqlcommand) դասի օբյեկտ՝ [IDBService](../services/IDBService.md) դասի [CreateCommand](../services/IDBService/Methods/CreateCommand.md) մեթոդի միջոցով։  
 Այստեղ հարկավոր է ձևավորել sql հարցման տեքստը հաշվի առնելով նաև փոխանցված պարամետրերի արժեքները։
 
 ```c#
@@ -203,9 +203,9 @@ Sql հարցման կատարումից բացի հնարավոր է նաև լր
 
 ### Տվյալների ձևավորում
 
-Վերևում նշված [ընդհանուր քայլերից](#տվյալների-աղբյուրի-նկարագրման-համար-անհրաժեշտ-ընդհանուր-քայլեր) կատարումից հետո անհրաժեշտ է override անել [IsSQLBased](ds/IsSQLBased.md) հատկությունը՝ վերադարձնելով false արժեք և [FillData](ds/FillData.md) մեթոդը՝ տվյալները ձևավորելու համար։  
+Վերևում նշված [ընդհանուր քայլերից](#տվյալների-աղբյուրի-նկարագրման-համար-անհրաժեշտ-ընդհանուր-քայլեր) կատարումից հետո անհրաժեշտ է override անել [IsSQLBased](ds/Properties/IsSQLBased.md) հատկությունը՝ վերադարձնելով false արժեք և [FillData](ds/Methods/FillData.md) մեթոդը՝ տվյալները ձևավորելու համար։  
 
-[FillData](ds/FillData.md) մեթոդում անհրաժեշտ է ստեղծել տվյալների աղբյուրի սյուները նկարագրող դասի օբյեկտներ, լրացնել սյուների   արժեքները և ստեղծված տողերը ավելացնել տվյալների աղբյուրի [Rows](ds/Rows.md) տողերի ցուցակին։
+[FillData](ds/Methods/FillData.md) մեթոդում անհրաժեշտ է ստեղծել տվյալների աղբյուրի սյուները նկարագրող դասի օբյեկտներ, լրացնել սյուների   արժեքները և ստեղծված տողերը ավելացնել տվյալների աղբյուրի [Rows](ds/Properties/Rows.md) տողերի ցուցակին։
 
 ```c#
 public override bool IsSQLBased => false;

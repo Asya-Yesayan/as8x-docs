@@ -24,5 +24,5 @@ public Task EvalAndAddUserDefinedParametersEx(string name,
 | name            | string               | -              | Տպելու ձևանմուշի ներքին անուն: |
 | type            | SubstitutionType     | -              | [Տպելու ձևանմուշի տիպ](../../types/SubstitutionType.md): |
 | printTemplateSubstitutionEx | PrintTemplateSubstitutionEx | -              | Տպելու ձևանմուշի տեղադրվող արժեքները տիպիզացված ձևով պարունակող օբյեկտ։ |
-| document        | Document.Document    | -              | Տպելու ձևանմուշի հետ կապակցված [փաստաթղթի օբյեկտ](../../definitions/document.md)։ Կարող է փոխանցվել `null`, եթե տպելու ձևը կապված չէ փաստաթղթի հետ։ |
+| document        | Document.Document    | -              | Տպելու ձևանմուշի հետ կապակցված [փաստաթղթի օբյեկտ](../../definitions/Document.md)։ Կարող է փոխանցվել `null`, եթե տպելու ձևը կապված չէ փաստաթղթի հետ։ |
   

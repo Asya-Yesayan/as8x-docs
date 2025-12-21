@@ -4,7 +4,7 @@ title: Document.DocumentLog հատկություն
 
 ## Նկարագիր
 
-**Դաս՝** [Document](../../document.md)
+**Դաս՝** [Document](../../Document.md)
 
 ```c#
 public DocumentLog DocumentLog { get; internal set; } = new DocumentLog();

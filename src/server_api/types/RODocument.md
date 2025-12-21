@@ -31,15 +31,15 @@ RODocument տեսակի փաստաթուղթը տվյալների պահոցից
 
 | Անվանում | Նկարագրություն |
 |----------|----------------|
-| [Archived](RODocument/Archived.md) | Ցույց է տալիս փաստաթղթի արխիվացված լինելը։ |
-| [CreationDate](RODocument/CreationDate.md) | Վերադարձնում է փաստաթղթի ստեղծման ամսաթիվը/ժամանակը։ |
-| [CreatorSUID](RODocument/CreatorSUID.md) | Վերադարձնում է փաստաթուղթը ստեղծողի ներքին համարը (user id): |
-| [Description](RODocument/Description.md) | Վերադարձնում է փաստաթղթի նկարագրությունը։ |
+| [Archived](RODocument/Properties/Archived.md) | Ցույց է տալիս փաստաթղթի արխիվացված լինելը։ |
+| [CreationDate](RODocument/Properties/CreationDate.md) | Վերադարձնում է փաստաթղթի ստեղծման ամսաթիվը/ժամանակը։ |
+| [CreatorSUID](RODocument/Properties/CreatorSUID.md) | Վերադարձնում է փաստաթուղթը ստեղծողի ներքին համարը (user id): |
+| [Description](RODocument/Properties/Description.md) | Վերադարձնում է փաստաթղթի նկարագրությունը։ |
 | [DocumentType](RODocument/DocumentType.md) | Վերադարձնում է փաստաթղթի տեսակը։ |
 | [Fields](RODocument/Fields.md) | Վերադարձնում է փաստաթղթի դաշտերը որպես dictionary, որտեղ բանալին՝ դաշտի ներքին անունն է, իսկ արժեքը՝ դաշտի արժեքը: |
-| [indexer](RODocument/indexer.md) | Վերադարձնում է փաստաթղթի տրված ներքին անունով դաշտի արժեքը։ |
-| [ISN](RODocument/ISN.md) | Վերադարձնում է փաստաթղթի ներքին նույնականացման համարը (isn-ը): |
+| [indexer](RODocument/Properties/indexer.md) | Վերադարձնում է փաստաթղթի տրված ներքին անունով դաշտի արժեքը։ |
+| [ISN](RODocument/Properties/ISN.md) | Վերադարձնում է փաստաթղթի ներքին նույնականացման համարը (isn-ը): |
 | [LastLookup](RODocument/LastLookup.md) | Վերադարձնում է փաստաթղթի քեշում փնտրման և քեշից բեռնման վերջին ամսաթիվը/ժամանակը: |
-| [LastTSCheck](RODocument/LastTSCheck.md) | Վերադարձնում է փաստաթղթի [TimeStamp](RODocument/TimeStamp.md)-ի տվյալների պահոցից վերջին ստուգման ամսաթիվը/ժամանակը: |
+| [LastTSCheck](RODocument/Properties/LastTSCheck.md) | Վերադարձնում է փաստաթղթի [TimeStamp](RODocument/Properties/TimeStamp.md)-ի տվյալների պահոցից վերջին ստուգման ամսաթիվը/ժամանակը: |
 | [TimeStamp](RODocument/Properties/TimeStamp.md) | Նշանակում է կամ վերադարձնում փաստաթղթի վերջին փոփոխման ամսաթիվը և ժամանակը` որպես byte տիպի զանգված: |
-| [State](RODocument/State.md) | Վերադարձնում կամ նշանակում է փաստաթղթի վիճակը: |
+| [State](RODocument/Properties/State.md) | Վերադարձնում կամ նշանակում է փաստաթղթի վիճակը: |

@@ -20,5 +20,5 @@ public void SetGridDefaultValues(Document document,
 
 | Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
 |-----------------|----------------------|----------------|----------------|
-| document        | Document             | -              | [Փաստաթղթի օբյեկտ](../../definitions/document.md)։ |
+| document        | Document             | -              | [Փաստաթղթի օբյեկտ](../../definitions/Document.md)։ |
 | gridColumns     | Dictionary<string, HashSet<string>> | -              | Dictionary տիպի օբյեկտ, որտեղ բանալի հանդիսանում է աղյուսակի ներքին անունը, իսկ արժեք՝ աղյուսակի այն սյուների ցուցակը, որոնց պետք է տալ լռությամբ արժեքներ։ |

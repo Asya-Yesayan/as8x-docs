@@ -4,7 +4,7 @@ title: DataSourceService.ClearDefinitions(IEnumerable<string>) մեթոդ
 
 ## Նկարագիր
 
-**Դաս՝** [DataSourceService](../DataSourceService.md)
+**Դաս՝** [DataSourceService](../../DataSourceService.md)
 
 ```c#
 public void ClearDefinitions(IEnumerable<string> names = null)

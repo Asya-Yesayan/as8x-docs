@@ -20,7 +20,7 @@ public Task Approve(Document document,
 
 | Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
 |-----------------|----------------------|----------------|----------------|
-| document        | Document             | -              | [Փաստաթղթի օբյեկտ](../../definitions/document.md)։ |
+| document        | Document             | -              | [Փաստաթղթի օբյեկտ](../../definitions/Document.md)։ |
 | checkLevel      | DocumentCheckLevel   | DocumentCheckLevel.None | [Փաստաթղթի գրանցման եղանակ](../../types/DocumentCheckLevel.md)։ |
 | logComment      | string               | ""             | Փաստաթղթի պատմության մեջ գրանցվող հաղորդագրություն։ |
 
@@ -40,7 +40,7 @@ public Task CheckAndStore(Document document,
 
 | Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
 |-----------------|----------------------|----------------|----------------|
-| document        | Document             | -              | [Փաստաթղթի օբյեկտ](../../definitions/document.md)։ |
+| document        | Document             | -              | [Փաստաթղթի օբյեկտ](../../definitions/Document.md)։ |
 | mode            | StoreMode            | -              | [Փաստաթղթի պահպանման ռեժիմը](StoreMode.md)։ |
 | checkLevel      | DocumentCheckLevel   | DocumentCheckLevel.None | [Փաստաթղթի ստուգման մակարդակը](DocumentCheckLevel.md)։ |
 | stateBeforeCallPostMessage | int                  | 0              | Փաստաթղթի վիճակը PostMessage մեթոդի կանչից առաջ։ |

@@ -20,6 +20,6 @@ public Task Store(Document document,
 
 | Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
 |-----------------|----------------------|----------------|----------------|
-| document        | Document             | -              | [Փաստաթղթի օբյեկտ](../../definitions/document.md)։ |
+| document        | Document             | -              | [Փաստաթղթի օբյեկտ](../../definitions/Document.md)։ |
 | checkLevel      | DocumentCheckLevel   | DocumentCheckLevel.None | [Փաստաթղթի ստուգման մակարդակը](../../types/DocumentCheckLevel.md)։ |
 | logComment      | string               | ""             | Փաստաթղթի պատմության մեջ գրանցվող հաղորդագրությունը։ |

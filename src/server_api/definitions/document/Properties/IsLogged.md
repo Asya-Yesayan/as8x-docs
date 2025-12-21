@@ -4,7 +4,7 @@ title: Document.IsLogged հատկություն
 
 ## Նկարագիր
 
-**Դաս՝** [Document](../../document.md)
+**Դաս՝** [Document](../../Document.md)
 
 ```c#
 public bool IsLogged { get; set; }

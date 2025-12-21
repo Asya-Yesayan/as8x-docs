@@ -4,7 +4,7 @@ title: Document.Progress հատկություն
 
 ## Նկարագիր
 
-**Դաս՝** [Document](../../document.md)
+**Դաս՝** [Document](../../Document.md)
 
 ```c#
 public IUIRequestExecutionProgress Progress { get; private set; }

@@ -21,8 +21,8 @@ public Task<ITemplateSubstitution> GetReadyTemplateSubstitution(Document.Documen
 
 | Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
 |-----------------|----------------------|----------------|----------------|
-| document        | Document.Document    | -              | Տպելու ձևանմուշի հետ կապակցված [փաստաթուղթ](../../definitions/document.md)։ |
+| document        | Document.Document    | -              | Տպելու ձևանմուշի հետ կապակցված [փաստաթուղթ](../../definitions/Document.md)։ |
 | templateName    | string               | -              | Տպելու ձևանմուշի ներքին անունը։ |
 | templateType    | SubstitutionType     | -              | [Տպելու ձևանմուշի տիպ](../../types/SubstitutionType.md): |
-| parameters      | Dictionary<string, object> | -              | Տպելու ձևանմուշի լրացման պարամետրերի Dictionary, որտեղ բանալին՝ պարամետրի անունն է, իսկ արժեքը՝ պարամետրի արժեքը: <br> Այս պարամետրի արժեքը փոխանցվելու է տպելու ձևանմուշի տեղադրվող արժեքները հաշվարկող [TemplateSubstitution](../../definitions/document/TemplateSubstitution.md) իրադարձության մշակիչին։ |
+| parameters      | Dictionary<string, object> | -              | Տպելու ձևանմուշի լրացման պարամետրերի Dictionary, որտեղ բանալին՝ պարամետրի անունն է, իսկ արժեքը՝ պարամետրի արժեքը: <br> Այս պարամետրի արժեքը փոխանցվելու է տպելու ձևանմուշի տեղադրվող արժեքները հաշվարկող [TemplateSubstitution](../../../definitions/Document/Methods/TemplateSubstitution.md) իրադարձության մշակիչին։ |
   

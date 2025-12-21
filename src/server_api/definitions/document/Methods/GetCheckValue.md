@@ -6,7 +6,7 @@ title: Document.GetCheckValue(string) մեթոդ
 
 **Համարժեքը 4x-ում՝** [AsDoc.CheckValue](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/ASDOC/CheckValue.html)
 
-**Դաս՝** [Document](../../document.md)
+**Դաս՝** [Document](../../Document.md)
 
 ```c#
 public bool GetCheckValue(string fieldName)

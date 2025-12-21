@@ -6,7 +6,7 @@ title: IAccountingOnLimitFault.OnLimitFault մեթոդ
 
 **Համարժեքը 4x-ում՝** [OnLimitFault](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/ScriptProcs/OnLimitFault.html)
 
-**Դաս՝** [Accounting](../../accounting.md)
+**Դաս՝** [Accounting](../../Accounting.md)
 
 ## Գերբեռնումներ
 
@@ -27,7 +27,7 @@ public Task<bool> OnLimitFault(int isn,
 
 Մեթոդը կանչվում է միջուկի կողմից [HI](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Database/Hi.html) աղյուսակում գրանցված հաշվառման սահմանաչափերի խախտման ժամանակ, որոնք դրված են հաշվառում օբյեկտի վրա։
 
-[HI](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Database/Hi.html) աղյուսակում գրանցված հաշվառումների սահմանաչափերի խախտման ժամանակ լրացուցիչ մշակումներ իրականացնելու համար [հաշվառումը նկարագրող դասը](../../accounting.md) պետք է իրականացնի `IAccountingOnLimitFault` ինտերֆեյսը։
+[HI](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Database/Hi.html) աղյուսակում գրանցված հաշվառումների սահմանաչափերի խախտման ժամանակ լրացուցիչ մշակումներ իրականացնելու համար [հաշվառումը նկարագրող դասը](../../Accounting.md) պետք է իրականացնի `IAccountingOnLimitFault` ինտերֆեյսը։
 
 **Պարամետրեր**
 
@@ -51,7 +51,7 @@ public Task OnLimitFault(int isn,
 
 Մեթոդը կանչվում է միջուկի կողմից [HI2](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Database/Hi2.html) աղյուսակում գրանցված հաշվառման սահմանաչափերի խախտման ժամանակ, որոնք դրված են հաշվառում օբյեկտի վրա։
 
-[HI2](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Database/Hi2.html) աղյուսակում գրանցված հաշվառումների սահմանաչափերի խախտման ժամանակ լրացուցիչ մշակումներ իրականացնելու համար [հաշվառումը նկարագրող դասը](../../accounting.md) պետք է իրականացնի `IAccountingOnHI2LimitFault` ինտերֆեյսը։
+[HI2](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Database/Hi2.html) աղյուսակում գրանցված հաշվառումների սահմանաչափերի խախտման ժամանակ լրացուցիչ մշակումներ իրականացնելու համար [հաշվառումը նկարագրող դասը](../../Accounting.md) պետք է իրականացնի `IAccountingOnHI2LimitFault` ինտերֆեյսը։
 
 **Պարամետրեր**
 

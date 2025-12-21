@@ -6,24 +6,24 @@ title: IAttachmentService.Add(AttachmentAddModel) մեթոդ
 
 **Համարժեքը 4x-ում՝** [AsAttachmentCollection.Add](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/AsAttachmentCollection/Add.html)
 
-**Դաս՝** [IAttachmentService](../IAttachmentService.md)
+**Դաս՝** [IAttachmentService](../../IAttachmentService.md)
 
 ```c#
 public Task<AttachmentModel> Add(AttachmentAddModel attachment)
 ```
 
-Կցում է ֆայլը փաստաթղթին, գրանցում տվյալների պահոցի [DOCSATTACH](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Database/DocsAttach.html) աղյուսակում և վերադարձնում [կցված ֆայլի տվյալները](../../types/AttachmentModel.md)։
+Կցում է ֆայլը փաստաթղթին, գրանցում տվյալների պահոցի [DOCSATTACH](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Database/DocsAttach.html) աղյուսակում և վերադարձնում [կցված ֆայլի տվյալները](../../../types/AttachmentModel.md)։
 Տվյալների պահոցում գրանցվում են նաև ավելացման ամսաթիվը, կատարողի և համակարգչի տվյալները։
 
 Փաստաթղթին կարելի է կցել առավելագույնը 10 մբ ծավալով ֆայլ։
 
-Տե՛ս [օրինակը](../../examples/IAttachmentService.md#օրինակ-1)։
+Տե՛ս [օրինակը](../../../examples/IAttachmentService.md#օրինակ-1)։
 
 **Պարամետրեր**
 
 | Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
 |-----------------|----------------------|----------------|----------------|
-| attachment      | AttachmentAddModel   | -              | [Կցվող ֆայլի տվյալներ](../../types/AttachmentAddModel.md)՝ փաստաթղթի ISN, ֆայլի անուն, նույնականացուցիչ, մեկնաբանություն, կցման ձև։ |
+| attachment      | AttachmentAddModel   | -              | [Կցվող ֆայլի տվյալներ](../../../types/AttachmentAddModel.md)՝ փաստաթղթի ISN, ֆայլի անուն, նույնականացուցիչ, մեկնաբանություն, կցման ձև։ |
 
 <!-- **Կարևոր**
 
@@ -31,4 +31,4 @@ public Task<AttachmentModel> Add(AttachmentAddModel attachment)
 
 **Օրինակ**
 
-Տե՛ս [օրինակը](../../examples/IAttachmentService.md#օրինակ-1)։ -->
+Տե՛ս [օրինակը](../../../examples/IAttachmentService.md#օրինակ-1)։ -->

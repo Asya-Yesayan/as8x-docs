@@ -4,7 +4,7 @@ title: Extender.BeforeProcess(IList<IExtendableRow>, IDataSourceArgs) մեթոդ
 
 ## Նկարագիր
 
-**Դաս՝** [Extender](../ds_extender.md)
+**Դաս՝** [Extender](../../ds_extender.md)
 
 ```c#
 public virtual Task BeforeProcess(IList<IExtendableRow> rows, 

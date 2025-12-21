@@ -6,7 +6,7 @@ title: Document.DeserializeComplexObjects(DeserializeComplexObjectsEventArgs) մ
 
 **Համարժեքը 4x-ում՝** DeserializeComplexObjects
 
-**Դաս՝** [Document](../../document.md)
+**Դաս՝** [Document](../../Document.md)
 
 ```c#
 public virtual Task DeserializeComplexObjects(DeserializeComplexObjectsEventArgs args)

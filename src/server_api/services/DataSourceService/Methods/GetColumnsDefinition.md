@@ -4,7 +4,7 @@ title: DataSourceService.GetColumnsDefinition(string) մեթոդ
 
 ## Նկարագիր
 
-**Դաս՝** [DataSourceService](../DataSourceService.md)
+**Դաս՝** [DataSourceService](../../DataSourceService.md)
 
 ```c#
 public Task<Dictionary<string, DataSourceColumnDefinition>> GetColumnsDefinition(string dsName)

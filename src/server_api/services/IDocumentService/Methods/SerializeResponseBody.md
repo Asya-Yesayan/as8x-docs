@@ -13,11 +13,11 @@ public Task<T> SerializeResponseBody<T>(Document document,
 
 Այս մեթոդը սերիալիզացնում է տրված փաստաթուղթը `DocumentModelBase` տիպի ժառանգ հանդիսացող տիպի։
 
-Այն անհրաժեշտ է կիրառել [AddCustomUIRequest](../../types/UIRequestExecutionProgress/AddCustomUIRequest.md) մեթոդի կամ [Properties](../../definitions/document/Properties.md) հատկության միջոցով փաստաթուղթը 4x ուղարկելիս։
+Այն անհրաժեշտ է կիրառել [AddCustomUIRequest](../../types/UIRequestExecutionProgress/AddCustomUIRequest.md) մեթոդի կամ [Properties](../../../definitions/Document/Properties/Properties.md) հատկության միջոցով փաստաթուղթը 4x ուղարկելիս։
 
 **Պարամետրեր**
 
 | Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
 |-----------------|----------------------|----------------|----------------|
-| document        | Document             | -              | [Փաստաթղթի օբյեկտ](../../definitions/document.md)։ |
+| document        | Document             | -              | [Փաստաթղթի օբյեկտ](../../definitions/Document.md)։ |
 | isExtended      | bool                 | false | Փաստաթղթի ընդլայնված դաշտերի սերիալիզացման հայտանիշ։ |

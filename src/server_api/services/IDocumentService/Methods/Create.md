@@ -16,7 +16,7 @@ public Task<T> Create<T>(List<int> parentsISN = null,
                          ) where T : Document
 ```
 
-Ստեղծում է նշված տիպի փաստաթղթի նոր օբյեկտ և վերադարձնում այն T դասով, որը հանդիսանում է [Document](../../definitions/document.md)-ի ժառանգ։
+Ստեղծում է նշված տիպի փաստաթղթի նոր օբյեկտ և վերադարձնում այն T դասով, որը հանդիսանում է [Document](../../definitions/Document.md)-ի ժառանգ։
 
 **Պարամետրեր**
 
@@ -36,7 +36,7 @@ public Task<T> Create<T>(List<int> parentsISN = null,
                          ) where T : Document
 ```
 
-Ստեղծում է նշված տիպի փաստաթղթի նոր օբյեկտ և վերադարձնում այն T դասով, որը հանդիսանում է [Document](../../definitions/document.md)-ի ժառանգ։
+Ստեղծում է նշված տիպի փաստաթղթի նոր օբյեկտ և վերադարձնում այն T դասով, որը հանդիսանում է [Document](../../definitions/Document.md)-ի ժառանգ։
 
 **Պարամետրեր**
 
@@ -56,7 +56,7 @@ public Task<T> Create<T>(int parentISN,
                          ) where T : Document
 ```
 
-Ստեղծում է նշված տիպի փաստաթղթի նոր օբյեկտ և վերադարձնում այն T դասով, որը հանդիսանում է [Document](../../definitions/document.md)-ի ժառանգ։
+Ստեղծում է նշված տիպի փաստաթղթի նոր օբյեկտ և վերադարձնում այն T դասով, որը հանդիսանում է [Document](../../definitions/Document.md)-ի ժառանգ։
 
 **Պարամետրեր**
 
@@ -76,7 +76,7 @@ public Task<T> Create<T>(int parentISN,
                          ) where T : Document
 ```
 
-Ստեղծում է նշված տիպի փաստաթղթի նոր օբյեկտ և վերադարձնում այն T դասով, որը հանդիսանում է [Document](../../definitions/document.md)-ի ժառանգ։
+Ստեղծում է նշված տիպի փաստաթղթի նոր օբյեկտ և վերադարձնում այն T դասով, որը հանդիսանում է [Document](../../definitions/Document.md)-ի ժառանգ։
 
 **Պարամետրեր**
 
@@ -98,7 +98,7 @@ public Task<Document> Create(string typeName,
                              params object[] parameters)
 ```
 
-Ստեղծում է նշված տեսակի (ներքին անունով) փաստաթղթի նոր օբյեկտ և վերադարձնում այն [Document](../../definitions/document.md) բազային դասով։
+Ստեղծում է նշված տեսակի (ներքին անունով) փաստաթղթի նոր օբյեկտ և վերադարձնում այն [Document](../../definitions/Document.md) բազային դասով։
 
 **Պարամետրեր**
 
@@ -122,7 +122,7 @@ public Task<Document> Create(string typeName,
                              params object[] parameters)
 ```
 
-Ստեղծում է նշված տեսակի (ներքին անունով) փաստաթղթի նոր օբյեկտ և վերադարձնում այն [Document](../../definitions/document.md) բազային դասով։
+Ստեղծում է նշված տեսակի (ներքին անունով) փաստաթղթի նոր օբյեկտ և վերադարձնում այն [Document](../../definitions/Document.md) բազային դասով։
 
 **Պարամետրեր**
 

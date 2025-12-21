@@ -22,7 +22,7 @@ public Task<MessageBoxResult> MessageBox(string prompt,
                                          bool supportRememberTheAnswer = false)
 ```
 
-Այս մեթոդը օգտագործվում է [DataSource](../../definitions/ds.md)-ի, [DPR](../../definitions/dpr.md)-ի, [Document](../../definitions/document.md)-ի կատարման ընթացքում 8X սերվիսից 4X կամ 8X կլիենտին հաղորդագրություն ուղարկելու, հաղորդագրության պատասխանը ստանալու և այն սերվիսում մշակելու համար։
+Այս մեթոդը օգտագործվում է [DataSource](../../definitions/ds.md)-ի, [DPR](../../definitions/dpr.md)-ի, [Document](../../definitions/Document.md)-ի կատարման ընթացքում 8X սերվիսից 4X կամ 8X կլիենտին հաղորդագրություն ուղարկելու, հաղորդագրության պատասխանը ստանալու և այն սերվիսում մշակելու համար։
 
 **Պարամետրեր**
 
@@ -50,7 +50,7 @@ public Task<MessageBoxResult> MessageBox(string prompt,
                                          bool supportRememberTheAnswer = false)
 ```
 
-Այս մեթոդը օգտագործվում է [DataSource](../../definitions/ds.md)-ի, [DPR](../../definitions/dpr.md)-ի, [Document](../../definitions/document.md)-ի կատարման ընթացքում 8X սերվիսից 4X կամ 8X կլիենտին հաղորդագրություն ուղարկելու, հաղորդագրության պատասխանը ստանալու և այն սերվիսում մշակելու համար։
+Այս մեթոդը օգտագործվում է [DataSource](../../definitions/ds.md)-ի, [DPR](../../definitions/dpr.md)-ի, [Document](../../definitions/Document.md)-ի կատարման ընթացքում 8X սերվիսից 4X կամ 8X կլիենտին հաղորդագրություն ուղարկելու, հաղորդագրության պատասխանը ստանալու և այն սերվիսում մշակելու համար։
 
 **Պարամետրեր**
 
@@ -67,7 +67,7 @@ public Task<MessageBoxResult> MessageBox(string prompt,
 
 ### Օրինակ
 
-Այս օրինակում ներկայացված է  փաստաթղթի հեռացման տրանզակցիայում աշխատող [Delete](../../definitions/document/Delete.md) իրադարձության մշակիչում ուղարկվում է հաղորդագրություն սերվերից կլիենտին `MessageBox` մեթոդի միջոցով։
+Այս օրինակում ներկայացված է  փաստաթղթի հեռացման տրանզակցիայում աշխատող [Delete](../../../definitions/Document/Methods/Delete.md) իրադարձության մշակիչում ուղարկվում է հաղորդագրություն սերվերից կլիենտին `MessageBox` մեթոդի միջոցով։
 
 ```c#
 public override async Task Delete(DeleteEventArgs args)

@@ -6,7 +6,7 @@ title: Document.AfterCreate(AfterCreateEventArgs) մեթոդ
 
 **Համարժեքը 4x-ում՝** [AfterCreate](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/ScriptProcs/AfterCreate.html)
 
-**Դաս՝** [Document](../../document.md)
+**Դաս՝** [Document](../../Document.md)
 
 ```c#
 public virtual Task AfterCreate(AfterCreateEventArgs args)

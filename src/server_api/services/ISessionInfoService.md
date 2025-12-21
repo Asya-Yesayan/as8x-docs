@@ -29,7 +29,7 @@ public string CurrentSessionGuid { get }
 
 | Անվանում | Նկարագրություն |
 |----------|----------------|
-| [CurrentSessionGuid](ISessionInfoService/CurrentSessionGuid.md) | Վերադարձնում է ընթացիկ [սեսսիայի](../types/SessionInfo.md) ներքին նույնականացման համարը (Guid)։ |
+| [CurrentSessionGuid](ISessionInfoService/Properties/CurrentSessionGuid.md) | Վերադարձնում է ընթացիկ [սեսսիայի](../types/SessionInfo.md) ներքին նույնականացման համարը (Guid)։ |
 
 <!-- ##
 
@@ -37,7 +37,7 @@ public string CurrentSessionGuid { get }
 
 | Անվանում | Նկարագրություն |
 |----------|----------------|
-| [CurrentSessionGuid](ISessionInfoService/CurrentSessionGuid.md) | Ավելացնում է նոր [սեսսիա](../types/SessionInfo.md) տվյալների պահոցի [SESSIONINFO](https://asya-yesayan.github.io/as4x-docs/HTM/ProgrGuide/Database/SessionInfo.html) աղյուսակում և քեշում։ |
+| [CurrentSessionGuid](ISessionInfoService/Properties/CurrentSessionGuid.md) | Ավելացնում է նոր [սեսսիա](../types/SessionInfo.md) տվյալների պահոցի [SESSIONINFO](https://asya-yesayan.github.io/as4x-docs/HTM/ProgrGuide/Database/SessionInfo.html) աղյուսակում և քեշում։ |
 | [Delete](ISessionInfoService/Delete.md) | Հեռացնում է ընթացիկ [սեսսիան](../types/SessionInfo.md) տվյալների պահոցի [SESSIONINFO](https://asya-yesayan.github.io/as4x-docs/HTM/ProgrGuide/Database/SessionInfo.html) աղյուսակից և քեշից։ |
 | [DeleteExpirations](ISessionInfoService/DeleteExpirations.md) | Հեռացնում է բոլոր ժամկետանց սեսսիաները տվյալների պահոցի [SESSIONINFO](https://asya-yesayan.github.io/as4x-docs/HTM/ProgrGuide/Database/SessionInfo.html) աղյուսակից և քեշից։ |
 | [GetInfo()](ISessionInfoService/GetInfo.md) | Վերադարձնում է ընթացիկ [սեսսիայի մասին ինֆորմացիան](../types/SessionInfo.md)։ |

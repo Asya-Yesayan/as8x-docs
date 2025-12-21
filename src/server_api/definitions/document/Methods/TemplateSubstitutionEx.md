@@ -6,7 +6,7 @@ title: Document.TemplateSubstitutionEx(Dictionary<string, bool>, Dictionary<stri
 
 **Համարժեքը 4x-ում՝** [TemplateSubstitution](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/ScriptProcs/TemplateSubstitution.html)
 
-**Դաս՝** [Document](../../document.md)
+**Դաս՝** [Document](../../Document.md)
 
 ```c#
 public virtual Task<TemplateSubstitutionEx> TemplateSubstitutionEx(Dictionary<string, bool> mode, 

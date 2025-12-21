@@ -6,21 +6,21 @@ title: DocumentExtender.PostTemplateSubstitution(Document, TemplateSubstitutionE
 
 **Համարժեքը 4x-ում՝** [PostTemplateSubstitution](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/ScriptProcs/DocExtenderEvents/PostTemplateSubstitution.html)
 
-**Դաս՝** [DocumentExtender](../document_extender.md)
+**Դաս՝** [DocumentExtender](../../document_extender.md)
 
 ```c#
 public virtual Task PostTemplateSubstitution(Document sender, 
                                              TemplateSubstitutionEventArgs<TemplateSubstitution> args)
 ```
 
-Մեթոդը կանչվում է միջուկի կողմից, երբ փաստաթղթի համար ձևավորվում է տպման ձև և անջատված է փաստաթղթի [TemplateSubstitutionIsExtended](../../../server_api/definitions/document/TemplateSubstitutionIsExtended.md) հատկությունը։ Մեթոդը կանչվում է [TemplateSubstitution](../../../server_api/definitions/document/TemplateSubstitution.md) մեթոդի կանչից հետո։
+Մեթոդը կանչվում է միջուկի կողմից, երբ փաստաթղթի համար ձևավորվում է տպման ձև և անջատված է փաստաթղթի [TemplateSubstitutionIsExtended](../../../../server_api/definitions/Document/Properties/TemplateSubstitutionIsExtended.md) հատկությունը։ Մեթոդը կանչվում է [TemplateSubstitution](../../../../server_api/definitions/Document/Methods/TemplateSubstitution.md) մեթոդի կանչից հետո։
 
-Տե՛ս օգտագործման [օրինակը](../../examples/PostTemplateSubstitution.md):
+Տե՛ս օգտագործման [օրինակը](../../../examples/PostTemplateSubstitution.md):
 
 **Պարամետրեր**
 
 
 | Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
 |-----------------|----------------------|----------------|----------------|
-| sender          | Document             | -              | Տպելու ձևանմուշին կապակցված [փաստաթղթի](../../../server_api/definitions/document.md) օբյեկտ։ |
-| args            | TemplateSubstitutionEventArgs<TemplateSubstitution> | -              | [TemplateSubstitutionEventArgs](../../types/args/TemplateSubstitutionEventArgs.md) տիպի օբյեկտ։ |
+| sender          | Document             | -              | Տպելու ձևանմուշին կապակցված [փաստաթղթի](../../../../server_api/definitions/Document.md) օբյեկտ։ |
+| args            | TemplateSubstitutionEventArgs<TemplateSubstitution> | -              | [TemplateSubstitutionEventArgs](../../../types/args/TemplateSubstitutionEventArgs.md) տիպի օբյեկտ։ |

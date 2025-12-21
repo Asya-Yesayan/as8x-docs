@@ -6,7 +6,7 @@ title: Document.AfterCommit(AfterCommitEventArgs) մեթոդ
 
 **Համարժեքը 4x-ում՝** [AfterCommit](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/ScriptProcs/AfterCommit.html)
 
-**Դաս՝** [Document](../../document.md)
+**Դաս՝** [Document](../../Document.md)
 
 ```c#
 public virtual Task AfterCommit(AfterCommitEventArgs args)

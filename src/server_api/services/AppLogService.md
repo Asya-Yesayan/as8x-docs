@@ -10,5 +10,5 @@ AppLogService դասը նախատեսված է հատուկ իրադարձութ
 
 | Անվանում | Նկարագրություն |
 |----------|----------------|
-| [Write(AppLogInfo)](AppLogService/Write.md#(#applogservicewriteapploginfo-մեթոդ)) | Գրանցում է հատուկ իրադարձության (տարբերակի փոփոխություն, Debug-ի գործարկում...) մանրամասները տվյալների պահոցում։ |
+| [Write(AppLogInfo)](AppLogService/Methods/Write.md#(#applogservicewriteapploginfo-մեթոդ)) | Գրանցում է հատուկ իրադարձության (տարբերակի փոփոխություն, Debug-ի գործարկում...) մանրամասները տվյալների պահոցում։ |
 | [Write(string, string, string, int, int)](AppLogService/Methods/Write.md#applogservicewritestring-string-string-int-int-մեթոդ) | Գրանցում է հատուկ իրադարձության (տարբերակի փոփոխություն, Debug-ի գործարկում...) մանրամասները տվյալների պահոցում։ |

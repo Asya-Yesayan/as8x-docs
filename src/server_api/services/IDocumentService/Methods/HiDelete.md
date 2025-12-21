@@ -14,7 +14,7 @@ public Task<(bool had01AccRow, bool hadHIRow)> HiDelete(Document doc,
 ```
 
 Ջնջում է փաստաթղթի նախկինում գրանցած հաշվառումները [HI](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Database/Hi.html) աղյուսակից։  
-Եթե մեթոդը կանչում են [Action](../../definitions/document/Action.md) իրադարձության մշակիչից, ապա սահմանաչափերի ստուգումները կկատարվեն Action-ի ավարտից հետո։  
+Եթե մեթոդը կանչում են [Action](../../../definitions/Document/Methods/Action.md) իրադարձության մշակիչից, ապա սահմանաչափերի ստուգումները կկատարվեն Action-ի ավարտից հետո։  
 Իսկ եթե այլ տեղից է կանչած, ապա ստուգումները կկատարվեն անմիջապես։
 
 Վերադարձնում է կորտեժ  
@@ -25,5 +25,5 @@ public Task<(bool had01AccRow, bool hadHIRow)> HiDelete(Document doc,
 
 | Անվանում    | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 |------------|---------------|----------------|----------------|
-| doc        | Document      |    -            | [Փաստաթղթի օբյեկտ](../../definitions/document.md)։ |
+| doc        | Document      |    -            | [Փաստաթղթի օբյեկտ](../../definitions/Document.md)։ |
 | deleteDoc  | bool          |    -            | հարկավոր է փոխանցել `true`, երբ ֆունկցիան կանչվում է որևէ փաստաթղթի ջնջման ժամանակ։ Պարամետրը փոխանցվում է OnLimitFault իրադարձության մշակիչին։ |

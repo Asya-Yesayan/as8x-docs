@@ -6,7 +6,7 @@ title: DocumentOperationService.Refolder(RefolderArgs, TextReport.TextReport, Ca
 
 **Համարժեքը 4x-ում՝** [AsUtil.ReindexDocs](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/ReindexDocs.html)
 
-**Դաս՝** [DocumentOperationService](../DocumentOperationService.md)
+**Դաս՝** [DocumentOperationService](../../DocumentOperationService.md)
 
 ```c#
 public Task Refolder(RefolderArgs args, 
@@ -20,6 +20,6 @@ public Task Refolder(RefolderArgs args,
 
 | Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
 |-----------------|----------------------|----------------|----------------|
-| args            | RefolderArgs         | -              | [RefolderArgs](../../types/args/RefolderArgs.md) դասի օբյեկտ։ |
-| report          | TextReport.TextReport | -              | [Տեքստային հաշվետվություն](../../types/TextReport.md), որտեղ լրացվում են մեթոդի կատարման ընթացքում առաջացած սխալների մասին հաղորդագրությունները։ |
+| args            | RefolderArgs         | -              | [RefolderArgs](../../../types/args/RefolderArgs.md) դասի օբյեկտ։ |
+| report          | TextReport.TextReport | -              | [Տեքստային հաշվետվություն](../../../types/TextReport.md), որտեղ լրացվում են մեթոդի կատարման ընթացքում առաջացած սխալների մասին հաղորդագրությունները։ |
 | stoppingToken   | CancellationToken    | default        | Ընդհատման օբյեկտ: |

@@ -14,9 +14,9 @@ tags: [AccountingExtender, AccExtender]
 
 ## Ներածություն
 
-Գոյություն ունեցող [հաշվառումների](../../server_api/definitions/accounting.md) մշակման գործընթացում լրացուցիչ ստուգումներ իրականացնելու և այլ սեփական տրամաբանություն ավելացնելու համար նկարագրվում է [հաշվառման ընդլայնում](acc_extender.md)։
+Գոյություն ունեցող [հաշվառումների](../../server_api/definitions/Accounting.md) մշակման գործընթացում լրացուցիչ ստուգումներ իրականացնելու և այլ սեփական տրամաբանություն ավելացնելու համար նկարագրվում է [հաշվառման ընդլայնում](acc_extender.md)։
 
-[Հաշվառման ընդլայնումը](acc_extender.md) իրանից ներկայացնում է վիրտուալ մեթոդների բազմություն, որոնք կանչվում են [հաշվառման հիմնական իրադարձություններից](../../server_api/definitions/accounting.md) առաջ և հետո։ 
+[Հաշվառման ընդլայնումը](acc_extender.md) իրանից ներկայացնում է վիրտուալ մեթոդների բազմություն, որոնք կանչվում են [հաշվառման հիմնական իրադարձություններից](../../server_api/definitions/Accounting.md) առաջ և հետո։ 
 
 8X համակարգում հաշվառման ընդլայնում նկարագրելու համար հարկավոր է ունենալ՝
 
@@ -76,7 +76,7 @@ public SyntAccountingExtender(EnterpriseParametersService parametersService, IDB
 }
 ```
 
-- [OnDelete](../../server_api/definitions/accounting/OnDelete.md) մեթոդով [հաշվառումը](../../server_api/definitions/accounting.md) հեռացնելուց առաջ լրացուցիչ տրամաբանություն ավելացնելու համար անհրաժեշտ է override անել [PreOnDelete](acc_extender/PreOnDelete.md) մեթոդը։
+- [OnDelete](../../server_api/definitions/Accounting/OnDelete.md) մեթոդով [հաշվառումը](../../server_api/definitions/Accounting.md) հեռացնելուց առաջ լրացուցիչ տրամաբանություն ավելացնելու համար անհրաժեշտ է override անել [PreOnDelete](acc_extender/PreOnDelete.md) մեթոդը։
 
 Մեթոդը կանչվում է միջուկի կողմից։
 
@@ -92,7 +92,7 @@ public override async Task PreOnDelete(Core.Accounting.Accounting sender, OnDele
 }
 ```
 
-- [OnDelete](../../server_api/definitions/accounting/OnDelete.md) մեթոդով [հաշվառումը](../../server_api/definitions/accounting.md) հեռացնելուց հետո լրացուցիչ տրամաբանություն ավելացնելու համար անհրաժեշտ է override անել [PostOnDelete](acc_extender/PostOnDelete.md) մեթոդը։
+- [OnDelete](../../server_api/definitions/Accounting/OnDelete.md) մեթոդով [հաշվառումը](../../server_api/definitions/Accounting.md) հեռացնելուց հետո լրացուցիչ տրամաբանություն ավելացնելու համար անհրաժեշտ է override անել [PostOnDelete](acc_extender/PostOnDelete.md) մեթոդը։
 
 Մեթոդը կանչվում է միջուկի կողմից։
 

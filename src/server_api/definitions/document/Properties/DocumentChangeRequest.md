@@ -4,7 +4,7 @@ title: Document.DocumentChangeRequest հատկություն
 
 ## Նկարագիր
 
-**Դաս՝** [Document](../../document.md)
+**Դաս՝** [Document](../../Document.md)
 
 ```c#
 public DocumentChangeRequest DocumentChangeRequest { get; internal set; }

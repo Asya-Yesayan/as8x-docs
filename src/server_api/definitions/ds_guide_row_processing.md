@@ -63,7 +63,7 @@ protected override bool ProcessRow(DataSourceArgs<Param> args, DataRow row, SqlD
 
 Ներկայացված է տվյալների աղբյուրի տողերի ֆիլտրացիայի օրինակ՝ վերջնական տողերի ցուցակում ընդգրկվում են այն տողերը, որտեղ ստուգվում է տարիքը։
 
-reader-ից տողերը կարդալը առավել արագացնելու համար կարելի է [AfterExecuteSQLCommand](../definitions/ds/AfterExecuteSQLCommand.md) մեթոդում ստանալ reader-ի մեջ հարկավոր դիրքերը։
+reader-ից տողերը կարդալը առավել արագացնելու համար կարելի է [AfterExecuteSQLCommand](../definitions/ds/Methods/AfterExecuteSQLCommand.md) մեթոդում ստանալ reader-ի մեջ հարկավոր դիրքերը։
 
 ```c#
 private int ageOrdinal;
@@ -91,7 +91,7 @@ protected override bool ProcessRow(DataSourceArgs<Param> args, DataRow row, SqlD
 AfterDataReaderClose-ը կանչվում է SQL հարցման կատարման ավարտից հետո, երբ [SqlDataReader](https://learn.microsoft.com/en-us/dotnet/api/microsoft.data.sqlclient.sqldatareader)-ը արդեն փակ է: 
 Մեթոդում թույլատրվում է կատարել այլ sql հարցումներ և կանչել ասինխրոն ֆունկցիաներ։
 
-AfterDataReaderClose-ի աշխատանքի երկու տարբերակ կա կախված գերբեռնվող [AfterDataReaderCloseMode](ds/AfterDataReaderCloseMode.md) հատկության արժեքից՝
+AfterDataReaderClose-ի աշխատանքի երկու տարբերակ կա կախված գերբեռնվող [AfterDataReaderCloseMode](ds/Properties/AfterDataReaderCloseMode.md) հատկության արժեքից՝
 - Ամեն տողի համար առանձին կանչ,
 - Մեկ կանչ բոլոր տողերի մշակման համար։
 

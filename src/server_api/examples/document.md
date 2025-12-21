@@ -31,7 +31,7 @@ foreach (KeyValuePair<string, DocumentFieldDefinition> field in allFields)
 
 ## Օրինակ 2
 
-Ստեղծել "TemplGrp" տիպի փաստաթուղթ [DocumentService](../services/IDocumentService.md) դասի [Create](../services/IDocumentService/Create.md) մեթոդով, լրացնել դաշտերի արժեքները ու փաստաթուղթը գրանցել տվյալների պահոցում [DocumentService](../services/IDocumentService.md) դասի [Store](../services/IDocumentService/Store.md) մեթոդով։
+Ստեղծել "TemplGrp" տիպի փաստաթուղթ [DocumentService](../services/IDocumentService.md) դասի [Create](../services/IDocumentService/Methods/Create.md) մեթոդով, լրացնել դաշտերի արժեքները ու փաստաթուղթը գրանցել տվյալների պահոցում [DocumentService](../services/IDocumentService.md) դասի [Store](../services/IDocumentService/Methods/Store.md) մեթոդով։
 
 ```c#
 // TemplGrp տիպի փաստաթղթի ստեղծում
