@@ -6,7 +6,7 @@ title: Document.Properties հատկություն
 
 **Համարժեքը 4x-ում՝** [AsDoc.Properties](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/ASDOC/Properties.html)
 
-**Դաս՝** [Document](../document.md)
+**Դաս՝** [Document](../../document.md)
 
 ```c#
 public Dictionary<string, object> Properties { get; set; }

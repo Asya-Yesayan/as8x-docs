@@ -17,4 +17,4 @@ public async Task<SignResponse> Sign(SignRequest request)
 
 **Օրինակ**
 
-Տե՛ս օգտագործման [օրինակը](../../../../web_api_client/bank/examples/LoanApplicationsRoutes.md#օրինակ-2)։
+Տե՛ս օգտագործման [օրինակը](../../Examples/LoanApplicationsRoutes.md#օրինակ-2)։

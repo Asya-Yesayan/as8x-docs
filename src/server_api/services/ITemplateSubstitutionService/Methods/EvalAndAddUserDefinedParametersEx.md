@@ -15,7 +15,7 @@ public Task EvalAndAddUserDefinedParametersEx(string name,
 
 Հաշվարկում է տպելու ձևանմուշի օգտագործողի կողմից նկարագրված պարամետրերը և ավելացնում տպելու ձևանմուշի տեղադրվող արժեքները պարունակող օբյեկտում՝ `printTemplateSubstitution`:
 
-Տե՛ս [Տպելու ձևանմուշի ընդլայնման ձեռնարկ](../../../extensions/definitions/template_substitution_guide.md)։
+Տե՛ս [Տպելու ձևանմուշի ընդլայնման ձեռնարկ](../../../extensions/Definitions/template_substitution_guide.md)։
 
 **Պարամետրեր**
 

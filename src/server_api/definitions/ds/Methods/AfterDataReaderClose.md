@@ -6,7 +6,7 @@ title: DataSource.AfterDataReaderClose մեթոդ
 
 **Համարժեքը 4x-ում՝** [OnEachRow](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/ScriptProcs/OnEachRow.html) + [Valid](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/ScriptProcs/Valid_Data.html)
 
-**Դաս՝** [DataSource](../ds.md)
+**Դաս՝** [DataSource](../../ds.md)
 
 ## Գերբեռնումներ
 
@@ -26,7 +26,7 @@ protected virtual Task AfterDataReaderClose(DataSourceArgs<P> args,
 
 Տե՛ս [AfterDataReaderCloseMode](AfterDataReaderCloseMode.md)։
 
-Տե՛ս [օրինակը](../ds_guide_row_processing.md#օրինակ-1-1)։
+Տե՛ս [օրինակը](../../ds_guide_row_processing.md#օրինակ-1-1)։
 
 ### DataSource.AfterDataReaderClose(DataSourceArgs&lt;P&gt;, R) մեթոդ
 
@@ -41,5 +41,5 @@ protected virtual Task<bool> AfterDataReaderClose(DataSourceArgs<P> args,
 
 Տե՛ս [AfterDataReaderCloseMode](AfterDataReaderClose.md)։
 
-Տե՛ս [օրինակը](../ds_guide_row_processing.md#օրինակ-2-1)։
+Տե՛ս [օրինակը](../../ds_guide_row_processing.md#օրինակ-2-1)։
 

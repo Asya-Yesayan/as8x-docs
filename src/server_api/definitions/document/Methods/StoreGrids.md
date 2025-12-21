@@ -6,13 +6,13 @@ title: Document.StoreGrids(StoreGridsEventArgs) մեթոդ
 
 **Համարժեքը 4x-ում՝** [StoreGrid](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/ScriptProcs/StoreGrid.html)
 
-**Դաս՝** [Document](../document.md)
+**Դաս՝** [Document](../../document.md)
 
 ```c#
 public virtual Task StoreGrids(StoreGridsEventArgs args)
 ```
 
-Մեթոդը կանչվում է միջուկի կողմից փաստաթուղթը [IDocumentService](../../services/IDocumentService.md).[Store](../../services/IDocumentService/Store.md) մեթոդի միջոցով տվյալների պահոցում գրանցելուց։
+Մեթոդը կանչվում է միջուկի կողմից փաստաթուղթը [IDocumentService](../../../services/IDocumentService.md).[Store](../../../services/IDocumentService/Methods/Store.md) մեթոդի միջոցով տվյալների պահոցում գրանցելուց։
 
 Մեթոդի գերբեռնումը նախատեսված է փաստաթղթի ցանկալի աղյուսակները DOCSG աղյուսակի մեջ չպահպանելու և այլ տեղերում պահպանելու համար։
 

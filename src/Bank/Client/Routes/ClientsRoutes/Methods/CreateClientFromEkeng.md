@@ -20,4 +20,4 @@ public Task<CreatePhysicalClientByFullDataResponse> CreateClientFromEkeng(
 
 **Օրինակ**
 
-Տե՛ս օգտագործման [օրինակը](../../../../web_api_client/bank/examples/ClientsRoutes.md#օրինակ-1)։
+Տե՛ս օգտագործման [օրինակը](../../Examples/ClientsRoutes.md#օրինակ-1)։

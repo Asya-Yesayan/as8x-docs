@@ -1,5 +1,5 @@
 ---
-title: IKernelService.GetRemHI2(string, int, int, DateTime?)  
+title: IKernelService.GetRemHI2(string, int, int, DateTime?) մեթոդ
 ---
 
 ## Նկարագիր

@@ -6,7 +6,7 @@ title: Document.SerializeComplexObjects(SerializeComplexObjectsEventArgs) մեթ
 
 **Համարժեքը 4x-ում՝** SerializeComplexObjects
 
-**Դաս՝** [Document](../document.md)
+**Դաս՝** [Document](../../document.md)
 
 ```c#
 public virtual Task SerializeComplexObjects(SerializeComplexObjectsEventArgs args)
@@ -19,5 +19,5 @@ public virtual Task SerializeComplexObjects(SerializeComplexObjectsEventArgs arg
 
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 | --- | --- | --- | --- |
-| args | [SerializeComplexObjectsEventArgs](../../types/args/SerializeComplexObjectsEventArgs.md) | - | [SerializeComplexObjectsEventArgs](../../types/args/SerializeComplexObjectsEventArgs.md) դասի օբյեկտ։ |
+| args | [SerializeComplexObjectsEventArgs](../../../types/args/SerializeComplexObjectsEventArgs.md) | - | [SerializeComplexObjectsEventArgs](../../../types/args/SerializeComplexObjectsEventArgs.md) դասի օբյեկտ։ |
 

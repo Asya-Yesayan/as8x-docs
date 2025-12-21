@@ -12,7 +12,7 @@ title: IExtensionMeterProvider ինտերֆեյս
 | Անվանում | Նկարագրություն |
 |----------|----------------|
 | [Configure(IParametersService, Meter)](Methods/Configure.md) | Այս մեթոդը նախատեսված է կազմակերպության սեփական նկարագրությունները պարունակող assembly-ում մետրիկաներ ստեղծելու, կոնֆիգուրացնելու համար՝ օգտագործելով [Meter](https://learn.microsoft.com/en-us/dotnet/api/system.diagnostics.metrics.meter) պարամետրը։ |
-| [CalculateGauges(IDBService)](Methods/CalculateGauges.md) | Այս մեթոդը նախատեսված է սեփական նկարագրությունները պարունակող assembly-ում ստեղծված մետրիկաների արժեքների հաշվարկի համար։ <br> Մեթոդը ավտոմատ կերպով կանչվում է համակարգի կողմից՝ [appsettings.json](../../../project/appsettings_json.md) կոնֆիգուրացիոն ֆայլի [OTLP:Metrics։PeriodicExporting:ExportIntervalMilliseconds](../../../project/appsettings_json.md#otlp) դաշտում սահմանված արտահանման պարբերականությամբ։ |
+| [CalculateGauges(IDBService)](Methods/CalculateGauges.md) | Այս մեթոդը նախատեսված է սեփական նկարագրությունները պարունակող assembly-ում ստեղծված մետրիկաների արժեքների հաշվարկի համար։ <br> Մեթոդը ավտոմատ կերպով կանչվում է համակարգի կողմից՝ [appsettings.json](../../../Project/appsettings_json.md) կոնֆիգուրացիոն ֆայլի [OTLP:Metrics։PeriodicExporting:ExportIntervalMilliseconds](../../../Project/appsettings_json.md#otlp) դաշտում սահմանված արտահանման պարբերականությամբ։ |
 
 ## Օրինակ
 

@@ -8,7 +8,7 @@ title: TemplateSubstitution դաս
 
 Պարամետրերը ձևանմուշում նշվում են հատուկ սիմվոլով (#, %, ~), որին անմիջապես հաջորդում է պարամետրի կոդը՝ առանց բացատների, օրինակ՝ **#2020**, **%GR.DATE**, **~405**։
 
-Պարամետրերի արժեքների հաշվարկը կատարվում է տպելու ձևանմուշին կցված փաստաթղթի [TemplateSubstitution](../definitions/document/Methods/TemplateSubstitution.md) մեթոդում կամ ձևանմուշի ընդլայնման [Calculate](../../extensions/definitions/template_substitution/Calculate.md) մեթոդում։
+Պարամետրերի արժեքների հաշվարկը կատարվում է տպելու ձևանմուշին կցված փաստաթղթի [TemplateSubstitution](../definitions/document/Methods/TemplateSubstitution.md) մեթոդում կամ ձևանմուշի ընդլայնման [Calculate](../../extensions/Definitions/template_substitution/Calculate.md) մեթոդում։
 
 Տպելու ձևանմուշների հասանելի ընդլայնումների ցանկին կարող եք ծանոթանալ [այստեղ](SubstitutionType.md):
 

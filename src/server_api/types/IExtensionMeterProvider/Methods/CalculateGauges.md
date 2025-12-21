@@ -8,7 +8,7 @@ public void CalculateGauges(IDBService dbService)
 
 Այս մեթոդը նախատեսված է սեփական նկարագրությունները պարունակող assembly-ում ստեղծված մետրիկաների արժեքների հաշվարկի համար։
 
-Մեթոդը ավտոմատ կերպով կանչվում է համակարգի կողմից՝ [appsettings.json](../../../project/appsettings_json.md) կոնֆիգուրացիոնֆայլի [OTLP:Metrics։PeriodicExporting:ExportIntervalMilliseconds](../../../project/appsettings_json.md#otlp) դաշտում սահմանված արտահանման պարբերականությամբ։
+Մեթոդը ավտոմատ կերպով կանչվում է համակարգի կողմից՝ [appsettings.json](../../../Project/appsettings_json.md) կոնֆիգուրացիոնֆայլի [OTLP:Metrics։PeriodicExporting:ExportIntervalMilliseconds](../../../Project/appsettings_json.md#otlp) դաշտում սահմանված արտահանման պարբերականությամբ։
 
 **Պարամետրեր**
 

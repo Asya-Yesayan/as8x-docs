@@ -37,4 +37,4 @@ public Task<AttachReservedCardToClientResponse> AttachReservedCardToClient(
 
 **Օրինակ**
 
-Տե՛ս օգտագործման [օրինակը](../../../../web_api_client/bank/examples/CardsRoutes.md#օրինակ-1)։
+Տե՛ս օգտագործման [օրինակը](../../Examples/CardsRoutes.md#օրինակ-1)։

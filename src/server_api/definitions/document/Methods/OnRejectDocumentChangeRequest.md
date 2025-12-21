@@ -6,27 +6,27 @@ title: Document.OnRejectDocumentChangeRequest(RejectDocumentChangeRequestEventAr
 
 **Համարժեքը 4x-ում՝** [OnRejectDCR](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/ScriptProcs/OnRejectDCR.html)
 
-**Դաս՝** [Document](../document.md)
+**Դաս՝** [Document](../../document.md)
 
 ```c#
 public virtual Task OnRejectDocumentChangeRequest(RejectDocumentChangeRequestEventArgs args)
 ```
 
-Մեթոդը կանչվում է միջուկի կողմից՝ [փաստաթղթի փոփոխման հայտը](../../types/DocumentChangeRequest.md) մերժելիս։
+Մեթոդը կանչվում է միջուկի կողմից՝ [փաստաթղթի փոփոխման հայտը](../../../types/DocumentChangeRequest.md) մերժելիս։
 
 **Պարամետրեր**
 
 
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 | --- | --- | --- | --- |
-| args | [RejectDocumentChangeRequestEventArgs](../../types/args/RejectDocumentChangeRequestEventArgs.md) | - | [RejectDocumentChangeRequestEventArgs](../../types/args/RejectDocumentChangeRequestEventArgs.md) դասի օբյեկտ։ |
+| args | [RejectDocumentChangeRequestEventArgs](../../../types/args/RejectDocumentChangeRequestEventArgs.md) | - | [RejectDocumentChangeRequestEventArgs](../../../types/args/RejectDocumentChangeRequestEventArgs.md) դասի օբյեկտ։ |
 
 **Նկատառումներ**
 
 Փաստաթղթի փոփոխման հայտը մերժելիս կանչվում են հետևյալ մեթոդները նշված հերթականությամբ՝ 
-* [PreOnRejectDocumentChangeRequest](../../../extensions/definitions/document_extender/PreOnRejectDocumentChangeRequest.md),
+* [PreOnRejectDocumentChangeRequest](../../../../extensions/Definitions/document_extender/Methods/PreOnRejectDocumentChangeRequest.md),
 * [OnRejectDocumentChangeRequest](OnRejectDocumentChangeRequest.md),
-* [PostOnRejectDocumentChangeRequest](../../../extensions/definitions/document_extender/PostOnRejectDocumentChangeRequest.md):
+* [PostOnRejectDocumentChangeRequest](../../../../extensions/Definitions/document_extender/Methods/PostOnRejectDocumentChangeRequest.md):
 
 Յուրաքանչյուր մեթոդի պարամետրերը, կանչից հետո, փոխանցվում են հաջորդին։
 

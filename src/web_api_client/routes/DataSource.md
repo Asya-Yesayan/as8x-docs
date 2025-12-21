@@ -25,7 +25,7 @@ DataSource դասը նախատեսված է կլիենտական ծրագրից 
 |----------|----------------|
 | [Client](DataSource/Properties/Client.md) | Վերադարձնում կամ նշանակում է [ApiClient](../types/ApiClient.md) դասի օբյեկտ, որը նախատեսված է տվյալների աղբյուրի կատարման ընթացքում կլիենտից դեպի սերվեր անհրաժեշտ հարցումներ կատարելու համար։ |
 | [Definition](DataSource/Properties/Definition.md) | Վերադարձնում կամ նշանակում է տվյալների աղբյուրի նկարագրությունը, որը պարունակում է տվյալների աղբյուրի, սյուների և պարամետրերի հատկությունները։ |
-| [ExtenderSchema](DataSource/Properties/ExtenderSchema.md) | Վերադարձնում կամ նշանակում է [տվյալների աղբյուրի ընդլայնման](../../extensions/definitions/ds_extender.md) նկարագրությունը, որը պարունակում է ընդլայնման ներքին անունը, պարամետրերի ու սյուների հատկությունները։ |
+| [ExtenderSchema](DataSource/Properties/ExtenderSchema.md) | Վերադարձնում կամ նշանակում է [տվյալների աղբյուրի ընդլայնման](../../extensions/Definitions/ds_extender.md) նկարագրությունը, որը պարունակում է ընդլայնման ներքին անունը, պարամետրերի ու սյուների հատկությունները։ |
 | [FetchSize](DataSource/Properties/FetchSize.md) | Տվյալների աղբյուրի կատարման արդյունքում վերադարձվող տողերը սերվիսից կլիենտ բեռնվում են կտոր առ կտոր։ |
 | [FirstFetchSize](DataSource/Properties/FirstFetchSize.md) | Տվյալների աղբյուրի կատարման արդյունքում վերադարձվող տողերը սերվիսից կլիենտ բեռնվում են կտոր առ կտոր։ |
 | [EncodeResultUnicode](DataSource/Properties/EncodeResultUnicode.md) | Վերադարձնում կամ նշանակում է տվյալների աբյուրի արդյունքների յունիկոդ կոդավորմամբ լինելը։ |

@@ -10,10 +10,10 @@ title: "Սերվերային API"
 * [Փաստաթղթի ստեղծման ձեռնարկ](server_api/definitions/document_guide.md)
 * [Տվյալների աղբյուրի ստեղծման ձեռնարկ](server_api/definitions/ds_guide.md)
 * [Տվյալների մշակման հարցման (DPR) ձեռնարկ](server_api/definitions/dpr_guide.md)
-* [Հաշվառման ընդլայնման ձեռնարկ](extensions/definitions/acc_extender_guide.md)
-* [Փաստաթղթի իրադարձությունների ընդլայնման ձեռնարկ](extensions/definitions/document_extender_guide.md)
-* [Տվյալների աղբյուրի ընդլայնման ձեռնարկ](extensions/definitions/ds_extender_guide.md)
-* [Սերվերային մոդուլի ձեռնարկ (SERVERSIDEMODULE)](extensions/definitions/server_side_module_guide.md)
+* [Հաշվառման ընդլայնման ձեռնարկ](extensions/Definitions/acc_extender_guide.md)
+* [Փաստաթղթի իրադարձությունների ընդլայնման ձեռնարկ](extensions/Definitions/document_extender_guide.md)
+* [Տվյալների աղբյուրի ընդլայնման ձեռնարկ](extensions/Definitions/ds_extender_guide.md)
+* [Սերվերային մոդուլի ձեռնարկ (SERVERSIDEMODULE)](extensions/Definitions/server_side_module_guide.md)
 * [Բոլոր նկարագրությունները](server_api/definitions.md)
 
 ## Սերվիսներ

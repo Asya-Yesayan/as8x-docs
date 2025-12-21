@@ -2439,7 +2439,7 @@ public Task TryAddAtomicAsync(string key, Func<Task<string>> operation,
     TemplateSubstitutionExtenderArgs args)
 ```
 
-Ֆունկցիաները օգտագործվում են [տպվող ձևերի ընդլայնումներում](../../extensions/definitions/template_substitution.md) պարամետրերի ավելացման համար։  
+Ֆունկցիաները օգտագործվում են [տպվող ձևերի ընդլայնումներում](../../extensions/Definitions/template_substitution.md) պարամետրերի ավելացման համար։  
 Նախատեսված են այն դեպքերի համար, երբ հարկավոր է արժեքի հաշվարկի ընթացքում առաջացած սխալները անտեսվեն։  
 Ֆունկցիաները որպես երկրորդ պարամետր ստանում են արժեքը հաշվող ֆունկցիա (սովորական, static, լոկալ, լամբդա արտահայտություն)։
 
@@ -2451,7 +2451,7 @@ public Task TryAddAtomicAsync(string key, Func<Task<string>> operation,
 
 * `key` - Տպվող պարամետրի կոդ։
 * `operation` - Արժեքը հաշվող ֆունկցիա։
-* `templateSubstitutionArgs` - [Calculate](../../extensions/definitions/template_substitution/Calculate.md) ֆունկցիայի մուտքային պարամետր։
+* `templateSubstitutionArgs` - [Calculate](../../extensions/Definitions/template_substitution/Calculate.md) ֆունկցիայի մուտքային պարամետր։
 
 **Օրինակ**
 
@@ -2729,6 +2729,6 @@ DateTime dt =  proxyService.YEAR_END(DateTime.Parse("2024-08-17"));
 Համապատասխան հաշվառումը գտնելու համար մուտքագրեք հաշվառման կոդը տեղեկատուի երկխոսության պատուհանի «Նկարագրության ներքին անուն» դաշտում իսկ «նկարագրության տիպ» դաշտում ընտրեք «հաշվառում» արժեքը։
 Գործողությունների կոդերը դիտելու համար գործարկեք համապատասխան հաշվառման տողի կոնտեքստային մենյուի «Դիտել» հրամանը։
 
-![Գործողությունների կոդեր](user_proxy_service_oper_codes.png)
+![Գործողությունների կոդեր](Images/user_proxy_service_oper_codes.png)
 
 </div>

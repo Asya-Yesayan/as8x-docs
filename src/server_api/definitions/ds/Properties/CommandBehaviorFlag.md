@@ -4,7 +4,7 @@ title: DataSource.CommandBehaviorFlag հատկություն
 
 ## Նկարագիր
 
-**Դաս՝** [DataSource](../ds.md)
+**Դաս՝** [DataSource](../../ds.md)
 
 ```c#
 protected virtual CommandBehavior CommandBehaviorFlag

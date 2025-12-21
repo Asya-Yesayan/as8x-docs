@@ -21,4 +21,4 @@ public Task<FilesInfoResponse> GetCardAgreementFiles(int cardIsn, Language langu
 
 **Օրինակ**
 
-Տե՛ս օգտագործման [օրինակը](../../../../web_api_client/bank/examples/CardsRoutes.md#օրինակ-1)։
+Տե՛ս օգտագործման [օրինակը](../../Examples/CardsRoutes.md#օրինակ-1)։

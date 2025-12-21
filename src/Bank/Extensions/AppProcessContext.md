@@ -109,7 +109,7 @@ async Task<AcraReport> AcraData(string reportType)
 
 #### Վերծանման տարրերի օգտագործում ֆունկցիաների հաշվարկում
 
-![Վերծանման տարր](AppProcessContext_OutsDaysCount.png "Վերծանման տարր") 
+![Վերծանման տարր](Images/AppProcessContext_OutsDaysCount.png) 
 
 **Օրինակ**
 ```c# 
@@ -160,7 +160,7 @@ public class CalculatePaymDelayCount : IAppCustomScore
 </CurrentOverdueLoans>
 ...
 ```
-![Վերծանման տարր](AppProcessContext_vercanum.png "Վերծանման տարր")
+![Վերծանման տարր](Images/AppProcessContext_vercanum.png)
 
 **Օրինակ**
 ```c# 

@@ -11,7 +11,7 @@ title: DataProcessingRequest նկարագրություն
 
 Տե՛ս նաև 
 * [Տվյալների մշակման հարցման (`DPR`-ի) ստեղծման ձեռնարկը](dpr_guide.md)
-* [Կազմակերպության սեփական Տվյալների մշակման հարցումների (`DPR`-ի) ստեղծման ձեռնարկ](../../extensions/definitions/dpr_new_guide.md)
+* [Կազմակերպության սեփական Տվյալների մշակման հարցումների (`DPR`-ի) ստեղծման ձեռնարկ](../../extensions/Definitions/dpr_new_guide.md)
 * [Ասինխրոն մշակում կիրառությունների սերվերի վրա](../../Architecture/appserver_async.md)
 
 ## Մեթոդներ

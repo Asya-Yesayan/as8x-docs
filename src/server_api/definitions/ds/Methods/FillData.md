@@ -6,7 +6,7 @@ title: DataSource.FillData(DataSourceArgs<P>, CancellationToken) մեթոդ
 
 **Համարժեքը 4x-ում՝** [Load](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/ScriptProcs/Load.html)
 
-**Դաս՝** [DataSource](../ds.md)
+**Դաս՝** [DataSource](../../ds.md)
 
 ```c#
 protected virtual Task FillData(DataSourceArgs<P> args, 
@@ -16,4 +16,4 @@ protected virtual Task FillData(DataSourceArgs<P> args,
 Մեթոդը կանչվում է միջուկի կողմից array-based տվյալների աղբյուրի դեպքում։
 նախատեսված է վերջնական [տողերի](Rows.md) ցուցակի ձևավորման համար։
 
-Տե՛ս [ձեռնարկում](../ds_guide.md) [array-based տվյալների աղբյուրի նկարագրություն](ds_guide.md#array-based-տվյալների-աղբյուրի-նկարագրման-ձեռնարկ)։
+Տե՛ս [ձեռնարկում](../../ds_guide.md) [array-based տվյալների աղբյուրի նկարագրություն](ds_guide.md#array-based-տվյալների-աղբյուրի-նկարագրման-ձեռնարկ)։

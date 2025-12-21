@@ -6,7 +6,7 @@ title: Document.SetImage(string, byte[]) մեթոդ
 
 **Համարժեքը 4x-ում՝** [AsDoc.Image](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/ASDOC/Image.html)
 
-**Դաս՝** [Document](../document.md)
+**Դաս՝** [Document](../../document.md)
 
 ```c#
 public void SetImage(string name, 

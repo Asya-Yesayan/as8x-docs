@@ -6,7 +6,7 @@ title: DataSource.Execute(P, HashSet<string>, IExtender, CancellationToken) մե
 
 **Համարժեքը 4x-ում՝** [OpenCursor](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/ASDATA/OpenCursor.html)
 
-**Դաս՝** [DataSource](../ds.md)
+**Դաս՝** [DataSource](../../ds.md)
 
 ```c#
 public Task<DataSourceResult<R>> Execute(P param, 
@@ -27,7 +27,7 @@ public Task<DataSourceResult<R>> Execute(P param,
 | stoppingToken | CancellationToken              | default         | ընդհատման օբյեկտը։  
 
 
-Տե՛ս [օրինակը](../../examples/ds.md#2-տիպիզացված-կատարում)։
+Տե՛ս [օրինակը](../../../examples/ds.md#2-տիպիզացված-կատարում)։
 
 <!-- ### GetExecutionPhases
 

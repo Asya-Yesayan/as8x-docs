@@ -4,7 +4,7 @@ title: Document.GridsLoading հատկություն
 
 ## Նկարագիր
 
-**Դաս՝** [Document](../document.md)
+**Դաս՝** [Document](../../document.md)
 
 ```c#
 public bool GridsLoading { get; internal set; } = false;

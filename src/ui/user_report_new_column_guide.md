@@ -15,13 +15,13 @@ tags: [UserReport]
 * հաշվետվության կոնտեքստային մենյուից ընտրել **Դիտել/Խմբագրել** ֆունկցիան,
 * բացված պատուհանի **Սյուներ** tab-ում ավելացնել սյուն։
 
-![user_report_editing](../gifs/user_report_editing.gif)
+![user_report_editing](Gifs/user_report_editing.gif)
 
 Հաշվետվությունում տվյալների աղբյուրի կամ ընդլայնիչի սյուն ավելացնելու համար անհրաժեշտ է`
 * **Սյուներ** tab-ում սեղմել **Ավելացնել սյուներ տվյալների աղբյուրից կամ ընդլայնիչից** կոճակը,
 * բացված պատուհանում ընտրել անհրաժեշտ սյուները և սեղմել **Կատարել** կոճակը։
 
-![user_report_add_ds_column](../gifs/user_report_add_ds_column.gif)
+![user_report_add_ds_column](Gifs/user_report_add_ds_column.gif)
 
 Հաշվետվությունում C# կոդ տիպի սյուն ավելացնելու համար անհրաժեշտ է` 
 * **Սյուներ** tab-ում սեղմել **Ավելացնել սյուն** կոճակը, 
@@ -32,14 +32,14 @@ tags: [UserReport]
   * [համակարգային տիպը](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/types.html): 
 * սեղմել **Կատարել** կոճակը։
 
-![user_report_add_c_sharp_column](../gifs/user_report_add_c_sharp_column.gif)
+![user_report_add_c_sharp_column](Gifs/user_report_add_c_sharp_column.gif)
 
 Սյան արժեքի հաշվարկման C# կոդը սահմանելու համար անհրաժեշտ է՝
 * Բացել Օգտագործողի կողմից նկարագրված հաշվետվության խմբագրման պատուհանը և անցնել **C# կոդ** tab,
 * սեղմել **Առաջարկվող տարբերակներ** կոճակը,
 * բացված ցանկից ընտրել **ProcessRow - Տողերի մշակում** տարբերակը։
 
-![user_report_code_snippet_geneartion](../gifs/user_report_code_snippet_geneartion.gif)
+![user_report_code_snippet_geneartion](Gifs/user_report_code_snippet_geneartion.gif)
 
 Արդյունքում կգեներացվի C# կոդ, որը հանդիսանում է ձևանմուշ սյան արժեքների լրացման համար:
 

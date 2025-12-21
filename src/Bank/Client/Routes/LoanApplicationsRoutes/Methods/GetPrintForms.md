@@ -18,4 +18,4 @@ public async Task<LoanApplications.GetPrintFormsResponse> GetPrintForms(GetPrint
 
 **Օրինակ**
 
-Տե՛ս օգտագործման [օրինակը](../../../../web_api_client/bank/examples/LoanApplicationsRoutes.md#օրինակ-3)։
+Տե՛ս օգտագործման [օրինակը](../../Examples/LoanApplicationsRoutes.md#օրինակ-3)։
