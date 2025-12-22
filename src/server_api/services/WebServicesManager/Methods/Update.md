@@ -6,11 +6,11 @@ title: WebServicesManager.Update(WebServiceInfo) մեթոդ
 public Task Update(WebServiceInfo service)
 ```
 
-Թարմացնում է վեբ ծառայության [նկարագրությունը](../../types/WebServiceInfo.md)։
+Թարմացնում է վեբ ծառայության [նկարագրությունը](../../Types/WebServiceInfo.md)։
 
 **Պարամետրեր**
 
 
 | Անվանում | Տեսակ | Լռությամբ արժեք | Նկարագրություն |
 |-----------|-------|-----------------|----------------|
-| service | [WebServiceInfo](../../types/WebServiceInfo.md) | - | Վեբ ծառայության թարմացված նկարագրությունը: |
+| service | [WebServiceInfo](../../Types/WebServiceInfo.md) | - | Վեբ ծառայության թարմացված նկարագրությունը: |

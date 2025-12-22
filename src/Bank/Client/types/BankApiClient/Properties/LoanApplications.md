@@ -6,4 +6,4 @@ title: BankApiClient.LoanApplications հատկություն
 public LoanApplicationsRoutes LoanApplications { get; }
 ```
 
-Վերադարձնում է [LoanApplicationsRoutes](../../../Routes/LoanApplicationsRoutes/LoanApplicationsRoutes.md) պարունակում է մեթոդներ վարկային հայտերի հետ աշխատանքը ապահովելու համար։
+Վերադարձնում է [LoanApplicationsRoutes](../../../Routes/LoanApplications/LoanApplicationsRoutes.md) պարունակում է մեթոդներ վարկային հայտերի հետ աշխատանքը ապահովելու համար։

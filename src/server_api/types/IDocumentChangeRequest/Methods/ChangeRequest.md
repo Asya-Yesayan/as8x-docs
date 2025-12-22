@@ -18,10 +18,10 @@ public Task ChangeRequest(ChangeRequestEventArgs args)
 
 Փաստաթղթի փոփոխման հայտը հաստատելիս կանչվում են հետևյալ մեթոդները նշված հերթականությամբ՝  
 * [ChangeRequest](ChangeRequest.md),
-* [PreOnConfirmDocumentChangeRequest](../../../extensions/Definitions/document_extender/PreOnConfirmDocumentChangeRequest.md),
-* [OnConfirmDocumentChangeRequest](../../definitions/Document/Methods/OnConfirmDocumentChangeRequest.md),
-* [PostOnConfirmDocumentChangeRequest](../../../extensions/Definitions/document_extender/PostOnConfirmDocumentChangeRequest.md):
+* [PreOnConfirmDocumentChangeRequest](../../../extensions/Definitions/DocumentExtender/Methods/PreOnConfirmDocumentChangeRequest.md),
+* [OnConfirmDocumentChangeRequest](../../Definitions/Document/Methods/OnConfirmDocumentChangeRequest.md),
+* [PostOnConfirmDocumentChangeRequest](../../../extensions/Definitions/DocumentExtender/Methods/PostOnConfirmDocumentChangeRequest.md):
 
 Մեթոդները կանչվում են դրանց մշակման դեպքում և յուրաքանչյուր մեթոդի պարամետրերը կանչից հետո փոխանցվում են հաջորդին։
 
-[PreOnConfirmDocumentChangeRequest](../../../extensions/Definitions/document_extender/PreOnConfirmDocumentChangeRequest.md), [OnConfirmDocumentChangeRequest](../../definitions/Document/Methods/OnConfirmDocumentChangeRequest.md), [PostOnConfirmDocumentChangeRequest](../../../extensions/Definitions/document_extender/PostOnConfirmDocumentChangeRequest.md) մեթոդները կանչվում են միայն այն դեպքում, երբ [ChangeRequest](ChangeRequest.md) մեթոդի [ChangeRequestEventArgs](../args/ChangeRequestEventArgs.md) պարամետրի `DCRResult` հատկության արժեքը **CreatedAndConfirmedWithOnConfirm** է։
+[PreOnConfirmDocumentChangeRequest](../../../extensions/Definitions/DocumentExtender/Methods/PreOnConfirmDocumentChangeRequest.md), [OnConfirmDocumentChangeRequest](../../Definitions/Document/Methods/OnConfirmDocumentChangeRequest.md), [PostOnConfirmDocumentChangeRequest](../../../extensions/Definitions/DocumentExtender/Methods/PostOnConfirmDocumentChangeRequest.md) մեթոդները կանչվում են միայն այն դեպքում, երբ [ChangeRequest](ChangeRequest.md) մեթոդի [ChangeRequestEventArgs](../args/ChangeRequestEventArgs.md) պարամետրի `DCRResult` հատկության արժեքը **CreatedAndConfirmedWithOnConfirm** է։

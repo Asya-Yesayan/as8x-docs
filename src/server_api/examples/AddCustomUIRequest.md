@@ -1,8 +1,8 @@
----
+﻿---
 title: "Փաստաթղթում Custom UI Request-ի ավելացման օրինակ" 
 ---
 
-Այս օրինակում [բեռնվում](../services/IDocumentService/Methods/Load.md) են ընթացիկ փաստաթղթի [ծնող փաստաթղթերը](../services/IDocumentService/Methods/GetDocumentParents.md), ծնող փաստաթղթերի մասին ինֆորմացիան ավելացվում է [տեքստային հաշվետվությունում](../types/TextReport.md), որը պահվում է ընթացիկ սեսսիայի [կոնտեյներում](../services/IStorageService/Properties/Container.md)՝ [SaveToStorageAndClose](../types/TextReport/Methods/SaveToStorageAndClose.md) մեթոդի միջոցով: Պահված հաշվետվությունը պարունակող թղթապանակի, ֆայլի անունները ուղարկվում են կլիենտական հատված [AddCustomUIRequest](../types/UIRequestExecutionProgress/Methods/AddCustomUIRequest.md) մեթոդի միջոցով՝ փոխանցելով `StoragInfo` տիպի օբյեկտ։
+Այս օրինակում [բեռնվում](../Services/IDocument/Methods/Load.md) են ընթացիկ փաստաթղթի [ծնող փաստաթղթերը](../Services/IDocument/Methods/GetDocumentParents.md), ծնող փաստաթղթերի մասին ինֆորմացիան ավելացվում է [տեքստային հաշվետվությունում](../Types/TextReport.md), որը պահվում է ընթացիկ սեսսիայի [կոնտեյներում](../Services/IStorage/Properties/Container.md)՝ [SaveToStorageAndClose](../Types/TextReport/Methods/SaveToStorageAndClose.md) մեթոդի միջոցով: Պահված հաշվետվությունը պարունակող թղթապանակի, ֆայլի անունները ուղարկվում են կլիենտական հատված [AddCustomUIRequest](../Types/UIRequestExecutionProgress/Methods/AddCustomUIRequest.md) մեթոդի միջոցով՝ փոխանցելով `StoragInfo` տիպի օբյեկտ։
 
 ```c#
 public override async Task<TemplateSubstitution> TemplateSubstitution(Dictionary<string, bool> mode,

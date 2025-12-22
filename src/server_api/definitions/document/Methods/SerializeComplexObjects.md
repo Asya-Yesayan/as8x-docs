@@ -19,5 +19,5 @@ public virtual Task SerializeComplexObjects(SerializeComplexObjectsEventArgs arg
 
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 | --- | --- | --- | --- |
-| args | [SerializeComplexObjectsEventArgs](../../../types/args/SerializeComplexObjectsEventArgs.md) | - | [SerializeComplexObjectsEventArgs](../../../types/args/SerializeComplexObjectsEventArgs.md) դասի օբյեկտ։ |
+| args | [SerializeComplexObjectsEventArgs](../../../Types/args/SerializeComplexObjectsEventArgs.md) | - | [SerializeComplexObjectsEventArgs](../../../Types/args/SerializeComplexObjectsEventArgs.md) դասի օբյեկտ։ |
 

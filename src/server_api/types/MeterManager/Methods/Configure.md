@@ -1,4 +1,4 @@
----
+﻿---
 title: MeterManager.Configure(IParametersService) մեթոդ
 ---
 
@@ -14,4 +14,4 @@ protected virtual void Configure(IParametersService parametersService)
 
 | Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
 |-----------------|----------------------|----------------|----------------|
-| parametersService | IParametersService   | -              | [IParametersService](../../../../server_api/services/IParametersService.md) դասի օբյեկտ։ |
+| parametersService | IParametersService   | -              | [IParametersService](../../../../server_api/Services/IParameters/IParametersService.md) դասի օբյեկտ։ |

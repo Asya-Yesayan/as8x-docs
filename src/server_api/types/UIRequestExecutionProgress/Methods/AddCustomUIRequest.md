@@ -10,9 +10,9 @@ public Task<CustomUIRequestResult<R>> AddCustomUIRequest<R, S>(S requestSource,
                                                                bool supportRememberTheAnswer = false);
 ```
 
-Այս մեթոդը օգտագործվում է [DataSource](../../definitions/ds.md)-ի, [DPR](../../definitions/dpr.md)-ի, [Document](../../definitions/Document.md)-ի կատարման ընթացքում 8X սերվիսից 4X կամ 8X կլիենտին տվյալներ փոխանցելու նպատակով, որոնց հիման վրա կլիենտում ստեղծվում և ցուցադրվում է պատուհան։ 
+Այս մեթոդը օգտագործվում է [DataSource](../../../Definitions/DataSource/DataSource.md)-ի, [DPR](../../../Definitions/DataProcessingRequest/DataProcessingRequest.md)-ի, [Document](../../../Definitions/Document/Document.md)-ի կատարման ընթացքում 8X սերվիսից 4X կամ 8X կլիենտին տվյալներ փոխանցելու նպատակով, որոնց հիման վրա կլիենտում ստեղծվում և ցուցադրվում է պատուհան։ 
 
-Տե՛ս օգտագործման [օրինակը](../../examples/AddCustomUIRequest.md)։
+Տե՛ս օգտագործման [օրինակը](../../Examples/AddCustomUIRequest.md)։
 
 **Պարամետրեր**
 

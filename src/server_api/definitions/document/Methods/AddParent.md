@@ -1,4 +1,4 @@
----
+﻿---
 title: Document.AddParent(int) մեթոդ
 ---
 
@@ -13,7 +13,7 @@ public Task AddParent(int isn)
 Ավելացնում է տրված isn-ով փաստաթուղթը փաստաթղթի ծնող փաստաթղթերի ցուցակում։
 
 Ծնող փաստաթղթերի ցուցակը գրանցում է տվյալների պահոցի [DOCP](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Database/DocP.html) աղյուսակում 
-[IDocumentService](../../../services/IDocumentService.md).[Store](../../../services/IDocumentService/Methods/Store.md) ֆունկցիայով փաստաթուղթը տվյալների պահոցում գրանցելուց:
+[IDocumentService](../../../Services/IDocument/IDocumentService.md).[Store](../../../Services/IDocument/Methods/Store.md) ֆունկցիայով փաստաթուղթը տվյալների պահոցում գրանցելուց:
 
 **Պարամետրեր**
 

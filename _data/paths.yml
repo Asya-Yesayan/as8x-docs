@@ -1,5 +1,5 @@
-docservice_path1: ../services/IDocumentService.md#store
-docservice_path2: ../../services/IDocumentService.md#store
-docservice_path3: src/server_api/services/IDocumentService.md
+docservice_path1: ../services/IDocumentService/IDocumentService.md#store
+docservice_path2: ../../services/IDocumentService/IDocumentService.md#store
+docservice_path3: src/server_api/services/IDocumentService/IDocumentService.md
 
-docservicepath1: ../services/IDocumentService.md#store
+docservicepath1: ../services/IDocumentService/IDocumentService.md#store

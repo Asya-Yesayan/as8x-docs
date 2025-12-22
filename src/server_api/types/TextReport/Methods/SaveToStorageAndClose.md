@@ -1,4 +1,4 @@
----
+﻿---
 title: TextReport.SaveToStorageAndClose() մեթոդ
 ---
 
@@ -6,6 +6,6 @@ title: TextReport.SaveToStorageAndClose() մեթոդ
 public Task<StorageInfo> SaveToStorageAndClose()
 ```
 
-Փակում է հաշվետվությունը և պահպանում [ընթացիկ սեսսիայի կոնտեյներում](../../services/IStorageService/Container.md):
+Փակում է հաշվետվությունը և պահպանում [ընթացիկ սեսսիայի կոնտեյներում](../../Services/IStorage/Container.md):
 
-Վերադարձնում է հաշվետվությունը պարունակող [կոնտեյների](../../services/IStorageService/Container.md) և ֆայլի անունները։
+Վերադարձնում է հաշվետվությունը պարունակող [կոնտեյների](../../Services/IStorage/Container.md) և ֆայլի անունները։

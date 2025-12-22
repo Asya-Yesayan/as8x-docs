@@ -1,4 +1,4 @@
----
+﻿---
 title: IDocumentNestedTransaction.NestedTransaction(NestedTransactionEventArgs<T>) մեթոդ
 ---
 
@@ -6,7 +6,7 @@ title: IDocumentNestedTransaction.NestedTransaction(NestedTransactionEventArgs<T
 public Task NestedTransaction(NestedTransactionEventArgs<T> args)
 ```
 
-Մեթոդը կանչվում է [IDocumentService](../../../services/IDocumentService.md)-ի [NestedTransactions](../../../services/IDocumentService/Methods/NestedTransactions.md) մեթոդի **values** ցուցակի յուրաքանչյուր տարրի մշակման ընթացում:
+Մեթոդը կանչվում է [IDocumentService](../../../Services/IDocument/IDocumentService.md)-ի [NestedTransactions](../../../Services/IDocument/Methods/NestedTransactions.md) մեթոդի **values** ցուցակի յուրաքանչյուր տարրի մշակման ընթացում:
 
 **Պարամետրեր**
 

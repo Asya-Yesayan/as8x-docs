@@ -1,11 +1,11 @@
----
+﻿---
 layout: page
 title: "AppLogInfo" 
 ---
 
 Այդ դասը նախատեսված է հատուկ իրադարձության (տարբերակի փոփոխություն, Debug-ի գործարկում...) մանրամասների նկարագրման համար։
 
-Օգտագործվում է [AppLogService](../services/AppLogService.md).[Write](../services/AppLogService.md) մեթոդում։
+Օգտագործվում է [AppLogService](../Services/AppLog/AppLogService.md).[Write](../Services/AppLog/AppLogService.md) մեթոդում։
 
 ```c#
 public class AppLogInfo

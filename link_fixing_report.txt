@@ -1,0 +1,617 @@
+LINK FIXING REPORT
+================================================================================
+
+Links fixed (1):
+--------------------------------------------------------------------------------
+FILE: Bank\Client\Routes\AccountsRoutes\AccountsRoutes.md
+  OLD: AccountsRoutes/CreateGeneralAccForCli.md
+  NEW: Methods/CreateGeneralAccForCli.md
+
+
+Ambiguous links skipped (302):
+--------------------------------------------------------------------------------
+FILE: ui\template_activation_condition_in_service.md
+  LINK: ../../definitions/document.md
+  REASON: ambiguous relative path
+
+FILE: web_api_client\routes\DataProcessingRequestRoutes.md
+  LINK: ../../server_api/definitions/DataProcessingRequest.md
+  REASON: ambiguous relative path
+
+FILE: web_api_client\routes\DataProcessingRequestRoutes.md
+  LINK: ../../server_api/definitions/DataProcessingRequest.md
+  REASON: ambiguous relative path
+
+FILE: web_api_client\routes\DataProcessingRequestRoutes.md
+  LINK: ../../server_api/definitions/DataProcessingRequest.md
+  REASON: ambiguous relative path
+
+FILE: web_api_client\routes\DataProcessingRequestRoutes.md
+  LINK: ../../server_api/definitions/DataProcessingRequest.md
+  REASON: ambiguous relative path
+
+FILE: web_api_client\routes\DataProcessingRequestRoutes.md
+  LINK: ../../server_api/definitions/DataProcessingRequest.md
+  REASON: ambiguous relative path
+
+FILE: web_api_client\routes\DataProcessingRequestRoutes.md
+  LINK: ../../server_api/definitions/DataProcessingRequest.md
+  REASON: ambiguous relative path
+
+FILE: web_api_client\routes\DataProcessingRequestRoutes.md
+  LINK: ../../server_api/definitions/DataProcessingRequest.md
+  REASON: ambiguous relative path
+
+FILE: web_api_client\routes\DataProcessingRequestRoutes.md
+  LINK: ../../server_api/definitions/DataProcessingRequest.md
+  REASON: ambiguous relative path
+
+FILE: web_api_client\routes\DataProcessingRequestRoutes.md
+  LINK: ../../server_api/definitions/DataProcessingRequest.md
+  REASON: ambiguous relative path
+
+FILE: web_api_client\routes\DataProcessingRequestRoutes.md
+  LINK: ../../server_api/definitions/DataProcessingRequest.md
+  REASON: ambiguous relative path
+
+FILE: web_api_client\routes\DataProcessingRequestRoutes.md
+  LINK: ../../server_api/definitions/DataProcessingRequest.md
+  REASON: ambiguous relative path
+
+FILE: web_api_client\routes\DataProcessingRequestRoutes.md
+  LINK: ../../server_api/definitions/DataProcessingRequest.md
+  REASON: ambiguous relative path
+
+FILE: web_api_client\routes\DataSource.md
+  LINK: ../../Architecture/appserver_async.md
+  REASON: ambiguous relative path
+
+FILE: web_api_client\routes\DataSource.md
+  LINK: ../../extensions/definitions/ds_extender.md
+  REASON: ambiguous relative path
+
+FILE: web_api_client\routes\LoginService.md
+  LINK: ../../server_api/types/SessionInfo.md
+  REASON: ambiguous relative path
+
+FILE: web_api_client\routes\LoginService.md
+  LINK: ../../server_api/types/SessionInfo.md
+  REASON: ambiguous relative path
+
+FILE: web_api_client\routes\LoginService.md
+  LINK: ../../server_api/types/SessionInfo.md
+  REASON: ambiguous relative path
+
+FILE: web_api_client\types\ApiClient.md
+  LINK: ../../Bank/Client/types/BankApiClient/BankApiClient.md
+  REASON: ambiguous relative path
+
+FILE: web_api_client\routes\LoginService\Methods\AuthenticateAsync.md
+  LINK: ../../api_client.md
+  REASON: ambiguous relative path
+
+FILE: web_api_client\routes\LoginService\Methods\AuthenticateAsync.md
+  LINK: ../../api_client.md
+  REASON: ambiguous relative path
+
+FILE: web_api_client\routes\LoginService\Methods\AuthenticateAsync.md
+  LINK: ../../examples/LoginService.md
+  REASON: ambiguous relative path
+
+FILE: web_api_client\routes\DataSource\Methods\ExecuteAsync.md
+  LINK: ../../../server_api/definitions/DataSource/Properties/IsUpdatable.md
+  REASON: ambiguous relative path
+
+FILE: web_api_client\routes\DataSource\Methods\ExecuteAsync.md
+  LINK: ../../examples/DataSource.md#օրինակ-1
+  REASON: ambiguous relative path
+
+FILE: web_api_client\routes\DataSource\Methods\ExecuteAsync.md
+  LINK: ../../examples/DataSource.md#օրինակ-3
+  REASON: ambiguous relative path
+
+FILE: web_api_client\routes\DataSource\Methods\ExecuteAsync.md
+  LINK: ../../examples/DataSource.md#օրինակ-4
+  REASON: ambiguous relative path
+
+FILE: web_api_client\routes\DataSource\Methods\LongExecuteAsync.md
+  LINK: ../../../server_api/definitions/DataSource/Properties/IsUpdatable.md
+  REASON: ambiguous relative path
+
+FILE: web_api_client\routes\DataSource\Methods\LongExecuteAsync.md
+  LINK: ../../examples/DataSource.md#օրինակ-2
+  REASON: ambiguous relative path
+
+FILE: web_api_client\routes\DataProcessingRequestRoutes\Methods\Enqueue.md
+  LINK: ../../../server_api/definitions/DataProcessingRequest.md
+  REASON: ambiguous relative path
+
+FILE: web_api_client\routes\DataProcessingRequestRoutes\Methods\Enqueue.md
+  LINK: ../../../server_api/definitions/DataProcessingRequest.md
+  REASON: ambiguous relative path
+
+FILE: web_api_client\routes\DataProcessingRequestRoutes\Methods\Enqueue.md
+  LINK: ../../../server_api/types/attributes/DPRAttribute.md
+  REASON: ambiguous relative path
+
+FILE: web_api_client\routes\DataProcessingRequestRoutes\Methods\EnqueueAsync.md
+  LINK: ../../../server_api/definitions/DataProcessingRequest.md
+  REASON: ambiguous relative path
+
+FILE: web_api_client\routes\DataProcessingRequestRoutes\Methods\EnqueueAsync.md
+  LINK: ../../../server_api/definitions/DataProcessingRequest.md
+  REASON: ambiguous relative path
+
+FILE: web_api_client\routes\DataProcessingRequestRoutes\Methods\EnqueueAsync.md
+  LINK: ../../../server_api/types/attributes/DPRAttribute.md
+  REASON: ambiguous relative path
+
+FILE: web_api_client\routes\DataProcessingRequestRoutes\Methods\GetList.md
+  LINK: ../../../server_api/types/attributes/DPRAttribute.md
+  REASON: ambiguous relative path
+
+FILE: web_api_client\routes\DataProcessingRequestRoutes\Methods\GetListAsync.md
+  LINK: ../../../server_api/types/attributes/DPRAttribute.md
+  REASON: ambiguous relative path
+
+FILE: server_api\definitions\document_guide.md
+  LINK: ../../CodeGen/CodeGen.md
+  REASON: ambiguous relative path
+
+FILE: server_api\definitions\document_guide.md
+  LINK: ../../Project/injection.md
+  REASON: ambiguous relative path
+
+FILE: server_api\definitions\dpr.md
+  LINK: ../../extensions/definitions/dpr_new_guide.md
+  REASON: ambiguous relative path
+
+FILE: server_api\definitions\dpr.md
+  LINK: ../../Architecture/appserver_async.md
+  REASON: ambiguous relative path
+
+FILE: server_api\definitions\dpr_guide.md
+  LINK: ../../extensions/definitions/dpr_new_guide.md
+  REASON: ambiguous relative path
+
+FILE: server_api\definitions\dpr_guide.md
+  LINK: ../../Architecture/appserver_async.md
+  REASON: ambiguous relative path
+
+FILE: server_api\definitions\ds.md
+  LINK: ../../types/schema.md
+  REASON: ambiguous relative path
+
+FILE: server_api\definitions\ds_guide.md
+  LINK: ../../Project/injection.md
+  REASON: ambiguous relative path
+
+FILE: server_api\examples\IErrorHandlingService.md
+  LINK: ../../Project/appsettings_json.md
+  REASON: ambiguous relative path
+
+FILE: server_api\examples\IErrorHandlingService.md
+  LINK: ../../Project/appsettings_json.md#serilog
+  REASON: ambiguous relative path
+
+FILE: server_api\examples\ITemplateSubstitutionService.md
+  LINK: ../../extensions/definitions/document_extender/PostBeforeCommit.md
+  REASON: ambiguous relative path
+
+FILE: server_api\services\IDocumentChangeRequestService.md
+  LINK: ../../server_api/types/DocumentChangeRequest.md
+  REASON: ambiguous relative path
+
+FILE: server_api\services\IOlapDBService.md
+  LINK: ../../Project/appsettings_json.md
+  REASON: ambiguous relative path
+
+FILE: server_api\services\IOlapDBService.md
+  LINK: ../../Project/appsettings_json.md#db
+  REASON: ambiguous relative path
+
+... and 252 more
+
+Links skipped (1473):
+--------------------------------------------------------------------------------
+FILE: architecture\extension.md
+  LINK: ../Project/customer_specific_extensions_project.md
+  REASON: in code block
+
+FILE: architecture\extension.md
+  LINK: ../Project/appsettings_json.md#extensions
+  REASON: in code block
+
+FILE: architecture\extension.md
+  LINK: ../Project/appsettings_json.md
+  REASON: in code block
+
+FILE: architecture\extension.md
+  LINK: ../Project/appsettings_json.md#extensions
+  REASON: in code block
+
+FILE: CodeGen\CodeGen.md
+  LINK: ../types/RODocument.md
+  REASON: target file not found
+
+FILE: CodeGen\DocParser.md
+  LINK: CodeGen.md
+  REASON: in code block
+
+FILE: CodeGen\DocParser.md
+  LINK: ../types/RODocument.md
+  REASON: in code block
+
+FILE: CodeGen\DSParser.md
+  LINK: DSParser.md
+  REASON: in code block
+
+FILE: project\customer_specific_extensions_project.md
+  LINK: appsettings_json.md
+  REASON: in code block
+
+FILE: project\customer_specific_extensions_project.md
+  LINK: appsettings_json.md#extensions
+  REASON: in code block
+
+FILE: project\customer_specific_extensions_project.md
+  LINK: appsettings_json.md
+  REASON: in code block
+
+FILE: project\customer_specific_extensions_project.md
+  LINK: appsettings_json.md#extensions
+  REASON: in code block
+
+FILE: project\injection.md
+  LINK: ../server_api/Services/TreeElementsService.md
+  REASON: in code block
+
+FILE: project\injection.md
+  LINK: ../server_api/Services/IDBService.md
+  REASON: in code block
+
+FILE: ui\template_activation_condition_in_service.md
+  LINK: ../extensions/definitions/server_side_module.md
+  REASON: in code block
+
+FILE: ui\template_activation_condition_in_service.md
+  LINK: ../extensions/definitions/server_side_module.md#name
+  REASON: in code block
+
+FILE: ui\template_user_defined_parameters.md
+  LINK: ../server_api/types/SubstitutionType.md
+  REASON: in code block
+
+FILE: ui\template_user_defined_parameters.md
+  LINK: ../server_api/types/SubstitutionType.md
+  REASON: in code block
+
+FILE: ui\template_user_defined_parameters.md
+  LINK: ../extensions/definitions/server_side_module.md
+  REASON: in code block
+
+FILE: ui\template_user_defined_parameters.md
+  LINK: ../extensions/definitions/server_side_module.md#serversidemodule-նկարագրություն
+  REASON: in code block
+
+FILE: ui\template_user_defined_parameters.md
+  LINK: ../extensions/definitions/server_side_module.md#name
+  REASON: in code block
+
+FILE: ui\template_user_defined_parameters.md
+  LINK: ../extensions/definitions/server_side_module.md#serversidemodule-նկարագրություն
+  REASON: in code block
+
+FILE: ui\template_user_defined_parameters.md
+  LINK: ../extensions/definitions/server_side_module.md#cssource
+  REASON: in code block
+
+FILE: web_api_client\examples\DataSource.md
+  LINK: ../Routes/DataSource/LongExecuteAsync.md
+  REASON: in code block
+
+FILE: web_api_client\examples\DataSource.md
+  LINK: ../Routes/DataSource/ExecuteAsync.md
+  REASON: in code block
+
+FILE: web_api_client\routes\LoginService.md
+  LINK: ConfigurationName](LoginService/ConfigurationName.md
+  REASON: target file not found
+
+FILE: web_api_client\types\AuthenticateResponse.md
+  LINK: ../../server_api/types/SessionInfo.md
+  REASON: in code block
+
+FILE: web_api_client\types\CertificateAuthenticateResponse.md
+  LINK: ../../server_api/types/SessionInfo.md
+  REASON: in code block
+
+FILE: web_api_client\types\DataProcessingRequestHandler\Execute.md
+  LINK: ../../../Architecture/appserver_async.md
+  REASON: in code block
+
+FILE: web_api_client\types\DataProcessingRequestHandler\Execute.md
+  LINK: ../../../server_api/definitions/DataProcessingRequest/Properties/DPRType.md
+  REASON: in code block
+
+FILE: web_api_client\types\DataProcessingRequestHandler\Execute.md
+  LINK: ../../../server_api/definitions/DataProcessingRequest/Properties/Name.md
+  REASON: in code block
+
+FILE: web_api_client\types\DataProcessingRequestHandler\ExecuteAsync.md
+  LINK: ../../../Architecture/appserver_async.md
+  REASON: in code block
+
+FILE: web_api_client\types\DataProcessingRequestHandler\ExecuteAsync.md
+  LINK: ../../../server_api/definitions/DataProcessingRequest/Properties/DPRType.md
+  REASON: in code block
+
+FILE: web_api_client\types\DataProcessingRequestHandler\ExecuteAsync.md
+  LINK: ../../../server_api/definitions/DataProcessingRequest/Properties/Name.md
+  REASON: in code block
+
+FILE: web_api_client\types\ApiClient\Properties\Blob.md
+  LINK: ../../Routes/BlobRoutes.md
+  REASON: in code block
+
+FILE: web_api_client\types\ApiClient\Properties\Document.md
+  LINK: ../../Routes/DocumentRoutes.md
+  REASON: in code block
+
+FILE: web_api_client\types\ApiClient\Properties\DPR.md
+  LINK: ../../Routes/DataProcessingRequestRoutes.md
+  REASON: in code block
+
+FILE: web_api_client\types\ApiClient\Properties\Extender.md
+  LINK: ../../Routes/ExtenderRoutes.md
+  REASON: in code block
+
+FILE: web_api_client\routes\LoginService\Methods\AuthenticateAsync.md
+  LINK: ../../api_client.md
+  REASON: in code block
+
+FILE: web_api_client\routes\LoginService\Methods\AuthenticateAsync.md
+  LINK: ../../api_client.md
+  REASON: in code block
+
+FILE: web_api_client\routes\LoginService\Methods\GetToken.md
+  LINK: ../../types/ApiClient.md
+  REASON: in code block
+
+FILE: web_api_client\routes\LoginService\Methods\Logout.md
+  LINK: ../../../server_api/types/SessionInfo.md
+  REASON: in code block
+
+FILE: web_api_client\routes\LoginService\Methods\Logout.md
+  LINK: ../../../server_api/types/SessionInfo.md
+  REASON: in code block
+
+FILE: web_api_client\routes\LoginService\Properties\ConfigurationName.md
+  LINK: AuthenticateAsync.md
+  REASON: in code block
+
+FILE: web_api_client\routes\LoginService\Properties\Server.md
+  LINK: DbName.md
+  REASON: in code block
+
+FILE: web_api_client\routes\LoginService\Properties\SessionGuid.md
+  LINK: ../../../server_api/types/SessionInfo.md
+  REASON: in code block
+
+FILE: web_api_client\routes\ExtenderRoutes\Methods\GetSchema.md
+  LINK: ../DataSource.md
+  REASON: in code block
+
+FILE: web_api_client\routes\ExtenderRoutes\Methods\GetSchema.md
+  LINK: ../DataSource/ExtenderSchema.md
+  REASON: in code block
+
+FILE: web_api_client\routes\ExtenderRoutes\Methods\GetSchema.md
+  LINK: ../../examples/DataSource.md#օրինակ-2
+  REASON: in code block
+
+FILE: web_api_client\routes\ExtenderRoutes\Methods\GetSchemaAsync.md
+  LINK: ../DataSource.md
+  REASON: in code block
+
+FILE: web_api_client\routes\ExtenderRoutes\Methods\GetSchemaAsync.md
+  LINK: ../DataSource/ExtenderSchema.md
+  REASON: in code block
+
+FILE: web_api_client\routes\ExtenderRoutes\Methods\GetSchemaAsync.md
+  LINK: ../../examples/DataSource.md#օրինակ-2
+  REASON: in code block
+
+FILE: web_api_client\routes\DocumentRoutes\Methods\Create.md
+  LINK: ../../../server_api/types/DocumentOrigin.md
+  REASON: in code block
+
+FILE: web_api_client\routes\DocumentRoutes\Methods\CreateAsync.md
+  LINK: ../../../server_api/types/DocumentOrigin.md
+  REASON: in code block
+
+FILE: web_api_client\routes\DocumentRoutes\Methods\Store.md
+  LINK: ../../../server_api/types/DocumentCheckLevel.md
+  REASON: in code block
+
+FILE: web_api_client\routes\DocumentRoutes\Methods\StoreAsync.md
+  LINK: ../../../server_api/types/DocumentCheckLevel.md
+  REASON: in code block
+
+FILE: web_api_client\routes\DataSource\Methods\LoadDefinitionAsync.md
+  LINK: Definition.md
+  REASON: in code block
+
+FILE: web_api_client\routes\DataSource\Properties\Client.md
+  LINK: ../../types/ApiClient.md
+  REASON: in code block
+
+FILE: web_api_client\routes\DataSource\Properties\Definition.md
+  LINK: LoadDefinitionAsync.md
+  REASON: in code block
+
+FILE: web_api_client\routes\DataSource\Properties\Definition.md
+  LINK: ../../examples/DataSource.md#օրինակ-4
+  REASON: in code block
+
+FILE: web_api_client\routes\DataSource\Properties\ExtenderSchema.md
+  LINK: ../../../extensions/definitions/ds_extender.md
+  REASON: in code block
+
+FILE: web_api_client\routes\DataSource\Properties\ExtenderSchema.md
+  LINK: ../ExtenderRoutes/GetSchemaAsync.md
+  REASON: in code block
+
+FILE: web_api_client\routes\DataSource\Properties\ExtenderSchema.md
+  LINK: ../../examples/DataSource.md#օրինակ-2
+  REASON: in code block
+
+FILE: web_api_client\routes\DataProcessingRequestRoutes\Methods\Enqueue.md
+  LINK: ../../../server_api/definitions/DataProcessingRequest.md
+  REASON: in code block
+
+FILE: web_api_client\routes\DataProcessingRequestRoutes\Methods\EnqueueAsync.md
+  LINK: ../../../server_api/definitions/DataProcessingRequest.md
+  REASON: in code block
+
+FILE: web_api_client\routes\DataProcessingRequestRoutes\Methods\GetObject.md
+  LINK: ../../../server_api/types/attributes/DPRAttribute.md
+  REASON: in code block
+
+FILE: web_api_client\routes\DataProcessingRequestRoutes\Methods\GetObjectAsync.md
+  LINK: ../../../server_api/types/attributes/DPRAttribute.md
+  REASON: in code block
+
+FILE: web_api_client\routes\DataProcessingRequestRoutes\Methods\GetProgress.md
+  LINK: Enqueue.md
+  REASON: in code block
+
+FILE: web_api_client\routes\DataProcessingRequestRoutes\Methods\GetProgress.md
+  LINK: ../../../server_api/definitions/DataProcessingRequest.md
+  REASON: in code block
+
+FILE: web_api_client\routes\DataProcessingRequestRoutes\Methods\GetProgress.md
+  LINK: ../../../server_api/definitions/DataProcessingRequest.md
+  REASON: in code block
+
+FILE: web_api_client\routes\DataProcessingRequestRoutes\Methods\GetProgress.md
+  LINK: Enqueue.md
+  REASON: in code block
+
+FILE: web_api_client\routes\DataProcessingRequestRoutes\Methods\GetProgressAsync.md
+  LINK: EnqueueAsync.md
+  REASON: in code block
+
+FILE: web_api_client\routes\DataProcessingRequestRoutes\Methods\GetProgressAsync.md
+  LINK: ../../../server_api/definitions/DataProcessingRequest.md
+  REASON: in code block
+
+FILE: web_api_client\routes\DataProcessingRequestRoutes\Methods\GetProgressAsync.md
+  LINK: ../../../server_api/definitions/DataProcessingRequest.md
+  REASON: in code block
+
+FILE: web_api_client\routes\DataProcessingRequestRoutes\Methods\GetProgressAsync.md
+  LINK: EnqueueAsync.md
+  REASON: in code block
+
+FILE: web_api_client\routes\DataProcessingRequestRoutes\Methods\GetResult.md
+  LINK: Enqueue.md
+  REASON: in code block
+
+FILE: web_api_client\routes\DataProcessingRequestRoutes\Methods\GetResult.md
+  LINK: ../../../server_api/definitions/DataProcessingRequest.md
+  REASON: in code block
+
+FILE: web_api_client\routes\DataProcessingRequestRoutes\Methods\GetResult.md
+  LINK: ../../../server_api/definitions/DataProcessingRequest.md
+  REASON: in code block
+
+FILE: web_api_client\routes\DataProcessingRequestRoutes\Methods\GetResult.md
+  LINK: Enqueue.md
+  REASON: in code block
+
+FILE: web_api_client\routes\DataProcessingRequestRoutes\Methods\GetResultAsync.md
+  LINK: EnqueueAsync.md
+  REASON: in code block
+
+FILE: web_api_client\routes\DataProcessingRequestRoutes\Methods\GetResultAsync.md
+  LINK: ../../../server_api/definitions/DataProcessingRequest.md
+  REASON: in code block
+
+FILE: web_api_client\routes\DataProcessingRequestRoutes\Methods\GetResultAsync.md
+  LINK: ../../../server_api/definitions/DataProcessingRequest.md
+  REASON: in code block
+
+FILE: web_api_client\routes\DataProcessingRequestRoutes\Methods\GetResultAsync.md
+  LINK: EnqueueAsync.md
+  REASON: in code block
+
+FILE: web_api_client\routes\DataProcessingRequestRoutes\Methods\Stop.md
+  LINK: ../../../server_api/definitions/DataProcessingRequest.md
+  REASON: in code block
+
+FILE: web_api_client\routes\DataProcessingRequestRoutes\Methods\Stop.md
+  LINK: ../../../server_api/definitions/DataProcessingRequest.md
+  REASON: in code block
+
+FILE: web_api_client\routes\DataProcessingRequestRoutes\Methods\Stop.md
+  LINK: Enqueue.md
+  REASON: in code block
+
+FILE: web_api_client\routes\DataProcessingRequestRoutes\Methods\StopAsync.md
+  LINK: ../../../server_api/definitions/DataProcessingRequest.md
+  REASON: in code block
+
+FILE: web_api_client\routes\DataProcessingRequestRoutes\Methods\StopAsync.md
+  LINK: ../../../server_api/definitions/DataProcessingRequest.md
+  REASON: in code block
+
+FILE: web_api_client\routes\DataProcessingRequestRoutes\Methods\StopAsync.md
+  LINK: EnqueueAsync.md
+  REASON: in code block
+
+FILE: web_api_client\routes\AuthenticationClient\Methods\AuthenticateWithCertificateAsync.md
+  LINK: ../../api_client.md
+  REASON: in code block
+
+FILE: web_api_client\routes\AuthenticationClient\Methods\AuthenticateWithCertificateAsync.md
+  LINK: ../../types/CertificateAuthenticateResponse.md
+  REASON: in code block
+
+FILE: web_api_client\routes\AuthenticationClient\Methods\AuthenticateWithCertificateAsync.md
+  LINK: ../../types/CertificateAuthenticateRequest.md
+  REASON: in code block
+
+FILE: web_api_client\routes\AuthenticationClient\Methods\AuthenticateWithSecretAsync.md
+  LINK: ../../api_client.md
+  REASON: in code block
+
+FILE: web_api_client\routes\AuthenticationClient\Methods\AuthenticateWithSecretAsync.md
+  LINK: ../../types/AuthenticateResponse.md
+  REASON: in code block
+
+FILE: web_api_client\routes\AuthenticationClient\Methods\AuthenticateWithSecretAsync.md
+  LINK: ../../examples/AuthenticationClient.md
+  REASON: in code block
+
+FILE: server_api\definitions\document.md
+  LINK: ../types/attributes/DocumentAttribute.md
+  REASON: in code block
+
+FILE: server_api\definitions\document.md
+  LINK: Document/Methods/LoadImagesAndMemos.md
+  REASON: in code block
+
+FILE: server_api\definitions\document.md
+  LINK: Document/Methods/OnConfirmDocumentChangeRequest.md
+  REASON: in code block
+
+FILE: server_api\definitions\document.md
+  LINK: Document/Properties/TimeStamp.md
+  REASON: in code block
+
+FILE: server_api\definitions\document_guide.md
+  LINK: ../../CodeGen/CodeGen.md
+  REASON: in code block
+
+... and 1373 more

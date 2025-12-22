@@ -10,4 +10,4 @@ title: BankMeterManager սերվիս
 
 | Անվանում | Նկարագրություն |
 |----------|----------------|
-| [Configure](Methods/Configure.md) | Ստեղծում և կոնֆիգուրացնում է ՀԾ-Բանկին յուրահատուկ և համակարգի [հիմնական մետրիկաները](../../../../server_api/types/MeterManager/Methods/Configure.md): |
+| [Configure](Methods/Configure.md) | Ստեղծում և կոնֆիգուրացնում է ՀԾ-Բանկին յուրահատուկ և համակարգի [հիմնական մետրիկաները](../../../../server_api/Types/MeterManager/Methods/Configure.md): |

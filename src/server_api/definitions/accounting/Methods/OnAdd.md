@@ -1,4 +1,4 @@
----
+﻿---
 title: Accounting.OnAdd(OnAddEventArgs) մեթոդ
 ---
 
@@ -6,13 +6,13 @@ title: Accounting.OnAdd(OnAddEventArgs) մեթոդ
 
 **Համարժեքը 4x-ում՝** [OnAdd](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/ScriptProcs/OnAdd.html)
 
-**Դաս՝** [Accounting](../../Accounting.md)
+**Դաս՝** [Accounting](../Accounting.md)
 
 ```c#
 public virtual Task OnAdd(OnAddEventArgs args);
 ```
 
-Մեթոդը կանչվում է միջուկի կողմից [DocumentService](../../../services/IDocumentService.md) դասի [StoreFact](../../../services/IDocumentService/Methods/StoreFact.md) մեթոդով հաշվառումները գրանցելիս։
+Մեթոդը կանչվում է միջուկի կողմից [DocumentService](../../../Services/IDocument/IDocumentService.md) դասի [StoreFact](../../../Services/IDocument/Methods/StoreFact.md) մեթոդով հաշվառումները գրանցելիս։
 
 **Պարամետրեր**
 

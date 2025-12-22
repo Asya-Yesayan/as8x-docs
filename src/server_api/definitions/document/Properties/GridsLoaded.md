@@ -1,4 +1,4 @@
----
+﻿---
 title: Document.GridsLoaded հատկություն
 ---
 
@@ -11,5 +11,5 @@ public bool GridsLoaded { get; protected internal set; }
 ```
 
 Ցույց է տալիս փաստաթղթի աղյուսակների բեռնված լինելը։ 
-Տե՛ս [IDocumentService](../../../services/IDocumentService.md).[Load](../../../services/IDocumentService/Methods/Load.md)։
+Տե՛ս [IDocumentService](../../../Services/IDocument/IDocumentService.md).[Load](../../../Services/IDocument/Methods/Load.md)։
 

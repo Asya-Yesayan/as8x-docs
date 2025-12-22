@@ -3,7 +3,7 @@ layout: page
 title: "StoreGridsEventArgs դաս" 
 ---
 
-Այս դասը օգտագործվում է [Document.StoreGrids](../../definitions/Document/Methods/StoreGrids.md) մեթոդում։
+Այս դասը օգտագործվում է [Document.StoreGrids](../../Definitions/Document/Methods/StoreGrids.md) մեթոդում։
 
 ## Հատկություններ
 

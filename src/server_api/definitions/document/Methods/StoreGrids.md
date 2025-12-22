@@ -1,4 +1,4 @@
----
+﻿---
 title: Document.StoreGrids(StoreGridsEventArgs) մեթոդ
 ---
 
@@ -12,7 +12,7 @@ title: Document.StoreGrids(StoreGridsEventArgs) մեթոդ
 public virtual Task StoreGrids(StoreGridsEventArgs args)
 ```
 
-Մեթոդը կանչվում է միջուկի կողմից փաստաթուղթը [IDocumentService](../../../services/IDocumentService.md).[Store](../../../services/IDocumentService/Methods/Store.md) մեթոդի միջոցով տվյալների պահոցում գրանցելուց։
+Մեթոդը կանչվում է միջուկի կողմից փաստաթուղթը [IDocumentService](../../../Services/IDocument/IDocumentService.md).[Store](../../../Services/IDocument/Methods/Store.md) մեթոդի միջոցով տվյալների պահոցում գրանցելուց։
 
 Մեթոդի գերբեռնումը նախատեսված է փաստաթղթի ցանկալի աղյուսակները DOCSG աղյուսակի մեջ չպահպանելու և այլ տեղերում պահպանելու համար։
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: RODocument դաս
 ---
 
@@ -15,7 +15,7 @@ public class Client : RODocument
 
 Փաստաթղթին համապատասխան քեշավորվող փաստաթուղթը գեներացվում է ավտոմատ [Codegen](../../CodeGen/CodeGen.md) գործիքի միջոցով։
 
-RODocument տեսակի փաստաթուղթը տվյալների պահոցից բեռնելու, քեշում պահելու և քեշից կարդալու համար տե՛ս [RODocumentService](../services/RODocumentService.md):
+RODocument տեսակի փաստաթուղթը տվյալների պահոցից բեռնելու, քեշում պահելու և քեշից կարդալու համար տե՛ս [RODocumentService](../Services/RODocument/RODocumentService.md):
 
 ## Մեթոդներ
 

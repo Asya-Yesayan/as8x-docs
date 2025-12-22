@@ -1,0 +1,28 @@
+﻿---
+title: ITemplateSubstitutionService.LoadTemplateFile(string, SubstitutionType) մեթոդ  
+---
+
+## Նկարագիր
+
+**Դաս՝** [ITemplateSubstitutionService](../ITemplateSubstitution/ITemplateSubstitutionService.md)
+
+```c#
+public Task<(bool IsUnicode, byte[] File, bool Updatable)> LoadTemplateFile(
+    string name, 
+    SubstitutionType type)
+```
+
+Բեռնում է տպելու ձևանմուշի տվյալները պահոցի `TEMPLATES` աղյուսակից։ Բեռնման ընթացքում կատարվում է լրացուցիչ ստուգումներ, որից հետո հնարավոր է լրացնել ֆայլը։ 
+Ստացված տվյալները ենթակա են փոխանցման [EvalAndAddUserDefinedParameters](EvalAndAddUserDefinedParameters.md), ապա [Substitute](Substitute.md) կամ [SubstituteAndGetContent](SubstituteAndGetContent.md) մեթոդներին։
+
+Վերադարձնում է կորտեժ
+* `IsUnicode` - Տպելու ձևանմուշը հարկավոր է արտահանել յունիկոդ կոդավորմամբ։
+* `File` - Տպելու ձևանմուշի պարունակությունը որպես բայտերի զանգված։
+* `Updatable` - Տպելու ձևանմուշը լրացնելուց հետո հարկավոր է դարձնել ոչ խմբագրելի։
+
+**Պարամետրեր**
+
+| Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
+|-----------------|----------------------|----------------|----------------|
+| name       | string                 | -              | Տպելու ձևանմուշի ներքին անուն: |
+| type            | SubstitutionType               | -              | [Տպելու ձևանմուշի տիպ](../../Types/SubstitutionType.md): |

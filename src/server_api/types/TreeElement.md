@@ -1,4 +1,4 @@
----
+﻿---
 layout: page
 title: "TreeElement" 
 tags: AsTreeElement
@@ -8,7 +8,7 @@ tags: AsTreeElement
 
 Այս դասը նախատեսված է ծառի հանգույցի նկարագրման համար։
 
-Օգտագործվում է [IDocumentService](../services/IDocumentService.md).[StoreInTree](../services/IDocumentService/Methods/StoreInTree.md)  և [TreeElementsService](../services/TreeElementsService.md)-ի ֆունկցիաներում։
+Օգտագործվում է [IDocumentService](../Services/IDocument/IDocumentService.md).[StoreInTree](../Services/IDocument/Methods/StoreInTree.md)  և [TreeElementsService](../Services/TreeElements/TreeElementsService.md)-ի ֆունկցիաներում։
 
 ```c#
 public class TreeElement

@@ -1,4 +1,4 @@
----
+﻿---
 title: IExtensionMeterProvider.Configure(IParametersService, Meter) մեթոդ
 ---
 
@@ -13,5 +13,5 @@ public void Configure(IParametersService parametersService, Meter meter)
 
 | Անվանում | Տեսակ | Նկարագրություն |
 |----------|----------|----------|
-| parametersService | [IParametersService](../../services/IParametersService.md) | [IParametersService](../../services/IParametersService.md) դասի օբյեկտ: |
+| parametersService | [IParametersService](../../Services/IParameters/IParametersService.md) | [IParametersService](../../Services/IParameters/IParametersService.md) դասի օբյեկտ: |
 | meter | [Meter](https://learn.microsoft.com/en-us/dotnet/api/system.diagnostics.metrics.meter) | [Meter](https://learn.microsoft.com/en-us/dotnet/api/system.diagnostics.metrics.meter) դասի օբյեկտ, որը հնարավորություն է տալիս ապահովել մետրիկաների հետ աշխատանքը (ստեղծել, կոնֆիգուրացնել․․․)։ |

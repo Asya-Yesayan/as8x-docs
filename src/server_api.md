@@ -1,4 +1,4 @@
----
+﻿---
 layout: page
 title: "Սերվերային API" 
 ---
@@ -7,33 +7,33 @@ title: "Սերվերային API"
 
 ## Նկարագրություններ
 
-* [Փաստաթղթի ստեղծման ձեռնարկ](server_api/definitions/document_guide.md)
-* [Տվյալների աղբյուրի ստեղծման ձեռնարկ](server_api/definitions/ds_guide.md)
-* [Տվյալների մշակման հարցման (DPR) ձեռնարկ](server_api/definitions/dpr_guide.md)
-* [Հաշվառման ընդլայնման ձեռնարկ](extensions/Definitions/acc_extender_guide.md)
-* [Փաստաթղթի իրադարձությունների ընդլայնման ձեռնարկ](extensions/Definitions/document_extender_guide.md)
-* [Տվյալների աղբյուրի ընդլայնման ձեռնարկ](extensions/Definitions/ds_extender_guide.md)
-* [Սերվերային մոդուլի ձեռնարկ (SERVERSIDEMODULE)](extensions/Definitions/server_side_module_guide.md)
+* [Փաստաթղթի ստեղծման ձեռնարկ](server_api/Definitions/Document/document_guide.md)
+* [Տվյալների աղբյուրի ստեղծման ձեռնարկ](server_api/Definitions/DataSource/ds_guide.md)
+* [Տվյալների մշակման հարցման (DPR) ձեռնարկ](server_api/Definitions/DataProcessingRequest/dpr_guide.md)
+* [Հաշվառման ընդլայնման ձեռնարկ](extensions/Definitions/AccountingExtender/acc_extender_guide.md)
+* [Փաստաթղթի իրադարձությունների ընդլայնման ձեռնարկ](extensions/Definitions/DocumentExtender/document_extender_guide.md)
+* [Տվյալների աղբյուրի ընդլայնման ձեռնարկ](extensions/Definitions/DataSourceExtender/ds_extender_guide.md)
+* [Սերվերային մոդուլի ձեռնարկ (SERVERSIDEMODULE)](extensions/Definitions/ServerSideModule/server_side_module_guide.md)
 * [Բոլոր նկարագրությունները](server_api/definitions.md)
 
 ## Սերվիսներ
 
-* [AppLogService](server_api/services/AppLogService.md)
-* [IAttachmentService](server_api/services/IAttachmentService.md)
-* [IDocumentService](server_api/services/IDocumentService.md)
-* [IDBService](server_api/services/IDBService.md)
-* [IErrorHandlingService](server_api/services/IErrorHandlingService.md)
-* [IFactService](server_api/services/IFactService.md)
-* [IFolderService](server_api/services/IFolderService.md)
-* [IHolidaysService](server_api/services/IHolidaysService.md)
-* [IMailService](server_api/services/IMailService.md)
-* [IParametersService](server_api/services/IParametersService.md)
-* [ISessionInfoService](server_api/services/ISessionInfoService.md)
-* [IStorageService](server_api/services/IStorageService.md)
-* [ITemplateSubstitutionService](server_api/services/ITemplateSubstitutionService.md)
-* [IUserService](server_api/services/IUserService.md)
-* [DataSourceService](server_api/services/DataSourceService.md)
-* [LiteDocumentService](server_api/services/LiteDocumentService.md)
-* [TemplateService](server_api/services/TemplateService.md)
-* [TreeElementsService](server_api/services/TreeElementsService.md)
-* [LanguageService](server_api/services/LanguageService.md)
+* [AppLogService](server_api/Services/AppLog/AppLogService.md)
+* [IAttachmentService](server_api/Services/IAttachment/IAttachmentService.md)
+* [IDocumentService](server_api/Services/IDocument/IDocumentService.md)
+* [IDBService](server_api/Services/IDB/IDBService.md)
+* [IErrorHandlingService](server_api/Services/IErrorHandling/IErrorHandlingService.md)
+* [IFactService](server_api/Services/IFact/IFactService.md)
+* [IFolderService](server_api/Services/IFolder/IFolderService.md)
+* [IHolidaysService](server_api/Services/IHolidays/IHolidaysService.md)
+* [IMailService](server_api/Services/IMail/IMailService.md)
+* [IParametersService](server_api/Services/IParameters/IParametersService.md)
+* [ISessionInfoService](server_api/Services/ISessionInfo/ISessionInfoService.md)
+* [IStorageService](server_api/Services/IStorage/IStorageService.md)
+* [ITemplateSubstitutionService](server_api/Services/ITemplateSubstitution/ITemplateSubstitutionService.md)
+* [IUserService](server_api/Services/IUser/IUserService.md)
+* [DataSourceService](server_api/Services/DataSource/DataSourceService.md)
+* [LiteDocumentService](server_api/Services/LiteDocument/LiteDocumentService.md)
+* [TemplateService](server_api/Services/Template/TemplateService.md)
+* [TreeElementsService](server_api/Services/TreeElements/TreeElementsService.md)
+* [LanguageService](server_api/Services/Language/LanguageService.md)

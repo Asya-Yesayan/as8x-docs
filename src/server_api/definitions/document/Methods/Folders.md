@@ -1,4 +1,4 @@
----
+﻿---
 title: Document.Folders(FoldersEventArgs) մեթոդ
 ---
 
@@ -12,15 +12,15 @@ title: Document.Folders(FoldersEventArgs) մեթոդ
 public virtual Task Folders(FoldersEventArgs args)
 ```
 
-Մեթոդը կանչվում է միջուկի կողմից [IDocumentService](../../../services/IDocumentService.md).[Store](../../../services/IDocumentService/Methods/Store.md) ֆունկցիայով փաստաթուղթը տվյալների պահոցում գրանցելուց առաջ։
+Մեթոդը կանչվում է միջուկի կողմից [IDocumentService](../../../Services/IDocument/IDocumentService.md).[Store](../../../Services/IDocument/Methods/Store.md) ֆունկցիայով փաստաթուղթը տվյալների պահոցում գրանցելուց առաջ։
 Կանչվում է նաև փաստաթղթերի ինդեքսավորման ժամանակ։
 
-Թղթապանակների, ծառերի տարրերի ստեղծումը և տվյալների պահոցումը գրանցումը հարկավոր է կատարել այս մեթոդում՝ կանչելով համապատասխանաբար [IDocumentService](../../../services/IDocumentService.md).[StoreInFolder](../../../services/IDocumentService/Methods/StoreInFolder.md) և [IDocumentService](../../../services/IDocumentService.md).[StoreInTree](../../../services/IDocumentService/Methods/StoreInTree.md) մեթոդները։
+Թղթապանակների, ծառերի տարրերի ստեղծումը և տվյալների պահոցումը գրանցումը հարկավոր է կատարել այս մեթոդում՝ կանչելով համապատասխանաբար [IDocumentService](../../../Services/IDocument/IDocumentService.md).[StoreInFolder](../../../Services/IDocument/Methods/StoreInFolder.md) և [IDocumentService](../../../Services/IDocument/IDocumentService.md).[StoreInTree](../../../Services/IDocument/Methods/StoreInTree.md) մեթոդները։
 
 **Պարամետրեր**
 
 
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 | --- | --- | --- | --- |
-| args | [FoldersEventArgs](../../../types/args/FoldersEventArgs.md) | - | [FoldersEventArgs](../../../types/args/FoldersEventArgs.md) դասի օբյեկտ։ |
+| args | [FoldersEventArgs](../../../Types/args/FoldersEventArgs.md) | - | [FoldersEventArgs](../../../Types/args/FoldersEventArgs.md) դասի օբյեկտ։ |
 

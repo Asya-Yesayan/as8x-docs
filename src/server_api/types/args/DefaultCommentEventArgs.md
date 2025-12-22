@@ -3,7 +3,7 @@ layout: page
 title: "DefaultCommentEventArgs դաս" 
 ---
 
-Այս դասը օգտագործվում է [Document.DefaultComment](../../definitions/Document/Methods/DefaultComment.md) մեթոդում։
+Այս դասը օգտագործվում է [Document.DefaultComment](../../Definitions/Document/Methods/DefaultComment.md) մեթոդում։
 
 ## Հատկություններ
 

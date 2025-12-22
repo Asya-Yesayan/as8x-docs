@@ -10,5 +10,5 @@ title: Document.Origin հատկություն
 public DocumentOrigin Origin { get; internal set; }
 ```
 
-Վերադարձնում է փաստաթուղթը ստեղծման [աղբյուրը](../../../types/DocumentOrigin.md):
+Վերադարձնում է փաստաթուղթը ստեղծման [աղբյուրը](../../../Types/DocumentOrigin.md):
 

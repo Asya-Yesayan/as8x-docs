@@ -1,0 +1,25 @@
+---
+title: IFactService.SetAccDeb(Fact, string, bool) մեթոդ
+---
+
+## Նկարագիր
+
+**Համարժեքը 4x-ում՝** [AsFact.AccDeb](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/ASFACT/AccDeb.html)
+
+**Դաս՝** [IFactService](../IFactService/IFactService.md)
+
+```c#
+public Task SetAccDeb(Fact fact, 
+                      string value, 
+                      bool uncheck = false);
+```
+
+Նշանակում է գործառնության դեբետային հաշիվը։
+
+**Պարամետրեր**
+
+| Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
+|-----------------|----------------------|----------------|----------------|
+| fact            | Fact                 | -              | Գործառնության օբյեկտ։ |
+| value           | string               | -              | Վերագրվող արժեք։ |
+| uncheck         | bool                 | false          | `false` արժեքի դեպքում ստուգվում է վերագրվող հաշվի առկայությունը [հաշվառում](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Defs/Accounting.html) համակարգային նկարագրության AccFolder թղթապանակում, որտեղ նշվում են դեբետի կամ կրեդիտի թղթակցությանը մասնակցող հաշիվները։ |

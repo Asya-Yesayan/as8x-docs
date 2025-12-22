@@ -11,22 +11,22 @@ title: DataProcessingRequest նկարագրություն
 
 Տե՛ս նաև 
 * [Տվյալների մշակման հարցման (`DPR`-ի) ստեղծման ձեռնարկը](dpr_guide.md)
-* [Կազմակերպության սեփական Տվյալների մշակման հարցումների (`DPR`-ի) ստեղծման ձեռնարկ](../../extensions/Definitions/dpr_new_guide.md)
+* [Կազմակերպության սեփական Տվյալների մշակման հարցումների (`DPR`-ի) ստեղծման ձեռնարկ](../../extensions/Definitions/DataProcessingRequest/dpr_new_guide.md)
 * [Ասինխրոն մշակում կիրառությունների սերվերի վրա](../../Architecture/appserver_async.md)
 
 ## Մեթոդներ
 
 | Անվանում | Նկարագրություն |
 |----------|----------------|
-| [AfterDeserializeParameter(P, JsonElement)](dpr/Methods/AfterDeserializeParameter.md) | Մեթոդը կանչվում է միջուկի կողմից DPR-ը հերթագրման դնելուց առաջ։ |
-| [Execute(P, CancellationToken)](dpr/Methods/Execute.md) | Մեթոդը կանչվում է միջուկի կողմից, այստեղ հարկավոր է մշակել սերվերում աշխատող տրամաբանությունը։ |
+| [AfterDeserializeParameter(P, JsonElement)](DataProcessingRequest/Methods/AfterDeserializeParameter.md) | Մեթոդը կանչվում է միջուկի կողմից DPR-ը հերթագրման դնելուց առաջ։ |
+| [Execute(P, CancellationToken)](DataProcessingRequest/Methods/Execute.md) | Մեթոդը կանչվում է միջուկի կողմից, այստեղ հարկավոր է մշակել սերվերում աշխատող տրամաբանությունը։ |
 
 ## Հատկություններ
 
 | Անվանում | Նկարագրություն |
 |----------|----------------|
-| [ArmenianCaption](dpr/Properties/ArmenianCaption.md) | Վերադարձնում է տվյալների մշակման հարցման (`DPR`-ի) հայերեն անվանումը ANSI կոդավորմամբ: |
-| [EnglishCaption](dpr/Properties/EnglishCaption.md) | Վերադարձնում է տվյալների մշակման հարցման (`DPR`-ի) անգլերեն անվանումը: |
-| [Name](dpr/Properties/Name.md) | Վերադարձնում է տվյալների մշակման հարցման (`DPR`-ի) ներքին անունը: |
-| [Progress](dpr/Properties/Progress.md) | Վերադարձնում է տվյալների մշակման հարցման (`DPR`-ի) կատարման պրոգրեսը: |
-| [DPRType](dpr/Properties/DPRType.md) | Վերադարձնում է տվյալների մշակման հարցման (`DPR`-ի) տեսակը, որը լրացված է նկարագրվող դասի վրա [DPR ատրիբուտի](../types/attributes/DPRAttribute.md) մեջ։ |
+| [ArmenianCaption](DataProcessingRequest/Properties/ArmenianCaption.md) | Վերադարձնում է տվյալների մշակման հարցման (`DPR`-ի) հայերեն անվանումը ANSI կոդավորմամբ: |
+| [EnglishCaption](DataProcessingRequest/Properties/EnglishCaption.md) | Վերադարձնում է տվյալների մշակման հարցման (`DPR`-ի) անգլերեն անվանումը: |
+| [Name](DataProcessingRequest/Properties/Name.md) | Վերադարձնում է տվյալների մշակման հարցման (`DPR`-ի) ներքին անունը: |
+| [Progress](DataProcessingRequest/Properties/Progress.md) | Վերադարձնում է տվյալների մշակման հարցման (`DPR`-ի) կատարման պրոգրեսը: |
+| [DPRType](DataProcessingRequest/Properties/DPRType.md) | Վերադարձնում է տվյալների մշակման հարցման (`DPR`-ի) տեսակը, որը լրացված է նկարագրվող դասի վրա [DPR ատրիբուտի](../types/attributes/DPRAttribute.md) մեջ։ |

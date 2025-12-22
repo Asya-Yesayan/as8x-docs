@@ -1,11 +1,11 @@
----
+﻿---
 layout: page
 title: "MailArgs" 
 ---
 
 Այս դասը նախատեսված է էլեկտրոնային հասցե(ներ)ին ուղարկվող հաղորդագրության տեքստի, հատկությունների և ստացողների նկարագրման համար։
 
-Օգտագործվում է [IMailService](../services/IMailService.md).[SendMail](../services/IMailService/Methods/SendMail.md) էլեկտրոնային հաղորդագրություն ուղարկելիս։
+Օգտագործվում է [IMailService](../Services/IMail/IMailService.md).[SendMail](../Services/IMail/Methods/SendMail.md) էլեկտրոնային հաղորդագրություն ուղարկելիս։
 
 ```c#
 public class MailArgs

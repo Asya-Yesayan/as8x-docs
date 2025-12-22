@@ -596,7 +596,7 @@ bool agrExist2 = await proxyService.ExistsContractByCliCode("00101953", "C1");
 public Task<FolderElement> FolderElProp(string folderId, string key, bool noLock = true)
 ```
 
-Վերադարձնում է [FolderElement](../../server_api/types/FolderElement.md) տիպի օբյեկտ ըստ թղթապանակի անվան և բանալիի։ 
+Վերադարձնում է [FolderElement](../../server_api/Types/FolderElement.md) տիպի օբյեկտ ըստ թղթապանակի անվան և բանալիի։ 
 Թղթապանակները գրանցվում են հիմնական բազայի FOLDERS աղյուսակում։
 
 **Պարամետրեր**
@@ -1921,7 +1921,7 @@ public Task<Document> LoadDoc(int isn,
 **Պարամետրեր**
 
 * `isn` - Փաստաթղթի ISN։
-* `gridLoadMode` -  [Աղյուսակների բեռնման հայտանիշ](../../server_api/types/GridLoadMode.md)։
+* `gridLoadMode` -  [Աղյուսակների բեռնման հայտանիշ](../../server_api/Types/GridLoadMode.md)։
 * `loadParents` - Ծնող փաստաթղթերի ISN-ների ցուցակի բեռնման հայտանիշ։ 
 * `throwExceptionIfDeleted` - Պահանջվող փաստաթղթի հեռացված լինելու դեպքում սխալի առջացման հայտանիշ։ 
 * `lookInArc` - Արխիվացված փաստաթղթի բեռնման հայտանիշ։ 
@@ -2034,7 +2034,7 @@ public Task<Document> LoadDocFromFolder(string folder, string key,
 
 * `folder` - Թղթապանակի ներքին անուն։
 * `key` -  Թղթապանակի տարրի բանալի։
-* `gridLoadMode` -  [Աղյուսակների բեռնման հայտանիշ](../../server_api/types/GridLoadMode.md)։
+* `gridLoadMode` -  [Աղյուսակների բեռնման հայտանիշ](../../server_api/Types/GridLoadMode.md)։
 * `loadParents` -  Ծնող փաստաթղթերի ISN-ների ցուցակի բեռնման հայտանիշ։
 * `loadImagesAndMemos` - Նկարների ու մեծ մուտքագրման դաշտերի բեռնման հայտանիշ։
 
@@ -2391,7 +2391,7 @@ string sumInW = await proxyService.SumInWordsAsync(15.66m, "Dram", "Luma", isArm
 public Task<TreeElement> TreeElProp(string treeId, string key, bool useCache = true)
 ```
 
-Բեռնում է [ծառի տարրը](../../server_api/types/TreeElement.md) տվյալների պահոցից կամ քեշից, եթե ծառը քեշավոևվող է։
+Բեռնում է [ծառի տարրը](../../server_api/Types/TreeElement.md) տվյալների պահոցից կամ քեշից, եթե ծառը քեշավոևվող է։
 
 **Պարամետրեր**
 
@@ -2412,7 +2412,7 @@ string DistrName = (await proxyService.TreeElProp("LRDistr", "001")).Comment;
 public Task<string> TreeElPropComment(string treeId, string key, bool useCache = true)
 ```
 
-Բեռնում է [ծառի տարրի](../../server_api/types/TreeElement.md) հայերեն/անգլերեն անվանումը։
+Բեռնում է [ծառի տարրի](../../server_api/Types/TreeElement.md) հայերեն/անգլերեն անվանումը։
 
 **Պարամետրեր**
 
@@ -2507,7 +2507,7 @@ decimal agrs = proxyService.Udf("AvRem", DateTime.Parse("2024-07-01"), DateTime.
 public Task<UserDescription> UserElProp(short suid)
 ```
 
-Վերադարձնում է համակարգի [օգտագործողի նկարագրությունը](../../server_api/types/UserDescription.md) ըստ օգտագործողի։
+Վերադարձնում է համակարգի [օգտագործողի նկարագրությունը](../../server_api/Types/UserDescription.md) ըստ օգտագործողի։
 
 **Պարամետրեր**
 

@@ -19,5 +19,5 @@ public virtual Task OnConfirmDocumentChangeRequest(ConfirmDocumentChangeRequestE
 
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 | --- | --- | --- | --- |
-| args | [ConfirmDocumentChangeRequestEventArgs](../../../types/args/ConfirmDocumentChangeRequestEventArgs.md) | - | [ConfirmDocumentChangeRequestEventArgs](../../../types/args/ConfirmDocumentChangeRequestEventArgs.md) դասի օբյեկտ։ |
+| args | [ConfirmDocumentChangeRequestEventArgs](../../../Types/args/ConfirmDocumentChangeRequestEventArgs.md) | - | [ConfirmDocumentChangeRequestEventArgs](../../../Types/args/ConfirmDocumentChangeRequestEventArgs.md) դասի օբյեկտ։ |
 

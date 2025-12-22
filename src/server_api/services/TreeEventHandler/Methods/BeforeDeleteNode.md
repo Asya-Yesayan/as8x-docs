@@ -13,4 +13,4 @@ public virtual Task BeforeDeleteNode(BeforeDeleteNodeEventArgs args)
 
 | Անվանում | Տեսակ | Լռությամբ արժեք | Նկարագրություն |
 |-----------|-------|-----------------|----------------|
-| args | BeforeDeleteNodeEventArgs | - | BeforeDeleteNodeEventArgs դասի օբյեկտ, որը պարունակում է ծառի [հանգույցի նկարագրությունը](../../types/TreeElement.md)։ |
+| args | BeforeDeleteNodeEventArgs | - | BeforeDeleteNodeEventArgs դասի օբյեկտ, որը պարունակում է ծառի [հանգույցի նկարագրությունը](../../Types/TreeElement.md)։ |

@@ -1,4 +1,4 @@
----
+﻿---
 title: Document.Deleting հատկություն
 ---
 
@@ -12,5 +12,5 @@ title: Document.Deleting հատկություն
 public bool Deleting { get; internal set; }
 ```
 
-Ցույց է տալիս, արդյոք փաստաթուղթը հեռացման ընթացքում է [IDocumentService](../../../services/IDocumentService.md) դասի [Delete](../../../services/IDocumentService/Methods/Delete.md), [DeleteAll](../../../services/IDocumentService/Methods/DeleteAll.md) մեթոդների միջոցով։
+Ցույց է տալիս, արդյոք փաստաթուղթը հեռացման ընթացքում է [IDocumentService](../../../Services/IDocument/IDocumentService.md) դասի [Delete](../../../Services/IDocument/Methods/Delete.md), [DeleteAll](../../../Services/IDocument/Methods/DeleteAll.md) մեթոդների միջոցով։
 

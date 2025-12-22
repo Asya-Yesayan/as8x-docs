@@ -1,4 +1,4 @@
----
+﻿---
 title: TextReport դաս
 ---
 
@@ -6,7 +6,7 @@ title: TextReport դաս
 
 Համակարգում տեղեկատուի տեսքով հաշվետվություն ցույց տալու համար նկարագրվում է TextReport։
 
-TextReport-ի ստեղծման, լրացման ու պահման օրինակի համար [տե՛ս](../definitions/dpr_guide.md#execute):
+TextReport-ի ստեղծման, լրացման ու պահման օրինակի համար [տե՛ս](../Definitions/DataProcessingRequest/dpr_guide.md#execute):
 
 ## Կոնստրուկտորներ
 
@@ -26,7 +26,7 @@ TextReport-ի ստեղծման, լրացման ու պահման օրինակի 
 | [Break()](TextReport/Methods/Break.md) | Ավելացնում է դատարկ նոր տող հաշվետվությունում։ |
 | [GetRows(long, long)](TextReport/Methods/GetRows.md) | Վերադարձնում է հաշվետվության նշված տողերի ցուցակը։ |
 | [InsertRows(TextReport, long, long)](TextReport/Methods/InsertRows.md) | Ավելացնում է textReport հաշվետվության նշված տողերը ընթացիկ հաշվետվությունում։ |
-| [SaveToStorageAndClose()](TextReport/Methods/SaveToStorageAndClose.md) | Փակում է հաշվետվությունը և պահպանում [ընթացիկ սեսսիայի կոնտեյներում](../services/IStorageService/Properties/Container.md): |
+| [SaveToStorageAndClose()](TextReport/Methods/SaveToStorageAndClose.md) | Փակում է հաշվետվությունը և պահպանում [ընթացիկ սեսսիայի կոնտեյներում](../Services/IStorage/Properties/Container.md): |
 | [SaveToStorageAsText(StorageInfo, bool, bool, bool)](TextReport/Methods/SaveToStorageAsText.md) | Պահպանում է հաշվետվության տեքսը ֆայլի մեջ։ |
 
 ## Հատկություններ

@@ -3,7 +3,7 @@ layout: page
 title: "LoadGridsEventArgs դաս" 
 ---
 
-Այս դասը օգտագործվում է [Document.LoadGrids](../../definitions/Document/Methods/LoadGrids.md) մեթոդում։
+Այս դասը օգտագործվում է [Document.LoadGrids](../../Definitions/Document/Methods/LoadGrids.md) մեթոդում։
 
 ## Հատկություններ
 

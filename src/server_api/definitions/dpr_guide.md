@@ -1,4 +1,4 @@
----
+﻿---
 layout: page
 title: "(DPR) Տվյալների մշակման հարցման նկարագրման ձեռնարկ"
 tags: [DPR]
@@ -26,8 +26,8 @@ sublinks:
 Հարկավոր է սահմանել մուտքային և ելքային պարամետրերի դասեր (կարելի է օգտագործել գոյություն ունեցողները)։
 
 Տե՛ս նաև 
-* [Տվյալների մշակման հարցման մեթոդների ու հատկությունների նկարագրություն](dpr.md)
-* [Կազմակերպության սեփական Տվյալների մշակման հարցումների (`DPR`-ի) ստեղծման ձեռնարկ](../../extensions/Definitions/dpr_new_guide.md)
+* [Տվյալների մշակման հարցման մեթոդների ու հատկությունների նկարագրություն](DataProcessingRequest.md)
+* [Կազմակերպության սեփական Տվյալների մշակման հարցումների (`DPR`-ի) ստեղծման ձեռնարկ](../../extensions/Definitions/DataProcessingRequest/dpr_new_guide.md)
 * [Ասինխրոն մշակում կիրառությունների սերվերի վրա](../../Architecture/appserver_async.md)
 
 ## C# ֆայլի նկարագրություն
@@ -83,9 +83,9 @@ public DeleteDocsByIsnDPR(IDocumentService documentService, IStorageService stor
 
 ### Execute
 
-Հիմնական տրամաբանությունը հարկավոր է իրականացնել [Execute](dpr/Methods/Execute.md) մեթոդում, այն ստանում է մուտքային պարամետրերը նկարագրող դասը և պետք է վերադարձնի կատարման արդյունքում ստացվող տվյալները նկարագրող դասը։
+Հիմնական տրամաբանությունը հարկավոր է իրականացնել [Execute](DataProcessingRequest/Methods/Execute.md) մեթոդում, այն ստանում է մուտքային պարամետրերը նկարագրող դասը և պետք է վերադարձնի կատարման արդյունքում ստացվող տվյալները նկարագրող դասը։
 
-Ստորև օրինակում նկարագրված Տվյալների մշակման հարցումը (`DPR`) հեռացնում է կատարման պարամետրում տրված ISN-ներով փաստաթղթերը համակարգից [IDocumentService](../services/IDocumentService.md).[Delete](../services/IDocumentService/Methods/Delete.md) մեթոդի միջոցով, ստեղծում է [TextReport](../types/TextReport.md), որում լրացնում է կատարման ընթացքում առաջացած սխալները և վերադարձնում է կլիենտին։
+Ստորև օրինակում նկարագրված Տվյալների մշակման հարցումը (`DPR`) հեռացնում է կատարման պարամետրում տրված ISN-ներով փաստաթղթերը համակարգից [IDocumentService](../Services/IDocument/IDocumentService.md).[Delete](../Services/IDocument/Methods/Delete.md) մեթոդի միջոցով, ստեղծում է [TextReport](../types/TextReport.md), որում լրացնում է կատարման ընթացքում առաջացած սխալները և վերադարձնում է կլիենտին։
 
 ```c#
 public override async Task<DeleteDocsByIsnResponse> Execute(DeleteDocsByIsnRequest request, CancellationToken stoppingToken)

@@ -1,4 +1,4 @@
----
+﻿---
 title: Document.Validate(ValidateEventArgs) մեթոդ
 ---
 
@@ -12,7 +12,7 @@ title: Document.Validate(ValidateEventArgs) մեթոդ
 public virtual Task Validate(ValidateEventArgs args)
 ```
 
-Մեթոդը կանչվում է միջուկի կողմից [IDocumentService](../../../services/IDocumentService.md).[Store](../../../services/IDocumentService/Methods/Store.md) ֆունկցիայով փաստաթուղթը տվյալների պահոցում գրանցելուց առաջ։
+Մեթոդը կանչվում է միջուկի կողմից [IDocumentService](../../../Services/IDocument/IDocumentService.md).[Store](../../../Services/IDocument/Methods/Store.md) ֆունկցիայով փաստաթուղթը տվյալների պահոցում գրանցելուց առաջ։
 
 Օգտագործվում է փաստաթղթի դաշտերի արժեքների ստուգման համար։
 
@@ -21,5 +21,5 @@ public virtual Task Validate(ValidateEventArgs args)
 
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 | --- | --- | --- | --- |
-| args | [ValidateEventArgs](../../../types/args/ValidateEventArgs.md) | - | [ValidateEventArgs](../../../types/args/ValidateEventArgs.md) դասի օբյեկտ։ |
+| args | [ValidateEventArgs](../../../Types/args/ValidateEventArgs.md) | - | [ValidateEventArgs](../../../Types/args/ValidateEventArgs.md) դասի օբյեկտ։ |
 

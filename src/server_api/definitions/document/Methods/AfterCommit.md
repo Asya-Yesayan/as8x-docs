@@ -1,4 +1,4 @@
----
+﻿---
 title: Document.AfterCommit(AfterCommitEventArgs) մեթոդ
 ---
 
@@ -12,7 +12,7 @@ title: Document.AfterCommit(AfterCommitEventArgs) մեթոդ
 public virtual Task AfterCommit(AfterCommitEventArgs args)
 ```
 
-Մեթոդը կանչվում է միջուկի կողմից՝ [IDocumentService.Store](../../../services/IDocumentService/Methods/Store.md) ֆունկցիայով փաստաթուղթը գրանցելիս, գրանցման տրանզակցիայից ավարտից հետո։
+Մեթոդը կանչվում է միջուկի կողմից՝ [IDocumentService.Store](../../../Services/IDocument/Methods/Store.md) ֆունկցիայով փաստաթուղթը գրանցելիս, գրանցման տրանզակցիայից ավարտից հետո։
 
 Մեթոդում իմաստ չունի փոխել փաստաթղթի հատկությունները, դաշտերը, գեներացնել հաշվառումներ և այլն, քանի որ փաստաթուղթը արդեն գրանցվել է տվյալների պահոցում և գրանցման տրանզակցիան ավարտվել է։
 
@@ -21,5 +21,5 @@ public virtual Task AfterCommit(AfterCommitEventArgs args)
 
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 | --- | --- | --- | --- |
-| args | [AfterCommitEventArgs](../../../types/args/AfterCommitEventArgs.md) | - | [AfterCommitEventArgs](../../../types/args/AfterCommitEventArgs.md) դասի օբյեկտ։ |
+| args | [AfterCommitEventArgs](../../../Types/args/AfterCommitEventArgs.md) | - | [AfterCommitEventArgs](../../../Types/args/AfterCommitEventArgs.md) դասի օբյեկտ։ |
 

@@ -1,4 +1,4 @@
----
+﻿---
 layout: page
 title: "DocumentChangeRequest" 
 tags: [DocChangeRequest, DCR]
@@ -34,5 +34,5 @@ public class DocumentChangeRequest
 | CreationDate       | DateTime      | DateTime.Now    | Փաստաթղթի փոփոխման հայտի ստեղծման ամսաթիվը/ժամանակը։ |
 | State              | short         |     -            | Փաստաթղթի փոփոխման հայտի վիճակը։ <br> 0 - նոր ստեղծված փոփոխման հայտ, <br> 1 - փոփոխման հայտը հաստատվել է, <br> 2 - փոփոխման հայտը մերժվել է։|
 | EmptyMessage       | string        |      -           | Դատարկ փաստաթղթի հայտ գրանցել փորձելիս առաջացող սխալի հաղորդագրությունը։ Եթե արժեքը դատարկ տող է, ապա առաջանում է ստանդարտ տեքստով սխալ։ |
-| ReFolderDocument   | bool          |      -           | true արժեքի դեպքում փաստաթղթի փոփոխման հայտը մերժելիս փաստաթուղթը [վերաինդեքսավորում է թղթապանակներում](../services/IDocumentService/Methods/ReFolder.md)։ |
+| ReFolderDocument   | bool          |      -           | true արժեքի դեպքում փաստաթղթի փոփոխման հայտը մերժելիս փաստաթուղթը [վերաինդեքսավորում է թղթապանակներում](../Services/IDocument/Methods/ReFolder.md)։ |
 | CreationLogMessage | string        |       -          | Փաստաթղթի փոփոխման հայտի ստեղծման ժամանակ [փաստաթղթի պատմությունում](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Database/DocLog.html) գրանցվող հաղորդագրությունը։ |

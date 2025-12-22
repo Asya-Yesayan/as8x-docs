@@ -1,4 +1,4 @@
----
+﻿---
 layout: page
 title: "FolderElement" 
 tags: AsFoldElement
@@ -6,7 +6,7 @@ tags: AsFoldElement
 
 Այս դասը նախատեսված է թղթապանակի տարրի նկարագրման համար։
 
-Օգտագործվում է [IDocumentService](../services/IDocumentService.md).[StoreInFolder](../services/IDocumentService/Methods/StoreInFolder.md) և [IFolderService](../services/IFolderService.md)-ի ֆունկցիաներում։
+Օգտագործվում է [IDocumentService](../Services/IDocument/IDocumentService.md).[StoreInFolder](../Services/IDocument/Methods/StoreInFolder.md) և [IFolderService](../Services/IFolder/IFolderService.md)-ի ֆունկցիաներում։
 
 ```c#
 public class FolderElement

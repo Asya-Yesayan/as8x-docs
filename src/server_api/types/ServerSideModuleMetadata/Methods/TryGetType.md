@@ -6,14 +6,14 @@ title: ServerSideModuleMetadata.TryGetType(string, Type) մեթոդ
 public bool TryGetType(string typeName, out Type type)
 ```
 
-Ստուգում է [սերվերային մոդուլում](../../../extensions/Definitions/server_side_module.md) տրված անունով դասի առկայությունը, առկայության դեպքում վերադարձնում է true և դասի [մետանկարագրությունը](https://learn.microsoft.com/en-us/dotnet/api/system.type), հակառակ դեպքում՝ false և null:
+Ստուգում է [սերվերային մոդուլում](../../../extensions/Definitions/ServerSideModule/server_side_module.md) տրված անունով դասի առկայությունը, առկայության դեպքում վերադարձնում է true և դասի [մետանկարագրությունը](https://learn.microsoft.com/en-us/dotnet/api/system.type), հակառակ դեպքում՝ false և null:
 
 **Պարամետրեր**
 
 
 | Անվանում | Տեսակ | Լռությամբ արժեք | Նկարագրություն |
 |----------|----------|----------|----------|
-| typeName | string | - | [Սերվերային մոդուլում](../../../extensions/Definitions/server_side_module.md) որոնվող դասի անունը։ |
+| typeName | string | - | [Սերվերային մոդուլում](../../../extensions/Definitions/ServerSideModule/server_side_module.md) որոնվող դասի անունը։ |
 | type | [Type](https://learn.microsoft.com/en-us/dotnet/api/system.type) | null | Վերադարձնում է դասի [մետանկարագրությունը](https://learn.microsoft.com/en-us/dotnet/api/system.type): |
 
 ## Օրինակ

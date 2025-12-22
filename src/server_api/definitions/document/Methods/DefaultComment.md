@@ -12,14 +12,14 @@ title: Document.DefaultComment(DefaultCommentEventArgs) մեթոդ
 public virtual Task DefaultComment(DefaultCommentEventArgs args)
 ```
 
-Մեթոդը կանչվում է միջուկի կողմից՝ փաստաթղթի [թղթապանակի տարր](../../../types/FolderElement.md) ստեղծելուց։
+Մեթոդը կանչվում է միջուկի կողմից՝ փաստաթղթի [թղթապանակի տարր](../../../Types/FolderElement.md) ստեղծելուց։
 
-Նախատեսված է [թղթապանակի տարրի](../../../types/FolderElement.md) մեկնաբանության լռությամբ արժեքի սահմանման համար, որը գրանցվում է [FOLDERS](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Database/Folders.html) աղյուսակում։ 
+Նախատեսված է [թղթապանակի տարրի](../../../Types/FolderElement.md) մեկնաբանության լռությամբ արժեքի սահմանման համար, որը գրանցվում է [FOLDERS](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Database/Folders.html) աղյուսակում։ 
 
 **Պարամետրեր**
 
 
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 | --- | --- | --- | --- |
-| args | [DefaultCommentEventArgs](../../../types/args/DefaultCommentEventArgs.md) | - | [DefaultCommentEventArgs](../../../types/args/DefaultCommentEventArgs.md) դասի օբյեկտ։ |
+| args | [DefaultCommentEventArgs](../../../Types/args/DefaultCommentEventArgs.md) | - | [DefaultCommentEventArgs](../../../Types/args/DefaultCommentEventArgs.md) դասի օբյեկտ։ |
 

@@ -12,16 +12,16 @@ title: Document.ConfigureDCRFieldInclusion(ConfigureDCRFieldInclusionEventArgs) 
 public virtual Task ConfigureDCRFieldInclusion(ConfigureDCRFieldInclusionEventArgs args)
 ```
 
-Այս մեթոդը թույլ է տալիս որոշել, թե փաստաթղթի որ դաշտերի փոփոխությունները պետք է ցուցադրվեն [տեքստային հաշվետվությունում](../../../types/TextReport.md), որը բացվում է **«Փաստաթղթի պատմություն»** դիտելու ձևի **«Դիտել փոփոխությունները տեքստային»**, **«Դիտել փոփոխությունները տեքստային համեմատիչով»** կոնտեքստային ֆունկցիաներով։
+Այս մեթոդը թույլ է տալիս որոշել, թե փաստաթղթի որ դաշտերի փոփոխությունները պետք է ցուցադրվեն [տեքստային հաշվետվությունում](../../../Types/TextReport.md), որը բացվում է **«Փաստաթղթի պատմություն»** դիտելու ձևի **«Դիտել փոփոխությունները տեքստային»**, **«Դիտել փոփոխությունները տեքստային համեմատիչով»** կոնտեքստային ֆունկցիաներով։
 
-Նշված [տեքստային հաշվետվությունում](../../../types/TextReport.md) լռությամբ ցուցադրվում են այն դաշտերը, որոնք չունեն **H** ատրիբուտը։
+Նշված [տեքստային հաշվետվությունում](../../../Types/TextReport.md) լռությամբ ցուցադրվում են այն դաշտերը, որոնք չունեն **H** ատրիբուտը։
 
 **Պարամետրեր**
 
 
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 | --- | --- | --- | --- |
-| args | [ConfigureDCRFieldInclusionEventArgs](../../../types/ConfigureDCRFieldInclusionEventArgs.md) | - | [ConfigureDCRFieldInclusionEventArgs](../../../types/ConfigureDCRFieldInclusionEventArgs.md) դասի օբյեկտ։ |
+| args | [ConfigureDCRFieldInclusionEventArgs](../../../Types/ConfigureDCRFieldInclusionEventArgs.md) | - | [ConfigureDCRFieldInclusionEventArgs](../../../Types/ConfigureDCRFieldInclusionEventArgs.md) դասի օբյեկտ։ |
 
 **Օրինակ**
 

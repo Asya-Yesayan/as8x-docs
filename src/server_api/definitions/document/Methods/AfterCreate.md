@@ -1,4 +1,4 @@
----
+﻿---
 title: Document.AfterCreate(AfterCreateEventArgs) մեթոդ
 ---
 
@@ -12,7 +12,7 @@ title: Document.AfterCreate(AfterCreateEventArgs) մեթոդ
 public virtual Task AfterCreate(AfterCreateEventArgs args)
 ```
 
-Մեթոդը կանչվում է միջուկի կողմից՝ [IDocumentService.Create](../../../services/IDocumentService/Methods/Create.md) ֆունկցիայով փաստաթղթի օբյեկտը ստեղծելուց հետո։
+Մեթոդը կանչվում է միջուկի կողմից՝ [IDocumentService.Create](../../../Services/IDocument/Methods/Create.md) ֆունկցիայով փաստաթղթի օբյեկտը ստեղծելուց հետո։
 
 Փաստաթղթի ներմուծման ժամանակ մեթոդը չի կանչվում։
 
@@ -21,5 +21,5 @@ public virtual Task AfterCreate(AfterCreateEventArgs args)
 
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 | --- | --- | --- | --- |
-| args | [AfterCreateEventArgs](../../../types/args/AfterCreateEventArgs.md) | - | [AfterCreateEventArgs](../../../types/args/AfterCreateEventArgs.md) դասի օբյեկտ։ |
+| args | [AfterCreateEventArgs](../../../Types/args/AfterCreateEventArgs.md) | - | [AfterCreateEventArgs](../../../Types/args/AfterCreateEventArgs.md) դասի օբյեկտ։ |
 

@@ -1,11 +1,11 @@
----
+﻿---
 layout: page
 title: "Descriptor դաս" 
 ---
 
 Դասը նախատեսված է համակարգային պարամետրի նկարագրման համար։
 
-Օգտագործվում է [IParametersService](../services/IParametersService.md).[GetDescriptor](../services/IParametersService/Methods/GetDescriptor.md) մեթոդում։
+Օգտագործվում է [IParametersService](../Services/IParameters/IParametersService.md).[GetDescriptor](../Services/IParameters/Methods/GetDescriptor.md) մեթոդում։
 
 ```c#
 public sealed class Descriptor

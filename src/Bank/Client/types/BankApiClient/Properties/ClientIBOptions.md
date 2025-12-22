@@ -6,4 +6,4 @@ title: BankApiClient.ClientIBOptions հատկություն
 public ClientIBOptionsRoutes ClientIBOptions { get; }
 ```
 
-Վերադարձնում է [ClientIBOptionsRoutes](../../../Routes/ClientIBOptionsRoutes/ClientIBOptionsRoutes.md) պարունակում է մեթոդներ հաճախորդների ԻԲ կարգավորումների տվյալների հետ աշխատանքը ապահովելու համար։
+Վերադարձնում է [ClientIBOptionsRoutes](../../../Routes/ClientIBOptions/ClientIBOptionsRoutes.md) պարունակում է մեթոդներ հաճախորդների ԻԲ կարգավորումների տվյալների հետ աշխատանքը ապահովելու համար։

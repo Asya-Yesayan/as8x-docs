@@ -1,4 +1,4 @@
----
+﻿---
 title: IExtensionMeterProvider.CalculateGauges(IDBService) մեթոդ
 ---
 
@@ -15,4 +15,4 @@ public void CalculateGauges(IDBService dbService)
 
 | Անվանում | Տեսակ | Նկարագրություն |
 |----------|----------|----------|
-| dbService | [IDBService](../../services/IDBService.md) | [IDBService](../../services/IDBService.md) դասի օբյեկտ, որը տալիս է հնարավորություն ստանալ Sql միացում դեպի ընթացիկ տվյալների պահոց և կատարել Sql հարցումներ։ |
+| dbService | [IDBService](../../Services/IDB/IDBService.md) | [IDBService](../../Services/IDB/IDBService.md) դասի օբյեկտ, որը տալիս է հնարավորություն ստանալ Sql միացում դեպի ընթացիկ տվյալների պահոց և կատարել Sql հարցումներ։ |

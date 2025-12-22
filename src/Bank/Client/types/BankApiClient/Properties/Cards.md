@@ -6,4 +6,4 @@ title: BankApiClient.Cards հատկություն
 public CardsRoutes Cards { get; }
 ```
 
-Վերադարձնում է [CardsRoutes](../../../Routes/CardsRoutes/CardsRoutes.md) պարունակում է մեթոդներ քարտերի հետ աշխատանքը ապահովելու համար։
+Վերադարձնում է [CardsRoutes](../../../Routes/Cards/CardsRoutes.md) պարունակում է մեթոդներ քարտերի հետ աշխատանքը ապահովելու համար։

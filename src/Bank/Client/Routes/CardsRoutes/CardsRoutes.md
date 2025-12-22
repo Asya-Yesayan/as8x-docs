@@ -8,7 +8,7 @@
 ## Ներածություն
 
 ClientsRoutes դասը պարունակում է մեթոդներ քարտերի հետ աշխատանքը ապահովելու համար։
-Այն հասանելի է [BankApiClient](../../../../web_api_client/bank/types/BankApiClient.md) դասի միջից։
+Այն հասանելի է [BankApiClient](../../../Types/BankApiClient/BankApiClient.md) դասի միջից։
 
 ## Մեթոդներ
 

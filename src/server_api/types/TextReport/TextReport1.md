@@ -1,4 +1,4 @@
----
+﻿---
 title: TextReport.TextReport(IStorageService, TempFileCleanupMode) կոնստրուկտոր
 ---
 
@@ -14,5 +14,5 @@ public TextReport(IStorageService storageService,
 
 | Անվանում | Տեսակ | Լռությամբ արժեք | Նկարագրություն |
 |----------|-------|-----------------|----------------|
-| storageService | [IStorageService](../../services/IStorageService.md) | - | IStorageService դասի օբյեկտ։ |
+| storageService | [IStorageService](../../Services/IStorage/IStorageService.md) | - | IStorageService դասի օբյեկտ։ |
 | cleanupMode | [TempFileCleanupMode](../TempFileCleanupMode.md) | Auto | Տեքստային հաշվետվությունը պարունակող ֆայլի հեռացման ռեժիմ։ |

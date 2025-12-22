@@ -1,4 +1,4 @@
----
+﻿---
 title: Document.LoadGrids(LoadGridsEventArgs) մեթոդ
 ---
 
@@ -12,12 +12,12 @@ title: Document.LoadGrids(LoadGridsEventArgs) մեթոդ
 public Task LoadGrids(LoadGridsEventArgs args)
 ```
 
-Բեռնում է փաստաթղթի աղյուսակները, եթե մինչ այդ բեռնված չէին [IDocumentService](../../../services/IDocumentService.md).[Load](../../../services/IDocumentService/Methods/Load.md) մեթդով:
+Բեռնում է փաստաթղթի աղյուսակները, եթե մինչ այդ բեռնված չէին [IDocumentService](../../../Services/IDocument/IDocumentService.md).[Load](../../../Services/IDocument/Methods/Load.md) մեթդով:
 
 **Պարամետրեր**
 
 
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 | --- | --- | --- | --- |
-| args | [LoadGridsEventArgs](../../../types/args/LoadGridsEventArgs.md) | - | [LoadGridsEventArgs](../../../types/args/LoadGridsEventArgs.md) դասի օբյեկտ։ |
+| args | [LoadGridsEventArgs](../../../Types/args/LoadGridsEventArgs.md) | - | [LoadGridsEventArgs](../../../Types/args/LoadGridsEventArgs.md) դասի օբյեկտ։ |
 

@@ -1,0 +1,27 @@
+---
+title: IDBService.CreateReadOnlyConnection(bool) մեթոդ
+---
+
+## Նկարագիր
+
+**Դաս՝** [IDBService](../../IDBService/IDBService.md)
+
+```c#
+public SqlConnection CreateReadOnlyConnection(bool pooling = true);
+```
+
+Ստեղծում է միայն կարդալու իրավասությամբ լրացուցիչ SQL միացում դեպի հիմնական տվյալների պահոց։
+
+**Պարամետրեր**
+
+| Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
+|-----------------|----------------------|----------------|----------------|
+| pooling         | bool                 | true           | Օգտագործել միացումների քեշ, թե ոչ։ |
+
+<!-- ### GetApplicationName
+
+```c#
+public string GetApplicationName(bool withPostfix = true);
+```
+
+Վերադարձնում է այն ծրագրի անունը, որին միացված է 8X սերվիսը: Օրինակ՝ ArmSoft.Enterpise.Service, ArmSoft.Bank.Service, ...։ -->

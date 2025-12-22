@@ -1,4 +1,4 @@
----
+﻿---
 title: Document.BeforeCommit(BeforeCommitEventArgs) մեթոդ
 ---
 
@@ -12,7 +12,7 @@ title: Document.BeforeCommit(BeforeCommitEventArgs) մեթոդ
 public virtual Task BeforeCommit(BeforeCommitEventArgs args)
 ```
 
-Մեթոդը կանչվում է միջուկի կողմից՝ [IDocumentService.Store](../../../services/IDocumentService/Methods/Store.md) ֆունկցիայով փաստաթուղթը տվյալների պահոցում գրանցելիս։ Կանչը տեղի է ունենում փաստաթղթի գրանցման տրանզակցիայի փակումից անմիջապես առաջ։
+Մեթոդը կանչվում է միջուկի կողմից՝ [IDocumentService.Store](../../../Services/IDocument/Methods/Store.md) ֆունկցիայով փաստաթուղթը տվյալների պահոցում գրանցելիս։ Կանչը տեղի է ունենում փաստաթղթի գրանցման տրանզակցիայի փակումից անմիջապես առաջ։
 
 Մեթոդում իմաստ չունի փոխել փաստաթղթի հատկությունները, դաշտերը, գեներացնել հաշվառումներ և այլն, քանի որ փաստաթուղթը արդեն գրանցվել է տվյալների պահոցում։
 
@@ -21,5 +21,5 @@ public virtual Task BeforeCommit(BeforeCommitEventArgs args)
 
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 | --- | --- | --- | --- |
-| args | [BeforeCommitEventArgs](../../../types/args/BeforeCommitEventArgs.md) | - | [BeforeCommitEventArgs](../../../types/args/BeforeCommitEventArgs.md) դասի օբյեկտ։ |
+| args | [BeforeCommitEventArgs](../../../Types/args/BeforeCommitEventArgs.md) | - | [BeforeCommitEventArgs](../../../Types/args/BeforeCommitEventArgs.md) դասի օբյեկտ։ |
 

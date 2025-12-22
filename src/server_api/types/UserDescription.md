@@ -1,11 +1,11 @@
----
+﻿---
 layout: page
 title: "UserDescription դաս" 
 ---
 
 Այս դասը նախատեսված է համակարգի օգտագործողի նկարագրման համար։
 
-Օգտագործվում է [IUserService](../services/IUserService.md).[UserElProp](../services/IUserService/Methods/UserElProp.md), [UserManagerService](../services/UserManagerService.md).[GetUnhiddenUsers](../services/UserManagerService/Methods/GetUnhiddenUsers.md) մեթոդներում։
+Օգտագործվում է [IUserService](../Services/IUser/IUserService.md).[UserElProp](../Services/IUser/Methods/UserElProp.md), [UserManagerService](../Services/UserManager/UserManagerService.md).[GetUnhiddenUsers](../Services/UserManager/Methods/GetUnhiddenUsers.md) մեթոդներում։
 
 ```c#
 public class UserDescription

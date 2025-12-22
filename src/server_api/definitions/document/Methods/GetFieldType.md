@@ -10,7 +10,7 @@ title: Document.GetFieldType(string) մեթոդ
 public FieldType GetFieldType(string fieldName)
 ```
 
-Վերադարձնում է փաստաթղթի տրված ներքին անունով դաշտի [համակարգային տիպը](../../../types/system_types.md)։
+Վերադարձնում է փաստաթղթի տրված ներքին անունով դաշտի [համակարգային տիպը](../../../Types/system_types.md)։
 
 **Պարամետրեր**
 

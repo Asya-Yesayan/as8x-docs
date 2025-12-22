@@ -19,7 +19,7 @@ public virtual Task DeserializeComplexObjects(DeserializeComplexObjectsEventArgs
 
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 | --- | --- | --- | --- |
-| args | [DeserializeComplexObjectsEventArgs](../../../types/args/DeserializeComplexObjectsEventArgs.md) | - | [DeserializeComplexObjectsEventArgs](../../../types/args/DeserializeComplexObjectsEventArgs.md) դասի օբյեկտ։ |
+| args | [DeserializeComplexObjectsEventArgs](../../../Types/args/DeserializeComplexObjectsEventArgs.md) | - | [DeserializeComplexObjectsEventArgs](../../../Types/args/DeserializeComplexObjectsEventArgs.md) դասի օբյեկտ։ |
 
 **Օրինակ**
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: IProcessServerClient.Stop(Guid, object) մեթոդ  
 ---
 
@@ -11,9 +11,9 @@ public Task Stop(Guid id,
                  object param)
 ```
 
-Ընդհատում է նախապես հերթի դրված [փաստաթղթի](../../../definitions/Document.md), [տվյալների աղբյուրի](../../../definitions/ds.md) կամ [DPR](../../../definitions/dpr.md)-ի կատարումը։
+Ընդհատում է նախապես հերթի դրված [փաստաթղթի](../../../Definitions/Document/Document.md), [տվյալների աղբյուրի](../../../Definitions/DataSource/DataSource.md) կամ [DPR](../../../Definitions/DataProcessingRequest/DataProcessingRequest.md)-ի կատարումը։
 
-Եթե կատարումը արդեն ավարտվել է, ապա [հեռացնում է](../../IDocumentService/Methods/Delete.md) կատարման առաջադրանքը։
+Եթե կատարումը արդեն ավարտվել է, ապա [հեռացնում է](../../IDocument/Methods/Delete.md) կատարման առաջադրանքը։
 
 Եթե նշված id-ով կատարման առաջադրանք գոյություն չունի, ապա առաջանում է սխալ։
 
@@ -21,5 +21,5 @@ public Task Stop(Guid id,
 
 | Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
 |-----------------|----------------------|----------------|----------------|
-| id              | Guid                 | -              | [Փաստաթղթի](../../definitions/Document.md), [տվյալների աղբյուրի](../../definitions/ds.md) կամ [DPR](../../definitions/dpr.md)-ի կատարման առաջադրանքի id-ն։ |
-| param           | object               | -              | Օգտագործվում է ընդհատման համար լրացուցիչ պարամետրերի փոխանցման համար։ Այս պահին միայն [տվյալների աղբյուրի](../../definitions/ds.md) կատարման առաջադրանքին հնարավոր է փոխանցել `bool` տիպի պարամետր, որով որոշվում է կատարման առաջադրանքից ընդհատումից հետո տվյալների աղբյուրի տողերը պետք է հավելյալ մշակվեն [AfterDataReaderClose](../../definitions/ds.md/տվյալների աղբյուրի.md) մեթոդի միջոցով թե ոչ։ `true` արժեքի դեպքում տողերը հավելյալ չեն մշակվում։ |
+| id              | Guid                 | -              | [Փաստաթղթի](../../../Definitions/Document/Document.md), [տվյալների աղբյուրի](../../../Definitions/DataSource/DataSource.md) կամ [DPR](../../../Definitions/DataProcessingRequest/DataProcessingRequest.md)-ի կատարման առաջադրանքի id-ն։ |
+| param           | object               | -              | Օգտագործվում է ընդհատման համար լրացուցիչ պարամետրերի փոխանցման համար։ Այս պահին միայն [տվյալների աղբյուրի](../../../Definitions/DataSource/DataSource.md) կատարման առաջադրանքին հնարավոր է փոխանցել `bool` տիպի պարամետր, որով որոշվում է կատարման առաջադրանքից ընդհատումից հետո տվյալների աղբյուրի տողերը պետք է հավելյալ մշակվեն [AfterDataReaderClose](../../../Definitions/DataSource/Methods/AfterDataReaderClose.md) մեթոդի միջոցով թե ոչ։ `true` արժեքի դեպքում տողերը հավելյալ չեն մշակվում։ |

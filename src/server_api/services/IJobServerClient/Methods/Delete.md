@@ -10,7 +10,7 @@ title: IProcessServerClient.Delete(Guid) մեթոդ
 public Task Delete(Guid id)
 ```
 
-Հեռացնում է [փաստաթղթի](../../definitions/Document.md), [տվյալների աղբյուրի](../../definitions/ds.md) կամ [DPR](../../definitions/dpr.md)-ի կատարման առաջադրանքը։
+Հեռացնում է [փաստաթղթի](../../../Definitions/Document/Document.md), [տվյալների աղբյուրի](../../../Definitions/DataSource/DataSource.md) կամ [DPR](../../../Definitions/DataProcessingRequest/DataProcessingRequest.md)-ի կատարման առաջադրանքը։
 
 Եթե նշված id-ով կատարման առաջադրանք գոյություն չունի կամ առաջադրանքը դեռ ավարտված չէ, ապա առաջանում է սխալ։
 
@@ -18,4 +18,4 @@ public Task Delete(Guid id)
 
 | Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
 |-----------------|----------------------|----------------|----------------|
-| id              | Guid                 | -              | [Փաստաթղթի](../../definitions/Document.md), [տվյալների աղբյուրի](../../definitions/ds.md) կամ [DPR](../../definitions/dpr.md)-ի կատարման առաջադրանքի id-ն։ |
+| id              | Guid                 | -              | [Փաստաթղթի](../../../Definitions/Document/Document.md), [տվյալների աղբյուրի](../../../Definitions/DataSource/DataSource.md) կամ [DPR](../../../Definitions/DataProcessingRequest/DataProcessingRequest.md)-ի կատարման առաջադրանքի id-ն։ |

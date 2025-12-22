@@ -1,4 +1,4 @@
----
+﻿---
 title: IDocumentNestedTransactionWithError.NestedTransactionError(NestedTransactionErrorEventArgs<T>) մեթոդ
 ---
 
@@ -6,7 +6,7 @@ title: IDocumentNestedTransactionWithError.NestedTransactionError(NestedTransact
 public Task NestedTransactionError(NestedTransactionErrorEventArgs<T> args)
 ```
 
-Մեթոդը կանչվում է [IDocumentService](../../../services/IDocumentService.md)-ի [NestedTransactions](../../../services/IDocumentService/Methods/NestedTransactions.md) մեթոդի **values** ցուցակի տարրերի մշակման ընթացում՝ սխալներ առաջանալու դեպքում։ Նախատեսված է սխալները պարունակող [տեքստային հաշվետվությունում](../../TextReport.md) սխալների լրացուցիչ մշակման և այլ հաղորդագրությունների ավելացման համար։
+Մեթոդը կանչվում է [IDocumentService](../../../Services/IDocument/IDocumentService.md)-ի [NestedTransactions](../../../Services/IDocument/Methods/NestedTransactions.md) մեթոդի **values** ցուցակի տարրերի մշակման ընթացում՝ սխալներ առաջանալու դեպքում։ Նախատեսված է սխալները պարունակող [տեքստային հաշվետվությունում](../../TextReport.md) սխալների լրացուցիչ մշակման և այլ հաղորդագրությունների ավելացման համար։
 
 **Պարամետրեր**
 

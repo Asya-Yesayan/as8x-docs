@@ -1,4 +1,4 @@
----
+﻿---
 title: Document.BeforeCopy(BeforeCopyEventArgs) մեթոդ
 ---
 
@@ -12,11 +12,11 @@ title: Document.BeforeCopy(BeforeCopyEventArgs) մեթոդ
 public virtual Task BeforeCopy(BeforeCopyEventArgs args)
 ```
 
-Մեթոդը կանչվում է միջուկի կողմից՝ [IDocumentService.Copy](../../../services/IDocumentService/Methods/Copy.md) ֆունկցիայով փաստաթղթի պատճեն օբյեկտը ստեղծելուց հետո։
+Մեթոդը կանչվում է միջուկի կողմից՝ [IDocumentService.Copy](../../../Services/IDocument/Methods/Copy.md) ֆունկցիայով փաստաթղթի պատճեն օբյեկտը ստեղծելուց հետո։
 
 **Պարամետրեր**
 
 
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 | --- | --- | --- | --- |
-| args | [BeforeCopyEventArgs](../../../types/args/BeforeCopyEventArgs.md) | - | [BeforeCopyEventArgs](../../../types/args/BeforeCopyEventArgs.md) դասի օբյեկտ։ |
+| args | [BeforeCopyEventArgs](../../../Types/args/BeforeCopyEventArgs.md) | - | [BeforeCopyEventArgs](../../../Types/args/BeforeCopyEventArgs.md) դասի օբյեկտ։ |

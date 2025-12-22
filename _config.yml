@@ -33,6 +33,6 @@ versions:
     product: "ՀԾ-Աշխատավարձ"
     versions: ["4.0061.0", "4.0062.0"]
 
-config_docservice_path1: ../services/IDocumentService.md#store
-config_docservice_path2: ../../services/IDocumentService.md#store
-config_docservice_path3: src/server_api/services/IDocumentService.md
+config_docservice_path1: ../services/IDocumentService/IDocumentService.md#store
+config_docservice_path2: ../../services/IDocumentService/IDocumentService.md#store
+config_docservice_path3: src/server_api/services/IDocumentService/IDocumentService.md

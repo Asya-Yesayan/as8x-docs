@@ -1,4 +1,4 @@
----
+﻿---
 title: LiteDocument դաս
 ---
 
@@ -6,7 +6,7 @@ title: LiteDocument դաս
 
 LiteDocument դասը նախատեսված է փաստաթուղթը քեշավորելու համար։
 
-LiteDocument տեսակի փաստաթուղթը տվյալների պահոցից բեռնելու, քեշում պահելու և քեշից կարդալու համար տե՛ս [LiteDocumentService](../services/LiteDocumentService.md):
+LiteDocument տեսակի փաստաթուղթը տվյալների պահոցից բեռնելու, քեշում պահելու և քեշից կարդալու համար տե՛ս [LiteDocumentService](../Services/LiteDocument/LiteDocumentService.md):
 
 ## Մեթոդներ
 

@@ -3,7 +3,7 @@ layout: page
 title: "DPRAttribute դաս" 
 ---
 
-DPR ատրիբուտը նախատեսված է [DPR](../../definitions/dpr.md)-ը նկարագրող դասի վրա դնելու համար։
+DPR ատրիբուտը նախատեսված է [DPR](../../Definitions/DataProcessingRequest/DataProcessingRequest.md)-ը նկարագրող դասի վրա դնելու համար։
 
 ```c#
 [AttributeUsage(AttributeTargets.Class, AllowMultiple = false)]
