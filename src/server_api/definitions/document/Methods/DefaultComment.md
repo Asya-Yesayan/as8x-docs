@@ -21,5 +21,5 @@ public virtual Task DefaultComment(DefaultCommentEventArgs args)
 
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 | --- | --- | --- | --- |
-| args | [DefaultCommentEventArgs](../../../Types/args/DefaultCommentEventArgs.md) | - | [DefaultCommentEventArgs](../../../Types/args/DefaultCommentEventArgs.md) դասի օբյեկտ։ |
+| args | [DefaultCommentEventArgs](../../../Types/Args/DefaultCommentEventArgs.md) | - | [DefaultCommentEventArgs](../../../Types/Args/DefaultCommentEventArgs.md) դասի օբյեկտ։ |
 

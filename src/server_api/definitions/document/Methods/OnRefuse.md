@@ -21,5 +21,5 @@ public virtual Task OnRefuse(RefuseEventArgs args)
 
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 | --- | --- | --- | --- |
-| args | [RefuseEventArgs](../../../Types/args/RefuseEventArgs.md) | - | [RefuseEventArgs](../../../Types/args/RefuseEventArgs.md) դասի օբյեկտ։ |
+| args | [RefuseEventArgs](../../../Types/Args/RefuseEventArgs.md) | - | [RefuseEventArgs](../../../Types/Args/RefuseEventArgs.md) դասի օբյեկտ։ |
 

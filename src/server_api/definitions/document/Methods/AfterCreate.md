@@ -21,5 +21,5 @@ public virtual Task AfterCreate(AfterCreateEventArgs args)
 
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 | --- | --- | --- | --- |
-| args | [AfterCreateEventArgs](../../../Types/args/AfterCreateEventArgs.md) | - | [AfterCreateEventArgs](../../../Types/args/AfterCreateEventArgs.md) դասի օբյեկտ։ |
+| args | [AfterCreateEventArgs](../../../Types/Args/AfterCreateEventArgs.md) | - | [AfterCreateEventArgs](../../../Types/Args/AfterCreateEventArgs.md) դասի օբյեկտ։ |
 

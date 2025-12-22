@@ -19,4 +19,4 @@ public virtual Task PostMessage(PostMessageEventArgs args)
 
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 | --- | --- | --- | --- |
-| args | [PostMessageEventArgs](../../../Types/args/PostMessageEventArgs.md) | - | [PostMessageEventArgs](../../../Types/args/PostMessageEventArgs.md) դասի օբյեկտ։ |
+| args | [PostMessageEventArgs](../../../Types/Args/PostMessageEventArgs.md) | - | [PostMessageEventArgs](../../../Types/Args/PostMessageEventArgs.md) դասի օբյեկտ։ |

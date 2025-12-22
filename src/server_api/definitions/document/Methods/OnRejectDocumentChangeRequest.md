@@ -19,7 +19,7 @@ public virtual Task OnRejectDocumentChangeRequest(RejectDocumentChangeRequestEve
 
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 | --- | --- | --- | --- |
-| args | [RejectDocumentChangeRequestEventArgs](../../../Types/args/RejectDocumentChangeRequestEventArgs.md) | - | [RejectDocumentChangeRequestEventArgs](../../../Types/args/RejectDocumentChangeRequestEventArgs.md) դասի օբյեկտ։ |
+| args | [RejectDocumentChangeRequestEventArgs](../../../Types/Args/RejectDocumentChangeRequestEventArgs.md) | - | [RejectDocumentChangeRequestEventArgs](../../../Types/Args/RejectDocumentChangeRequestEventArgs.md) դասի օբյեկտ։ |
 
 **Նկատառումներ**
 

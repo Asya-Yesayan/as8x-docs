@@ -23,5 +23,5 @@ protected virtual Task DoLoadGrids(LoadGridsEventArgs args)
 
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 | --- | --- | --- | --- |
-| args | [LoadGridsEventArgs](../../../Types/args/LoadGridsEventArgs.md) | - | [LoadGridsEventArgs](../../../Types/args/LoadGridsEventArgs.md) դասի օբյեկտ։ |
+| args | [LoadGridsEventArgs](../../../Types/Args/LoadGridsEventArgs.md) | - | [LoadGridsEventArgs](../../../Types/Args/LoadGridsEventArgs.md) դասի օբյեկտ։ |
 

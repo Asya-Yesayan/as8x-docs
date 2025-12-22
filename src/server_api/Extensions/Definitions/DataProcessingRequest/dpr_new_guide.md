@@ -60,7 +60,7 @@ DPR {
 
 ### TYPE 
 Տվյալների մշակման հարցման տեսակը։
-Հարկավոր է լրացնել նույն արժեքը ինչ լրացված է C# դասի վրա դրված [DPR ատրիբուտի](../../../Models/Attributes/DPRAttribute.md) մեջ` [տե՛ս](../../../Definitions/DataProcessingRequest/dpr.md#dataprocessingrequest-դաս)։
+Հարկավոր է լրացնել նույն արժեքը ինչ լրացված է C# դասի վրա դրված [DPR ատրիբուտի](../../../Types/Attributes/DPRAttribute.md) մեջ` [տե՛ս](../../../Definitions/DataProcessingRequest/dpr.md#dataprocessingrequest-դաս)։
 
 Արժեքներն են՝
 - `21` - Հաշվետվությունների տվյալների մշակման հարցում (DPR Report)

@@ -21,5 +21,5 @@ public virtual Task Validate(ValidateEventArgs args)
 
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 | --- | --- | --- | --- |
-| args | [ValidateEventArgs](../../../Types/args/ValidateEventArgs.md) | - | [ValidateEventArgs](../../../Types/args/ValidateEventArgs.md) դասի օբյեկտ։ |
+| args | [ValidateEventArgs](../../../Types/Args/ValidateEventArgs.md) | - | [ValidateEventArgs](../../../Types/Args/ValidateEventArgs.md) դասի օբյեկտ։ |
 

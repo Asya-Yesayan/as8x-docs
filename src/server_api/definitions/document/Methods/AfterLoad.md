@@ -21,5 +21,5 @@ public virtual Task AfterLoad(AfterLoadEventArgs args)
 
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 | --- | --- | --- | --- |
-| args | [AfterLoadEventArgs](../../../Types/args/AfterLoadEventArgs.md) | - | [AfterLoadEventArgs](../../../Types/args/AfterLoadEventArgs.md) դասի օբյեկտ։ |
+| args | [AfterLoadEventArgs](../../../Types/Args/AfterLoadEventArgs.md) | - | [AfterLoadEventArgs](../../../Types/Args/AfterLoadEventArgs.md) դասի օբյեկտ։ |
 

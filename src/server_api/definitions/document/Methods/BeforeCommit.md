@@ -21,5 +21,5 @@ public virtual Task BeforeCommit(BeforeCommitEventArgs args)
 
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 | --- | --- | --- | --- |
-| args | [BeforeCommitEventArgs](../../../Types/args/BeforeCommitEventArgs.md) | - | [BeforeCommitEventArgs](../../../Types/args/BeforeCommitEventArgs.md) դասի օբյեկտ։ |
+| args | [BeforeCommitEventArgs](../../../Types/Args/BeforeCommitEventArgs.md) | - | [BeforeCommitEventArgs](../../../Types/Args/BeforeCommitEventArgs.md) դասի օբյեկտ։ |
 

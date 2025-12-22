@@ -20,6 +20,6 @@ public Task Refolder(RefolderArgs args,
 
 | Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
 |-----------------|----------------------|----------------|----------------|
-| args            | RefolderArgs         | -              | [RefolderArgs](../../../Types/args/RefolderArgs.md) դասի օբյեկտ։ |
+| args            | RefolderArgs         | -              | [RefolderArgs](../../../Types/Args/RefolderArgs.md) դասի օբյեկտ։ |
 | report          | TextReport.TextReport | -              | [Տեքստային հաշվետվություն](../../../Types/TextReport.md), որտեղ լրացվում են մեթոդի կատարման ընթացքում առաջացած սխալների մասին հաղորդագրությունները։ |
 | stoppingToken   | CancellationToken    | default        | Ընդհատման օբյեկտ: |

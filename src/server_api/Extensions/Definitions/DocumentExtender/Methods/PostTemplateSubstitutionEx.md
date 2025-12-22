@@ -17,5 +17,8 @@ public virtual Task PostTemplateSubstitutionEx(Document sender,
 
 **Պարամետրեր**
 
-* `sender` - Տպելու ձևանմուշին կապակցված [փաստաթղթի](../../../Core/Definitions/Document/document.md) օբյեկտ։
-* `args` - [TemplateSubstitutionEventArgs](../../Models/args/TemplateSubstitutionEventArgs.md) տիպի օբյեկտ։
+| Անվանում | Տվյալների տիպ                   | Լռությամբ արժեք | Նկարագրություն                                                                 |
+|----------|---------------------------------|----------------|----------------------------------------------------------------------------------|
+| sender   | Document                        | —              | Տպելու ձևանմուշին կապակցված [փաստաթղթի](../../../Core/Definitions/Document/document.md) օբյեկտ։    |
+| args     | TemplateSubstitutionEventArgs   | —              | [TemplateSubstitutionEventArgs](../../../Types/Args/TemplateSubstitutionEventArgs.md) տիպի օբյեկտ։    |
+

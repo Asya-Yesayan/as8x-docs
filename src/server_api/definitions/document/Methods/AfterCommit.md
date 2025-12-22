@@ -21,5 +21,5 @@ public virtual Task AfterCommit(AfterCommitEventArgs args)
 
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 | --- | --- | --- | --- |
-| args | [AfterCommitEventArgs](../../../Types/args/AfterCommitEventArgs.md) | - | [AfterCommitEventArgs](../../../Types/args/AfterCommitEventArgs.md) դասի օբյեկտ։ |
+| args | [AfterCommitEventArgs](../../../Types/Args/AfterCommitEventArgs.md) | - | [AfterCommitEventArgs](../../../Types/Args/AfterCommitEventArgs.md) դասի օբյեկտ։ |
 

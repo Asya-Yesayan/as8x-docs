@@ -12,4 +12,4 @@ public Task NestedTransactionError(NestedTransactionErrorEventArgs<T> args)
 
 | Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
 |-----------------|----------------------|----------------|----------------|
-| args            | NestedTransactionErrorEventArgs<T> | -              | [NestedTransactionErrorEventArgs](../args/NestedTransactionErrorEventArgs.md) դասի օբյեկտ։ |
+| args            | NestedTransactionErrorEventArgs<T> | -              | [NestedTransactionErrorEventArgs](../../Args/NestedTransactionErrorEventArgs.md) դասի օբյեկտ։ |

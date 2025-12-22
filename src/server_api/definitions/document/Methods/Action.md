@@ -21,4 +21,4 @@ public virtual Task Action(ActionEventArgs args)
 
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 | --- | --- | --- | --- |
-| args | [ActionEventArgs](../../../Types/args/ActionEventArgs.md) | - | [ActionEventArgs](../../../Types/args/ActionEventArgs.md) դասի օբյեկտ։ |
+| args | [ActionEventArgs](../../../Types/Args/ActionEventArgs.md) | - | [ActionEventArgs](../../../Types/Args/ActionEventArgs.md) դասի օբյեկտ։ |
