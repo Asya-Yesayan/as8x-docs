@@ -27,6 +27,8 @@ using ArmSoft.AS8X.Core.OpenTelemetry;
 public class TestExtensionMeterProvider : IExtensionMeterProvider
 {
     private int activeSessionsCount;
+    private Counter<int> testApiExecutionCounter;
+    private Histogram<double> testApiDurationHistogram;
 
     // մետրիկանում օգտագործվող tag-երի ցուցակը
     private static readonly TagList commonTags = new TagList
