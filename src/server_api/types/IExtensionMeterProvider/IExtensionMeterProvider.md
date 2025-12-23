@@ -89,7 +89,7 @@ public class TestExtensionMeterProvider : IExtensionMeterProvider
         // ստեղծում և կատարում է Sql հարցում, որը վերադարձնում է Sql-ում 
         // ակտիվ սեսսիաների քանակը
         using var command = dbService.CreateCommand();
-        command.CommandText = "SELECT COUNT(*) FROM sys.dm_exec_sessions WHERE status = 'running'";
+        command.CommandText = "select COUNT(*) from sys.dm_exec_sessions where status = 'running'";
         this.activeSessionsCount = (int)command.ExecuteScalar();
     }
 
