@@ -1,6 +1,7 @@
 ---
 title: IExtensionMeterProvider ինտերֆեյս
 ---
+
 ## Ներածություն
 
 Այս ինտերֆեյսը անհրաժեշտ է իրականացնել կազմակերպության սեփական նկարագրությունները պարունակող assembly-ում մետրիկաներ (gauge, counter...) կոնֆիգուրացնելու, հաշվարկելու համար: 
@@ -25,8 +26,7 @@ using ArmSoft.AS8X.Core.OpenTelemetry;
 
 public class TestExtensionMeterProvider : IExtensionMeterProvider
 {
-    private long transactionCount;
-    private long activeSessionsCount;
+    private int activeSessionsCount;
 
     // մետրիկանում օգտագործվող tag-երի ցուցակը
     private static readonly TagList commonTags = new TagList
@@ -37,7 +37,7 @@ public class TestExtensionMeterProvider : IExtensionMeterProvider
     public void Configure(IParametersService parametersService, Meter meter)
     {
         // ստեղծվում է gauge, որում գրանցվող արժեքը անհրաժեշտ է վերադարձնել 
-        // GetActiveSessionsCount մեթոդի միջոցով:
+        // observeValue պարամետրում նշված մեթոդով:
         meter.CreateObservableGauge(
             name: "sqlserver_active_sessions",
             observeValue: GetActiveSessionsCount,
@@ -45,14 +45,35 @@ public class TestExtensionMeterProvider : IExtensionMeterProvider
             description: "Number of currently active SQL sessions."
         );
 
-        // ստեղծվում է gauge, որում գրանցվող արժեքը անհրաժեշտ է վերադարձնել 
-        // GetTransactionCount մեթոդի միջոցով:
-        meter.CreateObservableGauge(
-            name: "sqlserver_transaction_count",
-            observeValue: GetTransactionCount,
+        // ստեղծվում է counter, որը գրանցում է api/Test/Message (GetTestMessage) կանչերի քանակը
+        this.testApiExecutionCounter = meter.CreateCounter<int>(
+            name: "test_api_execution_count",
             unit: null,
-            description: "Number of currently open SQL transactions."
+            description: "Counts the number of Test API executions.",
+            tags: commonTags
         );
+
+        // ստեղծվում է histogram, որը գրանցում է api/Test/Message (GetTestMessage) կանչի տևողությունը
+        this.testApiDurationHistogram = meter.CreateHistogram<double>(
+            name: "test_api_duration_ms",
+            unit: "ms",
+            description: "Records the duration of Test API calls in milliseconds.",
+            tags: commonTags
+        );
+    }
+
+    // Configure մեթոդում ստեղծված counter-ը ավելացնում է 1-ով։
+    // Կանչվելու է api/Test/Message (GetTestMessage) API-ում՝ կատարումների քանակը գրանցելու համար:
+    public void RegisterTestApiExecution()
+    {
+        this.testApiExecutionCounter.Add(1);
+    }
+
+    // Configure մեթոդում ստեղծված histogram-ում ավելացնում է api կանչի կատարման տևողությունը։
+    // Կանչվելու է api/Test/Message (GetTestMessage) API-ում։
+    public void RecordApiDuration(double milliseconds)
+    {
+        this.testApiDurationHistogram.Record(milliseconds);
     }
 
     // Կարևոր - մետրիկաներում գրանցվող արժեքների հաշվարկը անհրաժեշտ է կատարել 
@@ -61,29 +82,38 @@ public class TestExtensionMeterProvider : IExtensionMeterProvider
     public void CalculateGauges(IDBService dbService)
     {
         // ստեղծում և կատարում է Sql հարցում, որը վերադարձնում է Sql-ում 
-        // ակտիվ տրանզակցիաների քանակը
-        using var command = dbService.CreateCommand();
-        command.CommandText = "SELECT COUNT(*) FROM sys.dm_tran_active_transactions";
-        this.transactionCount = (long)command.ExecuteScalar();
-
-        // ստեղծում և կատարում է Sql հարցում, որը վերադարձնում է Sql-ում 
         // ակտիվ սեսսիաների քանակը
+        using var command = dbService.CreateCommand();
         command.CommandText = "SELECT COUNT(*) FROM sys.dm_exec_sessions WHERE status = 'running'";
-        this.activeSessionsCount = (long)command.ExecuteScalar();
+        this.activeSessionsCount = (int)command.ExecuteScalar();
     }
 
-    private Measurement<long> GetTransactionCount()
+    private Measurement<int> GetActiveSessionsCount()
     {
-        // վերադարձնում է Measurement<long> տիպի օբյեկտ, որը ստանում է մետրիկայի 
+        // վերադարձնում է Measurement<int> տիպի օբյեկտ, որը ստանում է մետրիկայի 
         // արժեքը և tag-երի ցուցակը
-        return new Measurement<long>(this.transactionCount, commonTags);
+        return new Measurement<int>(this.activeSessionsCount, commonTags);
     }
+}
+```
 
-    private Measurement<long> GetActiveSessionsCount()
-    {
-        // վերադարձնում է Measurement<long> տիպի օբյեկտ, որը ստանում է մետրիկայի 
-        // արժեքը և tag-երի ցուցակը
-        return new Measurement<long>(this.activeSessionsCount, commonTags);
-    }
+```c#
+[HttpGet("Message")]
+public async Task<string> GetTestMessage([FromServices] IExtensionMeterProvider extensionMeterProvider)
+{   
+    // ստեղծում է Stopwatch՝ կատարման տևողության չափման համար։
+    var stopwatch = Stopwatch.StartNew();
+
+    // կանչում է RegisterTestApiExecution մեթոդը, որը api-ի կանչերի քանակի counter-ը մեծացնում է 1-ով։
+    ((TestExtensionMeterProvider)extensionMeterProvider).RegisterTestApiExecution();
+
+    await Task.Delay(10);
+
+    //կանգնեցնում է Stopwatch-ը։
+    stopwatch.Stop();
+    
+    // կանչում է RecordApiDuration մեթոդը` փոխանցելով կանչի կատարման ընդհանուր տևողությունը, որը գրանցվելու է histogram-ում։
+    ((TestExtensionMeterProvider)extensionMeterProvider).RecordApiDuration(stopwatch.Elapsed.TotalMilliseconds);
+    return "Some test message";
 }
 ```
