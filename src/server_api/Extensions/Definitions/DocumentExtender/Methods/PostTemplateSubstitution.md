@@ -13,9 +13,9 @@ public virtual Task PostTemplateSubstitution(Document sender,
                                              TemplateSubstitutionEventArgs<TemplateSubstitution> args)
 ```
 
-Մեթոդը կանչվում է միջուկի կողմից, երբ փաստաթղթի համար ձևավորվում է տպման ձև և անջատված է փաստաթղթի [TemplateSubstitutionIsExtended](../../../../Definitions/Document/TemplateSubstitutionIsExtended.md) հատկությունը։ Մեթոդը կանչվում է [TemplateSubstitution](../../../../Definitions/Document/TemplateSubstitution.md) մեթոդի կանչից հետո։
+Մեթոդը կանչվում է միջուկի կողմից, երբ փաստաթղթի համար ձևավորվում է տպման ձև և անջատված է փաստաթղթի [TemplateSubstitutionIsExtended](../../../../Definitions/Document/Properties/TemplateSubstitutionIsExtended.md) հատկությունը։ Մեթոդը կանչվում է [TemplateSubstitution](../../../../Definitions/Document/Methods/TemplateSubstitution.md) մեթոդի կանչից հետո։
 
-Տե՛ս օգտագործման [օրինակը](../../Examples/PostTemplateSubstitution.md):
+Տե՛ս օգտագործման [օրինակը](../../../Examples/PostTemplateSubstitution.md):
 
 **Պարամետրեր**
 

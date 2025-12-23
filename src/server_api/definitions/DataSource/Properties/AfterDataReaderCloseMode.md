@@ -17,4 +17,4 @@ public virtual CallMode AfterDataReaderCloseMode
 - Ամեն տողի համար առանձին կանչ,
 - Մեկ կանչ բոլոր տողերի մշակման համար։
 
-Տե՛ս [օրինակը](../../ds_guide_row_processing.md#օրինակ-2-1)։
+Տե՛ս [օրինակը](../ds_guide_row_processing.md#օրինակ-2-1)։

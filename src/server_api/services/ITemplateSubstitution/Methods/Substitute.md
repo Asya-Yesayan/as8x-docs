@@ -1,10 +1,10 @@
-﻿---
+---
 title: ITemplateSubstitutionService.Substitute(IPrintTemplateSubstitution, byte[], SubstitutionType, HtmlImageOption, bool, string, bool, bool) մեթոդ  
 ---
 
 ## Նկարագիր
 
-**Դաս՝** [ITemplateSubstitutionService](../ITemplateSubstitution/ITemplateSubstitutionService.md)
+**Դաս՝** [ITemplateSubstitutionService](../ITemplateSubstitutionService.md)
 
 ```c#
 public Task<Stream> Substitute(IPrintTemplateSubstitution printTemplateSubstitution, 
@@ -25,8 +25,8 @@ public Task<Stream> Substitute(IPrintTemplateSubstitution printTemplateSubstitut
 |-----------------|----------------------|----------------|----------------|
 | printTemplateSubstitution | IPrintTemplateSubstitution | -              | Տպելու ձևանմուշի տեղադրվող արժեքները պարունակող օբյեկտ։ |
 | file            | byte[]               | -              | Տպելու ձևանմուշի պարունակությունը որպես բայտերի զանգված։ |
-| type            | SubstitutionType     | -              | [Տպելու ձևանմուշի տիպ](../../Types/SubstitutionType.md): |
-| htmlImageOption | HtmlImageOption      | default        | Html տպվող տեսքերի [պատկերների տեղադրման եղանակ](../../Types/HtmlImageOption.md)։ |
+| type            | SubstitutionType     | -              | [Տպելու ձևանմուշի տիպ](../../../Types/SubstitutionType.md): |
+| htmlImageOption | HtmlImageOption      | default        | Html տպվող տեսքերի [պատկերների տեղադրման եղանակ](../../../Types/HtmlImageOption.md)։ |
 | isUnicode       | bool                 | false          | Տպելու ձևանմուշը արտահանել յունիկոդ կոդավորմամբ։ |
 | outputPassword  | string               | ""             | Վերջնական ֆայլի բացման գաղտնաբառը։ |
 | protect         | bool                 | false          | `true` արժեքի դեպքում տպելու ձևանմուշի ֆայլը բացվում է միայն կարդալու թույլտվությամբ, հակառակ դեպքում՝ կարդալու/խմբագրելու թույլտվությամբ։ |

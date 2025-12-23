@@ -27,7 +27,7 @@ public Task<DataSourceResult<R>> Execute(P param,
 | stoppingToken | CancellationToken              | default         | ընդհատման օբյեկտը։  
 
 
-Տե՛ս [օրինակը](../../../Examples/ds.md#2-տիպիզացված-կատարում)։
+Տե՛ս [օրինակը](../../../Examples/ds.md#տիպիզացված-կատարում)։
 
 <!-- ### GetExecutionPhases
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: IAttachmentService.UpdateContent(AttachmentContentModel) մեթոդ
 ---
 
@@ -14,7 +14,7 @@ public Task<DateTime> UpdateContent(AttachmentContentModel attachmentContent)
 
 Փաստաթղթին կարելի է կցել առավելագույնը 10 մբ ծավալով ֆայլ։
 
-Տե՛ս [օրինակը](../../../Examples/IAttachmentService/IAttachmentService.md#օրինակ-2)։
+Տե՛ս [օրինակը](../../../Examples/IAttachmentService.md#օրինակ-2)։
 
 **Պարամետրեր**
 
@@ -24,4 +24,4 @@ public Task<DateTime> UpdateContent(AttachmentContentModel attachmentContent)
 
 <!-- **Կարևոր**
 
-Փաստաթղթին կցված ֆայլը թարմացնելու համար անհրաժեշտ է նոր ֆայլը նախապես պահպանել [ընթացիկ սեսսիայի կոնտեյներ](../../../Services/IStorage/IStorageService.md#container)-ում [IStorageService](../../../Services/IStorage/IStorageService.md).[UploadTempBlobAsync](../../../Services/IStorage/Methods/UploadTempBlobAsync.md) մեթոդով։ -->
+Փաստաթղթին կցված ֆայլը թարմացնելու համար անհրաժեշտ է նոր ֆայլը նախապես պահպանել [ընթացիկ սեսսիայի կոնտեյներ](../../IStorage/IStorageService.md)-ում [IStorageService](../../../Services/IStorage/IStorageService.md).[UploadTempBlobAsync](../../../Services/IStorage/Methods/UploadTempBlobAsync.md) մեթոդով։ -->

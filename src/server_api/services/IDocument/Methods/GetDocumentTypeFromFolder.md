@@ -1,10 +1,10 @@
-﻿---
+---
 title: IDocumentService.GetDocumentTypeFromFolder(string, string) մեթոդ
 ---
 
 ## Նկարագիր
 
-**Դաս՝** [IDocumentService](../IDocument/IDocumentService.md)
+**Դաս՝** [IDocumentService](../IDocumentService.md)
 
 ```c#
 public Task<string> GetDocumentTypeFromFolder(string folder, 

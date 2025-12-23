@@ -1,4 +1,4 @@
-﻿---
+---
 title: IDocumentService.Approve(Document, DocumentCheckLevel, string) մեթոդ
 ---
 
@@ -6,7 +6,7 @@ title: IDocumentService.Approve(Document, DocumentCheckLevel, string) մեթոդ
 
 **Համարժեքը 4x-ում՝** [AsDoc.Confirm](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/ASDOC/Confirm.html)
 
-**Դաս՝** [IDocumentService](../IDocument/IDocumentService.md)
+**Դաս՝** [IDocumentService](../IDocumentService.md)
 
 ```c#
 public Task Approve(Document document, 
@@ -20,8 +20,8 @@ public Task Approve(Document document,
 
 | Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
 |-----------------|----------------------|----------------|----------------|
-| document        | Document             | -              | [Փաստաթղթի օբյեկտ](../../Definitions/Document/Document.md)։ |
-| checkLevel      | DocumentCheckLevel   | DocumentCheckLevel.None | [Փաստաթղթի գրանցման եղանակ](../../Types/DocumentCheckLevel.md)։ |
+| document        | Document             | -              | [Փաստաթղթի օբյեկտ](../../../Definitions/Document/Document.md)։ |
+| checkLevel      | DocumentCheckLevel   | DocumentCheckLevel.None | [Փաստաթղթի գրանցման եղանակ](../../../Types/DocumentCheckLevel.md)։ |
 | logComment      | string               | ""             | Փաստաթղթի պատմության մեջ գրանցվող հաղորդագրություն։ |
 
 <!-- ### CheckAndStore
@@ -40,8 +40,8 @@ public Task CheckAndStore(Document document,
 
 | Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
 |-----------------|----------------------|----------------|----------------|
-| document        | Document             | -              | [Փաստաթղթի օբյեկտ](../../Definitions/Document/Document.md)։ |
-| mode            | StoreMode            | -              | [Փաստաթղթի պահպանման ռեժիմը](StoreMode.md)։ |
-| checkLevel      | DocumentCheckLevel   | DocumentCheckLevel.None | [Փաստաթղթի ստուգման մակարդակը](DocumentCheckLevel.md)։ |
+| document        | Document             | -              | [Փաստաթղթի օբյեկտ](../../../Definitions/Document/Document.md)։ |
+| mode            | StoreMode            | -              | [Փաստաթղթի պահպանման ռեժիմը](../../../Definitions/Document/Properties/StoreMode.md)։ |
+| checkLevel      | DocumentCheckLevel   | DocumentCheckLevel.None | [Փաստաթղթի ստուգման մակարդակը](../../../Types/DocumentCheckLevel.md)։ |
 | stateBeforeCallPostMessage | int                  | 0              | Փաստաթղթի վիճակը PostMessage մեթոդի կանչից առաջ։ |
 | logComment      | string               | ""             | Փաստաթղթի պատմության մեջ գրանցվող հաղորդագրություն։ --> |

@@ -6,7 +6,7 @@ title: Document.CreationDate հատկություն
 
 **Համարժեքը 4x-ում՝** [AsDoc․CreationDate](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/ASDOC/CreationDate.html)
 
-**Դաս՝** [Document](../../Document.md)
+**Դաս՝** [Document](../Document.md)
 
 ```c#
 public DateTime CreationDate { get; internal set; }

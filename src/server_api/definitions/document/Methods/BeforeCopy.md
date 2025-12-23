@@ -1,4 +1,4 @@
-﻿---
+---
 title: Document.BeforeCopy(BeforeCopyEventArgs) մեթոդ
 ---
 
@@ -6,7 +6,7 @@ title: Document.BeforeCopy(BeforeCopyEventArgs) մեթոդ
 
 **Համարժեքը 4x-ում՝** [BeforeCopy](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/ScriptProcs/BeforeCopy.html)
 
-**Դաս՝** [Document](../../Document.md)
+**Դաս՝** [Document](../Document.md)
 
 ```c#
 public virtual Task BeforeCopy(BeforeCopyEventArgs args)

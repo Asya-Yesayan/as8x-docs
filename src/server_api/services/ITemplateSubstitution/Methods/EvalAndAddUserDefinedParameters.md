@@ -1,10 +1,10 @@
-﻿---
+---
 title: ITemplateSubstitutionService.EvalAndAddUserDefinedParameters(string, SubstitutionType, PrintTemplateSubstitution, Document.Document) մեթոդ  
 ---
 
 ## Նկարագիր
 
-**Դաս՝** [ITemplateSubstitutionService](../ITemplateSubstitution/ITemplateSubstitutionService.md)
+**Դաս՝** [ITemplateSubstitutionService](../ITemplateSubstitutionService.md)
 
 ```c#
 public Task EvalAndAddUserDefinedParameters(string name, 
@@ -15,14 +15,14 @@ public Task EvalAndAddUserDefinedParameters(string name,
 
 Հաշվարկում է տպելու ձևանմուշի օգտագործողի կողմից նկարագրված պարամետրերը և ավելացնում տպելու ձևանմուշի տեղադրվող արժեքները պարունակող օբյեկտում՝ `printTemplateSubstitution`:
 
-Տե՛ս [Տպելու ձևանմուշի ընդլայնման ձեռնարկ](../../../extensions/Definitions/ITemplateSubstitutionExtender/template_substitution_guide.md)։
+Տե՛ս [Տպելու ձևանմուշի ընդլայնման ձեռնարկ](../../../Extensions/Definitions/TemplateSubstitution/template_substitution_guide.md)։
 
 **Պարամետրեր**
 
 | Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
 |-----------------|----------------------|----------------|----------------|
 | name            | string               | -              | Տպելու ձևանմուշի ներքին անուն: |
-| type            | SubstitutionType     | -              | [Տպելու ձևանմուշի տիպ](../../Types/SubstitutionType.md): |
+| type            | SubstitutionType     | -              | [Տպելու ձևանմուշի տիպ](../../../Types/SubstitutionType.md): |
 | printTemplateSubstitution | PrintTemplateSubstitution | -              | Տպելու ձևանմուշի տեղադրվող արժեքները պարունակող օբյեկտ։ |
-| document        | Document.Document    | -              | Տպելու ձևանմուշի հետ կապակցված [փաստաթղթի օբյեկտ](../../Definitions/Document/Document.md)։ Կարող է փոխանցվել `null`, եթե տպելու ձևը կապված չէ փաստաթղթի հետ։ |
+| document        | Document.Document    | -              | Տպելու ձևանմուշի հետ կապակցված [փաստաթղթի օբյեկտ](../../../Definitions/Document/Document.md)։ Կարող է փոխանցվել `null`, եթե տպելու ձևը կապված չէ փաստաթղթի հետ։ |
   

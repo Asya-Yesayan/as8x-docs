@@ -6,7 +6,7 @@ title: IFactService.SetAccCrd(Fact, string, bool) մեթոդ
 
 **Համարժեքը 4x-ում՝** [AsFact.AccCrd](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/ASFACT/AccCrd.html)
 
-**Դաս՝** [IFactService](../IFactService/IFactService.md)
+**Դաս՝** [IFactService](../IFactService.md)
 
 ```c#
 public Task SetAccCrd(Fact fact, 

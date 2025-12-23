@@ -8,15 +8,15 @@
 ## Ներածություն
 
 LoanApplicationsRoutes դասը պարունակում է մեթոդներ հաճախորդների տվյալների հետ աշխատանքը ապահովելու համար։
-Այն հասանելի է [BankApiClient](../../../Types/BankApiClient/BankApiClient.md) դասի միջից։
+Այն հասանելի է [BankApiClient](../../Types/BankApiClient/BankApiClient.md) դասի միջից։
 
 ## Մեթոդներ
 
 | Անվանում | Նկարագրություն |
 |----------|----------------|
-| [Create(CreateRequest)](../../../Bank/Client/Routes/LoanApplications/Create.md) | Ստեղծում է վարկային հայտ ըստ հաճախորդի հայտի տվյալների։ |
-| [GetAll(GetAllRequest)](../../../Bank/Client/Routes/LoanApplications/GetAll.md) | Վերադարձնում է հաճախորդի բոլոր վարկային հայտերի տվյալները։ |
-| [GetPrintForms(GetPrintFormsRequest)](../../../Bank/Client/Routes/LoanApplications/GetPrintForms.md) | Վերադարձնում է վարկային հայտի լրացված տպելու ձևանմուշների տվյալները և պարունակությունը ցուցակով։ |
-| [Sign(SignRequest)](../../../Bank/Client/Routes/LoanApplications/Sign.md) | Հաստատում կամ մերժում վարկային հայտը, եթե այն գտնվում է համապատասխան վիճակում։ |
+| [Create(CreateRequest)](Methods/Create.md) | Ստեղծում է վարկային հայտ ըստ հաճախորդի հայտի տվյալների։ |
+| [GetAll(GetAllRequest)](Methods/GetAll.md) | Վերադարձնում է հաճախորդի բոլոր վարկային հայտերի տվյալները։ |
+| [GetPrintForms(GetPrintFormsRequest)](Methods/GetPrintForms.md) | Վերադարձնում է վարկային հայտի լրացված տպելու ձևանմուշների տվյալները և պարունակությունը ցուցակով։ |
+| [Sign(SignRequest)](Methods/Sign.md) | Հաստատում կամ մերժում վարկային հայտը, եթե այն գտնվում է համապատասխան վիճակում։ |
 
 </div>

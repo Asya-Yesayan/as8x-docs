@@ -4,13 +4,13 @@ title: IParametersService.GetDescriptor(string) մեթոդ
 
 ## Նկարագիր
 
-**Դաս՝** [IParametersService](../IParametersService/IParametersService.md)
+**Դաս՝** [IParametersService](../IParametersService.md)
 
 ```c#
 public Descriptor GetDescriptor(string paramId)
 ```
 
-Վերադարձնում է համակարգային [պարամետրի նկարագրությունը](../../Types/Descriptor.md):
+Վերադարձնում է համակարգային [պարամետրի նկարագրությունը](../../../Types/Descriptor.md):
 
 Պարամետրի սահմանված չլինելու դեպքում առաջանում է սխալ։
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: IDocumentService.ReFolder(Document, StoreMode) մեթոդ
 ---
 
@@ -6,7 +6,7 @@ title: IDocumentService.ReFolder(Document, StoreMode) մեթոդ
 
 **Համարժեքը 4x-ում՝** [AsDoc.ReFolder](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/ASDOC/ReFolder.html)
 
-**Դաս՝** [IDocumentService](../IDocument/IDocumentService.md)
+**Դաս՝** [IDocumentService](../IDocumentService.md)
 
 ```c#
 public Task ReFolder(Document document, 
@@ -20,6 +20,6 @@ public Task ReFolder(Document document,
 
 | Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
 |-----------------|----------------------|----------------|----------------|
-| document        | Document             | -              | [Փաստաթղթի օբյեկտ](../../Definitions/Document/Document.md)։ |
-| mode            | StoreMode            | -              | [Փաստաթղթի պահպանման ռեժիմը](../../Types/StoreMode.md)։ |
+| document        | Document             | -              | [Փաստաթղթի օբյեկտ](../../../Definitions/Document/Document.md)։ |
+| mode            | StoreMode            | -              | [Փաստաթղթի պահպանման ռեժիմը](../../../Types/StoreMode.md)։ |
   Տե՛ս [Document](../../../Definitions/Document/Document.md).[StoreMode](../../../Definitions/Document/Properties/StoreMode.md) հատկությունը։

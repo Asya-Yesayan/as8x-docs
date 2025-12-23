@@ -6,7 +6,7 @@ title: Document.LastFixedState հատկություն
 
 **Համարժեքը 4x-ում՝** [AsDoc.LastFixedState](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/ASDOC/LastFixedState.html)
 
-**Դաս՝** [Document](../../Document.md)
+**Դաս՝** [Document](../Document.md)
 
 ```c#
 public short LastFixedState { get; internal set; } = 0;

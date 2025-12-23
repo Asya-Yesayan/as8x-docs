@@ -18,7 +18,7 @@ public interface IAppCustomCondition
 }
 ```
 
-Անցման փուլի հաշվարկման համար հարկավոր է իրականացնել այս ինտերֆեյսը և ստացված C# ֆայլը ներմուծել որպես [սերվերային մոդուլ](../Definitions/ServerSideModule/server_side_module_guide.md)։
+Անցման փուլի հաշվարկման համար հարկավոր է իրականացնել այս ինտերֆեյսը և ստացված C# ֆայլը ներմուծել որպես [սերվերային մոդուլ](../../server_api/Extensions/Definitions/ServerSideModule/server_side_module_guide.md)։
 
 Տե՛ս [ձեռնարկը](loan_app.md)
 </div>

@@ -13,7 +13,7 @@ title: IPermanentStorageService.DeleteBlobAsync մեթոդ
 
 #### Նկարագիր
 
-**Դաս՝** [IPermanentStorageService](../IPermanentStorageService/IPermanentStorageService.md)
+**Դաս՝** [IPermanentStorageService](../IPermanentStorageService.md)
 
 ```c#
 public virtual Task<bool> DeleteBlobAsync(string container, 
@@ -35,14 +35,14 @@ public virtual Task<bool> DeleteBlobAsync(string container,
 
 #### Նկարագիր
 
-**Դաս՝** [IPermanentStorageService](../IPermanentStorageService/IPermanentStorageService.md)
+**Դաս՝** [IPermanentStorageService](../IPermanentStorageService.md)
 
 ```c#
 public virtual Task<bool> DeleteBlobAsync(string blobName, 
                                           CancellationToken cancellationToken = default)
 ```
 
-Հեռացնում է ֆայլը մշտական ֆայլերի պահոցի [Container](Container.md) հատկությամբ նշված թղթապանակից։
+Հեռացնում է ֆայլը մշտական ֆայլերի պահոցի [Container](../Properties/Container.md) հատկությամբ նշված թղթապանակից։
 
 **Պարամետրեր**
 

@@ -11,4 +11,4 @@ UserManagerService դասը նախատեսված է օգտագործողների
 | Անվանում | Նկարագրություն |
 |----------|----------------|
 | [GetAccessibleRoles(short)](Methods/GetAccessibleRoles.md) | Վերադարձնում է օգտագործողին նշանակված դերերի ներքին անունների ցուցակը։ |
-| [GetUnhiddenUsers()](Methods/GetUnhiddenUsers.md) | Վերադարձնում է համակարգի բոլոր անտեսանելի [օգտագործողների նկարագրությունների](../Types/UserDescription.md) ցուցակը։ |
+| [GetUnhiddenUsers()](Methods/GetUnhiddenUsers.md) | Վերադարձնում է համակարգի բոլոր անտեսանելի [օգտագործողների նկարագրությունների](../../Types/UserDescription.md) ցուցակը։ |

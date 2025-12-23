@@ -6,7 +6,7 @@ title: Document.OnRejectDocumentChangeRequest(RejectDocumentChangeRequestEventAr
 
 **Համարժեքը 4x-ում՝** [OnRejectDCR](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/ScriptProcs/OnRejectDCR.html)
 
-**Դաս՝** [Document](../../Document.md)
+**Դաս՝** [Document](../Document.md)
 
 ```c#
 public virtual Task OnRejectDocumentChangeRequest(RejectDocumentChangeRequestEventArgs args)
@@ -24,9 +24,9 @@ public virtual Task OnRejectDocumentChangeRequest(RejectDocumentChangeRequestEve
 **Նկատառումներ**
 
 Փաստաթղթի փոփոխման հայտը մերժելիս կանչվում են հետևյալ մեթոդները նշված հերթականությամբ՝ 
-* [PreOnRejectDocumentChangeRequest](../../../../extensions/Definitions/DocumentExtender/Methods/PreOnRejectDocumentChangeRequest.md),
+* [PreOnRejectDocumentChangeRequest](../../../Extensions/Definitions/DocumentExtender/Methods/PreOnRejectDocumentChangeRequest.md),
 * [OnRejectDocumentChangeRequest](OnRejectDocumentChangeRequest.md),
-* [PostOnRejectDocumentChangeRequest](../../../../extensions/Definitions/DocumentExtender/Methods/PostOnRejectDocumentChangeRequest.md):
+* [PostOnRejectDocumentChangeRequest](../../../Extensions/Definitions/DocumentExtender/Methods/PostOnRejectDocumentChangeRequest.md):
 
 Յուրաքանչյուր մեթոդի պարամետրերը, կանչից հետո, փոխանցվում են հաջորդին։
 

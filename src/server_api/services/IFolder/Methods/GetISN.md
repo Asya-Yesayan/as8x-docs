@@ -6,7 +6,7 @@ title: IFolderService.GetISN(string, string) մեթոդ
 
 **Համարժեքը 4x-ում՝** [AsKernel.GetISN](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/DocumentsCirculation/GetISN.html)
 
-**Դաս՝** [IFolderService](../IFolderService/IFolderService.md)
+**Դաս՝** [IFolderService](../IFolderService.md)
 
 ```c#
 public virtual Task<int> GetISN(string folderId, 
@@ -30,7 +30,7 @@ public virtual Task<int> GetISN(string folderId,
 public Task Store(int isn, List<FolderElement> folderElements, string defaultComment, bool existsInDb);
 ```
 
-Գրանցում է ՝folderElements՝ արգումենտում նշված [թղթապանակների տարրերը](FolderElement.md) տվյալների պահոցի [FOLDERS](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Database/Folders.html) աղյուսակում։
+Գրանցում է ՝folderElements՝ արգումենտում նշված [թղթապանակների տարրերը](../../../Types/FolderElement.md) տվյալների պահոցի [FOLDERS](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Database/Folders.html) աղյուսակում։
 
 **Պարամետրեր**
 

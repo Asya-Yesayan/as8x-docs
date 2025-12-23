@@ -4,7 +4,7 @@ title: LanguageService.GetAcceptLanguage(CultureInfo) մեթոդ
 
 ## Նկարագիր
 
-**Դաս՝** [LanguageService](../LanguageService/LanguageService.md)
+**Դաս՝** [LanguageService](../LanguageService.md)
 
 ```c#
 public static string GetAcceptLanguage(CultureInfo cultureInfo = null)

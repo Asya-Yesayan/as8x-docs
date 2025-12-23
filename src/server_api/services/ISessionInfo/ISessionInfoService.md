@@ -4,7 +4,7 @@ title: "ISessionInfoService սերվիս"
 
 ## Ներածություն
 
-ISessionInfoService դասը նախատեսված է [սեսսիաների](../Types/SessionInfo.md) հետ աշխատանքը ապահովելու համար։
+ISessionInfoService դասը նախատեսված է [սեսսիաների](../../Types/SessionInfo.md) հետ աշխատանքը ապահովելու համար։
 Հնարավոր է ստանալ ընթացիկ օգտագործողի տվյալներ, ինչպես նաև ընթացիկ պարամետրերի արժեքներ։
 
 <!-- ## Հատկություններ
@@ -15,21 +15,21 @@ ISessionInfoService դասը նախատեսված է [սեսսիաների](../T
 public string CurrentSessionGuid { get }
 ```
 
-Վերադարձնում է ընթացիկ [սեսսիայի](../Types/SessionInfo.md) ներքին նույնականացման համարը (Guid): -->
+Վերադարձնում է ընթացիկ [սեսսիայի](../../Types/SessionInfo.md) ներքին նույնականացման համարը (Guid): -->
 
 ## Մեթոդներ
 
 | Անվանում | Նկարագրություն |
 |----------|----------------|
-| [GetInfo()](ISessionInfoService/GetInfo.md) | Վերադարձնում է ընթացիկ [սեսսիայի մասին ինֆորմացիան](../Types/SessionInfo.md)։ |
-| [Exists(string)](ISessionInfoService/Exists.md) | Ստուգում է նշված [սեսսիայի](../Types/SessionInfo.md) առկայությունը սերվիսի քեշում։ |
-| [ExistsInDB(string)](ISessionInfoService/ExistsInDB.md) | Ստուգում է նշված [սեսսիայի](../Types/SessionInfo.md) առկայությունը տվյալների պահոցի [SESSIONINFO](https://asya-yesayan.github.io/as4x-docs/HTM/ProgrGuide/Database/SessionInfo.html) աղյուսակում։ |
+| [GetInfo()](Methods/GetInfo.md) | Վերադարձնում է ընթացիկ [սեսսիայի մասին ինֆորմացիան](../../Types/SessionInfo.md)։ |
+| [Exists(string)](Methods/Exists.md) | Ստուգում է նշված [սեսսիայի](../../Types/SessionInfo.md) առկայությունը սերվիսի քեշում։ |
+| [ExistsInDB(string)](Methods/ExistsInDB.md) | Ստուգում է նշված [սեսսիայի](../../Types/SessionInfo.md) առկայությունը տվյալների պահոցի [SESSIONINFO](https://asya-yesayan.github.io/as4x-docs/HTM/ProgrGuide/Database/SessionInfo.html) աղյուսակում։ |
 
 ## Հատկություններ
 
 | Անվանում | Նկարագրություն |
 |----------|----------------|
-| [CurrentSessionGuid](Properties/CurrentSessionGuid.md) | Վերադարձնում է ընթացիկ [սեսսիայի](../Types/SessionInfo.md) ներքին նույնականացման համարը (Guid)։ |
+| [CurrentSessionGuid](Properties/CurrentSessionGuid.md) | Վերադարձնում է ընթացիկ [սեսսիայի](../../Types/SessionInfo.md) ներքին նույնականացման համարը (Guid)։ |
 
 <!-- ##
 
@@ -37,12 +37,12 @@ public string CurrentSessionGuid { get }
 
 | Անվանում | Նկարագրություն |
 |----------|----------------|
-| [CurrentSessionGuid](Properties/CurrentSessionGuid.md) | Ավելացնում է նոր [սեսսիա](../Types/SessionInfo.md) տվյալների պահոցի [SESSIONINFO](https://asya-yesayan.github.io/as4x-docs/HTM/ProgrGuide/Database/SessionInfo.html) աղյուսակում և քեշում։ |
-| [Delete](ISessionInfoService/Delete.md) | Հեռացնում է ընթացիկ [սեսսիան](../Types/SessionInfo.md) տվյալների պահոցի [SESSIONINFO](https://asya-yesayan.github.io/as4x-docs/HTM/ProgrGuide/Database/SessionInfo.html) աղյուսակից և քեշից։ |
+| [CurrentSessionGuid](Properties/CurrentSessionGuid.md) | Ավելացնում է նոր [սեսսիա](../../Types/SessionInfo.md) տվյալների պահոցի [SESSIONINFO](https://asya-yesayan.github.io/as4x-docs/HTM/ProgrGuide/Database/SessionInfo.html) աղյուսակում և քեշում։ |
+| [Delete](Methods/Delete.md) | Հեռացնում է ընթացիկ [սեսսիան](../../Types/SessionInfo.md) տվյալների պահոցի [SESSIONINFO](https://asya-yesayan.github.io/as4x-docs/HTM/ProgrGuide/Database/SessionInfo.html) աղյուսակից և քեշից։ |
 | [DeleteExpirations](ISessionInfoService/DeleteExpirations.md) | Հեռացնում է բոլոր ժամկետանց սեսսիաները տվյալների պահոցի [SESSIONINFO](https://asya-yesayan.github.io/as4x-docs/HTM/ProgrGuide/Database/SessionInfo.html) աղյուսակից և քեշից։ |
-| [GetInfo()](ISessionInfoService/GetInfo.md) | Վերադարձնում է ընթացիկ [սեսսիայի մասին ինֆորմացիան](../Types/SessionInfo.md)։ |
-| [GetInfos](ISessionInfoService/GetInfos.md) | Վերադարձնում է տվյալների պահոցի [SESSIONINFO](https://asya-yesayan.github.io/as4x-docs/HTM/ProgrGuide/Database/SessionInfo.html) աղյուսակում պահված բոլոր [սեսսիաների մասին ինֆորմացիան](../Types/SessionInfo.md) և ավելացնում քեշում։ |
-| [Update](ISessionInfoService/Update.md) | Թարմացնում է ընթացիկ սեսսիայի ինֆորմացիան։ |
+| [GetInfo()](Methods/GetInfo.md) | Վերադարձնում է ընթացիկ [սեսսիայի մասին ինֆորմացիան](../../Types/SessionInfo.md)։ |
+| [GetInfos](ISessionInfoService/GetInfos.md) | Վերադարձնում է տվյալների պահոցի [SESSIONINFO](https://asya-yesayan.github.io/as4x-docs/HTM/ProgrGuide/Database/SessionInfo.html) աղյուսակում պահված բոլոր [սեսսիաների մասին ինֆորմացիան](../../Types/SessionInfo.md) և ավելացնում քեշում։ |
+| [Update](Methods/Update.md) | Թարմացնում է ընթացիկ սեսսիայի ինֆորմացիան։ |
 
 ### Add
 

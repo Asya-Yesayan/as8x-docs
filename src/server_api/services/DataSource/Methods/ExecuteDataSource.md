@@ -6,7 +6,7 @@ title: DataSourceService.ExecuteDataSource մեթոդ
 
 **Համարժեքը 4x-ում՝** [OpenCursor](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/ASDATA/OpenCursor.html)
 
-**Դաս՝** [DataSourceService](../../DataSourceService/DataSourceService.md)
+**Դաս՝** [DataSourceService](../DataSourceService.md)
 
 ## Գերբեռնումներ
 

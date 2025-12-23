@@ -1,4 +1,4 @@
-﻿---
+---
 title: IDocumentService.IsArchived(int) մեթոդ
 ---
 
@@ -6,7 +6,7 @@ title: IDocumentService.IsArchived(int) մեթոդ
 
 **Համարժեքը 4x-ում՝** AsDocEngine.IsDocArchived
 
-**Դաս՝** [IDocumentService](../IDocument/IDocumentService.md)
+**Դաս՝** [IDocumentService](../IDocumentService.md)
 
 ```c#
 public Task<bool> IsArchived(int isn)

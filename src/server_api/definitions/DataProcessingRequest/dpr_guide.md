@@ -1,4 +1,4 @@
-﻿---
+---
 layout: page
 title: "(DPR) Տվյալների մշակման հարցման նկարագրման ձեռնարկ"
 tags: [DPR]
@@ -27,7 +27,7 @@ sublinks:
 
 Տե՛ս նաև 
 * [Տվյալների մշակման հարցման մեթոդների ու հատկությունների նկարագրություն](DataProcessingRequest.md)
-* [Կազմակերպության սեփական Տվյալների մշակման հարցումների (`DPR`-ի) ստեղծման ձեռնարկ](../../../extensions/Definitions/DataProcessingRequest/dpr_new_guide.md)
+* [Կազմակերպության սեփական Տվյալների մշակման հարցումների (`DPR`-ի) ստեղծման ձեռնարկ](../../Extensions/Definitions/DataProcessingRequest/dpr_new_guide.md)
 * [Ասինխրոն մշակում կիրառությունների սերվերի վրա](../../../Architecture/appserver_async.md)
 
 ## C# ֆայլի նկարագրություն

@@ -6,7 +6,7 @@ title: IFactService.Exists(int, int, string, string, bool) մեթոդ
 
 **Համարժեքը 4x-ում՝** [AsKernel.ExistsFact](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/AccManagement/ExistsFact.html)
 
-**Դաս՝** [IFactService](../IFactService/IFactService.md)
+**Դաս՝** [IFactService](../IFactService.md)
 
 ```c#
 public Task<bool> Exists(int baseIsn = 0, 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Document.LoadGrids(LoadGridsEventArgs) մեթոդ
 ---
 
@@ -6,7 +6,7 @@ title: Document.LoadGrids(LoadGridsEventArgs) մեթոդ
 
 **Համարժեքը 4x-ում՝** AsDoc.LoadGrids
 
-**Դաս՝** [Document](../../Document.md)
+**Դաս՝** [Document](../Document.md)
 
 ```c#
 public Task LoadGrids(LoadGridsEventArgs args)

@@ -8,13 +8,13 @@
 ## Ներածություն
 
 ClientsRoutes դասը պարունակում է մեթոդներ քարտերի հետ աշխատանքը ապահովելու համար։
-Այն հասանելի է [BankApiClient](../../../Types/BankApiClient/BankApiClient.md) դասի միջից։
+Այն հասանելի է [BankApiClient](../../Types/BankApiClient/BankApiClient.md) դասի միջից։
 
 ## Մեթոդներ
 
 | Անվանում | Նկարագրություն |
 |----------|----------------|
-| [AttachReservedCardToClient(AttachReservedCardToClientRequest)](../../../Bank/Client/Routes/Cards/AttachReservedCardToClient.md) | Ռեզերվացրած քարտը կցում է տրված հաճախորդին։ |
-| [GetCardAgreementFiles(int, Language)](../../../Bank/Client/Routes/Cards/GetCardAgreementFiles.md) | Ներբեռնում է տրված քարտի համար անհրաժեշտ պայմանագրերը։ |
+| [AttachReservedCardToClient(AttachReservedCardToClientRequest)](Methods/AttachReservedCardToClient.md) | Ռեզերվացրած քարտը կցում է տրված հաճախորդին։ |
+| [GetCardAgreementFiles(int, Language)](Methods/GetCardAgreementFiles.md) | Ներբեռնում է տրված քարտի համար անհրաժեշտ պայմանագրերը։ |
 
 </div>

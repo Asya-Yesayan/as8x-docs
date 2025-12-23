@@ -6,7 +6,7 @@ title: TemplateSubstitution.AddImage(string) մեթոդ
 public PrintTemplateSubstitutionImage AddImage(string name)
 ```
 
-Տպելու ձևանմուշի տեղադրվող արժեքների բազմությունում ավելացնում է նկար և վերադարձնում [նկարի նկարագրությունը](../PrintTemplateSubstitutionImage.md), որի միջոցով անհրաժեշտ է ավելացնել նկարի տվյալները ([ֆայլը](../PrintTemplateSubstitutionImage/File.md), [երկարությունը](../PrintTemplateSubstitutionImage/Height.md), [լայնությունը](../PrintTemplateSubstitutionImage/Width.md)...):
+Տպելու ձևանմուշի տեղադրվող արժեքների բազմությունում ավելացնում է նկար և վերադարձնում [նկարի նկարագրությունը](../../PrintTemplateSubstitutionImage.md), որի միջոցով անհրաժեշտ է ավելացնել նկարի տվյալները ([ֆայլը](../../PrintTemplateSubstitutionImage/Properties/File.md), [երկարությունը](../../PrintTemplateSubstitutionImage/Properties/Height.md), [լայնությունը](../../PrintTemplateSubstitutionImage/Properties/Width.md)...):
 
 **Պարամետրեր**
 

@@ -4,7 +4,7 @@ title: Document.GetFieldType(string) մեթոդ
 
 ## Նկարագիր
 
-**Դաս՝** [Document](../../Document.md)
+**Դաս՝** [Document](../Document.md)
 
 ```c#
 public FieldType GetFieldType(string fieldName)

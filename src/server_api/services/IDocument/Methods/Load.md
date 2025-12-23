@@ -1,4 +1,4 @@
-﻿---
+---
 title: IDocumentService.Load մեթոդ
 ---
 
@@ -6,7 +6,7 @@ title: IDocumentService.Load մեթոդ
 
 **Համարժեքը 4x-ում՝** [AsDocEngine.LoadDoc](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/DocumentsCirculation/LoadDoc.html)
 
-**Դաս՝** [IDocumentService](../IDocument/IDocumentService.md)
+**Դաս՝** [IDocumentService](../IDocumentService.md)
 
 <div class="version-block" data-product-id="bank" data-version="250626.000" markdown="1">
 
@@ -38,12 +38,12 @@ public Task<Document> Load(int isn,
 | Անվանում | Տեսակ | Լռությամբ արժեք | Նկարագրություն |
 |-----------|-------|-----------------|----------------|
 | `isn` | int | – | Բեռնվող փաստաթղթի ներքին նույնականացման համարը։ |
-| `gridLoadMode` | [GridLoadMode](../../Types/GridLoadMode.md) | GridLoadMode.Full | [Աղյուսակների բեռնման հայտանիշ](../../Types/GridLoadMode.md)։ |
+| `gridLoadMode` | [GridLoadMode](../../../Types/GridLoadMode.md) | GridLoadMode.Full | [Աղյուսակների բեռնման հայտանիշ](../../../Types/GridLoadMode.md)։ |
 | `loadImagesAndMemos` | bool | true | Նկարների ու մեծ մուտքագրման դաշտերի (մեմո) բեռնման հայտանիշ։ |
 | `lockTableRow` | bool | false | Տվյալների պահոցում արգելափակման (lock) միացման հայտանիշ։ <br> true արժեքի դեպքում դրվում է թարմացման (update) արգելափակում։  |
 | `throwExceptionIfDeleted` | bool | true | Պահանջվող փաստաթղթի հեռացված լինելու դեպքում սխալի առաջացման հայտանիշ։ |
 | `lookInArc` | bool | true | Հիմնական տվյալների պահոցում փաստաթղթի բացակայության դեպքում արխիվայինում փնտրման հայտանիշ։ <br> Պարամետրի **true** արժեքի և արխիվային տվյալների պահոցում փաստաթղթի բացակայության դեպքում առաջանում է սխալ։ |
-| `instanceType` | Type | Document | Փաստաթղթի նկարագրված դաս 8X-ում։ [Document](../../Definitions/Document/Document.md) դասից ժառանգ հանդիսացող դաս, որի օբյեկտ պետք է ստեղծվի։ |
+| `instanceType` | Type | Document | Փաստաթղթի նկարագրված դաս 8X-ում։ [Document](../../../Definitions/Document/Document.md) դասից ժառանգ հանդիսացող դաս, որի օբյեկտ պետք է ստեղծվի։ |
 | `loadParents` | bool | false | Ծնող փաստաթղթերի ISN-ների ցուցակի բեռնման հայտանիշ։ |
 
 ### IDocumentService.Load(int, GridLoadMode, bool, bool, bool, bool, bool) մեթոդ
@@ -65,9 +65,9 @@ public Task<T> Load<T>(int isn,
 
 | Անվանում | Տեսակ | Լռությամբ արժեք | Նկարագրություն |
 |-----------|-------|-----------------|----------------|
-| `T` | Type (`Document` ժառանգ) | Document | Փաստաթղթի նկարագրված դաս 8X-ում, [Document](../../Definitions/Document/Document.md) դասի ժառանգ։ |
+| `T` | Type (`Document` ժառանգ) | Document | Փաստաթղթի նկարագրված դաս 8X-ում, [Document](../../../Definitions/Document/Document.md) դասի ժառանգ։ |
 | `isn` | int | – | Բեռնվող փաստաթղթի ներքին նույնականացման համարը։ |
-| `gridLoadMode` | [GridLoadMode](../../Types/GridLoadMode.md) | GridLoadMode.Full | [Աղյուսակների բեռնման հայտանիշ](../../Types/GridLoadMode.md)։ |
+| `gridLoadMode` | [GridLoadMode](../../../Types/GridLoadMode.md) | GridLoadMode.Full | [Աղյուսակների բեռնման հայտանիշ](../../../Types/GridLoadMode.md)։ |
 | `loadImagesAndMemos` | bool | true | Նկարների ու մեծ մուտքագրման դաշտերի (մեմո) բեռնման հայտանիշ։ |
 | `lockTableRow` | bool | false | Տվյալների պահոցում արգելափակման (lock) միացման հայտանիշ։ <br> true արժեքի դեպքում դրվում է թարմացման (update) արգելափակում։  |
 | `throwExceptionIfDeleted` | bool | true | Պահանջվող փաստաթղթի հեռացված լինելու դեպքում սխալի առաջացման հայտանիշ։ |
@@ -106,12 +106,12 @@ public Task<Document> Load(int isn,
 | Անվանում | Տեսակ | Լռությամբ արժեք | Նկարագրություն |
 |-----------|-------|-----------------|----------------|
 | `isn` | int | – | Բեռնվող փաստաթղթի ներքին նույնականացման համարը։ |
-| `gridLoadMode` | [GridLoadMode](../../Types/GridLoadMode.md) | GridLoadMode.Full | [Աղյուսակների բեռնման հայտանիշ](../../Types/GridLoadMode.md)։ |
+| `gridLoadMode` | [GridLoadMode](../../../Types/GridLoadMode.md) | GridLoadMode.Full | [Աղյուսակների բեռնման հայտանիշ](../../../Types/GridLoadMode.md)։ |
 | `loadImagesAndMemos` | bool | true | Նկարների ու մեծ մուտքագրման դաշտերի (մեմո) բեռնման հայտանիշ։ |
-| `lockMode` | [DocumentLockMode](../../Types/DocumentLockMode.md) | DocumentLockMode.ReadLock | Տվյալների պահոցում արգելափակման (lock) միացման [ռեժիմը](../../Types/DocumentLockMode.md)։ |
+| `lockMode` | [DocumentLockMode](../../../Types/DocumentLockMode.md) | DocumentLockMode.ReadLock | Տվյալների պահոցում արգելափակման (lock) միացման [ռեժիմը](../../../Types/DocumentLockMode.md)։ |
 | `throwExceptionIfDeleted` | bool | true | Պահանջվող փաստաթղթի հեռացված լինելու դեպքում սխալի առաջացման հայտանիշ։ |
 | `lookInArc` | bool | true | Հիմնական տվյալների պահոցում փաստաթղթի բացակայության դեպքում արխիվայինում փնտրման հայտանիշ։ <br> Պարամետրի **true** արժեքի և արխիվային տվյալների պահոցում փաստաթղթի բացակայության դեպքում առաջանում է սխալ։ |
-| `instanceType` | Type | Document | Փաստաթղթի նկարագրված դաս 8X-ում։ [Document](../../Definitions/Document/Document.md) դասից ժառանգ հանդիսացող դաս, որի օբյեկտ պետք է ստեղծվի։ |
+| `instanceType` | Type | Document | Փաստաթղթի նկարագրված դաս 8X-ում։ [Document](../../../Definitions/Document/Document.md) դասից ժառանգ հանդիսացող դաս, որի օբյեկտ պետք է ստեղծվի։ |
 | `loadParents` | bool | false | Ծնող փաստաթղթերի ISN-ների ցուցակի բեռնման հայտանիշ։ |
 
 ### IDocumentService.Load(int, GridLoadMode, bool, DocumentLockMode, bool, bool, bool) մեթոդ
@@ -133,11 +133,11 @@ public Task<T> Load<T>(int isn,
 
 | Անվանում | Տեսակ | Լռությամբ արժեք | Նկարագրություն |
 |-----------|-------|-----------------|----------------|
-| `T` | Type (`Document` ժառանգ) | Document | Փաստաթղթի նկարագրված դաս 8X-ում, [Document](../../Definitions/Document/Document.md) դասի ժառանգ։ |
+| `T` | Type (`Document` ժառանգ) | Document | Փաստաթղթի նկարագրված դաս 8X-ում, [Document](../../../Definitions/Document/Document.md) դասի ժառանգ։ |
 | `isn` | int | – | Բեռնվող փաստաթղթի ներքին նույնականացման համարը։ |
-| `gridLoadMode` | [GridLoadMode](../../Types/GridLoadMode.md) | GridLoadMode.Full | [Աղյուսակների բեռնման հայտանիշ](../../Types/GridLoadMode.md)։ |
+| `gridLoadMode` | [GridLoadMode](../../../Types/GridLoadMode.md) | GridLoadMode.Full | [Աղյուսակների բեռնման հայտանիշ](../../../Types/GridLoadMode.md)։ |
 | `loadImagesAndMemos` | bool | true | Նկարների ու մեծ մուտքագրման դաշտերի (մեմո) բեռնման հայտանիշ։ |
-| `lockMode` | [DocumentLockMode](../../Types/DocumentLockMode.md) | DocumentLockMode.ReadLock | Տվյալների պահոցում արգելափակման (lock) միացման [ռեժիմը](../../Types/DocumentLockMode.md)։ |
+| `lockMode` | [DocumentLockMode](../../../Types/DocumentLockMode.md) | DocumentLockMode.ReadLock | Տվյալների պահոցում արգելափակման (lock) միացման [ռեժիմը](../../../Types/DocumentLockMode.md)։ |
 | `throwExceptionIfDeleted` | bool | true | Պահանջվող փաստաթղթի հեռացված լինելու դեպքում սխալի առաջացման հայտանիշ։ |
 | `lookInArc` | bool | true | Հիմնական տվյալների պահոցում փաստաթղթի բացակայության դեպքում արխիվայինում փնտրման հայտանիշ։ <br> Պարամետրի **true** արժեքի և արխիվային տվյալների պահոցում փաստաթղթի բացակայության դեպքում առաջանում է սխալ։ |
 | `loadParents` | bool | false | Ծնող փաստաթղթերի ISN-ների ցուցակի բեռնման հայտանիշ։ |

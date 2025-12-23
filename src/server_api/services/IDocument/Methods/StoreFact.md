@@ -1,4 +1,4 @@
-﻿---
+---
 title: IDocumentService.StoreFact(Document, Fact) մեթոդ
 ---
 
@@ -6,7 +6,7 @@ title: IDocumentService.StoreFact(Document, Fact) մեթոդ
 
 **Համարժեքը 4x-ում՝** [AsDoc.StoreFact](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/ASDOC/StoreFact.html)
 
-**Դաս՝** [IDocumentService](../IDocument/IDocumentService.md)
+**Դաս՝** [IDocumentService](../IDocumentService.md)
 
 ```c#
 public Task StoreFact(Document document, 
@@ -21,5 +21,5 @@ public Task StoreFact(Document document,
 
 | Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
 |-----------------|----------------------|----------------|----------------|
-| document        | Document             | -              | [Փաստաթղթի օբյեկտ](../../Definitions/Document/Document.md)։ |
+| document        | Document             | -              | [Փաստաթղթի օբյեկտ](../../../Definitions/Document/Document.md)։ |
 | fact            | Fact                 | -              | Գրանցման ենթակա հաշվառում։ |

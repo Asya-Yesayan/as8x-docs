@@ -6,7 +6,7 @@ title: Document.ConfigureDCRFieldInclusion(ConfigureDCRFieldInclusionEventArgs) 
 
 **Համարժեքը 4x-ում՝** [ConfigureDCRFields](https://asya-yesayan.github.io/as4x-docs/HTM/ProgrGuide/ScriptProcs/ConfigureDCRFields.html)
 
-**Դաս՝** [Document](../../Document.md)
+**Դաս՝** [Document](../Document.md)
 
 ```c#
 public virtual Task ConfigureDCRFieldInclusion(ConfigureDCRFieldInclusionEventArgs args)

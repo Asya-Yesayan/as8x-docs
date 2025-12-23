@@ -4,7 +4,7 @@ title: Document.TimeStamp հատկություն
 
 ## Նկարագիր
 
-**Դաս՝** [Document](../../Document.md)
+**Դաս՝** [Document](../Document.md)
 
 ```c#
 public byte[] TimeStamp { get; internal set; }

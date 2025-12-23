@@ -10,20 +10,20 @@ title: IParametersService.GetDecimalValue մեթոդ
 
 | Անվանում | Նկարագրություն |
 |--|--|
-| [GetDecimalValue(string)](#iparametersservicegetdecimalvaluestring-մեթոդ) | Վերադարձնում է կոտորակային թիվ տիպի ([N](../../Types/system_types.md#numericfieldtype), [NP](../../Types/system_types.md#numericpositivefieldtype), [SUMMA](../../Types/system_types.md#amountfieldtype), [SUMMAP](../../Types/system_types.md#amountpositivefieldtype)) պարամետրի արժեքը՝ ըստ պարամետրի ներքին անվան։  |
-| [GetDecimalValue(string, short)](#iparametersservicegetdecimalvaluestring-short-մեթոդ) | Վերադարձնում է կոտորակային թիվ տիպի ([N](../../Types/system_types.md#numericfieldtype), [NP](../../Types/system_types.md#numericpositivefieldtype), [SUMMA](../../Types/system_types.md#amountfieldtype), [SUMMAP](../../Types/system_types.md#amountpositivefieldtype)) պարամետրի արժեքը՝ ըստ պարամետրի ներքին անվան և օգտագործողի համարի։  |
+| [GetDecimalValue(string)](#iparametersservicegetdecimalvaluestring-մեթոդ) | Վերադարձնում է կոտորակային թիվ տիպի ([N](../../../Types/system_types.md#numericfieldtype), [NP](../../../Types/system_types.md#numericpositivefieldtype), [SUMMA](../../../Types/system_types.md#amountfieldtype), [SUMMAP](../../../Types/system_types.md#amountpositivefieldtype)) պարամետրի արժեքը՝ ըստ պարամետրի ներքին անվան։  |
+| [GetDecimalValue(string, short)](#iparametersservicegetdecimalvaluestring-short-մեթոդ) | Վերադարձնում է կոտորակային թիվ տիպի ([N](../../../Types/system_types.md#numericfieldtype), [NP](../../../Types/system_types.md#numericpositivefieldtype), [SUMMA](../../../Types/system_types.md#amountfieldtype), [SUMMAP](../../../Types/system_types.md#amountpositivefieldtype)) պարամետրի արժեքը՝ ըստ պարամետրի ներքին անվան և օգտագործողի համարի։  |
 
 ### IParametersService.GetDecimalValue(string) մեթոդ
 
 #### Նկարագիր
 
-**Դաս՝** [IParametersService](../IParametersService/IParametersService.md)
+**Դաս՝** [IParametersService](../IParametersService.md)
 
 ```c#
 public Task<decimal> GetDecimalValue(string paramId)
 ```
 
-Վերադարձնում է կոտորակային թիվ տիպի ([N](../../Types/system_types.md#numericfieldtype), [NP](../../Types/system_types.md#numericpositivefieldtype), [SUMMA](../../Types/system_types.md#amountfieldtype), [SUMMAP](../../Types/system_types.md#amountpositivefieldtype)) պարամետրի արժեքը՝ ըստ պարամետրի ներքին անվան։  
+Վերադարձնում է կոտորակային թիվ տիպի ([N](../../../Types/system_types.md#numericfieldtype), [NP](../../../Types/system_types.md#numericpositivefieldtype), [SUMMA](../../../Types/system_types.md#amountfieldtype), [SUMMAP](../../../Types/system_types.md#amountpositivefieldtype)) պարամետրի արժեքը՝ ըստ պարամետրի ներքին անվան։  
 Տիպի անհամապատասխանության դեպքում առաջանում է սխալ։  
 Պարամետրի սահմանված չլինելու դեպքում առաջանում է սխալ։
 
@@ -38,14 +38,14 @@ public Task<decimal> GetDecimalValue(string paramId)
 
 #### Նկարագիր
 
-**Դաս՝** [IParametersService](../IParametersService/IParametersService.md)
+**Դաս՝** [IParametersService](../IParametersService.md)
 
 ```c#
 public Task<decimal> GetDecimalValue(string paramId, 
                                      short suid)
 ```
 
-Վերադարձնում է կոտորակային թիվ տիպի ([N](../../Types/system_types.md#numericfieldtype), [NP](../../Types/system_types.md#numericpositivefieldtype), [SUMMA](../../Types/system_types.md#amountfieldtype), [SUMMAP](../../Types/system_types.md#amountpositivefieldtype)) պարամետրի արժեքը՝ ըստ պարամետրի ներքին անվան և օգտագործողի համարի։  
+Վերադարձնում է կոտորակային թիվ տիպի ([N](../../../Types/system_types.md#numericfieldtype), [NP](../../../Types/system_types.md#numericpositivefieldtype), [SUMMA](../../../Types/system_types.md#amountfieldtype), [SUMMAP](../../../Types/system_types.md#amountpositivefieldtype)) պարամետրի արժեքը՝ ըստ պարամետրի ներքին անվան և օգտագործողի համարի։  
 Տիպի անհամապատասխանության դեպքում առաջանում է սխալ։  
 Պարամետրի սահմանված չլինելու դեպքում առաջանում է սխալ։
 

@@ -6,7 +6,7 @@ title: Document.ApplySnapshot(DocumentSnapshot) մեթոդ
 
 **Համարժեքը 4x-ում՝** AsDoc.ApplySnapshot
 
-**Դաս՝** [Document](../../Document.md)
+**Դաս՝** [Document](../Document.md)
 
 ```c#
 public void ApplySnapshot(DocumentSnapshot snapshot)

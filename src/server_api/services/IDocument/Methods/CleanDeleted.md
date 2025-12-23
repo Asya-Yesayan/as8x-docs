@@ -1,4 +1,4 @@
-﻿---
+---
 title: IDocumentService.CleanDeleted(DateTime, DateTime, string) մեթոդ
 ---
 
@@ -6,7 +6,7 @@ title: IDocumentService.CleanDeleted(DateTime, DateTime, string) մեթոդ
 
 **Համարժեքը 4x-ում՝** AsUtil.CleanDelDoc
 
-**Դաս՝** [IDocumentService](../IDocument/IDocumentService.md)
+**Դաս՝** [IDocumentService](../IDocumentService.md)
 
 ```c#
 public Task CleanDeleted(DateTime startDate, 

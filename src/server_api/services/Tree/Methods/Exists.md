@@ -4,7 +4,7 @@ title: TreeService.Exists(string) մեթոդ
 
 ## Նկարագիր
 
-**Դաս՝** [TreeService](../TreeService/TreeService.md)
+**Դաս՝** [TreeService](../TreeService.md)
 
 ```c#
 public Task<bool> Exists(string treeId)

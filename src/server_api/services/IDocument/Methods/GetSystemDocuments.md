@@ -1,10 +1,10 @@
-﻿---
+---
 title: IDocumentService.GetSystemDocuments() մեթոդ
 ---
 
 ## Նկարագիր
 
-**Դաս՝** [IDocumentService](../IDocument/IDocumentService.md)
+**Դաս՝** [IDocumentService](../IDocumentService.md)
 
 ```c#
 public virtual List<string> GetSystemDocuments();

@@ -10,20 +10,20 @@ title: IParametersService.GetShortValue մեթոդ
 
 | Անվանում | Նկարագրություն |
 |--|--|
-| [GetShortValue(string)](#iparametersservicegetshortvaluestring-մեթոդ) | Վերադարձնում է կարճ ամբողջ թիվ տիպի ([N](../../Types/system_types.md#numericfieldtype), [NP](../../Types/system_types.md#numericpositivefieldtype)) պարամետրի արժեքը՝ ըստ պարամետրի ներքին անվան։ |
-| [GetShortValue(string, short)](#iparametersservicegetshortvaluestring-short-մեթոդ)| Վերադարձնում է կարճ ամբողջ թիվ տիպի ([N](../../Types/system_types.md#numericfieldtype), [NP](../../Types/system_types.md#numericpositivefieldtype)) պարամետրի արժեքը՝ ըստ պարամետրի ներքին անվան և օգտագործողի համարի։ |
+| [GetShortValue(string)](#iparametersservicegetshortvaluestring-մեթոդ) | Վերադարձնում է կարճ ամբողջ թիվ տիպի ([N](../../../Types/system_types.md#numericfieldtype), [NP](../../../Types/system_types.md#numericpositivefieldtype)) պարամետրի արժեքը՝ ըստ պարամետրի ներքին անվան։ |
+| [GetShortValue(string, short)](#iparametersservicegetshortvaluestring-short-մեթոդ)| Վերադարձնում է կարճ ամբողջ թիվ տիպի ([N](../../../Types/system_types.md#numericfieldtype), [NP](../../../Types/system_types.md#numericpositivefieldtype)) պարամետրի արժեքը՝ ըստ պարամետրի ներքին անվան և օգտագործողի համարի։ |
 
 ### IParametersService.GetShortValue(string) մեթոդ
 
 #### Նկարագիր
 
-**Դաս՝** [IParametersService](../IParametersService/IParametersService.md)
+**Դաս՝** [IParametersService](../IParametersService.md)
 
 ```c#
 public Task<short> GetShortValue(string paramId)
 ```
 
-Վերադարձնում է կարճ ամբողջ թիվ տիպի ([N](../../Types/system_types.md#numericfieldtype), [NP](../../Types/system_types.md#numericpositivefieldtype)) պարամետրի արժեքը՝ ըստ պարամետրի ներքին անվան։  
+Վերադարձնում է կարճ ամբողջ թիվ տիպի ([N](../../../Types/system_types.md#numericfieldtype), [NP](../../../Types/system_types.md#numericpositivefieldtype)) պարամետրի արժեքը՝ ըստ պարամետրի ներքին անվան։  
 Տիպի անհամապատասխանության դեպքում առաջանում է սխալ։  
 Պարամետրի սահմանված չլինելու դեպքում առաջանում է սխալ։
 
@@ -38,14 +38,14 @@ public Task<short> GetShortValue(string paramId)
 
 #### Նկարագիր
 
-**Դաս՝** [IParametersService](../IParametersService/IParametersService.md)
+**Դաս՝** [IParametersService](../IParametersService.md)
 
 ```c#
 public Task<short> GetShortValue(string paramId, 
                                  short suid)
 ```
 
-Վերադարձնում է կարճ ամբողջ թիվ տիպի ([N](../../Types/system_types.md#numericfieldtype), [NP](../../Types/system_types.md#numericpositivefieldtype)) պարամետրի արժեքը՝ ըստ պարամետրի ներքին անվան և օգտագործողի համարի։  
+Վերադարձնում է կարճ ամբողջ թիվ տիպի ([N](../../../Types/system_types.md#numericfieldtype), [NP](../../../Types/system_types.md#numericpositivefieldtype)) պարամետրի արժեքը՝ ըստ պարամետրի ներքին անվան և օգտագործողի համարի։  
 Տիպի անհամապատասխանության դեպքում առաջանում է սխալ։  
 Պարամետրի սահմանված չլինելու դեպքում առաջանում է սխալ։
 

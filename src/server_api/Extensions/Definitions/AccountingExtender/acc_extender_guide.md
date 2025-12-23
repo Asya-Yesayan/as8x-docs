@@ -43,7 +43,7 @@ ACCEXTENDER {
 
 Եթե ընդլայնումը [դինամիկ](../../../../Architecture/extension.md#ընդլայնումների-ավելացում-syscon-գործիքով-ներմուծման-միջոցով) է, ապա անհրաժեշտ է նաև `ACCEXTENDER` նկարագրությունում ավելացնել նաև `CSSOURCE` դաշտը, որը պարունակում է սերվիսային տրամաբանության C# ֆայլի [հարաբերական ճանապարհը](https://phoenixnap.com/kb/absolute-path-vs-relative-path) .as ֆայլի նկատմամբ։
 
-Տե՛ս նաև [Նկարագրության CSSOURCE դաշտում հարաբերական ճանապարհի լրացման օրինակներ](../../../Definitions/Examples/relative_path_examples.md):
+Տե՛ս նաև [Նկարագրության CSSOURCE դաշտում հարաբերական ճանապարհի լրացման օրինակներ](../../../Examples/relative_path_examples.md):
 
 ``` as4x
 ACCEXTENDER {

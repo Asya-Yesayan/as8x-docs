@@ -19,5 +19,5 @@ public Task<bool> ForceStop(Guid id,
 
 | Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
 |-----------------|----------------------|----------------|----------------|
-| id              | Guid                 | -              | [Փաստաթղթի](../../Definitions/Document/Document.md), [տվյալների աղբյուրի](../../Definitions/DataSource/DataSource.md) կամ [DPR](../../Definitions/DataProcessingRequest/DataProcessingRequest.md)-ի կատարման առաջադրանքի id-ն։ |
+| id              | Guid                 | -              | [Փաստաթղթի](../../../Definitions/Document/Document.md), [տվյալների աղբյուրի](../../../Definitions/DataSource/DataSource.md) կամ [DPR](../../../Definitions/DataProcessingRequest/DataProcessingRequest.md)-ի կատարման առաջադրանքի id-ն։ |
 | message         | string               | -              | Այն սխալի հաղորդագրությունը, որը կվերադարձվի եթե ընդհատման ընթացքում առաջացել է սխալ։ |

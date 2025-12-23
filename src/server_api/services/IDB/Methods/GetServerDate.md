@@ -6,7 +6,7 @@ title: IDBService.GetServerDate() մեթոդ
 
 **Համարժեքը 4x-ում՝** [Util.GetServerDate](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/GetServerDate.html)
 
-**Դաս՝** [IDBService](../../IDBService/IDBService.md)
+**Դաս՝** [IDBService](../IDBService.md)
 
 ```c#
 public Task<DateTime> GetServerDate();

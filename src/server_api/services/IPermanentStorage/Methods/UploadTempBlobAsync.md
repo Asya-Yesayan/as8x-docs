@@ -4,7 +4,7 @@ title: IPermanentStorageService.UploadTempBlobAsync(string, string, Stream, Blob
 
 ## Նկարագիր
 
-**Դաս՝** [IPermanentStorageService](../IPermanentStorageService/IPermanentStorageService.md)
+**Դաս՝** [IPermanentStorageService](../IPermanentStorageService.md)
 
 ```c#
 public Task<bool> UploadTempBlobAsync(string fileExtension, 
@@ -14,7 +14,7 @@ public Task<bool> UploadTempBlobAsync(string fileExtension,
                                       CancellationToken cancellationToken = default)
 ```
 
-Պահպանում է `stream` պարամետրի պարունակությունը մշտական ֆայլերի պահոցի [Container](Container.md) հատկությամբ նշված թղթապանակում` տրված ընդլայնմամբ ֆայլում, որի անունը ձևավորվում է ավտոմատ։ 
+Պահպանում է `stream` պարամետրի պարունակությունը մշտական ֆայլերի պահոցի [Container](../Properties/Container.md) հատկությամբ նշված թղթապանակում` տրված ընդլայնմամբ ֆայլում, որի անունը ձևավորվում է ավտոմատ։ 
 
 **Պարամետրեր**
 

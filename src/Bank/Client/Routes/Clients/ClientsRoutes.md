@@ -14,7 +14,7 @@ ClientsRoutes դասը պարունակում է մեթոդներ հաճախոր
 
 | Անվանում | Նկարագրություն |
 |----------|----------------|
-| [CreateClientFromEkeng(CreateClientFromEkengRequest)](../../../Bank/Client/Routes/Clients/CreateClientFromEkeng.md) | Ստեղծում է ֆիզ. անձ հաճախորդ ստանալով նույնականացման փաստաթղթի համարը (սոց.քարտ, անձնագիր...), իսկ հիմնական տվյալները ստանալով [ԷԿԵՆԳ](https://www.ekeng.am) համակարգից: |
-| [CreatePhysicalClientByFullData(CreatePhysicalClientByFullDataRequest)](../../../Bank/Client/Routes/Clients/CreatePhysicalClientByFullData.md) | Ստեղծում է նոր ֆիզ. անձ հաճախորդ ըստ հաճախորդի հիմնական տվյալների։ |
+| [CreateClientFromEkeng(CreateClientFromEkengRequest)](Methods/CreateClientFromEkeng.md) | Ստեղծում է ֆիզ. անձ հաճախորդ ստանալով նույնականացման փաստաթղթի համարը (սոց.քարտ, անձնագիր...), իսկ հիմնական տվյալները ստանալով [ԷԿԵՆԳ](https://www.ekeng.am) համակարգից: |
+| [CreatePhysicalClientByFullData(CreatePhysicalClientByFullDataRequest)](Methods/CreatePhysicalClientByFullData.md) | Ստեղծում է նոր ֆիզ. անձ հաճախորդ ըստ հաճախորդի հիմնական տվյալների։ |
 
 </div>

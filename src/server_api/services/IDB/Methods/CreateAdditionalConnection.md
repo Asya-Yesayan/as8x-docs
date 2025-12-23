@@ -4,7 +4,7 @@ title: IDBService.CreateAdditionalConnection(bool, string, bool) մեթոդ
 
 ## Նկարագիր
 
-**Դաս՝** [IDBService](../../IDBService/IDBService.md)
+**Դաս՝** [IDBService](../IDBService.md)
 
 ```c#
 public SqlConnection CreateAdditionalConnection(bool pooling = true, 

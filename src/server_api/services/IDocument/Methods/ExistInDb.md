@@ -1,4 +1,4 @@
-﻿---
+---
 title: IDocumentService.ExistInDb(int) մեթոդ
 ---
 
@@ -6,7 +6,7 @@ title: IDocumentService.ExistInDb(int) մեթոդ
 
 **Համարժեքը 4x-ում՝** [AsDoc.ExistsInDB](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/ASDOC/ExistsInDB.html)
 
-**Դաս՝** [IDocumentService](../IDocument/IDocumentService.md)
+**Դաս՝** [IDocumentService](../IDocumentService.md)
 
 ```c#
 public Task<bool> ExistInDb(int isn)

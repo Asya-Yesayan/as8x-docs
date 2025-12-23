@@ -24,15 +24,15 @@ sublinks:
 
 Ընդլայնման միջոցով 8x սերվիսում հնարավոր է՝ 
 1. ավելացնել նոր նկարագրություններ՝
-   * [փաստաթղթեր](../extensions/Definitions/DocumentExtender/document_new_guide.md),
-   * [տվյալների աղբյուրներ](../extensions/Definitions/DataSourceExtender/ds_new_guide.md),
+   * [փաստաթղթեր](../server_api/Extensions/Definitions/DocumentExtender/document_new_guide.md),
+   * [տվյալների աղբյուրներ](../server_api/Extensions/Definitions/Extender/ds_new_guide.md),
    * հաշվառումներ,
-   * [տվյալների մշակման հարցումներ](../extensions/Definitions/DataProcessingRequest/dpr_new_guide.md) (DPR), 
+   * [տվյալների մշակման հարցումներ](../server_api/Extensions/Definitions/DataProcessingRequest/dpr_new_guide.md) (DPR), 
 2. փոփոխել գործող նկարագրությունների վարքը՝ սահմանելով նկարագրությունների ընդլայնումներ՝
-   * [փաստաթղթի ընդլայնում](../extensions/Definitions/DocumentExtender/document_extender_guide.md),
-   * [տվյալների աղբյուրի ընդլայնում](../extensions/Definitions/DataSourceExtender/ds_extender_guide.md),
-   * [հաշվառման ընդլայնում](../extensions/Definitions/AccountingExtender/acc_extender_guide.md),
-   * [տպելու ձևանմուշի ընդլայնում](../extensions/Definitions/ITemplateSubstitutionExtender/template_substitution_guide.md),
+   * [փաստաթղթի ընդլայնում](../server_api/Extensions/Definitions/DocumentExtender/document_extender_guide.md),
+   * [տվյալների աղբյուրի ընդլայնում](../server_api/Extensions/Definitions/Extender/ds_extender_guide.md),
+   * [հաշվառման ընդլայնում](../server_api/Extensions/Definitions/AccountingExtender/acc_extender_guide.md),
+   * [տպելու ձևանմուշի ընդլայնում](../server_api/Extensions/Definitions/TemplateSubstitution/template_substitution_guide.md),
 3. ավելացնել [Controller](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.mvc.controllerbase) տեսակի դասեր: 
 
 ## Ընդլայնման ավելացման եղանակներ

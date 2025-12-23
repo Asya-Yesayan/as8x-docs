@@ -1,4 +1,4 @@
-﻿---
+---
 title: MeterManager.TryConfigure(IParametersService) մեթոդ
 ---
 

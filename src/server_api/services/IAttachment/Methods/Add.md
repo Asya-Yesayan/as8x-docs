@@ -1,4 +1,4 @@
-﻿---
+---
 title: IAttachmentService.Add(AttachmentAddModel) մեթոդ
 ---
 
@@ -17,7 +17,7 @@ public Task<AttachmentModel> Add(AttachmentAddModel attachment)
 
 Փաստաթղթին կարելի է կցել առավելագույնը 10 մբ ծավալով ֆայլ։
 
-Տե՛ս [օրինակը](../../../Examples/IAttachmentService/IAttachmentService.md#օրինակ-1)։
+Տե՛ս [օրինակը](../../../Examples/IAttachmentService.md#օրինակ-1)։
 
 **Պարամետրեր**
 
@@ -27,8 +27,8 @@ public Task<AttachmentModel> Add(AttachmentAddModel attachment)
 
 <!-- **Կարևոր**
 
-Փաստաթղթին ֆայլ կցելու համար անհրաժեշտ է կցվող ֆայլը նախապես պահպանել սերվերի պահոցումը [IStorageService](../../IStorageService/IStorageService.md)-ի միջոցով։
+Փաստաթղթին ֆայլ կցելու համար անհրաժեշտ է կցվող ֆայլը նախապես պահպանել սերվերի պահոցումը [IStorageService](../../IStorage/IStorageService.md)-ի միջոցով։
 
 **Օրինակ**
 
-Տե՛ս [օրինակը](../../../Examples/IAttachmentService/IAttachmentService.md#օրինակ-1)։ -->
+Տե՛ս [օրինակը](../../../Examples/IAttachmentService.md#օրինակ-1)։ -->

@@ -10,5 +10,5 @@ title: TemplateSubstitutionEventArgs.Result հատկություն
 public T Result { get; set; }
 ```
 
-Վերադարձնում կամ նշանակում է փաստաթղթի [TemplateSubstitution](../../../Definitions/Document/TemplateSubstitution.md) մեթոդի կանչի արդյունքում ձևավորված տպելու ձևանմուշի լրացվող արժեքների բազմությունը։
+Վերադարձնում կամ նշանակում է փաստաթղթի [TemplateSubstitution](../../../../Definitions/Document/Methods/TemplateSubstitution.md) մեթոդի կանչի արդյունքում ձևավորված տպելու ձևանմուշի լրացվող արժեքների բազմությունը։
 

@@ -10,20 +10,20 @@ title: IParametersService.GetIntegerValue մեթոդ
 
 | Անվանում | Նկարագրություն |
 |--|--|
-| [GetIntegerValue(string)](#iparametersservicegetintegervaluestring-մեթոդ) | Վերադարձնում է ամբողջ թիվ տիպի ([N](../../Types/system_types.md#numericfieldtype), [NP](../../Types/system_types.md#numericpositivefieldtype)) պարամետրի արժեքը՝ ըստ պարամետրի ներքին անվան։ |
-| [GetIntegerValue(string, short)](#iparametersservicegetintegervaluestring-short-մեթոդ) | Վերադարձնում է ամբողջ թիվ տիպի ([N](../../Types/system_types.md#numericfieldtype), [NP](../../Types/system_types.md#numericpositivefieldtype)) պարամետրի արժեքը՝ ըստ պարամետրի ներքին անվան և օգտագործողի համարի։ |
+| [GetIntegerValue(string)](#iparametersservicegetintegervaluestring-մեթոդ) | Վերադարձնում է ամբողջ թիվ տիպի ([N](../../../Types/system_types.md#numericfieldtype), [NP](../../../Types/system_types.md#numericpositivefieldtype)) պարամետրի արժեքը՝ ըստ պարամետրի ներքին անվան։ |
+| [GetIntegerValue(string, short)](#iparametersservicegetintegervaluestring-short-մեթոդ) | Վերադարձնում է ամբողջ թիվ տիպի ([N](../../../Types/system_types.md#numericfieldtype), [NP](../../../Types/system_types.md#numericpositivefieldtype)) պարամետրի արժեքը՝ ըստ պարամետրի ներքին անվան և օգտագործողի համարի։ |
 
 ### IParametersService.GetIntegerValue(string) մեթոդ
 
 #### Նկարագիր
 
-**Դաս՝** [IParametersService](../IParametersService/IParametersService.md)
+**Դաս՝** [IParametersService](../IParametersService.md)
 
 ```c#
 public Task<int> GetIntegerValue(string paramId)
 ```
 
-Վերադարձնում է ամբողջ թիվ տիպի ([N](../../Types/system_types.md#numericfieldtype), [NP](../../Types/system_types.md#numericpositivefieldtype)) պարամետրի արժեքը՝ ըստ պարամետրի ներքին անվան։  
+Վերադարձնում է ամբողջ թիվ տիպի ([N](../../../Types/system_types.md#numericfieldtype), [NP](../../../Types/system_types.md#numericpositivefieldtype)) պարամետրի արժեքը՝ ըստ պարամետրի ներքին անվան։  
 Տիպի անհամապատասխանության դեպքում առաջանում է սխալ։  
 Պարամետրի սահմանված չլինելու դեպքում առաջանում է սխալ։
 
@@ -38,14 +38,14 @@ public Task<int> GetIntegerValue(string paramId)
 
 #### Նկարագիր
 
-**Դաս՝** [IParametersService](../IParametersService/IParametersService.md)
+**Դաս՝** [IParametersService](../IParametersService.md)
 
 ```c#
 public Task<int> GetIntegerValue(string paramId, 
                                  short suid)
 ```
 
-Վերադարձնում է ամբողջ թիվ տիպի ([N](../../Types/system_types.md#numericfieldtype), [NP](../../Types/system_types.md#numericpositivefieldtype)) պարամետրի արժեքը՝ ըստ պարամետրի ներքին անվան և օգտագործողի համարի։  
+Վերադարձնում է ամբողջ թիվ տիպի ([N](../../../Types/system_types.md#numericfieldtype), [NP](../../../Types/system_types.md#numericpositivefieldtype)) պարամետրի արժեքը՝ ըստ պարամետրի ներքին անվան և օգտագործողի համարի։  
 Տիպի անհամապատասխանության դեպքում առաջանում է սխալ։  
 Պարամետրի սահմանված չլինելու դեպքում առաջանում է սխալ։
 

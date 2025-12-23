@@ -19,7 +19,7 @@ public Task ChangeRequest(ChangeRequestEventArgs args)
 Փաստաթղթի փոփոխման հայտը հաստատելիս կանչվում են հետևյալ մեթոդները նշված հերթականությամբ՝  
 * [ChangeRequest](ChangeRequest.md),
 * [PreOnConfirmDocumentChangeRequest](../../../extensions/Definitions/DocumentExtender/Methods/PreOnConfirmDocumentChangeRequest.md),
-* [OnConfirmDocumentChangeRequest](../../Definitions/Document/Methods/OnConfirmDocumentChangeRequest.md),
+* [OnConfirmDocumentChangeRequest](../../../Definitions/Document/Methods/OnConfirmDocumentChangeRequest.md),
 * [PostOnConfirmDocumentChangeRequest](../../../extensions/Definitions/DocumentExtender/Methods/PostOnConfirmDocumentChangeRequest.md):
 
 Մեթոդները կանչվում են դրանց մշակման դեպքում և յուրաքանչյուր մեթոդի պարամետրերը կանչից հետո փոխանցվում են հաջորդին։

@@ -15,4 +15,4 @@ protected virtual Task<SqlCommand> MakeSQLCommand(DataSourceArgs<P> args,
 
 Մեթոդը կանչվում է միջուկի կողմից, այն հարկավոր է մշակել և վերադարձնել sql-based տվյալների աղբյուրի sql հարցման կատարող [SqlCommand](https://learn.microsoft.com/en-us/dotnet/api/microsoft.data.sqlclient.sqlcommand)-ը։
 
-Տե՛ս [ձեռնարկում](../../ds_guide.md) [Sql հարցման ձևավորում](../../ds_guide.md#sql-հարցման-ձևավորում)։
+Տե՛ս [ձեռնարկում](../ds_guide.md) [Sql հարցման ձևավորում](../ds_guide.md#sql-հարցման-ձևավորում)։

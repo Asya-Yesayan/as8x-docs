@@ -1,4 +1,4 @@
-﻿---
+---
 title: IDocumentService.SetGridDefaultValues(Document, Dictionary<string, HashSet<string>>) մեթոդ
 ---
 
@@ -6,7 +6,7 @@ title: IDocumentService.SetGridDefaultValues(Document, Dictionary<string, HashSe
 
 **Համարժեքը 4x-ում՝** [AsKernel.SetGridDefValue](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/SetGridDefValue.html)
 
-**Դաս՝** [IDocumentService](../IDocument/IDocumentService.md)
+**Դաս՝** [IDocumentService](../IDocumentService.md)
 
 ```c#
 public void SetGridDefaultValues(Document document, 
@@ -20,5 +20,5 @@ public void SetGridDefaultValues(Document document,
 
 | Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
 |-----------------|----------------------|----------------|----------------|
-| document        | Document             | -              | [Փաստաթղթի օբյեկտ](../../Definitions/Document/Document.md)։ |
+| document        | Document             | -              | [Փաստաթղթի օբյեկտ](../../../Definitions/Document/Document.md)։ |
 | gridColumns     | Dictionary<string, HashSet<string>> | -              | Dictionary տիպի օբյեկտ, որտեղ բանալի հանդիսանում է աղյուսակի ներքին անունը, իսկ արժեք՝ աղյուսակի այն սյուների ցուցակը, որոնց պետք է տալ լռությամբ արժեքներ։ |

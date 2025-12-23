@@ -7,7 +7,7 @@ public static NumericFieldType GetNumericFieldType(short fieldLength, short frac
                                                    bool useCurrencyFormat = false, string csType = "", bool isNullable = false)
 ```
 
-Վերադարձնում է [NumericFieldType](../system_types.md#numericfieldtype) դասի օբյեկտ քեշից կամ ստեղծում նորը քեշում բացակայության դեպքում և քեշավորում։
+Վերադարձնում է [NumericFieldType](../../system_types.md#numericfieldtype) դասի օբյեկտ քեշից կամ ստեղծում նորը քեշում բացակայության դեպքում և քեշավորում։
 
 **Պարամետրեր**
 

@@ -6,7 +6,7 @@ title: Document.CopiedFrom հատկություն
 
 **Համարժեքը 4x-ում՝** AsDoc.CopedFrom
 
-**Դաս՝** [Document](../../Document.md)
+**Դաս՝** [Document](../Document.md)
 
 ```c#
 public int CopiedFrom { get; internal set; } = -1;

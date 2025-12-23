@@ -6,7 +6,7 @@ title: Document.Body() մեթոդ
 
 **Համարժեքը 4x-ում՝** [AsDoc.Body](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/ASDOC/Body.html)
 
-**Դաս՝** [Document](../../Document.md)
+**Դաս՝** [Document](../Document.md)
 
 ```c#
 public string Body()

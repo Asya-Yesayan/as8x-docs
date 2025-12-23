@@ -13,12 +13,12 @@ public virtual Task PostTemplateSubstitutionEx(Document sender,
                                                TemplateSubstitutionEventArgs<TemplateSubstitution> args)
 ```
 
-Մեթոդը կանչվում է միջուկի կողմից, երբ փաստաթղթի համար ձևավորվում է տպման ձև և միացված է փաստաթղթի [TemplateSubstitutionIsExtended](../../../Core/Definitions/Document/TemplateSubstitutionIsExtended.md) հատկությունը։ Մեթոդը կանչվում է [TemplateSubstitutionEx](../../../Core/Definitions/Document/TemplateSubstitutionEx.md) մեթոդի կանչից հետո։
+Մեթոդը կանչվում է միջուկի կողմից, երբ փաստաթղթի համար ձևավորվում է տպման ձև և միացված է փաստաթղթի [TemplateSubstitutionIsExtended](../../../../Definitions/Document/Properties/TemplateSubstitutionIsExtended.md) հատկությունը։ Մեթոդը կանչվում է [TemplateSubstitutionEx](../../../../Definitions/Document/Methods/TemplateSubstitutionEx.md) մեթոդի կանչից հետո։
 
 **Պարամետրեր**
 
 | Անվանում | Տվյալների տիպ                   | Լռությամբ արժեք | Նկարագրություն                                                                 |
 |----------|---------------------------------|----------------|----------------------------------------------------------------------------------|
-| sender   | Document                        | —              | Տպելու ձևանմուշին կապակցված [փաստաթղթի](../../../Core/Definitions/Document/document.md) օբյեկտ։    |
+| sender   | Document                        | —              | Տպելու ձևանմուշին կապակցված [փաստաթղթի](../../../../Definitions/Document/Document.md) օբյեկտ։    |
 | args     | TemplateSubstitutionEventArgs   | —              | [TemplateSubstitutionEventArgs](../../../Types/Args/TemplateSubstitutionEventArgs.md) տիպի օբյեկտ։    |
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: TextReport դաս
 ---
 
@@ -6,7 +6,7 @@ title: TextReport դաս
 
 Համակարգում տեղեկատուի տեսքով հաշվետվություն ցույց տալու համար նկարագրվում է TextReport։
 
-TextReport-ի ստեղծման, լրացման ու պահման օրինակի համար [տե՛ս](../Definitions/DataProcessingRequest/dpr_guide.md#execute):
+TextReport-ի ստեղծման, լրացման ու պահման օրինակի համար [տե՛ս](../Definitions/dpr_guide.md#execute):
 
 ## Կոնստրուկտորներ
 

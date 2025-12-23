@@ -6,7 +6,7 @@ title: Document.Snapshots հատկություն
 
 **Համարժեքը 4x-ում՝** AsDoc.Snapshots
 
-**Դաս՝** [Document](../../Document.md)
+**Դաս՝** [Document](../Document.md)
 
 ```c#
 public Dictionary<string, DocumentSnapshot> Snapshots { get; internal set; } = new(StringComparer.InvariantCultureIgnoreCase);

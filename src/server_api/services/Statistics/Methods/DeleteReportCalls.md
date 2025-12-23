@@ -4,7 +4,7 @@ title: StatisticsService.DeleteReportCalls(DateTime, DateTime, short?) մեթո�
  
 ## Նկարագիր
  
-**Դաս՝** [StatisticsService](../StatisticsService/StatisticsService.md)
+**Դաս՝** [StatisticsService](../StatisticsService.md)
  
 ```c#
 public Task DeleteReportCalls(DateTime staretDate, DateTime endDate, short? userId = null)

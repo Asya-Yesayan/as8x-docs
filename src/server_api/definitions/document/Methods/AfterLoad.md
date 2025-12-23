@@ -1,4 +1,4 @@
-﻿---
+---
 title: Document.AfterLoad(AfterLoadEventArgs) մեթոդ
 ---
 
@@ -6,7 +6,7 @@ title: Document.AfterLoad(AfterLoadEventArgs) մեթոդ
 
 **Համարժեքը 4x-ում՝** [AfterLoad](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/ScriptProcs/AfterLoad.html)
 
-**Դաս՝** [Document](../../Document.md)
+**Դաս՝** [Document](../Document.md)
 
 ```c#
 public virtual Task AfterLoad(AfterLoadEventArgs args)

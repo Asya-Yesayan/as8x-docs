@@ -2439,7 +2439,7 @@ public Task TryAddAtomicAsync(string key, Func<Task<string>> operation,
     TemplateSubstitutionExtenderArgs args)
 ```
 
-Ֆունկցիաները օգտագործվում են [տպվող ձևերի ընդլայնումներում](../../extensions/Definitions/template_substitution.md) պարամետրերի ավելացման համար։  
+Ֆունկցիաները օգտագործվում են [տպվող ձևերի ընդլայնումներում](../../server_api/Extensions/Definitions/TemplateSubstitution/template_substitution.md) պարամետրերի ավելացման համար։  
 Նախատեսված են այն դեպքերի համար, երբ հարկավոր է արժեքի հաշվարկի ընթացքում առաջացած սխալները անտեսվեն։  
 Ֆունկցիաները որպես երկրորդ պարամետր ստանում են արժեքը հաշվող ֆունկցիա (սովորական, static, լոկալ, լամբդա արտահայտություն)։
 
@@ -2451,7 +2451,7 @@ public Task TryAddAtomicAsync(string key, Func<Task<string>> operation,
 
 * `key` - Տպվող պարամետրի կոդ։
 * `operation` - Արժեքը հաշվող ֆունկցիա։
-* `templateSubstitutionArgs` - [Calculate](../../extensions/Definitions/template_substitution/Calculate.md) ֆունկցիայի մուտքային պարամետր։
+* `templateSubstitutionArgs` - [Calculate](../../server_api/Extensions/Definitions/TemplateSubstitution/Methods/Calculate.md) ֆունկցիայի մուտքային պարամետր։
 
 **Օրինակ**
 

@@ -13,7 +13,7 @@ public virtual Task PreOnRejectDocumentChangeRequest(Document sender,
                                                      RejectDocumentChangeRequestEventArgs args)
 ```
 
-Մեթոդը կանչվում է միջուկի կողմից՝ [փաստաթղթի փոփոխման հայտը](../../../../Types/DocumentChangeRequest.md)մերժելիս, [OnRejectDocumentChangeRequest](../../../../Definitions/Document/OnRejectDocumentChangeRequest.md) մեթոդի կանչից առաջ։
+Մեթոդը կանչվում է միջուկի կողմից՝ [փաստաթղթի փոփոխման հայտը](../../../../Types/DocumentChangeRequest.md)մերժելիս, [OnRejectDocumentChangeRequest](../../../../Definitions/Document/Methods/OnRejectDocumentChangeRequest.md) մեթոդի կանչից առաջ։
 
 **Պարամետրեր**
 
@@ -27,7 +27,7 @@ public virtual Task PreOnRejectDocumentChangeRequest(Document sender,
 
 [Փաստաթղթի փոփոխման հայտը](../../../../Types/DocumentChangeRequest.md) մերժելիս կանչվում են հետևյալ մեթոդները նշված հերթականությամբ՝ 
 * [PreOnRejectDocumentChangeRequest](PreOnRejectDocumentChangeRequest.md),
-* [OnRejectDocumentChangeRequest](../../../../Definitions/Document/OnRejectDocumentChangeRequest.md),
+* [OnRejectDocumentChangeRequest](../../../../Definitions/Document/Methods/OnRejectDocumentChangeRequest.md),
 * [PostOnRejectDocumentChangeRequest](PostOnRejectDocumentChangeRequest.md):
 
 Յուրաքանչյուր մեթոդի պարամետրերը, կանչից հետո, փոխանցվում են հաջորդին։

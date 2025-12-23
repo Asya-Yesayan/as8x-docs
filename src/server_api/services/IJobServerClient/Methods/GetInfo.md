@@ -16,4 +16,4 @@ public Task<List<ProcessInfoModel>> GetInfo(string sessionGuid)
 
 | Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
 |-----------------|----------------------|----------------|----------------|
-| sessionGuid     | string               | -              | Այն [սեսսիայի](../../Types/SessionInfo.md) id-ն, որի կատարման առաջադրանքները պետք է վերադարձվեն։ Սովորաբար այս պարամետրին տրվում է ընթացիկ սեսսիայի id-ն, որը կարելի է ստանալ [ISessionInfoService](../ISessionInfoService/ISessionInfoService.md).[CurrentSessionGuid](../ISessionInfoService/CurrentSessionGuid.md) հատկության միջոցով։ |
+| sessionGuid     | string               | -              | Այն [սեսսիայի](../../../Types/SessionInfo.md) id-ն, որի կատարման առաջադրանքները պետք է վերադարձվեն։ Սովորաբար այս պարամետրին տրվում է ընթացիկ սեսսիայի id-ն, որը կարելի է ստանալ [ISessionInfoService](../../ISessionInfo/ISessionInfoService.md).[CurrentSessionGuid](../../ISessionInfo/Properties/CurrentSessionGuid.md) հատկության միջոցով։ |

@@ -1,10 +1,10 @@
-﻿---
+---
 title: TemplateService.GetDefinition(string, string) մեթոդ  
 ---
 
 ## Նկարագիր
 
-**Դաս՝** [TemplateService](../Template/TemplateService.md)
+**Դաս՝** [TemplateService](../TemplateService.md)
 
 ```c#
 public Task<TemplateDefinition> GetDefinition(string name, 
@@ -20,4 +20,4 @@ public Task<TemplateDefinition> GetDefinition(string name,
 | Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
 |-----------------|----------------------|----------------|----------------|
 | name            | string               | -              | Տպելու ձևանմուշի ներքին անուն: |
-| type            | string               | -              | [Տպելու ձևանմուշի տիպ](../../Types/SubstitutionType.md): |
+| type            | string               | -              | [Տպելու ձևանմուշի տիպ](../../../Types/SubstitutionType.md): |

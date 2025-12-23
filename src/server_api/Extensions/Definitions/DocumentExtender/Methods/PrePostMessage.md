@@ -13,5 +13,5 @@ public virtual Task PrePostMessage(Document sender,
                                    PostMessageEventArgs args)
 ```
 
-PostMessage մեթոդը կանչվում է միջուկի կողմից` մի փաստաթղթից մյուն ծրագրային հաղորդագրություն([SendMessage](../../../../Definitions/Document/SendMessage.md)) ուղարկելիս՝ [PostMessage](../../../../Definitions/Document/PostMessage.md) մեթոդի կանչից առաջ։
+PostMessage մեթոդը կանչվում է միջուկի կողմից` մի փաստաթղթից մյուն ծրագրային հաղորդագրություն([SendMessage](../../../../Definitions/Document/Methods/SendMessage.md)) ուղարկելիս՝ [PostMessage](../../../../Definitions/Document/Methods/PostMessage.md) մեթոդի կանչից առաջ։
 

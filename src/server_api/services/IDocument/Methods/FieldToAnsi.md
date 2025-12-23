@@ -1,10 +1,10 @@
-﻿---
+---
 title: IDocumentService.FieldToAnsi(string, string, object) մեթոդ
 ---
 
 ## Նկարագիր
 
-**Դաս՝** [IDocumentService](../IDocument/IDocumentService.md)
+**Դաս՝** [IDocumentService](../IDocumentService.md)
 
 ```c#
 public  Task<object> FieldToAnsi(string docType, 
@@ -28,7 +28,7 @@ public  Task<object> FieldToAnsi(string docType,
 | value           | object               | -              | Ցանցով փոխանցված արժեք։ |
 
 **Օրինակ**
-Երբ ունենք [Տվյալների մշակման հարցում](../../Definitions/DataProcessingRequest/DataProcessingRequest.md), որը պարամետրեր է ստանում թե՛ յունիկոդով աշխատող կիենտից, թե՛ ANSI-ով աշխատող կլիենտից, ապա ստացված պարամետրերը կարիք է լինում ձևափոխել ANSI-ի կախված կլիենտի տեսակից։
+Երբ ունենք [Տվյալների մշակման հարցում](../../../Definitions/DataProcessingRequest/DataProcessingRequest.md), որը պարամետրեր է ստանում թե՛ յունիկոդով աշխատող կիենտից, թե՛ ANSI-ով աշխատող կլիենտից, ապա ստացված պարամետրերը կարիք է լինում ձևափոխել ANSI-ի կախված կլիենտի տեսակից։
 
 <!-- CreateFinalCalculationsForSelectedRows DPR-ի մեջ  -->
 **Օրինակ**

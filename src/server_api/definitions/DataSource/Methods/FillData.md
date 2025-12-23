@@ -16,4 +16,4 @@ protected virtual Task FillData(DataSourceArgs<P> args,
 Մեթոդը կանչվում է միջուկի կողմից array-based տվյալների աղբյուրի դեպքում։
 նախատեսված է վերջնական [տողերի](../Properties/Rows.md) ցուցակի ձևավորման համար։
 
-Տե՛ս [ձեռնարկում](../../ds_guide.md) [array-based տվյալների աղբյուրի նկարագրություն](ds_guide.md#array-based-տվյալների-աղբյուրի-նկարագրման-ձեռնարկ)։
+Տե՛ս [ձեռնարկում](../ds_guide.md) [array-based տվյալների աղբյուրի նկարագրություն](../ds_guide.md#array-based-տվյալների-աղբյուրի-նկարագրման-ձեռնարկ)։

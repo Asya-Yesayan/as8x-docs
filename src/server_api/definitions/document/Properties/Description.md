@@ -4,7 +4,7 @@ title: Document.Description հատկություն
 
 ## Նկարագիր
 
-**Դաս՝** [Document](../../Document.md)
+**Դաս՝** [Document](../Document.md)
 
 ```c#
 public DocumentDescription Description { get; internal set; }

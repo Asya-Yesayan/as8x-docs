@@ -4,7 +4,7 @@ title: IDBService.SetIsolationLevel(IsolationLevel) մեթոդ
 
 ## Նկարագիր
 
-**Դաս՝** [IDBService](../../IDBService/IDBService.md)
+**Դաս՝** [IDBService](../IDBService.md)
 
 ```c#
 public void SetIsolationLevel(IsolationLevel level);

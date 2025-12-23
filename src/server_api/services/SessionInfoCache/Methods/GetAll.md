@@ -6,4 +6,4 @@ title: SessionInfoCacheService.GetAll() մեթոդ
 public List<SessionInfo> GetAll()
 ```
 
-Վերադարձնում է բոլոր քեշավորված [սեսսիաների նկարագրությունների](../../Types/SessionInfo.md) ցուցակը։
+Վերադարձնում է բոլոր քեշավորված [սեսսիաների նկարագրությունների](../../../Types/SessionInfo.md) ցուցակը։

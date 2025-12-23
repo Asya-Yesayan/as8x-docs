@@ -15,7 +15,7 @@ LanguageService-ը ստատիկ դաս է, որը նախատեսված է ծրա
 | [CurrentUICultureName](Properties/CurrentUICultureName.md) | Վերադարձնում է ծրագրի ընթացիկ [UI Culture](https://learn.microsoft.com/en-us/dotnet/api/system.globalization.cultureinfo.currentuiculture)-ի անունը: |
 | [IsArmenian](Properties/IsArmenian.md) | Ցույց է տալիս արդյոք ծրագրի ընթացիկ լեզուն հայերենն է։ |
 | [IsEnglish](Properties/IsEnglish.md) | Ցույց է տալիս արդյոք ծրագրի ընթացիկ լեզուն անգլերենն է։ |
-| [Language](Properties/Language.md) | Վերադարձնում կամ նշանակում է ծրագրի [ընթացիկ լեզուն](../Types/Language.md)։ |
+| [Language](Properties/Language.md) | Վերադարձնում կամ նշանակում է ծրագրի [ընթացիկ լեզուն](../../Types/Language.md)։ |
 
 ## Մեթոդներ
 

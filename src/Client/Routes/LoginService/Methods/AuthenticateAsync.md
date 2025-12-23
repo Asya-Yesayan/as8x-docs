@@ -6,8 +6,8 @@ title: LoginService.AuthenticateAsync մեթոդ
 
 | Անվանում | Նկարագրություն |
 |--|--|
-| [AuthenticateAsync(string, HttpClient, ILogger, short, string, string, string, CancellationToken)](#loginserviceauthenticateasyncstring-httpclient-ilogger-short-string-string-string-cancellationtoken-մեթոդ) | Նույնականացնում է ինտեգրման ծրագրի համար ստեղծված բանալիով ([API Client](../../api_client.md))։ |
-| [AuthenticateAsync(string, HttpClient, ILogger, X509Certificate2, short, string, string, string, CancellationToken)](#loginserviceauthenticateasyncstring-httpclient-ilogger-x509certificate2-short-string-string-string-cancellationtoken-մեթոդ)| Նույնականացնում է օգտագործողի մուտքանունով և գաղտնաբառով, պահանջվում է սերտիֆիկատի առկայություն ([API Client](../../api_client.md))։ |
+| [AuthenticateAsync(string, HttpClient, ILogger, short, string, string, string, CancellationToken)](#loginserviceauthenticateasyncstring-httpclient-ilogger-short-string-string-string-cancellationtoken-մեթոդ) | Նույնականացնում է ինտեգրման ծրագրի համար ստեղծված բանալիով ([API Client](../../../api_client.md))։ |
+| [AuthenticateAsync(string, HttpClient, ILogger, X509Certificate2, short, string, string, string, CancellationToken)](#loginserviceauthenticateasyncstring-httpclient-ilogger-x509certificate2-short-string-string-string-cancellationtoken-մեթոդ)| Նույնականացնում է օգտագործողի մուտքանունով և գաղտնաբառով, պահանջվում է սերտիֆիկատի առկայություն ([API Client](../../../api_client.md))։ |
 
 ### LoginService.AuthenticateAsync(string, HttpClient, ILogger, short, string, string, string, CancellationToken) մեթոդ
 
@@ -22,7 +22,7 @@ public Task<Exception> AuthenticateAsync(string serviceAddress,
                                          CancellationToken cancellationToken = default)
 ```
 
-Նույնականացնում է ինտեգրման ծրագրի համար ստեղծված բանալիով ([API Client](../../api_client.md))։
+Նույնականացնում է ինտեգրման ծրագրի համար ստեղծված բանալիով ([API Client](../../../api_client.md))։
 
 Նույնականացման ձախողման դեպքում վերադարձնում է առաջացած սխալը, հակառակ դեպքում վերադարձնում է null:
 
@@ -41,7 +41,7 @@ public Task<Exception> AuthenticateAsync(string serviceAddress,
 
 **Օրինակ**
 
-Տե՛ս օգտագործման [օրինակը](../../Examples/LoginService.md)։
+Տե՛ս օգտագործման [օրինակը](../../../Examples/LoginService.md)։
 
 ### LoginService.AuthenticateAsync(string, HttpClient, ILogger, X509Certificate2, short, string, string, string, CancellationToken) մեթոդ
 
@@ -57,7 +57,7 @@ public Task<Exception> AuthenticateAsync(string serviceAddress,
                                          CancellationToken cancellationToken = default)
 ```
 
-Նույնականացնում է օգտագործողի մուտքանունով և գաղտնաբառով, պահանջվում է սերտիֆիկատի առկայություն ([API Client](../../api_client.md))։
+Նույնականացնում է օգտագործողի մուտքանունով և գաղտնաբառով, պահանջվում է սերտիֆիկատի առկայություն ([API Client](../../../api_client.md))։
 
 Նույնականացման ձախողման դեպքում վերադարձնում է առաջացած սխալը, հակառակ դեպքում վերադարձնում է null:
 

@@ -4,7 +4,7 @@ title: IErrorHandlingService.GetSqlExceptionText(SqlException, string) մեթո�
 
 ## Նկարագիր
 
-**Դաս՝** [IErrorHandlingService](../IErrorHandlingService/IErrorHandlingService.md)
+**Դաս՝** [IErrorHandlingService](../IErrorHandlingService.md)
 
 ```c#           
 public string GetSqlExceptionText(SqlException exception, 
@@ -25,4 +25,4 @@ public string GetSqlExceptionText(SqlException exception,
 
 **Օրինակ**
 
-Տե՛ս օգտագործման [օրինակը](../../Examples/IErrorHandlingService/IErrorHandlingService.md#օրինակ-1)։
+Տե՛ս օգտագործման [օրինակը](../../../Examples/IErrorHandlingService.md)։

@@ -6,4 +6,4 @@ title: ApiClient.Document հատկություն
 public DocumentRoutes Document { get; }
 ```
 
-Վերադարձնում է [DocumentRoutes](../../Routes/Document/DocumentRoutes.md) դասի օբյեկտ, որը պարունակում է մեթոդներ փաստաթղթերի հետ աշխատանքը ապահովելու համար։
+Վերադարձնում է [DocumentRoutes](../../../Routes/Document/DocumentRoutes.md) դասի օբյեկտ, որը պարունակում է մեթոդներ փաստաթղթերի հետ աշխատանքը ապահովելու համար։

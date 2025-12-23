@@ -6,7 +6,7 @@ title: IKernelService.GetRem(string, int, DateTime?) մեթոդ
 
 **Համարժեքը 4x-ում՝** [Kernel.GetRem](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/AccManagement/GetRem.html)
 
-**Դաս՝** [IKernelService](../IKernelService/IKernelService.md)
+**Դաս՝** [IKernelService](../IKernelService.md)
 
 ```c#
 public Task<(decimal CRem, decimal NCRem)> GetRem(string accounting, 

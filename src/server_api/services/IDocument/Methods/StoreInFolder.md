@@ -1,4 +1,4 @@
-﻿---
+---
 title: IDocumentService.StoreInFolder(Document, FolderElement) մեթոդ
 ---
 
@@ -6,7 +6,7 @@ title: IDocumentService.StoreInFolder(Document, FolderElement) մեթոդ
 
 **Համարժեքը 4x-ում՝** [AsDoc.StoreInFolder](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/ASDOC/StoreInFolder.html)
 
-**Դաս՝** [IDocumentService](../IDocument/IDocumentService.md)
+**Դաս՝** [IDocumentService](../IDocumentService.md)
 
 ```c#
 public void StoreInFolder(Document document, 
@@ -21,5 +21,5 @@ public void StoreInFolder(Document document,
 
 | Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
 |-----------------|----------------------|----------------|----------------|
-| document        | Document             | -              | [Փաստաթղթի օբյեկտ](../../Definitions/Document/Document.md)։ |
-| folderElement   | FolderElement        | -              | [Թղթապանակի տարր](../../Types/FolderElement.md)։ |
+| document        | Document             | -              | [Փաստաթղթի օբյեկտ](../../../Definitions/Document/Document.md)։ |
+| folderElement   | FolderElement        | -              | [Թղթապանակի տարր](../../../Types/FolderElement.md)։ |

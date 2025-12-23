@@ -1,4 +1,4 @@
-﻿---
+---
 title: IDocumentService.GetDocumentChildren(int, string, DocumentChildrenOrder, string) մեթոդ
 ---
 
@@ -6,7 +6,7 @@ title: IDocumentService.GetDocumentChildren(int, string, DocumentChildrenOrder, 
 
 **Համարժեքը 4x-ում՝** [AsDocEngine.DocChildren](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/DocumentsCirculation/DocChildren.html)
 
-**Դաս՝** [IDocumentService](../IDocument/IDocumentService.md)
+**Դաս՝** [IDocumentService](../IDocumentService.md)
 
 ```c#
 public Task<List<(int isn, string docType)>> GetDocumentChildren(int isn, 

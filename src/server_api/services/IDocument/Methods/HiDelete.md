@@ -1,4 +1,4 @@
-﻿---
+---
 title: IDocumentService.HiDelete(Document, bool) մեթոդ
 ---
 
@@ -6,7 +6,7 @@ title: IDocumentService.HiDelete(Document, bool) մեթոդ
 
 **Համարժեքը 4x-ում՝** [AsDoc.HiDelete](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/ASDOC/HiDelete.html)
 
-**Դաս՝** [IDocumentService](../IDocument/IDocumentService.md)
+**Դաս՝** [IDocumentService](../IDocumentService.md)
 
 ```c#
 public Task<(bool had01AccRow, bool hadHIRow)> HiDelete(Document doc, 
@@ -25,5 +25,5 @@ public Task<(bool had01AccRow, bool hadHIRow)> HiDelete(Document doc,
 
 | Անվանում    | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 |------------|---------------|----------------|----------------|
-| doc        | Document      |    -            | [Փաստաթղթի օբյեկտ](../../Definitions/Document/Document.md)։ |
+| doc        | Document      |    -            | [Փաստաթղթի օբյեկտ](../../../Definitions/Document/Document.md)։ |
 | deleteDoc  | bool          |    -            | հարկավոր է փոխանցել `true`, երբ ֆունկցիան կանչվում է որևէ փաստաթղթի ջնջման ժամանակ։ Պարամետրը փոխանցվում է OnLimitFault իրադարձության մշակիչին։ |

@@ -1,4 +1,4 @@
-﻿---
+---
 title: IDocumentService.CreateFactsUsingStateMoverFrom(Document, int) մեթոդ
 ---
 
@@ -6,7 +6,7 @@ title: IDocumentService.CreateFactsUsingStateMoverFrom(Document, int) մեթոդ
 
 **Համարժեքը 4x-ում՝** AsDoc.CreateFactsUsingDocStateMoverFrom
 
-**Դաս՝** [IDocumentService](../IDocument/IDocumentService.md)
+**Դաս՝** [IDocumentService](../IDocumentService.md)
 
 ```c#
 public Task CreateFactsUsingStateMoverFrom(Document document, 
@@ -19,5 +19,5 @@ public Task CreateFactsUsingStateMoverFrom(Document document,
 
 | Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
 |-----------------|----------------------|----------------|----------------|
-| document        | Document             | -              | [Փաստաթղթի օբյեկտ](../../Definitions/Document/Document.md)։ |
+| document        | Document             | -              | [Փաստաթղթի օբյեկտ](../../../Definitions/Document/Document.md)։ |
 | state           | int                  | -              | Այն վիճակը, որը վերջին անգամ հասցնող օգտագործողը լրացվելու է, որպես գրանցվող հաշվառումների ստեղծող: |

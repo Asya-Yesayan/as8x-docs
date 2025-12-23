@@ -1,10 +1,10 @@
-﻿---
+---
 title: ITemplateSubstitutionService.LoadTemplateFile(string, SubstitutionType) մեթոդ  
 ---
 
 ## Նկարագիր
 
-**Դաս՝** [ITemplateSubstitutionService](../ITemplateSubstitution/ITemplateSubstitutionService.md)
+**Դաս՝** [ITemplateSubstitutionService](../ITemplateSubstitutionService.md)
 
 ```c#
 public Task<(bool IsUnicode, byte[] File, bool Updatable)> LoadTemplateFile(
@@ -25,4 +25,4 @@ public Task<(bool IsUnicode, byte[] File, bool Updatable)> LoadTemplateFile(
 | Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
 |-----------------|----------------------|----------------|----------------|
 | name       | string                 | -              | Տպելու ձևանմուշի ներքին անուն: |
-| type            | SubstitutionType               | -              | [Տպելու ձևանմուշի տիպ](../../Types/SubstitutionType.md): |
+| type            | SubstitutionType               | -              | [Տպելու ձևանմուշի տիպ](../../../Types/SubstitutionType.md): |

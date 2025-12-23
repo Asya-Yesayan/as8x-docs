@@ -1,4 +1,4 @@
-﻿---
+---
 layout: page
 title: "Ինյեկցիա (Dependency Injection)" 
 tags: [DI, Dependency]
@@ -158,8 +158,8 @@ public class TreeController
 `AccStateAdr_Extander` տպելու ձևանմուշի ընդլայնում հանդիսացող դասը իր կախվածությունը՝ [UserProxyService](../Bank/Extensions/user_proxy_service.md), ստանում է կոնստրուկտորով ինյեկցիայի միջոցով:
 Այս դասը վերագրվում է դասի ներսում նախապես հայտարարված լոկալ փոփոխականին (`proxyService`) և օգտագործվում է դասի ներսում: 
 
-Օրինակում օգտագործված տպելու ձևանմուշի ընդլայնման նկարագրման ձեռնարկին ծանոթանալու համար [տե՛ս](../extensions/Definitions/ITemplateSubstitutionExtender/template_substitution_guide.md):  
-Օրինակում օգտագործված տպելու ձևանմուշի ընդլայնման կոդին ծանոթանալու համար [տե՛ս](../extensions/Examples/template_substitution_AccState.md):
+Օրինակում օգտագործված տպելու ձևանմուշի ընդլայնման նկարագրման ձեռնարկին ծանոթանալու համար [տե՛ս](../server_api/Extensions/Definitions/TemplateSubstitution/template_substitution_guide.md):  
+Օրինակում օգտագործված տպելու ձևանմուշի ընդլայնման կոդին ծանոթանալու համար [տե՛ս](../server_api/Extensions/Examples/template_substitution_AccState.md):
 
 ```c#
 [TemplateSubstitutionExtender]

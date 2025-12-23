@@ -6,7 +6,7 @@ title: Document.SendMessage(string, int, string, bool, bool) մեթոդ
 
 **Համարժեքը 4x-ում՝** [AsDoc.SendMessage](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/ASDOC/SendMessage.html)
 
-**Դաս՝** [Document](../../Document.md)
+**Դաս՝** [Document](../Document.md)
 
 ```c#
 public Task SendMessage(string message,
@@ -18,7 +18,7 @@ public Task SendMessage(string message,
 
 Ուղարկում է հաղորդագրություն այլ փաստաթղթի (կամ ծնող փաստաթղթերին) աշխատացնելով [PostMessage](PostMessage.md) ֆունկցիան:  
 Հաղորդագրություն ստանալուց հետո ստացող փաստաթղթի [պատմության](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Database/DocLog.html)  
-մեջ [գրանցվում է](WriteLog.md) հաղորդագրության տեքստը և ստացող փաստաթուղթը գրանցվում է տվյալների պահոցում [StoreMode](StoreMode.md) հատկությանը տալով `ContinueProcessing` արժեքը։
+մեջ [գրանցվում է](WriteLog.md) հաղորդագրության տեքստը և ստացող փաստաթուղթը գրանցվում է տվյալների պահոցում [StoreMode](../Properties/StoreMode.md) հատկությանը տալով `ContinueProcessing` արժեքը։
 
 **Պարամետրեր**
 

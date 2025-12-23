@@ -7,7 +7,7 @@ title: "Կլիենտական գրադարանի API"
 
 * [LoginService](Routes/LoginService/LoginService.md)
 * [AuthenticationClient](Routes/AuthenticationClient/AuthenticationClient.md)
-* [ApiClient](Types/ApiClient.md)
+* [ApiClient](Types/ApiClient/ApiClient.md)
 * [DataSource](Routes/DataSource/DataSource.md)
 
-API-ների հիմնական մասը հասանելի է [ApiClient](Types/ApiClient.md)-ի միջից։
+API-ների հիմնական մասը հասանելի է [ApiClient](Types/ApiClient/ApiClient.md)-ի միջից։

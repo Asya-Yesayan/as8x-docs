@@ -6,7 +6,7 @@ title: AccessLogService.LogRoleChanges(HashSet<string>, HashSet<string>, short) 
 
 **Համարժեքը 4x-ում՝** AsAccessLogProvider.LogRoleChange
 
-**Դաս՝** [AccessLogService](../../AccessLogService/AccessLogService.md)
+**Դաս՝** [AccessLogService](../AccessLogService.md)
 
 ```c#
 public Task LogRoleChanges(HashSet<string> addedRoles, HashSet<string> removedRoles, short suid)

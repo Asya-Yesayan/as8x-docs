@@ -6,7 +6,7 @@ title: Document.WriteLog(string, int, bool) մեթոդ
 
 **Համարժեքը 4x-ում՝** [AsDoc.WriteLog](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/ASDOC/WriteLog.html)
 
-**Դաս՝** [Document](../../Document.md)
+**Դաս՝** [Document](../Document.md)
 
 ```c#
 public Task WriteLog(string message, 

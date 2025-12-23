@@ -1,4 +1,4 @@
-﻿---
+---
 title: Document.Deleting հատկություն
 ---
 
@@ -6,7 +6,7 @@ title: Document.Deleting հատկություն
 
 **Համարժեքը 4x-ում՝** AsDoc.Deleting
 
-**Դաս՝** [Document](../../Document.md)
+**Դաս՝** [Document](../Document.md)
 
 ```c#
 public bool Deleting { get; internal set; }

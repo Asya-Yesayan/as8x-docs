@@ -4,7 +4,7 @@ title: Document.StoreMode հատկություն
 
 ## Նկարագիր
 
-**Դաս՝** [Document](../../Document.md)
+**Դաս՝** [Document](../Document.md)
 
 ```c#
 public StoreMode StoreMode { get; internal set; }

@@ -1,4 +1,4 @@
-﻿---
+---
 layout: page
 title: "(DataSource) Տվյալների աղբյուր ձեռնարկ"
 tags: [Data, DS]
@@ -169,7 +169,7 @@ sublinks:
 
 Վերևում նշված [ընդհանուր քայլերից](#տվյալների-աղբյուրի-նկարագրման-համար-անհրաժեշտ-ընդհանուր-քայլեր) կատարումից հետո անհրաժեշտ է override անել [MakeSQLCommand](../DataSource/Methods/MakeSQLCommand.md) մեթոդը։
 
-[MakeSQLCommand](../DataSource/Methods/MakeSQLCommand.md) մեթոդում անհրաժեշտ է ստեղծել և վերադարձնել [SqlCommand](https://learn.microsoft.com/en-us/dotnet/api/microsoft.data.sqlclient.sqlcommand) դասի օբյեկտ՝ [IDBService](../Services/IDB/IDBService.md) դասի [CreateCommand](../Services/IDB/Methods/CreateCommand.md) մեթոդի միջոցով։  
+[MakeSQLCommand](../DataSource/Methods/MakeSQLCommand.md) մեթոդում անհրաժեշտ է ստեղծել և վերադարձնել [SqlCommand](https://learn.microsoft.com/en-us/dotnet/api/microsoft.data.sqlclient.sqlcommand) դասի օբյեկտ՝ [IDBService](../../Services/IDB/IDBService.md) դասի [CreateCommand](../../Services/IDB/Methods/CreateCommand.md) մեթոդի միջոցով։  
 Այստեղ հարկավոր է ձևավորել sql հարցման տեքստը հաշվի առնելով նաև փոխանցված պարամետրերի արժեքները։
 
 ```c#

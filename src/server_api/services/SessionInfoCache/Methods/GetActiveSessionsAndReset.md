@@ -6,4 +6,4 @@ title: SessionInfoCacheService.GetActiveSessionsAndReset() մեթոդ
 public List<SessionInfo> GetActiveSessionsAndReset()
 ```
 
-Վերադարձնում է բոլոր ակտիվ քեշավորված [սեսսիաների նկարագրությունների](../../Types/SessionInfo.md) ցուցակը և հեռացնում քեշից։
+Վերադարձնում է բոլոր ակտիվ քեշավորված [սեսսիաների նկարագրությունների](../../../Types/SessionInfo.md) ցուցակը և հեռացնում քեշից։

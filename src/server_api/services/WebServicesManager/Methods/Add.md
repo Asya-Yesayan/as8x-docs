@@ -13,4 +13,4 @@ public Task Add(WebServiceInfo service)
 
 | Անվանում | Տեսակ | Լռությամբ արժեք | Նկարագրություն |
 |-----------|-------|-----------------|----------------|
-| service | [WebServiceInfo](../../Types/WebServiceInfo.md) | - | Վեբ ծառայության նկարագրությունը: |
+| service | [WebServiceInfo](../../../Types/WebServiceInfo.md) | - | Վեբ ծառայության նկարագրությունը: |

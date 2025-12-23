@@ -6,11 +6,11 @@ title: TreeEventHandler.BeforeDeleteNode(BeforeDeleteNodeEventArgs) մեթոդ
 public virtual Task BeforeDeleteNode(BeforeDeleteNodeEventArgs args)
 ```
 
-Մեթոդը կանչվում է ծառը հանգույցը [հեռացնելիս](../../TreeElementsService/Methods/DeleteNode.md)՝ նախքան հանգույցը տվյալների պահոցից հեռացնելը։
+Մեթոդը կանչվում է ծառը հանգույցը [հեռացնելիս](../../TreeElements/Methods/DeleteNode.md)՝ նախքան հանգույցը տվյալների պահոցից հեռացնելը։
 
 **Պարամետրեր**
 
 
 | Անվանում | Տեսակ | Լռությամբ արժեք | Նկարագրություն |
 |-----------|-------|-----------------|----------------|
-| args | BeforeDeleteNodeEventArgs | - | BeforeDeleteNodeEventArgs դասի օբյեկտ, որը պարունակում է ծառի [հանգույցի նկարագրությունը](../../Types/TreeElement.md)։ |
+| args | BeforeDeleteNodeEventArgs | - | BeforeDeleteNodeEventArgs դասի օբյեկտ, որը պարունակում է ծառի [հանգույցի նկարագրությունը](../../../Types/TreeElement.md)։ |

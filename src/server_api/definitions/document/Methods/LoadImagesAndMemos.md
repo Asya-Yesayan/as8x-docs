@@ -1,10 +1,10 @@
-﻿---
+---
 title: Document.LoadImagesAndMemos(ArchiveInfo) մեթոդ
 ---
 
 ## Նկարագիր
 
-**Դաս՝** [Document](../../Document.md)
+**Դաս՝** [Document](../Document.md)
 
 ```c#
 public Task LoadImagesAndMemos(ArchiveInfo archiveInfo = null)

@@ -10,20 +10,20 @@ title: IParametersService.GetTimeSpanValue մեթոդ
 
 | Անվանում | Նկարագրություն |
 |--|--|
-| [GetTimeSpanValue(string)](#iparametersservicegettimespanvaluestring-մեթոդ) | Վերադարձնում է ժամ տիպի ([TIME](../../Types/system_types.md#timefieldtype), [TIMELONG](../../Types/system_types.md#timefieldtype)) պարամետրի արժեքը՝ ըստ պարամետրի ներքին անվան։ |
-| [GetTimeSpanValue(string, short)](#iparametersservicegettimespanvaluestring-short-մեթոդ) | Վերադարձնում է ժամ տիպի ([TIME](../../Types/system_types.md#timefieldtype), [TIMELONG](../../Types/system_types.md#timefieldtype)) պարամետրի արժեքը՝ ըստ պարամետրի ներքին անվան և օգտագործողի համարի։ |
+| [GetTimeSpanValue(string)](#iparametersservicegettimespanvaluestring-մեթոդ) | Վերադարձնում է ժամ տիպի ([TIME](../../../Types/system_types.md#timefieldtype), [TIMELONG](../../../Types/system_types.md#timefieldtype)) պարամետրի արժեքը՝ ըստ պարամետրի ներքին անվան։ |
+| [GetTimeSpanValue(string, short)](#iparametersservicegettimespanvaluestring-short-մեթոդ) | Վերադարձնում է ժամ տիպի ([TIME](../../../Types/system_types.md#timefieldtype), [TIMELONG](../../../Types/system_types.md#timefieldtype)) պարամետրի արժեքը՝ ըստ պարամետրի ներքին անվան և օգտագործողի համարի։ |
 
 ### IParametersService.GetTimeSpanValue(string) մեթոդ
 
 #### Նկարագիր
 
-**Դաս՝** [IParametersService](../IParametersService/IParametersService.md)
+**Դաս՝** [IParametersService](../IParametersService.md)
 
 ```c#
 public Task<TimeSpan> GetTimeSpanValue(string paramId)
 ```
 
-Վերադարձնում է ժամ տիպի ([TIME](../../Types/system_types.md#timefieldtype), [TIMELONG](../../Types/system_types.md#timefieldtype)) պարամետրի արժեքը՝ ըստ պարամետրի ներքին անվան։  
+Վերադարձնում է ժամ տիպի ([TIME](../../../Types/system_types.md#timefieldtype), [TIMELONG](../../../Types/system_types.md#timefieldtype)) պարամետրի արժեքը՝ ըստ պարամետրի ներքին անվան։  
 Տիպի անհամապատասխանության դեպքում առաջանում է սխալ։  
 Պարամետրի սահմանված չլինելու դեպքում առաջանում է սխալ։
 
@@ -38,14 +38,14 @@ public Task<TimeSpan> GetTimeSpanValue(string paramId)
 
 #### Նկարագիր
 
-**Դաս՝** [IParametersService](../IParametersService/IParametersService.md)
+**Դաս՝** [IParametersService](../IParametersService.md)
 
 ```c#
 public Task<TimeSpan> GetTimeSpanValue(string paramId, 
                                        short suid)
 ```
 
-Վերադարձնում է ժամ տիպի ([TIME](../../Types/system_types.md#timefieldtype), [TIMELONG](../../Types/system_types.md#timefieldtype)) պարամետրի արժեքը՝ ըստ պարամետրի ներքին անվան և օգտագործողի համարի։  
+Վերադարձնում է ժամ տիպի ([TIME](../../../Types/system_types.md#timefieldtype), [TIMELONG](../../../Types/system_types.md#timefieldtype)) պարամետրի արժեքը՝ ըստ պարամետրի ներքին անվան և օգտագործողի համարի։  
 Տիպի անհամապատասխանության դեպքում առաջանում է սխալ։  
 Պարամետրի սահմանված չլինելու դեպքում առաջանում է սխալ։
 

@@ -7,7 +7,7 @@ public async Task LoadDefinitionAsync(string name,
                                       CancellationToken cancellationToken = default)
 ```
 
-Բեռնում է տվյալների աղբյուրի նկարագրությունը և վերագրում [Definition](Definition.md) հատկությանը։
+Բեռնում է տվյալների աղբյուրի նկարագրությունը և վերագրում [Definition](../Properties/Definition.md) հատկությանը։
 
 **Պարամետրեր**
 

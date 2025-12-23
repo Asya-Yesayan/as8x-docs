@@ -6,7 +6,7 @@ title: IDBService.Connection հատկություն
 
 **Համարժեքը 4x-ում՝** [AsSqlCommand.Connection](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/AsSqlCommand/Connection.html)
 
-**Դաս՝** [IDBService](../../IDBService/IDBService.md)
+**Դաս՝** [IDBService](../IDBService.md)
 
 ```c#
 public SqlConnection Connection { get; }

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Document.Folders(FoldersEventArgs) մեթոդ
 ---
 
@@ -6,7 +6,7 @@ title: Document.Folders(FoldersEventArgs) մեթոդ
 
 **Համարժեքը 4x-ում՝** [Folders](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/ScriptProcs/Folders.html)
 
-**Դաս՝** [Document](../../Document.md)
+**Դաս՝** [Document](../Document.md)
 
 ```c#
 public virtual Task Folders(FoldersEventArgs args)

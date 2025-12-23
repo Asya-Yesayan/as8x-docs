@@ -29,9 +29,9 @@ public Task<MessageBoxResult> MessageBox(string prompt,
 | Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
 |-----------------|----------------------|----------------|----------------|
 | prompt          | string               | -              | Հաղորդագրության պատուհանի տեքստը։ |
-| messageBoxButtons | MessageBoxButtons    | -              | [Հաղորդագրության պատուհանում ավելացվող կոճակները](../MessageBoxButtons.md)։ |
-| messageBoxIcon  | MessageBoxIconType   | -              | [Հաղորդագրության պատուհանում ավելացվող պատկերակը](../MessageBoxIconType.md)։ |
-| messageBoxDefaultButton | MessageBoxDefaultButton | -              | [Հաղորդագրության պատուհանի լռությամբ կոճակը](../MessageBoxDefaultButton.md)։ Պատուհանի էկրանին երևալու ժամանակը լրանալուն պես պատուհանը ավտոմատ փակվում է` սեղմելով լռությամբ ընտրված կոճակը։ |
+| messageBoxButtons | MessageBoxButtons    | -              | [Հաղորդագրության պատուհանում ավելացվող կոճակները](../../MessageBoxButtons.md)։ |
+| messageBoxIcon  | MessageBoxIconType   | -              | [Հաղորդագրության պատուհանում ավելացվող պատկերակը](../../MessageBoxIconType.md)։ |
+| messageBoxDefaultButton | MessageBoxDefaultButton | -              | [Հաղորդագրության պատուհանի լռությամբ կոճակը](../../MessageBoxDefaultButton.md)։ Պատուհանի էկրանին երևալու ժամանակը լրանալուն պես պատուհանը ավտոմատ փակվում է` սեղմելով լռությամբ ընտրված կոճակը։ |
 | title           | string               | -              | Հաղորդագրության պատուհանի գլխագիրը։ |
 | timeSpanToShow  | TimeSpan             | -              | Հաղորդագրության պատուհանի էկրանին երևալու ժամանակը: |
 | id              | int?                 | null           | Հաղորդագրության պատուհանի ներքին նույնականացման համարը (id): |
@@ -57,9 +57,9 @@ public Task<MessageBoxResult> MessageBox(string prompt,
 | Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
 |-----------------|----------------------|----------------|----------------|
 | prompt          | string               | -              | Հաղորդագրության պատուհանի տեքստը։ |
-| messageBoxButtons | MessageBoxButtons    | MessageBoxButtons.OK | [Հաղորդագրության պատուհանում ավելացվող կոճակները](../MessageBoxButtons.md): Չլրացնելու դեպքում պատուհանում ավելացվելու է միայն "Լավ" կոճակը։ |
-| messageBoxIcon  | MessageBoxIconType   | MessageBoxIconType.Default | [Հաղորդագրության պատուհանում ավելացվող պատկերակը](../MessageBoxIconType.md)։ Չլրացնելու դեպքում պատուհանում ավելացվելու է "Information Message" պատկերակը։ |
-| messageBoxDefaultButton | MessageBoxDefaultButton | MessageBoxDefaultButton.DefaultButton1 | [Հաղորդագրության պատուհանի լռությամբ կոճակը](../MessageBoxDefaultButton.md)։ Պատուհանի էկրանին երևալու ժամանակը լրանալուն պես պատուհանը փակվում է ավտոմատ սեղմելով լռությամբ ընտրված կոճակը։ Չլրացնելու դեպքում լռությամբ կոճակ հանդիսանալու է ձախից առաջին կոճակը։ |
+| messageBoxButtons | MessageBoxButtons    | MessageBoxButtons.OK | [Հաղորդագրության պատուհանում ավելացվող կոճակները](../../MessageBoxButtons.md): Չլրացնելու դեպքում պատուհանում ավելացվելու է միայն "Լավ" կոճակը։ |
+| messageBoxIcon  | MessageBoxIconType   | MessageBoxIconType.Default | [Հաղորդագրության պատուհանում ավելացվող պատկերակը](../../MessageBoxIconType.md)։ Չլրացնելու դեպքում պատուհանում ավելացվելու է "Information Message" պատկերակը։ |
+| messageBoxDefaultButton | MessageBoxDefaultButton | MessageBoxDefaultButton.DefaultButton1 | [Հաղորդագրության պատուհանի լռությամբ կոճակը](../../MessageBoxDefaultButton.md)։ Պատուհանի էկրանին երևալու ժամանակը լրանալուն պես պատուհանը փակվում է ավտոմատ սեղմելով լռությամբ ընտրված կոճակը։ Չլրացնելու դեպքում լռությամբ կոճակ հանդիսանալու է ձախից առաջին կոճակը։ |
 | title           | string               | ""             | Հաղորդագրության պատուհանի գլխագիրը։ Չլրացնելու դեպքում գլխագիր հանդիսանալու է ծրագրի անունը, օրինակ "ՀԾ Բանկ", "ՀԾ Ձեռնարկություն"...: |
 | millisecondsToShow | int                  | 15000          | Հաղորդագրության պատուհանի էկրանին երևալու ժամանակը միլիվայրկյաններով: Չլրացնելու դեպքում պատուհանը փակվելու է 15 վրկ հետո՝ սեղմելով լռությամբ ընտրված կոճակը (`messageBoxDefaultButton`)։ |
 | id              | int?                 | null           | Հաղորդագրության պատուհանի ներքին նույնականացման համարը (id): |

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Document.Delete(DeleteEventArgs) մեթոդ
 ---
 
@@ -6,7 +6,7 @@ title: Document.Delete(DeleteEventArgs) մեթոդ
 
 **Համարժեքը 4x-ում՝** [Delete](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/ScriptProcs/Delete.html)
 
-**Դաս՝** [Document](../../Document.md)
+**Դաս՝** [Document](../Document.md)
 
 ```c#
 public virtual Task Delete(DeleteEventArgs args)

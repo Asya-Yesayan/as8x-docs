@@ -13,9 +13,9 @@ IOlapDBService դասը նախատեսված է **OLAP** տվյալների պա
 
 **OLAP** տվյալների պահոցի անունը հիմնական տվյալների պահոցից միշտ տարբերվում է միայն `_OLAP` վերջավորությամբ։
 
-**OLAP** միացման կարգավորումները անհրաժեշտ է տալ [appsettings.json](../../Project/appsettings_json.md) կոնֆիգուրացիոն ֆայլի [db](../../Project/appsettings_json.md#db) բաժնում` որպես տվյալների պահոցի անուն նշելով **OLAP** տվյալների պահոցին համապատասխան հիմնական պահոցի անունը։
+**OLAP** միացման կարգավորումները անհրաժեշտ է տալ [appsettings.json](../../../Project/appsettings_json.md) կոնֆիգուրացիոն ֆայլի [db](../../../Project/appsettings_json.md) բաժնում` որպես տվյալների պահոցի անուն նշելով **OLAP** տվյալների պահոցին համապատասխան հիմնական պահոցի անունը։
 
-Օրինակ եթե **OLAP** տվյալների պահոցի անունը `test_bank_Olap` է, ապա [appsettings.json](../../Project/appsettings_json.md) կոնֆիգուրացիոն ֆայլի [db](../../Project/appsettings_json.md#db) բաժնի `database` բաժնում անհրաժեշտ է նշել `test_bank`։
+Օրինակ եթե **OLAP** տվյալների պահոցի անունը `test_bank_Olap` է, ապա [appsettings.json](../../../Project/appsettings_json.md) կոնֆիգուրացիոն ֆայլի [db](../../../Project/appsettings_json.md#db) բաժնի `database` բաժնում անհրաժեշտ է նշել `test_bank`։
 
 ## Մեթոդներ
 

@@ -4,7 +4,7 @@ title: "RejectDocumentChangeRequestEventArgs"
 tags: OnRejectDCR
 ---
 
-Այս դասը պարունակում է փաստաթղթի փոփոխման հայտի մերժման տվյալներ և օգտագործվում է [PreOnRejectDocumentChangeRequest](../../../extensions/Definitions/DocumentExtender/Methods/PreOnRejectDocumentChangeRequest.md), [OnRejectDocumentChangeRequest](../../Definitions/Document/Methods/OnRejectDocumentChangeRequest.md), [PostOnRejectDocumentChangeRequest](../../../extensions/Definitions/DocumentExtender/Methods/PostOnRejectDocumentChangeRequest.md) մեթոդներում։
+Այս դասը պարունակում է փաստաթղթի փոփոխման հայտի մերժման տվյալներ և օգտագործվում է [PreOnRejectDocumentChangeRequest](../../Extensions/Definitions/DocumentExtender/Methods/PreOnRejectDocumentChangeRequest.md), [OnRejectDocumentChangeRequest](../../Definitions/Document/Methods/OnRejectDocumentChangeRequest.md), [PostOnRejectDocumentChangeRequest](../../Extensions/Definitions/DocumentExtender/Methods/PostOnRejectDocumentChangeRequest.md) մեթոդներում։
 
 **Պարամետրեր**
 

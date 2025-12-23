@@ -4,7 +4,7 @@ title: "IDocumentService սերվիս"
 
 ## Ներածություն
 
-IDocumentService դասը նախատեսված է փաստաթղթի ([Document](../Definitions/Document/Document.md)) հետ աշխատանքը ապահովելու համար։
+IDocumentService դասը նախատեսված է փաստաթղթի ([Document](../../Definitions/Document/Document.md)) հետ աշխատանքը ապահովելու համար։
 
 ## Մեթոդներ
 
@@ -14,13 +14,13 @@ IDocumentService դասը նախատեսված է փաստաթղթի ([Document]
 | [CheckProcessingMode(string)](Methods/CheckProcessingMode.md) | Ստուգում է տրված տեսակի փաստաթղթերի գրանցման/հեռացման հնարավորությունը 8X սերվիսում (փաստաթղթի կատարման ռեժիմը (ProcessingMode) չլինի `0`)։ |
 | [CleanDeleted(DateTime, DateTime, string)](Methods/CleanDeleted.md) | Ջնջված փաստաթղթերը լրիվ հեռացնում է համակարգից ըստ ջնջման ժամանակահատվածի։ |
 | [Copy(int, object, int)](Methods/Copy.md) | Ստեղծում է արդեն գոյություն ունեցող փաստաթղթի պատճեն օբյեկտը։ |
-| [Create(int, bool, object[])](Methods/Create.md#idocumentservicecreateint-bool-object-մեթոդ) | Ստեղծում է նշված տիպի փաստաթղթի նոր օբյեկտ և վերադարձնում այն T դասով, որը հանդիսանում է [Document](../Definitions/Document/Document.md)-ի ժառանգ։ |
-| [Create(int, object[])](Methods/Create.md#idocumentservicecreateint-object-մեթոդ) | Ստեղծում է նշված տիպի փաստաթղթի նոր օբյեկտ և վերադարձնում այն T դասով, որը հանդիսանում է [Document](../Definitions/Document/Document.md)-ի ժառանգ։ |
-| [Create(List&lt;int&gt;, bool, object[])](Methods/Create.md#idocumentservicecreatelistint-bool-object-մեթոդ) | Ստեղծում է նշված տիպի փաստաթղթի նոր օբյեկտ և վերադարձնում այն T դասով, որը հանդիսանում է [Document](../Definitions/Document/Document.md)-ի ժառանգ։ |
-| [Create(List&lt;int&gt;, object[])](Methods/Create.md#idocumentservicecreatelistint-object-մեթոդ) | Ստեղծում է նշված տիպի փաստաթղթի նոր օբյեկտ և վերադարձնում այն T դասով, որը հանդիսանում է [Document](../Definitions/Document/Document.md)-ի ժառանգ։ |
-| [Create(string, List&lt;int&gt;, Type, Dictionary&lt;string, object&gt;, bool, object[])](Methods/Create.md#idocumentservicecreatestring-listint-type-dictionarystring-object-bool-object-մեթոդ) | Ստեղծում է նշված տեսակի (ներքին անունով) փաստաթղթի նոր օբյեկտ և վերադարձնում այն [Document](../Definitions/Document/Document.md) բազային դասով։ |
-| [Create(string, List&lt;int&gt;, Type, Dictionary&lt;string, object&gt;, object[])](Methods/Create.md#idocumentservicecreatestring-listint-type-dictionarystring-object-object-մեթոդ) | Ստեղծում է նշված տեսակի (ներքին անունով) փաստաթղթի նոր օբյեկտ և վերադարձնում այն [Document](../Definitions/Document/Document.md) բազային դասով։  |
-| [CreateFactsUsingStateMoverFrom(Document, int)](Methods/CreateFactsUsingStateMoverFrom.md) | Ֆունկցիան կանչելուց հետո [Action](../Definitions/Document/Methods/Action.md)-ում [StoreFact(Document, Fact)](Methods/StoreFact.md) ֆունկցիայով գրանցվող հաշվառումների ստեղծող օգատգործող է լրացվում այն օգտագործողը, որը վերջինն է փաստաթուղթը բերել նշված վիճակ։ |
+| [Create(int, bool, object[])](Methods/Create.md#idocumentservicecreateint-bool-object-մեթոդ) | Ստեղծում է նշված տիպի փաստաթղթի նոր օբյեկտ և վերադարձնում այն T դասով, որը հանդիսանում է [Document](../../Definitions/Document/Document.md)-ի ժառանգ։ |
+| [Create(int, object[])](Methods/Create.md#idocumentservicecreateint-object-մեթոդ) | Ստեղծում է նշված տիպի փաստաթղթի նոր օբյեկտ և վերադարձնում այն T դասով, որը հանդիսանում է [Document](../../Definitions/Document/Document.md)-ի ժառանգ։ |
+| [Create(List&lt;int&gt;, bool, object[])](Methods/Create.md#idocumentservicecreatelistint-bool-object-մեթոդ) | Ստեղծում է նշված տիպի փաստաթղթի նոր օբյեկտ և վերադարձնում այն T դասով, որը հանդիսանում է [Document](../../Definitions/Document/Document.md)-ի ժառանգ։ |
+| [Create(List&lt;int&gt;, object[])](Methods/Create.md#idocumentservicecreatelistint-object-մեթոդ) | Ստեղծում է նշված տիպի փաստաթղթի նոր օբյեկտ և վերադարձնում այն T դասով, որը հանդիսանում է [Document](../../Definitions/Document/Document.md)-ի ժառանգ։ |
+| [Create(string, List&lt;int&gt;, Type, Dictionary&lt;string, object&gt;, bool, object[])](Methods/Create.md#idocumentservicecreatestring-listint-type-dictionarystring-object-bool-object-մեթոդ) | Ստեղծում է նշված տեսակի (ներքին անունով) փաստաթղթի նոր օբյեկտ և վերադարձնում այն [Document](../../Definitions/Document/Document.md) բազային դասով։ |
+| [Create(string, List&lt;int&gt;, Type, Dictionary&lt;string, object&gt;, object[])](Methods/Create.md#idocumentservicecreatestring-listint-type-dictionarystring-object-object-մեթոդ) | Ստեղծում է նշված տեսակի (ներքին անունով) փաստաթղթի նոր օբյեկտ և վերադարձնում այն [Document](../../Definitions/Document/Document.md) բազային դասով։  |
+| [CreateFactsUsingStateMoverFrom(Document, int)](Methods/CreateFactsUsingStateMoverFrom.md) | Ֆունկցիան կանչելուց հետո [Action](../../Definitions/Document/Methods/Action.md)-ում [StoreFact(Document, Fact)](Methods/StoreFact.md) ֆունկցիայով գրանցվող հաշվառումների ստեղծող օգատգործող է լրացվում այն օգտագործողը, որը վերջինն է փաստաթուղթը բերել նշված վիճակ։ |
 | [CreateParentLinkDB(int, int)](Methods/CreateParentLinkDB.md) | Փաստաթղթերի միջև ստեղծում է ծնող-զավակ կապ։ |
 | [CreateParentLinksDB(int, List<int>)](Methods/CreateParentLinksDB.md) | Փաստաթղթի և տրված ծնող փաստաթղթերի միջև ստեղծում է ծնող-զավակ կապ։ |
 | [CreationDate(int, bool)](Methods/CreationDate.md) | Վերադարձնում է փաստաթղթի ստեղծման ամսաթիվը և ստեղծողի ներքին համարը։ |
@@ -29,7 +29,7 @@ IDocumentService դասը նախատեսված է փաստաթղթի ([Document]
 | [Delete(Document, bool, string, bool, bool)](Methods/Delete.md#idocumentservicedeletedocument-bool-string-bool-bool-մեթոդ) | Ջնջում է փաստաթուղթը համակարգից։ |
 | [Delete(int, bool, string, bool, bool)](Methods/Delete.md#idocumentservicedeleteint-bool-string-bool-bool-մեթոդ) | Ջնջում է փաստաթուղթը համակարգից։ |
 | [DeleteAll(List<int>, bool, string, bool, bool)](Methods/DeleteAll.md) | Ջնջում է տրված փաստաթղթերը համակարգից։ |
-| [DeserializeRequestBody(DocumentModel, bool)](Methods/DeserializeRequestBody.md) | նախատեսված է կլիենտից դեպի սերվեր փաստաթղթի ուղարկման ժամանակ դեսերիալիզազիայի և [Document](../Definitions/Document/Document.md) տիպի օբյեկտի վերածեու համար։ |
+| [DeserializeRequestBody(DocumentModel, bool)](Methods/DeserializeRequestBody.md) | նախատեսված է կլիենտից դեպի սերվեր փաստաթղթի ուղարկման ժամանակ դեսերիալիզազիայի և [Document](../../Definitions/Document/Document.md) տիպի օբյեկտի վերածեու համար։ |
 | [ExistInDb(int)](Methods/ExistInDb.md) | Ստուգում է փաստաթղթի առկայությունը տվյալների պահոցում։ |
 | [FieldToAnsi(string, string, object)](Methods/FieldToAnsi.md) | Ձևափոխում է ցանցով փոխանցված արժեքը ANSI կոդավորման համարելով, որ այն պետք է լինի փաստաթղթի դաշտի արժեք։ |
 | [FieldsToAnsi(string, Dictionary<string, object>)](Methods/FieldsToAnsi.md) | Ձևափոխում է ցանցով փոխանցված արժեքների բազմությունը ANSI կոդավորման համարելով, որ դրանք պետք է լինեն փաստաթղթի դաշտերի արժեքներ։ |
@@ -59,7 +59,7 @@ IDocumentService դասը նախատեսված է փաստաթղթի ([Document]
 | [LoadFromFolder(string, string, GridLoadMode, bool, bool)](Methods/LoadFromFolder.md#idocumentserviceloadfromfolderstring-string-gridloadmode-bool-bool-մեթոդ) | Բեռնում է փաստաթուղթը ըստ թղթապանակի և բանալու։ |
 | [LoadFromFolder(string, string, GridLoadMode, bool, Type, bool)](Methods/LoadFromFolder.md#idocumentserviceloadfromfolderstring-string-gridloadmode-bool-type-bool-մեթոդ) | Բեռնում է փաստաթուղթը ըստ թղթապանակի և բանալու։ |
 | [MakeParentLink(Document, int, bool)](Methods/MakeParentLink.md) | Ընթացիկ փաստաթղթի համար սահմանում է ծնողի հետ կապ։ |
-| [NestedTransactions(Document, List<T>, TextReport,bool, bool)](Methods/NestedTransactions.md) | Մեթոդը անցնում է `values` ցուցակի բոլոր տարրերով, յուրաքանչյուրի համար սկսում տրանզակցիա, կանչում [IDocumentNestedTransaction](../Types/IDocumentNestedTransaction.md)-ի [NestedTransaction](../Types/IDocumentNestedTransaction/Methods/NestedTransaction.md)` մեթոդը և ավարտում տրանզակցիան։ Այն անհրաժեշտ է կանչել փաստաթղթի [Action](../Definitions/Document/Methods/Action.md) մեթոդում։ |
+| [NestedTransactions(Document, List<T>, TextReport,bool, bool)](Methods/NestedTransactions.md) | Մեթոդը անցնում է `values` ցուցակի բոլոր տարրերով, յուրաքանչյուրի համար սկսում տրանզակցիա, կանչում [IDocumentNestedTransaction](../../Types/IDocumentNestedTransaction.md)-ի [NestedTransaction](../../Types/IDocumentNestedTransaction/Methods/NestedTransaction.md)` մեթոդը և ավարտում տրանզակցիան։ Այն անհրաժեշտ է կանչել փաստաթղթի [Action](../../Definitions/Document/Methods/Action.md) մեթոդում։ |
 | [ReFolder(Document, StoreMode)](Methods/ReFolder.md) | Իրականացնում է փաստաթղթի վերաինդեքսավորումը թղթապանակներում: |
 | [SetGridDefaultValues(Document, Dictionary<string, HashSet<string>>)](Methods/SetGridDefaultValues.md) | Վերագրում է լռությամբ արժեքներ փաստաթղթի տրված աղյուսակների տրված սյուներին։ |
 | [Store(Document, DocumentCheckLevel, string)](Methods/Store.md) | Անցկացնում է պարտադիր ստուգումներ և գրանցում փաստաթուղթը տվյալների պահոցում։ |

@@ -18,4 +18,4 @@ protected virtual bool ProcessRow(DataSourceArgs<P> args,
 
 Մեթոդը վերադարձնում է bool տիպի արժեք, որը ցույց է տալիս թե ընթացիկ տողը պետք է ընդգրկվի տվյալների աղբյուրի տողերի վերջնական ցուցակում, թե ոչ։
 
-Տե՛ս [օրինակը](../../ds_guide_row_processing.md#processrow)։
+Տե՛ս [օրինակը](../ds_guide_row_processing.md#processrow)։

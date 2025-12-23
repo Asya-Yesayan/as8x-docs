@@ -6,7 +6,7 @@ title: IKernelService.GetTurnFull(string, int, DateTime, DateTime) մեթոդ
 
 **Համարժեքը 4x-ում՝** [Kernel.GetTurnFull](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/AccManagement/GetTurnFull.html)
 
-**Դաս՝** [IKernelService](../IKernelService/IKernelService.md)
+**Դաս՝** [IKernelService](../IKernelService.md)
 
 ```c#
 public Task<(decimal DbTurn, decimal DbTurnAMD, 

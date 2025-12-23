@@ -1,10 +1,10 @@
-﻿---
+---
 title: Document.GridsLoaded հատկություն
 ---
 
 ## Նկարագիր
 
-**Դաս՝** [Document](../../Document.md)
+**Դաս՝** [Document](../Document.md)
 
 ```c#
 public bool GridsLoaded { get; protected internal set; }

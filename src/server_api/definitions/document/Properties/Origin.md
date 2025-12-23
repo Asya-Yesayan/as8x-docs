@@ -4,7 +4,7 @@ title: Document.Origin հատկություն
 
 ## Նկարագիր
 
-**Դաս՝** [Document](../../Document.md)
+**Դաս՝** [Document](../Document.md)
 
 ```c#
 public DocumentOrigin Origin { get; internal set; }

@@ -13,4 +13,4 @@ public virtual Task PostOnConfirmDocumentChangeRequest(Document sender,
                                                        ConfirmDocumentChangeRequestEventArgs args)
 ```
 
-PreOnConfirmDocumentChangeRequest մեթոդը կանչվում է միջուկի կողմից` փաստաթղթի պահպանման ժամանակ ([Store](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/ASDOC/Store.html)), [OnConfirmDocumentChangeRequest](../../../Core/Definitions/Document/OnConfirmDocumentChangeRequest.md) իրադարձություններից հետո։
+PreOnConfirmDocumentChangeRequest մեթոդը կանչվում է միջուկի կողմից` փաստաթղթի պահպանման ժամանակ ([Store](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/ASDOC/Store.html)), [OnConfirmDocumentChangeRequest](../../../../Definitions/Document/Methods/OnConfirmDocumentChangeRequest.md) իրադարձություններից հետո։

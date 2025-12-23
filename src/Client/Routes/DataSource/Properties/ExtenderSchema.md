@@ -10,10 +10,10 @@ public ExtenderSchemaEx ExtenderSchema { get; set; }
 
 Այս հատկությանը արժեք փոխանցելու դեպքում տվյալների աղբյուրը կատարելիս նաև հաշվարկվում է ընդլայնումը։
 
-Այս հատկությունը լրացվում է [GetSchemaAsync](../Extender/GetSchemaAsync.md) մեթոդի կանչով՝ փոխանցելով ընդլայնման ներքին անունը։
+Այս հատկությունը լրացվում է [GetSchemaAsync](../../Extender/Methods/GetSchemaAsync.md) մեթոդի կանչով՝ փոխանցելով ընդլայնման ներքին անունը։
 
 ```c#
 ds.ExtenderSchema = await apiClient.Extender.GetSchemaAsync("CreatDocExtended");
 ```
 
-Տե՛ս [օրինակը](../../Examples/DataSource.md#օրինակ-2)։
+Տե՛ս [օրինակը](../../../Examples/DataSource.md#օրինակ-2)։

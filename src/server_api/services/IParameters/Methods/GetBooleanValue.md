@@ -10,20 +10,20 @@ title: IParametersService.GetBooleanValue մեթոդ
 
 | Անվանում | Նկարագրություն |
 |--|--|
-| [GetBooleanValue(string)](#iparametersservicegetbooleanvaluestring-մեթոդ) | Վերադարձնում է [տրամաբանական տիպի](../../Types/system_types.md#booleanfieldtype) պարամետրի արժեքը՝ ըստ պարամետրի ներքին անվան։ |
-| [GetBooleanValue(string, short)](#iparametersservicegetbooleanvaluestring-short-մեթոդ) | Վերադարձնում է [տրամաբանական տիպի](../../Types/system_types.md#booleanfieldtype) պարամետրի արժեքը՝ ըստ պարամետրի ներքին անվան և օգտագործողի համարի։ |
+| [GetBooleanValue(string)](#iparametersservicegetbooleanvaluestring-մեթոդ) | Վերադարձնում է [տրամաբանական տիպի](../../../Types/system_types.md#booleanfieldtype) պարամետրի արժեքը՝ ըստ պարամետրի ներքին անվան։ |
+| [GetBooleanValue(string, short)](#iparametersservicegetbooleanvaluestring-short-մեթոդ) | Վերադարձնում է [տրամաբանական տիպի](../../../Types/system_types.md#booleanfieldtype) պարամետրի արժեքը՝ ըստ պարամետրի ներքին անվան և օգտագործողի համարի։ |
 
 ### IParametersService.GetBooleanValue(string) մեթոդ
 
 #### Նկարագիր
 
-**Դաս՝** [IParametersService](../IParametersService/IParametersService.md)
+**Դաս՝** [IParametersService](../IParametersService.md)
 
 ```c#
 public Task<bool> GetBooleanValue(string paramId)
 ```
 
-Վերադարձնում է [տրամաբանական տիպի](../../Types/system_types.md#booleanfieldtype) պարամետրի արժեքը՝ ըստ պարամետրի ներքին անվան։  
+Վերադարձնում է [տրամաբանական տիպի](../../../Types/system_types.md#booleanfieldtype) պարամետրի արժեքը՝ ըստ պարամետրի ներքին անվան։  
 Տիպի անհամապատասխանության դեպքում առաջանում է սխալ։  
 Պարամետրի սահմանված չլինելու դեպքում առաջանում է սխալ։
 
@@ -38,14 +38,14 @@ public Task<bool> GetBooleanValue(string paramId)
 
 #### Նկարագիր
 
-**Դաս՝** [IParametersService](../IParametersService/IParametersService.md)
+**Դաս՝** [IParametersService](../IParametersService.md)
 
 ```c#
 public Task<bool> GetBooleanValue(string paramId, 
                                   short suid)
 ```
 
-Վերադարձնում է [տրամաբանական տիպի](../../Types/system_types.md#booleanfieldtype) պարամետրի արժեքը՝ ըստ պարամետրի ներքին անվան և օգտագործողի համարի։  
+Վերադարձնում է [տրամաբանական տիպի](../../../Types/system_types.md#booleanfieldtype) պարամետրի արժեքը՝ ըստ պարամետրի ներքին անվան և օգտագործողի համարի։  
 Տիպի անհամապատասխանության դեպքում առաջանում է սխալ։  
 Պարամետրի սահմանված չլինելու դեպքում առաջանում է սխալ։
 

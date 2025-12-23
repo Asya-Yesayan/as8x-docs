@@ -14,7 +14,7 @@ title: IPermanentStorageService.UploadBlobAsync մեթոդ
 
 #### Նկարագիր
 
-**Դաս՝** [IPermanentStorageService](../IPermanentStorageService/IPermanentStorageService.md)
+**Դաս՝** [IPermanentStorageService](../IPermanentStorageService.md)
 
 ```c#
 public Task<bool> UploadBlobAsync(string container, 
@@ -38,7 +38,7 @@ public Task<bool> UploadBlobAsync(string container,
 
 #### Նկարագիր
 
-**Դաս՝** [IPermanentStorageService](../IPermanentStorageService/IPermanentStorageService.md)
+**Դաս՝** [IPermanentStorageService](../IPermanentStorageService.md)
 
 ```c#
 public Task<bool> UploadBlobAsync(string blobName, 
@@ -62,7 +62,7 @@ public Task<bool> UploadBlobAsync(string blobName,
 
 #### Նկարագիր
 
-**Դաս՝** [IPermanentStorageService](../IPermanentStorageService/IPermanentStorageService.md)
+**Դաս՝** [IPermanentStorageService](../IPermanentStorageService.md)
 
 ```c#
 public Task<bool> UploadBlobAsync(string containerOrBucketName, 

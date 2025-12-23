@@ -4,7 +4,7 @@ title: LanguageService.IsEnglish հատկություն
 
 ## Նկարագիր
 
-**Դաս՝** [LanguageService](../LanguageService/LanguageService.md)
+**Դաս՝** [LanguageService](../LanguageService.md)
 
 ```c#
 public static bool IsEnglish { get; }

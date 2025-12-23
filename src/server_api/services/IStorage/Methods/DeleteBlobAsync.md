@@ -6,14 +6,14 @@ title: IStorageService.DeleteBlobAsync մեթոդ
 
 **Համարժեքը 4x-ում՝** modRestService.DeleteFileFromBlobStorage
 
-**Դաս՝** [IStorageService](../IStorageService/IStorageService.md)
+**Դաս՝** [IStorageService](../IStorageService.md)
 
 ## Գերբեռնումներ
 
 | Անվանում | Նկարագրություն |
 |--|--|
 | [DeleteBlobAsync(string, string, CancellationToken)](#istorageservicedeleteblobasyncstring-string-cancellationtoken-մեթոդ) | Հեռացնում է ֆայլը ժամանակավոր ֆայլերի պահոցից` ըստ անվան և կոնտեյների։ |
-| [DeleteBlobAsync(string, CancellationToken)](#istorageservicedeleteblobasyncstring-cancellationtoken-մեթոդ) | Հեռացնում է ֆայլը [ընթացիկ սեսիայի կոնտեյներից](Container.md)։ |
+| [DeleteBlobAsync(string, CancellationToken)](#istorageservicedeleteblobasyncstring-cancellationtoken-մեթոդ) | Հեռացնում է ֆայլը [ընթացիկ սեսիայի կոնտեյներից](../Properties/Container.md)։ |
 
 ### IStorageService.DeleteBlobAsync(string, string, CancellationToken) մեթոդ
 
@@ -40,7 +40,7 @@ public virtual Task<bool> DeleteBlobAsync(string blobName,
                                           CancellationToken cancellationToken = default)
 ```
 
-Հեռացնում է ֆայլը [ընթացիկ սեսիայի կոնտեյներից](Container.md)։
+Հեռացնում է ֆայլը [ընթացիկ սեսիայի կոնտեյներից](../Properties/Container.md)։
 
 **Պարամետրեր**
 

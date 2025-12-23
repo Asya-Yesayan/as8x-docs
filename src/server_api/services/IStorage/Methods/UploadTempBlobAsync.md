@@ -4,7 +4,7 @@ title: IStorageService.UploadTempBlobAsync(string, string, Stream, BlobPropertie
 
 ## Նկարագիր
 
-**Դաս՝** [IStorageService](../IStorageService/IStorageService.md)
+**Դաս՝** [IStorageService](../IStorageService.md)
 
 ```c#
 public Task<bool> UploadTempBlobAsync(string fileExtension, 

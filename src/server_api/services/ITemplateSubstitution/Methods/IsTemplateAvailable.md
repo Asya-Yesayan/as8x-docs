@@ -1,4 +1,4 @@
-﻿---
+---
 title: ITemplateSubstitutionService.IsTemplateAvailable(string, string, Document) մեթոդ  
 ---
 
@@ -6,7 +6,7 @@ title: ITemplateSubstitutionService.IsTemplateAvailable(string, string, Document
 
 **Համարժեքը 4x-ում՝** [AsKernel.IsTemplAvailable](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/IsTemplAvailable.html)
 
-**Դաս՝** [ITemplateSubstitutionService](../ITemplateSubstitution/ITemplateSubstitutionService.md)
+**Դաս՝** [ITemplateSubstitutionService](../ITemplateSubstitutionService.md)
 
 ```c#
 public Task<bool> IsTemplateAvailable(string templateName, 
@@ -21,14 +21,14 @@ public Task<bool> IsTemplateAvailable(string templateName,
 | Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
 |-----------------|----------------------|----------------|----------------|
 | templateName    | string               | -              | Տպելու ձևանմուշի ներքին անունը։ |
-| templateType    | string               | -              | [Տպելու ձևանմուշի տիպ](../../Types/SubstitutionType.md): |
-| document        | Document             | -              | Տպելու ձևանմուշի հետ կապակցված [փաստաթղթի օբյեկտ](../../Definitions/Document/Document.md)։ |
+| templateType    | string               | -              | [Տպելու ձևանմուշի տիպ](../../../Types/SubstitutionType.md): |
+| document        | Document             | -              | Տպելու ձևանմուշի հետ կապակցված [փաստաթղթի օբյեկտ](../../../Definitions/Document/Document.md)։ |
 
 **Օգտագործում**
 
 Սերվիսում ակտիվացման բանաձևի սահմանման համար անհրաժեշտ է ստեղծել [սերվերային մոդուլ](../../../extensions/Definitions/ServerSideModule/server_side_module.md), որում C# դաս ու ֆունկցիա, որը հաշվարկում է ակտիվացման բանաձևը։
 
-Ակտիվացման բանաձևը հաշվարկող ֆունկցիայի վերադարձվող արժեքի տիպը պետք է լինի `bool` և որպես պարամետր պետք է ստանա [Document](../../Definitions/Document/Document.md) դասի օբյեկտ։
+Ակտիվացման բանաձևը հաշվարկող ֆունկցիայի վերադարձվող արժեքի տիպը պետք է լինի `bool` և որպես պարամետր պետք է ստանա [Document](../../../Definitions/Document/Document.md) դասի օբյեկտ։
 
 Սերվերային մոդուլի և C# դասի լրացումից հետո անհրաժեշտ է սերվերային մոդուլը նկարագրող .as ընդլայնմամբ ֆայլը ներմուծել տվյալների բազա `Syscon` գործիքի միջոցով։
 
