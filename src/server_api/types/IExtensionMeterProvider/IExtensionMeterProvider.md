@@ -45,7 +45,8 @@ public class TestExtensionMeterProvider : IExtensionMeterProvider
             description: "Number of currently active SQL sessions."
         );
 
-        // ստեղծվում է counter, որը գրանցում է api/Test/Message (GetTestMessage) կանչերի քանակը
+        // ստեղծվում է counter, որը գրանցում է api/Test/Message (GetTestMessage) 
+        // կանչերի քանակը
         this.testApiExecutionCounter = meter.CreateCounter<int>(
             name: "test_api_execution_count",
             unit: null,
@@ -53,7 +54,8 @@ public class TestExtensionMeterProvider : IExtensionMeterProvider
             tags: commonTags
         );
 
-        // ստեղծվում է histogram, որը գրանցում է api/Test/Message (GetTestMessage) կանչի տևողությունը
+        // ստեղծվում է histogram, որը գրանցում է api/Test/Message (GetTestMessage) 
+        // կանչի տևողությունը
         this.testApiDurationHistogram = meter.CreateHistogram<double>(
             name: "test_api_duration_ms",
             unit: "ms",
@@ -63,14 +65,15 @@ public class TestExtensionMeterProvider : IExtensionMeterProvider
     }
 
     // Configure մեթոդում ստեղծված counter-ը ավելացնում է 1-ով։
-    // Կանչվելու է api/Test/Message (GetTestMessage) API-ում՝ կատարումների քանակը գրանցելու համար:
+    // Կանչվելու է api/Test/Message (GetTestMessage) API-ում՝ 
+    // կատարումների քանակը գրանցելու համար:
     public void RegisterTestApiExecution()
     {
         this.testApiExecutionCounter.Add(1);
     }
 
-    // Configure մեթոդում ստեղծված histogram-ում ավելացնում է api կանչի կատարման տևողությունը։
-    // Կանչվելու է api/Test/Message (GetTestMessage) API-ում։
+    // Configure մեթոդում ստեղծված histogram-ում ավելացնում է api կանչի կատարման 
+    // տևողությունը։ Կանչվելու է api/Test/Message (GetTestMessage) API-ում։
     public void RecordApiDuration(double milliseconds)
     {
         this.testApiDurationHistogram.Record(milliseconds);
@@ -104,7 +107,8 @@ public async Task<string> GetTestMessage([FromServices] IExtensionMeterProvider 
     // ստեղծում է Stopwatch՝ կատարման տևողության չափման համար։
     var stopwatch = Stopwatch.StartNew();
 
-    // կանչում է RegisterTestApiExecution մեթոդը, որը api-ի կանչերի քանակի counter-ը մեծացնում է 1-ով։
+    // կանչում է RegisterTestApiExecution մեթոդը, որը api-ի կանչերի 
+    // քանակի counter-ը մեծացնում է 1-ով։
     ((TestExtensionMeterProvider)extensionMeterProvider).RegisterTestApiExecution();
 
     await Task.Delay(10);
@@ -112,7 +116,8 @@ public async Task<string> GetTestMessage([FromServices] IExtensionMeterProvider 
     //կանգնեցնում է Stopwatch-ը։
     stopwatch.Stop();
     
-    // կանչում է RecordApiDuration մեթոդը` փոխանցելով կանչի կատարման ընդհանուր տևողությունը, որը գրանցվելու է histogram-ում։
+    // կանչում է RecordApiDuration մեթոդը` փոխանցելով կանչի 
+    // կատարման ընդհանուր տևողությունը, որը գրանցվելու է histogram-ում։
     ((TestExtensionMeterProvider)extensionMeterProvider).RecordApiDuration(stopwatch.Elapsed.TotalMilliseconds);
     return "Some test message";
 }
