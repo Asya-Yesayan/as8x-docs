@@ -190,7 +190,8 @@ Azure AD-ով կամ Windows ADFS-ով նույնականացման կարգավ
 "BackgroundJobs": {
   "Enabled": false,
   "CheckIntervalSeconds": 30,
-  "Scheduler": false
+  "Scheduler": false,
+  "ExecuteEmptyServiceJobs": true
 }
 ```
 
@@ -202,6 +203,7 @@ Azure AD-ով կամ Windows ADFS-ով նույնականացման կարգավ
 | Enabled | bool | Ոչ պարտադիր | false | Առաջադրանքների հերթագրման և կատարման մեխանիզմի միացման հայտանիշ։ |
 | CheckIntervalSeconds | int | Ոչ պարտադիր | 30 | Առաջադրանքների հերթագրման և կատարման պարբերականությունը վայրկյաններով։ |
 | Scheduler | bool | Ոչ պարտադիր | false | Պարամետրի true արժեքի դեպքում սերվիսը հեթագրում և կատարում է առաջադրանքները, հակառակ դեպքում` միայն կատարում: |
+| ExecuteEmptyServiceJobs | bool | Ոչ պարտադիր | true | Պարամետրի true արժեքի դեպքում սերվիսը հեթագրում և կատարում է նաև այն առաջադրանքները, որոնց համար նշված չէ կատարման սերվիսը։ Որպես կատարման սերվիս սահմանվում է ընթացիկ սերվիսը։ Հասանելի է միայն Debug ռեժիմում և նախատեսված է առաջադրանքների թեստավորման համար։ |
 
 </div>
 
@@ -813,13 +815,46 @@ Seq սերվերում գրանցումը ապահովելու համար անհ
 Սահմանում է ծրագրի աշխատանքի ընթացքում ստեղծվող ֆայլերի (Text reports, տպելու ձևանմուշներից առաջացած ֆայլեր, կամ այլ ֆայլեր) լոկալ պահպանման կարգավորումները։
 
 ```json
- "Storage": {
-     "BaseUri": "http://localhost:1026/",
-     "Directory": "C:\\Storage\\Files\\",
-     "Permanent": {
-         "Directory": "C:\\Storage\\PermanentFiles\\"
+"Storage": {
+    "Permanent": {
+        "Directory": "C:\\Storage\\PermanentFiles\\"
      }
- }
+}
+```
+
+```c#
+public async Task StoreSubstitutioninFile(Document document, string templateName,
+                                          SubstitutionType templateType, string mainPath)
+{
+    if (string.IsNullOrWhiteSpace(mainPath) || !Directory.Exists(mainPath))
+    {
+        throw new RESTException(LanguageService.IsArmenian ? ("Արտահանման ճանապարհը լրացված/հասանելի չէ:").ToArmenianANSI() : "Export path is not set/available.");
+    }
+
+    // հաշվարկում է տպելու ձևանմուշի լրացվող արժեքները 
+    var ts = await this.templateSubstitutionService.GetReadyTemplateSubstitution(
+        document, templateName, templateType, parameters: null);
+
+    // բեռնում է տպելու ձևանմուշի ֆայլը, լրացնում նախապես հաշվարկված տվյալներով և վերադարձնում որպես stream
+    using var stream = await this.templateSubstitutionService.LoadAndSubstitute(
+       ts.PrintTemplateSubstitution, templateName, templateType);
+
+    string fileName = document.ISN + "." + templateName + DateTime.Now.FormatDDMMYY();
+    // mainPath թղթապանակում ստեղծում է fileName անունով ֆայլ և լրացնում stream-ի պարունակությունը ֆայլում
+    await this.permanentStorageService.UploadBlobAsync(mainPath, fileName, stream);
+}
+```
+
+```c#
+var mainPath = await paramService.APPNTFPATH();
+if (string.IsNullOrWhiteSpace(mainPath) || !Directory.Exists(mainPath))
+{
+    throw new RESTException(LanguageService.IsArmenian ? ("Հայտերի ծանուցման արտահանման ճանապարհը լրացված/հասանելի չէ:").ToArmenianANSI() :
+                                                          "The applications notification export path is not set/available.");
+}
+
+var serverDate = await this.dbService.GetApproximateServerDate();
+var emailPath = Directory.CreateDirectory(mainPath + serverDate.FormatYYYYMMDD() + serverDate.FormatHHMMSS());
 ```
 
 **Պարամետրեր**

@@ -1,5 +1,5 @@
 ---
-title: IExecutionProgress.RecordInformation(string, int, string, int, Dictionary<string, object>) մեթոդ
+title: IExecutionProgress.RecordInformation(string, int, string, int, Dictionary<string, object>, bool) մեթոդ
 ---
 
 ## Նկարագիր
@@ -11,15 +11,15 @@ public void RecordInformation(string message,
                               int isn = -1, 
                               string rowDesc = "", 
                               int splitSize = -1,
-                              Dictionary<string, object> loggingAdditionalData = null);
+                              Dictionary<string, object> loggingAdditionalData = null,
+                              bool forceLogging = false);
 ```
 
 Ավելացնում է նոր տող [տեքստային հաշվետվությունում](../../TextReport.md), եթե մեթոդը չի կանչվել առաջադրանքի կատարման ժամանակ։ 
 
-Առաջադրանքի կատարման ընթացքում կանչի դեպքում միայն [Seq](https://datalust.co/)-ում ավելացվում է նոր իրադարձություն՝ նշված հաղորդագրությունով և Information լոգավորման մակարդակով, իսկ [տեքստային հաշվետվությունը](../../TextReport.md) մնում է անփոփոխ։
+Առաջադրանքի կատարման ընթացքում կանչի դեպքում միայն [Seq](https://datalust.co/)-ում ավելացվում է նոր լոգի իրադարձություն՝ նշված հաղորդագրությունով և Information լոգավորման մակարդակով, իսկ [տեքստային հաշվետվությունը](../../TextReport.md) մնում է անփոփոխ։
 
 **Պարամետրեր**
-
 
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն                                       |
 | -------- | ------------- | --------------- | ---------------------------------------------------- |
@@ -28,3 +28,4 @@ public void RecordInformation(string message,
 | rowDesc  | string        | ""               | Ավելացվող տողի նկարագրությունը։ Եթե արժեքը տրված է, ապա առաջադրանքի ժամանակ ավելացվող լոգի իրադարձությունում ավելացվում է RowDescription թեգը նշված արժեքով: |
 | splitSize  | int        | -1               | [Տեքստային հաշվետվությունում](../../TextReport.md) ավելացվող տողի մասնատման երկարությունը։ Նշված լինելու դեպքում տողը բաժանվում է նշված երկարությամբ մասերի և յուրաքանչյուրը ավելացվում է նոր տողից։ |
 | loggingAdditionalData  | Dictionary<string, object>        | null | Առաջադրանքի կատարման ընթացքում կանչի դեպքում լոգի իրարձությունում ավելացվող թեգ/արժեքների ցուցակը։ |
+| forceLogging  | bool        | false | Պարամետրի true արժեքի դեպքում տրված հաղորդությունները (**messages**) միշտ կլոգավորվեն` անկախ մեթոդի կանչի կոնտեքստից (առաջադրանքի կատարման ընթացքում և կատարումից դուրս)։ |
