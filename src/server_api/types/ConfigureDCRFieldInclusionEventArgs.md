@@ -1,6 +1,9 @@
 ---
-title: "ConfigureDCRFieldInclusionEventArgs դաս" 
+title: "ConfigureDCRFieldInclusionEventArgs դաս"
+nav_exclude: true
 ---
+
+# ConfigureDCRFieldInclusionEventArgs դաս
 
 ## Հատկություններ
 

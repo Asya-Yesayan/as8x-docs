@@ -1,6 +1,10 @@
 ---
-title: IParametersService.SetSerializedDefaultValue(string, string, bool, bool) մեթոդ  
+title: SetSerializedDefaultValue(string, string, bool, bool)
+parent: "Մեթոդներ"
+grand_parent: "IParametersService"
 ---
+
+# IParametersService.SetSerializedDefaultValue(string, string, bool, bool) մեթոդ
 
 ## Նկարագիր
 

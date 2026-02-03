@@ -1,7 +1,10 @@
 ---
 layout: page
-title: "HtmlImageOption" 
+title: "HtmlImageOption"
+nav_exclude: true
 ---
+
+# HtmlImageOption
 
 Այս enum-ը նախատեսված է Html տպելու ձևանմուշների լրացման ժամանակ պատկերների տեղադրման եղանակի սահմանման համար։
 

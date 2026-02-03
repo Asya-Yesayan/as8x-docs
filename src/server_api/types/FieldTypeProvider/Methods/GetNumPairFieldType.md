@@ -1,6 +1,9 @@
 ---
-title: FieldTypeProvider.GetNumPairFieldType(NumericFieldType, NumericFieldType, string, bool) մեթոդ
+title: GetNumPairFieldType(NumericFieldType, NumericFieldType, string, bool)
+nav_exclude: true
 ---
+
+# FieldTypeProvider.GetNumPairFieldType(NumericFieldType, NumericFieldType, string, bool) մեթոդ
 
 ```c#
 public static NumPairFieldType GetNumPairFieldType(NumericFieldType numericField1, NumericFieldType numericField2, string comment, bool isNullable = false)

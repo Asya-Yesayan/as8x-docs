@@ -1,6 +1,10 @@
 ---
-title: Document.Delete(DeleteEventArgs) մեթոդ
+title: Delete(DeleteEventArgs)
+parent: "Մեթոդներ"
+grand_parent: "Փաստաթուղթ"
 ---
+
+# Document.Delete(DeleteEventArgs) մեթոդ
 
 ## Նկարագիր
 

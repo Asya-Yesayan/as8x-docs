@@ -1,6 +1,10 @@
 ---
-title: Document.CancellationToken հատկություն
+title: CancellationToken
+parent: "Հատկություններ"
+grand_parent: "Փաստաթուղթ"
 ---
+
+# Document.CancellationToken հատկություն
 
 ## Նկարագիր
 

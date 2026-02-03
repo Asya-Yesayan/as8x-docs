@@ -1,6 +1,10 @@
 ---
-title: IUserService.GetList() մեթոդ  
+title: GetList()
+parent: "Մեթոդներ"
+grand_parent: "IUserService"
 ---
+
+# IUserService.GetList() մեթոդ
 
 ## Նկարագիր
 

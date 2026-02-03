@@ -1,6 +1,10 @@
 ---
-title: DataProcessingRequest.ArmenianCaption հատկություն
+title: ArmenianCaption
+parent: "Հատկություններ"
+grand_parent: "Տվյալների մշակման հարցում"
 ---
+
+# DataProcessingRequest.ArmenianCaption հատկություն
 
 ## Նկարագիր
 

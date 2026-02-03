@@ -1,6 +1,10 @@
 ---
-title: IFolderService.Exists(string) մեթոդ  
+title: Exists(string)
+parent: "Մեթոդներ"
+grand_parent: "IFolderService"
 ---
+
+# IFolderService.Exists(string) մեթոդ
 
 ## Նկարագիր
 

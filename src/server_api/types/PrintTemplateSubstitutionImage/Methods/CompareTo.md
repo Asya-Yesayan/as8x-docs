@@ -1,6 +1,9 @@
 ---
-title: PrintTemplateSubstitutionImage.CompareTo(PrintTemplateSubstitutionImage) մեթոդ
+title: CompareTo(PrintTemplateSubstitutionImage)
+nav_exclude: true
 ---
+
+# PrintTemplateSubstitutionImage.CompareTo(PrintTemplateSubstitutionImage) մեթոդ
 
 ```c#
 public int CompareTo(PrintTemplateSubstitutionImage other)

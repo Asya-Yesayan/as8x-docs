@@ -1,6 +1,10 @@
 ---
-title: Document.Origin հատկություն
+title: Origin
+parent: "Հատկություններ"
+grand_parent: "Փաստաթուղթ"
 ---
+
+# Document.Origin հատկություն
 
 ## Նկարագիր
 

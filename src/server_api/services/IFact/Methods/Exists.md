@@ -1,6 +1,10 @@
 ---
-title: IFactService.Exists(int, int, string, string, bool) մեթոդ
+title: Exists(int, int, string, string, bool)
+parent: "Մեթոդներ"
+grand_parent: "IFactService"
 ---
+
+# IFactService.Exists(int, int, string, string, bool) մեթոդ
 
 ## Նկարագիր
 

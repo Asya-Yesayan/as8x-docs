@@ -1,6 +1,9 @@
 ---
-title: DataSource.ExtenderSchema հատկություն
+title: ExtenderSchema
+nav_exclude: true
 ---
+
+# DataSource.ExtenderSchema հատկություն
 
 ```c#
 public ExtenderSchemaEx ExtenderSchema { get; set; }

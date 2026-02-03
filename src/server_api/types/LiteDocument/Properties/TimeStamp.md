@@ -1,6 +1,9 @@
 ---
-title: LiteDocument.TimeStamp հատկություն
+title: TimeStamp
+nav_exclude: true
 ---
+
+# LiteDocument.TimeStamp հատկություն
 
 ```c#
 byte[] IDocumentCache.TimeStamp { get; set; }

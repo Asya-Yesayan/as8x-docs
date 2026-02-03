@@ -1,6 +1,10 @@
 ---
-title: IDocumentService.GetPassedState մեթոդ
+title: GetPassedState
+parent: "Մեթոդներ"
+grand_parent: "IDocumentService"
 ---
+
+# IDocumentService.GetPassedState մեթոդ
 
 ## Նկարագիր
 

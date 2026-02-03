@@ -1,6 +1,10 @@
 ---
-title: IParametersService.DefaultBranch մեթոդ  
+title: DefaultBranch
+parent: "Մեթոդներ"
+grand_parent: "IParametersService"
 ---
+
+# IParametersService.DefaultBranch մեթոդ
 
 ## Գերբեռնումներ
 

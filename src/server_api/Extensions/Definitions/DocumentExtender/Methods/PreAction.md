@@ -1,6 +1,9 @@
 ---
-title: DocumentExtender.PreAction(Document, ActionEventArgs) մեթոդ
+title: PreAction(Document, ActionEventArgs)
+nav_exclude: true
 ---
+
+# DocumentExtender.PreAction(Document, ActionEventArgs) մեթոդ
 
 ## Նկարագիր
 

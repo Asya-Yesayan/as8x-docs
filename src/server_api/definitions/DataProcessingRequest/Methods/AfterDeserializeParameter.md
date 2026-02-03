@@ -1,6 +1,10 @@
 ---
-title: DataProcessingRequest.AfterDeserializeParameter(P, JsonElement) մեթոդ
+title: AfterDeserializeParameter(P, JsonElement)
+parent: "Մեթոդներ"
+grand_parent: "Տվյալների մշակման հարցում"
 ---
+
+# DataProcessingRequest.AfterDeserializeParameter(P, JsonElement) մեթոդ
 
 ## Նկարագիր
 

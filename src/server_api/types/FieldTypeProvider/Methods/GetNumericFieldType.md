@@ -1,6 +1,9 @@
 ---
-title: FieldTypeProvider.GetNumericFieldType(short, short, bool, string, bool) մեթոդ
+title: GetNumericFieldType(short, short, bool, string, bool)
+nav_exclude: true
 ---
+
+# FieldTypeProvider.GetNumericFieldType(short, short, bool, string, bool) մեթոդ
 
 ```c#
 public static NumericFieldType GetNumericFieldType(short fieldLength, short fractionalPartLength = 0,

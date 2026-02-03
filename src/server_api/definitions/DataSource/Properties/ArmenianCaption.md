@@ -1,6 +1,10 @@
 ---
-title: DataSource.ArmenianCaption հատկություն
+title: ArmenianCaption
+parent: "Հատկություններ"
+grand_parent: "Տվյալների աղբյուր"
 ---
+
+# DataSource.ArmenianCaption հատկություն
 
 ## Նկարագիր
 

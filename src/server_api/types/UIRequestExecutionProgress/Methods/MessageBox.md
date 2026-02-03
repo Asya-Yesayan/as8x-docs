@@ -1,6 +1,9 @@
 ---
-title: UIRequestExecutionProgress.MessageBox մեթոդ
+title: MessageBox
+nav_exclude: true
 ---
+
+# UIRequestExecutionProgress.MessageBox մեթոդ
 
 ## Գերբեռնումներ
 

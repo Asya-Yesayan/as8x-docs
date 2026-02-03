@@ -1,6 +1,10 @@
 ---
-title: TreeElementsService.GetTreeElements(int, Dictionary<string, TreeElement>, bool, bool) մեթոդ  
+title: GetTreeElements(int, Dictionary<string, TreeElement>, bool, bool)
+parent: "Մեթոդներ"
+grand_parent: "TreeElementsService"
 ---
+
+# TreeElementsService.GetTreeElements(int, Dictionary<string, TreeElement>, bool, bool) մեթոդ
 
 ## Նկարագիր
 

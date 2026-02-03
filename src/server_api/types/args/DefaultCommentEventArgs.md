@@ -1,7 +1,10 @@
 ---
 layout: page
-title: "DefaultCommentEventArgs դաս" 
+title: "DefaultCommentEventArgs դաս"
+nav_exclude: true
 ---
+
+# DefaultCommentEventArgs դաս
 
 Այս դասը օգտագործվում է [Document.DefaultComment](../../Definitions/Document/Methods/DefaultComment.md) մեթոդում։
 

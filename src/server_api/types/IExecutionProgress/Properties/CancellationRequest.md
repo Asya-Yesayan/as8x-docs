@@ -1,6 +1,9 @@
 ---
-title: IExecutionProgress.CancellationRequest հատկություն
+title: CancellationRequest
+nav_exclude: true
 ---
+
+# IExecutionProgress.CancellationRequest հատկություն
 
 ## Նկարագիր
 

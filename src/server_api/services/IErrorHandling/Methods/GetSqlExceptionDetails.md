@@ -1,6 +1,10 @@
 ---
-title: IErrorHandlingService.GetSqlExceptionDetails(SqlException) մեթոդ
+title: GetSqlExceptionDetails(SqlException)
+parent: "Մեթոդներ"
+grand_parent: "IErrorHandlingService"
 ---
+
+# IErrorHandlingService.GetSqlExceptionDetails(SqlException) մեթոդ
 
 ## Նկարագիր
 

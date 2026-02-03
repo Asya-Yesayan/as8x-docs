@@ -1,5 +1,7 @@
 ﻿---
-title: IAccountingService.GetLastHI2Rem(string, int, int) մեթոդ
+title: GetLastHI2Rem(string, int, int)
+parent: "Մեթոդներ"
+grand_parent: "IAccountingService"
 ---
 
 ## Նկարագիր

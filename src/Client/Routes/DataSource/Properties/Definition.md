@@ -1,6 +1,9 @@
 ---
-title: DataSource.Definition հատկություն
+title: Definition
+nav_exclude: true
 ---
+
+# DataSource.Definition հատկություն
 
 ```c#
 public DataSourceDefinition Definition { get; set; }

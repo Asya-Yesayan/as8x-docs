@@ -1,6 +1,9 @@
 ---
-title: LiteDocument.DocumentType հատկություն
+title: DocumentType
+nav_exclude: true
 ---
+
+# LiteDocument.DocumentType հատկություն
 
 ```c#
 public string DocumentType { get; }

@@ -1,6 +1,10 @@
 ---
-title: IFolderService.GetElement մեթոդ  
+title: GetElement
+parent: "Մեթոդներ"
+grand_parent: "IFolderService"
 ---
+
+# IFolderService.GetElement մեթոդ
 
 ## Նկարագիր
 

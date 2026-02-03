@@ -5,7 +5,10 @@ sublinks:
 - { title: "Ինչ է Api Client-ը", ref: ինչ-է-api-client-ը }
 - { title: "Մանիֆեստ, manifest.json", ref: մանիֆեստ }
 - { title: "Մանիֆեստի օրինակ, manifest.json", ref: մանիֆեստի-օրինակ }
+nav_exclude: true
 ---
+
+# API Client-ի ստեղծում
 
 ## Բովանդակություն
 

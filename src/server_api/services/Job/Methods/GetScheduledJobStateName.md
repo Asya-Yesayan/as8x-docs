@@ -1,6 +1,10 @@
 ---
-title: JobService.GetScheduledJobStateName(int) մեթոդ
+title: GetScheduledJobStateName(int)
+parent: "Մեթոդներ"
+grand_parent: JobService
 ---
+
+# JobService.GetScheduledJobStateName(int) մեթոդ
 
 ```c#
 public Task<byte> GetScheduledJobState(int scheduledId)
@@ -12,10 +16,10 @@ public Task<byte> GetScheduledJobState(int scheduledId)
 * **0** - հերթագրված,
 * **1** - կատարման ընթացքում,
 * **2** - բարեհաջող կատարված,
-* **3** - ձախողված,
-* **4** - ընդհատված օգտագործողի կողմից։
+* **3** - ձախողված։
 
 **Պարամետրեր**
+
 
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | **Նկարագրություն** |
 | --- | --- | --- | --- |

@@ -1,6 +1,9 @@
 ---
 title: ProgressPhase դաս
+nav_exclude: true
 ---
+
+# ProgressPhase դաս
 
 ## Ներածություն
 

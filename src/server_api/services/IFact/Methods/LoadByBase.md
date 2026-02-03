@@ -1,6 +1,10 @@
 ---
-title: IFactService.LoadByBase(int, string, string, bool) մեթոդ
+title: LoadByBase(int, string, string, bool)
+parent: "Մեթոդներ"
+grand_parent: "IFactService"
 ---
+
+# IFactService.LoadByBase(int, string, string, bool) մեթոդ
 
 ## Նկարագիր
 

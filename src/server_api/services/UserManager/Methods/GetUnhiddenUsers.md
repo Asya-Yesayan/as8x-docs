@@ -1,6 +1,12 @@
 ---
-title: UserManagerService․GetUnhiddenUsers() մեթոդ
+title: GetUnhiddenUsers()
+parent: "Մեթոդներ"
+grand_parent: "UserManagerService"
+
 ---
+
+# UserManagerService․GetUnhiddenUsers() մեթոդ
+
  
 ## Նկարագիր
 

@@ -1,6 +1,10 @@
 ---
-title: DataSource.AfterDataReaderCloseMode հատկություն
+title: AfterDataReaderCloseMode
+parent: "Հատկություններ"
+grand_parent: "Տվյալների աղբյուր"
 ---
+
+# DataSource.AfterDataReaderCloseMode հատկություն
 
 ## Նկարագիր
 

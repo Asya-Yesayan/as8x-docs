@@ -1,6 +1,9 @@
 ---
-title: DataSource.FetchSize հատկություն
+title: FetchSize
+nav_exclude: true
 ---
+
+# DataSource.FetchSize հատկություն
 
 ```c#
 public int FetchSize { get; set; }

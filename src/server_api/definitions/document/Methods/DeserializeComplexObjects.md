@@ -1,6 +1,10 @@
 ---
-title: Document.DeserializeComplexObjects(DeserializeComplexObjectsEventArgs) մեթոդ
+title: DeserializeComplexObjects(DeserializeComplexObjectsEventArgs)
+parent: "Մեթոդներ"
+grand_parent: "Փաստաթուղթ"
 ---
+
+# Document.DeserializeComplexObjects(DeserializeComplexObjectsEventArgs) մեթոդ
 
 ## Նկարագիր
 

@@ -1,6 +1,10 @@
 ---
-title: Document.IsLogged հատկություն
+title: IsLogged
+parent: "Հատկություններ"
+grand_parent: "Փաստաթուղթ"
 ---
+
+# Document.IsLogged հատկություն
 
 ## Նկարագիր
 

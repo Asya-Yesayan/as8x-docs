@@ -1,6 +1,9 @@
 ---
-title: LiteDocument.State հատկություն
+title: State
+nav_exclude: true
 ---
+
+# LiteDocument.State հատկություն
 
 ```c#
 public short State { get; set; }

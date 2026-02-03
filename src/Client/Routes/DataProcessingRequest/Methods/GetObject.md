@@ -1,6 +1,9 @@
 ---
-title: DataProcessingRequestRoutes.GetObject(DPRType, string) մեթոդ
+title: GetObject(DPRType, string)
+nav_exclude: true
 ---
+
+# DataProcessingRequestRoutes.GetObject(DPRType, string) մեթոդ
 
 ```c#
 public DPRInfoExtended GetObject(DPRType type, 

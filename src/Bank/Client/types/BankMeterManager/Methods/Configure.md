@@ -1,6 +1,9 @@
 ---
-title: BankMeterManager.Configure(IParametersService) մեթոդ
+title: Configure(IParametersService)
+nav_exclude: true
 ---
+
+# BankMeterManager.Configure(IParametersService) մեթոդ
 
 ```c#
 protected override void Configure(IParametersService parametersService)

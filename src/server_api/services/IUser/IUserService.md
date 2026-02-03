@@ -1,6 +1,10 @@
 ---
-title: "IUserService սերվիս"
+title: "IUserService"
+parent: "Սերվիսներ"
+nav_order: 2
 ---
+
+# IUserService սերվիս
 
 ## Ներածություն
 

@@ -1,6 +1,9 @@
 ---
-title: TemplateSubstitution.AddImage(string) մեթոդ
+title: AddImage(string)
+nav_exclude: true
 ---
+
+# TemplateSubstitution.AddImage(string) մեթոդ
 
 ```c#
 public PrintTemplateSubstitutionImage AddImage(string name)

@@ -7,7 +7,10 @@ sublinks:
 - { title: "LongExecuteAsync", ref: օրինակ-2 }
 - { title: "Տիպիզացված", ref: օրինակ-3 }
 - { title: "DSDefinitionsCache", ref: օրինակ-4 }
+nav_exclude: true
 ---
+
+# Տվյալների աղբյուրի կլիենտից կանչի օրինակ
 
 ## Բովանդակություն
 

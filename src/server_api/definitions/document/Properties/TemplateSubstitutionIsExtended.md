@@ -1,6 +1,10 @@
 ---
-title: Document.TemplateSubstitutionIsExtended հատկություն
+title: TemplateSubstitutionIsExtended
+parent: "Հատկություններ"
+grand_parent: "Փաստաթուղթ"
 ---
+
+# Document.TemplateSubstitutionIsExtended հատկություն
 
 ## Նկարագիր
 

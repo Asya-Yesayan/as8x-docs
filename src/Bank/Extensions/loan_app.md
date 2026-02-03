@@ -4,6 +4,7 @@ sublinks:
 - { title: "Յուրահատուկ անցման տեսակի նվազագույն օրինակ", ref: յուրահատուկ-անցման-տեսակի-նվազագույն-օրինակ }
 - { title: "Ինյեկցիաայի օրինակ", ref: ինյեկցիաայի-օրինակ }
 - { title: "Օրինակներ", ref: օրինակներ }
+nav_exclude: true
 ---
 
 <div class="version-block" data-product-id="bank" data-version="250626.000, 250929.000" markdown="1">

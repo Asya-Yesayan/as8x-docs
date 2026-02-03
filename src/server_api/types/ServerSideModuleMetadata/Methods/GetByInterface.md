@@ -1,6 +1,9 @@
 ---
-title: ServerSideModuleMetadata.GetByInterface() մեթոդ
+title: GetByInterface()
+nav_exclude: true
 ---
+
+# ServerSideModuleMetadata.GetByInterface() մեթոդ
 
 ```c#
 public IReadOnlyDictionary<string, Type> GetByInterface<T>()

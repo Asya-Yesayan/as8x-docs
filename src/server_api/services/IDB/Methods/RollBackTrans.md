@@ -1,6 +1,10 @@
 ---
-title: IDBService.RollBackTrans() մեթոդ
+title: RollBackTrans()
+parent: "Մեթոդներ"
+grand_parent: "IDBService"
 ---
+
+# IDBService.RollBackTrans() մեթոդ
 
 ## Նկարագիր
 

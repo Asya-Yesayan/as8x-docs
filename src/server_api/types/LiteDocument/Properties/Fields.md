@@ -1,6 +1,9 @@
 ---
-title: LiteDocument.Fields հատկություն
+title: Fields
+nav_exclude: true
 ---
+
+# LiteDocument.Fields հատկություն
 
 ```c#
 public Dictionary<string, object> Fields { get; private set; }

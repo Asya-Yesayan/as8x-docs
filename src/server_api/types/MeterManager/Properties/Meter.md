@@ -1,6 +1,9 @@
 ---
-title: MeterManager.Meter հատկություն
+title: Meter
+nav_exclude: true
 ---
+
+# MeterManager.Meter հատկություն
 
 ```c#
 protected internal Meter Meter { get; } = meterFactory.Create(Settings.GetServiceName());

@@ -1,6 +1,10 @@
 ---
-title: Document.LastFixedState հատկություն
+title: LastFixedState
+parent: "Հատկություններ"
+grand_parent: "Փաստաթուղթ"
 ---
+
+# Document.LastFixedState հատկություն
 
 ## Նկարագիր
 

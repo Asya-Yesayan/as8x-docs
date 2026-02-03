@@ -1,6 +1,10 @@
 ---
-title: IOlapDBService.RollBackTrans() մեթոդ  
+title: RollBackTrans()
+parent: "Մեթոդներ"
+grand_parent: "IOlapDBService"
 ---
+
+# IOlapDBService.RollBackTrans() մեթոդ
 
 ## Նկարագիր
 

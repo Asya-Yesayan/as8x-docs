@@ -1,6 +1,9 @@
 ---
 title: TemplateSubstitutionEventArgs.AddSubstitutedFile(StorageInfo) մեթոդ
+nav_exclude: true
 ---
+
+# TemplateSubstitutionEventArgs.AddSubstitutedFile(StorageInfo) մեթոդ
 
 ## Նկարագիր
 

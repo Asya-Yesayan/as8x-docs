@@ -1,6 +1,12 @@
 ---
-title: UserManagerService․GetAccessibleRoles(short) մեթոդ
+title: GetAccessibleRoles(short)
+parent: "Մեթոդներ"
+grand_parent: "UserManagerService"
+
 ---
+
+# UserManagerService․GetAccessibleRoles(short) մեթոդ
+
  
 ## Նկարագիր
 

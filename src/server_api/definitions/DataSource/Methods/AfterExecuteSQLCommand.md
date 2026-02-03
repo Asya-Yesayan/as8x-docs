@@ -1,6 +1,10 @@
 ---
-title: DataSource.AfterExecuteSQLCommand(DataSourceArgs<P>, SqlDataReader) մեթոդ
+title: AfterExecuteSQLCommand(DataSourceArgs<P>, SqlDataReader)
+parent: "Մեթոդներ"
+grand_parent: "Տվյալների աղբյուր"
 ---
+
+# DataSource.AfterExecuteSQLCommand(DataSourceArgs<P>, SqlDataReader) մեթոդ
 
 ## Նկարագիր
 

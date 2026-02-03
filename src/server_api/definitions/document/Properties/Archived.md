@@ -1,6 +1,10 @@
 ---
-title: Document.Archived հատկություն
+title: Archived
+parent: "Հատկություններ"
+grand_parent: "Փաստաթուղթ"
 ---
+
+# Document.Archived հատկություն
 
 ## Նկարագիր
 

@@ -1,6 +1,10 @@
 ---
-title: IAttachmentService.GetContent(int, string) մեթոդ
+title: GetContent(int, string)
+parent: "Մեթոդներ"
+grand_parent: "IAttachmentService"
 ---
+
+# IAttachmentService.GetContent(int, string) մեթոդ
 
 ## Նկարագիր
 

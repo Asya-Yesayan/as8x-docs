@@ -1,6 +1,10 @@
 ---
-title: Document.SetImage(string, byte[]) մեթոդ
+title: SetImage(string, byte[])
+parent: "Մեթոդներ"
+grand_parent: "Փաստաթուղթ"
 ---
+
+# Document.SetImage(string, byte[]) մեթոդ
 
 ## Նկարագիր
 

@@ -1,6 +1,10 @@
 ---
-title: TreeEventHandler.BeforeDeleteNode(BeforeDeleteNodeEventArgs) մեթոդ
+title: BeforeDeleteNode(BeforeDeleteNodeEventArgs)
+parent: "Մեթոդներ"
+grand_parent: "TreeEventHandler"
 ---
+
+# TreeEventHandler.BeforeDeleteNode(BeforeDeleteNodeEventArgs) մեթոդ
 
 ```c#
 public virtual Task BeforeDeleteNode(BeforeDeleteNodeEventArgs args)

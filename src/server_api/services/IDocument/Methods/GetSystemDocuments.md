@@ -1,6 +1,10 @@
 ---
-title: IDocumentService.GetSystemDocuments() մեթոդ
+title: GetSystemDocuments()
+parent: "Մեթոդներ"
+grand_parent: "IDocumentService"
 ---
+
+# IDocumentService.GetSystemDocuments() մեթոդ
 
 ## Նկարագիր
 

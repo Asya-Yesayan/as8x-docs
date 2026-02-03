@@ -1,6 +1,9 @@
 ---
-title: DocumentRoutes.LoadFromFolderAsync(string, string, bool, CancellationToken) մեթոդ
+title: LoadFromFolderAsync(string, string, bool, CancellationToken)
+nav_exclude: true
 ---
+
+# DocumentRoutes.LoadFromFolderAsync(string, string, bool, CancellationToken) մեթոդ
 
 ```c#
 public Task<DocumentModel> LoadFromFolderAsync(string folder, 

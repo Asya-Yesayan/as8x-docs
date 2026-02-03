@@ -1,6 +1,11 @@
 ---
-title: RODocumentService.LookUpInCache մեթոդ  
+title: LookUpInCache
+parent: "Մեթոդներ"
+grand_parent: "RODocumentService"
+
 ---
+
+# RODocumentService.LookUpInCache մեթոդ
 
 ## Գերբեռնումներ
 

@@ -1,6 +1,10 @@
 ---
-title: IFolderService.GetISN(string, string) մեթոդ  
+title: GetISN(string, string)
+parent: "Մեթոդներ"
+grand_parent: "IFolderService"
 ---
+
+# IFolderService.GetISN(string, string) մեթոդ
 
 ## Նկարագիր
 

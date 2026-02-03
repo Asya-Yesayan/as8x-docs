@@ -1,6 +1,10 @@
 ---
-title: Document.StoreMode հատկություն
+title: StoreMode
+parent: "Հատկություններ"
+grand_parent: "Փաստաթուղթ"
 ---
+
+# Document.StoreMode հատկություն
 
 ## Նկարագիր
 

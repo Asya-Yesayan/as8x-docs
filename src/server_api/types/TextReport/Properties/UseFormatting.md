@@ -1,6 +1,9 @@
 ---
-title: TextReport.UseFormatting հատկություն
+title: UseFormatting
+nav_exclude: true
 ---
+
+# TextReport.UseFormatting հատկություն
 
 ```c#
 public bool UseFormatting { get; set; }

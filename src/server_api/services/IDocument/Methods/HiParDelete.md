@@ -1,6 +1,10 @@
 ---
-title: IDocumentService.HiParDelete(Document) մեթոդ
+title: HiParDelete(Document)
+parent: "Մեթոդներ"
+grand_parent: "IDocumentService"
 ---
+
+# IDocumentService.HiParDelete(Document) մեթոդ
 
 ## Նկարագիր
 

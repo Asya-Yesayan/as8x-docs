@@ -1,6 +1,10 @@
 ---
-title: IDocumentService.StoreInTree(Document, TreeElement) մեթոդ
+title: StoreInTree(Document, TreeElement)
+parent: "Մեթոդներ"
+grand_parent: "IDocumentService"
 ---
+
+# IDocumentService.StoreInTree(Document, TreeElement) մեթոդ
 
 ## Նկարագիր
 

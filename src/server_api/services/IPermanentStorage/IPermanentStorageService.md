@@ -1,6 +1,10 @@
 ---
-title: "IPermanentStorageService սերվիս"
+title: "IPermanentStorageService"
+parent: "Սերվիսներ"
+nav_order: 2
 ---
+
+# IPermanentStorageService սերվիս
 
 ## Ներածություն
 

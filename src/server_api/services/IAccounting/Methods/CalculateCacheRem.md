@@ -1,5 +1,7 @@
 ﻿---
-title: IAccountingService.CalculateCacheRem(string, int) մեթոդ
+title: CalculateCacheRem(string, int)
+parent: "Մեթոդներ"
+grand_parent: "IAccountingService"
 ---
 
 ## Նկարագիր

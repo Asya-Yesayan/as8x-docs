@@ -1,6 +1,9 @@
 ---
-title: DataProcessingRequestRoutes.GetListAsync մեթոդ
+title: GetListAsync
+nav_exclude: true
 ---
+
+# DataProcessingRequestRoutes.GetListAsync մեթոդ
 
 ## Գերբեռնումներ
 

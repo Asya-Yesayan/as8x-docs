@@ -1,6 +1,10 @@
 ---
-title: IFactService.LastDate(string, int, DateTime?, string) մեթոդ
+title: LastDate(string, int, DateTime?, string)
+parent: "Մեթոդներ"
+grand_parent: "IFactService"
 ---
+
+# IFactService.LastDate(string, int, DateTime?, string) մեթոդ
 
 ## Նկարագիր
 

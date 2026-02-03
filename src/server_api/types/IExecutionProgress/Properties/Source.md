@@ -1,6 +1,9 @@
 ---
-title: IExecutionProgress.Source հատկություն
+title: Source
+nav_exclude: true
 ---
+
+# IExecutionProgress.Source հատկություն
 
 ## Նկարագիր
 

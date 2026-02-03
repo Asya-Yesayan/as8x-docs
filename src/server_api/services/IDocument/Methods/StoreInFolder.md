@@ -1,6 +1,10 @@
 ---
-title: IDocumentService.StoreInFolder(Document, FolderElement) մեթոդ
+title: StoreInFolder(Document, FolderElement)
+parent: "Մեթոդներ"
+grand_parent: "IDocumentService"
 ---
+
+# IDocumentService.StoreInFolder(Document, FolderElement) մեթոդ
 
 ## Նկարագիր
 

@@ -1,6 +1,10 @@
 ---
-title: IProcessServerClient.Enqueue(DPR.Descriptor, object, bool, IServiceProvider, Dictionary<int, UIRequestResultBase>, string, bool) մեթոդ  
+title: Enqueue(DPR.Descriptor, object, bool, IServiceProvider, Dictionary<int, UIRequestResultBase>, string, bool)
+parent: "Մեթոդներ"
+grand_parent: "IProcessServerClient"
 ---
+
+# IProcessServerClient.Enqueue(DPR.Descriptor, object, bool, IServiceProvider, Dictionary<int, UIRequestResultBase>, string, bool) մեթոդ
 
 ## Նկարագիր
 

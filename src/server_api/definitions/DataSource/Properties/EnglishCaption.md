@@ -1,6 +1,10 @@
 ---
-title: DataSource.EnglishCaption հատկություն
+title: EnglishCaption
+parent: "Հատկություններ"
+grand_parent: "Տվյալների աղբյուր"
 ---
+
+# DataSource.EnglishCaption հատկություն
 
 ## Նկարագիր
 

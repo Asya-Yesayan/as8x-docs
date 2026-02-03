@@ -1,7 +1,10 @@
 ---
 layout: page
-title: "BeforeImportProcessingEventArgs դաս" 
+title: "BeforeImportProcessingEventArgs դաս"
+nav_exclude: true
 ---
+
+# BeforeImportProcessingEventArgs դաս
 
 Այս դասը օգտագործվում է [Document.BeforeImportProcessing](../../Definitions/Document/Methods/BeforeImportProcessing.md) մեթոդում։
 

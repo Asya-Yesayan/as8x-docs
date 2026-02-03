@@ -1,6 +1,9 @@
 ---
-title: TextReport.ArmenianCaption հատկություն
+title: ArmenianCaption
+nav_exclude: true
 ---
+
+# TextReport.ArmenianCaption հատկություն
 
 ```c#
 public string ArmenianCaption { get; set; } = string.Empty;

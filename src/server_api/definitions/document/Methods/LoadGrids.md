@@ -1,6 +1,10 @@
 ---
-title: Document.LoadGrids(LoadGridsEventArgs) մեթոդ
+title: LoadGrids(LoadGridsEventArgs)
+parent: "Մեթոդներ"
+grand_parent: "Փաստաթուղթ"
 ---
+
+# Document.LoadGrids(LoadGridsEventArgs) մեթոդ
 
 ## Նկարագիր
 

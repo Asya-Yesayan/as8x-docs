@@ -1,6 +1,10 @@
 ---
-title: IDocumentService.CheckTransactionExistence(string, int, int) մեթոդ
+title: CheckTransactionExistence(string, int, int)
+parent: "Մեթոդներ"
+grand_parent: "IDocumentService"
 ---
+
+# IDocumentService.CheckTransactionExistence(string, int, int) մեթոդ
 
 ## Նկարագիր
 

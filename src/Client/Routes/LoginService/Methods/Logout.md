@@ -1,6 +1,9 @@
 ---
-title: LoginService.Logout() մեթոդ
+title: Logout()
+nav_exclude: true
 ---
+
+# LoginService.Logout() մեթոդ
 
 ```c#
 public void Logout()

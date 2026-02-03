@@ -2,7 +2,10 @@
 layout: page
 title: "Հաշվառման ընդլայնման ձեռնարկ" 
 tags: [AccountingExtender, AccExtender]
+nav_exclude: true
 ---
+
+# Հաշվառման ընդլայնման ձեռնարկ
 
 ## Բովանդակություն
 

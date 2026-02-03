@@ -1,6 +1,10 @@
 ---
-title: TreeElementsService.DeleteNode(string, string) մեթոդ  
+title: DeleteNode(string, string)
+parent: "Մեթոդներ"
+grand_parent: "TreeElementsService"
 ---
+
+# TreeElementsService.DeleteNode(string, string) մեթոդ
 
 ## Նկարագիր
 

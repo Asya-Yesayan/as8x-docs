@@ -1,6 +1,9 @@
 ---
-title: DocumentRoutes.Create(string, DocumentCreateRequestModel) մեթոդ
+title: Create(string, DocumentCreateRequestModel)
+nav_exclude: true
 ---
+
+# DocumentRoutes.Create(string, DocumentCreateRequestModel) մեթոդ
 
 ```c#
 public DocumentModelSimple Create(string type, 

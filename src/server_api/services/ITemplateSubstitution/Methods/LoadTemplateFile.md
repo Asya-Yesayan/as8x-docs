@@ -1,6 +1,10 @@
 ---
-title: ITemplateSubstitutionService.LoadTemplateFile(string, SubstitutionType) մեթոդ  
+title: LoadTemplateFile(string, SubstitutionType)
+parent: "Մեթոդներ"
+grand_parent: "ITemplateSubstitutionService"
 ---
+
+# ITemplateSubstitutionService.LoadTemplateFile(string, SubstitutionType) մեթոդ
 
 ## Նկարագիր
 

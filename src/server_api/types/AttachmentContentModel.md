@@ -1,7 +1,10 @@
 ---
 layout: page
-title: "AttachmentContentModel" 
+title: "AttachmentContentModel"
+nav_exclude: true
 ---
+
+# AttachmentContentModel
 
 Դասը պարունակում է փաստաթղթին կցված ֆայլի պարունակությունը փոխելու տվյալներ։
 

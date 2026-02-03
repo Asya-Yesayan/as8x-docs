@@ -2,6 +2,7 @@
 sublinks:
 - { title: "Օրինակ CreatePhysicalClientByFullData", ref: օրինակ-1 }
 - { title: "Օրինակ CreateClientFromEkeng", ref: օրինակ-2 }
+nav_exclude: true
 ---
 
 <div class="version-block" data-product-id="bank" data-version="250626.000, 250929.000" markdown="1">

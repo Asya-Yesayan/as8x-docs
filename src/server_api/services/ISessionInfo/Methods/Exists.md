@@ -1,6 +1,10 @@
 ---
-title: ISessionInfoService.Exists(string) մեթոդ
+title: Exists(string)
+parent: "Մեթոդներ"
+grand_parent: "ISessionInfoService"
 ---
+
+# ISessionInfoService.Exists(string) մեթոդ
 
 ```c#
 public bool Exists(string guid)

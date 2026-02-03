@@ -1,6 +1,10 @@
 ---
-title: IErrorHandlingService.GetSqlRelatedException(SqlException, string, bool) մեթոդ
+title: GetSqlRelatedException(SqlException, string, bool)
+parent: "Մեթոդներ"
+grand_parent: "IErrorHandlingService"
 ---
+
+# IErrorHandlingService.GetSqlRelatedException(SqlException, string, bool) մեթոդ
 
 ## Նկարագիր
 

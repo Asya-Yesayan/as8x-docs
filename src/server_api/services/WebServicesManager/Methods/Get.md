@@ -1,6 +1,10 @@
 ---
-title: WebServicesManager.Get(string, string) մեթոդ
+title: Get(string, string)
+parent: "Մեթոդներ"
+grand_parent: "WebServicesManager"
 ---
+
+# WebServicesManager.Get(string, string) մեթոդ
 
 ```c#
 public async Task<List<WebServiceInfo>> Get(string id = null, string role = null)

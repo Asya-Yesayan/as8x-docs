@@ -1,6 +1,10 @@
 ---
-title: DataSource.IsSQLBased հատկություն
+title: IsSQLBased
+parent: "Հատկություններ"
+grand_parent: "Տվյալների աղբյուր"
 ---
+
+# DataSource.IsSQLBased հատկություն
 
 ## Նկարագիր
 

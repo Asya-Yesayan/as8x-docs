@@ -1,6 +1,10 @@
 ---
-title: Document.Grid(string) մեթոդ
+title: Grid(string)
+parent: "Մեթոդներ"
+grand_parent: "Փաստաթուղթ"
 ---
+
+# Document.Grid(string) մեթոդ
 
 ## Նկարագիր
 

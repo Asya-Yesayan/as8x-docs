@@ -1,6 +1,9 @@
 ---
-title: LiteDocument.Description հատկություն
+title: Description
+nav_exclude: true
 ---
+
+# LiteDocument.Description հատկություն
 
 ```c#
 public DocumentDescription Description { get; internal set; }

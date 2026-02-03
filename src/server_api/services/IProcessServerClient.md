@@ -1,6 +1,10 @@
 ---
-title: "IProcessServerClient սերվիս"
+title: "IProcessServerClient"
+parent: "Սերվիսներ"
+nav_order: 2
 ---
+
+# IProcessServerClient սերվիս
 
 ## Ներածություն
 

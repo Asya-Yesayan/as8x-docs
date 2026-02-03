@@ -1,6 +1,9 @@
 ---
-title: PrintTemplateSubstitutionImage.File հատկություն
+title: File
+nav_exclude: true
 ---
+
+# PrintTemplateSubstitutionImage.File հատկություն
 
 ```c#
 public byte[] File { get; set; }

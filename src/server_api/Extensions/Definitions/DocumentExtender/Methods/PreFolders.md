@@ -1,6 +1,9 @@
 ---
-title: DocumentExtender.PreFolders(Document, FoldersEventArgs) մեթոդ
+title: PreFolders(Document, FoldersEventArgs)
+nav_exclude: true
 ---
+
+# DocumentExtender.PreFolders(Document, FoldersEventArgs) մեթոդ
 
 ## Նկարագիր
 

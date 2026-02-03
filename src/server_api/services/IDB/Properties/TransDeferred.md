@@ -1,6 +1,10 @@
 ---
-title: IDBService.TransDeferred հատկություն
+title: TransDeferred
+parent: "Հատկություններ"
+grand_parent: "IDBService"
 ---
+
+# IDBService.TransDeferred հատկություն
 
 ## Նկարագիր
 

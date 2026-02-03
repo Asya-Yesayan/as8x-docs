@@ -1,6 +1,9 @@
 ---
-title: TextReport.AddFragment(int) մեթոդ
+title: AddFragment(int)
+nav_exclude: true
 ---
+
+# TextReport.AddFragment(int) մեթոդ
 
 ```c#
 public void AddFragment(int width)

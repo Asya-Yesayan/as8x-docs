@@ -1,6 +1,9 @@
 ---
 title: UIRequestExecutionProgress դաս
+nav_exclude: true
 ---
+
+# UIRequestExecutionProgress դաս
 
 ## Ներածություն
 

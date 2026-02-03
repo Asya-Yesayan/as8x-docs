@@ -1,6 +1,10 @@
 ---
-title: Document.GridsInitialized հատկություն
+title: GridsInitialized
+parent: "Հատկություններ"
+grand_parent: "Փաստաթուղթ"
 ---
+
+# Document.GridsInitialized հատկություն
 
 ## Նկարագիր
 

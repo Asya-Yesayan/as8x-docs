@@ -1,6 +1,10 @@
 ---
-title: IHolidaysService.IsHoliday(DateTime) մեթոդ  
+title: IsHoliday(DateTime)
+parent: "Մեթոդներ"
+grand_parent: "IHolidaysService"
 ---
+
+# IHolidaysService.IsHoliday(DateTime) մեթոդ
 
 ## Նկարագիր
 

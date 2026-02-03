@@ -1,6 +1,10 @@
 ---
-title: DataSource.SupportsSnapshotIsolation հատկություն
+title: SupportsSnapshotIsolation
+parent: "Հատկություններ"
+grand_parent: "Տվյալների աղբյուր"
 ---
+
+# DataSource.SupportsSnapshotIsolation հատկություն
 
 ## Նկարագիր
 

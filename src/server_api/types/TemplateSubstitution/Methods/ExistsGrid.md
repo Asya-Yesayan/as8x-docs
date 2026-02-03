@@ -1,6 +1,9 @@
 ---
-title: TemplateSubstitution.ExistsGrid(string) մեթոդ
+title: ExistsGrid(string)
+nav_exclude: true
 ---
+
+# TemplateSubstitution.ExistsGrid(string) մեթոդ
 
 ```c#
 public bool ExistsGrid(string name)

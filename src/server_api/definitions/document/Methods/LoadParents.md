@@ -1,6 +1,10 @@
 ---
-title: Document.LoadParents() մեթոդ
+title: LoadParents()
+parent: "Մեթոդներ"
+grand_parent: "Փաստաթուղթ"
 ---
+
+# Document.LoadParents() մեթոդ
 
 ## Նկարագիր
 

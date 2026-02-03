@@ -1,6 +1,9 @@
 ---
-title: LoginService.MustChangePassword հատկություն
+title: MustChangePassword
+nav_exclude: true
 ---
+
+# LoginService.MustChangePassword հատկություն
 
 ```c#
 public bool MustChangePassword { get; private set; }

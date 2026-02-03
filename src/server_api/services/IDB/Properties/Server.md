@@ -1,6 +1,10 @@
 ---
-title: IDBService.Server հատկություն
+title: Server
+parent: "Հատկություններ"
+grand_parent: "IDBService"
 ---
+
+# IDBService.Server հատկություն
 
 ## Նկարագիր
 

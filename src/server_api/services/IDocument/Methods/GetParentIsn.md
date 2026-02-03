@@ -1,6 +1,10 @@
 ---
-title: IDocumentService.GetParentIsn մեթոդ
+title: GetParentIsn
+parent: "Մեթոդներ"
+grand_parent: "IDocumentService"
 ---
+
+# IDocumentService.GetParentIsn մեթոդ
 
 ## Նկարագիր
 

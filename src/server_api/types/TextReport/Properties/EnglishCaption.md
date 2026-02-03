@@ -1,6 +1,9 @@
 ---
-title: TextReport.EnglishCaption հատկություն
+title: EnglishCaption
+nav_exclude: true
 ---
+
+# TextReport.EnglishCaption հատկություն
 
 ```c#
 public string EnglishCaption { get; set; } = string.Empty;

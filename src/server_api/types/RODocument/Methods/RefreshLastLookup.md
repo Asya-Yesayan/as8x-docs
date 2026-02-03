@@ -1,6 +1,9 @@
 ---
-title: RODocument.RefreshLastLookup() մեթոդ
+title: RefreshLastLookup()
+nav_exclude: true
 ---
+
+# RODocument.RefreshLastLookup() մեթոդ
 
 ```c#
 public void RefreshLastLookup();

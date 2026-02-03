@@ -1,6 +1,9 @@
 ---
-title: DocumentRoutes.GetChildrenAsync(int, string, DocumentOrder, string, CancellationToken) մեթոդ
+title: GetChildrenAsync(int, string, DocumentOrder, string, CancellationToken)
+nav_exclude: true
 ---
+
+# DocumentRoutes.GetChildrenAsync(int, string, DocumentOrder, string, CancellationToken) մեթոդ
 
 ```c#
 public Task<List<DocumentResponseInfo>> GetChildrenAsync(int isn, 

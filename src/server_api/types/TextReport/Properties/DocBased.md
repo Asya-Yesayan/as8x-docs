@@ -1,6 +1,9 @@
 ---
-title: TextReport.DocBased հատկություն
+title: DocBased
+nav_exclude: true
 ---
+
+# TextReport.DocBased հատկություն
 
 ```c#
 public bool DocBased { get; set; }

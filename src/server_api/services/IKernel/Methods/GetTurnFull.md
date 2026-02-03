@@ -1,6 +1,10 @@
 ---
-title: IKernelService.GetTurnFull(string, int, DateTime, DateTime) մեթոդ  
+title: GetTurnFull(string, int, DateTime, DateTime)
+parent: "Մեթոդներ"
+grand_parent: "IKernelService"
 ---
+
+# IKernelService.GetTurnFull(string, int, DateTime, DateTime) մեթոդ
 
 ## Նկարագիր
 

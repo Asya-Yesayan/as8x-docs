@@ -1,6 +1,9 @@
 ---
-title: LoginService.RefreshTokenValidToUTC հատկություն
+title: RefreshTokenValidToUTC
+nav_exclude: true
 ---
+
+# LoginService.RefreshTokenValidToUTC հատկություն
 
 ```c#
 public DateTime RefreshTokenValidToUTC { get; private set; }

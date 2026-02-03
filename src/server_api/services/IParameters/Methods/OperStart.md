@@ -1,6 +1,10 @@
 ---
-title: IParametersService.OperStart մեթոդ  
+title: OperStart
+parent: "Մեթոդներ"
+grand_parent: "IParametersService"
 ---
+
+# IParametersService.OperStart մեթոդ
 
 ## Գերբեռնումներ
 

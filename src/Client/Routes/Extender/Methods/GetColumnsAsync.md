@@ -1,6 +1,9 @@
 ---
-title: ExtenderRoutes.GetColumnsAsync(string, CancellationToken) մեթոդ
+title: GetColumnsAsync(string, CancellationToken)
+nav_exclude: true
 ---
+
+# ExtenderRoutes.GetColumnsAsync(string, CancellationToken) մեթոդ
 
 ```c#
 public Task<List<string>> GetColumnsAsync(string name, 

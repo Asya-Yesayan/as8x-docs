@@ -1,6 +1,10 @@
 ---
-title: IDocumentService.MakeParentLink(Document, int, bool) մեթոդ
+title: MakeParentLink(Document, int, bool)
+parent: "Մեթոդներ"
+grand_parent: "IDocumentService"
 ---
+
+# IDocumentService.MakeParentLink(Document, int, bool) մեթոդ
 
 ## Նկարագիր
 

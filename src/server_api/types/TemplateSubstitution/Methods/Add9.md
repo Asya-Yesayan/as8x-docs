@@ -1,6 +1,9 @@
 ---
-title: TemplateSubstitution.Add(string, long) մեթոդ
+title: Add(string, long)
+nav_exclude: true
 ---
+
+# TemplateSubstitution.Add(string, long) մեթոդ
 
 ```c#
 public void Add(string code, long value)

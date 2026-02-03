@@ -1,6 +1,10 @@
 ---
-title: DataSource.ProcessRow(DataSourceArgs<P>, R, SqlDataReader) մեթոդ
+title: ProcessRow(DataSourceArgs<P>, R, SqlDataReader)
+parent: "Մեթոդներ"
+grand_parent: "Տվյալների աղբյուր"
 ---
+
+# DataSource.ProcessRow(DataSourceArgs<P>, R, SqlDataReader) մեթոդ
 
 ## Նկարագիր
 

@@ -1,6 +1,9 @@
 ---
-title: Extender.AddColumn(string, string, string, FieldType, string, string, FieldType, short, short, SupportedEncoding) մեթոդ
+title: AddColumn(string, string, string, FieldType, string, string, FieldType, short, short, SupportedEncoding)
+nav_exclude: true
 ---
+
+# Extender.AddColumn(string, string, string, FieldType, string, string, FieldType, short, short, SupportedEncoding) մեթոդ
 
 ## Նկարագիր
 

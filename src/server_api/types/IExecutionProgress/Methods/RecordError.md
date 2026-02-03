@@ -1,6 +1,9 @@
 ---
-title: IExecutionProgress.RecordError(IEnumerable<string>, Exception, int, string, int, Dictionary<string, object>) մեթոդ
+title: RecordError(IEnumerable<string>, Exception, int, string, int, Dictionary<string, object>)
+nav_exclude: true
 ---
+
+# IExecutionProgress.RecordError(IEnumerable<string>, Exception, int, string, int, Dictionary<string, object>) մեթոդ
 
 ## Նկարագիր
 
@@ -15,13 +18,14 @@ public void RecordError(IEnumerable<string> messages,
                         Dictionary<string, object> loggingAdditionalData = null);
 ```
 
-[Seq](https://datalust.co/)-ում միշտ ավելացվում է նոր լոգի իրադարձություն՝ նշված հաղորդագրություններով, սխալի հաղորդագրությամբ և Error լոգավորման մակարդակով։ Եթե տրված սխալը (**exception**) **RESTException** տեսակի է, ապա լոգի իրադարձությունը գրանցվում է **Warning** լոգավորման մակարդակով:
+Ավելացնում է նոր տողեր [տեքստային հաշվետվությունում](../../TextReport.md), եթե մեթոդը չի կանչվել առաջադրանքի կատարման ժամանակ։
 
-Ավելացնում է նաև նոր տողեր [տեքստային հաշվետվությունում](../../TextReport.md), եթե մեթոդը չի կանչվել առաջադրանքի կատարման ժամանակ։
+Առաջադրանքի կատարման ընթացքում կանչի դեպքում միայն [Seq](https://datalust.co/)-ում ավելացվում է նոր իրադարձություն՝ նշված հաղորդագրություններով, սխալի հաղորդագրությամբ և Error լոգավորման մակարդակով, իսկ [տեքստային հաշվետվությունը](../../TextReport.md) մնում է անփոփոխ։
 
 Մեթոդի կատարման արդյունքում [IExecutionProgress․HasError](../Properties/HasError.md) հատկության արժեքը դառնում է true:
 
 **Պարամետրեր**
+
 
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն                                       |
 | -------- | ------------- | --------------- | ---------------------------------------------------- |

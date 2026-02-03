@@ -1,6 +1,10 @@
 ---
-title: Document.SetCheckValue(string, bool) մեթոդ
+title: SetCheckValue(string, bool)
+parent: "Մեթոդներ"
+grand_parent: "Փաստաթուղթ"
 ---
+
+# Document.SetCheckValue(string, bool) մեթոդ
 
 ## Նկարագիր
 

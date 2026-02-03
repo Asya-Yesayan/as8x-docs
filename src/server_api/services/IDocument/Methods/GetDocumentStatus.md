@@ -1,6 +1,10 @@
 ---
-title: IDocumentService.GetDocumentStatus(string, int) մեթոդ
+title: GetDocumentStatus(string, int)
+parent: "Մեթոդներ"
+grand_parent: "IDocumentService"
 ---
+
+# IDocumentService.GetDocumentStatus(string, int) մեթոդ
 
 ## Նկարագիր
 

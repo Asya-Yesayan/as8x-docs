@@ -1,6 +1,10 @@
 ---
-title: IDocumentService.CleanDeleted(DateTime, DateTime, string) մեթոդ
+title: CleanDeleted(DateTime, DateTime, string)
+parent: "Մեթոդներ"
+grand_parent: "IDocumentService"
 ---
+
+# IDocumentService.CleanDeleted(DateTime, DateTime, string) մեթոդ
 
 ## Նկարագիր
 

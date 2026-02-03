@@ -1,6 +1,9 @@
 ---
-title: TemplateSubstitution.Add(string, decimal) մեթոդ
+title: Add(string, decimal)
+nav_exclude: true
 ---
+
+# TemplateSubstitution.Add(string, decimal) մեթոդ
 
 ```c#
 public void Add(string code, decimal value)

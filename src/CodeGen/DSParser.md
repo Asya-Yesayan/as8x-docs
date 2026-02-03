@@ -6,7 +6,10 @@ sublinks:
 - { title: "DSParser", ref: dsparser }
 - { title: "Մեթոդներ", ref: մեթոդներ }
 - { title: "Parse", ref: parse }
+nav_exclude: true
 ---
+
+# DSParser դաս: Տվյալների աղբյուրների 8X տեղափոխման մասնակի ավտոմատացում
 
 Բովանդակություն
 

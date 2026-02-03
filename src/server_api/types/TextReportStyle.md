@@ -2,7 +2,10 @@
 layout: page
 title: "TextReportStyle" 
 tags: [AsRepViewer, textReport]
+nav_exclude: true
 ---
+
+# TextReportStyle
 
 Այս enum-ը նախատեսված է տեքստային հաշվետվությունում (TextReport) ավելացող տողի ոճավորման համար։
 

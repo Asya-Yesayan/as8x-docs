@@ -1,7 +1,10 @@
 ---
 layout: page
-title: "Սերվերային մոդուլի նկարագրություն (SERVERSIDEMODULE)" 
+title: "Սերվերային մոդուլի նկարագրություն (SERVERSIDEMODULE)"
+nav_exclude: true
 ---
+
+# Սերվերային մոդուլի նկարագրություն (SERVERSIDEMODULE)
 
 ## Բովանդակություն
 

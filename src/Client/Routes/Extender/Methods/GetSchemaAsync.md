@@ -1,6 +1,9 @@
 ---
-title: ExtenderRoutes.GetSchemaAsync(string, CancellationToken) մեթոդ
+title: GetSchemaAsync(string, CancellationToken)
+nav_exclude: true
 ---
+
+# ExtenderRoutes.GetSchemaAsync(string, CancellationToken) մեթոդ
 
 ```c#
 public Task<ExtenderSchema> GetSchemaAsync(string extenderName, 

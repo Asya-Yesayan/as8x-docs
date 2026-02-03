@@ -1,6 +1,10 @@
 ---
-title: Document.indexer հատկություն
+title: indexer
+parent: "Հատկություններ"
+grand_parent: "Փաստաթուղթ"
 ---
+
+# Document.indexer հատկություն
 
 ## Նկարագիր
 

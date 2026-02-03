@@ -1,6 +1,10 @@
 ---
-title: Document.LogTransactions հատկություն
+title: LogTransactions
+parent: "Հատկություններ"
+grand_parent: "Փաստաթուղթ"
 ---
+
+# Document.LogTransactions հատկություն
 
 ## Նկարագիր
 

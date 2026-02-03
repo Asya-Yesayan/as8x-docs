@@ -1,7 +1,10 @@
 ---
 layout: page
-title: "GridLoadMode" 
+title: "GridLoadMode"
+nav_exclude: true
 ---
+
+# GridLoadMode
 
 ## Փաստաթղթի աղյուսակների բեռնման հայտանիշ
 

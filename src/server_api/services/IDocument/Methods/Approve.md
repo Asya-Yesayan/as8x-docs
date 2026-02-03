@@ -1,6 +1,10 @@
 ---
-title: IDocumentService.Approve(Document, DocumentCheckLevel, string) մեթոդ
+title: Approve(Document, DocumentCheckLevel, string)
+parent: "Մեթոդներ"
+grand_parent: "IDocumentService"
 ---
+
+# IDocumentService.Approve(Document, DocumentCheckLevel, string) մեթոդ
 
 ## Նկարագիր
 

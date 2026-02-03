@@ -1,6 +1,9 @@
 ---
-title: FieldTypeProvider.Amount հատկություն
+title: Amount
+nav_exclude: true
 ---
+
+# FieldTypeProvider.Amount հատկություն
 
 ```c#
 public static AmountFieldType Amount { get; }

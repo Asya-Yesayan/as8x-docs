@@ -1,6 +1,10 @@
 ---
-title: Document.BeforeCommit(BeforeCommitEventArgs) մեթոդ
+title: BeforeCommit(BeforeCommitEventArgs)
+parent: "Մեթոդներ"
+grand_parent: "Փաստաթուղթ"
 ---
+
+# Document.BeforeCommit(BeforeCommitEventArgs) մեթոդ
 
 ## Նկարագիր
 

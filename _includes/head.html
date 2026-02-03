@@ -1,36 +1,20 @@
-﻿<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
-<meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+  <script>
+    if (localStorage.getItem('theme') === 'dark') document.documentElement.classList.add('dark-mode');
+  </script>
+  <script type="text/javascript" src="{{ '/assets/js/theme-switch.js' | relative_url }}" defer></script>
+  <link rel="stylesheet" href="{{ '/assets/css/just-the-docs-switchable.css' | relative_url }}">
 
-<link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
-<link id="darktheme" rel="" href="{{ "/assets/dark.css" | relative_url }}">
-<link rel="stylesheet" href="{{ "/assets/versioning-dropdown.css" | relative_url }}"> 
+  <script src="{{ '/assets/js/just-the-docs.js' | relative_url }}"></script>
 
+  {% include head_custom.html %}
 
-<script src="{{ "/assets/manageThemes.js" | relative_url }}"></script>
-<script src="{{ "/assets/versioning-dropdown.js" | relative_url }}"></script> 
+  <link rel="stylesheet" href="{{ "/assets/versioning-dropdown.css" | relative_url }}"> 
+  <script src="{{ "/assets/versioning-dropdown.js" | relative_url }}"></script> 
 
-
-<link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
-<link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
-
-{% if page.tipue_search_active or layout.tipue_search_active -%}
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script src="{{ "/assets/tipuesearch/tipuesearch_content.js" | relative_url }}"></script>
-<link rel="stylesheet" href="{{ "/assets/tipuesearch/css/tipuesearch.css" | relative_url }}">
-<script src="{{ "/assets/tipuesearch/tipuesearch_set.js" | relative_url }}"></script>
-<script src="{{ "/assets/tipuesearch/tipuesearch.min.js" | relative_url }}"></script>
-{% endif -%}
-
-{% if page.tipue_search_index or layout.tipue_search_index -%}
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script src="{{ "/assets/tipuesearch/tipuesearch_content.js" | relative_url }}"></script>
-<link rel="stylesheet" href="{{ "/assets/tipuesearch/css/tipuesearch.css" | relative_url }}">
-<script src="{{ "/assets/getindex.js" | relative_url }}"></script>
-<link rel="stylesheet" href="{{ "/assets/apiIndex.css" | relative_url }}">
-{% endif -%}
-
-{% include copy-button.html %}
+    <script src="{{ '/assets/js/beautifyAS4X.js' | relative_url }}"></script>
+</head>

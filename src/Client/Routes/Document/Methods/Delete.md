@@ -1,6 +1,9 @@
 ---
-title: DocumentRoutes.Delete մեթոդ
+title: Delete
+nav_exclude: true
 ---
+
+# DocumentRoutes.Delete մեթոդ
 
 ## Գերբեռնումներ
 

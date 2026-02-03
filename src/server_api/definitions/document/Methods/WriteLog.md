@@ -1,6 +1,10 @@
 ---
-title: Document.WriteLog(string, int, bool) մեթոդ
+title: WriteLog(string, int, bool)
+parent: "Մեթոդներ"
+grand_parent: "Փաստաթուղթ"
 ---
+
+# Document.WriteLog(string, int, bool) մեթոդ
 
 ## Նկարագիր
 

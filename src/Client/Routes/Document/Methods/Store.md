@@ -1,6 +1,9 @@
 ---
-title: DocumentRoutes.Store(DocumentStoreRequestModel) մեթոդ
+title: Store(DocumentStoreRequestModel)
+nav_exclude: true
 ---
+
+# DocumentRoutes.Store(DocumentStoreRequestModel) մեթոդ
 
 ```c#
 public DocumentModel Store(DocumentStoreRequestModel model)

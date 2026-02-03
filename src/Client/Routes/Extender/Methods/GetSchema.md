@@ -1,6 +1,9 @@
 ---
-title: ExtenderRoutes.GetSchema(string) մեթոդ
+title: GetSchema(string)
+nav_exclude: true
 ---
+
+# ExtenderRoutes.GetSchema(string) մեթոդ
 
 ```c#
 public ExtenderSchema GetSchema(string extenderName)

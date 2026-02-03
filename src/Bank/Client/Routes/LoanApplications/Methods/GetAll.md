@@ -1,6 +1,9 @@
 ---
-title: LoanApplicationsRoutes.GetAll(GetAllRequest) մեթոդ
+title: GetAll(GetAllRequest)
+nav_exclude: true
 ---
+
+# LoanApplicationsRoutes.GetAll(GetAllRequest) մեթոդ
 
 ```c#
 public async Task<GetAllResponse> GetAll(GetAllRequest request)

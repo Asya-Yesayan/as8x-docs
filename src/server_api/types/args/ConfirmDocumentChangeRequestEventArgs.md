@@ -1,7 +1,10 @@
 ---
 layout: page
-title: "ConfirmDocumentChangeRequestEventArgs դաս" 
+title: "ConfirmDocumentChangeRequestEventArgs դաս"
+nav_exclude: true
 ---
+
+# ConfirmDocumentChangeRequestEventArgs դաս
 
 Այս դասը օգտագործվում է [Document.OnConfirmDocumentChangeRequest](../../Definitions/Document/Methods/OnConfirmDocumentChangeRequest.md) մեթոդում։
 

@@ -1,6 +1,9 @@
 ---
-title: DocumentExtender.PreValidate(Document, ValidateEventArgs) մեթոդ
+title: PreValidate(Document, ValidateEventArgs)
+nav_exclude: true
 ---
+
+# DocumentExtender.PreValidate(Document, ValidateEventArgs) մեթոդ
 
 ## Նկարագիր
 

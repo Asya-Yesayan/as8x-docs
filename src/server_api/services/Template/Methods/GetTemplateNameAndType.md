@@ -1,6 +1,11 @@
 ---
-title: TemplateService.GetTemplateNameAndType(string, bool) մեթոդ  
+title: GetTemplateNameAndType(string, bool)
+parent: "Մեթոդներ"
+grand_parent: "TemplateService"
+
 ---
+
+# TemplateService.GetTemplateNameAndType(string, bool) մեթոդ
 
 ## Նկարագիր
 

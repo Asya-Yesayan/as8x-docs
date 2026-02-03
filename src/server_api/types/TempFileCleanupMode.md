@@ -1,6 +1,9 @@
 ---
-title: "TempFileCleanupMode enum" 
+title: "TempFileCleanupMode enum"
+nav_exclude: true
 ---
+
+# TempFileCleanupMode enum
 
 Այս enum-ը նախատեսված է ժամանակավոր ֆայլերի (տեքստային հաշվետվություններ, ․․․) հեռացման ռեժիմի սահմանման համար։
 

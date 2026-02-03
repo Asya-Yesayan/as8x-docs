@@ -1,6 +1,9 @@
 ---
-title: LoginService.ConfigurationName հատկություն
+title: ConfigurationName
+nav_exclude: true
 ---
+
+# LoginService.ConfigurationName հատկություն
 
 ```c#
 public string ConfigurationName { get; private set; }

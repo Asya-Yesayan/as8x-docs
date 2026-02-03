@@ -1,6 +1,10 @@
 ---
-title: IDocumentService.HiDeleteAll(Document) մեթոդ
+title: HiDeleteAll(Document)
+parent: "Մեթոդներ"
+grand_parent: "IDocumentService"
 ---
+
+# IDocumentService.HiDeleteAll(Document) մեթոդ
 
 ## Նկարագիր
 

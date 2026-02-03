@@ -1,6 +1,10 @@
 ---
-title: Document.StoreSnapshot հատկություն
+title: StoreSnapshot
+parent: "Հատկություններ"
+grand_parent: "Փաստաթուղթ"
 ---
+
+# Document.StoreSnapshot հատկություն
 
 ## Նկարագիր
 

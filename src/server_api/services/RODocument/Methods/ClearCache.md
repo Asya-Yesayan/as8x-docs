@@ -1,6 +1,11 @@
 ---
-title: RODocumentService.ClearCache() մեթոդ  
+title: ClearCache()
+parent: "Մեթոդներ"
+grand_parent: "RODocumentService"
+
 ---
+
+# RODocumentService.ClearCache() մեթոդ
 
 ## Նկարագիր
 

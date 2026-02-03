@@ -1,6 +1,9 @@
 ---
-title: LoginService.Suid հատկություն
+title: Suid
+nav_exclude: true
 ---
+
+# LoginService.Suid հատկություն
 
 ```c#
 public short Suid { get; private set; }

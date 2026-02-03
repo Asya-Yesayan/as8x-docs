@@ -1,6 +1,10 @@
 ---
-title: Document.ApplySnapshot(DocumentSnapshot) մեթոդ
+title: ApplySnapshot(DocumentSnapshot)
+parent: "Մեթոդներ"
+grand_parent: "Փաստաթուղթ"
 ---
+
+# Document.ApplySnapshot(DocumentSnapshot) մեթոդ
 
 ## Նկարագիր
 

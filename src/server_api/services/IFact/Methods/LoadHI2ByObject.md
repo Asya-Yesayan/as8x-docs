@@ -1,6 +1,10 @@
 ---
-title: IFactService.LoadHI2ByObject(string, int, long, DateTime?, DateTime?, string) մեթոդ
+title: LoadHI2ByObject(string, int, long, DateTime?, DateTime?, string)
+parent: "Մեթոդներ"
+grand_parent: "IFactService"
 ---
+
+# IFactService.LoadHI2ByObject(string, int, long, DateTime?, DateTime?, string) մեթոդ
 
 ## Նկարագիր
 

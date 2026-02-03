@@ -1,6 +1,9 @@
 ---
-title: LiteDocument.GridsLoaded հատկություն
+title: GridsLoaded
+nav_exclude: true
 ---
+
+# LiteDocument.GridsLoaded հատկություն
 
 ```c#
 public bool GridsLoaded { get; protected internal set; }

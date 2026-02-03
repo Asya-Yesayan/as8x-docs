@@ -1,6 +1,10 @@
 ---
-title: "IDocumentService սերվիս"
+title: "IDocumentService"
+parent: "Սերվիսներ"
+nav_order: 2
 ---
+
+# IDocumentService սերվիս
 
 ## Ներածություն
 

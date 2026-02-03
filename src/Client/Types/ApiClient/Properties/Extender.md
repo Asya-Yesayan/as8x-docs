@@ -1,6 +1,9 @@
 ---
-title: ApiClient.Extender հատկություն
+title: Extender
+nav_exclude: true
 ---
+
+# ApiClient.Extender հատկություն
 
 ```c#
 public ExtenderRoutes Extender { get; }

@@ -1,6 +1,10 @@
 ---
-title: IKernelService.LastHI2OpDate մեթոդ  
+title: LastHI2OpDate
+parent: "Մեթոդներ"
+grand_parent: "IKernelService"
 ---
+
+# IKernelService.LastHI2OpDate մեթոդ
 
 ## Նկարագիր
 

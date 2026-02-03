@@ -1,6 +1,10 @@
 ---
-title: DataSourceService.ClearDefinitions(IEnumerable<string>) մեթոդ
+title: ClearDefinitions(IEnumerable<string>)
+parent: "Մեթոդներ"
+grand_parent: "DataSourceService"
 ---
+
+# DataSourceService.ClearDefinitions(IEnumerable<string>) մեթոդ
 
 ## Նկարագիր
 

@@ -1,6 +1,9 @@
 ---
-title: DocumentRoutes.StoreAsync(DocumentStoreRequestModel, CancellationToken) մեթոդ
+title: StoreAsync(DocumentStoreRequestModel, CancellationToken)
+nav_exclude: true
 ---
+
+# DocumentRoutes.StoreAsync(DocumentStoreRequestModel, CancellationToken) մեթոդ
 
 ```c#
 public Task<DocumentModel> StoreAsync(DocumentStoreRequestModel model, 

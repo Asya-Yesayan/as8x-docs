@@ -1,6 +1,9 @@
 ---
-title: TemplateSubstitution.AddRekvValuesFromDoc(Document.Document, string, string) մեթոդ
+title: AddRekvValuesFromDoc(Document.Document, string, string)
+nav_exclude: true
 ---
+
+# TemplateSubstitution.AddRekvValuesFromDoc(Document.Document, string, string) մեթոդ
 
 ```c#
 public void AddRekvValuesFromDoc(Document.Document document, 

@@ -1,6 +1,9 @@
 ---
-title: LiteDocument.ISN հատկություն
+title: ISN
+nav_exclude: true
 ---
+
+# LiteDocument.ISN հատկություն
 
 ```c#
 public int ISN { get; internal set; }

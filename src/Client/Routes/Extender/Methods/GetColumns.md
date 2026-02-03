@@ -1,6 +1,9 @@
 ---
-title: ExtenderRoutes.GetColumns(string) մեթոդ
+title: GetColumns(string)
+nav_exclude: true
 ---
+
+# ExtenderRoutes.GetColumns(string) մեթոդ
 
 ```c#
 public List<string> GetColumns(string name)

@@ -1,6 +1,10 @@
 ---
-title: Document.StoreGrids(StoreGridsEventArgs) մեթոդ
+title: StoreGrids(StoreGridsEventArgs)
+parent: "Մեթոդներ"
+grand_parent: "Փաստաթուղթ"
 ---
+
+# Document.StoreGrids(StoreGridsEventArgs) մեթոդ
 
 ## Նկարագիր
 

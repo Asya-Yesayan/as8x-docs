@@ -1,8 +1,9 @@
 ---
-title: DataProcessingRequestHandler.Execute(DPRType, string, T, bool,
-                                            int, int, bool,
-                                            Dictionary<int, UIRequestResultBase>) մեթոդ
+title: Execute(DPRType, string, T, bool, int, int, bool, Dictionary<int, UIRequestResultBase>)
+nav_exclude: true
 ---
+
+# DataProcessingRequestHandler.Execute(DPRType, string, T, bool, int, int, bool, Dictionary<int, UIRequestResultBase>) մեթոդ
 
 ```c#
 public (bool, R) Execute<T, R>(DPRType type, string name, T request, bool enableUIRequest = true,

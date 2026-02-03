@@ -1,6 +1,9 @@
 ---
-title: BlobRoutes.Download(string, string) մեթոդ
+title: Download(string, string)
+nav_exclude: true
 ---
+
+# BlobRoutes.Download(string, string) մեթոդ
 
 ```c#
 public Stream Download(string container, 

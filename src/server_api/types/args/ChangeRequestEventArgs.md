@@ -2,7 +2,10 @@
 layout: page
 title: "ChangeRequestEventArgs" 
 tags: ChangeRequest
+nav_exclude: true
 ---
+
+# ChangeRequestEventArgs
 
 Այս դասը օգտագործվում է փաստաթղթի [IDocumentChangeRequest](../IDocumentChangeRequest.md)-ի [ChangeRequest](../IDocumentChangeRequest/Methods/ChangeRequest.md) մեթոդում։
 

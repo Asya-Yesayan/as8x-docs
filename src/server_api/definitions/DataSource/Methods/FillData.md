@@ -1,6 +1,10 @@
 ---
-title: DataSource.FillData(DataSourceArgs<P>, CancellationToken) մեթոդ
+title: FillData(DataSourceArgs<P>, CancellationToken)
+parent: "Մեթոդներ"
+grand_parent: "Տվյալների աղբյուր"
 ---
+
+# DataSource.FillData(DataSourceArgs<P>, CancellationToken) մեթոդ
 
 ## Նկարագիր
 

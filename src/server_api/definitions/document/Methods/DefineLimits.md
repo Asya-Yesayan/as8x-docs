@@ -1,6 +1,10 @@
 ---
-title: Document.DefineLimits(string, int, DateTime, decimal, decimal) մեթոդ
+title: DefineLimits(string, int, DateTime, decimal, decimal)
+parent: "Մեթոդներ"
+grand_parent: "Փաստաթուղթ"
 ---
+
+# Document.DefineLimits(string, int, DateTime, decimal, decimal) մեթոդ
 
 ## Նկարագիր
 

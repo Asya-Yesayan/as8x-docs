@@ -1,6 +1,10 @@
 ---
-title: Document.InitGrids() մեթոդ
+title: InitGrids()
+parent: "Մեթոդներ"
+grand_parent: "Փաստաթուղթ"
 ---
+
+# Document.InitGrids() մեթոդ
 
 ## Նկարագիր
 

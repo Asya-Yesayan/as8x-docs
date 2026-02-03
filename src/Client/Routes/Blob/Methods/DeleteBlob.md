@@ -1,6 +1,9 @@
 ---
-title: BlobRoutes.DeleteBlob(string, string) մեթոդ
+title: DeleteBlob(string, string)
+nav_exclude: true
 ---
+
+# BlobRoutes.DeleteBlob(string, string) մեթոդ
 
 ```c#
 public bool DeleteBlob(string container, 

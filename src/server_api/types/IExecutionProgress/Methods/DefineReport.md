@@ -1,6 +1,9 @@
 ---
-title: IExecutionProgress.DefineReport(string, string, bool) մեթոդ
+title: DefineReport(string, string, bool)
+nav_exclude: true
 ---
+
+# IExecutionProgress.DefineReport(string, string, bool) մեթոդ
 
 ## Նկարագիր
 
@@ -12,11 +15,12 @@ public void DefineReport(string armenianCaption,
                         bool useFormatting = false);
 ```
 
-Ստեղծում է [տեքստային հաշվետվություն](../../TextReport.md)` 200 լայնությամբ հատվածով (ֆրագմենտով)։
+Ստեղծում է [տեքստային հաշվետվություն՝](../../TextReport.md)՝ 120 լայնությամբ հատվածով (ֆրագմենտով)։
 
 Առաջադրանքի կատարման ընթացքում մեթոդի կանչի դեպքում [տեքստային հաշվետվությունը](../../TextReport.md) մնում է անփոփոխ։
 
 **Պարամետրեր**
+
 
 | Անվանում        | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն                                                        |
 | --------------- | ------------- | --------------- | --------------------------------------------------------------------- |

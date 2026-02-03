@@ -1,6 +1,9 @@
 ---
-title: FieldTypeProvider.GetStringFieldType(short, bool) մեթոդ
+title: GetStringFieldType(short, bool)
+nav_exclude: true
 ---
+
+# FieldTypeProvider.GetStringFieldType(short, bool) մեթոդ
 
 ```c#
 public static StringFieldType GetStringFieldType(short fieldLength, bool isNullable = false)

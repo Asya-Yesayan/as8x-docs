@@ -1,6 +1,10 @@
 ---
-title: Document.Snapshots հատկություն
+title: Snapshots
+parent: "Հատկություններ"
+grand_parent: "Փաստաթուղթ"
 ---
+
+# Document.Snapshots հատկություն
 
 ## Նկարագիր
 

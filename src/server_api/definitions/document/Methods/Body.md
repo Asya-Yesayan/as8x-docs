@@ -1,6 +1,10 @@
 ---
-title: Document.Body() մեթոդ
+title: Body()
+parent: "Մեթոդներ"
+grand_parent: "Փաստաթուղթ"
 ---
+
+# Document.Body() մեթոդ
 
 ## Նկարագիր
 

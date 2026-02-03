@@ -1,6 +1,9 @@
 ---
-title: LiteDocument.RefreshLastTSCheck() մեթոդ
+title: RefreshLastTSCheck()
+nav_exclude: true
 ---
+
+# LiteDocument.RefreshLastTSCheck() մեթոդ
 
 ```c#
 public void RefreshLastTSCheck();

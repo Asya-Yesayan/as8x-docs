@@ -1,6 +1,10 @@
 ---
-title: Document.CreationDate հատկություն
+title: CreationDate
+parent: "Հատկություններ"
+grand_parent: "Փաստաթուղթ"
 ---
+
+# Document.CreationDate հատկություն
 
 ## Նկարագիր
 

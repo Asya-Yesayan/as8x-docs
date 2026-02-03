@@ -1,6 +1,10 @@
 ---
-title: Document.GetImage(string) մեթոդ
+title: GetImage(string)
+parent: "Մեթոդներ"
+grand_parent: "Փաստաթուղթ"
 ---
+
+# Document.GetImage(string) մեթոդ
 
 ## Նկարագիր
 

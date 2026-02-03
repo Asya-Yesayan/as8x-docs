@@ -1,6 +1,10 @@
 ---
-title: IDocumentService.SetGridDefaultValues(Document, Dictionary<string, HashSet<string>>) մեթոդ
+title: SetGridDefaultValues(Document, Dictionary<string, HashSet<string>>)
+parent: "Մեթոդներ"
+grand_parent: "IDocumentService"
 ---
+
+# IDocumentService.SetGridDefaultValues(Document, Dictionary<string, HashSet<string>>) մեթոդ
 
 ## Նկարագիր
 

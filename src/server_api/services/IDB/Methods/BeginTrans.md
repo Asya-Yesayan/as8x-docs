@@ -1,6 +1,10 @@
 ---
-title: IDBService.BeginTrans() մեթոդ
+title: BeginTrans()
+parent: "Մեթոդներ"
+grand_parent: "IDBService"
 ---
+
+# IDBService.BeginTrans() մեթոդ
 
 ## Նկարագիր
 

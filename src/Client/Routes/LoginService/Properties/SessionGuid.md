@@ -1,6 +1,9 @@
 ---
-title: LoginService.SessionGuid հատկություն
+title: SessionGuid
+nav_exclude: true
 ---
+
+# LoginService.SessionGuid հատկություն
 
 ```c#
 public string SessionGuid { get; private set; }

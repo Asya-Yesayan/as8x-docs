@@ -1,6 +1,9 @@
 ---
-title: BankApiClient.ClientIBOptions հատկություն
+title: ClientIBOptions
+nav_exclude: true
 ---
+
+# BankApiClient.ClientIBOptions հատկություն
 
 ```c#
 public ClientIBOptionsRoutes ClientIBOptions { get; }

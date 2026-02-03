@@ -1,6 +1,10 @@
 ---
-title: IParametersService.GetTimeSpanValue մեթոդ  
+title: GetTimeSpanValue
+parent: "Մեթոդներ"
+grand_parent: "IParametersService"
 ---
+
+# IParametersService.GetTimeSpanValue մեթոդ
 
 ## Նկարագիր
 

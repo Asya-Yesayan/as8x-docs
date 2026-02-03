@@ -1,6 +1,10 @@
 ---
-title: Document.State հատկություն
+title: State
+parent: "Հատկություններ"
+grand_parent: "Փաստաթուղթ"
 ---
+
+# Document.State հատկություն
 
 ## Նկարագիր
 

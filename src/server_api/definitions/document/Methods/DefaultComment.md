@@ -1,6 +1,10 @@
 ---
-title: Document.DefaultComment(DefaultCommentEventArgs) մեթոդ
+title: DefaultComment(DefaultCommentEventArgs)
+parent: "Մեթոդներ"
+grand_parent: "Փաստաթուղթ"
 ---
+
+# Document.DefaultComment(DefaultCommentEventArgs) մեթոդ
 
 ## Նկարագիր
 

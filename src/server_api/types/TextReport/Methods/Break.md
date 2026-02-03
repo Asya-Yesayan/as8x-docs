@@ -1,6 +1,9 @@
 ---
-title: TextReport.Break() մեթոդ
+title: Break()
+nav_exclude: true
 ---
+
+# TextReport.Break() մեթոդ
 
 ```c#
 public void Break()

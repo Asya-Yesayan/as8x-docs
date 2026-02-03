@@ -1,6 +1,9 @@
 ---
-title: "CancellationRequest դաս" 
+title: "CancellationRequest դաս"
+nav_exclude: true
 ---
+
+# CancellationRequest դաս
 
 ## Հատկություններ
 

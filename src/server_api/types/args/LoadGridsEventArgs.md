@@ -1,7 +1,10 @@
 ---
 layout: page
-title: "LoadGridsEventArgs դաս" 
+title: "LoadGridsEventArgs դաս"
+nav_exclude: true
 ---
+
+# LoadGridsEventArgs դաս
 
 Այս դասը օգտագործվում է [Document.LoadGrids](../../Definitions/Document/Methods/LoadGrids.md) մեթոդում։
 

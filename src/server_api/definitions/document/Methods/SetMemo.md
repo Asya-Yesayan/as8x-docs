@@ -1,6 +1,10 @@
 ---
-title: Document.SetMemo(string, string) մեթոդ
+title: SetMemo(string, string)
+parent: "Մեթոդներ"
+grand_parent: "Փաստաթուղթ"
 ---
+
+# Document.SetMemo(string, string) մեթոդ
 
 ## Նկարագիր
 

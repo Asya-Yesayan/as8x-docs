@@ -1,6 +1,10 @@
 ---
-title: IParametersService.REPEND մեթոդ  
+title: REPEND
+parent: "Մեթոդներ"
+grand_parent: "IParametersService"
 ---
+
+# IParametersService.REPEND մեթոդ
 
 ## Գերբեռնումներ
 

@@ -1,6 +1,10 @@
 ---
-title: Document.BeforeCopy(BeforeCopyEventArgs) մեթոդ
+title: BeforeCopy(BeforeCopyEventArgs)
+parent: "Մեթոդներ"
+grand_parent: "Փաստաթուղթ"
 ---
+
+# Document.BeforeCopy(BeforeCopyEventArgs) մեթոդ
 
 ## Նկարագիր
 

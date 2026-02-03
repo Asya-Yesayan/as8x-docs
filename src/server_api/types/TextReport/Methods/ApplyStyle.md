@@ -1,6 +1,9 @@
 ---
-title: TextReport.ApplyStyle(string, TextReportStyle) մեթոդ
+title: ApplyStyle(string, TextReportStyle)
+nav_exclude: true
 ---
+
+# TextReport.ApplyStyle(string, TextReportStyle) մեթոդ
 
 ```c#
 public static string ApplyStyle(string source, TextReportStyle style)

@@ -1,6 +1,10 @@
 ---
-title: IDocumentService.GetDocsInfo() մեթոդ
+title: GetDocsInfo()
+parent: "Մեթոդներ"
+grand_parent: "IDocumentService"
 ---
+
+# IDocumentService.GetDocsInfo() մեթոդ
 
 ## Նկարագիր
 

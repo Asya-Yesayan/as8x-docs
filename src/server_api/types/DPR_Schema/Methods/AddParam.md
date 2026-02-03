@@ -1,6 +1,9 @@
 ---
-title: DPR.Schema.AddParam(string, string, string, FieldType, object, bool, bool) մեթոդ
+title: AddParam(string, string, string, FieldType, object, bool, bool)
+nav_exclude: true
 ---
+
+# DPR.Schema.AddParam(string, string, string, FieldType, object, bool, bool) մեթոդ
 
 ```c#
 public void AddParam(string name, 

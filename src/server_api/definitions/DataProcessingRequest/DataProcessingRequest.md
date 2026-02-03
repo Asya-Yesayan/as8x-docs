@@ -1,6 +1,11 @@
 ---
-title: DataProcessingRequest նկարագրություն
+layout: page
+title: Տվյալների մշակման հարցում
+parent: "Համակարգային նկարագրություններ"
+nav_order: 2
 ---
+
+# DataProcessingRequest նկարագրություն
 
 ## Ներածություն
 

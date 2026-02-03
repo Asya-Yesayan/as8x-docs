@@ -1,6 +1,10 @@
 ---
-title: Document.ExistsRekvizit(string) մեթոդ
+title: ExistsRekvizit(string)
+parent: "Մեթոդներ"
+grand_parent: "Փաստաթուղթ"
 ---
+
+# Document.ExistsRekvizit(string) մեթոդ
 
 ## Նկարագիր
 

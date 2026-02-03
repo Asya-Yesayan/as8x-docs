@@ -1,6 +1,10 @@
 ---
-title: Document.ExistsInDB հատկություն
+title: ExistsInDB
+parent: "Հատկություններ"
+grand_parent: "Փաստաթուղթ"
 ---
+
+# Document.ExistsInDB հատկություն
 
 ## Նկարագիր
 

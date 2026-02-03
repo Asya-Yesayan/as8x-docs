@@ -1,6 +1,10 @@
 ---
-title: IProcessServerClient.GetProgress(Guid) մեթոդ  
+title: GetProgress(Guid)
+parent: "Մեթոդներ"
+grand_parent: "IProcessServerClient"
 ---
+
+# IProcessServerClient.GetProgress(Guid) մեթոդ
 
 ## Նկարագիր
 

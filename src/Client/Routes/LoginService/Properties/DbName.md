@@ -1,6 +1,9 @@
 ---
-title: LoginService.DbName հատկություն
+title: DbName
+nav_exclude: true
 ---
+
+# LoginService.DbName հատկություն
 
 ```c#
 public string DbName { get; private set; }

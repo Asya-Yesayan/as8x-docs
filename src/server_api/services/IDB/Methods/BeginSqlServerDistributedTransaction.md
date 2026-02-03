@@ -1,6 +1,10 @@
 ---
-title: IDBService.BeginSqlServerDistributedTransaction() մեթոդ
+title: BeginSqlServerDistributedTransaction()
+parent: "Մեթոդներ"
+grand_parent: "IDBService"
 ---
+
+# IDBService.BeginSqlServerDistributedTransaction() մեթոդ
 
 ## Նկարագիր
 

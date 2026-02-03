@@ -1,6 +1,9 @@
 ---
-title: TextReport.AddHeader(string) մեթոդ
+title: AddHeader(string)
+nav_exclude: true
 ---
+
+# TextReport.AddHeader(string) մեթոդ
 
 ```c#
 public void AddHeader(string header)

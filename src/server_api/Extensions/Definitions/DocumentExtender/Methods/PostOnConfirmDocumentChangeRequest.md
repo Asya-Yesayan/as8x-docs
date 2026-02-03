@@ -1,6 +1,9 @@
 ---
-title: DocumentExtender.PostOnConfirmDocumentChangeRequest(Document, ConfirmDocumentChangeRequestEventArgs) մեթոդ
+title: PostOnConfirmDocumentChangeRequest(Document, ConfirmDocumentChangeRequestEventArgs)
+nav_exclude: true
 ---
+
+# DocumentExtender.PostOnConfirmDocumentChangeRequest(Document, ConfirmDocumentChangeRequestEventArgs) մեթոդ
 
 ## Նկարագիր
 

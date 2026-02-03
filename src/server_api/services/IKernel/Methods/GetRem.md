@@ -1,6 +1,10 @@
 ---
-title: IKernelService.GetRem(string, int, DateTime?) մեթոդ  
+title: GetRem(string, int, DateTime?)
+parent: "Մեթոդներ"
+grand_parent: "IKernelService"
 ---
+
+# IKernelService.GetRem(string, int, DateTime?) մեթոդ
 
 ## Նկարագիր
 

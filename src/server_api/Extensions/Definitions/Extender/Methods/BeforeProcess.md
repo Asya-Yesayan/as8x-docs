@@ -1,6 +1,9 @@
 ---
-title: Extender.BeforeProcess(IList<IExtendableRow>, IDataSourceArgs) մեթոդ
+title: BeforeProcess(IList<IExtendableRow>, IDataSourceArgs)
+nav_exclude: true
 ---
+
+# Extender.BeforeProcess(IList<IExtendableRow>, IDataSourceArgs) մեթոդ
 
 ## Նկարագիր
 

@@ -1,6 +1,10 @@
 ---
-title: IOlapDBService.CommitTransAsync() մեթոդ  
+title: CommitTransAsync()
+parent: "Մեթոդներ"
+grand_parent: "IOlapDBService"
 ---
+
+# IOlapDBService.CommitTransAsync() մեթոդ
 
 ## Նկարագիր
 

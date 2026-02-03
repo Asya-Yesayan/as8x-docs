@@ -1,6 +1,9 @@
 ---
-title: LoginService.PasswordState հատկություն
+title: PasswordState
+nav_exclude: true
 ---
+
+# LoginService.PasswordState հատկություն
 
 ```c#
 public PasswordState? PasswordState { get; private set; }

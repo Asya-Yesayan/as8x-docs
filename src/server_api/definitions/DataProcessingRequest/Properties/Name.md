@@ -1,6 +1,10 @@
 ---
-title: DataProcessingRequest.Name հատկություն
+title: Name
+parent: "Հատկություններ"
+grand_parent: "Տվյալների մշակման հարցում"
 ---
+
+# DataProcessingRequest.Name հատկություն
 
 ## Նկարագիր
 

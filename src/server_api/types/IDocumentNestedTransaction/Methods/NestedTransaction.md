@@ -1,5 +1,5 @@
 ﻿---
-title: IDocumentNestedTransaction.NestedTransaction(NestedTransactionEventArgs<T>) մեթոդ
+title: NestedTransaction(NestedTransactionEventArgs<T>)
 ---
 
 ```c#

@@ -1,6 +1,10 @@
 ---
-title: IDocumentService.Load մեթոդ
+title: Load
+parent: "Մեթոդներ"
+grand_parent: "IDocumentService"
 ---
+
+# IDocumentService.Load մեթոդ
 
 ## Նկարագիր
 

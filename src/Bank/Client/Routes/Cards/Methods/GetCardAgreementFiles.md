@@ -1,6 +1,9 @@
 ---
-title: CardsRoutes.GetCardAgreementFiles(int, Language) մեթոդ
+title: GetCardAgreementFiles(int, Language)
+nav_exclude: true
 ---
+
+# CardsRoutes.GetCardAgreementFiles(int, Language) մեթոդ
 
 ```c#
 public Task<FilesInfoResponse> GetCardAgreementFiles(int cardIsn, Language language)

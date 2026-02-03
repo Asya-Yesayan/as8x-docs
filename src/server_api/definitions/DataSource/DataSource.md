@@ -1,6 +1,11 @@
 ---
-title: DataSource նկարագրություն
+layout: page
+title: Տվյալների աղբյուր
+parent: "Համակարգային նկարագրություններ"
+nav_order: 2
 ---
+
+# DataSource նկարագրություն
 
 ## Ներածություն
 

@@ -1,6 +1,10 @@
 ---
-title: IOlapDBService.BeginTrans() մեթոդ  
+title: BeginTrans()
+parent: "Մեթոդներ"
+grand_parent: "IOlapDBService"
 ---
+
+# IOlapDBService.BeginTrans() մեթոդ
 
 ## Նկարագիր
 

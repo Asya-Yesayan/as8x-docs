@@ -1,6 +1,10 @@
 ---
-title: IFactService.SetAccDeb(Fact, string, bool) մեթոդ
+title: SetAccDeb(Fact, string, bool)
+parent: "Մեթոդներ"
+grand_parent: "IFactService"
 ---
+
+# IFactService.SetAccDeb(Fact, string, bool) մեթոդ
 
 ## Նկարագիր
 

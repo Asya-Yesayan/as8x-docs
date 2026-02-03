@@ -1,6 +1,10 @@
 ---
-title: IKernelService.GetTurn(string, int, DateTime, DateTime, string) մեթոդ  
+title: GetTurn(string, int, DateTime, DateTime, string)
+parent: "Մեթոդներ"
+grand_parent: "IKernelService"
 ---
+
+# IKernelService.GetTurn(string, int, DateTime, DateTime, string) մեթոդ
 
 ## Նկարագիր
 

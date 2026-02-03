@@ -1,6 +1,9 @@
 ---
-title: RODocument.DocumentType հատկություն
+title: DocumentType
+nav_exclude: true
 ---
+
+# RODocument.DocumentType հատկություն
 
 ```c#
 public string DocumentType { get; }

@@ -1,26 +1,58 @@
-# Config settings
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole site, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing these this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
 title: AS-8X API Documentation
-baseurl: "/as8x-docs"
+theme: just-the-docs
 
-# Search settings
-tipue_search:
-  include:
-    pages: true
-  exclude:
-    files: [index.md, search.html]
+nav_external_links: false
 
-theme: minima
-plugins:
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-optional-front-matter
-  - jekyll-relative-links
-  - jekyll-html-pipeline
+aux_links_new_tab: true
+aux_links:
+  "AS-8X on GitHub":
+    - "//github.com/armsoft//as8x-docs"
 
-header_pages:
- - search.html
- - apiIndex.html
- - versioning-dropdown.html 
+back_to_top: true
+back_to_top_text: "↑ Back to top"
+
+color_scheme: light
+
+callouts_level: quiet # or loud
+callouts:
+  important:
+    title: Կարևոր
+    color: blue
+  note:
+    title: Նկատառում
+    color: purple
+  warning:
+    title: Զգուշացում
+    color: red
+
+compress_html:
+  ignore:
+    envs: all
+
+defaults:
+  -
+    scope:
+      path: "src"
+    values:
+      layout: "page"
+
+toc: true
 
 versions:
   - id: bank
@@ -32,7 +64,3 @@ versions:
   - id: wages
     product: "ՀԾ-Աշխատավարձ"
     versions: ["4.0061.0", "4.0062.0"]
-
-config_docservice_path1: ../services/IDocumentService/IDocumentService.md#store
-config_docservice_path2: ../../services/IDocumentService/IDocumentService.md#store
-config_docservice_path3: src/server_api/services/IDocumentService/IDocumentService.md

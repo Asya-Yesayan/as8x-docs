@@ -1,7 +1,10 @@
 ---
 layout: page
-title: "MessageBoxButtons" 
+title: "MessageBoxButtons"
+nav_exclude: true
 ---
+
+# MessageBoxButtons
 
 Այս enum-ը նախատեսված է հաղորդագրության պատուհանում (MessageBox) ավելացվող կոճակների սահմանման համար։
 

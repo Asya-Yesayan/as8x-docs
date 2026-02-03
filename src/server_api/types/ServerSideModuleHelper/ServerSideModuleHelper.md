@@ -1,6 +1,9 @@
 ---
 title: ServerSideModuleHelper դաս
+nav_exclude: true
 ---
+
+# ServerSideModuleHelper դաս
 
 ## Մեթոդներ
 

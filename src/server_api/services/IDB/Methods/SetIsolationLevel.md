@@ -1,6 +1,10 @@
 ---
-title: IDBService.SetIsolationLevel(IsolationLevel) մեթոդ
+title: SetIsolationLevel(IsolationLevel)
+parent: "Մեթոդներ"
+grand_parent: "IDBService"
 ---
+
+# IDBService.SetIsolationLevel(IsolationLevel) մեթոդ
 
 ## Նկարագիր
 

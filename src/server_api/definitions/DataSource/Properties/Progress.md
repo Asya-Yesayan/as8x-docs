@@ -1,6 +1,10 @@
 ---
-title: DataSource.Progress հատկություն
+title: Progress
+parent: "Հատկություններ"
+grand_parent: "Տվյալների աղբյուր"
 ---
+
+# DataSource.Progress հատկություն
 
 ## Նկարագիր
 

@@ -1,6 +1,9 @@
 ---
-title: TemplateSubstitution.ExistsImage(string) մեթոդ
+title: ExistsImage(string)
+nav_exclude: true
 ---
+
+# TemplateSubstitution.ExistsImage(string) մեթոդ
 
 ```c#
 public bool ExistsImage(string name)

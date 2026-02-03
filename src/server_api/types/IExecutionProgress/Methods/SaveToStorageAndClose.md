@@ -1,6 +1,9 @@
 ---
-title: IExecutionProgress.SaveToStorageAndClose() մեթոդ
+title: SaveToStorageAndClose()
+nav_exclude: true
 ---
+
+# IExecutionProgress.SaveToStorageAndClose() մեթոդ
 
 ## Նկարագիր
 

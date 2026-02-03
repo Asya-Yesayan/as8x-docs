@@ -1,6 +1,9 @@
 ---
-title: TextReport.PrintStyle հատկություն
+title: PrintStyle
+nav_exclude: true
 ---
+
+# TextReport.PrintStyle հատկություն
 
 ```c#
 public string PrintStyle { get; set; } = string.Empty;

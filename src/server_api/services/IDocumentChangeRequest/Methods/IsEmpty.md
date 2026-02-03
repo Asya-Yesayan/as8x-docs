@@ -1,6 +1,10 @@
 ---
-title: IDocumentChangeRequestService.IsEmpty(DocumentChangeRequest, bool) մեթոդ
+title: IsEmpty(DocumentChangeRequest, bool)
+parent: "Մեթոդներ"
+grand_parent: "IDocumentChangeRequestService"
 ---
+
+# IDocumentChangeRequestService.IsEmpty(DocumentChangeRequest, bool) մեթոդ
 
 ## Նկարագիր
 

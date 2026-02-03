@@ -1,6 +1,10 @@
 ---
-title: LiteDocumentService.LoadGrids մեթոդ  
+title: LoadGrids
+parent: "Մեթոդներ"
+grand_parent: "LiteDocumentService"
 ---
+
+# LiteDocumentService.LoadGrids մեթոդ
 
 ## LiteDocumentService.LoadGrids(LiteDocument, bool) մեթոդ 
 

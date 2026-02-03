@@ -1,6 +1,10 @@
 ---
-title: IDBService.Connection հատկություն
+title: Connection
+parent: "Հատկություններ"
+grand_parent: "IDBService"
 ---
+
+# IDBService.Connection հատկություն
 
 ## Նկարագիր
 

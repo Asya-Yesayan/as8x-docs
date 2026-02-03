@@ -1,6 +1,10 @@
 ---
-title: DataSource.QueryTimeOut հատկություն
+title: QueryTimeOut
+parent: "Հատկություններ"
+grand_parent: "Տվյալների աղբյուր"
 ---
+
+# DataSource.QueryTimeOut հատկություն
 
 ## Նկարագիր
 

@@ -1,6 +1,10 @@
 ---
-title: "IMailService սերվիս"
+title: "IMailService"
+parent: "Սերվիսներ"
+nav_order: 2
 ---
+
+# IMailService սերվիս
 
 ## Ներածություն
 

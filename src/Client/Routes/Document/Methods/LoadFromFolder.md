@@ -1,6 +1,9 @@
 ---
-title: DocumentRoutes.LoadFromFolder(string, string, bool) մեթոդ
+title: LoadFromFolder(string, string, bool)
+nav_exclude: true
 ---
+
+# DocumentRoutes.LoadFromFolder(string, string, bool) մեթոդ
 
 ```c#
 public DocumentModel LoadFromFolder(string folder, 

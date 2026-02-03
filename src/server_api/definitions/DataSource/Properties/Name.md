@@ -1,6 +1,10 @@
 ---
-title: DataSource.Name հատկություն
+title: Name
+parent: "Հատկություններ"
+grand_parent: "Տվյալների աղբյուր"
 ---
+
+# DataSource.Name հատկություն
 
 ## Նկարագիր
 

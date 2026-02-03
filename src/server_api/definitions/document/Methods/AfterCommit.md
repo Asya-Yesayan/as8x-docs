@@ -1,6 +1,10 @@
 ---
-title: Document.AfterCommit(AfterCommitEventArgs) մեթոդ
+title: AfterCommit(AfterCommitEventArgs)
+parent: "Մեթոդներ"
+grand_parent: "Փաստաթուղթ"
 ---
+
+# Document.AfterCommit(AfterCommitEventArgs) մեթոդ
 
 ## Նկարագիր
 

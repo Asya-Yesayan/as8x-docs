@@ -1,6 +1,10 @@
 ---
-title: IDocumentService.HiDelete(Document, bool) մեթոդ
+title: HiDelete(Document, bool)
+parent: "Մեթոդներ"
+grand_parent: "IDocumentService"
 ---
+
+# IDocumentService.HiDelete(Document, bool) մեթոդ
 
 ## Նկարագիր
 

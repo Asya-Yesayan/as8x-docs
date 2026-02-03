@@ -1,0 +1,28 @@
+Files that didn't match expected patterns (initially):
+============================================================
+
+These files were initially skipped due to special characters (generic type parameters <R, S>, <T> or Armenian middle dot ․), 
+but were successfully processed after updating the script to handle these cases.
+
+All files have been successfully processed.
+
+Initial skipped files (now processed):
+- src\server_api\Types\UIRequestExecutionProgress\Methods\AddCustomUIRequest.md
+  → Updated to: AddCustomUIRequest<R, S>(S, int, int, Action<S>, bool)
+
+- src\server_api\Services\IDocument\Methods\SerializeResponseBody.md
+  → Updated to: SerializeResponseBody<T>(Document, bool)
+
+- src\server_api\Services\Statistics\Methods\GetParameters.md
+  → Updated to: GetParameters(string)
+
+- src\server_api\Services\Statistics\Methods\StoreReportCallsAndParams.md
+  → Updated to: StoreReportCallsAndParams(ReportCallsStoreModel)
+
+- src\server_api\Services\UserManager\Methods\GetAccessibleRoles.md
+  → Updated to: GetAccessibleRoles(short)
+
+- src\server_api\Services\UserManager\Methods\GetUnhiddenUsers.md
+  → Updated to: GetUnhiddenUsers()
+
+Total files processed: 661 (496 Methods + 166 Properties - 1 index.md file that didn't match pattern)

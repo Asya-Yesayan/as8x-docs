@@ -1,6 +1,10 @@
 ---
-title: IParametersService.GetIntegerValue մեթոդ  
+title: GetIntegerValue
+parent: "Մեթոդներ"
+grand_parent: "IParametersService"
 ---
+
+# IParametersService.GetIntegerValue մեթոդ
 
 ## Նկարագիր
 

@@ -1,6 +1,9 @@
 ---
-title: TextReport.InsertRows(TextReport, long, long) մեթոդ
+title: InsertRows(TextReport, long, long)
+nav_exclude: true
 ---
+
+# TextReport.InsertRows(TextReport, long, long) մեթոդ
 
 ```c#
 public Task InsertRows(TextReport textReport, long begin = 0, long rowCount = 0)

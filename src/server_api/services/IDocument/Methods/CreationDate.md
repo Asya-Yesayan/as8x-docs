@@ -1,6 +1,10 @@
 ---
-title: IDocumentService.CreationDate(int, bool) մեթոդ
+title: CreationDate(int, bool)
+parent: "Մեթոդներ"
+grand_parent: "IDocumentService"
 ---
+
+# IDocumentService.CreationDate(int, bool) մեթոդ
 
 ## Նկարագիր
 

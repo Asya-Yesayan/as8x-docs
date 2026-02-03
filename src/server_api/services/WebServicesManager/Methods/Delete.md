@@ -1,6 +1,10 @@
 ---
-title: WebServicesManager.Delete(string) մեթոդ
+title: Delete(string)
+parent: "Մեթոդներ"
+grand_parent: "WebServicesManager"
 ---
+
+# WebServicesManager.Delete(string) մեթոդ
 
 ```c#
 public Task Delete(string id)

@@ -1,7 +1,10 @@
 ---
 layout: page
-title: "PostMessageEventArgs դաս" 
+title: "PostMessageEventArgs դաս"
+nav_exclude: true
 ---
+
+# PostMessageEventArgs դաս
 
 Այս դասը օգտագործվում է [Document.PostMessage](../../Definitions/Document/Methods/PostMessage.md) մեթոդում։
 

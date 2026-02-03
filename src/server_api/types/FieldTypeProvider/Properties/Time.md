@@ -1,6 +1,9 @@
 ---
-title: FieldTypeProvider.Time հատկություն
+title: Time
+nav_exclude: true
 ---
+
+# FieldTypeProvider.Time հատկություն
 
 ```c#
 public static TimeFieldType Time { get; }

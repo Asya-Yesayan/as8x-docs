@@ -1,6 +1,10 @@
 ---
-title: IUserService.UserElProp(short) մեթոդ  
+title: UserElProp(short)
+parent: "Մեթոդներ"
+grand_parent: "IUserService"
 ---
+
+# IUserService.UserElProp(short) մեթոդ
 
 ## Նկարագիր
 

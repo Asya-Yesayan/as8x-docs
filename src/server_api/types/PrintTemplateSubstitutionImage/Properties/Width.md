@@ -1,6 +1,9 @@
 ---
-title: PrintTemplateSubstitutionImage.Width հատկություն
+title: Width
+nav_exclude: true
 ---
+
+# PrintTemplateSubstitutionImage.Width հատկություն
 
 ```c#
 public decimal Width { get; set; }

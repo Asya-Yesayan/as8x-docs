@@ -1,6 +1,10 @@
 ---
-title: Document.RefreshTimeStamp() մեթոդ
+title: RefreshTimeStamp()
+parent: "Մեթոդներ"
+grand_parent: "Փաստաթուղթ"
 ---
+
+# Document.RefreshTimeStamp() մեթոդ
 
 ## Նկարագիր
 

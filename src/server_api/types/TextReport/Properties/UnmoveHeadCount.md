@@ -1,6 +1,9 @@
 ---
-title: TextReport.UnmoveHeadCount հատկություն
+title: UnmoveHeadCount
+nav_exclude: true
 ---
+
+# TextReport.UnmoveHeadCount հատկություն
 
 ```c#
 public int UnmoveHeadCount { get; set; }

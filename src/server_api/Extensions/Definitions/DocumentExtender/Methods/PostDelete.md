@@ -1,6 +1,9 @@
 ---
-title: DocumentExtender.PostDelete(Document, DeleteEventArgs) մեթոդ
+title: PostDelete(Document, DeleteEventArgs)
+nav_exclude: true
 ---
+
+# DocumentExtender.PostDelete(Document, DeleteEventArgs) մեթոդ
 
 ## Նկարագիր
 

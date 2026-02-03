@@ -1,6 +1,10 @@
 ---
-title: IParametersService.SetSerializedValue(string, string, short, bool) մեթոդ  
+title: SetSerializedValue(string, string, short, bool)
+parent: "Մեթոդներ"
+grand_parent: "IParametersService"
 ---
+
+# IParametersService.SetSerializedValue(string, string, short, bool) մեթոդ
 
 ## Նկարագիր
 

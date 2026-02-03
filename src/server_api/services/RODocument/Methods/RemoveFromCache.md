@@ -1,6 +1,11 @@
 ---
-title: RODocumentService.RemoveFromCache մեթոդ  
+title: RemoveFromCache
+parent: "Մեթոդներ"
+grand_parent: "RODocumentService"
+
 ---
+
+# RODocumentService.RemoveFromCache մեթոդ
 
 ## Գերբեռնումներ
 

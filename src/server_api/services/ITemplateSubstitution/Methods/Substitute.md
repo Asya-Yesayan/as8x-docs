@@ -1,6 +1,10 @@
 ---
-title: ITemplateSubstitutionService.Substitute(IPrintTemplateSubstitution, byte[], SubstitutionType, HtmlImageOption, bool, string, bool, bool) մեթոդ  
+title: Substitute(IPrintTemplateSubstitution, byte[], SubstitutionType, HtmlImageOption, bool, string, bool, bool)
+parent: "Մեթոդներ"
+grand_parent: "ITemplateSubstitutionService"
 ---
+
+# ITemplateSubstitutionService.Substitute(IPrintTemplateSubstitution, byte[], SubstitutionType, HtmlImageOption, bool, string, bool, bool) մեթոդ
 
 ## Նկարագիր
 

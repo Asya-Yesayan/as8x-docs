@@ -1,6 +1,9 @@
 ---
-title: FieldTypeProvider.GetCHFieldType(string, short, short, bool) մեթոդ
+title: GetCHFieldType(string, short, short, bool)
+nav_exclude: true
 ---
+
+# FieldTypeProvider.GetCHFieldType(string, short, short, bool) մեթոդ
 
 ```c#
 public static CHFieldType GetCHFieldType(string name, short length, short commentLength = 0, bool isNullable = false)

@@ -1,6 +1,9 @@
 ---
-title: DocumentExtender.PreOnRejectDocumentChangeRequest(Document, RejectDocumentChangeRequestEventArgs) մեթոդ
+title: PreOnRejectDocumentChangeRequest(Document, RejectDocumentChangeRequestEventArgs)
+nav_exclude: true
 ---
+
+# DocumentExtender.PreOnRejectDocumentChangeRequest(Document, RejectDocumentChangeRequestEventArgs) մեթոդ
 
 ## Նկարագիր
 

@@ -1,6 +1,10 @@
 ---
-title: Document.TakeSnapshot(SnapshotContent, string, bool) մեթոդ
+title: TakeSnapshot(SnapshotContent, string, bool)
+parent: "Մեթոդներ"
+grand_parent: "Փաստաթուղթ"
 ---
+
+# Document.TakeSnapshot(SnapshotContent, string, bool) մեթոդ
 
 ## Նկարագիր
 

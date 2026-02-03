@@ -1,7 +1,10 @@
 ---
 layout: page
-title: "Բոլոր նկարագրությունները" 
+title: "Համակարգային նկարագրություններ"
+nav_order: 1
 ---
+
+# Բոլոր նկարագրությունները
 
 * [Փաստաթղթի նկարագրություն](Definitions/Document/Document.md)
 * [Տվյալների աղբյուրի նկարագրություն](Definitions/DataSource/DataSource.md)

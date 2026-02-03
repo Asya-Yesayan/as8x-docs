@@ -1,6 +1,9 @@
 ---
-title: SeqHelper.GetEventException(string) մեթոդ
+title: GetEventException(string)
+nav_exclude: true
 ---
+
+# SeqHelper.GetEventException(string) մեթոդ
 
 ```c#
 public static string GetEventException(string eventId)

@@ -1,5 +1,7 @@
 ﻿---
-title: IAttachmentService.DeleteAll(int) մեթոդ
+title: DeleteAll(int)
+parent: "Մեթոդներ"
+grand_parent: "IAttachmentService"
 ---
 
 ## Նկարագիր

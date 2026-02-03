@@ -11,6 +11,7 @@ sublinks:
 - { title: "EkengPEKAvgNetInc", ref: ekengpekavgnetinc }
 - { title: "AllLoansCount, CurrentLoansCount", ref: allloanscount-currentloanscount }
 - { title: "CurrentLoansAmount", ref: currentloansamount }
+nav_exclude: true
 ---
 
 <div class="version-block" data-product-id="bank" data-version="250626.000, 250929.000" markdown="1">

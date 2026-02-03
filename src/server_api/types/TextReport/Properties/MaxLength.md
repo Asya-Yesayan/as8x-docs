@@ -1,6 +1,9 @@
 ---
-title: TextReport.MaxLength հատկություն
+title: MaxLength
+nav_exclude: true
 ---
+
+# TextReport.MaxLength հատկություն
 
 ```c#
 public int MaxLength { get; protected set; }

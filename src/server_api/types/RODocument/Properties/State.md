@@ -1,6 +1,9 @@
 ---
-title: RODocument.State հատկություն
+title: State
+nav_exclude: true
 ---
+
+# RODocument.State հատկություն
 
 ```c#
 public short State { get; set; }

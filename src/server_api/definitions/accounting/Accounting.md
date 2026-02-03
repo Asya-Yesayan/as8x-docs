@@ -1,6 +1,11 @@
 ---
-title: Accounting նկարագրություն
+layout: page
+title: Հաշվառում
+parent: "Համակարգային նկարագրություններ"
+nav_order: 2
 ---
+
+# Accounting նկարագրություն
 
 ## Ներածություն
 

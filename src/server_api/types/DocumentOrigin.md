@@ -2,7 +2,10 @@
 layout: page
 title: "DocumentOrigin" 
 tags: DocumentOrigin
+nav_exclude: true
 ---
+
+# DocumentOrigin
 
 ## Փաստաթղթի ստեղծման աղբյուր
 

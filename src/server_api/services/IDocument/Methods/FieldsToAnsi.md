@@ -1,6 +1,10 @@
 ---
-title: IDocumentService.FieldsToAnsi(string, Dictionary<string, object>) մեթոդ
+title: FieldsToAnsi(string, Dictionary<string, object>)
+parent: "Մեթոդներ"
+grand_parent: "IDocumentService"
 ---
+
+# IDocumentService.FieldsToAnsi(string, Dictionary<string, object>) մեթոդ
 
 ## Նկարագիր
 

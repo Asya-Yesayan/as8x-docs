@@ -1,6 +1,10 @@
 ---
-title: IParametersService.OperEnd մեթոդ  
+title: OperEnd
+parent: "Մեթոդներ"
+grand_parent: "IParametersService"
 ---
+
+# IParametersService.OperEnd մեթոդ
 
 ## Գերբեռնումներ
 

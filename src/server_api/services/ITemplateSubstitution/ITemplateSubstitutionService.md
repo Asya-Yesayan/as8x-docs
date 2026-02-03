@@ -1,6 +1,10 @@
 ---
-title: "ITemplateSubstitutionService սերվիս"
+title: "ITemplateSubstitutionService"
+parent: "Սերվիսներ"
+nav_order: 2
 ---
+
+# ITemplateSubstitutionService սերվիս
 
 ## Ներածություն
 

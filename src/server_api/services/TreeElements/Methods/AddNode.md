@@ -1,6 +1,10 @@
 ---
-title: TreeElementsService.AddNode(TreeElement, bool) մեթոդ  
+title: AddNode(TreeElement, bool)
+parent: "Մեթոդներ"
+grand_parent: "TreeElementsService"
 ---
+
+# TreeElementsService.AddNode(TreeElement, bool) մեթոդ
 
 ## Նկարագիր
 

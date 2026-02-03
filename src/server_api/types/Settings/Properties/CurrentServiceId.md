@@ -1,6 +1,9 @@
 ---
-title: Settings.CurrentServiceId հատկություն
+title: CurrentServiceId
+nav_exclude: true
 ---
+
+# Settings.CurrentServiceId հատկություն
 
 ```c#
 public static string CurrentServiceId { get; }

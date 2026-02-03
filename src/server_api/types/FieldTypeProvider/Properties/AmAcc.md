@@ -1,6 +1,9 @@
 ---
-title: FieldTypeProvider.AmAcc հատկություն
+title: AmAcc
+nav_exclude: true
 ---
+
+# FieldTypeProvider.AmAcc հատկություն
 
 ```c#
 public static AmAccFieldType AmAcc { get; }

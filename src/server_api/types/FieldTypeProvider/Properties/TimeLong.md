@@ -1,6 +1,9 @@
 ---
-title: FieldTypeProvider.TimeLong հատկություն
+title: TimeLong
+nav_exclude: true
 ---
+
+# FieldTypeProvider.TimeLong հատկություն
 
 ```c#
 public static TimeFieldType Time { get; }

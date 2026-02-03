@@ -1,6 +1,10 @@
 ---
-title: LiteDocumentService.LookUpInCache մեթոդ  
+title: LookUpInCache
+parent: "Մեթոդներ"
+grand_parent: "LiteDocumentService"
 ---
+
+# LiteDocumentService.LookUpInCache մեթոդ
 
 ## Գերբեռնումներ
 

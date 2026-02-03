@@ -1,6 +1,10 @@
 ---
-title: Document.Progress հատկություն
+title: Progress
+parent: "Հատկություններ"
+grand_parent: "Փաստաթուղթ"
 ---
+
+# Document.Progress հատկություն
 
 ## Նկարագիր
 

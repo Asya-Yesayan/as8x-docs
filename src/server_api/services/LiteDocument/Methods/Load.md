@@ -1,6 +1,10 @@
 ---
-title: LiteDocumentService.Load մեթոդ  
+title: Load
+parent: "Մեթոդներ"
+grand_parent: "LiteDocumentService"
 ---
+
+# LiteDocumentService.Load մեթոդ
 
 ## LiteDocumentService.Load(int, bool, bool, bool) մեթոդ 
 

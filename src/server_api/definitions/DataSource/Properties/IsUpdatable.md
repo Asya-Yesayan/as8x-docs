@@ -1,6 +1,10 @@
 ---
-title: DataSource.IsUpdatable հատկություն
+title: IsUpdatable
+parent: "Հատկություններ"
+grand_parent: "Տվյալների աղբյուր"
 ---
+
+# DataSource.IsUpdatable հատկություն
 
 ## Նկարագիր
 

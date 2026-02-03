@@ -1,6 +1,10 @@
 ---
-title: IFactService.LoadHI2ByBase(int, string, string, long) մեթոդ
+title: LoadHI2ByBase(int, string, string, long)
+parent: "Մեթոդներ"
+grand_parent: "IFactService"
 ---
+
+# IFactService.LoadHI2ByBase(int, string, string, long) մեթոդ
 
 ## Նկարագիր
 

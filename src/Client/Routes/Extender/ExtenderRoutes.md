@@ -1,6 +1,9 @@
 ---
 title: ExtenderRoutes դաս
+nav_exclude: true
 ---
+
+# ExtenderRoutes դաս
 
 ## Ներածություն
 

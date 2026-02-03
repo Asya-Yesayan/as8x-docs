@@ -1,6 +1,9 @@
 ---
-title: LoginService.GetToken(TimeSpan?) մեթոդ
+title: GetToken(TimeSpan?)
+nav_exclude: true
 ---
+
+# LoginService.GetToken(TimeSpan?) մեթոդ
 
 ```c#
 public string GetToken(TimeSpan? timeSpan = null)

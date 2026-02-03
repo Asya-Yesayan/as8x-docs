@@ -1,6 +1,9 @@
 ---
-title: IDocumentChangeRequest.ChangeRequest(ChangeRequestEventArgs) մեթոդ
+title: ChangeRequest(ChangeRequestEventArgs)
+nav_exclude: true
 ---
+
+# IDocumentChangeRequest.ChangeRequest(ChangeRequestEventArgs) մեթոդ
 
 ```c#
 public Task ChangeRequest(ChangeRequestEventArgs args)

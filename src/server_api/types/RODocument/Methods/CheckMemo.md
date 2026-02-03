@@ -1,6 +1,9 @@
 ---
-title: RODocument.CheckMemo() մեթոդ
+title: CheckMemo()
+nav_exclude: true
 ---
+
+# RODocument.CheckMemo() մեթոդ
 
 ```c#
 protected void CheckMemo()

@@ -1,6 +1,9 @@
 ---
-title: LoanApplicationsRoutes.Sign(SignRequest) մեթոդ
+title: Sign(SignRequest)
+nav_exclude: true
 ---
+
+# LoanApplicationsRoutes.Sign(SignRequest) մեթոդ
 
 ```c#
 public async Task<SignResponse> Sign(SignRequest request)

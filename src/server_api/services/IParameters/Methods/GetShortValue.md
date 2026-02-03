@@ -1,6 +1,10 @@
 ---
-title: IParametersService.GetShortValue մեթոդ  
+title: GetShortValue
+parent: "Մեթոդներ"
+grand_parent: "IParametersService"
 ---
+
+# IParametersService.GetShortValue մեթոդ
 
 ## Նկարագիր
 

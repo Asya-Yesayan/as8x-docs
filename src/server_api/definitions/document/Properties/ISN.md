@@ -1,6 +1,10 @@
 ---
-title: Document.ISN հատկություն
+title: ISN
+parent: "Հատկություններ"
+grand_parent: "Փաստաթուղթ"
 ---
+
+# Document.ISN հատկություն
 
 ## Նկարագիր
 

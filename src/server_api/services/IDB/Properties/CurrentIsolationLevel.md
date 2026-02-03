@@ -1,6 +1,10 @@
 ---
-title: IDBService.CurrentIsolationLevel հատկություն
+title: CurrentIsolationLevel
+parent: "Հատկություններ"
+grand_parent: "IDBService"
 ---
+
+# IDBService.CurrentIsolationLevel հատկություն
 
 ## Նկարագիր
 

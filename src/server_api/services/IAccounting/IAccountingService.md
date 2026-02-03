@@ -1,6 +1,10 @@
 ---
-title: "IAccountingService սերվիս"
+title: "IAccountingService"
+parent: "Սերվիսներ"
+nav_order: 2
 ---
+
+# IAccountingService սերվիս
 
 ## Ներածություն
 

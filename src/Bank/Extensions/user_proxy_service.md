@@ -89,6 +89,7 @@ sublinks:
 - { title: "WKDATE", ref: wkdate }
 - { title: "YEAR_BEGIN", ref: year_begin }
 - { title: "YEAR_END", ref: year_end }
+nav_exclude: true
 ---
 
 <div class="version-block" data-product-id="bank" data-version="250626.000, 250929.000" markdown="1">

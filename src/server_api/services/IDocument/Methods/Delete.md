@@ -1,6 +1,10 @@
 ---
-title: IDocumentService.Delete մեթոդ
+title: Delete
+parent: "Մեթոդներ"
+grand_parent: "IDocumentService"
 ---
+
+# IDocumentService.Delete մեթոդ
 
 ## Նկարագիր
 

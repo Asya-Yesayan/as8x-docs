@@ -1,6 +1,9 @@
 ---
-title: TextReport.RowCount հատկություն
+title: RowCount
+nav_exclude: true
 ---
+
+# TextReport.RowCount հատկություն
 
 ```c#
 public long RowCount { get; protected set; }

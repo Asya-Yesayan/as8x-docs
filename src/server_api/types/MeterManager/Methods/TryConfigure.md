@@ -1,6 +1,9 @@
 ---
-title: MeterManager.TryConfigure(IParametersService) մեթոդ
+title: TryConfigure(IParametersService)
+nav_exclude: true
 ---
+
+# MeterManager.TryConfigure(IParametersService) մեթոդ
 
 ```c#
 public void TryConfigure(IParametersService parametersService)

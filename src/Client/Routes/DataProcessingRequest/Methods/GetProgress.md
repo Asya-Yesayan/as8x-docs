@@ -1,6 +1,9 @@
 ---
-title: DataProcessingRequestRoutes.GetProgress(Guid) մեթոդ
+title: GetProgress(Guid)
+nav_exclude: true
 ---
+
+# DataProcessingRequestRoutes.GetProgress(Guid) մեթոդ
 
 ```c#
 public DPRProgress GetProgress(Guid id)

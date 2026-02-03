@@ -1,5 +1,7 @@
 ﻿---
-title: IAttachmentService.Copy(int, int, bool) մեթոդ
+title: Copy(int, int, bool)
+parent: "Մեթոդներ"
+grand_parent: "IAttachmentService"
 ---
 
 ## Նկարագիր

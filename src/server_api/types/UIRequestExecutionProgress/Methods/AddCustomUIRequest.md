@@ -1,6 +1,9 @@
 ---
-title: UIRequestExecutionProgress.AddCustomUIRequest<R, S>(S, int, int, Action<S>, bool) մեթոդ
+title: AddCustomUIRequest<R, S>(S, int, int, Action<S>, bool)
+nav_exclude: true
 ---
+
+# UIRequestExecutionProgress.AddCustomUIRequest<R, S>(S, int, int, Action<S>, bool) մեթոդ
 
 ```c#
 public Task<CustomUIRequestResult<R>> AddCustomUIRequest<R, S>(S requestSource, 

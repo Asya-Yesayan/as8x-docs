@@ -1,6 +1,10 @@
 ---
-title: IDBService.BeginTransAsync() մեթոդ
+title: BeginTransAsync()
+parent: "Մեթոդներ"
+grand_parent: "IDBService"
 ---
+
+# IDBService.BeginTransAsync() մեթոդ
 
 ## Նկարագիր
 

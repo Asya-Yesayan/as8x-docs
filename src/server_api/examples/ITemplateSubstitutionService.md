@@ -3,7 +3,10 @@ layout: page
 title: "Օրինակ ITemplateSubstitutionService" 
 sublinks:
 - { title: "Օրինակ IMailService, PostBeforeCommit", ref: օրինակ-1 }
+nav_exclude: true
 ---
+
+# Օրինակ ITemplateSubstitutionService
 
 ## Բովանդակություն
 - [ITemplateSubstitutionService, IMailService, PostBeforeCommit օգտագործման օրինակ](#օրինակ-1)

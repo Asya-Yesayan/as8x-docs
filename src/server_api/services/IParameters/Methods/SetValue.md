@@ -1,6 +1,10 @@
 ---
-title: IParametersService.SetValue(string, object) մեթոդ  
+title: SetValue(string, object)
+parent: "Մեթոդներ"
+grand_parent: "IParametersService"
 ---
+
+# IParametersService.SetValue(string, object) մեթոդ
 
 ## Նկարագիր
 

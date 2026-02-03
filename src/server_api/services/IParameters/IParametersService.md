@@ -1,6 +1,10 @@
 ---
-title: "IParametersService սերվիս"
+title: "IParametersService"
+parent: "Սերվիսներ"
+nav_order: 2
 ---
+
+# IParametersService սերվիս
 
 ## Ներածություն
 

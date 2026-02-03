@@ -1,6 +1,10 @@
 ---
-title: IDocumentService.GetDocumentTypeFromFolder(string, string) մեթոդ
+title: GetDocumentTypeFromFolder(string, string)
+parent: "Մեթոդներ"
+grand_parent: "IDocumentService"
 ---
+
+# IDocumentService.GetDocumentTypeFromFolder(string, string) մեթոդ
 
 ## Նկարագիր
 

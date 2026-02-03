@@ -1,6 +1,10 @@
 ---
-title: Document.AfterCreate(AfterCreateEventArgs) մեթոդ
+title: AfterCreate(AfterCreateEventArgs)
+parent: "Մեթոդներ"
+grand_parent: "Փաստաթուղթ"
 ---
+
+# Document.AfterCreate(AfterCreateEventArgs) մեթոդ
 
 ## Նկարագիր
 

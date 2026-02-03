@@ -1,6 +1,10 @@
 ---
-title: IStorageService.Container հատկություն  
+title: Container
+parent: "Հատկություններ"
+grand_parent: "IStorageService"
 ---
+
+# IStorageService.Container հատկություն
 
 ## Նկարագիր
 

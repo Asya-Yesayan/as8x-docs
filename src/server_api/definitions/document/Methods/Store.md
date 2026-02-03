@@ -1,6 +1,10 @@
 ---
-title: Document.Store(DocumentCheckLevel, string) մեթոդ
+title: Store(DocumentCheckLevel, string)
+parent: "Մեթոդներ"
+grand_parent: "Փաստաթուղթ"
 ---
+
+# Document.Store(DocumentCheckLevel, string) մեթոդ
 
 ## Նկարագիր
 

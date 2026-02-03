@@ -1,6 +1,10 @@
 ---
-title: ISessionInfoService.GetInfo() մեթոդ  
+title: GetInfo()
+parent: "Մեթոդներ"
+grand_parent: "ISessionInfoService"
 ---
+
+# ISessionInfoService.GetInfo() մեթոդ
 
 ## Նկարագիր
 

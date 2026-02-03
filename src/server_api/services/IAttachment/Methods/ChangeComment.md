@@ -1,5 +1,7 @@
 ﻿---
-title: IAttachmentService.ChangeComment(AttachmentCommentModel) մեթոդ
+title: ChangeComment(AttachmentCommentModel)
+parent: "Մեթոդներ"
+grand_parent: "IAttachmentService"
 ---
 
 ## Նկարագիր

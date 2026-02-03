@@ -1,6 +1,9 @@
 ---
-title: DocumentRoutes.LoadAsync(int, bool, bool, CancellationToken) մեթոդ
+title: LoadAsync(int, bool, bool, CancellationToken)
+nav_exclude: true
 ---
+
+# DocumentRoutes.LoadAsync(int, bool, bool, CancellationToken) մեթոդ
 
 ```c#
 public Task<DocumentModelSimple> LoadAsync(int isn, 

@@ -1,6 +1,9 @@
 ---
-title: ApiClient.Document հատկություն
+title: Document
+nav_exclude: true
 ---
+
+# ApiClient.Document հատկություն
 
 ```c#
 public DocumentRoutes Document { get; }

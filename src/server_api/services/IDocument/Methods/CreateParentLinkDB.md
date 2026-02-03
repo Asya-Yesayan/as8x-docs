@@ -1,6 +1,10 @@
 ---
-title: IDocumentService.CreateParentLinkDB(int, int) մեթոդ
+title: CreateParentLinkDB(int, int)
+parent: "Մեթոդներ"
+grand_parent: "IDocumentService"
 ---
+
+# IDocumentService.CreateParentLinkDB(int, int) մեթոդ
 
 ## Նկարագիր
 

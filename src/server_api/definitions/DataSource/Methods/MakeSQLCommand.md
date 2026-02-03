@@ -1,6 +1,10 @@
 ---
-title: DataSource.MakeSQLCommand(DataSourceArgs<P>, CancellationToken) մեթոդ
+title: MakeSQLCommand(DataSourceArgs<P>, CancellationToken)
+parent: "Մեթոդներ"
+grand_parent: "Տվյալների աղբյուր"
 ---
+
+# DataSource.MakeSQLCommand(DataSourceArgs<P>, CancellationToken) մեթոդ
 
 ## Նկարագիր
 

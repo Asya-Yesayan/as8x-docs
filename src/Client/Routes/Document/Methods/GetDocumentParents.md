@@ -1,6 +1,9 @@
 ---
-title: DocumentRoutes.GetDocumentParents(int, DocumentParentsRequestModel) մեթոդ
+title: GetDocumentParents(int, DocumentParentsRequestModel)
+nav_exclude: true
 ---
+
+# DocumentRoutes.GetDocumentParents(int, DocumentParentsRequestModel) մեթոդ
 
 ```c#
 public List<DocumentResponseInfo> GetDocumentParents(int isn, 

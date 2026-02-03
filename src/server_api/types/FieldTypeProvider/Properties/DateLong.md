@@ -1,6 +1,9 @@
 ---
-title: FieldTypeProvider.DateLong հատկություն
+title: DateLong
+nav_exclude: true
 ---
+
+# FieldTypeProvider.DateLong հատկություն
 
 ```c#
 public static DateFieldType DateLong { get; }

@@ -1,6 +1,9 @@
 ---
-title: LoginService.IsAdmin հատկություն
+title: IsAdmin
+nav_exclude: true
 ---
+
+# LoginService.IsAdmin հատկություն
 
 ```c#
 public bool IsAdmin { get; private set; }

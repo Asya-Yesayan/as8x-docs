@@ -1,6 +1,9 @@
 ---
-title: MeterManager.GlobalTags հատկություն
+title: GlobalTags
+nav_exclude: true
 ---
+
+# MeterManager.GlobalTags հատկություն
 
 ```c#
 protected internal IReadOnlyDictionary<string, object> GlobalTags { get; }

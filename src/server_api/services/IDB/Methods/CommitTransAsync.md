@@ -1,6 +1,10 @@
 ---
-title: IDBService.CommitTransAsync() մեթոդ
+title: CommitTransAsync()
+parent: "Մեթոդներ"
+grand_parent: "IDBService"
 ---
+
+# IDBService.CommitTransAsync() մեթոդ
 
 ## Նկարագիր
 

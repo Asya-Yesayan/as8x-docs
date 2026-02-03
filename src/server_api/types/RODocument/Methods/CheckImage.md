@@ -1,6 +1,9 @@
 ---
-title: RODocument.CheckImage() մեթոդ
+title: CheckImage()
+nav_exclude: true
 ---
+
+# RODocument.CheckImage() մեթոդ
 
 ```c#
 protected void CheckImage()

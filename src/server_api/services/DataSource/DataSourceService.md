@@ -1,6 +1,10 @@
 ---
-title: "DataSourceService սերվիս"
+title: "DataSourceService"
+parent: "Սերվիսներ"
+nav_order: 2
 ---
+
+# DataSourceService սերվիս
 
 ## Ներածություն
 

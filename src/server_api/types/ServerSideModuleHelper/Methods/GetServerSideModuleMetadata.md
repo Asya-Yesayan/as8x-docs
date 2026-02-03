@@ -1,6 +1,9 @@
 ---
-title: ServerSideModuleHelper.GetServerSideModuleMetadata(IDBService, string) մեթոդ
+title: GetServerSideModuleMetadata(IDBService, string)
+nav_exclude: true
 ---
+
+# ServerSideModuleHelper.GetServerSideModuleMetadata(IDBService, string) մեթոդ
 
 ```c#
 public static Task<ServerSideModuleMetadata> GetServerSideModuleMetadata(IDBService dbService, string name)

@@ -1,6 +1,9 @@
 ---
-title: DataSource.FirstFetchSize հատկություն
+title: FirstFetchSize
+nav_exclude: true
 ---
+
+# DataSource.FirstFetchSize հատկություն
 
 ```c#
 public int FirstFetchSize { get; set; }

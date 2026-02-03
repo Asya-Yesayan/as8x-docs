@@ -1,6 +1,9 @@
 ---
-title: TextReport.SaveToStorageAndClose() մեթոդ
+title: SaveToStorageAndClose()
+nav_exclude: true
 ---
+
+# TextReport.SaveToStorageAndClose() մեթոդ
 
 ```c#
 public Task<StorageInfo> SaveToStorageAndClose()

@@ -1,6 +1,9 @@
 ---
-title: RODocument.LastTSCheck հատկություն
+title: LastTSCheck
+nav_exclude: true
 ---
+
+# RODocument.LastTSCheck հատկություն
 
 ```c#
 public DateTime LastTSCheck { get; private set; }

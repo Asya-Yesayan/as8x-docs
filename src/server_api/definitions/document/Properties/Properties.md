@@ -1,6 +1,10 @@
 ---
-title: Document.Properties հատկություն
+title: Properties
+parent: "Հատկություններ"
+grand_parent: "Փաստաթուղթ"
 ---
+
+# Document.Properties հատկություն
 
 ## Նկարագիր
 

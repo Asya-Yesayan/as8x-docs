@@ -1,6 +1,10 @@
 ---
-title: SessionInfoCacheService սերվիս
+title: SessionInfoCacheService
+parent: "Սերվիսներ"
+nav_order: 2
 ---
+
+# SessionInfoCacheService սերվիս
 
 ## Մեթոդներ
 

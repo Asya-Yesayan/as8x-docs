@@ -1,6 +1,10 @@
 ---
-title: "SystemStateService սերվիս"
+title: "SystemStateService"
+parent: "Սերվիսներ"
+nav_order: 2
 ---
+
+# SystemStateService սերվիս
 
 ## Մեթոդներ
 

@@ -1,6 +1,11 @@
 ---
-title: TemplateService.GetDefinition(string, string) մեթոդ  
+title: GetDefinition(string, string)
+parent: "Մեթոդներ"
+grand_parent: "TemplateService"
+
 ---
+
+# TemplateService.GetDefinition(string, string) մեթոդ
 
 ## Նկարագիր
 

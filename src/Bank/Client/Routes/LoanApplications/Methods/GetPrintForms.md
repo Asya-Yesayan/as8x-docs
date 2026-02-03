@@ -1,6 +1,9 @@
 ---
-title: LoanApplicationsRoutes.GetPrintForms(GetPrintFormsRequest) մեթոդ
+title: GetPrintForms(GetPrintFormsRequest)
+nav_exclude: true
 ---
+
+# LoanApplicationsRoutes.GetPrintForms(GetPrintFormsRequest) մեթոդ
 
 ```c#
 public async Task<LoanApplications.GetPrintFormsResponse> GetPrintForms(GetPrintFormsRequest request)

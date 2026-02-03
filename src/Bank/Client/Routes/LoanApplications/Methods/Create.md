@@ -1,6 +1,9 @@
 ---
-title: LoanApplicationsRoutes.Create(CreateRequest) մեթոդ
+title: Create(CreateRequest)
+nav_exclude: true
 ---
+
+# LoanApplicationsRoutes.Create(CreateRequest) մեթոդ
 
 ```c#
 public async Task<CreateResponse> Create(CreateRequest request)

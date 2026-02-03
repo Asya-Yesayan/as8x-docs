@@ -1,6 +1,10 @@
 ---
-title: Document.DeleteAll(List<int>, bool, string, bool, bool) մեթոդ
+title: DeleteAll(List<int>, bool, string, bool, bool)
+parent: "Մեթոդներ"
+grand_parent: "IDocumentService"
 ---
+
+# Document.DeleteAll(List<int>, bool, string, bool, bool) մեթոդ
 
 ## Նկարագիր
 

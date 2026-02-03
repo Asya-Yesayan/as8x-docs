@@ -1,6 +1,10 @@
 ---
-title: IDocumentService.GetGrandChildren(int, string, string, string, string) մեթոդ
+title: GetGrandChildren(int, string, string, string, string)
+parent: "Մեթոդներ"
+grand_parent: "IDocumentService"
 ---
+
+# IDocumentService.GetGrandChildren(int, string, string, string, string) մեթոդ
 
 ## Նկարագիր
 

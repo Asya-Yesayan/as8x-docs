@@ -1,6 +1,9 @@
 ---
-title: LoginService.ServiceAddress հատկություն
+title: ServiceAddress
+nav_exclude: true
 ---
+
+# LoginService.ServiceAddress հատկություն
 
 ```c#
 public string ServiceAddress { get; private set; }

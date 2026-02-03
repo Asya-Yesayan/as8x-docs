@@ -1,6 +1,9 @@
 ---
-title: IExecutionProgress.Add(string) մեթոդ
+title: Add(string)
+nav_exclude: true
 ---
+
+# IExecutionProgress.Add(string) մեթոդ
 
 ## Նկարագիր
 

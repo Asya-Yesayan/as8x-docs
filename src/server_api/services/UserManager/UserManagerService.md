@@ -1,6 +1,10 @@
 ---
-title: "UserManagerService սերվիս"
+title: "UserManagerService"
+parent: "Սերվիսներ"
+nav_order: 2
 ---
+
+# UserManagerService սերվիս
 
 ## Ներածություն
 
@@ -12,4 +16,3 @@ UserManagerService դասը նախատեսված է օգտագործողների
 |----------|----------------|
 | [GetAccessibleRoles(short)](Methods/GetAccessibleRoles.md) | Վերադարձնում է օգտագործողին նշանակված դերերի ներքին անունների ցուցակը։ |
 | [GetUnhiddenUsers()](Methods/GetUnhiddenUsers.md) | Վերադարձնում է համակարգի բոլոր անտեսանելի [օգտագործողների նկարագրությունների](../../Types/UserDescription.md) ցուցակը։ |
-| [EmailAddresses()](Methods/EmailAddresses.md) | Վերադարձնում է համակարգի բոլոր օգտագործողների [էլ․ փոստերի տվյալների](../../Types/UserEmailInfo.md) ցուցակը։ |

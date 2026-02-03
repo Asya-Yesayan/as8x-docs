@@ -1,6 +1,10 @@
 ---
-title: IDBService.CreateCommand(TimeoutType) մեթոդ
+title: CreateCommand(TimeoutType)
+parent: "Մեթոդներ"
+grand_parent: "IDBService"
 ---
+
+# IDBService.CreateCommand(TimeoutType) մեթոդ
 
 ## Նկարագիր
 

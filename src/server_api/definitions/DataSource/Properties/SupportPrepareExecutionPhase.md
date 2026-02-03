@@ -1,6 +1,10 @@
 ---
-title: DataSource.SupportPrepareExecutionPhase հատկություն
+title: SupportPrepareExecutionPhase
+parent: "Հատկություններ"
+grand_parent: "Տվյալների աղբյուր"
 ---
+
+# DataSource.SupportPrepareExecutionPhase հատկություն
 
 ## Նկարագիր
 

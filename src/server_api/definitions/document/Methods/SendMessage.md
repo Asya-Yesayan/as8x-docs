@@ -1,6 +1,10 @@
 ---
-title: Document.SendMessage(string, int, string, bool, bool) մեթոդ
+title: SendMessage(string, int, string, bool, bool)
+parent: "Մեթոդներ"
+grand_parent: "Փաստաթուղթ"
 ---
+
+# Document.SendMessage(string, int, string, bool, bool) մեթոդ
 
 ## Նկարագիր
 

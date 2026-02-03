@@ -1,6 +1,10 @@
 ---
-title: LoggerService սերվիս
+title: LoggerService
+parent: "Սերվիսներ"
+nav_order: 2
 ---
+
+# LoggerService սերվիս
 
 ## Ներածություն
 

@@ -1,6 +1,9 @@
 ---
-title: DocumentRoutes.Load(int, bool, bool) մեթոդ
+title: Load(int, bool, bool)
+nav_exclude: true
 ---
+
+# DocumentRoutes.Load(int, bool, bool) մեթոդ
 
 ```c#
 public DocumentModelSimple Load(int isn, 

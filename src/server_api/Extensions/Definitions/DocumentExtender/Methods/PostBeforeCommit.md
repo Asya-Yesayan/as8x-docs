@@ -1,6 +1,9 @@
 ---
-title: DocumentExtender.PostBeforeCommit(Document, BeforeCommitEventArgs) մեթոդ
+title: PostBeforeCommit(Document, BeforeCommitEventArgs)
+nav_exclude: true
 ---
+
+# DocumentExtender.PostBeforeCommit(Document, BeforeCommitEventArgs) մեթոդ
 
 ## Նկարագիր
 

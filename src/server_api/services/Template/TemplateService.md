@@ -1,6 +1,10 @@
 ---
-title: "TemplateService սերվիս"
+title: "TemplateService"
+parent: "Սերվիսներ"
+nav_order: 2
 ---
+
+# TemplateService սերվիս
 
 ## Ներածություն
 

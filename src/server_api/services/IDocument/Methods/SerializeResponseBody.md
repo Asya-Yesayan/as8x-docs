@@ -1,6 +1,10 @@
 ---
-title: IDocumentService.SerializeResponseBody<T>(Document, bool) մեթոդ
+title: SerializeResponseBody<T>(Document, bool)
+parent: "Մեթոդներ"
+grand_parent: "IDocumentService"
 ---
+
+# IDocumentService.SerializeResponseBody<T>(Document, bool) մեթոդ
 
 ## Նկարագիր
 

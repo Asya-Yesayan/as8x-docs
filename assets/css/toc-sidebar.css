@@ -1,0 +1,125 @@
+/* Table of Contents Sidebar - Sticky Right Edge (Alternative) */
+
+.main-content-wrapper {
+  display: flex;
+  gap: 0;
+  align-items: flex-start;
+  position: relative;
+}
+
+/* Main content takes full available width */
+.main-content-wrapper > .main-content {
+  flex: 1;
+  min-width: 0;
+  width: 100%;
+  margin-right: 0;
+}
+
+.toc-sidebar {
+  position: sticky;
+  top: 2rem;
+  right: 0;
+  max-height: calc(100vh - 4rem);
+  overflow-y: auto;
+  overflow-x: hidden;
+  width: 220px;
+  flex-shrink: 0;
+  padding: 1rem 1rem 1rem 1.5rem;
+  margin-left: 0;
+  margin-right: 0;
+  border-left: 1px solid var(--border-color, #d0d7de);
+  background-color: var(--body-background-color, #ffffff);
+  font-size: 0.875rem;
+  line-height: 1.5;
+  align-self: flex-start;
+}
+
+.toc-title {
+  font-weight: 600;
+  font-size: 0.75rem;
+  margin-bottom: 0.75rem;
+  color: var(--body-text-color, #24292f);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding-left: 0.75rem;
+}
+
+.toc-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.toc-item {
+  margin: 0.25rem 0;
+  padding-left: 0;
+  line-height: 1.4;
+}
+
+.toc-link {
+  display: block;
+  padding: 0.25rem 0.5rem 0.25rem 0.75rem;
+  color: var(--link-color, #0969da);
+  text-decoration: none;
+  border-left: 2px solid transparent;
+  margin-left: -2px;
+  transition: all 0.2s ease;
+  word-wrap: break-word;
+  font-size: 0.875rem;
+}
+
+.toc-link:hover {
+  color: var(--link-hover-color, #0550ae);
+  border-left-color: var(--link-color, #0969da);
+  background-color: var(--sidebar-hover-bg, rgba(0, 0, 0, 0.03));
+}
+
+.toc-link.active {
+  color: var(--link-active-color, #0969da);
+  border-left-color: var(--link-active-color, #0969da);
+  font-weight: 500;
+  background-color: var(--sidebar-active-bg, rgba(0, 0, 0, 0.05));
+}
+
+.toc-item.toc-h3 .toc-link {
+  padding-left: 1.25rem;
+}
+
+.toc-item.toc-h4 .toc-link {
+  padding-left: 1.75rem;
+}
+
+.toc-item.toc-h5 .toc-link {
+  padding-left: 2.25rem;
+}
+
+.toc-item.toc-h6 .toc-link {
+  padding-left: 2.75rem;
+}
+
+@media (max-width: 1200px) {
+  .toc-sidebar {
+    display: none;
+  }
+}
+
+.main-content-wrap {
+  max-width: 100%;
+}
+
+.toc-sidebar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.toc-sidebar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.toc-sidebar::-webkit-scrollbar-thumb {
+  background: var(--border-color, #d0d7de);
+  border-radius: 3px;
+}
+
+.toc-sidebar::-webkit-scrollbar-thumb:hover {
+  background: var(--body-text-color, #24292f);
+}

@@ -1,7 +1,10 @@
 ---
 layout: page
-title: "StoreGridsEventArgs դաս" 
+title: "StoreGridsEventArgs դաս"
+nav_exclude: true
 ---
+
+# StoreGridsEventArgs դաս
 
 Այս դասը օգտագործվում է [Document.StoreGrids](../../Definitions/Document/Methods/StoreGrids.md) մեթոդում։
 

@@ -1,6 +1,10 @@
 ---
-title: Document.OnConfirmDocumentChangeRequest(ConfirmDocumentChangeRequestEventArgs) մեթոդ
+title: OnConfirmDocumentChangeRequest(ConfirmDocumentChangeRequestEventArgs)
+parent: "Մեթոդներ"
+grand_parent: "Փաստաթուղթ"
 ---
+
+# Document.OnConfirmDocumentChangeRequest(ConfirmDocumentChangeRequestEventArgs) մեթոդ
 
 ## Նկարագիր
 

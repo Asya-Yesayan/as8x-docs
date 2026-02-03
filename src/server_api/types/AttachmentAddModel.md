@@ -1,7 +1,10 @@
 ---
 layout: page
-title: "AttachmentAddModel դաս" 
+title: "AttachmentAddModel դաս"
+nav_exclude: true
 ---
+
+# AttachmentAddModel դաս
 
 Դասը պարունակում է փաստաթղթին նոր ֆայլ կցելու տվյալներ։
 

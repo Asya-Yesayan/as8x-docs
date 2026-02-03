@@ -1,6 +1,10 @@
 ---
-title: IStorageService.DeleteBlobAsync մեթոդ  
+title: DeleteBlobAsync
+parent: "Մեթոդներ"
+grand_parent: "IStorageService"
 ---
+
+# IStorageService.DeleteBlobAsync մեթոդ
 
 ## Նկարագիր
 

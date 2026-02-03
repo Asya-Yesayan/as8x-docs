@@ -1,6 +1,9 @@
 ---
 title: BlobRoutes դաս
+nav_exclude: true
 ---
+
+# BlobRoutes դաս
 
 ## Ներածություն
 

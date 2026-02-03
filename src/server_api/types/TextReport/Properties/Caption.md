@@ -1,6 +1,9 @@
 ---
-title: TextReport.Caption հատկություն
+title: Caption
+nav_exclude: true
 ---
+
+# TextReport.Caption հատկություն
 
 ```c#
 public string Caption { get; }

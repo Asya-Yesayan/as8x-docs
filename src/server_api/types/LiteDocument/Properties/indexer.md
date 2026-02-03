@@ -1,6 +1,9 @@
 ---
-title: LiteDocument.indexer հատկություն
+title: indexer
+nav_exclude: true
 ---
+
+# LiteDocument.indexer հատկություն
 
 ```c#
 public object this[string name] { get; set; }

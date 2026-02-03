@@ -1,6 +1,10 @@
 ---
-title: Document.LoadImagesAndMemos(ArchiveInfo) մեթոդ
+title: LoadImagesAndMemos(ArchiveInfo)
+parent: "Մեթոդներ"
+grand_parent: "Փաստաթուղթ"
 ---
+
+# Document.LoadImagesAndMemos(ArchiveInfo) մեթոդ
 
 ## Նկարագիր
 

@@ -1,6 +1,10 @@
 ---
-title: IKernelService.LastOpDate2(string, int, DateTime?, bool, string, string) մեթոդ  
+title: LastOpDate2(string, int, DateTime?, bool, string, string)
+parent: "Մեթոդներ"
+grand_parent: "IKernelService"
 ---
+
+# IKernelService.LastOpDate2(string, int, DateTime?, bool, string, string) մեթոդ
 
 ## Նկարագիր
 

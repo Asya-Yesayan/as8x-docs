@@ -1,6 +1,10 @@
 ---
-title: TreeElementsService.Get(string, string, bool) մեթոդ  
+title: Get(string, string, bool)
+parent: "Մեթոդներ"
+grand_parent: "TreeElementsService"
 ---
+
+# TreeElementsService.Get(string, string, bool) մեթոդ
 
 ## Նկարագիր
 

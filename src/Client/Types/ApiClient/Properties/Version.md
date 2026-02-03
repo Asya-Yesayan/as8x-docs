@@ -1,6 +1,9 @@
 ---
-title: ApiClient.Version հատկություն
+title: Version
+nav_exclude: true
 ---
+
+# ApiClient.Version հատկություն
 
 ```c#
 public VersionRoutes Version { get; }

@@ -1,6 +1,10 @@
 ---
-title: DataSource.AfterDataReaderClose մեթոդ
+title: AfterDataReaderClose
+parent: "Մեթոդներ"
+grand_parent: "Տվյալների աղբյուր"
 ---
+
+# DataSource.AfterDataReaderClose մեթոդ
 
 ## Նկարագիր
 

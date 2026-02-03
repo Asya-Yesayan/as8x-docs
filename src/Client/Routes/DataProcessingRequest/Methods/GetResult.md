@@ -1,6 +1,9 @@
 ---
-title: DataProcessingRequestRoutes.GetResult(Guid, bool) մեթոդ
+title: GetResult(Guid, bool)
+nav_exclude: true
 ---
+
+# DataProcessingRequestRoutes.GetResult(Guid, bool) մեթոդ
 
 ```c#
 public T GetResult<T>(Guid id, 

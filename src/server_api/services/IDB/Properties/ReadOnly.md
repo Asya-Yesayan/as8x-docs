@@ -1,6 +1,10 @@
 ---
-title: IDBService.ReadOnly հատկություն
+title: ReadOnly
+parent: "Հատկություններ"
+grand_parent: "IDBService"
 ---
+
+# IDBService.ReadOnly հատկություն
 
 ## Նկարագիր
 

@@ -1,6 +1,10 @@
 ---
-title: Document.OnRefuse(RefuseEventArgs) մեթոդ
+title: OnRefuse(RefuseEventArgs)
+parent: "Մեթոդներ"
+grand_parent: "Փաստաթուղթ"
 ---
+
+# Document.OnRefuse(RefuseEventArgs) մեթոդ
 
 ## Նկարագիր
 

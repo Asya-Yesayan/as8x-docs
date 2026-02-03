@@ -1,6 +1,10 @@
 ---
-title: IDBService.CommitTrans() մեթոդ
+title: CommitTrans()
+parent: "Մեթոդներ"
+grand_parent: "IDBService"
 ---
+
+# IDBService.CommitTrans() մեթոդ
 
 ## Նկարագիր
 

@@ -1,6 +1,10 @@
 ---
-title: DataSource.Rows հատկություն
+title: Rows
+parent: "Հատկություններ"
+grand_parent: "Տվյալների աղբյուր"
 ---
+
+# DataSource.Rows հատկություն
 
 ## Նկարագիր
 

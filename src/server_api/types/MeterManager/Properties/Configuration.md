@@ -1,6 +1,9 @@
 ---
-title: MeterManager.Configuration հատկություն
+title: Configuration
+nav_exclude: true
 ---
+
+# MeterManager.Configuration հատկություն
 
 ```c#
 protected IConfiguration Configuration { get; }

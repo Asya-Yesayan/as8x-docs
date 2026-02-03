@@ -1,6 +1,10 @@
 ---
-title: IDBService.ActiveTrans() մեթոդ
+title: ActiveTrans()
+parent: "Մեթոդներ"
+grand_parent: "IDBService"
 ---
+
+# IDBService.ActiveTrans() մեթոդ
 
 ## Նկարագիր
 

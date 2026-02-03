@@ -1,6 +1,10 @@
 ---
-title: IPermanentStorageService.Container հատկություն  
+title: Container
+parent: "Հատկություններ"
+grand_parent: "IPermanentStorageService"
 ---
+
+# IPermanentStorageService.Container հատկություն
 
 ## Նկարագիր
 

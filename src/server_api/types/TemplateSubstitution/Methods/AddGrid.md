@@ -1,6 +1,9 @@
 ---
-title: TemplateSubstitution.AddGrid(string) մեթոդ
+title: AddGrid(string)
+nav_exclude: true
 ---
+
+# TemplateSubstitution.AddGrid(string) մեթոդ
 
 ```c#
 public G AddGrid(string name)

@@ -1,6 +1,10 @@
 ---
-title: "LanguageService սերվիս"
+title: "LanguageService"
+parent: "Սերվիսներ"
+nav_order: 2
 ---
+
+# LanguageService սերվիս
 
 ## Ներածություն
 

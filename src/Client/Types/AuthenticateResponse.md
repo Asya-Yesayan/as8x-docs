@@ -1,7 +1,10 @@
 ---
 layout: page
-title: "AuthenticateResponse" 
+title: "AuthenticateResponse"
+nav_exclude: true
 ---
+
+# AuthenticateResponse
 
 Դասը պարունակում է նույնականացումը անցած կլիենտ ծրագրի և օգտագործողի տվյալները։
 

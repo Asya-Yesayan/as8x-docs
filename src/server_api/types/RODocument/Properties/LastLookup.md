@@ -1,6 +1,9 @@
 ---
-title: RODocument.LastLookup հատկություն
+title: LastLookup
+nav_exclude: true
 ---
+
+# RODocument.LastLookup հատկություն
 
 ```c#
 public DateTime LastLookup { get; private set; }

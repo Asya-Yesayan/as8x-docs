@@ -1,6 +1,10 @@
 ---
-title: Document.DocumentChangeRequest հատկություն
+title: DocumentChangeRequest
+parent: "Հատկություններ"
+grand_parent: "Փաստաթուղթ"
 ---
+
+# Document.DocumentChangeRequest հատկություն
 
 ## Նկարագիր
 

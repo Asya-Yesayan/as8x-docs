@@ -1,6 +1,10 @@
 ---
-title: IDocumentService.GetDocumentState(int) մեթոդ
+title: GetDocumentState(int)
+parent: "Մեթոդներ"
+grand_parent: "IDocumentService"
 ---
+
+# IDocumentService.GetDocumentState(int) մեթոդ
 
 ## Նկարագիր
 

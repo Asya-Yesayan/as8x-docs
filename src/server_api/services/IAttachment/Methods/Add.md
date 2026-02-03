@@ -1,6 +1,10 @@
 ---
-title: IAttachmentService.Add(AttachmentAddModel) մեթոդ
+title: Add(AttachmentAddModel)
+parent: "Մեթոդներ"
+grand_parent: "IAttachmentService"
 ---
+
+# IAttachmentService.Add(AttachmentAddModel) մեթոդ
 
 ## Նկարագիր
 

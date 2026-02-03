@@ -1,6 +1,9 @@
 ---
-title: IExecutionProgress.LoggingAdditionalData հատկություն
+title: LoggingAdditionalData
+nav_exclude: true
 ---
+
+# IExecutionProgress.LoggingAdditionalData հատկություն
 
 ## Նկարագիր
 

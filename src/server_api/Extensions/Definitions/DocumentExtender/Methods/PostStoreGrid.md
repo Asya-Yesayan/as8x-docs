@@ -1,6 +1,9 @@
 ---
-title: DocumentExtender.PostStoreGrid(Document, StoreGridsEventArgs) մեթոդ
+title: PostStoreGrid(Document, StoreGridsEventArgs)
+nav_exclude: true
 ---
+
+# DocumentExtender.PostStoreGrid(Document, StoreGridsEventArgs) մեթոդ
 
 ## Նկարագիր
 

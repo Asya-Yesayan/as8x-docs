@@ -1,6 +1,9 @@
 ---
-title: TextReport.UnmoveFragment հատկություն
+title: UnmoveFragment
+nav_exclude: true
 ---
+
+# TextReport.UnmoveFragment հատկություն
 
 ```c#
 public bool UnmoveFragment { get; set; }

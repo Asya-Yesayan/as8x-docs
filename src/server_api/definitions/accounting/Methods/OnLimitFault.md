@@ -1,6 +1,10 @@
 ---
-title: IAccountingOnLimitFault.OnLimitFault մեթոդ
+title: OnLimitFault
+parent: "Մեթոդներ"
+grand_parent: "Հաշվառում"
 ---
+
+# IAccountingOnLimitFault.OnLimitFault մեթոդ
 
 ## Նկարագիր
 

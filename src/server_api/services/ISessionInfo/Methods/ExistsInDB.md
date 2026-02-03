@@ -1,6 +1,10 @@
 ---
-title: ISessionInfoService.ExistsInDB(string) մեթոդ
+title: ExistsInDB(string)
+parent: "Մեթոդներ"
+grand_parent: "ISessionInfoService"
 ---
+
+# ISessionInfoService.ExistsInDB(string) մեթոդ
 
 ```c#
 public Task<bool> ExistsInDB(string guid)

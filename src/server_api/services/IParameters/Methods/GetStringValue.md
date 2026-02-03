@@ -1,6 +1,10 @@
 ---
-title: IParametersService.GetStringValue մեթոդ  
+title: GetStringValue
+parent: "Մեթոդներ"
+grand_parent: "IParametersService"
 ---
+
+# IParametersService.GetStringValue մեթոդ
 
 ## Նկարագիր
 

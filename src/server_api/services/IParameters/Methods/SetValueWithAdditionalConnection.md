@@ -1,6 +1,10 @@
 ---
-title: IParametersService.SetValueWithAdditionalConnection(string, object) մեթոդ  
+title: SetValueWithAdditionalConnection(string, object)
+parent: "Մեթոդներ"
+grand_parent: "IParametersService"
 ---
+
+# IParametersService.SetValueWithAdditionalConnection(string, object) մեթոդ
 
 ## Նկարագիր
 

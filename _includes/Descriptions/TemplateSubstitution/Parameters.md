@@ -1,1 +1,0 @@
-| parameters | object | Ոչ պարտադիր | Նախապես հաշվարկված պարամետր/արժեքների ցուցակ, որը փոխանցվելու են տպելու ձևանմուշին կապակցված փաստաթղթի [TemplateSubstitution](../../../src/server_api/Definitions/Document/Methods/TemplateSubstitution.md) մեթոդին։ |

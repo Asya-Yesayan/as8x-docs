@@ -1,6 +1,9 @@
 ---
 title: ApiClient դաս
+nav_exclude: true
 ---
+
+# ApiClient դաս
 
 ## Ներածություն
 

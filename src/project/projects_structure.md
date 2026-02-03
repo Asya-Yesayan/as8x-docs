@@ -18,7 +18,11 @@ sublinks:
 - { title: "ArmSoft.AS8X.Client", ref: armsoftas8xclient }
 - { title: "8X հարթակի կոնֆիգուրացիոն սերվիս", ref: 8x-հարթակի-կոնֆիգուրացիոն-սերվիս }
 - { title: "ArmSoft.AS8X.Configuration.Service", ref: armsoftas8xconfigurationservice }
+parent: "Պրոյեկտների կառուցվածք"
+nav_order: 2
 ---
+
+# 8X համակարգի պրոյեկտների նկարագրություն
 
 ## Բովանդակություն
 

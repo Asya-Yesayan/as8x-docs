@@ -1,6 +1,9 @@
 ---
 title: TemplateSubstitution դաս
+nav_exclude: true
 ---
+
+# TemplateSubstitution դաս
 
 ## Ներածություն
 

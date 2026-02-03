@@ -1,6 +1,10 @@
 ---
-title: IFactService.SetAccCrd(Fact, string, bool) մեթոդ
+title: SetAccCrd(Fact, string, bool)
+parent: "Մեթոդներ"
+grand_parent: "IFactService"
 ---
+
+# IFactService.SetAccCrd(Fact, string, bool) մեթոդ
 
 ## Նկարագիր
 

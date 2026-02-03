@@ -1,6 +1,9 @@
 ---
-title: Extender.ProccessRow(IExtendableRow, IDataSourceArgs) մեթոդ
+title: ProccessRow(IExtendableRow, IDataSourceArgs)
+nav_exclude: true
 ---
+
+# Extender.ProccessRow(IExtendableRow, IDataSourceArgs) մեթոդ
 
 ## Նկարագիր
 

@@ -1,6 +1,9 @@
 ---
-title: DataSource.LoadDefinitionAsync(string, CancellationToken) մեթոդ
+title: LoadDefinitionAsync(string, CancellationToken)
+nav_exclude: true
 ---
+
+# DataSource.LoadDefinitionAsync(string, CancellationToken) մեթոդ
 
 ```c#
 public async Task LoadDefinitionAsync(string name, 

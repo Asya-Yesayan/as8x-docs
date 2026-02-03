@@ -1,6 +1,10 @@
 ---
-title: JobService.InsertScheduleAndSteps(ScheduledJob) մեթոդ
+title: InsertScheduleAndSteps(ScheduledJob)
+parent: "Մեթոդներ"
+grand_parent: JobService
 ---
+
+# JobService.InsertScheduleAndSteps(ScheduledJob) մեթոդ
 
 ```c#
 public Task<int> InsertScheduleAndSteps(ScheduledJob job)

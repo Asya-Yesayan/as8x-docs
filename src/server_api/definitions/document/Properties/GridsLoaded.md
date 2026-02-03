@@ -1,6 +1,10 @@
 ---
-title: Document.GridsLoaded հատկություն
+title: GridsLoaded
+parent: "Հատկություններ"
+grand_parent: "Փաստաթուղթ"
 ---
+
+# Document.GridsLoaded հատկություն
 
 ## Նկարագիր
 

@@ -1,6 +1,9 @@
 ---
-title: IExecutionProgress.HasError հատկություն
+title: HasError
+nav_exclude: true
 ---
+
+# IExecutionProgress.HasError հատկություն
 
 ## Նկարագիր
 

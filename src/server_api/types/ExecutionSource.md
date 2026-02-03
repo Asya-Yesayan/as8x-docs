@@ -1,6 +1,9 @@
 ---
-title: "ExecutionSource Enum" 
+title: "ExecutionSource Enum"
+nav_exclude: true
 ---
+
+# ExecutionSource Enum
 
 Այս enum-ը նախատեսված է կատարման պրոգրեսի ստեղծման աղբյուրի սահմանման համար։
 

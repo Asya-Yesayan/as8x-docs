@@ -1,6 +1,9 @@
 ---
-title: BlobRoutes.DeleteBlobAsync(string, string, CancellationToken) մեթոդ
+title: DeleteBlobAsync(string, string, CancellationToken)
+nav_exclude: true
 ---
+
+# BlobRoutes.DeleteBlobAsync(string, string, CancellationToken) մեթոդ
 
 ```c#
 public Task<bool> DeleteBlobAsync(string container, 

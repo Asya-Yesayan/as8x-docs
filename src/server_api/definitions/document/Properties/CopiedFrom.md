@@ -1,6 +1,10 @@
 ---
-title: Document.CopiedFrom հատկություն
+title: CopiedFrom
+parent: "Հատկություններ"
+grand_parent: "Փաստաթուղթ"
 ---
+
+# Document.CopiedFrom հատկություն
 
 ## Նկարագիր
 

@@ -1,6 +1,9 @@
 ---
-title: FieldTypeProvider.AmountPositive հատկություն
+title: AmountPositive
+nav_exclude: true
 ---
+
+# FieldTypeProvider.AmountPositive հատկություն
 
 ```c#
 public static AmountPositiveFieldType AmountPositive { get; }

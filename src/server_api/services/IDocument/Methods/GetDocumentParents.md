@@ -1,6 +1,10 @@
 ---
-title: IDocumentService.GetDocumentParents(int, string, DocumentChildrenOrder, string) մեթոդ
+title: GetDocumentParents(int, string, DocumentChildrenOrder, string)
+parent: "Մեթոդներ"
+grand_parent: "IDocumentService"
 ---
+
+# IDocumentService.GetDocumentParents(int, string, DocumentChildrenOrder, string) մեթոդ
 
 ## Նկարագիր
 

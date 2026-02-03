@@ -1,6 +1,10 @@
 ---
-title: Document.Action(ActionEventArgs) մեթոդ
+title: Action(ActionEventArgs)
+parent: "Մեթոդներ"
+grand_parent: "Փաստաթուղթ"
 ---
+
+# Document.Action(ActionEventArgs) մեթոդ
 
 ## Նկարագիր
 

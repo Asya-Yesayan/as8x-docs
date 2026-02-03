@@ -1,6 +1,10 @@
 ---
-title: IDBService.TryAppLock(string, string, string, string) մեթոդ
+title: TryAppLock(string, string, string, string)
+parent: "Մեթոդներ"
+grand_parent: "IDBService"
 ---
+
+# IDBService.TryAppLock(string, string, string, string) մեթոդ
 
 ## Նկարագիր
 

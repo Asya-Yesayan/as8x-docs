@@ -1,5 +1,5 @@
 ﻿---
-title: MeterManager.Configure(IParametersService) մեթոդ
+title: Configure(IParametersService)
 ---
 
 ```c#

@@ -1,6 +1,10 @@
 ---
-title: IDBService.GetApproximateServerDate() մեթոդ
+title: GetApproximateServerDate()
+parent: "Մեթոդներ"
+grand_parent: "IDBService"
 ---
+
+# IDBService.GetApproximateServerDate() մեթոդ
 
 ## Նկարագիր
 

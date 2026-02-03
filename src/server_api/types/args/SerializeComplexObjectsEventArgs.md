@@ -1,7 +1,10 @@
 ---
 layout: page
-title: "SerializeComplexObjectsEventArgs դաս" 
+title: "SerializeComplexObjectsEventArgs դաս"
+nav_exclude: true
 ---
+
+# SerializeComplexObjectsEventArgs դաս
 
 Այս դասը օգտագործվում է [Document.SerializeComplexObjects](../../Definitions/Document/Methods/SerializeComplexObjects.md) մեթոդում։
 

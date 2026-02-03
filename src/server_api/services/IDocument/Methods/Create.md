@@ -1,6 +1,10 @@
 ---
-title: IDocumentService.Create մեթոդ
+title: Create
+parent: "Մեթոդներ"
+grand_parent: "IDocumentService"
 ---
+
+# IDocumentService.Create մեթոդ
 
 ## Նկարագիր
 

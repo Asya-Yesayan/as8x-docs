@@ -1,6 +1,9 @@
 ---
-title: DataProcessingRequestRoutes.GetResultAsync(Guid, bool, CancellationToken) մեթոդ
+title: GetResultAsync(Guid, bool, CancellationToken)
+nav_exclude: true
 ---
+
+# DataProcessingRequestRoutes.GetResultAsync(Guid, bool, CancellationToken) մեթոդ
 
 ```c#
 public Task<T> GetResultAsync<T>(Guid id, 

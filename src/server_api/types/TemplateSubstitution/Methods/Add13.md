@@ -1,6 +1,9 @@
 ---
-title: TemplateSubstitution.Add(string, TimeSpan?) մեթոդ
+title: Add(string, TimeSpan?)
+nav_exclude: true
 ---
+
+# TemplateSubstitution.Add(string, TimeSpan?) մեթոդ
 
 ```c#
 public void Add(string code, TimeSpan? value)

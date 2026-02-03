@@ -1,6 +1,9 @@
 ---
-title: BankApiClient.Accounts հատկություն
+title: Accounts
+nav_exclude: true
 ---
+
+# BankApiClient.Accounts հատկություն
 
 ```c#
 public AccountsRoutes Accounts { get; }

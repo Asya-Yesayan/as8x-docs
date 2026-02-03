@@ -1,6 +1,9 @@
 ---
-title: DocumentExtender.PostAfterLoad(Document, AfterLoadEventArgs) մեթոդ
+title: PostAfterLoad(Document, AfterLoadEventArgs)
+nav_exclude: true
 ---
+
+# DocumentExtender.PostAfterLoad(Document, AfterLoadEventArgs) մեթոդ
 
 ## Նկարագիր
 

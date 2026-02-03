@@ -1,7 +1,10 @@
 ---
 layout: page
-title: "LoginService օրինակ" 
+title: "LoginService օրինակ"
+nav_exclude: true
 ---
+
+# LoginService օրինակ
 
 LoginService-ի ինտեգրման ծրագրի համար ստեղծված բանալիով նույնականացման օրինակ:
 

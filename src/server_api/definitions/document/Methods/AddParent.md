@@ -1,6 +1,10 @@
 ---
-title: Document.AddParent(int) մեթոդ
+title: AddParent(int)
+parent: "Մեթոդներ"
+grand_parent: "Փաստաթուղթ"
 ---
+
+# Document.AddParent(int) մեթոդ
 
 ## Նկարագիր
 

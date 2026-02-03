@@ -1,5 +1,7 @@
 ﻿---
-title: IAccountingService.Create(string) մեթոդ
+title: Create(string)
+parent: "Մեթոդներ"
+grand_parent: "IAccountingService"
 ---
 
 ## Նկարագիր

@@ -136,23 +136,21 @@ function parseAssignment(script) {
     }
 }
 function highlightAllAS4X() {
-    const codes = document.querySelectorAll("code.language-as4x");
-    for (let i = 0; i < codes.length; i++) {
-        const codeTag = codes[i];
-        const preTag = codeTag.parentElement;
-        if (preTag && preTag.tagName == "PRE") {
-            codeTag.classList.remove("language-as4x");
-            preTag.classList.add("highlight");
-            const div1 = document.createElement("div");
-            div1.classList.add("language-as4x");
-            div1.classList.add("highlighter-rouge");
-            const div2 = document.createElement("div");
-            div2.classList.add("highlight");
-            div1.appendChild(div2);
-            preTag.parentElement.insertBefore(div1, preTag);
-            div2.appendChild(preTag);
+    const codeBlocks = document.querySelectorAll('pre.highlight code, .language-as4x code');
+    codeBlocks.forEach(codeTag => {
+        const isAS4X = codeTag.classList.contains('language-as4x') || 
+                       codeTag.parentElement.classList.contains('language-as4x');
+        if (isAS4X && !codeTag.dataset.beautified) {
+            codeTag.dataset.beautified = "true";
+            codeTag.innerHTML = codeTag.textContent; 
             beautifyAS4X(codeTag);
         }
-    }
+    });
+}
+
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', highlightAllAS4X);
+} else {
+    highlightAllAS4X();
 }
 highlightAllAS4X();

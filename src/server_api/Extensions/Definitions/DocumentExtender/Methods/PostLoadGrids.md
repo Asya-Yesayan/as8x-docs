@@ -1,6 +1,9 @@
 ---
-title: DocumentExtender.PostLoadGrids(Document, LoadGridsEventArgs) մեթոդ
+title: PostLoadGrids(Document, LoadGridsEventArgs)
+nav_exclude: true
 ---
+
+# DocumentExtender.PostLoadGrids(Document, LoadGridsEventArgs) մեթոդ
 
 ## Նկարագիր
 

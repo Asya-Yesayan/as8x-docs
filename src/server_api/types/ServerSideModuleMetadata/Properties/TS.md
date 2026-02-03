@@ -1,6 +1,9 @@
 ---
-title: ServerSideModuleMetadata.TS հատկություն
+title: TS
+nav_exclude: true
 ---
+
+# ServerSideModuleMetadata.TS հատկություն
 
 ```c#
 public byte[] TS { get; }

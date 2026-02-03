@@ -9,7 +9,10 @@ sublinks:
 - { title: "AfterDataReaderClose", ref: afterdatareaderclose }
 - { title: "Օրինակ 1", ref: օրինակ-1-1 }
 - { title: "Օրինակ 2", ref: օրինակ-2-1 }
+nav_exclude: true
 ---
+
+# Sql-based տվյալների աղբյուրի տողերի հավելյալ մշակում
 
 ## Բովանդակություն
 

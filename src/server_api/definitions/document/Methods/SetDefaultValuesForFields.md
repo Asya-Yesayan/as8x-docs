@@ -1,6 +1,10 @@
 ---
-title: Document.SetDefaultValuesForFields մեթոդ
+title: SetDefaultValuesForFields
+parent: "Մեթոդներ"
+grand_parent: "Փաստաթուղթ"
 ---
+
+# Document.SetDefaultValuesForFields մեթոդ
 
 ## Նկարագիր
 

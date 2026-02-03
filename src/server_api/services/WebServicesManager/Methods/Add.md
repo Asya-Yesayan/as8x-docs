@@ -1,6 +1,10 @@
 ---
-title: WebServicesManager.Add(WebServiceInfo) մեթոդ
+title: Add(WebServiceInfo)
+parent: "Մեթոդներ"
+grand_parent: "WebServicesManager"
 ---
+
+# WebServicesManager.Add(WebServiceInfo) մեթոդ
 
 ```c#
 public Task Add(WebServiceInfo service)

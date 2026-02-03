@@ -1,6 +1,9 @@
 ---
-title: DataProcessingRequestRoutes.GetProgressAsync(Guid, CancellationToken) մեթոդ
+title: GetProgressAsync(Guid, CancellationToken)
+nav_exclude: true
 ---
+
+# DataProcessingRequestRoutes.GetProgressAsync(Guid, CancellationToken) մեթոդ
 
 ```c#
 public Task<DPRProgress> GetProgressAsync(Guid id, 

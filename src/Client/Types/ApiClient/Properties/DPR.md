@@ -1,6 +1,9 @@
 ---
-title: ApiClient.DPR հատկություն
+title: DPR
+nav_exclude: true
 ---
+
+# ApiClient.DPR հատկություն
 
 ```c#
 public DataProcessingRequestRoutes DPR { get; }

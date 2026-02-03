@@ -1,6 +1,10 @@
 ---
-title: Document.BuildEmbeddedUIRequest(T uiRequestExecutionProgress) մեթոդ
+title: BuildEmbeddedUIRequest(T uiRequestExecutionProgress)
+parent: "Մեթոդներ"
+grand_parent: "Փաստաթուղթ"
 ---
+
+# Document.BuildEmbeddedUIRequest(T uiRequestExecutionProgress) մեթոդ
 
 ## Նկարագիր
 

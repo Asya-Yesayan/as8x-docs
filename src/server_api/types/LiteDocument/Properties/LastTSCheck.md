@@ -1,6 +1,9 @@
 ---
-title: LiteDocument.LastTSCheck հատկություն
+title: LastTSCheck
+nav_exclude: true
 ---
+
+# LiteDocument.LastTSCheck հատկություն
 
 ```c#
 public DateTime LastTSCheck { get; private set; }

@@ -1,6 +1,10 @@
 ---
-title: DataSourceService.GetDataSource մեթոդ
+title: GetDataSource
+parent: "Մեթոդներ"
+grand_parent: "DataSourceService"
 ---
+
+# DataSourceService.GetDataSource մեթոդ
 
 ## Նկարագիր
 

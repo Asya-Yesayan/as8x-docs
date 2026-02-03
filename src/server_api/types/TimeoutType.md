@@ -1,6 +1,9 @@
 ---
 title: "TimeoutType enum"
+nav_exclude: true
 ---
+
+# TimeoutType enum
 
 Այս enum-ը նախատեսված է Sql հարցումների կատարման առավելագույն ժամանակի սահմանման համար։
 

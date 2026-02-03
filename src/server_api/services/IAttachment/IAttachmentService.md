@@ -1,6 +1,10 @@
 ---
-title: "IAttachmentService սերվիս"
+title: "IAttachmentService"
+parent: "Սերվիսներ"
+nav_order: 2
 ---
+
+# IAttachmentService սերվիս
 
 ## Ներածություն
 

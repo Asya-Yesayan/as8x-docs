@@ -1,6 +1,10 @@
 ---
-title: IParametersService.Exists(string) մեթոդ  
+title: Exists(string)
+parent: "Մեթոդներ"
+grand_parent: "IParametersService"
 ---
+
+# IParametersService.Exists(string) մեթոդ
 
 ## Նկարագիր
 

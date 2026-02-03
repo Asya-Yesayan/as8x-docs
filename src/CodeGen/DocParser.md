@@ -11,7 +11,10 @@ sublinks:
 - { title: "ParseClientAll", ref: parseclientall }
 - { title: "DocGeneratorOptions", ref: docgeneratoroptions }
 - { title: "Օրինակներ", ref: օրինակներ }
+nav_exclude: true
 ---
+
+# DocParser դաս: Փաստաթղթերի 8X տեղափոխման մասնակի ավտոմատացում
 
 Բովանդակություն
 

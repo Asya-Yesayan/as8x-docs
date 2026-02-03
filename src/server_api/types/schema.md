@@ -1,6 +1,9 @@
 ---
 title: Schema դաս
+nav_exclude: true
 ---
+
+# Schema դաս
 
 ## Մեթոդներ
 

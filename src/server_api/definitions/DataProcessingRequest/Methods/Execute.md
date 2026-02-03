@@ -1,6 +1,10 @@
 ---
-title: DataProcessingRequest.Execute(P, CancellationToken) մեթոդ
+title: Execute(P, CancellationToken)
+parent: "Մեթոդներ"
+grand_parent: "Տվյալների մշակման հարցում"
 ---
+
+# DataProcessingRequest.Execute(P, CancellationToken) մեթոդ
 
 ## Նկարագիր
 

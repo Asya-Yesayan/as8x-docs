@@ -1,6 +1,10 @@
 ---
-title: TreeElementsService.ExistsInDB(string, string) մեթոդ  
+title: ExistsInDB(string, string)
+parent: "Մեթոդներ"
+grand_parent: "TreeElementsService"
 ---
+
+# TreeElementsService.ExistsInDB(string, string) մեթոդ
 
 ## Նկարագիր
 

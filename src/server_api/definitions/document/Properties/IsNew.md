@@ -1,6 +1,10 @@
 ---
-title: Document.IsNew հատկություն
+title: IsNew
+parent: "Հատկություններ"
+grand_parent: "Փաստաթուղթ"
 ---
+
+# Document.IsNew հատկություն
 
 ## Նկարագիր
 

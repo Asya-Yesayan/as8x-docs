@@ -1,6 +1,9 @@
 ---
 title: MeterManager սերվիս
+nav_exclude: true
 ---
+
+# MeterManager սերվիս
 
 ## Ներածություն
 

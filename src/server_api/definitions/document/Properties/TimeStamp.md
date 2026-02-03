@@ -1,6 +1,10 @@
 ---
-title: Document.TimeStamp հատկություն
+title: TimeStamp
+parent: "Հատկություններ"
+grand_parent: "Փաստաթուղթ"
 ---
+
+# Document.TimeStamp հատկություն
 
 ## Նկարագիր
 

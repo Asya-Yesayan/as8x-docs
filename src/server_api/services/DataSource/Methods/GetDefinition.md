@@ -1,6 +1,10 @@
 ---
-title: DataSourceService.GetDefinition(string, bool) մեթոդ
+title: GetDefinition(string, bool)
+parent: "Մեթոդներ"
+grand_parent: "DataSourceService"
 ---
+
+# DataSourceService.GetDefinition(string, bool) մեթոդ
 
 ## Նկարագիր
 

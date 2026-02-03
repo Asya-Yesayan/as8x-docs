@@ -1,6 +1,10 @@
 ---
-title: IParametersService.GetDateTimeValue մեթոդ  
+title: GetDateTimeValue
+parent: "Մեթոդներ"
+grand_parent: "IParametersService"
 ---
+
+# IParametersService.GetDateTimeValue մեթոդ
 
 ## Նկարագիր
 

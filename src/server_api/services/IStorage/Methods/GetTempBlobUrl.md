@@ -1,6 +1,10 @@
 ---
-title: IStorageService.GetTempBlobUrl(string, string) մեթոդ  
+title: GetTempBlobUrl(string, string)
+parent: "Մեթոդներ"
+grand_parent: "IStorageService"
 ---
+
+# IStorageService.GetTempBlobUrl(string, string) մեթոդ
 
 ## Նկարագիր
 

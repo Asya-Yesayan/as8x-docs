@@ -1,6 +1,10 @@
 ---
-title: IDocumentService.IsArchived(int) մեթոդ
+title: IsArchived(int)
+parent: "Մեթոդներ"
+grand_parent: "IDocumentService"
 ---
+
+# IDocumentService.IsArchived(int) մեթոդ
 
 ## Նկարագիր
 

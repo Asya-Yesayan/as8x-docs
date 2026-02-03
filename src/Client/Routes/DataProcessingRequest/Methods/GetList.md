@@ -1,6 +1,9 @@
 ---
-title: DataProcessingRequestRoutes.GetList մեթոդ
+title: GetList
+nav_exclude: true
 ---
+
+# DataProcessingRequestRoutes.GetList մեթոդ
 
 ## Գերբեռնումներ
 

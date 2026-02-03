@@ -1,6 +1,11 @@
 ---
-title: RODocumentService.Load մեթոդ  
+title: Load
+parent: "Մեթոդներ"
+grand_parent: "RODocumentService"
+
 ---
+
+# RODocumentService.Load մեթոդ
 
 ## RODocumentService.Load(int, bool, bool, bool, bool) մեթոդ  
 

@@ -1,6 +1,9 @@
 ---
-title: RODocument.CreatorSUID հատկություն
+title: CreatorSUID
+nav_exclude: true
 ---
+
+# RODocument.CreatorSUID հատկություն
 
 ```c#
 public short CreatorSUID { get; private set; }

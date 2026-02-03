@@ -1,6 +1,12 @@
 ---
-title: StatisticsService.DeleteReportCalls(DateTime, DateTime, short?) մեթոդ
+title: DeleteReportCalls(DateTime, DateTime, short?)
+parent: "Մեթոդներ"
+grand_parent: "StatisticsService"
+
 ---
+
+# StatisticsService.DeleteReportCalls(DateTime, DateTime, short?) մեթոդ
+
  
 ## Նկարագիր
  

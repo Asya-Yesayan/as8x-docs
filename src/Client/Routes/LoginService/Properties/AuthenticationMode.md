@@ -1,6 +1,9 @@
 ---
-title: LoginService.AuthenticationMode հատկություն
+title: AuthenticationMode
+nav_exclude: true
 ---
+
+# LoginService.AuthenticationMode հատկություն
 
 ```c#
 public AuthenticationMode? AuthenticationMode { get; private set; }

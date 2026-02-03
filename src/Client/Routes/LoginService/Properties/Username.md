@@ -1,6 +1,9 @@
 ---
-title: LoginService.Username հատկություն
+title: Username
+nav_exclude: true
 ---
+
+# LoginService.Username հատկություն
 
 ```c#
 public string Username { get; private set; }

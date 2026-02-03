@@ -1,6 +1,10 @@
 ---
-title: Document.TemplateSubstitution(Dictionary<string, bool>, Dictionary<string, object>) մեթոդ
+title: TemplateSubstitution(Dictionary<string, bool>, Dictionary<string, object>)
+parent: "Մեթոդներ"
+grand_parent: "Փաստաթուղթ"
 ---
+
+# Document.TemplateSubstitution(Dictionary<string, bool>, Dictionary<string, object>) մեթոդ
 
 ## Նկարագիր
 

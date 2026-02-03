@@ -1,6 +1,10 @@
 ---
-title: IStorageService.GetBlobAsync(string, string, CancellationToken) մեթոդ  
+title: GetBlobAsync(string, string, CancellationToken)
+parent: "Մեթոդներ"
+grand_parent: "IStorageService"
 ---
+
+# IStorageService.GetBlobAsync(string, string, CancellationToken) մեթոդ
 
 ## Նկարագիր
 

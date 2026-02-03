@@ -4,7 +4,10 @@ title: "Օրինակ IAttachmentService"
 sublinks:
 - { title: "Օրինակ AttachmentAddModel, IStorageService", ref: օրինակ-1 }
 - { title: "Օրինակ AttachmentContentModel, IStorageService", ref: օրինակ-2 }
+nav_exclude: true
 ---
+
+# Օրինակ IAttachmentService
 
 ## Բովանդակություն
 - [Փաստաթղթին նոր ֆայլի կցման օրինակ](#օրինակ-1)

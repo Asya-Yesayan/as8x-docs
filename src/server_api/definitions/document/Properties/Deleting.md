@@ -1,6 +1,10 @@
 ---
-title: Document.Deleting հատկություն
+title: Deleting
+parent: "Հատկություններ"
+grand_parent: "Փաստաթուղթ"
 ---
+
+# Document.Deleting հատկություն
 
 ## Նկարագիր
 

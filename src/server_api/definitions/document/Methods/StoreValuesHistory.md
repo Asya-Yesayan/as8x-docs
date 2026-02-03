@@ -1,6 +1,10 @@
 ---
-title: Document.StoreValuesHistory() մեթոդ
+title: StoreValuesHistory()
+parent: "Մեթոդներ"
+grand_parent: "Փաստաթուղթ"
 ---
+
+# Document.StoreValuesHistory() մեթոդ
 
 ## Նկարագիր
 

@@ -1,6 +1,9 @@
 ---
-title: DocumentExtender.PostOnRejectDocumentChangeRequest(Document, RejectDocumentChangeRequestEventArgs) մեթոդ
+title: PostOnRejectDocumentChangeRequest(Document, RejectDocumentChangeRequestEventArgs)
+nav_exclude: true
 ---
+
+# DocumentExtender.PostOnRejectDocumentChangeRequest(Document, RejectDocumentChangeRequestEventArgs) մեթոդ
 
 ## Նկարագիր
 

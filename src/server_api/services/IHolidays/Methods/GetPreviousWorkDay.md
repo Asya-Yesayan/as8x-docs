@@ -1,6 +1,10 @@
 ---
-title: IHolidaysService.GetPreviousWorkDay(DateTime) մեթոդ  
+title: GetPreviousWorkDay(DateTime)
+parent: "Մեթոդներ"
+grand_parent: "IHolidaysService"
 ---
+
+# IHolidaysService.GetPreviousWorkDay(DateTime) մեթոդ
 
 ## Նկարագիր
 

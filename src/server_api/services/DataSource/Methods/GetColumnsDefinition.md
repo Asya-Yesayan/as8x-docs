@@ -1,6 +1,10 @@
 ---
-title: DataSourceService.GetColumnsDefinition(string) մեթոդ
+title: GetColumnsDefinition(string)
+parent: "Մեթոդներ"
+grand_parent: "DataSourceService"
 ---
+
+# DataSourceService.GetColumnsDefinition(string) մեթոդ
 
 ## Նկարագիր
 

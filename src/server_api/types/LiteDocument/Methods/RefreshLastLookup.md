@@ -1,6 +1,9 @@
 ---
-title: LiteDocument.RefreshLastLookup() մեթոդ
+title: RefreshLastLookup()
+nav_exclude: true
 ---
+
+# LiteDocument.RefreshLastLookup() մեթոդ
 
 ```c#
 public void RefreshLastLookup();

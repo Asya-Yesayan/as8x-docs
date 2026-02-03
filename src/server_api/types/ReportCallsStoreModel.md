@@ -1,6 +1,9 @@
 ---
-title: "ReportCallsStoreModel դաս" 
+title: "ReportCallsStoreModel դաս"
+nav_exclude: true
 ---
+
+# ReportCallsStoreModel դաս
 
 Դասը պարունակում է տվյալներ դիտելու ձևի մասին։
 

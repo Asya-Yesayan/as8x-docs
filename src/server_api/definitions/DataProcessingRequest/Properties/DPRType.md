@@ -1,6 +1,10 @@
 ---
-title: DataProcessingRequest.DPRType հատկություն
+title: DPRType
+parent: "Հատկություններ"
+grand_parent: "Տվյալների մշակման հարցում"
 ---
+
+# DataProcessingRequest.DPRType հատկություն
 
 ## Նկարագիր
 

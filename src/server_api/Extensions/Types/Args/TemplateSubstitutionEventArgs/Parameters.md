@@ -1,6 +1,9 @@
 ---
 title: TemplateSubstitutionEventArgs.Parameters հատկություն
+nav_exclude: true
 ---
+
+# TemplateSubstitutionEventArgs.Parameters հատկություն
 
 ## Նկարագիր
 

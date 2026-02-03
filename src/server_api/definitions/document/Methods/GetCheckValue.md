@@ -1,6 +1,10 @@
 ---
-title: Document.GetCheckValue(string) մեթոդ
+title: GetCheckValue(string)
+parent: "Մեթոդներ"
+grand_parent: "Փաստաթուղթ"
 ---
+
+# Document.GetCheckValue(string) մեթոդ
 
 ## Նկարագիր
 

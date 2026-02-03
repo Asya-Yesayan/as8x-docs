@@ -1,6 +1,9 @@
 ---
-title: FieldTypeProvider.File հատկություն
+title: File
+nav_exclude: true
 ---
+
+# FieldTypeProvider.File հատկություն
 
 ```c#
 public static FileFieldType File { get; }

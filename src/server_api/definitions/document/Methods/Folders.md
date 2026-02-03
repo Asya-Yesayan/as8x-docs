@@ -1,6 +1,10 @@
 ---
-title: Document.Folders(FoldersEventArgs) մեթոդ
+title: Folders(FoldersEventArgs)
+parent: "Մեթոդներ"
+grand_parent: "Փաստաթուղթ"
 ---
+
+# Document.Folders(FoldersEventArgs) մեթոդ
 
 ## Նկարագիր
 

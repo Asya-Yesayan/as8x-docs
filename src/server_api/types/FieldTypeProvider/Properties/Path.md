@@ -1,6 +1,9 @@
 ---
-title: FieldTypeProvider.Path հատկություն
+title: Path
+nav_exclude: true
 ---
+
+# FieldTypeProvider.Path հատկություն
 
 ```c#
 public static PathFieldType Path { get; }

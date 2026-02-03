@@ -1,6 +1,9 @@
 ---
-title: DataProcessingRequestRoutes.Enqueue(DPRType, string, bool, ProcessDPRRequest) մեթոդ
+title: Enqueue(DPRType, string, bool, ProcessDPRRequest)
+nav_exclude: true
 ---
+
+# DataProcessingRequestRoutes.Enqueue(DPRType, string, bool, ProcessDPRRequest) մեթոդ
 
 ```c#
 public DPRProcessEnqueueResponse Enqueue(DPRType type, 

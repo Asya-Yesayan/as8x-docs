@@ -1,6 +1,10 @@
 ---
-title: IProcessServerClient.GetInfo(string) մեթոդ  
+title: GetInfo(string)
+parent: "Մեթոդներ"
+grand_parent: "IProcessServerClient"
 ---
+
+# IProcessServerClient.GetInfo(string) մեթոդ
 
 ## Նկարագիր
 

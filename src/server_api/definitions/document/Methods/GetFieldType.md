@@ -1,6 +1,10 @@
 ---
-title: Document.GetFieldType(string) մեթոդ
+title: GetFieldType(string)
+parent: "Մեթոդներ"
+grand_parent: "Փաստաթուղթ"
 ---
+
+# Document.GetFieldType(string) մեթոդ
 
 ## Նկարագիր
 

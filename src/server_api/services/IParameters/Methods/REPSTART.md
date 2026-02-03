@@ -1,6 +1,10 @@
 ---
-title: IParametersService.REPSTART մեթոդ  
+title: REPSTART
+parent: "Մեթոդներ"
+grand_parent: "IParametersService"
 ---
+
+# IParametersService.REPSTART մեթոդ
 
 ## Գերբեռնումներ
 

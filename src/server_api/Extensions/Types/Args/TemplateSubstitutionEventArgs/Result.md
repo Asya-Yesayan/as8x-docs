@@ -1,6 +1,9 @@
 ---
 title: TemplateSubstitutionEventArgs.Result հատկություն
+nav_exclude: true
 ---
+
+# TemplateSubstitutionEventArgs.Result հատկություն
 
 ## Նկարագիր
 

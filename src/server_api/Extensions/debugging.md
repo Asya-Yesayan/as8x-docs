@@ -7,7 +7,10 @@ sublinks:
 - { title: "config.as-ի կարգավորում", ref: configas-ի-կարգավորում }
 - { title: "Breakpoint-ի տեղադրում ընդլայնումների ֆայլերում", ref: breakpoint-ի-տեղադրում-ընդլայնումների-ֆայլերում }
 - { title: "Աշխատանք Debugger-ի հետ", ref: աշխատանք-debugger-ի-հետ }
+nav_exclude: true
 ---
+
+# Ընդլայնումների վրիպազերծում (Debugging)
 
 ## Բովանդակություն
 

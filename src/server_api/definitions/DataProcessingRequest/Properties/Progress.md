@@ -1,6 +1,10 @@
 ---
-title: DataProcessingRequest.Progress հատկություն
+title: Progress
+parent: "Հատկություններ"
+grand_parent: "Տվյալների մշակման հարցում"
 ---
+
+# DataProcessingRequest.Progress հատկություն
 
 ## Նկարագիր
 

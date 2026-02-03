@@ -1,6 +1,10 @@
 ---
-title: IParametersService.GetBooleanValue մեթոդ  
+title: GetBooleanValue
+parent: "Մեթոդներ"
+grand_parent: "IParametersService"
 ---
+
+# IParametersService.GetBooleanValue մեթոդ
 
 ## Նկարագիր
 

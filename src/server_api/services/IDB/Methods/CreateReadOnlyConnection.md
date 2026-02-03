@@ -1,6 +1,10 @@
 ---
-title: IDBService.CreateReadOnlyConnection(bool) մեթոդ
+title: CreateReadOnlyConnection(bool)
+parent: "Մեթոդներ"
+grand_parent: "IDBService"
 ---
+
+# IDBService.CreateReadOnlyConnection(bool) մեթոդ
 
 ## Նկարագիր
 

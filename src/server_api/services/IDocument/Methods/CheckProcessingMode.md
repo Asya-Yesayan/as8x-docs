@@ -1,6 +1,10 @@
 ---
-title: IDocumentService.CheckProcessingMode(string) մեթոդ
+title: CheckProcessingMode(string)
+parent: "Մեթոդներ"
+grand_parent: "IDocumentService"
 ---
+
+# IDocumentService.CheckProcessingMode(string) մեթոդ
 
 ## Նկարագիր
 

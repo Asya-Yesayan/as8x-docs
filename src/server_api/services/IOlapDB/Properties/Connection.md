@@ -1,6 +1,10 @@
 ---
-title: IOlapDBService.Connection հատկություն  
+title: Connection
+parent: "Հատկություններ"
+grand_parent: "IOlapDBService"
 ---
+
+# IOlapDBService.Connection հատկություն
 
 ## Նկարագիր
 

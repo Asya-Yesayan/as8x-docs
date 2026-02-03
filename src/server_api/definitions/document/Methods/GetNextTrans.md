@@ -1,6 +1,10 @@
 ---
-title: Document.GetNextTrans() մեթոդ
+title: GetNextTrans()
+parent: "Մեթոդներ"
+grand_parent: "Փաստաթուղթ"
 ---
+
+# Document.GetNextTrans() մեթոդ
 
 ## Նկարագիր
 

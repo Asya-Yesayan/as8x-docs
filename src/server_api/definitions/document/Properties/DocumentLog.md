@@ -1,6 +1,10 @@
 ---
-title: Document.DocumentLog հատկություն
+title: DocumentLog
+parent: "Հատկություններ"
+grand_parent: "Փաստաթուղթ"
 ---
+
+# Document.DocumentLog հատկություն
 
 ## Նկարագիր
 

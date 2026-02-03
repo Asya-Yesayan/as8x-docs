@@ -1,6 +1,10 @@
 ---
-title: Document.NestedTransactionReport հատկություն
+title: NestedTransactionReport
+parent: "Հատկություններ"
+grand_parent: "Փաստաթուղթ"
 ---
+
+# Document.NestedTransactionReport հատկություն
 
 ## Նկարագիր
 

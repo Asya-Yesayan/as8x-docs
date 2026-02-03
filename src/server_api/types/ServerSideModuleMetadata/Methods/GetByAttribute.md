@@ -1,6 +1,9 @@
 ---
-title: ServerSideModuleMetadata.GetByAttribute() մեթոդ
+title: GetByAttribute()
+nav_exclude: true
 ---
+
+# ServerSideModuleMetadata.GetByAttribute() մեթոդ
 
 ```c#
 public IReadOnlyDictionary<string, Type> GetByAttribute<T>() where T : Attribute

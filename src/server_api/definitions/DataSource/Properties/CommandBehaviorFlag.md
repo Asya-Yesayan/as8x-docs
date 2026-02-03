@@ -1,6 +1,10 @@
 ---
-title: DataSource.CommandBehaviorFlag հատկություն
+title: CommandBehaviorFlag
+parent: "Հատկություններ"
+grand_parent: "Տվյալների աղբյուր"
 ---
+
+# DataSource.CommandBehaviorFlag հատկություն
 
 ## Նկարագիր
 

@@ -1,6 +1,10 @@
 ---
-title: Document.PostMessage(PostMessageEventArgs) մեթոդ
+title: PostMessage(PostMessageEventArgs)
+parent: "Մեթոդներ"
+grand_parent: "Փաստաթուղթ"
 ---
+
+# Document.PostMessage(PostMessageEventArgs) մեթոդ
 
 ## Նկարագիր
 

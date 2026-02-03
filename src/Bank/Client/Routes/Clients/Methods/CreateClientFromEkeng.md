@@ -1,6 +1,9 @@
 ---
-title: ClientsRoutes.CreateClientFromEkeng(CreateClientFromEkengRequest) մեթոդ
+title: CreateClientFromEkeng(CreateClientFromEkengRequest)
+nav_exclude: true
 ---
+
+# ClientsRoutes.CreateClientFromEkeng(CreateClientFromEkengRequest) մեթոդ
 
 ```c#
 public Task<CreatePhysicalClientByFullDataResponse> CreateClientFromEkeng(

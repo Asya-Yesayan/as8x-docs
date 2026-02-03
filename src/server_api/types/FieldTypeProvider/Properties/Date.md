@@ -1,6 +1,9 @@
 ---
-title: FieldTypeProvider.Date հատկություն
+title: Date
+nav_exclude: true
 ---
+
+# FieldTypeProvider.Date հատկություն
 
 ```c#
 public static DateFieldType Date { get; }

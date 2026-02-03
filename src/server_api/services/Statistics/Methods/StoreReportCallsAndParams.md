@@ -1,6 +1,12 @@
 ---
-title: StatisticsService․StoreReportCallsAndParams(ReportCallsStoreModel) մեթոդ
+title: StoreReportCallsAndParams(ReportCallsStoreModel)
+parent: "Մեթոդներ"
+grand_parent: "StatisticsService"
+
 ---
+
+# StatisticsService․StoreReportCallsAndParams(ReportCallsStoreModel) մեթոդ
+
  
 ## Նկարագիր
  

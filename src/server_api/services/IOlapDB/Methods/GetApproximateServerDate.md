@@ -1,6 +1,10 @@
 ---
-title: IOlapDBService.GetApproximateServerDate() մեթոդ  
+title: GetApproximateServerDate()
+parent: "Մեթոդներ"
+grand_parent: "IOlapDBService"
 ---
+
+# IOlapDBService.GetApproximateServerDate() մեթոդ
 
 ## Նկարագիր
 

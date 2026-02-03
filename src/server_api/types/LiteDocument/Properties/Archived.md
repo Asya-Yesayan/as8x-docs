@@ -1,6 +1,9 @@
 ---
-title: LiteDocument.Archived հատկություն
+title: Archived
+nav_exclude: true
 ---
+
+# LiteDocument.Archived հատկություն
 
 ```c#
 public bool Archived { get; internal set; }

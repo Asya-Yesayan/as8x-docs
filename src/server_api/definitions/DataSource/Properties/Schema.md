@@ -1,6 +1,10 @@
 ---
-title: DataSource.Schema հատկություն
+title: Schema
+parent: "Հատկություններ"
+grand_parent: "Տվյալների աղբյուր"
 ---
+
+# DataSource.Schema հատկություն
 
 ## Նկարագիր
 

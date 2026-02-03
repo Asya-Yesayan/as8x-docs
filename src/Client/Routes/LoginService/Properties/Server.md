@@ -1,6 +1,9 @@
 ---
-title: LoginService.Server հատկություն
+title: Server
+nav_exclude: true
 ---
+
+# LoginService.Server հատկություն
 
 ```c#
 public string Server { get; private set; }

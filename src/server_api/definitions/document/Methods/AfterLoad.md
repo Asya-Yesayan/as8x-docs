@@ -1,6 +1,10 @@
 ---
-title: Document.AfterLoad(AfterLoadEventArgs) մեթոդ
+title: AfterLoad(AfterLoadEventArgs)
+parent: "Մեթոդներ"
+grand_parent: "Փաստաթուղթ"
 ---
+
+# Document.AfterLoad(AfterLoadEventArgs) մեթոդ
 
 ## Նկարագիր
 

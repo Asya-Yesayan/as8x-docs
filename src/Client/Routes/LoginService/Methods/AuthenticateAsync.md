@@ -1,6 +1,9 @@
 ---
-title: LoginService.AuthenticateAsync մեթոդ
+title: AuthenticateAsync
+nav_exclude: true
 ---
+
+# LoginService.AuthenticateAsync մեթոդ
 
 ## Գերբեռնումներ
 

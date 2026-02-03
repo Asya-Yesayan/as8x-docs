@@ -1,6 +1,10 @@
 ---
-title: Document.StoredFacts հատկություն
+title: StoredFacts
+parent: "Հատկություններ"
+grand_parent: "Փաստաթուղթ"
 ---
+
+# Document.StoredFacts հատկություն
 
 ## Նկարագիր
 

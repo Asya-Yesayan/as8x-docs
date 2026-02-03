@@ -1,7 +1,10 @@
 ---
 layout: page
-title: "BeforeCommitEventArgs դաս" 
+title: "BeforeCommitEventArgs դաս"
+nav_exclude: true
 ---
+
+# BeforeCommitEventArgs դաս
 
 Այս դասը օգտագործվում է [Document.BeforeCommit](../../Definitions/Document/Methods/BeforeCommit.md) մեթոդում։
 

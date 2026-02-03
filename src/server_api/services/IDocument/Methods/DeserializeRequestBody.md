@@ -1,6 +1,10 @@
 ---
-title: IDocumentService.DeserializeRequestBody(DocumentModel, bool) մեթոդ
+title: DeserializeRequestBody(DocumentModel, bool)
+parent: "Մեթոդներ"
+grand_parent: "IDocumentService"
 ---
+
+# IDocumentService.DeserializeRequestBody(DocumentModel, bool) մեթոդ
 
 ## Նկարագիր
 

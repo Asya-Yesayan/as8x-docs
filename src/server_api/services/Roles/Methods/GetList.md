@@ -1,6 +1,12 @@
 ---
-title: RolesService.GetList մեթոդ
+title: GetList
+parent: "Մեթոդներ"
+grand_parent: "RolesService"
+
 ---
+
+# RolesService.GetList մեթոդ
+
  
 ## Նկարագիր
  

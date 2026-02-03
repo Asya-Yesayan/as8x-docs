@@ -1,6 +1,10 @@
 ---
-title: IDocumentService.StoreFact(Document, Fact) մեթոդ
+title: StoreFact(Document, Fact)
+parent: "Մեթոդներ"
+grand_parent: "IDocumentService"
 ---
+
+# IDocumentService.StoreFact(Document, Fact) մեթոդ
 
 ## Նկարագիր
 

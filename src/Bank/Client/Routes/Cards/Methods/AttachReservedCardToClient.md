@@ -1,6 +1,9 @@
 ---
-title: CardsRoutes.AttachReservedCardToClient(AttachReservedCardToClientRequest) մեթոդ
+title: AttachReservedCardToClient(AttachReservedCardToClientRequest)
+nav_exclude: true
 ---
+
+# CardsRoutes.AttachReservedCardToClient(AttachReservedCardToClientRequest) մեթոդ
 
 ```c#
 public Task<AttachReservedCardToClientResponse> AttachReservedCardToClient(

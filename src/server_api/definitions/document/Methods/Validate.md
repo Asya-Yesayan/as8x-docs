@@ -1,6 +1,10 @@
 ---
-title: Document.Validate(ValidateEventArgs) մեթոդ
+title: Validate(ValidateEventArgs)
+parent: "Մեթոդներ"
+grand_parent: "Փաստաթուղթ"
 ---
+
+# Document.Validate(ValidateEventArgs) մեթոդ
 
 ## Նկարագիր
 

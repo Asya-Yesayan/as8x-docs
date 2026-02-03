@@ -1,6 +1,9 @@
 ---
-title: PrintTemplateSubstitutionImage.Height հատկություն
+title: Height
+nav_exclude: true
 ---
+
+# PrintTemplateSubstitutionImage.Height հատկություն
 
 ```c#
 public decimal Height { get; set; }

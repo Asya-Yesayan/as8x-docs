@@ -1,6 +1,10 @@
 ---
-title: IProcessServerClient.GetProcess(Guid) մեթոդ  
+title: GetProcess(Guid)
+parent: "Մեթոդներ"
+grand_parent: "IProcessServerClient"
 ---
+
+# IProcessServerClient.GetProcess(Guid) մեթոդ
 
 ## Նկարագիր
 

@@ -1,5 +1,7 @@
 ﻿---
-title: AppLogService.Write մեթոդ
+title: Write
+parent: "Մեթոդներ"
+grand_parent: "AppLogService"
 ---
 
 ## Նկարագիր

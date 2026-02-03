@@ -1,6 +1,9 @@
 ---
-title: RODocument.CheckGrid() մեթոդ
+title: CheckGrid()
+nav_exclude: true
 ---
+
+# RODocument.CheckGrid() մեթոդ
 
 ```c#
 protected void CheckGrid()

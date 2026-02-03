@@ -1,6 +1,9 @@
 ---
-title: RODocument.Fields հատկություն
+title: Fields
+nav_exclude: true
 ---
+
+# RODocument.Fields հատկություն
 
 ```c#
 public Dictionary<string, object> Fields { get; private set; }

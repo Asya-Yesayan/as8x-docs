@@ -1,6 +1,9 @@
 ---
-title: Extender.AlwaysCallBeforeProcess հատկություն
+title: AlwaysCallBeforeProcess
+nav_exclude: true
 ---
+
+# Extender.AlwaysCallBeforeProcess հատկություն
 
 ## Նկարագիր
 

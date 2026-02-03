@@ -1,6 +1,9 @@
 ---
-title: BankApiClient.LoanApplications հատկություն
+title: LoanApplications
+nav_exclude: true
 ---
+
+# BankApiClient.LoanApplications հատկություն
 
 ```c#
 public LoanApplicationsRoutes LoanApplications { get; }

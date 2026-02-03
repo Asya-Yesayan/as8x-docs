@@ -1,6 +1,10 @@
 ---
-title: IOlapDBService.CreateAdditionalConnection(bool, string, bool) մեթոդ  
+title: CreateAdditionalConnection(bool, string, bool)
+parent: "Մեթոդներ"
+grand_parent: "IOlapDBService"
 ---
+
+# IOlapDBService.CreateAdditionalConnection(bool, string, bool) մեթոդ
 
 ## Նկարագիր
 

@@ -1,6 +1,10 @@
 ---
-title: IParametersService.GetDetailedDescription(string) մեթոդ  
+title: GetDetailedDescription(string)
+parent: "Մեթոդներ"
+grand_parent: "IParametersService"
 ---
+
+# IParametersService.GetDetailedDescription(string) մեթոդ
 
 ## Նկարագիր
 

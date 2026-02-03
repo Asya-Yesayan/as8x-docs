@@ -1,6 +1,9 @@
 ---
-title: UIRequestExecutionProgress.UIRequestEnabled հատկություն
+title: UIRequestEnabled
+nav_exclude: true
 ---
+
+# UIRequestExecutionProgress.UIRequestEnabled հատկություն
 
 ```c#
 public bool UIRequestEnabled { get; internal set; }

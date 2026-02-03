@@ -1,5 +1,7 @@
 ﻿---
-title: IAttachmentService.GetAll(int) մեթոդ
+title: GetAll(int)
+parent: "Մեթոդներ"
+grand_parent: "IAttachmentService"
 ---
 
 ## Նկարագիր

@@ -1,7 +1,10 @@
 ---
 layout: page
-title: "CertificateAuthenticateResponse դաս" 
+title: "CertificateAuthenticateResponse դաս"
+nav_exclude: true
 ---
+
+# CertificateAuthenticateResponse դաս
 
 Դասը պարունակում է նույնականացումը անցած կլիենտ ծրագրի և օգտագործողի տվյալները։
 

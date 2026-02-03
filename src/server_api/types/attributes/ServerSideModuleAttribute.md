@@ -1,6 +1,9 @@
 ---
-title: "ServerSideModuleAttribute" 
+title: "ServerSideModuleAttribute"
+nav_exclude: true
 ---
+
+# ServerSideModuleAttribute
 
 **ServerSideModule** ատրիբուտը նախատեսված է [սերվերային մոդուլը](../../Extensions/Definitions/ServerSideModule/server_side_module.md) նկարագրող դասի վրա դնելու համար։
 

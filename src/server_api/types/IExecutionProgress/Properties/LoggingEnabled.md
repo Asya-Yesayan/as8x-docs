@@ -1,6 +1,9 @@
 ---
-title: IExecutionProgress.LoggingEnabled հատկություն
+title: LoggingEnabled
+nav_exclude: true
 ---
+
+# IExecutionProgress.LoggingEnabled հատկություն
 
 ## Նկարագիր
 

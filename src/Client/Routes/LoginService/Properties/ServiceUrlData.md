@@ -1,6 +1,9 @@
 ---
-title: LoginService.ServiceUrlData հատկություն
+title: ServiceUrlData
+nav_exclude: true
 ---
+
+# LoginService.ServiceUrlData հատկություն
 
 ```c#
 public ServiceUrlData ServiceUrlData { get; private set; }

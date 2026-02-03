@@ -1,6 +1,9 @@
 ---
 title: ServerSideModuleMetadata դաս
+nav_exclude: true
 ---
+
+# ServerSideModuleMetadata դաս
 
 ## Հատկություններ
 

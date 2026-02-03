@@ -1,6 +1,9 @@
 ---
 title: AccountingExtender նկարագրություն
+nav_exclude: true
 ---
+
+# AccountingExtender նկարագրություն
 
 ## Ներածություն
 

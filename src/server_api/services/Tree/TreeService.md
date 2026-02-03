@@ -1,6 +1,10 @@
 ---
-title: TreeService սերվիս
+title: TreeService
+parent: "Սերվիսներ"
+nav_order: 2
 ---
+
+# TreeService սերվիս
 
 ## Մեթոդներ
 

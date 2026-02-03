@@ -1,6 +1,10 @@
 ---
-title: IDocumentService.LoadFromFolder մեթոդ
+title: LoadFromFolder
+parent: "Մեթոդներ"
+grand_parent: "IDocumentService"
 ---
+
+# IDocumentService.LoadFromFolder մեթոդ
 
 ## Նկարագիր
 

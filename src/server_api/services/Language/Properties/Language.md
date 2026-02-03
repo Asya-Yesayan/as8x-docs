@@ -1,6 +1,10 @@
 ---
-title: LanguageService.Language հատկություն  
+title: Language
+parent: "Հատկություններ"
+grand_parent: "LanguageService"
 ---
+
+# LanguageService.Language հատկություն
 
 ## Նկարագիր
 

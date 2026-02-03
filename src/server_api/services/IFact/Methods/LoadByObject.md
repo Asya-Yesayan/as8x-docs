@@ -1,6 +1,10 @@
 ---
-title: IFactService.LoadByObject(string, int, DateTime, DateTime, string) մեթոդ
+title: LoadByObject(string, int, DateTime, DateTime, string)
+parent: "Մեթոդներ"
+grand_parent: "IFactService"
 ---
+
+# IFactService.LoadByObject(string, int, DateTime, DateTime, string) մեթոդ
 
 ## Նկարագիր
 

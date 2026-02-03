@@ -1,6 +1,10 @@
 ---
-title: LanguageService.IsArmenian հատկություն  
+title: IsArmenian
+parent: "Հատկություններ"
+grand_parent: "LanguageService"
 ---
+
+# LanguageService.IsArmenian հատկություն
 
 ## Նկարագիր
 

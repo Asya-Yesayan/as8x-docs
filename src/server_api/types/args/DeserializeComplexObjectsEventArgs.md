@@ -1,7 +1,10 @@
 ---
 layout: page
-title: "DeserializeComplexObjectsEventArgs դաս" 
+title: "DeserializeComplexObjectsEventArgs դաս"
+nav_exclude: true
 ---
+
+# DeserializeComplexObjectsEventArgs դաս
 
 Այս դասը օգտագործվում է [Document.DeserializeComplexObjects](../../Definitions/Document/Methods/DeserializeComplexObjects.md) մեթոդում։
 

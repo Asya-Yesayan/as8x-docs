@@ -1,6 +1,9 @@
 ---
-title: DataSource.EncodeResultUnicode հատկություն
+title: EncodeResultUnicode
+nav_exclude: true
 ---
+
+# DataSource.EncodeResultUnicode հատկություն
 
 ```c#
 public bool EncodeResultUnicode { get; set; }

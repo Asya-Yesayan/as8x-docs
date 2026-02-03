@@ -1,6 +1,9 @@
 ---
-title: TextReport.AddFooter(string) մեթոդ
+title: AddFooter(string)
+nav_exclude: true
 ---
+
+# TextReport.AddFooter(string) մեթոդ
 
 ```c#
 public void AddFooter(string footer)

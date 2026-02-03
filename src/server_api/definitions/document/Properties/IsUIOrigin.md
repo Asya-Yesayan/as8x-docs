@@ -1,6 +1,10 @@
 ---
-title: Document.IsUIOrigin հատկություն
+title: IsUIOrigin
+parent: "Հատկություններ"
+grand_parent: "Փաստաթուղթ"
 ---
+
+# Document.IsUIOrigin հատկություն
 
 ## Նկարագիր
 

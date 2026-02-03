@@ -1,6 +1,10 @@
 ---
-title: Document.CreatorSUID հատկություն
+title: CreatorSUID
+parent: "Հատկություններ"
+grand_parent: "Փաստաթուղթ"
 ---
+
+# Document.CreatorSUID հատկություն
 
 ## Նկարագիր
 

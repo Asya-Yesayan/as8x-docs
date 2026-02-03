@@ -1,6 +1,10 @@
 ---
-title: "ISessionInfoService սերվիս"
+title: "ISessionInfoService"
+parent: "Սերվիսներ"
+nav_order: 2
 ---
+
+# ISessionInfoService սերվիս
 
 ## Ներածություն
 

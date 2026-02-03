@@ -1,6 +1,10 @@
 ---
-title: ITemplateSubstitutionService.IsTemplateAvailable(string, string, Document) մեթոդ  
+title: IsTemplateAvailable(string, string, Document)
+parent: "Մեթոդներ"
+grand_parent: "ITemplateSubstitutionService"
 ---
+
+# ITemplateSubstitutionService.IsTemplateAvailable(string, string, Document) մեթոդ
 
 ## Նկարագիր
 

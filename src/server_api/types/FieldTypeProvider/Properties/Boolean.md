@@ -1,6 +1,9 @@
 ---
-title: FieldTypeProvider.Boolean հատկություն
+title: Boolean
+nav_exclude: true
 ---
+
+# FieldTypeProvider.Boolean հատկություն
 
 ```c#
 public static BooleanFieldType Boolean { get; }

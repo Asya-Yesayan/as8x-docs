@@ -1,6 +1,9 @@
 ---
 title: DataProcessingRequestHandler դաս
+nav_exclude: true
 ---
+
+# DataProcessingRequestHandler դաս
 
 ## Ներածություն
 

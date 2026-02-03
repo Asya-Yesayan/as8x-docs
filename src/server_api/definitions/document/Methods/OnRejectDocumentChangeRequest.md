@@ -1,6 +1,10 @@
 ---
-title: Document.OnRejectDocumentChangeRequest(RejectDocumentChangeRequestEventArgs) մեթոդ
+title: OnRejectDocumentChangeRequest(RejectDocumentChangeRequestEventArgs)
+parent: "Մեթոդներ"
+grand_parent: "Փաստաթուղթ"
 ---
+
+# Document.OnRejectDocumentChangeRequest(RejectDocumentChangeRequestEventArgs) մեթոդ
 
 ## Նկարագիր
 

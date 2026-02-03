@@ -1,6 +1,10 @@
 ---
-title: LanguageService.IsEnglish հատկություն  
+title: IsEnglish
+parent: "Հատկություններ"
+grand_parent: "LanguageService"
 ---
+
+# LanguageService.IsEnglish հատկություն
 
 ## Նկարագիր
 

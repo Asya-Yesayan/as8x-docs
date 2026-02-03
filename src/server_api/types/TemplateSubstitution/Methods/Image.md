@@ -1,6 +1,9 @@
 ---
-title: TemplateSubstitution.Image(string) մեթոդ
+title: Image(string)
+nav_exclude: true
 ---
+
+# TemplateSubstitution.Image(string) մեթոդ
 
 ```c#
 public PrintTemplateSubstitutionImage Image(string name)

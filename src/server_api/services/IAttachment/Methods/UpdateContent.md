@@ -1,6 +1,10 @@
 ---
-title: IAttachmentService.UpdateContent(AttachmentContentModel) մեթոդ
+title: UpdateContent(AttachmentContentModel)
+parent: "Մեթոդներ"
+grand_parent: "IAttachmentService"
 ---
+
+# IAttachmentService.UpdateContent(AttachmentContentModel) մեթոդ
 
 ## Նկարագիր
 

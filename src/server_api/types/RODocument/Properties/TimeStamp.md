@@ -1,6 +1,9 @@
 ---
-title: RODocument.TimeStamp հատկություն
+title: TimeStamp
+nav_exclude: true
 ---
+
+# RODocument.TimeStamp հատկություն
 
 ```c#
 public byte[] TimeStamp { get; set; }

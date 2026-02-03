@@ -1,6 +1,9 @@
 ---
-title: TemplateSubstitution.Grid(string) մեթոդ
+title: Grid(string)
+nav_exclude: true
 ---
+
+# TemplateSubstitution.Grid(string) մեթոդ
 
 ```c#
 public PrintTemplateSubstitutionGrid Grid(string name)

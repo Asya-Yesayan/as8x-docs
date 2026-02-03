@@ -1,6 +1,9 @@
 ---
-title: LoginService.IsLoggedIn հատկություն
+title: IsLoggedIn
+nav_exclude: true
 ---
+
+# LoginService.IsLoggedIn հատկություն
 
 ```c#
 public bool IsLoggedIn { get; }

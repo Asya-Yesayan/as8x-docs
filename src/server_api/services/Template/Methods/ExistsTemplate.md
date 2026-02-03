@@ -1,6 +1,11 @@
 ---
-title: TemplateService.ExistsTemplate(string, string) մեթոդ  
+title: ExistsTemplate(string, string)
+parent: "Մեթոդներ"
+grand_parent: "TemplateService"
+
 ---
+
+# TemplateService.ExistsTemplate(string, string) մեթոդ
 
 ## Նկարագիր
 

@@ -1,6 +1,10 @@
 ---
-title: DataSource.Execute(P, HashSet<string>, IExtender, CancellationToken) մեթոդ
+title: Execute(P, HashSet<string>, IExtender, CancellationToken)
+parent: "Մեթոդներ"
+grand_parent: "Տվյալների աղբյուր"
 ---
+
+# DataSource.Execute(P, HashSet<string>, IExtender, CancellationToken) մեթոդ
 
 ## Նկարագիր
 

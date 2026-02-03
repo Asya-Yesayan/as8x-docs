@@ -1,6 +1,10 @@
 ---
-title: LanguageService.CurrentUICultureName հատկություն  
+title: CurrentUICultureName
+parent: "Հատկություններ"
+grand_parent: "LanguageService"
 ---
+
+# LanguageService.CurrentUICultureName հատկություն
 
 ## Նկարագիր
 

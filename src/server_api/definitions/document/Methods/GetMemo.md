@@ -1,6 +1,10 @@
 ---
-title: Document.GetMemo(string) մեթոդ
+title: GetMemo(string)
+parent: "Մեթոդներ"
+grand_parent: "Փաստաթուղթ"
 ---
+
+# Document.GetMemo(string) մեթոդ
 
 ## Նկարագիր
 

@@ -1,6 +1,9 @@
 ---
-title: TextReport.GetRows(long, long) մեթոդ
+title: GetRows(long, long)
+nav_exclude: true
 ---
+
+# TextReport.GetRows(long, long) մեթոդ
 
 ```c#
 public Task<List<TextReportRow>> GetRows(long startRow, long rowCount)

@@ -1,6 +1,10 @@
 ---
-title: Document.ConfigureDCRFieldInclusion(ConfigureDCRFieldInclusionEventArgs) մեթոդ
+title: ConfigureDCRFieldInclusion(ConfigureDCRFieldInclusionEventArgs)
+parent: "Մեթոդներ"
+grand_parent: "Փաստաթուղթ"
 ---
+
+# Document.ConfigureDCRFieldInclusion(ConfigureDCRFieldInclusionEventArgs) մեթոդ
 
 ## Նկարագիր
 

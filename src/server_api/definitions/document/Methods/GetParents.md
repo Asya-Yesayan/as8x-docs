@@ -1,6 +1,10 @@
 ---
-title: Document.GetParents() մեթոդ
+title: GetParents()
+parent: "Մեթոդներ"
+grand_parent: "Փաստաթուղթ"
 ---
+
+# Document.GetParents() մեթոդ
 
 ## Նկարագիր
 

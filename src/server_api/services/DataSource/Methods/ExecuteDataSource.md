@@ -1,6 +1,10 @@
 ---
-title: DataSourceService.ExecuteDataSource մեթոդ
+title: ExecuteDataSource
+parent: "Մեթոդներ"
+grand_parent: "DataSourceService"
 ---
+
+# DataSourceService.ExecuteDataSource մեթոդ
 
 ## Նկարագիր
 

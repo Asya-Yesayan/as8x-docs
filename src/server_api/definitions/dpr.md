@@ -1,6 +1,9 @@
 ---
 title: DataProcessingRequest նկարագրություն
+nav_exclude: true
 ---
+
+# DataProcessingRequest նկարագրություն
 
 ## Ներածություն
 

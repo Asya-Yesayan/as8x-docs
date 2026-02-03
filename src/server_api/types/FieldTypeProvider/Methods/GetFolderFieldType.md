@@ -1,6 +1,9 @@
 ---
-title: FieldTypeProvider.GetFolderFieldType(string, short, bool) մեթոդ
+title: GetFolderFieldType(string, short, bool)
+nav_exclude: true
 ---
+
+# FieldTypeProvider.GetFolderFieldType(string, short, bool) մեթոդ
 
 ```c#
 public static FolderFieldType GetFolderFieldType(string name, short length, bool isNullable = false)

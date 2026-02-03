@@ -1,6 +1,9 @@
 ---
 title: BankMeterManager սերվիս
+nav_exclude: true
 ---
+
+# BankMeterManager սերվիս
 
 ## Ներածություն
 

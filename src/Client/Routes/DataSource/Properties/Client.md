@@ -1,6 +1,9 @@
 ---
-title: DataSource.Client հատկություն
+title: Client
+nav_exclude: true
 ---
+
+# DataSource.Client հատկություն
 
 ```c#
 public ApiClient Client { get; set; }

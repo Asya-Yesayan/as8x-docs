@@ -1,6 +1,10 @@
 ---
-title: IDocumentService.ExistInDb(int) մեթոդ
+title: ExistInDb(int)
+parent: "Մեթոդներ"
+grand_parent: "IDocumentService"
 ---
+
+# IDocumentService.ExistInDb(int) մեթոդ
 
 ## Նկարագիր
 

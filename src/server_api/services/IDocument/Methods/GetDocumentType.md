@@ -1,6 +1,10 @@
 ---
-title: IDocumentService.GetDocumentType(int) մեթոդ
+title: GetDocumentType(int)
+parent: "Մեթոդներ"
+grand_parent: "IDocumentService"
 ---
+
+# IDocumentService.GetDocumentType(int) մեթոդ
 
 ## Նկարագիր
 

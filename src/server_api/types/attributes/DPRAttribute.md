@@ -1,7 +1,10 @@
 ---
 layout: page
-title: "DPRAttribute դաս" 
+title: "DPRAttribute դաս"
+nav_exclude: true
 ---
+
+# DPRAttribute դաս
 
 DPR ատրիբուտը նախատեսված է [DPR](../../Definitions/DataProcessingRequest/DataProcessingRequest.md)-ը նկարագրող դասի վրա դնելու համար։
 

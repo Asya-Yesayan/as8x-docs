@@ -1,5 +1,7 @@
 ﻿---
-title: IProcessServerClient.Stop(Guid, object) մեթոդ  
+title: Stop(Guid, object)
+parent: "Մեթոդներ"
+grand_parent: "IProcessServerClient"
 ---
 
 ## Նկարագիր

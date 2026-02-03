@@ -1,6 +1,10 @@
 ---
-title: Document.SerializeComplexObjects(SerializeComplexObjectsEventArgs) մեթոդ
+title: SerializeComplexObjects(SerializeComplexObjectsEventArgs)
+parent: "Մեթոդներ"
+grand_parent: "Փաստաթուղթ"
 ---
+
+# Document.SerializeComplexObjects(SerializeComplexObjectsEventArgs) մեթոդ
 
 ## Նկարագիր
 

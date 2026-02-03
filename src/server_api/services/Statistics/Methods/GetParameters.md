@@ -1,6 +1,12 @@
 ---
-title: StatisticsService․GetParameters(string) մեթոդ
+title: GetParameters(string)
+parent: "Մեթոդներ"
+grand_parent: "StatisticsService"
+
 ---
+
+# StatisticsService․GetParameters(string) մեթոդ
+
  
 ## Նկարագիր
  
