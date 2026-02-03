@@ -10,7 +10,7 @@ title: Document.GetDecimalValue(string) մեթոդ
 public decimal GetDecimalValue(string name)
 ```
 
-Վերադարձնում է փաստաթղթի նշված ներքին անունով դաշտի (ռեկվիզիտի) արժեքը՝ բերված decimal տիպի։
+Վերադարձնում է փաստաթղթի նշված ներքին անունով դաշտի (ռեկվիզիտի) արժեքը՝ բերված decimal տիպի։ Եթե [փաստաթղթի նկարագրությունում](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Defs/doc.html) նշված ներքին անունով դաշտը բացակայում է, ապա առաջանում է սխալ։
 
 **Պարամետրեր**
 
