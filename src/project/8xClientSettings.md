@@ -1,6 +1,6 @@
 ---
 title: "8xClientSettings.json: Կարգավորման ֆայլ"
-parent: "Պրոյեկտների կառուցվածք"
+parent: "Կարգավորումներ"
 nav_order: 2
 ---
 

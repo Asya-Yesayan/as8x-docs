@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "appsettings.json: Կարգավորման ֆայլ"
+title: "Կոնֆիգուրացիոն սերվիսի կարգավորման ֆայլ։ appsettings.json"
 tags: [Settings, appsettings]
 sublinks:
 - { title: "Autentication", ref: autentication }
@@ -13,7 +13,7 @@ sublinks:
 - { title: "Լոգի գրանցում Seq սերվերում", ref: լոգի-գրանցում-seq-սերվերում }
 - { title: "Լոգի ֆիլտրում", ref: լոգի-ֆիլտրում }
 - { title: "Մի քանի լոգերի կիրառում", ref: մի-քանի-լոգերի-կիրառում }
-parent: "Պրոյեկտների կառուցվածք"
+parent: "Կարգավորումներ"
 nav_order: 2
 ---
 
