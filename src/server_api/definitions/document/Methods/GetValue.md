@@ -1,6 +1,10 @@
 ---
-title: Document.GetValue(string) մեթոդ
+title: GetValue
+parent: "Մեթոդներ"
+grand_parent: "Փաստաթուղթ"
 ---
+
+# Document.GetValue(string) մեթոդ
 
 ## Նկարագիր
 

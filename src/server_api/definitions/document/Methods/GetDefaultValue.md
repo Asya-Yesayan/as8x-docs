@@ -1,6 +1,10 @@
 ---
-title: Document.GetDefaultValue(string) մեթոդ
+title: GetDefaultValue
+parent: "Մեթոդներ"
+grand_parent: "Փաստաթուղթ"
 ---
+
+# Document.GetDefaultValue(string) մեթոդ
 
 ## Նկարագիր
 

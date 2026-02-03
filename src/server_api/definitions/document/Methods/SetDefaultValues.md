@@ -1,6 +1,10 @@
 ---
-title: Document.SetDefaultValues(IEnumerable<string>) մեթոդ
+title: SetDefaultValues
+parent: "Մեթոդներ"
+grand_parent: "Փաստաթուղթ"
 ---
+
+# Document.SetDefaultValues(IEnumerable<string>) մեթոդ
 
 ## Նկարագիր
 

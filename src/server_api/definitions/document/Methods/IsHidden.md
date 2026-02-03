@@ -1,6 +1,10 @@
 ---
-title: Document.IsHidden(string) մեթոդ
+title: IsHidden
+parent: "Մեթոդներ"
+grand_parent: "Փաստաթուղթ"
 ---
+
+# Document.IsHidden(string) մեթոդ
 
 ## Նկարագիր
 

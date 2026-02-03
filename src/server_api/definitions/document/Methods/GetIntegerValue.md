@@ -1,6 +1,10 @@
 ---
-title: Document.GetIntegerValue(string) մեթոդ
+title: GetIntegerValue
+parent: "Մեթոդներ"
+grand_parent: "Փաստաթուղթ"
 ---
+
+# Document.GetIntegerValue(string) մեթոդ
 
 ## Նկարագիր
 

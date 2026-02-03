@@ -1,6 +1,10 @@
 ---
-title: Document.IsNumPairField(string) մեթոդ
+title: IsNumPairField
+parent: "Մեթոդներ"
+grand_parent: "Փաստաթուղթ"
 ---
+
+# Document.IsNumPairField(string) մեթոդ
 
 ## Նկարագիր
 

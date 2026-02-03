@@ -1,6 +1,10 @@
 ---
-title: Document.GetBooleanValue(string) մեթոդ
+title: GetBooleanValue
+parent: "Մեթոդներ"
+grand_parent: "Փաստաթուղթ"
 ---
+
+# Document.GetBooleanValue(string) մեթոդ
 
 ## Նկարագիր
 

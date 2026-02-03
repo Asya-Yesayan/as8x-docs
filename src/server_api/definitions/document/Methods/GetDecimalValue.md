@@ -1,6 +1,10 @@
 ---
-title: Document.GetDecimalValue(string) մեթոդ
+title: GetDecimalValue
+parent: "Մեթոդներ"
+grand_parent: "Փաստաթուղթ"
 ---
+
+# Document.GetDecimalValue(string) մեթոդ
 
 ## Նկարագիր
 

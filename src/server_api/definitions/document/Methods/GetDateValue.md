@@ -1,6 +1,10 @@
 ---
-title: Document.GetDateValue(string) մեթոդ
+title: GetDateValue
+parent: "Մեթոդներ"
+grand_parent: "Փաստաթուղթ"
 ---
+
+# Document.GetDateValue(string) մեթոդ
 
 ## Նկարագիր
 
