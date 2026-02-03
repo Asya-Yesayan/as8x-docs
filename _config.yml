@@ -17,6 +17,9 @@
 title: AS-8X API Documentation
 theme: just-the-docs
 
+# GitHub Pages baseurl - repository name
+baseurl: /as8x-docs
+
 nav_external_links: false
 
 aux_links_new_tab: true
