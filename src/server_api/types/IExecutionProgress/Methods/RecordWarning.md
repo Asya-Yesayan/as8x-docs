@@ -1,13 +1,18 @@
 ---
-title: RecordWarning(string, int, string, int, Dictionary<string, object>)
+title: RecordWarning
 nav_exclude: true
 ---
 
-# IExecutionProgress.RecordWarning(string, int, string, int, Dictionary<string, object>) մեթոդ
+# IExecutionProgress.RecordWarning մեթոդ
 
-## Նկարագիր
+## Գերբեռնումներ
 
-**Դաս՝** [IExecutionProgress](../../IExecutionProgress.md)
+| Անվանում | Նկարագրություն |
+|--|--|
+| [RecordWarning(string, int, string, int, Dictionary<string, object>)](#iexecutionprogressrecordwarningstring-int-string-int-dictionarystring-object-մեթոդ) | Ավելացնում է նոր տող [տեքստային հաշվետվությունում](../../TextReport.md), եթե մեթոդը չի կանչվել առաջադրանքի կատարման ժամանակ։ |
+| [RecordWarning(IEnumerable<string>, int, string, int, Dictionary<string, object>)](#iexecutionprogressrecordwarningienumerable-int-string-int-dictionarystring-object-մեթոդ) | Ավելացնում է նոր տողեր [տեքստային հաշվետվությունում](../../TextReport.md), եթե մեթոդը չի կանչվել առաջադրանքի կատարման ժամանակ։ |
+
+### IExecutionProgress.RecordWarning(string, int, string, int, Dictionary<string, object>) մեթոդ
 
 ```c#
 public void RecordWarning(string message, 
@@ -23,11 +28,34 @@ public void RecordWarning(string message,
 
 **Պարամետրեր**
 
-
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն                                       |
 | -------- | ------------- | --------------- | ---------------------------------------------------- |
 | message  | string        | -               | Ավելացվող տողի տեքստը։ |
 | isn  | int        | -1               | Ավելացվող տողին կապակցված փաստաթղթի ներքին նույնականացման համարը (isn)։ <br> Եթե արժեքը տրված է, ապա առաջադրանքի ժամանակ ավելացվող լոգի իրադարձությունում ավելացվում է ISN թեգը նշված արժեքով, իսկ այլ կանչերի դեպքում [տեքստային հաշվետվությունից](../../TextReport.md) հասանելի են դառնում փաստաթղթի կոնտեքստային ֆունկցիաները։ |
 | rowDesc  | string        | ""               | Ավելացվող տողի նկարագրությունը։ Եթե արժեքը տրված է, ապա առաջադրանքի ժամանակ ավելացվող լոգի իրադարձությունում ավելացվում է RowDescription թեգը նշված արժեքով: |
 | splitSize  | int        | -1               | [Տեքստային հաշվետվությունում](../../TextReport.md) ավելացվող տողի մասնատման երկարությունը։ Նշված լինելու դեպքում տողը բաժանվում է նշված երկարությամբ մասերի և յուրաքանչյուրը ավելացվում է նոր տողից։ |
+| loggingAdditionalData  | Dictionary<string, object>        | null | Առաջադրանքի կատարման ընթացքում կանչի դեպքում լոգի իրարձությունում ավելացվող թեգ/արժեքների ցուցակը։ |
+
+### IExecutionProgress.RecordWarning(IEnumerable<string>, int, string, int, Dictionary<string, object>) մեթոդ
+
+```c#
+public void RecordWarning(IEnumerable<string> messages, 
+                          int isn = -1, 
+                          string rowDesc = "", 
+                          int splitSize = -1,
+                          Dictionary<string, object> loggingAdditionalData = null);
+```
+
+Ավելացնում է նոր տողեր [տեքստային հաշվետվությունում](../../TextReport.md), եթե մեթոդը չի կանչվել առաջադրանքի կատարման ժամանակ։ 
+
+Առաջադրանքի կատարման ընթացքում կանչի դեպքում միայն [Seq](https://datalust.co/)-ում ավելացվում է նոր իրադարձություն՝ նշված հաղորդագրություններով և Warning լոգավորման մակարդակով, իսկ [տեքստային հաշվետվությունը](../../TextReport.md) մնում է անփոփոխ։
+
+**Պարամետրեր**
+
+| Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն                                       |
+| -------- | ------------- | --------------- | ---------------------------------------------------- |
+| messages  | IEnumerable<string>        | -               | Ավելացվող տողերի տեքստերը։ |
+| isn  | int        | -1               | Ավելացվող տողերին կապակցված փաստաթղթի ներքին նույնականացման համարը (isn)։ <br> Եթե արժեքը տրված է, ապա առաջադրանքի ժամանակ ավելացվող լոգի իրադարձությունում ավելացվում է ISN թեգը նշված արժեքով, իսկ այլ կանչերի դեպքում [տեքստային հաշվետվությունից](../../TextReport.md) հասանելի են դառնում փաստաթղթի կոնտեքստային ֆունկցիաները։ |
+| rowDesc  | string        | ""               | Ավելացվող տողերի նկարագրությունը։ Եթե արժեքը տրված է, ապա առաջադրանքի ժամանակ ավելացվող լոգի իրադարձությունում ավելացվում է RowDescription թեգը նշված արժեքով: |
+| splitSize  | int        | -1               | [Տեքստային հաշվետվությունում](../../TextReport.md) ավելացվող տողերի մասնատման երկարությունը։ Նշված լինելու դեպքում յուրաքանչյուր տող բաժանվում է նշված երկարությամբ մասերի և ավելացվում է նոր տողից։ |
 | loggingAdditionalData  | Dictionary<string, object>        | null | Առաջադրանքի կատարման ընթացքում կանչի դեպքում լոգի իրարձությունում ավելացվող թեգ/արժեքների ցուցակը։ |
