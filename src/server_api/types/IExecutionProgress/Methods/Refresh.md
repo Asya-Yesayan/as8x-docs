@@ -1,6 +1,7 @@
 ---
 title: Refresh(string)
-nav_exclude: true
+parent: "Մեթոդներ"
+grand_parent: "IExecutionProgress"
 ---
 
 # IExecutionProgress.Refresh(string) մեթոդ

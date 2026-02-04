@@ -1,6 +1,7 @@
 ---
 title: RecordHeader(string)
-nav_exclude: true
+parent: "Մեթոդներ"
+grand_parent: "IExecutionProgress"
 ---
 
 # IExecutionProgress.RecordHeader(string) մեթոդ

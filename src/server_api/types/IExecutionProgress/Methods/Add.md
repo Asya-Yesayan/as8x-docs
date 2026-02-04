@@ -1,6 +1,7 @@
 ---
 title: Add(int, string)
-nav_exclude: true
+parent: "Մեթոդներ"
+grand_parent: "IExecutionProgress"
 ---
 
 # IExecutionProgress.Add(int, string) մեթոդ

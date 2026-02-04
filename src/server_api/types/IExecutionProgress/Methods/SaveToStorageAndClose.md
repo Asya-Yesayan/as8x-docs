@@ -1,6 +1,7 @@
 ---
 title: SaveToStorageAndClose()
-nav_exclude: true
+parent: "Մեթոդներ"
+grand_parent: "IExecutionProgress"
 ---
 
 # IExecutionProgress.SaveToStorageAndClose() մեթոդ

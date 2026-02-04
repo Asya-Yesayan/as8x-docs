@@ -1,6 +1,7 @@
 ---
 title: RecordInformation(string, int, string, int, Dictionary<string, object>)
-nav_exclude: true
+parent: "Մեթոդներ"
+grand_parent: "IExecutionProgress"
 ---
 
 # IExecutionProgress.RecordInformation(string, int, string, int, Dictionary<string, object>) մեթոդ

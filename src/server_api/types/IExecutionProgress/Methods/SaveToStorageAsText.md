@@ -1,6 +1,7 @@
 ---
 title: SaveToStorageAsText(StorageInfo, bool, bool, bool)
-nav_exclude: true
+parent: "Մեթոդներ"
+grand_parent: "IExecutionProgress"
 ---
 
 # IExecutionProgress.SaveToStorageAsText(StorageInfo, bool, bool, bool) մեթոդ

@@ -1,6 +1,7 @@
 ---
 title: Break()
-nav_exclude: true
+parent: "Մեթոդներ"
+grand_parent: "IExecutionProgress"
 ---
 
 # IExecutionProgress.Break() մեթոդ

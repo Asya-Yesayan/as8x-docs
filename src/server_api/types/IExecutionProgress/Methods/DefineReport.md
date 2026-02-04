@@ -1,6 +1,7 @@
 ---
 title: DefineReport(string, string, bool)
-nav_exclude: true
+parent: "Մեթոդներ"
+grand_parent: "IExecutionProgress"
 ---
 
 # IExecutionProgress.DefineReport(string, string, bool) մեթոդ

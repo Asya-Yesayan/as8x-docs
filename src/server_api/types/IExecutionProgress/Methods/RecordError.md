@@ -1,6 +1,7 @@
 ---
 title: RecordError(IEnumerable<string>, Exception, int, string, int, Dictionary<string, object>)
-nav_exclude: true
+parent: "Մեթոդներ"
+grand_parent: "IExecutionProgress"
 ---
 
 # IExecutionProgress.RecordError(IEnumerable<string>, Exception, int, string, int, Dictionary<string, object>) մեթոդ

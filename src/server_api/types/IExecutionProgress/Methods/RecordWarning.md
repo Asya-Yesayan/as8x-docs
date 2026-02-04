@@ -1,6 +1,7 @@
 ---
 title: RecordWarning
-nav_exclude: true
+parent: "Մեթոդներ"
+grand_parent: "IExecutionProgress"
 ---
 
 # IExecutionProgress.RecordWarning մեթոդ

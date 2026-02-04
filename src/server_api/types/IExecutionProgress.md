@@ -1,6 +1,10 @@
 ﻿---
-title: IExecutionProgress դաս
+title: IExecutionProgress
+parent: "Սերվիսներ"
+nav_order: 2
 ---
+
+# IExecutionProgress դաս
 
 ## Մեթոդներ
 
