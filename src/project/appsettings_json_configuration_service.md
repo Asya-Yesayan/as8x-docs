@@ -22,6 +22,7 @@ nav_order: 2
 ## Բովանդակություն
 - [Ներածություն](#ներածություն)
 - [Autentication](#autentication)
+- [AdditionalSettings](#additionalsettings)
 - [masterdb](#masterdb)
 - [Hangfire](#hangfire)
 - [JwtConfig](#jwtconfig)
@@ -77,7 +78,6 @@ Azure AD-ով կամ Windows ADFS-ով նույնականացման կարգավ
 
 **Պարամետրեր**
 
-
 | Անվանում | Տվյալների տիպ | Պարտադիր/Ոչ պարտադիր | Լռությամբ արժեք | Նկարագրություն |
 | --- | --- | --- | --- | --- |
 | Alternative | string | Ոչ պարտադիր | AD | Սահմանում է օգտագործողի նույնականացման եղանակը՝ `AD` կամ `ADFS`։ |
@@ -92,6 +92,20 @@ Azure AD-ով կամ Windows ADFS-ով նույնականացման կարգավ
 | &nbsp;&nbsp;**ClientId** | string | Պարտադիր | - | Ծրագրի Client ID-ն, որը գրանցված է ADFS-ում։ |
 | &nbsp;&nbsp;**RedirectUri** | string | Պարտադիր | - | Նույնականացումից հետո վերահղման համար URL-ը։ |
 | &nbsp;&nbsp;**TokenMapping** | string | Պարտադիր | - | Նույնականացման համար անհրաժեշտ տոկենի տեսակը՝ [SID](https://www.techtarget.com/searchsecurity/definition/security-identifier)։ |
+
+## AdditionalSettings
+
+Այս բաժինը նախատեսված է տվյալների բազայի կարգավորումները տալու համար։
+
+```json
+"AdditionalSettings": {
+  "CheckServerName": true
+}
+```
+
+| Անվանում | Տվյալների տիպ | Պարտադիր/Ոչ պարտադիր | Լռությամբ արժեք | Նկարագրություն |
+| --- | --- | --- | --- | --- |
+| CheckServerName | bool | Ոչ պարտադիր | true | true արժեքի դեպքում համեմատվում են սերվիսի կոնֆիգուրացիայում նշված սերվեր/տվյալների բազայի և միացված կոնֆիգուրացիայի սերվեր/տվյալների բազայի անունները, անհամապատասխանության դեպքում թարմացումը ընդհատվում է։ Կիրառվում է AutoUpdate գործիքում։ |
 
 ## masterdb
 
