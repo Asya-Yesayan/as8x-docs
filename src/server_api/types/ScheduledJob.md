@@ -24,3 +24,4 @@ nav_exclude: true
 | Comment          | string               | Առաջադրանքի կատարման վիճակի մասին մեկնաբանություն։ |
 | JobName          | string               | Առաջադրանքի անվանումը։ |
 | Steps            | List<JobStep>        | Առաջադրանքի կատարման քայլերի [նկարագրությունների](JobStep.md) ցուցակը։ |
+| NotifyOn         | [JobNotification](JobNotification.md)  | Առաջադրանքի ծանուցման [տարբերակը](JobNotification.md)։ Ծանուցումներ կստանան այն ծանուցման խմբերի օգտագործողները, որոնց կոդերը նշված են 8XJOBNOTIFICATION համակարգային պարամետրում։  |
