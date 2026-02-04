@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "ParametersDescription դաս"
-nav_exclude: true
+parent: "Մոդելներ"
 ---
 
 # ParametersDescription դաս
