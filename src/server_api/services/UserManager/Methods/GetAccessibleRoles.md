@@ -1,5 +1,5 @@
 ---
-title: GetAccessibleRoles(short)
+title: GetAccessibleRoles
 parent: "Մեթոդներ"
 grand_parent: "UserManagerService"
 

@@ -1,5 +1,5 @@
 ---
-title: GetUnhiddenUsers()
+title: GetUnhiddenUsers
 parent: "Մեթոդներ"
 grand_parent: "UserManagerService"
 
