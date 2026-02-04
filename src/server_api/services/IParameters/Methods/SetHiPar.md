@@ -17,7 +17,7 @@ public Task SetHiPar(string parID,
                      DateTime changeDate, 
                      int isn, 
                      string newValue, 
-                     string errMsg = "", 
+                     string duplicateErrorMessage = "", 
                      DateTime? creationDate = null)
 ```
 
@@ -32,5 +32,5 @@ public Task SetHiPar(string parID,
 | changeDate | DateTime | - | Նոր արժեքի նշանակման ամսաթիվ։ |
 | isn | int | - | Նոր արժեքը նշանակող հիմքային փաստաթղթի ներքին նույնականացման համար։ |
 | newValue | string | - | Նոր արժեք։ |
-| errMsg | string | "" | Կրկնվող տվյալների առկայության դեպքում ցույց տրվող սխալի հաղորդագրություն: Եթե արժեք տրված չէ, ապա կառաջանա ստանդարտ սխալի հաղորդագրություն։ Կրկնությունը ստուգվում է ըստ պարամետրի ներքին անվան, արժեքի նշանակման ամսաթվի և հիմքային փաստաթղթի (`parID`, `changeDate`, `isn`)։ |
+| duplicateErrorMessage | string | "" | Կրկնվող տվյալների առկայության դեպքում ցույց տրվող սխալի հաղորդագրություն: Եթե արժեք տրված չէ, ապա կառաջանա ստանդարտ սխալի հաղորդագրություն։ Կրկնությունը ստուգվում է ըստ պարամետրի ներքին անվան, արժեքի նշանակման ամսաթվի և հիմքային փաստաթղթի (`parID`, `changeDate`, `isn`)։ |
 | creationDate | DateTime? | null | Արժեքի ստեղծման ամսաթիվ։ |
