@@ -1,5 +1,7 @@
 ---
 title: EmailAddresses
+parent: "Մեթոդներ"
+grand_parent: "UserManagerService"
 ---
 
 # UserManagerService․EmailAddresses() մեթոդ
