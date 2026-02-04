@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "ParametersDescription դաս"
+title: "ParametersDescription"
 parent: "Մոդելներ"
 ---
 
