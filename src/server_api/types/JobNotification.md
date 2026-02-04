@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "JobNotification enum" 
-nav_exclude: true
+title: "JobNotification" 
+parent: "Մոդելներ"
 ---
 
 # JobNotification enum

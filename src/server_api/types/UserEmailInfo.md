@@ -1,7 +1,9 @@
 ---
-title: "UserEmailInfo դաս" 
-nav_exclude: true
+title: "UserEmailInfo" 
+parent: "Մոդելներ"
 ---
+
+# UserEmailInfo դաս
 
 Այս դասը նախատեսված է օգտագործողի էլ․ փոստի տվյալների նկարագրման համար։
 

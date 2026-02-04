@@ -1,6 +1,6 @@
 ---
-title: NotificationGroup դաս
-nav_exclude: true
+title: NotificationGroup
+parent: "Մոդելներ"
 ---
 
 # NotificationGroup դաս

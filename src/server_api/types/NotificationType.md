@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "NotificationType enum" 
-nav_exclude: true
+title: "NotificationType" 
+parent: "Մոդելներ"
 ---
 
 # NotificationType enum

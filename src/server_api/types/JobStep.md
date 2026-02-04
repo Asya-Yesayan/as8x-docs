@@ -1,6 +1,6 @@
 ---
-title: "JobStep դաս"
-nav_exclude: true
+title: "JobStep"
+parent: "Մոդելներ"
 ---
 
 # JobStep դաս

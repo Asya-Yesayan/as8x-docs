@@ -1,6 +1,6 @@
 ---
-title: JobStepNotificationInfo դաս
-nav_exclude: true
+title: JobStepNotificationInfo
+parent: "Մոդելներ"
 ---
 
 # JobStepNotificationInfo դաս

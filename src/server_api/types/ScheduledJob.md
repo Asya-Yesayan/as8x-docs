@@ -1,6 +1,6 @@
 ---
-title: "ScheduledJob դաս"
-nav_exclude: true
+title: "ScheduledJob"
+parent: "Մոդելներ"
 ---
 
 # ScheduledJob դաս
