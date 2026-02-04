@@ -20,7 +20,7 @@ nav_order: 2
 
 | Անվանում | Նկարագրություն |
 |----------|----------------|
-| [Execute(P, HashSet&lt;string&gt;, IExtender, CancellationToken)](Methods/Execute.md) | Կատարում է տվյալների աղբյուրը: |
+| [Execute(P, HashSet&lt;string&gt;, IExtender, CancellationToken, bool)](Methods/Execute.md) | Կատարում է տվյալների աղբյուրը: |
 | [AfterDataReaderClose(DataSourceArgs&lt;P&gt;, CancellationToken)](Methods/AfterDataReaderClose.md#datasourceafterdatareaderclosedatasourceargsp-cancellationtoken-մեթոդ) | Մեթոդը կանչվում է միջուկի կողմից SQL հարցման կատարման ավարտից հետո, երբ [SqlDataReader](https://learn.microsoft.com/en-us/dotnet/api/microsoft.data.sqlclient.sqldatareader)-ը արդեն փակ է: |
 | [AfterDataReaderClose(DataSourceArgs&lt;P&gt;, R)](Methods/AfterDataReaderClose.md#datasourceafterdatareaderclosedatasourceargsp-r-մեթոդ) | Մեթոդը կանչվում է միջուկի կողմից SQL հարցման կատարման ավարտից հետո ամեն մի հաշվարկված տողի համար, երբ [SqlDataReader](https://learn.microsoft.com/en-us/dotnet/api/microsoft.data.sqlclient.sqldatareader)-ը արդեն փակ է: |
 | [AfterExecuteSQLCommand(DataSourceArgs&lt;P&gt;, SqlDataReader)](Methods/AfterExecuteSQLCommand.md) | Մեթոդը կանչվում է միջուկի կողմից SQL հարցման սկսելուց հետո, երբ [SqlDataReader](https://learn.microsoft.com/en-us/dotnet/api/microsoft.data.sqlclient.sqldatareader)-ը արդեն բաց է: |

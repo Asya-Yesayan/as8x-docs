@@ -16,15 +16,16 @@ grand_parent: "DataSourceService"
 
 | Անվանում | Նկարագրություն |
 |--|--|
-| [ExecuteDataSource(string, Dictionary&lt;string, object&gt;, CancellationToken)](#datasourceserviceexecutedatasourcestring-dictionarystring-object-cancellationtoken-մեթոդ) | Կատարում է տվյալների աղբյուրը և վերադարձնում տողերի ցուցակ։ |
-| [ExecuteDataSource(Type, Dictionary&lt;string, object&gt;, CancellationToken)](#datasourceserviceexecutedatasourcetype-dictionarystring-object-cancellationtoken-մեթոդ) | Կատարում է տվյալների աղբյուրը և վերադարձնում տողերի ցուցակ։ |
+| [ExecuteDataSource(string, Dictionary&lt;string, object&gt;, CancellationToken, bool)](#datasourceserviceexecutedatasourcestring-dictionarystring-object-cancellationtoken-bool-մեթոդ) | Կատարում է տվյալների աղբյուրը և վերադարձնում տողերի ցուցակ։ |
+| [ExecuteDataSource(Type, Dictionary&lt;string, object&gt;, CancellationToken, bool)](#datasourceserviceexecutedatasourcetype-dictionarystring-object-cancellationtoken-bool-մեթոդ) | Կատարում է տվյալների աղբյուրը և վերադարձնում տողերի ցուցակ։ |
 
-### DataSourceService.ExecuteDataSource(string, Dictionary&lt;string, object&gt;, CancellationToken) մեթոդ
+### DataSourceService.ExecuteDataSource(string, Dictionary&lt;string, object&gt;, CancellationToken, bool) մեթոդ
 
 ```c#
 public Task<List<T>> ExecuteDataSource<T>(string dsName, 
                                           Dictionary<string, object> parameters, 
-                                          CancellationToken cancellationToken = default)
+                                          CancellationToken cancellationToken = default,
+                                          bool suppressProgress = true)
 ```
 
 Կատարում է տվյալների աղբյուրը և վերադարձնում տողերի ցուցակ։
@@ -36,15 +37,17 @@ public Task<List<T>> ExecuteDataSource<T>(string dsName,
 | dsName          | string               | -              | Տվյալների աղբյուրի ներքին անունը: |
 | parameters      | Dictionary<string, object> | -              | Տվյալների աղբյուրի պարամետրերի ցանկը: |
 | cancellationToken | CancellationToken    | default        | Ընդհատման օբյեկտ: |
+| suppressProgress | bool              | true         | Կատարման պրոգրեսի չարժեքավորման հայտանիշ։  |
 
 Օգտագործման օրինակին ծանոթանալու համար [տե՛ս](../../../Examples/ds.md#չտիպիզացված-կատարում):
 
-### DataSourceService.ExecuteDataSource(Type, Dictionary&lt;string, object&gt;, CancellationToken) մեթոդ
+### DataSourceService.ExecuteDataSource(Type, Dictionary&lt;string, object&gt;, CancellationToken, bool) մեթոդ
 
 ```c#
 public Task<List<T>> ExecuteDataSource<T>(Type dsType, 
                                           Dictionary<string, object> parameters, 
-                                          CancellationToken cancellationToken = default)
+                                          CancellationToken cancellationToken = default,
+                                          bool suppressProgress = true)
 ```
 
 Կատարում է տվյալների աղբյուրը և վերադարձնում տողերի ցուցակ։
@@ -56,6 +59,7 @@ public Task<List<T>> ExecuteDataSource<T>(Type dsType,
 | dsType          | Type                 | -              | Տվյալների աղբյուրի տիպը։ |
 | parameters      | Dictionary<string, object> | -              | Տվյալների աղբյուրի պարամետրերի ցանկը: |
 | cancellationToken | CancellationToken    | default        | Ընդհատման օբյեկտ: |
+| suppressProgress | bool              | true         | Կատարման պրոգրեսի չարժեքավորման հայտանիշ։  |
 
 Օգտագործման օրինակին ծանոթանալու համար [տե՛ս](../../../Examples/ds.md#չտիպիզացված-կատարում):
 

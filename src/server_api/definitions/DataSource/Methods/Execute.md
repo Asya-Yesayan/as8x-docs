@@ -1,10 +1,10 @@
 ---
-title: Execute(P, HashSet<string>, IExtender, CancellationToken)
+title: Execute
 parent: "Մեթոդներ"
 grand_parent: "Տվյալների աղբյուր"
 ---
 
-# DataSource.Execute(P, HashSet<string>, IExtender, CancellationToken) մեթոդ
+# DataSource.Execute(P, HashSet<string>, IExtender, CancellationToken, bool) մեթոդ
 
 ## Նկարագիր
 
@@ -16,7 +16,8 @@ grand_parent: "Տվյալների աղբյուր"
 public Task<DataSourceResult<R>> Execute(P param, 
                                          HashSet<string> columns = null, 
                                          IExtender extender = null, 
-                                         CancellationToken stoppingToken = default)
+                                         CancellationToken stoppingToken = default,
+                                         bool suppressProgress = true)
 ```
 
 Կատարում է տվյալների աղբյուրը։
@@ -28,8 +29,8 @@ public Task<DataSourceResult<R>> Execute(P param,
 | param         |  P             |   -              | Տվյալների աղբյուրի պարամետրերը նկարագրող դասի օբյեկտ։  |
 | columns       |  HashSet<string>             | null            | Տվյալների աղբյուրի վերադարձվող սյուների անվանումների ցուցակը։ |
 | extender      | IExtender              | null            | Տվյալների աղբյուրի ընդլայնումը։  |
-| stoppingToken | CancellationToken              | default         | ընդհատման օբյեկտը։  
-
+| stoppingToken | CancellationToken              | default         | ընդհատման օբյեկտը։ |
+| suppressProgress | bool              | true         | Կատարման պրոգրեսի չարժեքավորման հայտանիշ։  |
 
 Տե՛ս [օրինակը](../../../Examples/ds.md#տիպիզացված-կատարում)։
 
