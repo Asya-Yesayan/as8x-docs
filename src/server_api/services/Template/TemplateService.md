@@ -56,7 +56,7 @@ public Task Edit(TemplateDefinition definition)
 |-----------------|----------------------|----------------|----------------|
 | definition      | TemplateDefinition   | -              | Տպելու ձևանմուշի նկարագրություն: |
 
-<!-- ### GetCount
+### GetCount
 
 ```c#
 public Task<int> GetCount(string name)
@@ -177,8 +177,6 @@ public Task UpdateDataGroups(int rowId, string dataGroups)
 |-----------------|----------------------|----------------|----------------|
 | rowId           | int                  | -              | Տպելու ձևանմուշի ներքին նույնականացման համար։ |
 | dataGroups      | string               | -              | Տպելու ձևանմուշի տվյալների խմբերի անունները որպես տեքստ, որտեղ խմբերը անհրաժեշտ է իրարից տարանջատել ստորակետերով։ Օրինակ **TRN,TRNAMD**: |
-
-<!--
 
 ## Մեթոդներ
 

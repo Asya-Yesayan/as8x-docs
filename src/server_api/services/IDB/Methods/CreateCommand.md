@@ -49,4 +49,4 @@ public string CreateConnectionString(string sqlServer, string dbName, string log
 | pooling         | bool                 | true           | Օգտագործել միացումների քեշ, թե ոչ։ |
 | connectionName  | string               | Constants.DBConnections.Main | Ծրագրի անունը։ |
 | maxPoolSize     | int?                 | null           | Միացումների քեշի առավելագույն քանակ։ |
-| withoutDecrypting | bool                 | false          | Նշվում է որ պետք չէ գաղտնաբառը ապակոդավորվի։ --> |
+| withoutDecrypting | bool                 | false          | Նշվում է որ պետք չէ գաղտնաբառը ապակոդավորվի։  | -->

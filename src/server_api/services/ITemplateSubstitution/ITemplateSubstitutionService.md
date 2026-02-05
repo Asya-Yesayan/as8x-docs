@@ -56,9 +56,9 @@ public Task Substitute(IPrintTemplateSubstitution printTemplateSubstitution,
 | htmlImageOption | HtmlImageOption      | default        | Html տպվող տեսքերի [պատկերների տեղադրման եղանակ](../../Types/HtmlImageOption.md)։ |
 | isUnicode       | bool                 | false          | Տպելու ձևանմուշի տվյալների `Unicode` կոդավորմամբ լրացման հայտանիշ։ |
 | protect         | bool                 | false          | `true` արժեքի դեպքում տպելու ձևանմուշի ֆայլը բացվում է միայն կարդալու թույլտվությամբ, հակառակ դեպքում՝ կարդալու/խմբագրելու թույլտվությամբ։ |
-| check           | bool                 | false          | Տպելու ձևանմուշում առկա կոդերի ճիշտ շարահյուսության ստուգման հայտանիշ։ --> |
+| check           | bool                 | false          | Տպելու ձևանմուշում առկա կոդերի ճիշտ շարահյուսության ստուգման հայտանիշ։ |
 
-<!-- ### SubstituteAndGetContent
+### SubstituteAndGetContent
 
 ```c#
 public Task<string> SubstituteAndGetContent(IPrintTemplateSubstitution printTemplateSubstitution, 
@@ -78,4 +78,6 @@ public Task<string> SubstituteAndGetContent(IPrintTemplateSubstitution printTemp
 | type            | SubstitutionType     | -              | [Տպելու ձևանմուշի տիպ][4XTemplateSubstitution]: |
 | htmlImageOption | HtmlImageOption      | default        | Html տպվող տեսքերի [պատկերների տեղադրման եղանակ](../../Types/HtmlImageOption.md)։ |
 | isUnicode       | bool                 | false          | Տպելու ձևանմուշի տվյալների `Unicode` կոդավորմամբ լրացման հայտանիշ։ |
-| check           | bool                 | false          | Տպելու ձևանմուշում առկա կոդերի ճիշտ շարահյուսության ստուգման հայտանիշ։ --> |
+| check           | bool                 | false          | Տպելու ձևանմուշում առկա կոդերի ճիշտ շարահյուսության ստուգման հայտանիշ։  |
+
+-->

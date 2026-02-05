@@ -12,16 +12,6 @@ has_toc: false
 ISessionInfoService դասը նախատեսված է [սեսսիաների](../../Types/SessionInfo.md) հետ աշխատանքը ապահովելու համար։
 Հնարավոր է ստանալ ընթացիկ օգտագործողի տվյալներ, ինչպես նաև ընթացիկ պարամետրերի արժեքներ։
 
-<!-- ## Հատկություններ
-
-### CurrentSessionGuid
-
-```c#
-public string CurrentSessionGuid { get }
-```
-
-Վերադարձնում է ընթացիկ [սեսսիայի](../../Types/SessionInfo.md) ներքին նույնականացման համարը (Guid): -->
-
 ## Մեթոդներ
 
 | Անվանում | Նկարագրություն |
@@ -36,7 +26,15 @@ public string CurrentSessionGuid { get }
 |----------|----------------|
 | [CurrentSessionGuid](Properties/CurrentSessionGuid.md) | Վերադարձնում է ընթացիկ [սեսսիայի](../../Types/SessionInfo.md) ներքին նույնականացման համարը (Guid)։ |
 
-<!-- ##
+<!-- ## Հատկություններ
+
+### CurrentSessionGuid
+
+```c#
+public string CurrentSessionGuid { get }
+```
+
+Վերադարձնում է ընթացիկ [սեսսիայի](../../Types/SessionInfo.md) ներքին նույնականացման համարը (Guid): 
 
 ## Մեթոդներ
 
@@ -122,3 +120,5 @@ public Task Update(SessionInfoModel sessionInfo)
 | Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
 |-----------------|----------------------|----------------|----------------|
 | sessionInfo     | SessionInfoModel     | -              | Թարմացումը պարունակող ինֆորմացիան։ |
+
+-->

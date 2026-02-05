@@ -44,4 +44,4 @@ public Task<(string caption, string englishCaption)> GetCaption(string docType)
 | Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
 |-----------------|----------------------|----------------|----------------|
 | caption         | string               | -              | — |
-| docType         | string englishCaption)> GetCaption(string | -              | Փաստաթղթի տեսակ։ --> |
+| docType         | string englishCaption)> GetCaption(string | -              | Փաստաթղթի տեսակ։  | -->

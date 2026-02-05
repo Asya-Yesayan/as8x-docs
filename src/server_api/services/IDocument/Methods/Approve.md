@@ -48,4 +48,6 @@ public Task CheckAndStore(Document document,
 | mode            | StoreMode            | -              | [Փաստաթղթի պահպանման ռեժիմը](../../../Definitions/Document/Properties/StoreMode.md)։ |
 | checkLevel      | DocumentCheckLevel   | DocumentCheckLevel.None | [Փաստաթղթի ստուգման մակարդակը](../../../Types/DocumentCheckLevel.md)։ |
 | stateBeforeCallPostMessage | int                  | 0              | Փաստաթղթի վիճակը PostMessage մեթոդի կանչից առաջ։ |
-| logComment      | string               | ""             | Փաստաթղթի պատմության մեջ գրանցվող հաղորդագրություն։ --> |
+| logComment      | string               | ""             | Փաստաթղթի պատմության մեջ գրանցվող հաղորդագրություն։  |
+
+-->

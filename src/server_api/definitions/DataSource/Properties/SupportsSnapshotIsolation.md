@@ -25,9 +25,9 @@ public virtual bool SupportsSnapshotIsolation
 protected void AddRow(R row)
 ```
 
-Ավելացնում է տող տվյալների աղբյուրի տողերի ցուցակում` որպես մուտքային R պարամետր ստանալով տվյալների աղբյուրի սյուները նկարագրող դասը։ -->
+Ավելացնում է տող տվյալների աղբյուրի տողերի ցուցակում` որպես մուտքային R պարամետր ստանալով տվյալների աղբյուրի սյուները նկարագրող դասը։ 
 
-<!-- ### Execute
+### Execute
 
 ```c#
 public Task<DataSourceResult<R>> Execute(DataSourceArgs<P> args, CancellationToken stoppingToken, IExtender extender = null)
