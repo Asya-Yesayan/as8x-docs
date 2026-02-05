@@ -2,6 +2,7 @@
 layout: page
 title: "Ճարտարապետություն"
 nav_order: 1
+has_toc: false
 
 ---
 

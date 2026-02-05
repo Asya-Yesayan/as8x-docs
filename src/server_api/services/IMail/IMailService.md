@@ -2,6 +2,7 @@
 title: "IMailService"
 parent: "Սերվիսներ"
 nav_order: 2
+has_toc: false
 ---
 
 # IMailService սերվիս

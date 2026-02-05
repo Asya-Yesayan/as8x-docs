@@ -2,6 +2,7 @@
 layout: page
 title: "Համակարգային նկարագրություններ"
 nav_order: 1
+has_toc: false
 ---
 
 # Բոլոր նկարագրությունները

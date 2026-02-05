@@ -2,6 +2,7 @@
 title: "IAccountingService"
 parent: "Սերվիսներ"
 nav_order: 2
+has_toc: false
 ---
 
 # IAccountingService սերվիս

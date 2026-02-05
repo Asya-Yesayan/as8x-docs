@@ -2,6 +2,7 @@
 title: "IProcessServerClient"
 parent: "Սերվիսներ"
 nav_order: 2
+has_toc: false
 ---
 
 # IProcessServerClient սերվիս

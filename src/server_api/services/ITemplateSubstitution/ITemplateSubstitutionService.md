@@ -2,6 +2,7 @@
 title: "ITemplateSubstitutionService"
 parent: "Սերվիսներ"
 nav_order: 2
+has_toc: false
 ---
 
 # ITemplateSubstitutionService սերվիս

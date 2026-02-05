@@ -3,6 +3,7 @@ layout: page
 title: Տվյալների մշակման հարցում
 parent: "Համակարգային նկարագրություններ"
 nav_order: 2
+has_toc: false
 ---
 
 # DataProcessingRequest նկարագրություն

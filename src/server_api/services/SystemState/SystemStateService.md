@@ -2,6 +2,7 @@
 title: "SystemStateService"
 parent: "Սերվիսներ"
 nav_order: 2
+has_toc: false
 ---
 
 # SystemStateService սերվիս

@@ -2,6 +2,7 @@
 title: "IPermanentStorageService"
 parent: "Սերվիսներ"
 nav_order: 2
+has_toc: false
 ---
 
 # IPermanentStorageService սերվիս

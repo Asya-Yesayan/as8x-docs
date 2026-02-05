@@ -2,6 +2,7 @@
 title: NotificationManagementService
 parent: "Սերվիսներ"
 nav_order: 2
+has_toc: false
 ---
 
 # NotificationManagementService սերվիս
