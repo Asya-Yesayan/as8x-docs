@@ -5,7 +5,7 @@ nav_order: 1
 has_toc: false
 ---
 
-# Բոլոր նկարագրությունները
+# Համակարգային նկարագրություններ
 
 * [Փաստաթղթի նկարագրություն](Definitions/Document/Document.md)
 * [Տվյալների աղբյուրի նկարագրություն](Definitions/DataSource/DataSource.md)
