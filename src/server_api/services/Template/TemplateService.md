@@ -13,6 +13,14 @@ TemplateService դասը նախատեսված է տպելու ձևանմուշն
 
 Տե՛ս նաև [ITemplateSubstitutionService](../ITemplateSubstitution/ITemplateSubstitutionService.md) տպելու ձևանմուշների լրացման համար։
 
+## Մեթոդներ
+
+| Անվանում | Նկարագրություն |
+|----------|----------------|
+| [ExistsTemplate(string, string)](Methods/ExistsTemplate.md) | Ստուգում է տպելու ձևանմուշի նկարագրության առկայությունը տվյալների պահոցի `TEMPLATES` աղյուսակում։ |
+| [GetDefinition(string, string)](Methods/GetDefinition.md) | Վերադարձնում է տպելու ձևանմուշի նկարագրությունը տվյալների պահոցի `TEMPLATES` աղյուսակից՝ ըստ տպելու ձևանմուշի ներքին անվան և տիպի։ |
+| [GetTemplateNameAndType(string, bool)](Methods/GetTemplateNameAndType.md) | Բաժանում է `templateNameWithType` պարամետրում միավորված տպելու ձևանմուշի ներքին անունը (կոդը) և տիպը: |
+
 <!-- ### Copy
 
 ```c#
@@ -197,12 +205,4 @@ public Task UpdateDataGroups(int rowId, string dataGroups)
 |----------|----------------|
 | [Store](Methods/Store.md) | Գրանցում է տպելու ձևանմուշի նկարագրությունը տվյալների պահոցի `TEMPLATES` աղյուսակում։ |
 
- -->
-
- ## Մեթոդներ
-
-| Անվանում | Նկարագրություն |
-|----------|----------------|
-| [ExistsTemplate(string, string)](Methods/ExistsTemplate.md) | Ստուգում է տպելու ձևանմուշի նկարագրության առկայությունը տվյալների պահոցի `TEMPLATES` աղյուսակում։ |
-| [GetDefinition(string, string)](Methods/GetDefinition.md) | Վերադարձնում է տպելու ձևանմուշի նկարագրությունը տվյալների պահոցի `TEMPLATES` աղյուսակից՝ ըստ տպելու ձևանմուշի ներքին անվան և տիպի։ |
-| [GetTemplateNameAndType(string, bool)](Methods/GetTemplateNameAndType.md) | Բաժանում է `templateNameWithType` պարամետրում միավորված տպելու ձևանմուշի ներքին անունը (կոդը) և տիպը: |
+-->
