@@ -1,5 +1,5 @@
 ---
-title: CreationDate(int, bool)
+title: CreationDate
 parent: "Մեթոդներ"
 grand_parent: "IDocumentService"
 ---

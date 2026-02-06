@@ -1,5 +1,5 @@
 ---
-title: StoreAsync(DocumentStoreRequestModel, CancellationToken)
+title: StoreAsync
 nav_exclude: true
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: DeleteBlobAsync(string, string, CancellationToken)
+title: DeleteBlobAsync
 nav_exclude: true
 ---
 

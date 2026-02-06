@@ -1,5 +1,5 @@
 ---
-title: Get(string)
+title: Get
 parent: "Մեթոդներ"
 grand_parent: "SessionInfoCacheService
 

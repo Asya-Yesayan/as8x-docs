@@ -1,5 +1,5 @@
 ---
-title: Update(WebServiceInfo)
+title: Update
 parent: "Մեթոդներ"
 grand_parent: "WebServicesManager"
 ---

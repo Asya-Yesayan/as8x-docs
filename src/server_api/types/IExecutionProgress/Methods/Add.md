@@ -1,5 +1,5 @@
 ---
-title: Add(int, string)
+title: Add
 parent: "Մեթոդներ"
 grand_parent: "IExecutionProgress"
 ---

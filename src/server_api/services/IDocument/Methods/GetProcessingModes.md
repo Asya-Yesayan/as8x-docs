@@ -1,5 +1,5 @@
 ---
-title: GetProcessingModes(string)
+title: GetProcessingModes
 parent: "Մեթոդներ"
 grand_parent: "IDocumentService"
 ---

@@ -1,5 +1,5 @@
 ---
-title: CheckProcessingMode(string)
+title: CheckProcessingMode
 parent: "Մեթոդներ"
 grand_parent: "IDocumentService"
 ---

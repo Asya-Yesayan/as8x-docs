@@ -1,5 +1,5 @@
 ---
-title: ExistsGrid(string)
+title: ExistsGrid
 nav_exclude: true
 ---
 

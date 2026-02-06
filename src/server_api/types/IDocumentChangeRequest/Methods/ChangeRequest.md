@@ -1,5 +1,5 @@
 ---
-title: ChangeRequest(ChangeRequestEventArgs)
+title: ChangeRequest
 nav_exclude: true
 ---
 

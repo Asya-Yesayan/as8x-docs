@@ -1,5 +1,5 @@
 ---
-title: LoadTemplateFile(string, SubstitutionType)
+title: LoadTemplateFile
 parent: "Մեթոդներ"
 grand_parent: "ITemplateSubstitutionService"
 ---

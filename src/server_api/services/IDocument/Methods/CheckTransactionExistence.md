@@ -1,5 +1,5 @@
 ---
-title: CheckTransactionExistence(string, int, int)
+title: CheckTransactionExistence
 parent: "Մեթոդներ"
 grand_parent: "IDocumentService"
 ---

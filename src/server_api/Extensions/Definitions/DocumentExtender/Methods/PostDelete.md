@@ -1,5 +1,5 @@
 ---
-title: PostDelete(Document, DeleteEventArgs)
+title: PostDelete
 nav_exclude: true
 ---
 

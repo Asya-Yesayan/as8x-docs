@@ -1,5 +1,5 @@
 ---
-title: HiParDelete(Document)
+title: HiParDelete
 parent: "Մեթոդներ"
 grand_parent: "IDocumentService"
 ---

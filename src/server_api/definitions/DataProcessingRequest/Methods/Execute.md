@@ -1,5 +1,5 @@
 ---
-title: Execute(P, CancellationToken)
+title: Execute
 parent: "Մեթոդներ"
 grand_parent: "Տվյալների մշակման հարցում"
 ---

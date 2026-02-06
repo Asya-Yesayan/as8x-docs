@@ -1,5 +1,5 @@
 ---
-title: Load(int, bool, bool)
+title: Load
 nav_exclude: true
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: AddFooter(string)
+title: AddFooter
 nav_exclude: true
 ---
 

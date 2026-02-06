@@ -1,5 +1,5 @@
 ---
-title: Debug(ILogger, Exception, string)
+title: Debug
 parent: "Մեթոդներ"
 grand_parent: "LoggerService"
 ---

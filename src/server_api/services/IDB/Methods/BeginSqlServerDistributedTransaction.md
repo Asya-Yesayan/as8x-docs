@@ -1,5 +1,5 @@
 ---
-title: BeginSqlServerDistributedTransaction()
+title: BeginSqlServerDistributedTransaction
 parent: "Մեթոդներ"
 grand_parent: "IDBService"
 ---

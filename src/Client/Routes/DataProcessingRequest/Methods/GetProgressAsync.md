@@ -1,5 +1,5 @@
 ---
-title: GetProgressAsync(Guid, CancellationToken)
+title: GetProgressAsync
 nav_exclude: true
 ---
 

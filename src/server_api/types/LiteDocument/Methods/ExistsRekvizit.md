@@ -1,5 +1,5 @@
 ---
-title: ExistsRekvizit(string)
+title: ExistsRekvizit
 nav_exclude: true
 ---
 

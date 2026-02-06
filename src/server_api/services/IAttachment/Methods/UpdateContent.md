@@ -1,5 +1,5 @@
 ---
-title: UpdateContent(AttachmentContentModel)
+title: UpdateContent
 parent: "Մեթոդներ"
 grand_parent: "IAttachmentService"
 ---

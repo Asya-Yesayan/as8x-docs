@@ -1,5 +1,5 @@
 ---
-title: UploadTempBlobAsync(string, string, Stream, BlobProperties, CancellationToken)
+title: UploadTempBlobAsync
 parent: "Մեթոդներ"
 grand_parent: "IStorageService"
 ---

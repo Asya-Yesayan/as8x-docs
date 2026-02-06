@@ -1,5 +1,5 @@
 ---
-title: PreAfterLoad(Document, AfterLoadEventArgs)
+title: PreAfterLoad
 nav_exclude: true
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: DeleteReportCalls(DateTime, DateTime, short?)
+title: DeleteReportCalls
 parent: "Մեթոդներ"
 grand_parent: "StatisticsService"
 

@@ -1,5 +1,5 @@
 ---
-title: PreAction(Document, ActionEventArgs)
+title: PreAction
 nav_exclude: true
 ---
 

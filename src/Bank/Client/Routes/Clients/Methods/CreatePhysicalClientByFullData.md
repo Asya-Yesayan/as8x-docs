@@ -1,5 +1,5 @@
 ---
-title: CreatePhysicalClientByFullData(CreatePhysicalClientByFullDataRequest)
+title: CreatePhysicalClientByFullData
 nav_exclude: true
 ---
 

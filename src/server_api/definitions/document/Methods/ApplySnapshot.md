@@ -1,5 +1,5 @@
 ---
-title: ApplySnapshot(DocumentSnapshot)
+title: ApplySnapshot
 parent: "Մեթոդներ"
 grand_parent: "Փաստաթուղթ"
 ---

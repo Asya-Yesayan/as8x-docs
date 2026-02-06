@@ -1,5 +1,5 @@
 ---
-title: GetApproximateServerDate()
+title: GetApproximateServerDate
 parent: "Մեթոդներ"
 grand_parent: "IDBService"
 ---

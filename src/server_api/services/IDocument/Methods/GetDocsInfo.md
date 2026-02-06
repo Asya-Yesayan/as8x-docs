@@ -1,5 +1,5 @@
 ---
-title: GetDocsInfo()
+title: GetDocsInfo
 parent: "Մեթոդներ"
 grand_parent: "IDocumentService"
 ---

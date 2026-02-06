@@ -1,5 +1,5 @@
 ---
-title: ClearDefinitions(IEnumerable<string>)
+title: ClearDefinitions
 parent: "Մեթոդներ"
 grand_parent: "DataSourceService"
 ---

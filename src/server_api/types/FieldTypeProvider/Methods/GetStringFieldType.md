@@ -1,5 +1,5 @@
 ---
-title: GetStringFieldType(short, bool)
+title: GetStringFieldType
 nav_exclude: true
 ---
 

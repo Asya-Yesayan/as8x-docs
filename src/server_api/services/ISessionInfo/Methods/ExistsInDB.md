@@ -1,5 +1,5 @@
 ---
-title: ExistsInDB(string)
+title: ExistsInDB
 parent: "Մեթոդներ"
 grand_parent: "ISessionInfoService"
 ---

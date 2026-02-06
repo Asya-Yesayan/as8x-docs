@@ -1,5 +1,5 @@
 ---
-title: CreateAdditionalConnection(bool, string, bool)
+title: CreateAdditionalConnection
 parent: "Մեթոդներ"
 grand_parent: "IDBService"
 ---

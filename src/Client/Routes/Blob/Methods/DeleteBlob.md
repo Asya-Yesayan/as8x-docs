@@ -1,5 +1,5 @@
 ---
-title: DeleteBlob(string, string)
+title: DeleteBlob
 nav_exclude: true
 ---
 

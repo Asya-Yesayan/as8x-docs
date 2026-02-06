@@ -1,5 +1,5 @@
 ---
-title: GetCHFieldType(string, short, short, bool)
+title: GetCHFieldType
 nav_exclude: true
 ---
 

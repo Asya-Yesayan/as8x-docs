@@ -1,5 +1,5 @@
 ---
-title: SerializeComplexObjects(SerializeComplexObjectsEventArgs)
+title: SerializeComplexObjects
 parent: "Մեթոդներ"
 grand_parent: "Փաստաթուղթ"
 ---

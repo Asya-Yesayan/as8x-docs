@@ -1,5 +1,5 @@
 ---
-title: StoreInFolder(Document, FolderElement)
+title: StoreInFolder
 parent: "Մեթոդներ"
 grand_parent: "IDocumentService"
 ---

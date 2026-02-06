@@ -1,5 +1,5 @@
 ---
-title: CalculateGauges(IDBService)
+title: CalculateGauges
 nav_exclude: true
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: LoadGrids(LoadGridsEventArgs)
+title: LoadGrids
 parent: "Մեթոդներ"
 grand_parent: "Փաստաթուղթ"
 ---

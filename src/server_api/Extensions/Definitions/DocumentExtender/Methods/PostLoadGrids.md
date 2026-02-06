@@ -1,5 +1,5 @@
 ---
-title: PostLoadGrids(Document, LoadGridsEventArgs)
+title: PostLoadGrids
 nav_exclude: true
 ---
 

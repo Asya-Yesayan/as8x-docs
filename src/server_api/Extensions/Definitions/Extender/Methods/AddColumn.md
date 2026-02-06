@@ -1,5 +1,5 @@
 ---
-title: AddColumn(string, string, string, FieldType, string, string, FieldType, short, short, SupportedEncoding)
+title: AddColumn
 nav_exclude: true
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: LoadHI2ByBase(int, string, string, long)
+title: LoadHI2ByBase
 parent: "Մեթոդներ"
 grand_parent: "IFactService"
 ---

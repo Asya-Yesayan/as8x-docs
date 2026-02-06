@@ -1,5 +1,5 @@
 ---
-title: Approve(Document, DocumentCheckLevel, string)
+title: Approve
 parent: "Մեթոդներ"
 grand_parent: "IDocumentService"
 ---

@@ -1,5 +1,5 @@
 ---
-title: ExistsAtomic(string)
+title: ExistsAtomic
 nav_exclude: true
 ---
 

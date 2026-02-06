@@ -1,5 +1,5 @@
 ---
-title: StoreReportCallsAndParams(ReportCallsStoreModel)
+title: StoreReportCallsAndParams
 parent: "Մեթոդներ"
 grand_parent: "StatisticsService"
 

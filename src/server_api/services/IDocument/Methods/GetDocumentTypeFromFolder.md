@@ -1,5 +1,5 @@
 ---
-title: GetDocumentTypeFromFolder(string, string)
+title: GetDocumentTypeFromFolder
 parent: "Մեթոդներ"
 grand_parent: "IDocumentService"
 ---

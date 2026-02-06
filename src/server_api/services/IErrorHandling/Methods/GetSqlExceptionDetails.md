@@ -1,5 +1,5 @@
 ---
-title: GetSqlExceptionDetails(SqlException)
+title: GetSqlExceptionDetails
 parent: "Մեթոդներ"
 grand_parent: "IErrorHandlingService"
 ---

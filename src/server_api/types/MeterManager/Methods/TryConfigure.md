@@ -1,5 +1,5 @@
 ---
-title: TryConfigure(IParametersService)
+title: TryConfigure
 nav_exclude: true
 ---
 

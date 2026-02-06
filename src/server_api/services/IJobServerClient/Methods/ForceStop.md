@@ -1,5 +1,5 @@
 ---
-title: ForceStop(Guid, string)
+title: ForceStop
 parent: "Մեթոդներ"
 grand_parent: "IProcessServerClient"
 ---

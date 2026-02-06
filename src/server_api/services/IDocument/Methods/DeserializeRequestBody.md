@@ -1,5 +1,5 @@
 ---
-title: DeserializeRequestBody(DocumentModel, bool)
+title: DeserializeRequestBody
 parent: "Մեթոդներ"
 grand_parent: "IDocumentService"
 ---

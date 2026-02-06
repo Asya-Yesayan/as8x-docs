@@ -1,5 +1,5 @@
 ---
-title: SetImage(string, byte[])
+title: SetImage
 parent: "Մեթոդներ"
 grand_parent: "Փաստաթուղթ"
 ---

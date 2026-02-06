@@ -1,5 +1,5 @@
 ---
-title: CreateReadOnlyConnection(bool)
+title: CreateReadOnlyConnection
 parent: "Մեթոդներ"
 grand_parent: "IDBService"
 ---

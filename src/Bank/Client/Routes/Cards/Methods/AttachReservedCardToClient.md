@@ -1,5 +1,5 @@
 ---
-title: AttachReservedCardToClient(AttachReservedCardToClientRequest)
+title: AttachReservedCardToClient
 nav_exclude: true
 ---
 

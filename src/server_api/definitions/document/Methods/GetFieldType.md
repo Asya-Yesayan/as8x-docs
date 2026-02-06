@@ -1,5 +1,5 @@
 ---
-title: GetFieldType(string)
+title: GetFieldType
 parent: "Մեթոդներ"
 grand_parent: "Փաստաթուղթ"
 ---

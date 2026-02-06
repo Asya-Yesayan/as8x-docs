@@ -1,5 +1,5 @@
 ---
-title: AddParent(int)
+title: AddParent
 parent: "Մեթոդներ"
 grand_parent: "Փաստաթուղթ"
 ---

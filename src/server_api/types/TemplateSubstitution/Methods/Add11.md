@@ -1,5 +1,5 @@
 ---
-title: Add(string, DateTime)
+title: Add
 nav_exclude: true
 ---
 

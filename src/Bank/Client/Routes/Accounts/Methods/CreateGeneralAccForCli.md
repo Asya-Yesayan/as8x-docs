@@ -1,5 +1,5 @@
 ---
-title: CreateGeneralAccForCli(CreateGeneralAccRequest)
+title: CreateGeneralAccForCli
 nav_exclude: true
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: LoadGrids(IDBService, ArchiveInfo)
+title: LoadGrids
 nav_exclude: true
 ---
 

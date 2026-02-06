@@ -1,5 +1,5 @@
 ---
-title: OnRefuse(RefuseEventArgs)
+title: OnRefuse
 parent: "Մեթոդներ"
 grand_parent: "Փաստաթուղթ"
 ---

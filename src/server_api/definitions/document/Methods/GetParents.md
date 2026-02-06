@@ -1,5 +1,5 @@
 ---
-title: GetParents()
+title: GetParents
 parent: "Մեթոդներ"
 grand_parent: "Փաստաթուղթ"
 ---

@@ -1,5 +1,5 @@
 ---
-title: Sign(SignRequest)
+title: Sign
 nav_exclude: true
 ---
 

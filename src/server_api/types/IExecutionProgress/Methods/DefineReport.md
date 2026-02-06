@@ -1,5 +1,5 @@
 ---
-title: DefineReport(string, string, bool)
+title: DefineReport
 parent: "Մեթոդներ"
 grand_parent: "IExecutionProgress"
 ---

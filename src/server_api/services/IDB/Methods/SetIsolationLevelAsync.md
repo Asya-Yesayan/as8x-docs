@@ -1,5 +1,5 @@
 ---
-title: SetIsolationLevelAsync(IsolationLevel)
+title: SetIsolationLevelAsync
 parent: "Մեթոդներ"
 grand_parent: "IDBService"
 ---

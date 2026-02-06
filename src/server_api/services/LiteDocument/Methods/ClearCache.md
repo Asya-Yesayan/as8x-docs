@@ -1,5 +1,5 @@
 ---
-title: ClearCache()
+title: ClearCache
 parent: "Մեթոդներ"
 grand_parent: "LiteDocumentService"
 ---

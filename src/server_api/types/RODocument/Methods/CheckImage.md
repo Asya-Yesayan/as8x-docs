@@ -1,5 +1,5 @@
 ---
-title: CheckImage()
+title: CheckImage
 nav_exclude: true
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Refresh(string)
+title: Refresh
 parent: "Մեթոդներ"
 grand_parent: "IExecutionProgress"
 ---

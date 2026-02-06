@@ -1,5 +1,5 @@
 ---
-title: Body()
+title: Body
 parent: "Մեթոդներ"
 grand_parent: "Փաստաթուղթ"
 ---

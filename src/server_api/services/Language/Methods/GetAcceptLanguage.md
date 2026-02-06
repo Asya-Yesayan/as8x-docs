@@ -1,5 +1,5 @@
 ---
-title: GetAcceptLanguage(CultureInfo)
+title: GetAcceptLanguage
 parent: "Մեթոդներ"
 grand_parent: "LanguageService"
 ---

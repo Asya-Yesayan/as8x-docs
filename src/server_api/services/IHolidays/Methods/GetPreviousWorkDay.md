@@ -1,5 +1,5 @@
 ---
-title: GetPreviousWorkDay(DateTime)
+title: GetPreviousWorkDay
 parent: "Մեթոդներ"
 grand_parent: "IHolidaysService"
 ---

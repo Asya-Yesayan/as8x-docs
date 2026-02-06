@@ -1,5 +1,5 @@
 ---
-title: SetGridDefaultValues(Document, Dictionary<string, HashSet<string>>)
+title: SetGridDefaultValues
 parent: "Մեթոդներ"
 grand_parent: "IDocumentService"
 ---

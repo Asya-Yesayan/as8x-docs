@@ -1,5 +1,5 @@
 ---
-title: GetHiPar(string, DateTime, bool, string, bool, DateTime?)
+title: GetHiPar
 parent: "Մեթոդներ"
 grand_parent: "IParametersService"
 ---

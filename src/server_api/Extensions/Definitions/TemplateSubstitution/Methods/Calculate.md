@@ -1,5 +1,5 @@
 ---
-title: Calculate(TemplateSubstitutionExtenderArgs)
+title: Calculate
 nav_exclude: true
 ---
 

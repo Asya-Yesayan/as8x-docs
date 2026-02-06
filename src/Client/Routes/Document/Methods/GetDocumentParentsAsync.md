@@ -1,5 +1,5 @@
 ---
-title: GetDocumentParentsAsync(int, DocumentParentsRequestModel, CancellationToken)
+title: GetDocumentParentsAsync
 nav_exclude: true
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: GetTreeElements(int, Dictionary<string, TreeElement>, bool, bool)
+title: GetTreeElements
 parent: "Մեթոդներ"
 grand_parent: "TreeElementsService"
 ---

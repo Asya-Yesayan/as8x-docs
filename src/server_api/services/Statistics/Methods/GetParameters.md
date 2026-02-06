@@ -1,5 +1,5 @@
 ---
-title: GetParameters(string)
+title: GetParameters
 parent: "Մեթոդներ"
 grand_parent: "StatisticsService"
 

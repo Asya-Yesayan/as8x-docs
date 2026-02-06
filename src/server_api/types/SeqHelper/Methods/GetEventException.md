@@ -1,5 +1,5 @@
 ---
-title: GetEventException(string)
+title: GetEventException
 nav_exclude: true
 ---
 

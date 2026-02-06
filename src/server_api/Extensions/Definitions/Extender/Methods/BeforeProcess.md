@@ -1,5 +1,5 @@
 ---
-title: BeforeProcess(IList<IExtendableRow>, IDataSourceArgs)
+title: BeforeProcess
 nav_exclude: true
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: GetRows(long, long)
+title: GetRows
 nav_exclude: true
 ---
 

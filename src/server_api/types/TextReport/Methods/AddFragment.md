@@ -1,5 +1,5 @@
 ---
-title: AddFragment(int)
+title: AddFragment
 nav_exclude: true
 ---
 

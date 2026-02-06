@@ -1,5 +1,5 @@
 ---
-title: GetNextTrans()
+title: GetNextTrans
 parent: "Մեթոդներ"
 grand_parent: "Փաստաթուղթ"
 ---

@@ -1,5 +1,5 @@
 ---
-title: IsTemplateAvailable(string, string, Document)
+title: IsTemplateAvailable
 parent: "Մեթոդներ"
 grand_parent: "ITemplateSubstitutionService"
 ---

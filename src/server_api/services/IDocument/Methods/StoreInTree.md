@@ -1,5 +1,5 @@
 ---
-title: StoreInTree(Document, TreeElement)
+title: StoreInTree
 parent: "Մեթոդներ"
 grand_parent: "IDocumentService"
 ---

@@ -1,5 +1,5 @@
 ---
-title: GetAll()
+title: GetAll
 parent: "Մեթոդներ"
 grand_parent: "SessionInfoCacheService
 

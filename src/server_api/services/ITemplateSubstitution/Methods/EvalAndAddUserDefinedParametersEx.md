@@ -1,5 +1,5 @@
 ---
-title: EvalAndAddUserDefinedParametersEx(string, SubstitutionType, PrintTemplateSubstitutionEx, Document.Document)
+title: EvalAndAddUserDefinedParametersEx
 parent: "Մեթոդներ"
 grand_parent: "ITemplateSubstitutionService"
 ---

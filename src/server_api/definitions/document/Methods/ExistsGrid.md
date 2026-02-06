@@ -1,5 +1,5 @@
 ---
-title: ExistsGrid(string)
+title: ExistsGrid
 parent: "Մեթոդներ"
 grand_parent: "Փաստաթուղթ"
 ---

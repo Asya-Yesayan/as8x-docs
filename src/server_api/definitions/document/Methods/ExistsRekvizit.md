@@ -1,5 +1,5 @@
 ---
-title: ExistsRekvizit(string)
+title: ExistsRekvizit
 parent: "Մեթոդներ"
 grand_parent: "Փաստաթուղթ"
 ---

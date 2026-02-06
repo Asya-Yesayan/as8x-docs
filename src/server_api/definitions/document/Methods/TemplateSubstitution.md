@@ -1,5 +1,5 @@
 ---
-title: TemplateSubstitution(Dictionary<string, bool>, Dictionary<string, object>)
+title: TemplateSubstitution
 parent: "Մեթոդներ"
 grand_parent: "Փաստաթուղթ"
 ---

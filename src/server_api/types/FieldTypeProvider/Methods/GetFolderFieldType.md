@@ -1,5 +1,5 @@
 ---
-title: GetFolderFieldType(string, short, bool)
+title: GetFolderFieldType
 nav_exclude: true
 ---
 

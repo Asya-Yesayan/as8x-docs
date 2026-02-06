@@ -1,5 +1,5 @@
 ---
-title: GetNumPairFieldType(NumericFieldType, NumericFieldType, string, bool)
+title: GetNumPairFieldType
 nav_exclude: true
 ---
 

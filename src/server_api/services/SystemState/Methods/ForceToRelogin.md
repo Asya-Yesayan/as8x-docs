@@ -1,5 +1,5 @@
 ---
-title: ForceToRelogin(bool)
+title: ForceToRelogin
 parent: "Մեթոդներ"
 grand_parent: "SystemStateService"
 

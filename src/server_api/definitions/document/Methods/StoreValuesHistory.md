@@ -1,5 +1,5 @@
 ---
-title: StoreValuesHistory()
+title: StoreValuesHistory
 parent: "Մեթոդներ"
 grand_parent: "Փաստաթուղթ"
 ---

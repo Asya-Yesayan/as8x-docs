@@ -1,5 +1,5 @@
 ---
-title: GetTempBlobUrl(string, string)
+title: GetTempBlobUrl
 parent: "Մեթոդներ"
 grand_parent: "IStorageService"
 ---

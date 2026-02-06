@@ -1,5 +1,5 @@
 ---
-title: PostTemplateSubstitutionEx(Document, TemplateSubstitutionEventArgs<TemplateSubstitution>)
+title: PostTemplateSubstitutionEx
 nav_exclude: true
 ---
 

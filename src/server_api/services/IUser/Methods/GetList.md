@@ -1,5 +1,5 @@
 ---
-title: GetList()
+title: GetList
 parent: "Մեթոդներ"
 grand_parent: "IUserService"
 ---

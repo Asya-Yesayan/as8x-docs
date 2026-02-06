@@ -1,5 +1,5 @@
 ---
-title: GetReadyTemplateSubstitution(Document.Document, string, SubstitutionType, Dictionary<string, object>)
+title: GetReadyTemplateSubstitution
 parent: "Մեթոդներ"
 grand_parent: "ITemplateSubstitutionService"
 ---

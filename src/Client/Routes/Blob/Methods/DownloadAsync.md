@@ -1,5 +1,5 @@
 ---
-title: DownloadAsync(string, string, CancellationToken)
+title: DownloadAsync
 nav_exclude: true
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Break()
+title: Break
 nav_exclude: true
 ---
 

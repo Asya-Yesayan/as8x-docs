@@ -1,5 +1,5 @@
 ---
-title: SendMessage(string, int, string, bool, bool)
+title: SendMessage
 parent: "Մեթոդներ"
 grand_parent: "Փաստաթուղթ"
 ---

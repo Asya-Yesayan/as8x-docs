@@ -1,5 +1,5 @@
 ---
-title: TemplateSubstitutionEventArgs.AddSubstitutedFile(StorageInfo) մեթոդ
+title: AddSubstitutedFile
 nav_exclude: true
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: UpdateLastActiveDate(string, DateTime)
+title: UpdateLastActiveDate
 parent: "Մեթոդներ"
 grand_parent: "SessionInfoCacheService
 

@@ -1,5 +1,5 @@
 ---
-title: SetValueWithAdditionalConnection(string, object)
+title: SetValueWithAdditionalConnection
 parent: "Մեթոդներ"
 grand_parent: "IParametersService"
 ---

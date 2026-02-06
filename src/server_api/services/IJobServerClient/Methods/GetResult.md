@@ -1,5 +1,5 @@
 ---
-title: GetResult(Guid)
+title: GetResult
 parent: "Մեթոդներ"
 grand_parent: "IProcessServerClient"
 ---

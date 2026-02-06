@@ -1,5 +1,5 @@
 ---
-title: InsertScheduleAndSteps(ScheduledJob)
+title: InsertScheduleAndSteps
 parent: "Մեթոդներ"
 grand_parent: JobService
 ---

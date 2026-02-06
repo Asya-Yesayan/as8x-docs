@@ -1,5 +1,5 @@
 ---
-title: PreValidate(Document, ValidateEventArgs)
+title: PreValidate
 nav_exclude: true
 ---
 

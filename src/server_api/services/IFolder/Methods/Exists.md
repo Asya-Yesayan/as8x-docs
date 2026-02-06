@@ -1,5 +1,5 @@
 ---
-title: Exists(string)
+title: Exists
 parent: "Մեթոդներ"
 grand_parent: "IFolderService"
 ---

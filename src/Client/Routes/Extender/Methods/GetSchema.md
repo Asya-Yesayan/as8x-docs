@@ -1,5 +1,5 @@
 ---
-title: GetSchema(string)
+title: GetSchema
 nav_exclude: true
 ---
 

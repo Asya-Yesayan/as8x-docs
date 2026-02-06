@@ -1,5 +1,5 @@
 ---
-title: AddGridValuesFromDoc(Document.Document, string, string, string, bool)
+title: AddGridValuesFromDoc
 nav_exclude: true
 ---
 

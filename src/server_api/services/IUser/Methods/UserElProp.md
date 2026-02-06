@@ -1,5 +1,5 @@
 ---
-title: UserElProp(short)
+title: UserElProp
 parent: "Մեթոդներ"
 grand_parent: "IUserService"
 ---

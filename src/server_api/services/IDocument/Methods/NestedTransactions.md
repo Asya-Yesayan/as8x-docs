@@ -1,5 +1,5 @@
 ---
-title: NestedTransactions(Document, List<T>, TextReport,bool, bool)
+title: NestedTransactions
 parent: "Մեթոդներ"
 grand_parent: "IDocumentService"
 ---

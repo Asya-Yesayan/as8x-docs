@@ -1,5 +1,5 @@
 ---
-title: LoadFromFolderAsync(string, string, bool, CancellationToken)
+title: LoadFromFolderAsync
 nav_exclude: true
 ---
 

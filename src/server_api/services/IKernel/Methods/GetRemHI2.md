@@ -1,5 +1,5 @@
 ---
-title: GetRemHI2(string, int, int, DateTime?)
+title: GetRemHI2
 parent: "Մեթոդներ"
 grand_parent: "IKernelService"
 ---

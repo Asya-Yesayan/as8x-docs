@@ -1,5 +1,5 @@
 ---
-title: InitGrids()
+title: InitGrids
 parent: "Մեթոդներ"
 grand_parent: "Փաստաթուղթ"
 ---

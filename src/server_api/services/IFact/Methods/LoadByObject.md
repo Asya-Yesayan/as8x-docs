@@ -1,5 +1,5 @@
 ---
-title: LoadByObject(string, int, DateTime, DateTime, string)
+title: LoadByObject
 parent: "Մեթոդներ"
 grand_parent: "IFactService"
 ---

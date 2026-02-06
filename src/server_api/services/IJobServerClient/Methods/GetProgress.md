@@ -1,5 +1,5 @@
 ---
-title: GetProgress(Guid)
+title: GetProgress
 parent: "Մեթոդներ"
 grand_parent: "IProcessServerClient"
 ---

@@ -1,5 +1,5 @@
 ---
-title: GetDocumentState(int)
+title: GetDocumentState
 parent: "Մեթոդներ"
 grand_parent: "IDocumentService"
 ---

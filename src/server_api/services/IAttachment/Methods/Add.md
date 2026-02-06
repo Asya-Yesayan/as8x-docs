@@ -1,5 +1,5 @@
 ---
-title: Add(AttachmentAddModel)
+title: Add
 parent: "Մեթոդներ"
 grand_parent: "IAttachmentService"
 ---

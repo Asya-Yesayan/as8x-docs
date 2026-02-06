@@ -1,5 +1,5 @@
 ---
-title: GetISN(string, string)
+title: GetISN
 parent: "Մեթոդներ"
 grand_parent: "IFolderService"
 ---

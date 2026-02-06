@@ -1,5 +1,5 @@
 ---
-title: CommitTrans()
+title: CommitTrans
 parent: "Մեթոդներ"
 grand_parent: "IOlapDBService"
 ---

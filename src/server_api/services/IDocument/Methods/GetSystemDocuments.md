@@ -1,5 +1,5 @@
 ---
-title: GetSystemDocuments()
+title: GetSystemDocuments
 parent: "Մեթոդներ"
 grand_parent: "IDocumentService"
 ---

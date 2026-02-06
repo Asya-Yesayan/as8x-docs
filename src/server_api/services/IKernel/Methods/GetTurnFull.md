@@ -1,5 +1,5 @@
 ---
-title: GetTurnFull(string, int, DateTime, DateTime)
+title: GetTurnFull
 parent: "Մեթոդներ"
 grand_parent: "IKernelService"
 ---

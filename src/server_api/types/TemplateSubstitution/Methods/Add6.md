@@ -1,5 +1,5 @@
 ---
-title: Add(string, double)
+title: Add
 nav_exclude: true
 ---
 

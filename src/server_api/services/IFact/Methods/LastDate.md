@@ -1,5 +1,5 @@
 ---
-title: LastDate(string, int, DateTime?, string)
+title: LastDate
 parent: "Մեթոդներ"
 grand_parent: "IFactService"
 ---

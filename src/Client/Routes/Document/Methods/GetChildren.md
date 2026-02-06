@@ -1,5 +1,5 @@
 ---
-title: GetChildren(int, string, DocumentOrder, string)
+title: GetChildren
 nav_exclude: true
 ---
 

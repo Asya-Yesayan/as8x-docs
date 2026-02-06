@@ -1,5 +1,5 @@
 ---
-title: CheckGrid()
+title: CheckGrid
 nav_exclude: true
 ---
 

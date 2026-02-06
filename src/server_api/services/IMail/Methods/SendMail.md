@@ -1,5 +1,5 @@
 ---
-title: SendMail(MailArgs)
+title: SendMail
 parent: "Մեթոդներ"
 grand_parent: "IMailService"
 ---

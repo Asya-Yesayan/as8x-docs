@@ -1,5 +1,5 @@
 ---
-title: SaveToStorageAndClose()
+title: SaveToStorageAndClose
 nav_exclude: true
 ---
 

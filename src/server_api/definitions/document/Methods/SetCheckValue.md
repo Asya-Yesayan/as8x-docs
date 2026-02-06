@@ -1,5 +1,5 @@
 ---
-title: SetCheckValue(string, bool)
+title: SetCheckValue
 parent: "Մեթոդներ"
 grand_parent: "Փաստաթուղթ"
 ---

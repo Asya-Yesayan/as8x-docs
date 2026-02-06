@@ -1,5 +1,5 @@
 ---
-title: GetTurnHI2(string, int, int, DateTime, DateTime, string, int)
+title: GetTurnHI2
 parent: "Մեթոդներ"
 grand_parent: "IKernelService"
 ---

@@ -1,5 +1,5 @@
 ---
-title: GetBlobAsync(string, string, CancellationToken)
+title: GetBlobAsync
 parent: "Մեթոդներ"
 grand_parent: "IPermanentStorageService"
 ---

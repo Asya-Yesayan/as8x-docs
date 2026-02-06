@@ -1,5 +1,5 @@
 ---
-title: EditNode(TreeElement)
+title: EditNode
 parent: "Մեթոդներ"
 grand_parent: "TreeElementsService"
 ---

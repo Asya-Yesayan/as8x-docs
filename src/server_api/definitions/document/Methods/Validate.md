@@ -1,5 +1,5 @@
 ---
-title: Validate(ValidateEventArgs)
+title: Validate
 parent: "Մեթոդներ"
 grand_parent: "Փաստաթուղթ"
 ---

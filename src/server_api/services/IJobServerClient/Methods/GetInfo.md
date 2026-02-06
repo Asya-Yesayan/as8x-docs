@@ -1,5 +1,5 @@
 ---
-title: GetInfo(string)
+title: GetInfo
 parent: "Մեթոդներ"
 grand_parent: "IProcessServerClient"
 ---

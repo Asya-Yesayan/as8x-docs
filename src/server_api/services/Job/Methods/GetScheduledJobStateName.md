@@ -1,5 +1,5 @@
 ---
-title: GetScheduledJobStateName(int)
+title: GetScheduledJobStateName
 parent: "Մեթոդներ"
 grand_parent: JobService
 ---

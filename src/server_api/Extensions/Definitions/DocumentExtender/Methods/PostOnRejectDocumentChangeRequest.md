@@ -1,5 +1,5 @@
 ---
-title: PostOnRejectDocumentChangeRequest(Document, RejectDocumentChangeRequestEventArgs)
+title: PostOnRejectDocumentChangeRequest
 nav_exclude: true
 ---
 

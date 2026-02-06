@@ -1,5 +1,5 @@
 ---
-title: ReFolder(Document, StoreMode)
+title: ReFolder
 parent: "Մեթոդներ"
 grand_parent: "IDocumentService"
 ---

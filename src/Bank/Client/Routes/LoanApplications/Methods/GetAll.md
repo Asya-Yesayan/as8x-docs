@@ -1,5 +1,5 @@
 ---
-title: GetAll(GetAllRequest)
+title: GetAll
 nav_exclude: true
 ---
 

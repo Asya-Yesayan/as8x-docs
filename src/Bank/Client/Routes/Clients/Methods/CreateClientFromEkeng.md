@@ -1,5 +1,5 @@
 ---
-title: CreateClientFromEkeng(CreateClientFromEkengRequest)
+title: CreateClientFromEkeng
 nav_exclude: true
 ---
 

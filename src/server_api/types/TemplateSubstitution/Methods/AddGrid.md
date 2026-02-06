@@ -1,5 +1,5 @@
 ---
-title: AddGrid(string)
+title: AddGrid
 nav_exclude: true
 ---
 

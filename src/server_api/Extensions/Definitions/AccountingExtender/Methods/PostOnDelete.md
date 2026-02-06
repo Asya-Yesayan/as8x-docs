@@ -1,5 +1,5 @@
 ---
-title: PostOnDelete(Accounting, OnDeleteEventArgs)
+title: PostOnDelete
 nav_exclude: true
 ---
 

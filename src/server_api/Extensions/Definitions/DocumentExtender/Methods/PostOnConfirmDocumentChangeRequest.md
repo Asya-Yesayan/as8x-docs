@@ -1,5 +1,5 @@
 ---
-title: PostOnConfirmDocumentChangeRequest(Document, ConfirmDocumentChangeRequestEventArgs)
+title: PostOnConfirmDocumentChangeRequest
 nav_exclude: true
 ---
 

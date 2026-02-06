@@ -1,5 +1,5 @@
 ---
-title: RefreshLastLookup()
+title: RefreshLastLookup
 nav_exclude: true
 ---
 

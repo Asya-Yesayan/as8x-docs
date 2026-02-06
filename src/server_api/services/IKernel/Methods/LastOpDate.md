@@ -1,5 +1,5 @@
 ---
-title: LastOpDate(string, int, DateTime?, string, int)
+title: LastOpDate
 parent: "Մեթոդներ"
 grand_parent: "IKernelService"
 ---

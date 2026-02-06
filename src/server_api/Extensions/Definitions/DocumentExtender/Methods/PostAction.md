@@ -1,5 +1,5 @@
 ---
-title: PostAction(Document, ActionEventArgs)
+title: PostAction
 nav_exclude: true
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: ApplyStyle(string, TextReportStyle)
+title: ApplyStyle
 nav_exclude: true
 ---
 

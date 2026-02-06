@@ -1,5 +1,5 @@
 ---
-title: AddNode(TreeElement, bool)
+title: AddNode
 parent: "Մեթոդներ"
 grand_parent: "TreeElementsService"
 ---

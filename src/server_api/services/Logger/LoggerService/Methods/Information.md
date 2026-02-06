@@ -1,5 +1,5 @@
 ---
-title: Information(ILogger, string)
+title: Information
 parent: "Մեթոդներ"
 grand_parent: "LoggerService"
 ---

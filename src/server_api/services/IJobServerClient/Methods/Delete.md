@@ -1,5 +1,5 @@
 ---
-title: Delete(Guid)
+title: Delete
 parent: "Մեթոդներ"
 grand_parent: "IProcessServerClient"
 ---

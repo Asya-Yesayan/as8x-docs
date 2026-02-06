@@ -1,5 +1,5 @@
 ---
-title: DefaultComment(DefaultCommentEventArgs)
+title: DefaultComment
 parent: "Մեթոդներ"
 grand_parent: "Փաստաթուղթ"
 ---

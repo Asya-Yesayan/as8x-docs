@@ -1,5 +1,5 @@
 ---
-title: DefineLimits(string, int, DateTime, decimal, decimal)
+title: DefineLimits
 parent: "Մեթոդներ"
 grand_parent: "Փաստաթուղթ"
 ---

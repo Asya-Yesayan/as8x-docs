@@ -1,5 +1,5 @@
 ---
-title: SaveToStorageAsText(StorageInfo, bool, bool, bool)
+title: SaveToStorageAsText
 nav_exclude: true
 ---
 

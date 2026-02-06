@@ -1,5 +1,5 @@
 ---
-title: ErrorForContext(Exception, string, object[])
+title: ErrorForContext
 parent: "Մեթոդներ"
 grand_parent: "LoggerService"
 ---

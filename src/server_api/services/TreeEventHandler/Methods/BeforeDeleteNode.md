@@ -1,5 +1,5 @@
 ---
-title: BeforeDeleteNode(BeforeDeleteNodeEventArgs)
+title: BeforeDeleteNode
 parent: "Մեթոդներ"
 grand_parent: "TreeEventHandler"
 ---

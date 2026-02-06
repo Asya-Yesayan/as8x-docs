@@ -1,5 +1,5 @@
 ---
-title: Action(ActionEventArgs)
+title: Action
 parent: "Մեթոդներ"
 grand_parent: "Փաստաթուղթ"
 ---

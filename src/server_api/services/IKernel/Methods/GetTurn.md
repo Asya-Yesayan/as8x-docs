@@ -1,5 +1,5 @@
 ---
-title: GetTurn(string, int, DateTime, DateTime, string)
+title: GetTurn
 parent: "Մեթոդներ"
 grand_parent: "IKernelService"
 ---

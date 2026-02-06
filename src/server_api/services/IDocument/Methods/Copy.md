@@ -1,5 +1,5 @@
 ---
-title: Copy(int, object, int)
+title: Copy
 parent: "Մեթոդներ"
 grand_parent: "IDocumentService"
 ---

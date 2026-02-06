@@ -1,5 +1,5 @@
 ---
-title: GetServerSideModuleMetadata(IDBService, string)
+title: GetServerSideModuleMetadata
 nav_exclude: true
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: RollBackTrans()
+title: RollBackTrans
 parent: "Մեթոդներ"
 grand_parent: "IOlapDBService"
 ---

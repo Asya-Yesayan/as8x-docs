@@ -1,5 +1,5 @@
 ---
-title: Store(DocumentStoreRequestModel)
+title: Store
 nav_exclude: true
 ---
 

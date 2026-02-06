@@ -1,5 +1,5 @@
 ---
-title: GetContent(int, string)
+title: GetContent
 parent: "Մեթոդներ"
 grand_parent: "IAttachmentService"
 ---

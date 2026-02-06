@@ -1,5 +1,5 @@
 ---
-title: PostMessage(PostMessageEventArgs)
+title: PostMessage
 parent: "Մեթոդներ"
 grand_parent: "Փաստաթուղթ"
 ---

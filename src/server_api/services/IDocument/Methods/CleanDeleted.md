@@ -1,5 +1,5 @@
 ---
-title: CleanDeleted(DateTime, DateTime, string)
+title: CleanDeleted
 parent: "Մեթոդներ"
 grand_parent: "IDocumentService"
 ---

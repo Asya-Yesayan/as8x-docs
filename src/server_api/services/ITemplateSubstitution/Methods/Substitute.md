@@ -1,5 +1,5 @@
 ---
-title: Substitute(IPrintTemplateSubstitution, byte[], SubstitutionType, HtmlImageOption, bool, string, bool, bool)
+title: Substitute
 parent: "Մեթոդներ"
 grand_parent: "ITemplateSubstitutionService"
 ---

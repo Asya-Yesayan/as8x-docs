@@ -1,5 +1,5 @@
 ---
-title: GetMemo(string)
+title: GetMemo
 parent: "Մեթոդներ"
 grand_parent: "Փաստաթուղթ"
 ---

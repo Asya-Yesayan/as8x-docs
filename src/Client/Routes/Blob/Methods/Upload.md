@@ -1,5 +1,5 @@
 ---
-title: Upload(string, string, byte[])
+title: Upload
 nav_exclude: true
 ---
 

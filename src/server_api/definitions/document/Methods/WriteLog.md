@@ -1,5 +1,5 @@
 ---
-title: WriteLog(string, int, bool)
+title: WriteLog
 parent: "Մեթոդներ"
 grand_parent: "Փաստաթուղթ"
 ---

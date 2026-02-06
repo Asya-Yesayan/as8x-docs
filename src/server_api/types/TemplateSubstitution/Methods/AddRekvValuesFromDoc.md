@@ -1,5 +1,5 @@
 ---
-title: AddRekvValuesFromDoc(Document.Document, string, string)
+title: AddRekvValuesFromDoc
 nav_exclude: true
 ---
 

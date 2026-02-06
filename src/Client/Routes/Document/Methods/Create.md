@@ -1,5 +1,5 @@
 ---
-title: Create(string, DocumentCreateRequestModel)
+title: Create
 nav_exclude: true
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: GetDocumentParents(int, string, DocumentChildrenOrder, string)
+title: GetDocumentParents
 parent: "Մեթոդներ"
 grand_parent: "IDocumentService"
 ---

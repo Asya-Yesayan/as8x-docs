@@ -1,5 +1,5 @@
 ---
-title: PreAfterCreate(Document, AfterCreateEventArgs)
+title: PreAfterCreate
 nav_exclude: true
 ---
 

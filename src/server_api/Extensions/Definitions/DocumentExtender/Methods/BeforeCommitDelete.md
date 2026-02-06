@@ -1,5 +1,5 @@
 ---
-title: BeforeCommitDelete(Document, BeforeCommitDeleteEventArgs)
+title: BeforeCommitDelete
 nav_exclude: true
 ---
 

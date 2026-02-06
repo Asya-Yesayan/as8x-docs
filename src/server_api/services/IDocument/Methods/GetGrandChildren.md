@@ -1,5 +1,5 @@
 ---
-title: GetGrandChildren(int, string, string, string, string)
+title: GetGrandChildren
 parent: "Մեթոդներ"
 grand_parent: "IDocumentService"
 ---

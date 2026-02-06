@@ -1,5 +1,5 @@
 ---
-title: SetHiPar(string, DateTime, int, string, string, DateTime?)
+title: SetHiPar
 parent: "Մեթոդներ"
 grand_parent: "IParametersService"
 ---

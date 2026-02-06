@@ -1,5 +1,6 @@
 ---
-title: DownloadToFile(string, string, string, bool)
+title: DownloadToFile
+
 nav_exclude: true
 ---
 

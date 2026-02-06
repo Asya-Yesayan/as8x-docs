@@ -1,5 +1,5 @@
 ---
-title: BeforeExecuteSQLCommand(DataSourceArgs<P>, CancellationToken)
+title: BeforeExecuteSQLCommand
 parent: "Մեթոդներ"
 grand_parent: "Տվյալների աղբյուր"
 ---

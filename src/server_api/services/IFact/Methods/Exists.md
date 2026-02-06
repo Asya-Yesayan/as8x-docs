@@ -1,5 +1,5 @@
 ---
-title: Exists(int, int, string, string, bool)
+title: Exists
 parent: "Մեթոդներ"
 grand_parent: "IFactService"
 ---

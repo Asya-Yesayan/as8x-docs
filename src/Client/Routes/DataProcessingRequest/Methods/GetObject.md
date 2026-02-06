@@ -1,5 +1,5 @@
 ---
-title: GetObject(DPRType, string)
+title: GetObject
 nav_exclude: true
 ---
 

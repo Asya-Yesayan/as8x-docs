@@ -1,5 +1,5 @@
 ---
-title: InitGrids()
+title: InitGrids
 nav_exclude: true
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: GetSUIDAndDate(int, int, bool)
+title: GetSUIDAndDate
 parent: "Մեթոդներ"
 grand_parent: "IDocumentService"
 ---

@@ -1,5 +1,5 @@
 ---
-title: SetAccCrd(Fact, string, bool)
+title: SetAccCrd
 parent: "Մեթոդներ"
 grand_parent: "IFactService"
 ---

@@ -1,5 +1,5 @@
 ---
-title: SaveToStorageAsText(StorageInfo, bool, bool, bool)
+title: SaveToStorageAsText
 parent: "Մեթոդներ"
 grand_parent: "IExecutionProgress"
 ---

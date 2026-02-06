@@ -1,5 +1,5 @@
 ---
-title: GetSqlRelatedException(SqlException, string, bool)
+title: GetSqlRelatedException
 parent: "Մեթոդներ"
 grand_parent: "IErrorHandlingService"
 ---

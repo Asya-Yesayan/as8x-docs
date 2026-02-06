@@ -1,5 +1,5 @@
 ---
-title: GetDescriptor(string)
+title: GetDescriptor
 parent: "Մեթոդներ"
 grand_parent: "IParametersService"
 ---

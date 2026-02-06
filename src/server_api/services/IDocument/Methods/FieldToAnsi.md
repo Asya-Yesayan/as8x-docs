@@ -1,5 +1,5 @@
 ---
-title: FieldToAnsi(string, string, object)
+title: FieldToAnsi
 parent: "Մեթոդներ"
 grand_parent: "IDocumentService"
 ---

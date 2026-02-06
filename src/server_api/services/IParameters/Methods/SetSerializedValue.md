@@ -1,5 +1,5 @@
 ---
-title: SetSerializedValue(string, string, short, bool)
+title: SetSerializedValue
 parent: "Մեթոդներ"
 grand_parent: "IParametersService"
 ---

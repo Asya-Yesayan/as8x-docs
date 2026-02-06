@@ -1,5 +1,5 @@
 ---
-title: Add(WebServiceInfo)
+title: Add
 parent: "Մեթոդներ"
 grand_parent: "WebServicesManager"
 ---

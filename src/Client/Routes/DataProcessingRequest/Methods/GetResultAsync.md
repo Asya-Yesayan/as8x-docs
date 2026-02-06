@@ -1,5 +1,5 @@
 ---
-title: GetResultAsync(Guid, bool, CancellationToken)
+title: GetResultAsync
 nav_exclude: true
 ---
 

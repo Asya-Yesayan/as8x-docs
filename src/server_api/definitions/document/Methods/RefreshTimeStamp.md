@@ -1,5 +1,5 @@
 ---
-title: RefreshTimeStamp()
+title: RefreshTimeStamp
 parent: "Մեթոդներ"
 grand_parent: "Փաստաթուղթ"
 ---

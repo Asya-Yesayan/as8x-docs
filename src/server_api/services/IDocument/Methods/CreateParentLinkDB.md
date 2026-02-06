@@ -1,5 +1,5 @@
 ---
-title: CreateParentLinkDB(int, int)
+title: CreateParentLinkDB
 parent: "Մեթոդներ"
 grand_parent: "IDocumentService"
 ---

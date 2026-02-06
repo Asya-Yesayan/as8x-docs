@@ -1,5 +1,5 @@
 ---
-title: RefreshLastTSCheck()
+title: RefreshLastTSCheck
 nav_exclude: true
 ---
 

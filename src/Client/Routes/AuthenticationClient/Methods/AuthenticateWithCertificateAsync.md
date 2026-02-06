@@ -1,5 +1,5 @@
 ---
-title: AuthenticateWithCertificateAsync(CertificateAuthenticateRequest, CancellationToken)
+title: AuthenticateWithCertificateAsync
 nav_exclude: true
 ---
 

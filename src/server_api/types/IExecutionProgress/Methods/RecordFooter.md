@@ -1,5 +1,5 @@
 ---
-title: RecordFooter(string)
+title: RecordFooter
 parent: "Մեթոդներ"
 grand_parent: "IExecutionProgress"
 ---

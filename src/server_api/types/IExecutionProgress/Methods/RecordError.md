@@ -1,5 +1,5 @@
 ---
-title: RecordError(IEnumerable<string>, Exception, int, string, int, Dictionary<string, object>)
+title: RecordError
 parent: "Մեթոդներ"
 grand_parent: "IExecutionProgress"
 ---

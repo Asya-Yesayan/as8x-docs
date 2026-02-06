@@ -1,5 +1,5 @@
 ---
-title: LoadByBase(int, string, string, bool)
+title: LoadByBase
 parent: "Մեթոդներ"
 grand_parent: "IFactService"
 ---

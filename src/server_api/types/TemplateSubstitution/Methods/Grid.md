@@ -1,5 +1,5 @@
 ---
-title: Grid(string)
+title: Grid
 nav_exclude: true
 ---
 

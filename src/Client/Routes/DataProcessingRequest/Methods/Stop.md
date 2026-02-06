@@ -1,5 +1,5 @@
 ---
-title: Stop(Guid)
+title: Stop
 nav_exclude: true
 ---
 

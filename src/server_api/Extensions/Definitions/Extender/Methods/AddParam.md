@@ -1,5 +1,5 @@
 ---
-title: AddParam(string, string, FieldType)
+title: AddParam
 nav_exclude: true
 ---
 

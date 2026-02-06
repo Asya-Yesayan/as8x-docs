@@ -1,5 +1,5 @@
 ---
-title: StoreFact(Document, Fact)
+title: StoreFact
 parent: "Մեթոդներ"
 grand_parent: "IDocumentService"
 ---

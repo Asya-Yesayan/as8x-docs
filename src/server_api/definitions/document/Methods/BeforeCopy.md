@@ -1,5 +1,5 @@
 ---
-title: BeforeCopy(BeforeCopyEventArgs)
+title: BeforeCopy
 parent: "Մեթոդներ"
 grand_parent: "Փաստաթուղթ"
 ---

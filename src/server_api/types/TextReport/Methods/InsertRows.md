@@ -1,5 +1,5 @@
 ---
-title: InsertRows(TextReport, long, long)
+title: InsertRows
 nav_exclude: true
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: BeginTrans()
+title: BeginTrans
 parent: "Մեթոդներ"
 grand_parent: "IOlapDBService"
 ---

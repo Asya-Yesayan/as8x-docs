@@ -1,5 +1,5 @@
 ---
-title: SaveToStorageAndClose()
+title: SaveToStorageAndClose
 parent: "Մեթոդներ"
 grand_parent: "IExecutionProgress"
 ---

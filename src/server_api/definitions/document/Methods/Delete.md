@@ -1,5 +1,5 @@
 ---
-title: Delete(DeleteEventArgs)
+title: Delete
 parent: "Մեթոդներ"
 grand_parent: "Փաստաթուղթ"
 ---

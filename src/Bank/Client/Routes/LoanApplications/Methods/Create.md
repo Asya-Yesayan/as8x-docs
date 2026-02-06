@@ -1,5 +1,5 @@
 ---
-title: Create(CreateRequest)
+title: Create
 nav_exclude: true
 ---
 

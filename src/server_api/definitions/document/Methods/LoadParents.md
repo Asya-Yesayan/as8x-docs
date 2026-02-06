@@ -1,5 +1,5 @@
 ---
-title: LoadParents()
+title: LoadParents
 parent: "Մեթոդներ"
 grand_parent: "Փաստաթուղթ"
 ---

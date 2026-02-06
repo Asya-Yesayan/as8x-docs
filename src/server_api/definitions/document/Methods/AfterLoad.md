@@ -1,5 +1,5 @@
 ---
-title: AfterLoad(AfterLoadEventArgs)
+title: AfterLoad
 parent: "Մեթոդներ"
 grand_parent: "Փաստաթուղթ"
 ---

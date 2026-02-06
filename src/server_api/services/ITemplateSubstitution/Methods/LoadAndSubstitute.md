@@ -1,5 +1,5 @@
 ---
-title: LoadAndSubstitute(IPrintTemplateSubstitution, string, SubstitutionType, HtmlImageOption, string, bool)
+title: LoadAndSubstitute
 parent: "Մեթոդներ"
 grand_parent: "ITemplateSubstitutionService"
 ---

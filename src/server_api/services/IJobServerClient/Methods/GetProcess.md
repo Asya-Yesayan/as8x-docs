@@ -1,5 +1,5 @@
 ---
-title: GetProcess(Guid)
+title: GetProcess
 parent: "Մեթոդներ"
 grand_parent: "IProcessServerClient"
 ---

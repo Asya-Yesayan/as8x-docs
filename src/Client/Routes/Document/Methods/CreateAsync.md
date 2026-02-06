@@ -1,5 +1,5 @@
 ---
-title: CreateAsync(string, DocumentCreateRequestModel, CancellationToken)
+title: CreateAsync
 nav_exclude: true
 ---
 

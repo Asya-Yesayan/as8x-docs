@@ -1,5 +1,5 @@
 ---
-title: PreOnConfirmDocumentChangeRequest(Document, ConfirmDocumentChangeRequestEventArgs)
+title: PreOnConfirmDocumentChangeRequest
 nav_exclude: true
 ---
 

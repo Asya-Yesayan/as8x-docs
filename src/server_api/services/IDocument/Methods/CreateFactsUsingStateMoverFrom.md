@@ -1,5 +1,5 @@
 ---
-title: CreateFactsUsingStateMoverFrom(Document, int)
+title: CreateFactsUsingStateMoverFrom
 parent: "Մեթոդներ"
 grand_parent: "IDocumentService"
 ---

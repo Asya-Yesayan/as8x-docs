@@ -1,5 +1,5 @@
 ---
-title: Append(string, string, byte[], int)
+title: Append
 nav_exclude: true
 ---
 

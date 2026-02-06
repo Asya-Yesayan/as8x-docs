@@ -1,5 +1,5 @@
 ---
-title: MakeParentLink(Document, int, bool)
+title: MakeParentLink
 parent: "Մեթոդներ"
 grand_parent: "IDocumentService"
 ---

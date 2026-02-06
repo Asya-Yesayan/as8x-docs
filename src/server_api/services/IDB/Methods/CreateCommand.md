@@ -1,5 +1,5 @@
 ---
-title: CreateCommand(TimeoutType)
+title: CreateCommand
 parent: "Մեթոդներ"
 grand_parent: "IDBService"
 ---

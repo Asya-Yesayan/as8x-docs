@@ -1,5 +1,5 @@
 ---
-title: LoadByTrans(int, int, string, string)
+title: LoadByTrans
 parent: "Մեթոդներ"
 grand_parent: "IFactService"
 ---

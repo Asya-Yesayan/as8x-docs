@@ -1,5 +1,5 @@
 ---
-title: Grid(string)
+title: Grid
 parent: "Մեթոդներ"
 grand_parent: "Փաստաթուղթ"
 ---

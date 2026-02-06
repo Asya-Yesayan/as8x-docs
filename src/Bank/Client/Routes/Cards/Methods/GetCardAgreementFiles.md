@@ -1,5 +1,5 @@
 ---
-title: GetCardAgreementFiles(int, Language)
+title: GetCardAgreementFiles
 nav_exclude: true
 ---
 

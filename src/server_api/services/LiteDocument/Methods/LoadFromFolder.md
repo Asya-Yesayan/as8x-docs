@@ -1,5 +1,5 @@
 ---
-title: LoadFromFolder(string, string, bool)
+title: LoadFromFolder
 parent: "Մեթոդներ"
 grand_parent: "LiteDocumentService"
 ---

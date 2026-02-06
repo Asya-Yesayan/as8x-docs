@@ -1,5 +1,5 @@
 ---
-title: AddRow(string, int, string, int)
+title: AddRow
 nav_exclude: true
 ---
 

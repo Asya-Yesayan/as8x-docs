@@ -1,5 +1,5 @@
 ---
-title: SetAccDeb(Fact, string, bool)
+title: SetAccDeb
 parent: "Մեթոդներ"
 grand_parent: "IFactService"
 ---

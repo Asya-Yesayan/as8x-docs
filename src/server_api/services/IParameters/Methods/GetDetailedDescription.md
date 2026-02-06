@@ -1,5 +1,5 @@
 ---
-title: GetDetailedDescription(string)
+title: GetDetailedDescription
 parent: "Մեթոդներ"
 grand_parent: "IParametersService"
 ---

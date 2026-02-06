@@ -1,5 +1,5 @@
 ---
-title: ProccessRow(IExtendableRow, IDataSourceArgs)
+title: ProccessRow
 nav_exclude: true
 ---
 

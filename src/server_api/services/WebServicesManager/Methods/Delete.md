@@ -1,5 +1,5 @@
 ---
-title: Delete(string)
+title: Delete
 parent: "Մեթոդներ"
 grand_parent: "WebServicesManager"
 ---

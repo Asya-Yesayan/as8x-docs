@@ -1,5 +1,5 @@
 ---
-title: BeforeImportProcessing(BeforeImportProcessingEventArgs)
+title: BeforeImportProcessing
 parent: "Մեթոդներ"
 grand_parent: "Փաստաթուղթ"
 ---

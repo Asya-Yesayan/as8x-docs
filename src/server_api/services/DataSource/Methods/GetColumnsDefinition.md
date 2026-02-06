@@ -1,5 +1,5 @@
 ---
-title: GetColumnsDefinition(string)
+title: GetColumnsDefinition
 parent: "Մեթոդներ"
 grand_parent: "DataSourceService"
 ---

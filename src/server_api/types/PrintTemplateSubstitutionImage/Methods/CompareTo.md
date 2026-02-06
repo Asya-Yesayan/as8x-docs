@@ -1,5 +1,5 @@
 ---
-title: CompareTo(PrintTemplateSubstitutionImage)
+title: CompareTo
 nav_exclude: true
 ---
 

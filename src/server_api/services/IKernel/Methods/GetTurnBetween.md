@@ -1,5 +1,5 @@
 ---
-title: GetTurnBetween(string, int, DateTime, DateTime, string, bool)
+title: GetTurnBetween
 parent: "Մեթոդներ"
 grand_parent: "IKernelService"
 ---

@@ -1,5 +1,5 @@
 ---
-title: AfterDeserializeParameter(P, JsonElement)
+title: AfterDeserializeParameter
 parent: "Մեթոդներ"
 grand_parent: "Տվյալների մշակման հարցում"
 ---

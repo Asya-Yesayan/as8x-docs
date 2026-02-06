@@ -1,5 +1,5 @@
 ---
-title: DeleteNode(string, string)
+title: DeleteNode
 parent: "Մեթոդներ"
 grand_parent: "TreeElementsService"
 ---

@@ -1,5 +1,5 @@
 ---
-title: InformationForContext(string)
+title: InformationForContext
 parent: "Մեթոդներ"
 grand_parent: "LoggerService"
 ---

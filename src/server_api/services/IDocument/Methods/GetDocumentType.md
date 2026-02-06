@@ -1,5 +1,5 @@
 ---
-title: GetDocumentType(int)
+title: GetDocumentType
 parent: "Մեթոդներ"
 grand_parent: "IDocumentService"
 ---

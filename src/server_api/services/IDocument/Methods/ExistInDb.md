@@ -1,5 +1,5 @@
 ---
-title: ExistInDb(int)
+title: ExistInDb
 parent: "Մեթոդներ"
 grand_parent: "IDocumentService"
 ---

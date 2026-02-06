@@ -1,5 +1,5 @@
 ---
-title: IsEmpty(DocumentChangeRequest, bool)
+title: IsEmpty
 parent: "Մեթոդներ"
 grand_parent: "IDocumentChangeRequestService"
 ---

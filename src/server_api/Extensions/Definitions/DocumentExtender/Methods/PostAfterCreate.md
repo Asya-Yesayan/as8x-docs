@@ -1,5 +1,5 @@
 ---
-title: PostAfterCreate(Document, AfterCreateEventArgs)
+title: PostAfterCreate
 nav_exclude: true
 ---
 

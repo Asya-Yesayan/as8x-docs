@@ -1,5 +1,5 @@
 ---
-title: GetInfo()
+title: GetInfo
 parent: "Մեթոդներ"
 grand_parent: "ISessionInfoService"
 ---

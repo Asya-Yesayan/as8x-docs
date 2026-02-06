@@ -1,5 +1,5 @@
 ---
-title: ProcessRow(DataSourceArgs<P>, R, SqlDataReader)
+title: ProcessRow
 parent: "Մեթոդներ"
 grand_parent: "Տվյալների աղբյուր"
 ---

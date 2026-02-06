@@ -1,5 +1,5 @@
 ---
-title: ActiveTrans()
+title: ActiveTrans
 parent: "Մեթոդներ"
 grand_parent: "IDBService"
 ---

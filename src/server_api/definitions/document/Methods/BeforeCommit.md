@@ -1,5 +1,5 @@
 ---
-title: BeforeCommit(BeforeCommitEventArgs)
+title: BeforeCommit
 parent: "Մեթոդներ"
 grand_parent: "Փաստաթուղթ"
 ---

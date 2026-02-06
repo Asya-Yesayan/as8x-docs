@@ -1,5 +1,5 @@
 ---
-title: DeleteScheduledJob(int, int, CancellationToken)
+title: DeleteScheduledJob
 parent: "Մեթոդներ"
 grand_parent: JobService
 ---

@@ -1,5 +1,5 @@
 ---
-title: FillData(DataSourceArgs<P>, CancellationToken)
+title: FillData
 parent: "Մեթոդներ"
 grand_parent: "Տվյալների աղբյուր"
 ---

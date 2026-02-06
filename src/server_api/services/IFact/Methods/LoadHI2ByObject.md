@@ -1,5 +1,5 @@
 ---
-title: LoadHI2ByObject(string, int, long, DateTime?, DateTime?, string)
+title: LoadHI2ByObject
 parent: "Մեթոդներ"
 grand_parent: "IFactService"
 ---

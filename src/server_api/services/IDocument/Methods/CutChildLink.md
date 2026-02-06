@@ -1,5 +1,5 @@
 ---
-title: CutChildLink(int, int)
+title: CutChildLink
 parent: "Մեթոդներ"
 grand_parent: "IDocumentService"
 ---

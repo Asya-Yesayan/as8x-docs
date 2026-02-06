@@ -1,5 +1,5 @@
 ---
-title: GetByInterface()
+title: GetByInterface
 nav_exclude: true
 ---
 

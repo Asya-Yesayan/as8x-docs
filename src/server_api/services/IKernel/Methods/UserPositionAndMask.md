@@ -1,5 +1,5 @@
 ---
-title: UserPositionAndMask(byte, byte, short)
+title: UserPositionAndMask
 parent: "Մեթոդներ"
 grand_parent: "IKernelService"
 ---

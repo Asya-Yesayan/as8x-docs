@@ -1,5 +1,5 @@
 ---
-title: TryAppLock(string, string, string, string)
+title: TryAppLock
 parent: "Մեթոդներ"
 grand_parent: "IDBService"
 ---

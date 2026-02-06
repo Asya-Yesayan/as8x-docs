@@ -1,5 +1,5 @@
 ---
-title: ExistsTemplate(string, string)
+title: ExistsTemplate
 parent: "Մեթոդներ"
 grand_parent: "TemplateService"
 

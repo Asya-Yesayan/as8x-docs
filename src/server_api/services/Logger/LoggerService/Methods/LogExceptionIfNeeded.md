@@ -1,5 +1,5 @@
 ---
-title: LogExceptionIfNeeded(Exception)
+title: LogExceptionIfNeeded
 parent: "Մեթոդներ"
 grand_parent: "LoggerService"
 ---

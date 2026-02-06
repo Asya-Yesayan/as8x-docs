@@ -1,5 +1,5 @@
 ---
-title: CommitTransAsync()
+title: CommitTransAsync
 parent: "Մեթոդներ"
 grand_parent: "IDBService"
 ---

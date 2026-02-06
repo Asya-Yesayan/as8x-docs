@@ -1,5 +1,5 @@
 ---
-title: AfterCommit(AfterCommitEventArgs)
+title: AfterCommit
 parent: "Մեթոդներ"
 grand_parent: "Փաստաթուղթ"
 ---

@@ -1,5 +1,5 @@
 ---
-title: CheckMemo()
+title: CheckMemo
 nav_exclude: true
 ---
 

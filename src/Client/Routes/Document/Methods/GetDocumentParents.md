@@ -1,5 +1,5 @@
 ---
-title: GetDocumentParents(int, DocumentParentsRequestModel)
+title: GetDocumentParents
 nav_exclude: true
 ---
 

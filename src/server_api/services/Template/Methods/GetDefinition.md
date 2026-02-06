@@ -1,5 +1,5 @@
 ---
-title: GetDefinition(string, string)
+title: GetDefinition
 parent: "Մեթոդներ"
 grand_parent: "TemplateService"
 

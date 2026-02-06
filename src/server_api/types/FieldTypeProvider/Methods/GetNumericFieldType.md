@@ -1,5 +1,5 @@
 ---
-title: GetNumericFieldType(short, short, bool, string, bool)
+title: GetNumericFieldType
 nav_exclude: true
 ---
 

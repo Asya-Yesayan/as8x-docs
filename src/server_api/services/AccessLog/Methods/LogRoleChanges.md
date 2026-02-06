@@ -1,5 +1,5 @@
 ---
-title: LogRoleChanges(HashSet<string>, HashSet<string>, short)
+title: LogRoleChanges
 parent: "Մեթոդներ"
 grand_parent: "AccessLogService"
 ---

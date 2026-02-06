@@ -1,5 +1,5 @@
 ---
-title: ConfigureDCRFieldInclusion(ConfigureDCRFieldInclusionEventArgs)
+title: ConfigureDCRFieldInclusion
 parent: "Մեթոդներ"
 grand_parent: "Փաստաթուղթ"
 ---

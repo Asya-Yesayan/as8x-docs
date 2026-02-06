@@ -1,5 +1,5 @@
 ---
-title: AfterCreate(AfterCreateEventArgs)
+title: AfterCreate
 parent: "Մեթոդներ"
 grand_parent: "Փաստաթուղթ"
 ---

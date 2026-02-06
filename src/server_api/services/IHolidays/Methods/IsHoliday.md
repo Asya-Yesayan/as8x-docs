@@ -1,5 +1,5 @@
 ---
-title: IsHoliday(DateTime)
+title: IsHoliday
 parent: "Մեթոդներ"
 grand_parent: "IHolidaysService"
 ---

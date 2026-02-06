@@ -1,5 +1,5 @@
 ---
-title: Store(Document, DocumentCheckLevel, string)
+title: Store
 parent: "Մեթոդներ"
 grand_parent: "IDocumentService"
 ---

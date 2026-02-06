@@ -1,5 +1,5 @@
 ---
-title: GetToken(TimeSpan?)
+title: GetToken
 nav_exclude: true
 ---
 

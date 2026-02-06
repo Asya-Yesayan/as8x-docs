@@ -1,5 +1,5 @@
 ---
-title: Get(string, string)
+title: Get
 parent: "Մեթոդներ"
 grand_parent: "WebServicesManager"
 ---

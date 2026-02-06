@@ -1,5 +1,5 @@
 ---
-title: GetImage(string)
+title: GetImage
 parent: "Մեթոդներ"
 grand_parent: "Փաստաթուղթ"
 ---

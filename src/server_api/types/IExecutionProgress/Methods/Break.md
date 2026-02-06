@@ -1,5 +1,5 @@
 ---
-title: Break()
+title: Break
 parent: "Մեթոդներ"
 grand_parent: "IExecutionProgress"
 ---

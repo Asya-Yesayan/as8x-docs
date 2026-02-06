@@ -1,5 +1,5 @@
 ---
-title: GetExchangeRate(string, DateTime, DateTime?)
+title: GetExchangeRate
 parent: "Մեթոդներ"
 grand_parent: "IKernelService"
 ---

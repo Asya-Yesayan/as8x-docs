@@ -1,5 +1,5 @@
 ---
-title: HiDeleteAll(Document)
+title: HiDeleteAll
 parent: "Մեթոդներ"
 grand_parent: "IDocumentService"
 ---

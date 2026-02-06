@@ -1,5 +1,5 @@
 ---
-title: OPERHOLIDAYS()
+title: OPERHOLIDAYS
 parent: "Մեթոդներ"
 grand_parent: "IParametersService"
 ---

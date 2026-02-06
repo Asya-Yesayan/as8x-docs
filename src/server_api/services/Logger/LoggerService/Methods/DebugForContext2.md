@@ -1,5 +1,5 @@
 ---
-title: DebugForContext(Exception, string)
+title: DebugForContext
 parent: "Մեթոդներ"
 grand_parent: "LoggerService"
 ---

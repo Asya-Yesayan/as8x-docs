@@ -1,5 +1,5 @@
 ---
-title: GetSchemaAsync(string, CancellationToken)
+title: GetSchemaAsync
 nav_exclude: true
 ---
 

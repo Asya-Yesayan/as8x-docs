@@ -1,5 +1,5 @@
 ---
-title: GetFileFieldType(string, bool)
+title: GetFileFieldType
 nav_exclude: true
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: RecordInformation(IEnumerable<string>, int, string, int, Dictionary<string, object>)
+title: RecordInformation
 parent: "Մեթոդներ"
 grand_parent: "IExecutionProgress"
 ---

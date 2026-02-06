@@ -1,5 +1,5 @@
 ---
-title: PreOnDelete(Accounting, OnDeleteEventArgs)
+title: PreOnDelete
 nav_exclude: true
 ---
 

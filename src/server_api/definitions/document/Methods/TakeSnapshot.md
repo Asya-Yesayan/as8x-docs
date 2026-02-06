@@ -1,5 +1,5 @@
 ---
-title: TakeSnapshot(SnapshotContent, string, bool)
+title: TakeSnapshot
 parent: "Մեթոդներ"
 grand_parent: "Փաստաթուղթ"
 ---

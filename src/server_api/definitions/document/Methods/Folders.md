@@ -1,5 +1,5 @@
 ---
-title: Folders(FoldersEventArgs)
+title: Folders
 parent: "Մեթոդներ"
 grand_parent: "Փաստաթուղթ"
 ---

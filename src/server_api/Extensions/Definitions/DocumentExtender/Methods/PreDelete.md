@@ -1,5 +1,5 @@
 ---
-title: PreDelete(Document, DeleteEventArgs)
+title: PreDelete
 nav_exclude: true
 ---
 

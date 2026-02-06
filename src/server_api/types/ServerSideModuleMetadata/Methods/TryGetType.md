@@ -1,5 +1,5 @@
 ---
-title: TryGetType(string, Type)
+title: TryGetType
 nav_exclude: true
 ---
 

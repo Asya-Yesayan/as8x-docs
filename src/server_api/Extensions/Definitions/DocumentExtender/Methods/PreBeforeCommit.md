@@ -1,5 +1,5 @@
 ---
-title: PreBeforeCommit(Document, BeforeCommitEventArgs)
+title: PreBeforeCommit
 nav_exclude: true
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: DeserializeComplexObjects(DeserializeComplexObjectsEventArgs)
+title: DeserializeComplexObjects
 parent: "Մեթոդներ"
 grand_parent: "Փաստաթուղթ"
 ---

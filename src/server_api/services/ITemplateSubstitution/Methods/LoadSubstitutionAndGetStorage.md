@@ -1,5 +1,5 @@
 ---
-title: LoadSubstitutionAndGetStorage(IPrintTemplateSubstitution, string, SubstitutionType, HtmlImageOption, string, bool)
+title: LoadSubstitutionAndGetStorage
 parent: "Մեթոդներ"
 grand_parent: "ITemplateSubstitutionService"
 ---

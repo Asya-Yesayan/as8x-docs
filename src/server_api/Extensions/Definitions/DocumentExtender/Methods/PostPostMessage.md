@@ -1,5 +1,5 @@
 ---
-title: PostPostMessage(Document, PostMessageEventArgs)
+title: PostPostMessage
 nav_exclude: true
 ---
 

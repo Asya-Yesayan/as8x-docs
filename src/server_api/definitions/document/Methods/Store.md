@@ -1,5 +1,5 @@
 ---
-title: Store(DocumentCheckLevel, string)
+title: Store
 parent: "Մեթոդներ"
 grand_parent: "Փաստաթուղթ"
 ---

@@ -1,5 +1,5 @@
 ---
-title: GetProgress(Guid)
+title: GetProgress
 nav_exclude: true
 ---
 

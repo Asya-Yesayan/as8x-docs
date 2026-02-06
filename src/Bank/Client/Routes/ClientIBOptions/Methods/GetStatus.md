@@ -1,5 +1,5 @@
 ---
-title: GetStatus(GetStatusRequest)
+title: GetStatus
 nav_exclude: true
 ---
 

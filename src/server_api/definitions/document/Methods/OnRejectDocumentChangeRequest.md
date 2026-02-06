@@ -1,5 +1,5 @@
 ---
-title: OnRejectDocumentChangeRequest(RejectDocumentChangeRequestEventArgs)
+title: OnRejectDocumentChangeRequest
 parent: "Մեթոդներ"
 grand_parent: "Փաստաթուղթ"
 ---

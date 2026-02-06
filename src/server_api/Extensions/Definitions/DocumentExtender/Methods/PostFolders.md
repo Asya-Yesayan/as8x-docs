@@ -1,5 +1,5 @@
 ---
-title: PostFolders(Document, FoldersEventArgs)
+title: PostFolders
 nav_exclude: true
 ---
 

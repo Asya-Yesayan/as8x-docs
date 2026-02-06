@@ -1,5 +1,5 @@
 ---
-title: Get(string, string, bool)
+title: Get
 parent: "Մեթոդներ"
 grand_parent: "TreeElementsService"
 ---

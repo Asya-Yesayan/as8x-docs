@@ -1,5 +1,5 @@
 ---
-title: MakeSQLCommand(DataSourceArgs<P>, CancellationToken)
+title: MakeSQLCommand
 parent: "Մեթոդներ"
 grand_parent: "Տվյալների աղբյուր"
 ---

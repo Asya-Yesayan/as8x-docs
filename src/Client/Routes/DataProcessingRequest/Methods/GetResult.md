@@ -1,5 +1,5 @@
 ---
-title: GetResult(Guid, bool)
+title: GetResult
 nav_exclude: true
 ---
 

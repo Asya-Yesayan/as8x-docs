@@ -1,5 +1,5 @@
 ---
-title: PostValidate(Document, ValidateEventArgs)
+title: PostValidate
 nav_exclude: true
 ---
 

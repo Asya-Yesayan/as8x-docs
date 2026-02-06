@@ -1,5 +1,5 @@
 ---
-title: SetValue(string, object)
+title: SetValue
 parent: "Մեթոդներ"
 grand_parent: "IParametersService"
 ---

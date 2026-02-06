@@ -1,5 +1,5 @@
 ---
-title: PostStoreGrid(Document, StoreGridsEventArgs)
+title: PostStoreGrid
 nav_exclude: true
 ---
 

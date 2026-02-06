@@ -1,5 +1,5 @@
 ---
-title: GetServerDate()
+title: GetServerDate
 parent: "Մեթոդներ"
 grand_parent: "IDBService"
 ---

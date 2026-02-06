@@ -1,5 +1,5 @@
 ---
-title: ExistsImage(string)
+title: ExistsImage
 nav_exclude: true
 ---
 

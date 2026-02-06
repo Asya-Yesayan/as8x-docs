@@ -1,5 +1,5 @@
 ---
-title: DownloadToFileAsync(string, string, string, bool, CancellationToken)
+title: DownloadToFileAsync
 nav_exclude: true
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: ExistsHiPar(string, DateTime, bool, string)
+title: ExistsHiPar
 parent: "Մեթոդներ"
 grand_parent: "IParametersService"
 ---

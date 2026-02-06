@@ -1,5 +1,5 @@
 ---
-title: GetTemplateNameAndType(string, bool)
+title: GetTemplateNameAndType
 parent: "Մեթոդներ"
 grand_parent: "TemplateService"
 

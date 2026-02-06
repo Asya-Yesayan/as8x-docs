@@ -1,5 +1,5 @@
 ---
-title: BuildEmbeddedUIRequest(T uiRequestExecutionProgress)
+title: BuildEmbeddedUIRequest
 parent: "Մեթոդներ"
 grand_parent: "Փաստաթուղթ"
 ---

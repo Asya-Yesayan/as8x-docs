@@ -1,5 +1,5 @@
 ---
-title: PostBeforeCopy(Document, BeforeCopyEventArgs)
+title: PostBeforeCopy
 nav_exclude: true
 ---
 

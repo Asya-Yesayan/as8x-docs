@@ -1,5 +1,5 @@
 ---
-title: GetDefinition(string, bool)
+title: GetDefinition
 parent: "Մեթոդներ"
 grand_parent: "DataSourceService"
 ---

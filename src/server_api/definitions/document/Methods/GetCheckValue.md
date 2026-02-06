@@ -1,5 +1,5 @@
 ---
-title: GetCheckValue(string)
+title: GetCheckValue
 parent: "Մեթոդներ"
 grand_parent: "Փաստաթուղթ"
 ---

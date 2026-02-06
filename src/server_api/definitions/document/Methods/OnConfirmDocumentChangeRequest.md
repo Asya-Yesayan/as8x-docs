@@ -1,5 +1,5 @@
 ---
-title: OnConfirmDocumentChangeRequest(ConfirmDocumentChangeRequestEventArgs)
+title: OnConfirmDocumentChangeRequest
 parent: "Մեթոդներ"
 grand_parent: "Փաստաթուղթ"
 ---

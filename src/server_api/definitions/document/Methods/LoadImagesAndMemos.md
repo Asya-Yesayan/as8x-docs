@@ -1,5 +1,5 @@
 ---
-title: LoadImagesAndMemos(ArchiveInfo)
+title: LoadImagesAndMemos
 parent: "Մեթոդներ"
 grand_parent: "Փաստաթուղթ"
 ---

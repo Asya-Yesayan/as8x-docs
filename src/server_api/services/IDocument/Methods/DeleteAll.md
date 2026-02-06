@@ -1,5 +1,5 @@
 ---
-title: DeleteAll(List<int>, bool, string, bool, bool)
+title: DeleteAll
 parent: "Մեթոդներ"
 grand_parent: "IDocumentService"
 ---

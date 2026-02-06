@@ -1,5 +1,5 @@
 ---
-title: Logout()
+title: Logout
 nav_exclude: true
 ---
 

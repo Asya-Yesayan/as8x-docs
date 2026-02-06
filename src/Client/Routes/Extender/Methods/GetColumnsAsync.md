@@ -1,5 +1,5 @@
 ---
-title: GetColumnsAsync(string, CancellationToken)
+title: GetColumnsAsync
 nav_exclude: true
 ---
 

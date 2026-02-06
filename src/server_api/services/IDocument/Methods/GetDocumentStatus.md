@@ -1,5 +1,5 @@
 ---
-title: GetDocumentStatus(string, int)
+title: GetDocumentStatus
 parent: "Մեթոդներ"
 grand_parent: "IDocumentService"
 ---

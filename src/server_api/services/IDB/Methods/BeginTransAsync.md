@@ -1,5 +1,5 @@
 ---
-title: BeginTransAsync()
+title: BeginTransAsync
 parent: "Մեթոդներ"
 grand_parent: "IDBService"
 ---

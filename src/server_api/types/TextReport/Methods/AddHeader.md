@@ -1,5 +1,5 @@
 ---
-title: AddHeader(string)
+title: AddHeader
 nav_exclude: true
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: GetRem(string, int, DateTime?)
+title: GetRem
 parent: "Մեթոդներ"
 grand_parent: "IKernelService"
 ---

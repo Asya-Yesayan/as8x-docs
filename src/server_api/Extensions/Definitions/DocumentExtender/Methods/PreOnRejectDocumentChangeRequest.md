@@ -1,5 +1,5 @@
 ---
-title: PreOnRejectDocumentChangeRequest(Document, RejectDocumentChangeRequestEventArgs)
+title: PreOnRejectDocumentChangeRequest
 nav_exclude: true
 ---
 

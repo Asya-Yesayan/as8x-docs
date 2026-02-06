@@ -1,5 +1,5 @@
 ---
-title: Error(ILogger, string, object[])
+title: Error
 parent: "Մեթոդներ"
 grand_parent: "LoggerService"
 ---

@@ -1,5 +1,5 @@
 ---
-title: IsValid(FieldType)
+title: IsValid
 parent: "Մեթոդներ"
 grand_parent: FieldType4XCompatibleValidatorService
 ---

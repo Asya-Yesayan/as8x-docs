@@ -1,5 +1,5 @@
 ---
-title: Enqueue(DPR.Descriptor, object, bool, IServiceProvider, Dictionary<int, UIRequestResultBase>, string, bool)
+title: Enqueue
 parent: "Մեթոդներ"
 grand_parent: "IProcessServerClient"
 ---

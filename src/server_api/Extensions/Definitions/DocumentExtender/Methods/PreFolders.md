@@ -1,5 +1,5 @@
 ---
-title: PreFolders(Document, FoldersEventArgs)
+title: PreFolders
 nav_exclude: true
 ---
 

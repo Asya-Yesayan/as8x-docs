@@ -1,5 +1,5 @@
 ---
-title: RecordHeader(string)
+title: RecordHeader
 parent: "Մեթոդներ"
 grand_parent: "IExecutionProgress"
 ---

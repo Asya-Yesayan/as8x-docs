@@ -1,5 +1,5 @@
 ---
-title: GetObjectAsync(DPRType, string, CancellationToken)
+title: GetObjectAsync
 nav_exclude: true
 ---
 

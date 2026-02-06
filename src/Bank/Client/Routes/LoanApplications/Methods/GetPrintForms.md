@@ -1,5 +1,5 @@
 ---
-title: GetPrintForms(GetPrintFormsRequest)
+title: GetPrintForms
 nav_exclude: true
 ---
 

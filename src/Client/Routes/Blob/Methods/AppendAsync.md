@@ -1,5 +1,5 @@
 ---
-title: AppendAsync(string, string, byte[], int, CancellationToken)
+title: AppendAsync
 nav_exclude: true
 ---
 

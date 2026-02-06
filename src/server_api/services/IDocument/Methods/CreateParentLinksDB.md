@@ -1,5 +1,5 @@
 ---
-title: CreateParentLinksDB(int, List<int>)
+title: CreateParentLinksDB
 parent: "Մեթոդներ"
 grand_parent: "IDocumentService"
 ---

@@ -1,5 +1,5 @@
 ---
-title: AuthenticateWithSecretAsync(string, short, string, CancellationToken)
+title: AuthenticateWithSecretAsync
 nav_exclude: true
 ---
 

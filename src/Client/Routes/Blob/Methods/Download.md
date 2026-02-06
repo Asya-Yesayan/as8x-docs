@@ -1,5 +1,5 @@
 ---
-title: Download(string, string)
+title: Download
 nav_exclude: true
 ---
 

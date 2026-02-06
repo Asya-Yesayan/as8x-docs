@@ -1,5 +1,5 @@
 ---
-title: GetNextWorkDay(DateTime)
+title: GetNextWorkDay
 parent: "Մեթոդներ"
 grand_parent: "IHolidaysService"
 ---

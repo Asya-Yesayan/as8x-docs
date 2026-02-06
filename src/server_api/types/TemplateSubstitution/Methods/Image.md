@@ -1,5 +1,5 @@
 ---
-title: Image(string)
+title: Image
 nav_exclude: true
 ---
 

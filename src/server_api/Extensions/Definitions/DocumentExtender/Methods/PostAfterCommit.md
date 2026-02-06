@@ -1,5 +1,5 @@
 ---
-title: PostAfterCommit(Document, AfterCommitEventArgs)
+title: PostAfterCommit
 nav_exclude: true
 ---
 

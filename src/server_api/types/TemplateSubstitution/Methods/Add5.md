@@ -1,5 +1,5 @@
 ---
-title: Add(string, decimal)
+title: Add
 nav_exclude: true
 ---
 

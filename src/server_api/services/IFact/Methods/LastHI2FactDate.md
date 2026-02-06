@@ -1,5 +1,5 @@
 ---
-title: LastHI2FactDate(string, int, int, DateTime?, string)
+title: LastHI2FactDate
 parent: "Մեթոդներ"
 grand_parent: "IFactService"
 ---

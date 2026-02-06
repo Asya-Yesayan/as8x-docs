@@ -1,5 +1,5 @@
 ---
-title: Configure(IParametersService, Meter)
+title: Configure
 nav_exclude: true
 ---
 

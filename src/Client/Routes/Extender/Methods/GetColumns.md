@@ -1,5 +1,5 @@
 ---
-title: GetColumns(string)
+title: GetColumns
 nav_exclude: true
 ---
 

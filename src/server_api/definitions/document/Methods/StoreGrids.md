@@ -1,5 +1,5 @@
 ---
-title: StoreGrids(StoreGridsEventArgs)
+title: StoreGrids
 parent: "Մեթոդներ"
 grand_parent: "Փաստաթուղթ"
 ---

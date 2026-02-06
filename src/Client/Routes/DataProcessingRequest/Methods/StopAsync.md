@@ -1,5 +1,5 @@
 ---
-title: StopAsync(Guid, CancellationToken)
+title: StopAsync
 nav_exclude: true
 ---
 

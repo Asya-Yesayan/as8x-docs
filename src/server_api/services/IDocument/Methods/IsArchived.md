@@ -1,5 +1,5 @@
 ---
-title: IsArchived(int)
+title: IsArchived
 parent: "Մեթոդներ"
 grand_parent: "IDocumentService"
 ---

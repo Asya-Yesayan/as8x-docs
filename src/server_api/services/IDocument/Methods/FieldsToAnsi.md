@@ -1,5 +1,5 @@
 ---
-title: FieldsToAnsi(string, Dictionary<string, object>)
+title: FieldsToAnsi
 parent: "Մեթոդներ"
 grand_parent: "IDocumentService"
 ---

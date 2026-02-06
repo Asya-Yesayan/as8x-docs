@@ -1,5 +1,5 @@
 ---
-title: GetByAttribute()
+title: GetByAttribute
 nav_exclude: true
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: AfterExecuteSQLCommand(DataSourceArgs<P>, SqlDataReader)
+title: AfterExecuteSQLCommand
 parent: "Մեթոդներ"
 grand_parent: "Տվյալների աղբյուր"
 ---
