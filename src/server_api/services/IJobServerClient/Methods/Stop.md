@@ -1,5 +1,5 @@
 ﻿---
-title: Stop(Guid, object)
+title: Stop
 parent: "Մեթոդներ"
 grand_parent: "IProcessServerClient"
 ---

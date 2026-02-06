@@ -1,5 +1,5 @@
 ﻿---
-title: CalculateCacheRemFull(string, DateTime?, DateTime?, DateTime?, DateTime?, DateTime?)
+title: CalculateCacheRemFull
 parent: "Մեթոդներ"
 grand_parent: "IAccountingService"
 ---

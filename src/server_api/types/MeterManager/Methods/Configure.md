@@ -1,5 +1,5 @@
 ﻿---
-title: Configure(IParametersService)
+title: Configure
 ---
 
 ```c#

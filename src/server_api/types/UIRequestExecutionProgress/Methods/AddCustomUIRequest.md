@@ -1,5 +1,5 @@
 ---
-title: AddCustomUIRequest<R, S>(S, int, int, Action<S>, bool)
+title: AddCustomUIRequest
 nav_exclude: true
 ---
 

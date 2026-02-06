@@ -1,5 +1,5 @@
 ﻿---
-title: GetLinkedAccounting(string)
+title: GetLinkedAccounting
 parent: "Մեթոդներ"
 grand_parent: "IAccountingService"
 ---

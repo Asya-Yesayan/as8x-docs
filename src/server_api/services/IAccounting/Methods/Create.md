@@ -1,5 +1,5 @@
 ﻿---
-title: Create(string)
+title: Create
 parent: "Մեթոդներ"
 grand_parent: "IAccountingService"
 ---

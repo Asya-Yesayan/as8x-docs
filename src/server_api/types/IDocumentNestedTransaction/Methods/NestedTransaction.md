@@ -1,5 +1,5 @@
 ﻿---
-title: NestedTransaction(NestedTransactionEventArgs<T>)
+title: NestedTransaction
 ---
 
 ```c#

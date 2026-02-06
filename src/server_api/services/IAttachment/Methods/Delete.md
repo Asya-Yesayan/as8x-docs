@@ -1,5 +1,5 @@
 ﻿---
-title: Delete(int, string)
+title: Delete
 parent: "Մեթոդներ"
 grand_parent: "IAttachmentService"
 ---

@@ -1,5 +1,5 @@
 ﻿---
-title: Copy(int, int, bool)
+title: Copy
 parent: "Մեթոդներ"
 grand_parent: "IAttachmentService"
 ---

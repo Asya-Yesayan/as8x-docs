@@ -1,5 +1,5 @@
 ﻿---
-title: Get(int, string)
+title: Get
 parent: "Մեթոդներ"
 grand_parent: "IAttachmentService"
 ---

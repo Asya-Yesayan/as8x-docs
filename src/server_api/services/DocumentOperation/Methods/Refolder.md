@@ -1,5 +1,5 @@
 ﻿---
-title: Refolder(RefolderArgs, TextReport.TextReport, CancellationToken)
+title: Refolder
 parent: "Մեթոդներ"
 grand_parent: "DocumentOperationService"
 ---

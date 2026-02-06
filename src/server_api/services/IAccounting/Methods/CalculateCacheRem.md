@@ -1,5 +1,5 @@
 ﻿---
-title: CalculateCacheRem(string, int)
+title: CalculateCacheRem
 parent: "Մեթոդներ"
 grand_parent: "IAccountingService"
 ---

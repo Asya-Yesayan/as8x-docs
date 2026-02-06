@@ -1,5 +1,5 @@
 ﻿---
-title: GetLastHI2Rem(string, int, int)
+title: GetLastHI2Rem
 parent: "Մեթոդներ"
 grand_parent: "IAccountingService"
 ---

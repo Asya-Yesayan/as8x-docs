@@ -1,5 +1,5 @@
 ---
-title: SerializeResponseBody<T>(Document, bool)
+title: SerializeResponseBody
 parent: "Մեթոդներ"
 grand_parent: "IDocumentService"
 ---

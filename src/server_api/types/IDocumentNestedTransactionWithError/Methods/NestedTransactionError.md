@@ -1,5 +1,5 @@
 ﻿---
-title: NestedTransactionError(NestedTransactionErrorEventArgs<T>)
+title: NestedTransactionError
 ---
 
 ```c#

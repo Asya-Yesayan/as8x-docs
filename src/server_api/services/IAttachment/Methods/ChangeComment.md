@@ -1,5 +1,5 @@
 ﻿---
-title: ChangeComment(AttachmentCommentModel)
+title: ChangeComment
 parent: "Մեթոդներ"
 grand_parent: "IAttachmentService"
 ---

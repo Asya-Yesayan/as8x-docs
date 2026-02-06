@@ -1,5 +1,5 @@
 ﻿---
-title: OnAdd(OnAddEventArgs)
+title: OnAdd
 parent: "Մեթոդներ"
 grand_parent: "Հաշվառում"
 ---
