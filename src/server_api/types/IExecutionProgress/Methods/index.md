@@ -1,6 +1,6 @@
 ---
 title: Մեթոդներ
-parent: IExecutionProgress
+parent: "IExecutionProgress"
 has_toc: false
 ---
 
