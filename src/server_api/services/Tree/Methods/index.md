@@ -1,6 +1,7 @@
 ---
 title: Մեթոդներ
-parent: TreeService
+parent: "TreeService"
+grand_parent: "Սերվիսներ"
 has_toc: false
 ---
 
