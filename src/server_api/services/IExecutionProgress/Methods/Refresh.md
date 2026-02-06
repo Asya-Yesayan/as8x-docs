@@ -8,7 +8,7 @@ grand_parent: "IExecutionProgress"
 
 ## Նկարագիր
 
-**Դաս՝** [IExecutionProgress](../../IExecutionProgress.md)
+**Դաս՝** [IExecutionProgress](../IExecutionProgress.md)
 
 ```c#
 public void Refresh(string name);

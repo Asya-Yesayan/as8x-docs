@@ -1,5 +1,5 @@
 ﻿---
-title: IExecutionProgress
+title: "IExecutionProgress"
 parent: "Սերվիսներ"
 nav_order: 2
 ---

@@ -8,7 +8,7 @@ grand_parent: "IExecutionProgress"
 
 ## Նկարագիր
 
-**Դաս՝** [IExecutionProgress](../../IExecutionProgress.md)
+**Դաս՝** [IExecutionProgress](../IExecutionProgress.md)
 
 ```c#
 public Task SaveToStorageAsText(StorageInfo storageInfo, 
@@ -17,7 +17,7 @@ public Task SaveToStorageAsText(StorageInfo storageInfo,
                                bool toUnicode = false);
 ```
 
-Պահպանում է [տեքստային հաշվետվության](../../TextReport.md) պարունակությունը ֆայլի մեջ։
+Պահպանում է [տեքստային հաշվետվության](../../../Types/TextReport.md) պարունակությունը ֆայլի մեջ։
 
 Առաջադրանքի կատարման ընթացքում մեթոդի կանչի դեպքում տեքստային հաշվետվությունը մնում է անփոփոխ։
 
@@ -26,7 +26,7 @@ public Task SaveToStorageAsText(StorageInfo storageInfo,
 
 | Անվանում    | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն                                                    |
 | ----------- | ------------- | --------------- | ----------------------------------------------------------------- |
-| storageInfo | StorageInfo   | -               | [Տեքստային հաշվետվությունը](../../TextReport.md) պարունակող ֆայլի, թղթապանակի անունները։                 |
+| storageInfo | StorageInfo   | -               | [Տեքստային հաշվետվությունը](../../../Types/TextReport.md) պարունակող ֆայլի, թղթապանակի անունները։                 |
 | replaceTags | bool          | false           | Հաշվետվության տեքստից թեգերի հեռացման հայտանիշ։ |
 | htmlFormat  | bool          | false           | Հաշվետվության տեքստի HTML ֆորմատով պահպանման հայտանիշ։   |
 | toUnicode   | bool          | false           | Հաշվետվության տեքստի Unicode կոդավորմամբ պահման հայտանիշ։ **false** արժեքի դեպքում տեքստը պահվելու է **Ansi** կոդավորմամբ։   |

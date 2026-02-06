@@ -1,5 +1,5 @@
 ---
-title: Մեթոդներ
+title: "Մեթոդներ"
 parent: "IExecutionProgress"
 has_toc: false
 ---

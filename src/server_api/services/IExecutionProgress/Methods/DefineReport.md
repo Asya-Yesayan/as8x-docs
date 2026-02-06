@@ -8,7 +8,7 @@ grand_parent: "IExecutionProgress"
 
 ## Նկարագիր
 
-**Դաս՝** [IExecutionProgress](../../IExecutionProgress.md)
+**Դաս՝** [IExecutionProgress](../IExecutionProgress.md)
 
 ```c#
 public void DefineReport(string armenianCaption, 
@@ -16,15 +16,15 @@ public void DefineReport(string armenianCaption,
                         bool useFormatting = false);
 ```
 
-Ստեղծում է [տեքստային հաշվետվություն՝](../../TextReport.md)՝ 120 լայնությամբ հատվածով (ֆրագմենտով)։
+Ստեղծում է [տեքստային հաշվետվություն՝](../../../Types/TextReport.md)՝ 120 լայնությամբ հատվածով (ֆրագմենտով)։
 
-Առաջադրանքի կատարման ընթացքում մեթոդի կանչի դեպքում [տեքստային հաշվետվությունը](../../TextReport.md) մնում է անփոփոխ։
+Առաջադրանքի կատարման ընթացքում մեթոդի կանչի դեպքում [տեքստային հաշվետվությունը](../../../Types/TextReport.md) մնում է անփոփոխ։
 
 **Պարամետրեր**
 
 
 | Անվանում        | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն                                                        |
 | --------------- | ------------- | --------------- | --------------------------------------------------------------------- |
-| armenianCaption | string        | -               | [Տեքստային հաշվետվության](../../TextReport.md) հայերեն անվանումը։                                  |
-| englishCaption  | string        | ""              | [Տեքստային հաշվետվության](../../TextReport.md) անգլերեն անվանումը։                     |
-| useFormatting   | bool          | false           | [Տեքստային հաշվետվությունում](../../TextReport.md) տեքստի ձևաչափեր օգտագործելու հայտանիշը։ |
+| armenianCaption | string        | -               | [Տեքստային հաշվետվության](../../../Types/TextReport.md) հայերեն անվանումը։                                  |
+| englishCaption  | string        | ""              | [Տեքստային հաշվետվության](../../../Types/TextReport.md) անգլերեն անվանումը։                     |
+| useFormatting   | bool          | false           | [Տեքստային հաշվետվությունում](../../../Types/TextReport.md) տեքստի ձևաչափեր օգտագործելու հայտանիշը։ |
