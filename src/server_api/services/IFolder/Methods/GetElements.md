@@ -11,7 +11,7 @@ grand_parent: "IFolderService"
 | Անվանում | Նկարագրություն |
 |--|--|
 [GetElements(string)](#ifolderservicegetelementsstring-մեթոդ)
-| [GetElements(string, List)](#ifoldersservicegetelementsstring-liststring-մեթոդ) | Վերադարձնում է թղթապանակի նշված բանալիներով [տարրերը](../../../Types/FolderElement.md): |
+| [GetElements(string, List)](#ifolderservicegetelementsstring-liststring-մեթոդ) | Վերադարձնում է թղթապանակի նշված բանալիներով [տարրերը](../../../Types/FolderElement.md): |
 
 ### IFolderService.GetElements(string) մեթոդ
 

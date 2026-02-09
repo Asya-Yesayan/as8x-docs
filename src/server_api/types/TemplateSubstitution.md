@@ -19,20 +19,20 @@ nav_exclude: true
 
 | Անվանում | Նկարագրություն |
 |----------|----------------|
-| [Add(string, string)](TemplateSubstitution/Methods/Add.md) | Ավելացնում է ատոմար արժեք տպելու ձևանմուշի տեղադրվող արժեքների բազմությունում։ |
-| [Add(string, object)](TemplateSubstitution/Methods/Add1.md) | Ավելացնում է **object** տիպի ատոմար արժեք տպելու ձևանմուշի տեղադրվող արժեքների բազմությունում։ |
-| [Add(string, bool)](TemplateSubstitution/Methods/Add2.md) | Ավելացնում է **bool** տիպի ատոմար արժեք տպելու ձևանմուշի տեղադրվող արժեքների բազմությունում։ |
-| [Add(string, byte)](TemplateSubstitution/Methods/Add3.md) | Ավելացնում է **byte** տիպի ատոմար արժեք տպելու ձևանմուշի տեղադրվող արժեքների բազմությունում։ |
-| [Add(string, char)](TemplateSubstitution/Methods/Add4.md) | Ավելացնում է **char** տիպի ատոմար արժեք տպելու ձևանմուշի տեղադրվող արժեքների բազմությունում։ |
-| [Add(string, decimal)](TemplateSubstitution/Methods/Add5.md) | Ավելացնում է **decimal** տիպի ատոմար արժեք տպելու ձևանմուշի տեղադրվող արժեքների բազմությունում։ |
-| [Add(string, double)](TemplateSubstitution/Methods/Add6.md) | Ավելացնում է **double** տիպի ատոմար արժեք տպելու ձևանմուշի տեղադրվող արժեքների բազմությունում։ |
-| [Add(string, float)](TemplateSubstitution/Methods/Add7.md) | Ավելացնում է **float** տիպի ատոմար արժեք տպելու ձևանմուշի տեղադրվող արժեքների բազմությունում։ |
-| [Add(string, int)](TemplateSubstitution/Methods/Add8.md) | Ավելացնում է **int** տիպի ատոմար արժեք տպելու ձևանմուշի տեղադրվող արժեքների բազմությունում։ |
-| [Add(string, long)](TemplateSubstitution/Methods/Add9.md) | Ավելացնում է **long** տիպի ատոմար արժեք տպելու ձևանմուշի տեղադրվող արժեքների բազմությունում։ |
-| [Add(string, short)](TemplateSubstitution/Methods/Add10.md) | Ավելացնում է **short** տիպի ատոմար արժեք տպելու ձևանմուշի տեղադրվող արժեքների բազմությունում։ |
-| [Add(string, DateTime)](TemplateSubstitution/Methods/Add11.md) | Ավելացնում է **DateTime** տիպի ատոմար արժեք տպելու ձևանմուշի տեղադրվող արժեքների բազմությունում։ |
-| [Add(string, DateTime?)](TemplateSubstitution/Methods/Add12.md) | Ավելացնում է **DateTime?** տիպի ատոմար արժեք տպելու ձևանմուշի տեղադրվող արժեքների բազմությունում։ |
-| [Add(string, TimeSpan?)](TemplateSubstitution/Methods/Add13.md) | Ավելացնում է **TimeSpan?** տիպի ատոմար արժեք տպելու ձևանմուշի տեղադրվող արժեքների բազմությունում։ |
+| [Add(string, string)](TemplateSubstitution/Methods/Add.md#templatesubstitutionaddstring-string-մեթոդ) | Ավելացնում է ատոմար արժեք տպելու ձևանմուշի տեղադրվող արժեքների բազմությունում։ |
+| [Add(string, object)](TemplateSubstitution/Methods/Add.md#templatesubstitutionaddstring-object-մեթոդ) | Ավելացնում է **object** տիպի ատոմար արժեք տպելու ձևանմուշի տեղադրվող արժեքների բազմությունում։ |
+| [Add(string, bool)](TemplateSubstitution/Methods/Add.md#templatesubstitutionaddstring-bool-մեթոդ) | Ավելացնում է **bool** տիպի ատոմար արժեք տպելու ձևանմուշի տեղադրվող արժեքների բազմությունում։ |
+| [Add(string, byte)](TemplateSubstitution/Methods/Add.md#templatesubstitutionaddstring-byte-մեթոդ) | Ավելացնում է **byte** տիպի ատոմար արժեք տպելու ձևանմուշի տեղադրվող արժեքների բազմությունում։ |
+| [Add(string, char)](TemplateSubstitution/Methods/Add.md#templatesubstitutionaddstring-char-մեթոդ) | Ավելացնում է **char** տիպի ատոմար արժեք տպելու ձևանմուշի տեղադրվող արժեքների բազմությունում։ |
+| [Add(string, decimal)](TemplateSubstitution/Methods/Add.md#templatesubstitutionaddstring-decimal-մեթոդ) | Ավելացնում է **decimal** տիպի ատոմար արժեք տպելու ձևանմուշի տեղադրվող արժեքների բազմությունում։ |
+| [Add(string, double)](TemplateSubstitution/Methods/Add.md#templatesubstitutionaddstring-double-մեթոդ) | Ավելացնում է **double** տիպի ատոմար արժեք տպելու ձևանմուշի տեղադրվող արժեքների բազմությունում։ |
+| [Add(string, float)](TemplateSubstitution/Methods/Add.md#templatesubstitutionaddstring-float-մեթոդ) | Ավելացնում է **float** տիպի ատոմար արժեք տպելու ձևանմուշի տեղադրվող արժեքների բազմությունում։ |
+| [Add(string, int)](TemplateSubstitution/Methods/Add.md#templatesubstitutionaddstring-int-մեթոդ) | Ավելացնում է **int** տիպի ատոմար արժեք տպելու ձևանմուշի տեղադրվող արժեքների բազմությունում։ |
+| [Add(string, long)](TemplateSubstitution/Methods/Add.md#templatesubstitutionaddstring-long-մեթոդ) | Ավելացնում է **long** տիպի ատոմար արժեք տպելու ձևանմուշի տեղադրվող արժեքների բազմությունում։ |
+| [Add(string, short)](TemplateSubstitution/Methods/Add.md#templatesubstitutionaddstring-short-մեթոդ) | Ավելացնում է **short** տիպի ատոմար արժեք տպելու ձևանմուշի տեղադրվող արժեքների բազմությունում։ |
+| [Add(string, DateTime)](TemplateSubstitution/Methods/Add.md#templatesubstitutionaddstring-datetime-մեթոդ) | Ավելացնում է **DateTime** տիպի ատոմար արժեք տպելու ձևանմուշի տեղադրվող արժեքների բազմությունում։ |
+| [Add(string, DateTime?)](TemplateSubstitution/Methods/Add.md#templatesubstitutionaddstring-datetime-մեթոդ-1) | Ավելացնում է **DateTime?** տիպի ատոմար արժեք տպելու ձևանմուշի տեղադրվող արժեքների բազմությունում։ |
+| [Add(string, TimeSpan?)](TemplateSubstitution/Methods/Add.md#templatesubstitutionaddstring-timespan-մեթոդ) | Ավելացնում է **TimeSpan?** տիպի ատոմար արժեք տպելու ձևանմուշի տեղադրվող արժեքների բազմությունում։ |
 | [AddImage(string)](TemplateSubstitution/Methods/AddImage.md) | Տպելու ձևանմուշի տեղադրվող արժեքների բազմությունում ավելացնում է նկար և վերադարձնում նկարի նկարագրությունը, որի միջոցով անհրաժեշտ է ավելացնել նկարի տվյալները (ֆայլը, երկարությունը, լայնությունը...): |
 | [AddGrid(string)](TemplateSubstitution/Methods/AddGrid.md) | Տպելու ձևանմուշի տեղադրվող արժեքների բազմությունում ավելացնում է աղյուսակ և վերադարձնում աղյուսակի նկարագրությունը, որի միջոցով անհրաժեշտ է ավելացնել աղյուսակի տվյալները (սյուները, տողերը, ցուցադրման ոճը․․․): |
 | [AddGridValuesFromDoc(Document.Document, string, string, string, bool)](TemplateSubstitution/Methods/AddGridValuesFromDoc.md) | Տպելու ձևանմուշի տեղադրվող արժեքների բազմությունում ավելացնում է աղյուսակ և լրացնում այն ըստ փաստաթղթի նշված աղյուսակի։ |
