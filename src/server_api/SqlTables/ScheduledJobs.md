@@ -1,6 +1,6 @@
 ---
 layout: page
-title: SCHEDULEDJOBS
+title: job.SCHEDULEDJOBS
 parent: "Sql աղյուսակներ"
 ---
 

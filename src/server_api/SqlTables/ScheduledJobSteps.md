@@ -1,6 +1,6 @@
 ---
 layout: page
-title: SCHEDULEDJOBSTEPS
+title: job.SCHEDULEDJOBSTEPS
 parent: "Sql աղյուսակներ"
 ---
 

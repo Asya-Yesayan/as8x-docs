@@ -1,6 +1,6 @@
 ---
 layout: page
-title: JOBEXECUTION
+title: job.JOBEXECUTION
 parent: "Sql աղյուսակներ"
 ---
 

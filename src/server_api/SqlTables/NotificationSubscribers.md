@@ -1,10 +1,10 @@
 ---
 layout: page
-title: NOTIFICATIONSUBSCRIBERS
+title: dbo.NOTIFICATIONSUBSCRIBERS
 parent: "Sql աղյուսակներ"
 ---
 
-# NOTIFICATIONSUBSCRIBERS աղյուսակ
+# dbo.NOTIFICATIONSUBSCRIBERS աղյուսակ
 
 Այս աղյուսակը նախատեսված է ծանուցման խմբերի օգտագործողների ինֆորմացիայի պահպանման համար։
 

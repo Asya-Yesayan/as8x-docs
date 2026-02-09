@@ -1,10 +1,10 @@
 ---
 layout: page
-title: NOTIFICATIONGROUPS
+title: dbo.NOTIFICATIONGROUPS
 parent: "Sql աղյուսակներ"
 ---
 
-# NOTIFICATIONGROUPS աղյուսակ
+# dbo.NOTIFICATIONGROUPS աղյուսակ
 
 Այս աղյուսակը նախատեսված է ծանուցման խմբերի ինֆորմացիայի պահպանման համար։
 
