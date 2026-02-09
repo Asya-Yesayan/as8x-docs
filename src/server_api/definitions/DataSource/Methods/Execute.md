@@ -29,7 +29,7 @@ public Task<DataSourceResult<R>> Execute(P param,
 | param         |  P             |   -              | Տվյալների աղբյուրի պարամետրերը նկարագրող դասի օբյեկտ։  |
 | columns       |  HashSet<string>             | null            | Տվյալների աղբյուրի վերադարձվող սյուների անվանումների ցուցակը։ |
 | extender      | IExtender              | null            | Տվյալների աղբյուրի ընդլայնումը։  |
-| stoppingToken | CancellationToken              | default         | ընդհատման օբյեկտը։ |
+| stoppingToken | CancellationToken              | default         | Ընդհատման օբյեկտը։ |
 | suppressProgress | bool              | true         | Կատարման պրոգրեսի չարժեքավորման հայտանիշ։  |
 
 Տե՛ս [օրինակը](../../../Examples/ds.md#տիպիզացված-կատարում)։

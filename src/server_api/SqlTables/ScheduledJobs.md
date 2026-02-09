@@ -23,6 +23,8 @@ parent: "Sql աղյուսակներ"
 | fCOMMENT	        | nvarchar(255)	| not null | Առաջադրանքի կատարման վիճակի մասին մեկնաբանություն։         |
 | fNOTIFYON	        | tinyint	| not null | Առաջադրանքի ծանուցման տարբերակը։ <br> **0** - Երբեք։ <br> **1** - Միայն սխալների դեպքում։ <br> **2** - Միշտ։ <br> **2** արժեքի դեպքում ծանուցումներ են ուղարկվում առաջադրանքի կատարման սկզբի, բարեհաջող ավարտի, սխալների առաջացման և ձախողման դեպքերում, իսկ **1** արժեքի դեպքում` միայն սխալների առաջացման և ձախողման դեպքերում։    |
 
+**Օրինակ**
+
 | fSCHEDULEDID | fJOBISN | fJOBCODE | fSTARTDATE | fTARGETSERVICE | fSUID | fACTIVATION | fSTATE | fCOMMENT | fNOTIFYON |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 3 | 288355629 | JobTest | 2025-10-15 07:33:10.953 | test_bankdb | 10 | 0 | 2 | Job execution completed successfully | 0 |
