@@ -10,7 +10,7 @@ grand_parent: "IExecutionProgress"
 
 | Անվանում | Նկարագրություն |
 |--|--|
-| [RecordWarning(string, int, string, int, Dictionary<string, object>)](#iexecutionprogressrecordwarningstring-int-string-int-dictionarystring-object-մեթոդ) | Ավելացնում է նոր տող [տեքստային հաշվետվությունում](../../../Types/TextReport.md), եթե մեթոդը չի կանչվել առաջադրանքի կատարման ժամանակ։ |
+| [RecordWarning(string, int, string, int, Dictionary&lt;string, object&gt;)](#iexecutionprogressrecordwarningstring-int-string-int-dictionarystring-object-մեթոդ) | Ավելացնում է նոր տող [տեքստային հաշվետվությունում](../../../Types/TextReport.md), եթե մեթոդը չի կանչվել առաջադրանքի կատարման ժամանակ։ |
 | [RecordWarning(IEnumerable&lt;string&gt;, int, string, int, Dictionary&lt;string, object&gt;)](#iexecutionprogressrecordwarningienumerable-int-string-int-dictionarystring-object-մեթոդ) | Ավելացնում է նոր տողեր [տեքստային հաշվետվությունում](../../../Types/TextReport.md), եթե մեթոդը չի կանչվել առաջադրանքի կատարման ժամանակ։ |
 
 ### IExecutionProgress.RecordWarning(string, int, string, int, Dictionary<string, object>) մեթոդ

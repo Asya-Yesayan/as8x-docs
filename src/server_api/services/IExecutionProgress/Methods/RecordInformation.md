@@ -10,8 +10,8 @@ grand_parent: "IExecutionProgress"
 
 | Անվանում | Նկարագրություն |
 |--|--|
-| [RecordInformation(IEnumerable<string>, int, string, int, Dictionary<string, object>)](#iexecutionprogressrecordinformationienumerable-int-string-int-dictionarystring-object-մեթոդ)| Ավելացնում է նոր տողեր [տեքստային հաշվետվությունում](../../../Types/TextReport.md), եթե մեթոդը չի կանչվել առաջադրանքի կատարման ժամանակ։ |
-| [RecordInformation(string, int, string, int, Dictionary<string, object>)](#iexecutionprogressrecordinformationstring-int-string-int-dictionarystring-object-մեթոդ)| Ավելացնում է նոր տող [տեքստային հաշվետվությունում](../../../Types/TextReport.md), եթե մեթոդը չի կանչվել առաջադրանքի կատարման ժամանակ։ |
+| [RecordInformation(IEnumerable&lt;string&gt;, int, string, int, Dictionary&lt;string, object&gt;)](#iexecutionprogressrecordinformationienumerable-int-string-int-dictionarystring-object-մեթոդ)| Ավելացնում է նոր տողեր [տեքստային հաշվետվությունում](../../../Types/TextReport.md), եթե մեթոդը չի կանչվել առաջադրանքի կատարման ժամանակ։ |
+| [RecordInformation(string, int, string, int, Dictionary&lt;string, object>)](#iexecutionprogressrecordinformationstring-int-string-int-dictionarystring-object-մեթոդ)| Ավելացնում է նոր տող [տեքստային հաշվետվությունում](../../../Types/TextReport.md), եթե մեթոդը չի կանչվել առաջադրանքի կատարման ժամանակ։ |
 
 ### IExecutionProgress.RecordInformation(IEnumerable<string>, int, string, int, Dictionary<string, object>) մեթոդ
 

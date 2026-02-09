@@ -10,8 +10,8 @@ grand_parent: "IExecutionProgress"
 
 | Անվանում | Նկարագրություն |
 |--|--|
-| [RecordError(IEnumerable<string>, Exception, int, string, int, Dictionary<string, object>)](#iexecutionprogressrecorderrorienumerable-exception-int-string-int-dictionarystring-object-մեթոդ)| Ավելացնում է նոր տողեր [տեքստային հաշվետվությունում](../../../Types/TextReport.md), եթե մեթոդը չի կանչվել առաջադրանքի կատարման ժամանակ։ |
-| [RecordError(string, Exception, int, string, int, Dictionary<string, object>)](#iexecutionprogressrecorderrorstring-exception-int-string-int-dictionarystring-object-մեթոդ)| Ավելացնում է նոր տող [տեքստային հաշվետվությունում](../../../Types/TextReport.md), եթե մեթոդը չի կանչվել առաջադրանքի կատարման ժամանակ։ |
+| [RecordError(IEnumerable&lt;string&gt;, Exception, int, string, int, Dictionary&lt;string, object&gt;)](#iexecutionprogressrecorderrorienumerable-exception-int-string-int-dictionarystring-object-մեթոդ)| Ավելացնում է նոր տողեր [տեքստային հաշվետվությունում](../../../Types/TextReport.md), եթե մեթոդը չի կանչվել առաջադրանքի կատարման ժամանակ։ |
+| [RecordError(string, Exception, int, string, int, Dictionary&lt;string, object&gt;)](#iexecutionprogressrecorderrorstring-exception-int-string-int-dictionarystring-object-մեթոդ)| Ավելացնում է նոր տող [տեքստային հաշվետվությունում](../../../Types/TextReport.md), եթե մեթոդը չի կանչվել առաջադրանքի կատարման ժամանակ։ |
 
 ### IExecutionProgress.RecordError(IEnumerable<string>, Exception, int, string, int, Dictionary<string, object>) մեթոդ
 
