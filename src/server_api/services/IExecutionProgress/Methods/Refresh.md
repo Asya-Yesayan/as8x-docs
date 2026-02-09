@@ -14,7 +14,7 @@ grand_parent: "IExecutionProgress"
 public void Refresh(string name);
 ```
 
-Թարմացնում է կատարման պրոգրեսի ընթացիկ [փուլը](../../ProgressPhase.md)՝ ցուցադրելով տրված անվանումը։
+Թարմացնում է կատարման պրոգրեսի ընթացիկ [փուլը](../../../Types/ProgressPhase.md)՝ ցուցադրելով տրված անվանումը։
 
 **Պարամետրեր**
 

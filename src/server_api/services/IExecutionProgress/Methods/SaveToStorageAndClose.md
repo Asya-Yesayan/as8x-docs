@@ -14,7 +14,7 @@ grand_parent: "IExecutionProgress"
 public Task<StorageInfo> SaveToStorageAndClose();
 ```
 
-Փակում է [տեքստային հաշվետվությունը](../../TextReport.md) և պահպանում [ընթացիկ սեսսիայի կոնտեյներում](../../../Services/IStorage/Properties/Container.md):
+Փակում է [տեքստային հաշվետվությունը](../../../Types/TextReport.md) և պահպանում [ընթացիկ սեսսիայի կոնտեյներում](../../../Services/IStorage/Properties/Container.md):
 
 Վերադարձնում է հաշվետվությունը պարունակող [կոնտեյների](../../../Services/IStorage/Properties/Container.md) և ֆայլի անունները։
 
