@@ -2,6 +2,7 @@
 title: "IExecutionProgress"
 parent: "Սերվիսներ"
 nav_order: 2
+has_toc: false
 ---
 
 # IExecutionProgress դաս
@@ -26,13 +27,3 @@ nav_order: 2
 | [RecordWarning(IEnumerable&lt;string&gt;, int, string, int, Dictionary&lt;string, object&gt;)](Methods/RecordWarning.md#iexecutionprogressrecordwarningienumerable-int-string-int-dictionarystring-object-մեթոդ) | Ավելացնում է նոր տողեր [տեքստային հաշվետվությունում](../../Types/TextReport.md), եթե մեթոդը չի կանչվել առաջադրանքի կատարման ժամանակ։ <br> Առաջադրանքի կատարման ընթացքում կանչի դեպքում միայն [Seq](https://datalust.co/)-ում ավելացվում է նոր իրադարձություն՝ նշված հաղորդագրություններով և Warning լոգավորման մակարդակով, իսկ [տեքստային հաշվետվությունը](../../Types/TextReport.md) մնում է անփոփոխ։ |
 | [RecordWarning(string, int, string, int, Dictionary&lt;string, object&gt;)](Methods/RecordWarning.md#iexecutionprogressrecordwarningstring-int-string-int-dictionarystring-object-մեթոդ) | Ավելացնում է նոր տող [տեքստային հաշվետվությունում](../../Types/TextReport.md), եթե մեթոդը չի կանչվել առաջադրանքի կատարման ժամանակ։ <br> Առաջադրանքի կատարման ընթացքում կանչի դեպքում միայն [Seq](https://datalust.co/)-ում ավելացվում է նոր իրադարձություն՝ նշված հաղորդագրությունով և Warning լոգավորման մակարդակով, իսկ [տեքստային հաշվետվությունը](../../Types/TextReport.md) մնում է անփոփոխ։ |
 
-## Հատկություններ
-
-| Անվանում | Նկարագրություն |
-|----------|----------------|
-| [CancellationRequest](Properties/CancellationRequest.md) | Վերադարձնում է կատարման պրոգրեսով պրոցեսի [չեղարկման օբյեկտը](Properties/CancellationRequest.md)։ |
-| [CurrentPhase](Properties/CurrentPhase.md) | Սահմանում կամ վերադարձնում է կատարման պրոգրեսի ընթացիկ [կատարման փուլը](../../Types/ProgressPhase.md)։ |
-| [HasError](Properties/HasError.md) | Սահմանում կամ վերադարձնում է արժեք, որը ցույց է տալիս՝ արդյոք առաջադրանքի կատարման ընթացքում տեղի է ունեցել սխալ։ |
-| [LoggingEnabled](Properties/LoggingEnabled.md) | Հատկությունը որոշում է IExecutionProgress-ի տողեր ավելացնող մեթոդների ([RecordError](Methods/RecordError.md), [RecordInformation](Methods/RecordInformation.md), [RecordHeader](Methods/RecordHeader.md), ...) հաղորդագրությունները գրանցում են [Seq](https://datalust.co/)-ում, թե ավելացվում՝ [տեքստային հաշվետվությունում](../../Types/TextReport.md)։ |
-| [LoggingAdditionalData](Properties/LoggingAdditionalData.md) | Եթե IExecutionProgress տիպի օբյեկտը ստեղծվել է առաջադրանքի կատարման ընթացքում, ապա հատկությունը վերադարձնում է առաջադրանքներին յուրահատուկ թեգ/արժեքների ցուցակը, որոնք ավելացվել են կատարման ընթացքում գրանցվող լոգի իրադարձություններում, հակառակ դեպքում՝ null: |
-| [Source](Properties/Source.md) | Վերադարձնում է կատարման պրոգրեսի [ստեղծման աղբյուրը](../../Types/ExecutionSource.md)։ |
