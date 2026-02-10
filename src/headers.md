@@ -4,6 +4,8 @@ nav_order: 1
 has_toc: false
 ---
 
+# Api հարցումներում կիրառվող header-ների նկարագրություն
+
 | Անվանում | Տվյալների տիպ | Նկարագրություն |
 |--------|---------------|---------------|
 | accept | string | Ցույց է տալիս, թե հաճախորդը ինչպիսի պատասխանների մեդիա տեսակներ (MIME type) է սպասում սերվերից։ |
@@ -11,7 +13,7 @@ has_toc: false
 | Authorization | string | Հարցման նույնականացման տվյալները։ Սերտիֆիկատով նույնականացվող Api կլիենտի դեպքում ֆորմատը պետք է լինի `Bearer tokenData` (օրինակ՝ `Bearer QWxhZGRpbjpvcGVuIHN1c2FTZQ==`), իսկ apiKey-ով նույնականացվող Api կլիենտի դեպքում՝ `ApiClientSecret apiKeyData` (օրինակ՝ `ApiClientSecret ZSGQD3zUZeEy7RdRayZaywaS7KrSbO`)։ |
 | Accept-Language | string | Նշում է, թե հաճախորդը որ լեզվով է նախընտրում ստանալ սերվերի պատասխանները։ |
 | X-Version | string | Api հարցման տարբերակը (1.0, 2.0, ...)։ |
-| CurrentActivityId | string | Այս header-ը կիրառվում է թրեյսներում։ |
+| CurrentActivityId | string | Նշում է ընթացիկ թրեյսի id-ն և կիրառվում է թրեյսներում։ |
 | LogRestExceptions | string | Api հարցման կատարման ընթացքում առաջացած `RESTException` տիպի սխալների լոգավորման հայտանիշ։ |
 
 ```json
