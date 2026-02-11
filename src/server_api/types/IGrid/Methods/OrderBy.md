@@ -28,6 +28,16 @@ public void OrderBy(string column, bool descending = false, Func<IGridRow, strin
 | descending      | bool                                   | false          | Դասավորման կարգը։ **true** արժեքի դեպքում դասավորումը կատարվում է նվազման (descending) կարգով, հակառակ դեպքում՝ աճման (ascending) կարգով։ |
 | valueSelector   | Func<IGridRow, string, object>         | null           | Delegate, որը ընդունում է աղյուսակի տողի նկարագրությունը, սյան ներքին անունը ու վերադարձնում է արժեք, ըստ որի պետք է դասավորվի սյունը: |
 
+**Օրինակ**
+
+```c#
+public override Task Validate(ValidateEventArgs args)
+{
+    Grid("ACCS").OrderBy("CUR");
+    return Task.CompletedTask;
+}
+```
+
 ### IGrid.OrderBy(IEnumerable<(string ColumnName, bool Descending)>, Func<IGridRow, string, object>) մեթոդ
 
 ```c#
@@ -42,3 +52,16 @@ public void OrderBy(IEnumerable<(string ColumnName, bool Descending)> columnsInf
 |-----------------|------------------------------------------------------------------|----------------|---------------|
 | columnsInfos    | IEnumerable<(string ColumnName, bool Descending)>               | —              | Սյուների ներքին անունների/դասավորման կարգերի (աճման կամ նվազման կարգ) ցուցակ, որի հիման վրա պետք է դասավորվեն աղյուսակի տողերը։ |
 | valueSelector   | Func<IGridRow, string, object>                                  | null           | Delegate, որը ընդունում է աղյուսակի տողի նկարագրությունը, սյան ներքին անունը ու վերադարձնում է արժեք, ըստ որի պետք է դասավորվի սյունը: |
+
+**Օրինակ**
+
+```c#
+if (doc.ExistsGrid("AGRS"))
+{
+    doc.Grid("AGRS").OrderBy(new List<(string, bool)>
+            {
+                ("CURRENCY", false),
+                ("AGRCODE", false)
+            });
+}
+```
