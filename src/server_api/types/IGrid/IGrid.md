@@ -18,8 +18,8 @@ IGrid դասը նախատեսված է փաստաթղթի աղյուսակներ
 | [GetRows()](Methods/GetRows.md) | Վերադարձնում է ընթացիկ աղյուսակի բոլոր [տողերի նկարագրությունների](../IGridRow/IGridRow.md) ցուցակը։ |
 | [IndexOfRow(IGridRow)](Methods/IndexOfRow.md) | Վերադարձնում է նշված տողի ինդեքսը (համարը) ընթացիկ աղյուսակում։ |
 | [InsertRow(int)](Methods/InsertRow.md) | Ավելացնում է նոր դատարկ տող ընթացիկ աղյուսակում՝ **index** պարամետրում նշված դիրքում և վերադարձնում ավելացված [տողի նկարագրությունը](../IGridRow/IGridRow.md)։ |
-| [OrderBy(string, bool, Func&lt;IGridRow, string, object&gt;)](Methods/OrderBy.md) | Մեթոդը նախատեսված է աղյուսակի տողերը դասավորելու համար՝ նշված սյան արժեքների հիման վրա։ |
-| [OrderBy(IEnumerable&lt;(string ColumnName, bool Descending)&gt;, Func&lt;IGridRow, string, object&gt;)](Methods/OrderBy1.md) | Մեթոդը նախատեսված է աղյուսակի տողերը դասավորելու համար՝ նշված սյան արժեքների հիման վրա։ |
+| [OrderBy(string, bool, Func&lt;IGridRow, string, object&gt;)](Methods/OrderBy.md#igridorderbystring-bool-funcigridrow-string-object-մեթոդ) | Մեթոդը նախատեսված է աղյուսակի տողերը դասավորելու համար՝ նշված սյան արժեքների հիման վրա։ |
+| [OrderBy(IEnumerable&lt;(string ColumnName, bool Descending)&gt;, Func&lt;IGridRow, string, object&gt;)](Methods/OrderBy.md#igridorderbyienumerablestring-columnname-bool-descending-funcigridrow-string-object-մեթոդ) | Մեթոդը նախատեսված է աղյուսակի տողերը դասավորելու համար՝ նշված սյան արժեքների հիման վրա։ |
 | [RemoveRow(int)](Methods/RemoveRow.md) | Հեռացնում է նշված ինդեքսով (համարով) տողը ընթացիկ աղյուսակից։ |
 
 ## Հատկություններ
