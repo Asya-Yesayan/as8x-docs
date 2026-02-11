@@ -1,5 +1,6 @@
 ---
 title: "IGridRow ինտերֆեյս" 
+nav_exclude: true
 ---
 
 # IGridRow ինտերֆեյս

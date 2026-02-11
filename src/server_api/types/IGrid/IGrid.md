@@ -1,5 +1,6 @@
 ---
 title: IGrid ինտերֆեյս
+nav_exclude: true
 ---
 
 # IGrid ինտերֆեյս

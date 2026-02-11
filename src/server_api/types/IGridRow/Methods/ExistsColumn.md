@@ -1,5 +1,6 @@
 ---
 title: IGridRow.ExistsColumn(string) մեթոդ
+nav_exclude: true
 ---
 
 # IGridRow.ExistsColumn(string) մեթոդ

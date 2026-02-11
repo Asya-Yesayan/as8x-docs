@@ -1,5 +1,6 @@
 ---
 title: this
+nav_exclude: true
 ---
 
 
