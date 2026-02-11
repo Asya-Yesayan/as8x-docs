@@ -2,6 +2,8 @@
 title: IGridRow.ExistsColumn(string) մեթոդ
 ---
 
+# IGridRow.ExistsColumn(string) մեթոդ
+
 ```c#
 public bool ExistsColumn(string name);
 ```

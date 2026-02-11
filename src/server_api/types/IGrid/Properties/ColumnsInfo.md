@@ -9,4 +9,4 @@ nav_exclude: true
 Dictionary<string, ColumnInfo> ColumnsInfo { get; }
 ```
 
-Վերադարձնում է Dictionary, որտեղ սյան ներքին անունն է, իսկ արժեքը` սյան նկարագրությունը։
+Վերադարձնում է Dictionary, որտեղ բանալին սյան ներքին անունն է, իսկ արժեքը` սյան նկարագրությունը։
