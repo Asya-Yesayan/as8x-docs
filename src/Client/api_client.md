@@ -68,16 +68,22 @@ JSON Schema-ն օգտագործելու համար անհրաժեշտ է՝
 
 | Անուն |  Նկարագրություն | Շարահյուսություն |
 |--|--|--|
-| `dataSources` | Պարունակում է թույլատրելի տվյալների աղբյուրների անունները: | `"dataSources": [ "DS1", "DS2" ]` |
-| `allDataSources` | Ցույց է տալիս բոլոր տվյալների աղբյուրների հասանելիությունը։ **true** արժեքի դեպքում անտեսվում է `dataSources` ցուցակը։ | `"allDataSources": true` |
-| `documents` | Պարունակում է թույլատրելի փաստաթղթերի անունները: | `"documents": [ "Doc1", "Doc2" ]` |
-| `allDocuments` | Ցույց է տալիս բոլոր փաստաթղթերի հասանելիությունը: **true** արժեքի դեպքում անտեսվում է `documents` ցուցակը։ | `"allDocuments": true` |
-| `dataProcessingRequests` | Պարունակում է բոլոր թույլատրելի տվյալների մշակման հարցումների (DPR-ների) ցուցակը։ | `"dataProcessingRequests": [ { "name": "Dpr1", "type": 21 }, { "name": "Dpr2", "type": 22 } ]` |
-| `allDataProcessingRequests` | Ցույց է տալիս բոլոր տվյալների մշակման հարցումների հասանելիությունը: **true** արժեքի դեպքում անտեսվում է `dataProcessingRequests` ցուցակը։ | `"allDataProcessingRequests": true` |
-| `controllers` | Պարունակում է թույլատրելի controller-ները իրենց action-ներով: Կարող է նշվել մի քանի action մեկ controller-ի մեջ, կամ կարող են նշվել բոլոր action-ները։ | `"controllers": { "Cntrl1": { "allActions": true }, "Cntrl2": { "actions": [ "action1" ] } }` |
-| `allControllers` | Ցույց է տալիս բոլոր controller-ների հասանելիությունը: **true** արժեքի դեպքում անտեսվում է `controllers`-ը։ | `"allControllers": true` |
-| `users` | Պարունակում է թույլատրելի օգտագործողների անունները: | `"users": [ "user1", "user2" ]` |
-| `allUsers` | Ցույց է տալիս բոլոր օգտագործողների հասանելիությունը: **true** արժեքի դեպքում անտեսվում է `users` ցուցակը։ | `"allUsers": true` |
+| `dataSources` | Սահմանում է այն տվյալների աղբյուրների ցուցակը, որոնք տվյալ API Client-ը իրավասություն ունի կատարել։ | `"dataSources": [ "DS1", "DS2" ]` |
+| `allDataSources` | Համակարգում առկա բոլոր տվյալների աղբյուրների կատարման հասանելիության հայտանիշ: **true** արժեքի դեպքում անտեսվում է `dataSources` ցուցակը։ | `"allDataSources": true` |
+| `documents` | Սահմանում է այն փաստաթղթերի ցուցակը, որոնք կարող են ստեղծվել, գրանցվել, բեռնվել կամ հեռացվել  տվյալ API Client-ի կողմից: | `"documents": [ "Doc1", "Doc2" ]` |
+| `allDocuments` | Համակարգում առկա բոլոր փաստաթղթերի գործարկման հասանելիության հայտանիշ: **true** արժեքի դեպքում անտեսվում է `documents` ցուցակը։ | `"allDocuments": true` |
+| `dataProcessingRequests` | Սահմանում է այն տվյալների մշակման հարցումների (DPR-ների) ցուցակը, որոնք տվյալ API Client-ը իրավասություն ունի գործարկել։ | `"dataProcessingRequests": [ { "name": "Dpr1", "type": 21 }, { "name": "Dpr2", "type": 22 } ]` |
+| `allDataProcessingRequests` | Համակարգում առկա բոլոր տվյալների մշակման հարցումների (DPR-ների) գործարկման հասանելիության հայտանիշ: **true** արժեքի դեպքում անտեսվում է `dataProcessingRequests` ցուցակը։ | `"allDataProcessingRequests": true` |
+| `controllers` | Սահմանում է տվյալ API Client-ի համար հասանելի controller-ները և դրանց action-ները։ Կարելի է յուրաքանչյուր controller-ի համար նշել կոնկրետ action-ների ցուցակ կամ սահմանել allActions: true, որի դեպքում տվյալ controller-ի բոլոր action-ները կդառնան հասանելի։ | `"controllers": { "Cntrl1": { "allActions": true }, "Cntrl2": { "actions": [ "action1" ] } }` |
+| `allControllers` | Համակարգում առկա բոլոր controller-ների գործարկման հասանելիության հայտանիշ: **true** արժեքի դեպքում անտեսվում է `controllers`-ը։ | `"allControllers": true` |
+| `users` | Սահմանում է այն օգտագործողների ներքին անունների ցուցակը, որոնք իրավասություն ունեն մուտք գործել համակարգ տվյալ API Client-ով։ | `"users": [ "user1", "user2" ]` |
+| `allUsers` | Համակարգում առկա բոլոր օգտագործողների մուտքի հասանելիության հայտանիշ: **true** արժեքի դեպքում անտեսվում է `users` ցուցակը։ | `"allUsers": true` |
+| `IPs`    | Սահմանում է այն IP հասցեների ցուցակը, որոնցից թույլատրվում է կատարել API հարցումներ (controller-ների action-ների գործարկում) տվյալ API Client-ով։ | `"IPs": [ "192.168.1.10", "10.0.0.5" ]` |
+| `allIPs` | API հարցումների կատարման հասանելիության հայտանիշ՝ բոլոր IP հասցեներից։ **true** արժեքի դեպքում անտեսվում է `IPs` ցուցակը։ | `"allIPs": true` |
+| `maxDPRCount` | Սահմանում է միաժամանակ կատարվող տվյալների մշակման հարցումների (DPR) առավելագույն քանակը տվյալ API Client-ի համար։ Լռությամբ արժեքը 15 է։ Այս հատկությունը կիրառելի է միայն ոչ համակարգային API Client-ների համար (համակարգային են համարվում այն API Client-ները, որոնց ID < 50)։   | `"maxDPRCount": 10` |
+| `maxSessionCount` | Սահմանում է միաժամանակ բացված սեսսիաների առավելագույն քանակը տվյալ API Client-ի համար։ Լռությամբ արժեքը 5 է։ Այս հատկությունը կիրառելի է միայն ոչ համակարգային API Client-ների համար (համակարգային են համարվում այն API Client-ները, որոնց ID < 50)։   |  `"maxSessionCount": 7` |
+| IsUsernameRequired | /api/Login/WithSecret Api-ով համակարգ մուտք գործելիս username պարամետրի պարտադիր լրացման հայտանիշ։ | `"IsUsernameRequired": true` |
+
 
 ## Մանիֆեստի օրինակ
 
