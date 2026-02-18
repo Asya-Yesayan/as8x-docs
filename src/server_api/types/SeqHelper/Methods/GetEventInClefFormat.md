@@ -1,20 +1,19 @@
 ---
-title: GetEventException
+title: GetEventInClefFormat
 nav_exclude: true
 ---
 
-# SeqHelper.GetEventException(string) մեթոդ
+# SeqHelper.GetEventInClefFormat(string) մեթոդ
 
 ```c#
-public static string GetEventException(string eventId)
+public static string GetEventInClefFormat(string eventId)
 ```
 
-Վերադարձնում է [Seq](https://datalust.co/)-ում գրանցված իրադարձությունում պարունակվող սխալի հաղորդագրությունը (Message): 
+Վերադարձնում է [Seq](https://datalust.co/)-ում գրանցված իրադարձության նկարագրությունը [Clef](https://clef-json.org/) ֆորմատով: 
 
 SEQAPIKEY համակարգային պարամետրի կամ [appsettings.json](../../../../Project/appsettings_json.md) կոնֆիգուրացիոն ֆայլում [Serilog:WriteTo:Seq:Args:serverUrl](../../../../Project/appsettings_json.md#լոգի-գրանցում-seq-սերվերում) (Seq սերվերի հասցեն) կոնֆիգի չլրացված լինելու դեպքում առաջանում է սխալ։
 
 **Պարամետրեր**
-
 
 | Անվանում | Տեսակ | **Նկարագրություն** |
 | --- | --- | --- |
