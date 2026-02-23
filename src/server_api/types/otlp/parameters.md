@@ -39,17 +39,7 @@ nav_exclude: true
 
 ## Ներածություն
 
-<div class="version-block" data-product-id="bank" data-version="250626.000" markdown="1">
-
 Այս բաժնում նշված բոլոր պարամետրերը կազդեն միայն այն դեպքում, երբ [OTLPENABLED](#otlpenabled) պարամետրի արժեքը **true** է և [OTLPENDPOINT](#otlpendpoint)-ում նշված է OTLP collector-ի հասցեն։
-
-</div>
-
-<div class="version-block" data-product-id="bank" data-version-exclude="250626.000" markdown="1">
-
-Այս բաժնում նշված բոլոր պարամետրերը կազդեն միայն այն դեպքում, երբ [OTLPENABLED](#otlpenabled) պարամետրի արժեքը **true** է։
-
-</div>
 
 ## OTLPAUTOPROCTRACING
 
@@ -61,17 +51,17 @@ nav_exclude: true
 
 ## OTLPDOCSMETERENABLED
 
-Պարամետրի **true** արժեքի դեպքում փաստաթղթի գրանցման ժամանակ ավելանում է՝
-* **հիստոգրամ**, որը արձանագրում է փաստաթղթի գրանցման տևողությունը,
-* **counter**, որը ցույց է տալիս գրանցված փաստաթղերի ընդհանուր քանակը։
+Պարամետրի **true** արժեքի դեպքում ավելանում են հետևյալ մետրիկաները՝
+* **armsoft_docs_store_histogram** հիստոգրամը, որը արձանագրում է փաստաթղթի գրանցման տևողությունը,
+* **armsoft_docs_stored_counter** counter-ը, որը ցույց է տալիս գրանցված փաստաթղերի ընդհանուր քանակը։
 
 ## OTLPDPRMETERENABLED
 
-Պարամետրի **true** արժեքի դեպքում տվյալների մշակման հարցումների (DPR) կատարման ժամանակ ավելանում է հիստոգրամ, որը արձանագրում է կատարման տևողությունը։
+Պարամետրի **true** արժեքի դեպքում **armsoft_dpr_execution_histogram** հիստոգրամը, որը արձանագրում է տվյալների մշակման հարցումների (DPR) կատարման տևողությունը։
 
 ## OTLPDSMETERENABLED
 
-Պարամետրի **true** արժեքի դեպքում տվյալների աղբյուրի կատարման ժամանակ ավելանում է հիստոգրամ, որը արձանագրում է կատարման տևողությունը։
+Պարամետրի **true** արժեքի դեպքում ավելանում է **armsoft_ds_execution_histogram** հիստոգրամը, որը արձանագրում է տվյալների աղբյուրի կատարման տևողությունը։
 
 ## OTLPDOCSTRACING    
 
@@ -107,10 +97,10 @@ nav_exclude: true
 
 ## OTLPPROCMETERENABLED 
 
-Պարամետրի **true** արժեքի դեպքում գրանցվում են մետրիկաներ սերվիսում երկար տևող հարցումների (Document, Data source, DPR jobs) մասին՝
-* հերթում սպասող երկար տևող հարցումների քանակը,
-* կատարվող երկար տևող հարցումների քանակը,
-* ավարտված երկար տևող հարցումների քանակը։
+Պարամետրի true արժեքի դեպքում ավելանում են հետևյալ մետրիկաները՝
+* **armsoft_process_enqueued_counter** counter-ը, որը ցույց է տալիս հերթում սպասող «Սերվիսային ասինխրոն պրոցեսների» քանակը,
+* **armsoft_process_executing_counter** counter-ը, որը ցույց է տալիս կատարվող «Սերվիսային ասինխրոն պրոցեսների» քանակը,
+* **armsoft_process_completed_counter** counter-ը, որը ցույց է տալիս ավարտված «Սերվիսային ասինխրոն պրոցեսների» քանակը։
 
 <div class="version-block" data-product-id="bank" data-version="250626.000" markdown="1">
 
@@ -121,3 +111,12 @@ nav_exclude: true
 * `1` - HTTP Protobuf: 
 
 </div>
+
+## OTLPDOCOTHMTRENABLED
+
+Պարամետրի **true** արժեքի դեպքում ավելանում են հետևյալ մետրիկաները՝
+* **armsoft_docs_loaded_counter** counter-ը, որը ցույց է տալիս [IDocumentService.Load](../../Services/IDocument/Methods/Load.md) մեթոդով բեռնված փաստաթղթերի քանակը,
+* **armsoft_docs_loaded_from_folder_counter** counter-ը, որը ցույց է տալիս [IDocumentService.LoadFromFolder](../../Services/IDocument/Methods/LoadFromFolder.md) մեթոդով բեռնված փաստաթղթերի քանակը,
+* **armsoft_docs_load_histogram** հիստոգրամը, որը արձանագրում է [IDocumentService.Load](../../Services/IDocument/Methods/Load.md) մեթոդով փաստաթղթի բեռնման տևողությունը,
+* **armsoft_docs_load_from_folder_histogram** հիստոգրամը, որը արձանագրում է [IDocumentService.LoadFromFolder](../../Services/IDocument/Methods/LoadFromFolder.md) մեթոդով փաստաթղթի բեռնման տևողությունը։
+* trace-ներ՝ [IDocumentService.Load](../../Services/IDocument/Methods/Load.md), [IDocumentService.LoadFromFolder](../../Services/IDocument/Methods/LoadFromFolder.md) մեթոդներով փաստաթղթի բեռնման ժամանակ։
