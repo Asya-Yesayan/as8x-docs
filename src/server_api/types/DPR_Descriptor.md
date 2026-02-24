@@ -9,7 +9,7 @@ nav_exclude: true
     
 Այս դասը նախատեսված է [DPR](../Definitions/DataProcessingRequest/DataProcessingRequest.md)-ի մետատվյալների նկարագրման համար։
 
-Օգտագործվում է [IProcessServerClient](../services/IProcessServerClient.md).[Enqueue](../Services/IJobServerClient/Methods/Enqueue.md) մեթոդով [DPR](../Definitions/DataProcessingRequest/DataProcessingRequest.md)-ի կատարումը հերթի դնելիս։
+Օգտագործվում է [IProcessServerClient](../Services/IProcessServerClient.md).[Enqueue](../Services/IJobServerClient/Methods/Enqueue.md) մեթոդով [DPR](../Definitions/DataProcessingRequest/DataProcessingRequest.md)-ի կատարումը հերթի դնելիս։
 
 ```c#    
 public class Descriptor
