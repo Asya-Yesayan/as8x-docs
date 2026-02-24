@@ -17,5 +17,3 @@ public static StringFieldType GetStringFieldType(short fieldLength, bool isNulla
 |-----------------|----------------------|----------------|----------------|
 | fieldLength     | short                | -              | Տողային արժեքի մեջ առավելագույն նիշերի քանակ։ Առավելագույնը՝ 512։ |
 | isNullable      | bool                 | false          | Կարող է ընդունել null արժեք, թե ոչ։ Լռությամբ արժեքը **false** է։ |
-
-## Հատկություններ
