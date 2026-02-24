@@ -1,5 +1,6 @@
 ﻿---
 title: IDocumentNestedTransactionWithError դաս
+nav_exclude: true
 ---
 
 ## Մեթոդներ

@@ -2,6 +2,7 @@
 layout: page
 title: "FolderElement" 
 tags: AsFoldElement
+nav_exclude: true
 ---
 
 Այս դասը նախատեսված է թղթապանակի տարրի նկարագրման համար։

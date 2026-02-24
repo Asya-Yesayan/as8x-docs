@@ -1,6 +1,7 @@
 ﻿---
 layout: page
 title: "AttachmentModel դաս" 
+nav_exclude: true
 ---
 
 Դասը պարունակում է փաստաթղթին կցված ֆայլի տվյալները։

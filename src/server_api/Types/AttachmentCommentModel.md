@@ -1,6 +1,7 @@
 ﻿---
 layout: page
-title: "AttachmentCommentModel դաս" 
+title: "AttachmentCommentModel դաս"
+nav_exclude: true 
 ---
 
 Դասը պարունակում է փաստաթղթին կցված ֆայլի մեկնաբանությունը փոխելու տվյալներ։

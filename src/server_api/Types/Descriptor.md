@@ -1,6 +1,7 @@
 ﻿---
 layout: page
 title: "Descriptor դաս" 
+nav_exclude: true
 ---
 
 Դասը նախատեսված է համակարգային պարամետրի նկարագրման համար։

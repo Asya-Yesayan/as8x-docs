@@ -1,5 +1,6 @@
 ﻿---
-title: "DocumentLockMode enum" 
+title: "DocumentLockMode enum"
+nav_exclude: true 
 ---
 
 Այս enum-ը նախատեսված է փաստաթղթի [բեռնման](../Services/IDocument/Methods/Load.md) ժամանակ տվյալների պահոցում կիրառվող արգելափակման (lock) ռեժիմի սահմանման համար։

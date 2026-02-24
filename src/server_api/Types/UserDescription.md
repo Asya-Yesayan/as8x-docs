@@ -1,6 +1,7 @@
 ﻿---
 layout: page
 title: "UserDescription դաս" 
+nav_exclude: true
 ---
 
 Այս դասը նախատեսված է համակարգի օգտագործողի նկարագրման համար։

@@ -1,5 +1,6 @@
 ﻿---
 title: LiteDocument դաս
+nav_exclude: true
 ---
 
 ## Ներածություն

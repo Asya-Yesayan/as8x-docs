@@ -1,6 +1,7 @@
 ﻿---
 layout: page
-title: "ErrorDetail" 
+title: "ErrorDetail"
+nav_exclude: true 
 ---
 
 # ErrorDetail դաս

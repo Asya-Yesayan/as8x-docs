@@ -2,6 +2,7 @@
 layout: page
 title: "DocumentChangeRequest" 
 tags: [DocChangeRequest, DCR]
+nav_exclude: true
 ---
 
 Այս դասը նախատեսված է փաստաթղթի փոփոխման հայտի նկարագրման համար։

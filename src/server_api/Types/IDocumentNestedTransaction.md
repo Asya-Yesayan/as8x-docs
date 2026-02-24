@@ -1,5 +1,6 @@
 ﻿---
 title: IDocumentNestedTransaction դաս
+nav_exclude: true
 ---
 
 ## Մեթոդներ
