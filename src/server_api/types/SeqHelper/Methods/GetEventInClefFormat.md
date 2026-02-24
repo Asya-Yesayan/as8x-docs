@@ -11,7 +11,7 @@ public static string GetEventInClefFormat(string eventId)
 
 Վերադարձնում է [Seq](https://datalust.co/)-ում գրանցված իրադարձության նկարագրությունը [Clef](https://clef-json.org/) ֆորմատով: 
 
-SEQAPIKEY համակարգային պարամետրի կամ [appsettings.json](../../../../project/appsettings_json.md) կոնֆիգուրացիոն ֆայլում [Serilog:WriteTo:Seq:Args:serverUrl](../../../../project/appsettings_json.md#լոգի-գրանցում-seq-սերվերում) (Seq սերվերի հասցեն) կոնֆիգի չլրացված լինելու դեպքում առաջանում է սխալ։
+SEQAPIKEY համակարգային պարամետրի կամ [appsettings.json](../../../../Project/appsettings_json.md) կոնֆիգուրացիոն ֆայլում [Serilog:WriteTo:Seq:Args:serverUrl](../../../../Project/appsettings_json.md#լոգի-գրանցում-seq-սերվերում) (Seq սերվերի հասցեն) կոնֆիգի չլրացված լինելու դեպքում առաջանում է սխալ։
 
 **Պարամետրեր**
 
