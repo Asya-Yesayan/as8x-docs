@@ -1,7 +1,7 @@
 import os
 import re
  
-services_dir = 'JobProcessService'
+services_dir = 'IGridRow1'
  
 for filename in os.listdir(services_dir):
     if not filename.endswith('.md'):
