@@ -59,7 +59,7 @@ public class DeleteDocsByIsnResponse
 ### Հիմնական դասի սահմանում
 
 * Հայտատարել դաս, որը 
-  * ունի [DPR ատրիբուտը](../types/attributes/DPRAttribute.md), որը պարունակում է DPR-ի տեսակը, հայերեն, անգլերեն անվանումները և թույլատրված է ընդհատումը UI-ից թե ոչ (լռությամբ թույլատրվում է ընդհատումը UI-ից)
+  * ունի [DPR ատրիբուտը](../Types/attributes/DPRAttribute.md), որը պարունակում է DPR-ի տեսակը, հայերեն, անգլերեն անվանումները և թույլատրված է ընդհատումը UI-ից թե ոչ (լռությամբ թույլատրվում է ընդհատումը UI-ից)
   * ժառանգում է `DataProcessingRequest<R, P>` դասը՝ որպես `R` փոխանցելով հարցման կատարման արդյունքում ստացվող տվյալները նկարագրող դասը, իսկ որպես `P`՝ պարամետրերը նկարագրող դասը։ 
 
   Պարամետրերի բացակայության դեպքում անհրաժեշտ է փոխանցել `NoParam` դասը, իսկ արդյունքի բացակայության դեպքում՝ `NoResult` դասը։
@@ -88,7 +88,7 @@ public DeleteDocsByIsnDPR(IDocumentService documentService, IStorageService stor
 
 Հիմնական տրամաբանությունը հարկավոր է իրականացնել [Execute](DataProcessingRequest/Methods/Execute.md) մեթոդում, այն ստանում է մուտքային պարամետրերը նկարագրող դասը և պետք է վերադարձնի կատարման արդյունքում ստացվող տվյալները նկարագրող դասը։
 
-Ստորև օրինակում նկարագրված Տվյալների մշակման հարցումը (`DPR`) հեռացնում է կատարման պարամետրում տրված ISN-ներով փաստաթղթերը համակարգից [IDocumentService](../Services/IDocument/IDocumentService.md).[Delete](../Services/IDocument/Methods/Delete.md) մեթոդի միջոցով, ստեղծում է [TextReport](../types/TextReport.md), որում լրացնում է կատարման ընթացքում առաջացած սխալները և վերադարձնում է կլիենտին։
+Ստորև օրինակում նկարագրված Տվյալների մշակման հարցումը (`DPR`) հեռացնում է կատարման պարամետրում տրված ISN-ներով փաստաթղթերը համակարգից [IDocumentService](../Services/IDocument/IDocumentService.md).[Delete](../Services/IDocument/Methods/Delete.md) մեթոդի միջոցով, ստեղծում է [TextReport](../Types/TextReport.md), որում լրացնում է կատարման ընթացքում առաջացած սխալները և վերադարձնում է կլիենտին։
 
 ```c#
 public override async Task<DeleteDocsByIsnResponse> Execute(DeleteDocsByIsnRequest request, CancellationToken stoppingToken)

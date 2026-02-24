@@ -32,4 +32,4 @@ nav_exclude: true
 | [EnglishCaption](DataProcessingRequest/Properties/EnglishCaption.md) | Վերադարձնում է տվյալների մշակման հարցման (`DPR`-ի) անգլերեն անվանումը: |
 | [Name](DataProcessingRequest/Properties/Name.md) | Վերադարձնում է տվյալների մշակման հարցման (`DPR`-ի) ներքին անունը: |
 | [Progress](DataProcessingRequest/Properties/Progress.md) | Վերադարձնում է տվյալների մշակման հարցման (`DPR`-ի) կատարման պրոգրեսը: |
-| [DPRType](DataProcessingRequest/Properties/DPRType.md) | Վերադարձնում է տվյալների մշակման հարցման (`DPR`-ի) տեսակը, որը լրացված է նկարագրվող դասի վրա [DPR ատրիբուտի](../types/attributes/DPRAttribute.md) մեջ։ |
+| [DPRType](DataProcessingRequest/Properties/DPRType.md) | Վերադարձնում է տվյալների մշակման հարցման (`DPR`-ի) տեսակը, որը լրացված է նկարագրվող դասի վրա [DPR ատրիբուտի](../Types/attributes/DPRAttribute.md) մեջ։ |
