@@ -3,6 +3,8 @@ layout: page
 title: "ErrorDetail" 
 ---
 
+# ErrorDetail դաս
+
 Այս դասը նախատեսված է ծրագրի աշխատանքի ընթացքում առաջացող սխալների նկարագրման համար։
 
 Օգտագործվում է [IErrorHandlingService](../Services/IErrorHandling/IErrorHandlingService.md).[GetSqlExceptionDetails](../Services/IErrorHandling/Methods/GetSqlExceptionDetails.md) մեթոդում։
