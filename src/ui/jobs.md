@@ -185,9 +185,9 @@ title: "Առաջադրանքների փաստաթղթեր և դիտելու ձև
 
 կատարման պրոգրեսի պատուհանի Ընդհատել կոճակի միջոցով հնարավոր է ընդհատել առաջադրանքի կատարումը։
 
-![job_execution_progress_function](Images/jobs/job_execution_progress_function.png)
+![job_execution_progress_function](images/jobs/job_execution_progress_function.png)
 
-![job_execution_progress](Images/jobs/job_execution_progress.png)
+![job_execution_progress](images/jobs/job_execution_progress.png)
 
 ## Առաջադրանքների պատմություն
 
