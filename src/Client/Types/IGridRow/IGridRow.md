@@ -10,8 +10,8 @@ nav_exclude: true
 | Անվանում | Նկարագրություն |
 |----------|----------------|
 | [ColumnHasValidationError(string)](Methods/ColumnHasValidationError.md) | Մեթոդը վերադարձնում է bool տիպի արժեք, որը ցույց է տալիս արդյոք աղյուսակի տրված սյան վալիդացիայի ընթացքում տեղի են ունեցել սխալներ, թե ոչ։  |
-| [Correct](Methods/Correct.md) | Ստուգում է սյան տրված արժեքի վալիդությունը։ |
-| [EnforcePropertyChanged](Methods/EnforcePropertyChanged.md) | Կանչում է աղյուսակի առաջին սյան [PropertyChanged](https://learn.microsoft.com/en-us/dotnet/api/system.componentmodel.inotifypropertychanged.propertychanged#system-componentmodel-inotifypropertychanged-propertychanged) իրադարձությունը։ |
+| [Correct(string, object)](Methods/Correct.md) | Եթե սյան արժեքը վալիդ է, ապա այն ձևափոխում (սերիալիզացնում) է սյան համակարգային տիպին համապատասխան ձևաչափի և վերադարձնում, հակառակ դեպքում վերադարձնում է սկզբնական (չձևափոխված) արժեքը։ |
+| [EnforcePropertyChanged()](Methods/EnforcePropertyChanged.md) | Կանչում է աղյուսակի առաջին սյան [PropertyChanged](https://learn.microsoft.com/en-us/dotnet/api/system.componentmodel.inotifypropertychanged.propertychanged#system-componentmodel-inotifypropertychanged-propertychanged) իրադարձությունը։ |
 | [EnforceValidation()](Methods/EnforceValidation.md#igridrowenforcevalidation-մեթոդ-1) |  Թարմացվում է նշված ներքին անունով սյան վալիդատորների քեշը, որպեսզի հաջորդ վալիդացիայի ժամանակ նորից կատարվի ստուգում՝ առանց քեշի օգտագործման։ Հետո կանչվում է EnforcePropertyChanged մեթոդը, որի արդյունքում սկսվում է ընթացիկ տողի վալիդացիան։ |
 | [EnforceValidation(string[])](Methods/EnforceValidation.md#igridrowenforcevalidationstring-մեթոդ) |  Թարմացվում է նշված ներքին անուններով սյուների վալիդատորների քեշը, որպեսզի հաջորդ վալիդացիայի ժամանակ նորից կատարվի ստուգում՝ առանց քեշի օգտագործման։ Հետո կանչվում է EnforcePropertyChanged մեթոդը, որի արդյունքում սկսվում է ընթացիկ տողի վալիդացիան։ |
 | [ResetForceValidationBit()](Methods/ResetForceValidationBit.md#igridrowresetforcevalidationbit-մեթոդ-1) | Թարմացվում է աղյուսակի բոլոր սյուների վալիդատորների քեշը, որպեսզի հաջորդ վալիդացիայի ժամանակ նորից կատարվի ստուգում՝ առանց քեշի օգտագործման։ |
