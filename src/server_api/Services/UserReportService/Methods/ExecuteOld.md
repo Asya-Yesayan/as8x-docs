@@ -11,8 +11,8 @@ nav_exclude: true
 
 | Անվանում | Նկարագրություն |
 |--|--|
-| [ExecuteOld&lt;T&gt;(string, CancellationToken)](#userreportserviceexecuteoldstring-cancellationtoken-մեթոդ) | Կատարում է 4x-ական օգտագործողի հաշվետվությունը և վերադարձնում է արդյունքը որպես `IList`։ |
-| [ExecuteOld(string, CancellationToken)](#userreportserviceexecuteoldstring-cancellationtoken-մեթոդ-1) | Կատարում է 4x-ական օգտագործողի հաշվետվությունը և վերադարձնում է արդյունքը որպես `IList<T>`։ |
+| [ExecuteOld(string, CancellationToken)](#userreportserviceexecuteoldstring-cancellationtoken-մեթոդ) | Կատարում է 4x-ական օգտագործողի հաշվետվությունը և վերադարձնում է արդյունքը որպես `IList`։ |
+| [ExecuteOld&lt;T&gt;(string, CancellationToken)](#userreportserviceexecuteoldstring-cancellationtoken-մեթոդ-1) | Կատարում է 4x-ական օգտագործողի հաշվետվությունը և վերադարձնում է արդյունքը որպես `IList<T>`։ |
 
 ### UserReportService.ExecuteOld(string, CancellationToken) մեթոդ
 
