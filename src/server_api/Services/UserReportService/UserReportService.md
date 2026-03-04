@@ -21,6 +21,5 @@ UserReportService դասը նախատեսված է օգտագործողի հաշ
 | [AddOrEdit(ReportModel)](Methods/AddOrEdit.md) | ReportModel.Id ներքին նույնականացման համարով (id) օգտագործողի հաշվետվության առկայության դեպքում թարմացնում է հաշվետվության նկարագրությունը, հակառակ դեպքում ստեղծում է նորը։ |
 | [Delete(int)](Methods/Delete.md) | Հեռացնում է օգտագործողի հաշվետվությունը համակարգից։ |
 | [GetAllReports](Methods/GetAllReports.md) | Վերադարձնում է համակարգում առկա բոլոր օգտագործողի հաշվետվությունների նկարագրությունների ցուցակը։ |
-| [ExecuteOld(string, CancellationToken)](Methods/ExecuteOld.md) | Կատարում է 4x-ական օգտագործողի հաշվետվությունը և վերադարձնում է արդյունքը որպես `IList`։ |
 
 
