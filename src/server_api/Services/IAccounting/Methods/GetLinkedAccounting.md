@@ -1,4 +1,4 @@
-﻿---
+---
 title: GetLinkedAccounting
 parent: "Մեթոդներ"
 grand_parent: "IAccountingService"
@@ -19,3 +19,5 @@ public string GetLinkedAccounting(ref string acc)
 | Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
 |-----------------|----------------------|----------------|----------------|
 | acc             | string               | -              | Հաշվառման կոդ (ներքին անուն):|
+
+

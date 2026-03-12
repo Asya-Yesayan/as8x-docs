@@ -1,4 +1,4 @@
-﻿---
+---
 title: CalculateCacheRemFull
 parent: "Մեթոդներ"
 grand_parent: "IAccountingService"
@@ -31,3 +31,5 @@ public Task CalculateCacheRemFull(string accountingType,
 | cacheDate3      | DateTime?            | -              | Երրորդ ամսաթիվը, որի համար հաշվարկվում է մնացորդը։ |
 | cacheDate4      | DateTime?            | -              | Չորրորդ ամսաթիվը, որի համար հաշվարկվում է մնացորդը։ |
 | cacheDate5      | DateTime?            | -              | Հինգերորդ ամսաթիվը, որի համար հաշվարկվում է մնացորդը։ |
+
+

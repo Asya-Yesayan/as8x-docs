@@ -1,4 +1,4 @@
-﻿---
+---
 title: CalculateCacheRem
 parent: "Մեթոդներ"
 grand_parent: "IAccountingService"
@@ -23,3 +23,5 @@ public Task CalculateCacheRem(string accountingType,
 |-----------------|----------------------|----------------|----------------|
 | accountingType  | string               | -              | Հաշվառման կոդ (ներքին անուն): |
 | isn             | int                  | -              | Հաշվառման օբյեկտի ներքին նույնականացման համար։ |
+
+
