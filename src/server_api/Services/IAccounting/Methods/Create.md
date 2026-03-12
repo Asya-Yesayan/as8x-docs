@@ -2,6 +2,8 @@
 title: Create
 ---
 
+# Create մեթոդ
+
 ## Նկարագիր
 
 **Դաս՝** [IAccountingService](../../IAccounting/IAccountingService.md)
