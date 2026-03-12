@@ -3,6 +3,7 @@ layout: page
 title: "Սերվիսներ"
 nav_order: 1
 has_toc: false
+has_children: true
 ---
 
 # Սերվիսներ
