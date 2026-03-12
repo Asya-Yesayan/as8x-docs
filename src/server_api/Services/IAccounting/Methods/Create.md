@@ -1,7 +1,5 @@
 ﻿---
 title: Create
-parent: "Մեթոդներ"
-grand_parent: "IAccountingService"
 ---
 
 ## Նկարագիր
@@ -12,10 +10,10 @@ grand_parent: "IAccountingService"
 public Accounting Create(string name)
 ```
 
-Ստեղծում է և վերադարձնում [Accounting](../../../Definitions/Accounting/Accounting.md) դասի նոր օբյեկտ։
+Ստեղծում է և վերադարձնում [Accounting](../../../Definitions/Accounting/Accounting.md)
 
 **Պարամետրեր**
 
-| Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
-|-----------------|----------------------|----------------|----------------|
-| name            | string               | -              | Հաշվառման կոդ (ներքին անուն): |
+| Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
+|----------|---------------|-----------------|----------------|
+| name     | string        | -               | Հաշվառման կոդ (ներքին անուն): |
