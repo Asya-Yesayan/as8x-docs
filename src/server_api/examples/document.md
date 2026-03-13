@@ -45,3 +45,4 @@ doc["ENAME"] = "Payment order";
 // Փաստաթղթի գրանցում տվյալների պահոցում Store մեթոդով
 await this.documentService.Store(doc);
 ```
+

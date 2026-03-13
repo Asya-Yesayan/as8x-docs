@@ -32,3 +32,4 @@ public class AttachmentModel
 | LastModifiedDate | DateTime?       |      -           | Կցված ֆայլում վերջին փոփոխության ամսաթիվը/ժամանակ։   |
 | ComputerName     | string          |       -          | Համակարգչի անունը, որից կատարվել է կցված ֆայլում վերջին փոփոխությունը։ |
 | Size             | int             |       -          | Կցված ֆայլի չափը բայթերով։    |
+

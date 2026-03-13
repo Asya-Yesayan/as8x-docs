@@ -45,3 +45,4 @@ public class TreeElement
 | Branch       | string        | string.Empty    | Ծառի հանգույցի գրասենյակի կոդը։ |
 | Depart       | string        | string.Empty    | Ծառի հանգույցի բաժնի կոդը։  |
 | ErrorMessage | string        | string.Empty    | Սխալի հաղորդագրության տեքստը, որը ցույց կտրվի արդեն գոյություն ունեցացող կոդով հանգույց ավելացնելու դեպքում։ |
+

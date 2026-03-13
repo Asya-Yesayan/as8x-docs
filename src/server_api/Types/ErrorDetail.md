@@ -31,4 +31,3 @@ public class ErrorDetail
 | Message  | string        |   -              | Սխալի հաղորդագրությունը։ |
 | Number   | int           | -1              | Սխալի համարը։            |
 
-

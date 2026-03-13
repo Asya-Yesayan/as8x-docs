@@ -20,3 +20,4 @@ public class RefolderArgs : DocumentOperationArgs
 | StartDate |    DateTime?           |       -          | Ինդեքսավորվում են միայն տվյալ ամսաթվից հետո ստեղծված փաստաթղթերը։ |
 | EndDate   |    DateTime?           |       null          | Ինդեքսավորվում են միայն տվյալ ամսաթվից առաջ ստեղծված փաստաթղթերը։ |
 | DocTypes  |    List<string>           |       -          | Ինդեքսավորվող փաստաթղթերի տեսակների (ներքին անունների) ցուցակ։    |
+

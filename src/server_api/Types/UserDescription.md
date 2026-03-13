@@ -42,3 +42,4 @@ public class UserDescription
 | SidData               | byte[]        |       -          | Active Directory եղանակով նույնականացվող օգտագործողի ներքին նույնականացման համարը։ |
 | IsActiveDirectoryUser | bool          |       -          | Ցույց է տալիս օգտագործողի նույնականացման եղանակը Active Directory տեսակի է, թե ոչ։  |
 | IsSqlUser             | bool          |       -          | Ցույց է տալիս օգտագործողի նույնականացման եղանակը SQL-ով է, թե ոչ։ |
+

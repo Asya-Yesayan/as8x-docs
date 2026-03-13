@@ -16,3 +16,4 @@ public TextReport(IStorageService storageService,
 |----------|-------|-----------------|----------------|
 | storageService | [IStorageService](../../Services/IStorage/IStorageService.md) | - | IStorageService դասի օբյեկտ։ |
 | cleanupMode | [TempFileCleanupMode](../TempFileCleanupMode.md) | Auto | Տեքստային հաշվետվությունը պարունակող ֆայլի հեռացման ռեժիմ։ |
+

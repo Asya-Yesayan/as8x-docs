@@ -25,3 +25,4 @@ public Task Stop(Guid id,
 |-----------------|----------------------|----------------|----------------|
 | id              | Guid                 | -              | [Փաստաթղթի](../../../Definitions/Document/Document.md), [տվյալների աղբյուրի](../../../Definitions/DataSource/DataSource.md) կամ [DPR](../../../Definitions/DataProcessingRequest/DataProcessingRequest.md)-ի կատարման առաջադրանքի id-ն։ |
 | param           | object               | -              | Օգտագործվում է ընդհատման համար լրացուցիչ պարամետրերի փոխանցման համար։ Այս պահին միայն [տվյալների աղբյուրի](../../../Definitions/DataSource/DataSource.md) կատարման առաջադրանքին հնարավոր է փոխանցել `bool` տիպի պարամետր, որով որոշվում է կատարման առաջադրանքից ընդհատումից հետո տվյալների աղբյուրի տողերը պետք է հավելյալ մշակվեն [AfterDataReaderClose](../../../Definitions/DataSource/Methods/AfterDataReaderClose.md) մեթոդի միջոցով թե ոչ։ `true` արժեքի դեպքում տողերը հավելյալ չեն մշակվում։ |
+

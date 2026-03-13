@@ -15,3 +15,4 @@ protected virtual void Configure(IParametersService parametersService)
 | Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
 |-----------------|----------------------|----------------|----------------|
 | parametersService | IParametersService   | -              | [IParametersService](../../../../server_api/Services/IParameters/IParametersService.md) դասի օբյեկտ։ |
+

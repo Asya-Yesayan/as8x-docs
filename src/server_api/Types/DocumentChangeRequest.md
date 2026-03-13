@@ -37,3 +37,4 @@ public class DocumentChangeRequest
 | EmptyMessage       | string        |      -           | Դատարկ փաստաթղթի հայտ գրանցել փորձելիս առաջացող սխալի հաղորդագրությունը։ Եթե արժեքը դատարկ տող է, ապա առաջանում է ստանդարտ տեքստով սխալ։ |
 | ReFolderDocument   | bool          |      -           | true արժեքի դեպքում փաստաթղթի փոփոխման հայտը մերժելիս փաստաթուղթը [վերաինդեքսավորում է թղթապանակներում](../Services/IDocument/Methods/ReFolder.md)։ |
 | CreationLogMessage | string        |       -          | Փաստաթղթի փոփոխման հայտի ստեղծման ժամանակ [փաստաթղթի պատմությունում](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Database/DocLog.html) գրանցվող հաղորդագրությունը։ |
+

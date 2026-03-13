@@ -13,3 +13,4 @@ public Task NestedTransaction(NestedTransactionEventArgs<T> args)
 | Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
 |-----------------|----------------------|----------------|----------------|
 | args            | NestedTransactionEventArgs<T> | -              | **NestedTransactionEventArgs** դասի օբյեկտ, որը պարունակում է **values** ցուցակի ընթացիկ մշակվող տարրը։ |
+

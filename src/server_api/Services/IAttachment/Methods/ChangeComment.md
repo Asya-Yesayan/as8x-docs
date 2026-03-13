@@ -22,3 +22,4 @@ public Task<AttachmentModel> ChangeComment(AttachmentCommentModel attachment)
 | Անվանում        | Տվյալների տիպ        | Լռությամբ արժեք | Նկարագրություն |
 |-----------------|----------------------|----------------|----------------|
 | attachment      | AttachmentCommentModel | -              | [Մեկնաբանությունը փոփոխման տվյալներ](../../../Types/AttachmentCommentModel.md)՝ փաստաթղթի ISN, ֆայլի անուն, մեկնաբանություն։ |
+

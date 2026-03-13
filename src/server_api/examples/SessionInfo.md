@@ -43,3 +43,4 @@ public async Task WriteLog(string operationCode, string comment)
     await cmd.ExecuteNonQueryAsync();
 }
 ```
+

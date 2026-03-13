@@ -41,3 +41,4 @@ public class FolderElement
 | ErrorMessage | string        | string.Empty      | Սխալի հաղորդագրության տեքստը, որը ցույց կտրվի արդեն գոյություն ունեցացող կոդով տարր ավելացնելու դեպքում։   |
 | Branch       | string        | string.Empty      | Թղթապանակի տարրի գրասենյակի կոդը։  |
 | Depart       | string        | string.Empty      | Թղթապանակի բաժնի կոդը։ |
+

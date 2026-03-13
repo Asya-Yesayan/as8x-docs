@@ -19,3 +19,4 @@ public class NestedTransactionErrorEventArgs<T>
 | Value        |      T         |      -           | [IDocumentService.NestedTransactions](../../Services/IDocument/Methods/NestedTransactions.md) մեթոդով մշակվող հերթական տարրը, որի մշակման ընթացքում առաջացել է սխալ։                                |
 | Report       |     TextReport.TextReport          |        -         | [IDocumentService.NestedTransactions](../../Services/IDocument/Methods/NestedTransactions.md) մեթոդի կատարման ընթացքում առաջացած սխալները պարունակող [տեքստային հաշվետվությունը](../TextReport.md)։ |
 | ErrorMessage |    string           |        -         |       |
+
