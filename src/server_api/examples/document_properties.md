@@ -1,5 +1,6 @@
 ---
 title: "Փաստաթղթի Properties-ի հետ աշխատանքի օրինակ" 
+nav_exclude: true
 ---
 
 # Փաստաթղթի Properties-ի հետ աշխատանքի օրինակ

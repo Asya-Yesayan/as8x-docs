@@ -1,5 +1,6 @@
 ---
 title: "Փաստաթղթում Custom UI Request-ի ավելացման օրինակ" 
+nav_exclude: true
 ---
 
 # Փաստաթղթում Custom UI Request-ի ավելացման օրինակ

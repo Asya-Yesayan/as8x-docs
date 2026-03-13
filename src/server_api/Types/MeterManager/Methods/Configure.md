@@ -1,5 +1,6 @@
 ---
 title: Configure
+nav_exclude: true
 ---
 
 # MeterManager.Configure(IParametersService) մեթոդ

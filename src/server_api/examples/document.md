@@ -2,6 +2,7 @@
 layout: page
 title: "Փաստաթղթի օգտագործման օրինակներ" 
 tags: [Doc, Document]
+nav_exclude: true
 ---
 
 # Փաստաթղթի օգտագործման օրինակներ

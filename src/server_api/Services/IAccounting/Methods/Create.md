@@ -1,5 +1,6 @@
 ---
 title: Create
+nav_exclude: true
 ---
 
 # IAccountService.Create մեթոդ

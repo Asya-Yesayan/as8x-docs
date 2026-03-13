@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "DocumentAttribute" 
+nav_exclude: true
 ---
 
 # DocumentAttribute ատրիբուտ

@@ -1,5 +1,6 @@
 ---
 title: TextReport.TextReport(IStorageService, TempFileCleanupMode) կոնստրուկտոր
+nav_exclude: true
 ---
 
 # TextReport.TextReport(IStorageService, TempFileCleanupMode) կոնստրուկտոր

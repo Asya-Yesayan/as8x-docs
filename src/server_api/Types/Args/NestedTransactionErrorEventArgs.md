@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "NestedTransactionErrorEventArgs" 
+nav_exclude: true
 ---
 
 # NestedTransactionErrorEventArgs դաս

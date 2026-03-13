@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "Օրինակ SessionInfo, SUID, UserID, QueryTimeout, IsAdmin, WkDate"
+nav_exclude: true
 ---
 
 # SessionInfo, SUID, UserID, QueryTimeout, IsAdmin, WkDate օրինակ

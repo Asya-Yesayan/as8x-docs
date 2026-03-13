@@ -26,4 +26,3 @@ public Task ReFolder(Document document,
 |-----------------|----------------------|----------------|----------------|
 | document        | Document             | -              | [Փաստաթղթի օբյեկտ](../../../Definitions/Document/Document.md)։ |
 | mode            | StoreMode            | -              | [Փաստաթղթի պահպանման ռեժիմը](../../../Types/StoreMode.md)։ |
-  Տե՛ս [Document](../../../Definitions/Document/Document.md).[StoreMode](../../../Definitions/Document/Properties/StoreMode.md) հատկությունը։
