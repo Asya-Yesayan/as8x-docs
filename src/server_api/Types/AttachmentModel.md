@@ -1,4 +1,4 @@
-﻿---
+---
 layout: page
 title: "AttachmentModel դաս" 
 nav_exclude: true

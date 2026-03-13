@@ -1,4 +1,4 @@
-﻿---
+---
 title: "DocumentLockMode enum"
 nav_exclude: true 
 ---

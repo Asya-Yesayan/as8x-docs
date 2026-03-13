@@ -1,4 +1,4 @@
-﻿---
+---
 layout: page
 title: "Օրինակ SessionInfo, SUID, UserID, QueryTimeout, IsAdmin, WkDate"
 ---

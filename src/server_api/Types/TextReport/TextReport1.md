@@ -1,4 +1,4 @@
-﻿---
+---
 title: TextReport.TextReport(IStorageService, TempFileCleanupMode) կոնստրուկտոր
 ---
 

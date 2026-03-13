@@ -1,4 +1,4 @@
-﻿---
+---
 title: OnAdd
 parent: "Մեթոդներ"
 grand_parent: "Հաշվառում"

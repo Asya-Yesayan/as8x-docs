@@ -1,4 +1,4 @@
-﻿---
+---
 title: Copy
 parent: "Մեթոդներ"
 grand_parent: "IAttachmentService"

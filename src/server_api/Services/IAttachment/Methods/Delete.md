@@ -1,4 +1,4 @@
-﻿---
+---
 title: Delete
 parent: "Մեթոդներ"
 grand_parent: "IAttachmentService"

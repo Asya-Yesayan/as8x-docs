@@ -1,4 +1,4 @@
-﻿---
+---
 layout: page
 title: "SessionInfo դաս" 
 nav_exclude: true

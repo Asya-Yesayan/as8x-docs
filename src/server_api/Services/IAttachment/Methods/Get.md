@@ -1,4 +1,4 @@
-﻿---
+---
 title: Get
 parent: "Մեթոդներ"
 grand_parent: "IAttachmentService"

@@ -1,4 +1,4 @@
-﻿---
+---
 title: OnDelete
 parent: "Մեթոդներ"
 grand_parent: "Հաշվառում"

@@ -1,4 +1,4 @@
-﻿---
+---
 layout: page
 title: "MailArgs" 
 nav_exclude: true

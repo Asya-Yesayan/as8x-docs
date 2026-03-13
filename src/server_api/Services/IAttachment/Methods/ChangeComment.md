@@ -1,4 +1,4 @@
-﻿---
+---
 title: ChangeComment
 parent: "Մեթոդներ"
 grand_parent: "IAttachmentService"

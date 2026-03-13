@@ -1,4 +1,4 @@
-﻿---
+---
 layout: page
 title: "Փաստաթղթի օգտագործման օրինակներ" 
 tags: [Doc, Document]

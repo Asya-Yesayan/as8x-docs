@@ -1,4 +1,4 @@
-﻿---
+---
 layout: page
 title: "DocumentChangeRequest" 
 tags: [DocChangeRequest, DCR]

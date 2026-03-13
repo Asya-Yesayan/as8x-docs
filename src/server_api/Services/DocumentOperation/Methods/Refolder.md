@@ -1,4 +1,4 @@
-﻿---
+---
 title: Refolder
 parent: "Մեթոդներ"
 grand_parent: "DocumentOperationService"

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Stop
 parent: "Մեթոդներ"
 grand_parent: "IProcessServerClient"
