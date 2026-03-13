@@ -2,6 +2,8 @@
 title: "RefolderArgs դաս"
 ---
 
+# RefolderArgs դաս
+
 Այս դասը պարունակում է փաստաթղթերի վերաինդեքսավորման համար անհրաժեշտ տվյալներ և օգտագործվում է [DocumentOperationService](../../Services/DocumentOperation/DocumentOperationService.md)-ի [Refolder](../../Services/DocumentOperation/Methods/Refolder.md) մեթոդում։
 
 ```c#

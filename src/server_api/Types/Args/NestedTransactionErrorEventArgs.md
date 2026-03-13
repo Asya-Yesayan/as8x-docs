@@ -3,6 +3,8 @@ layout: page
 title: "NestedTransactionErrorEventArgs" 
 ---
 
+# NestedTransactionErrorEventArgs դաս
+
 Այս դասը օգտագործվում է [IDocumentNestedTransactionWithError.NestedTransactionError](../IDocumentNestedTransactionWithError/Methods/NestedTransactionError.md) մեթոդում։
 
 ```c#

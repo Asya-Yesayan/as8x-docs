@@ -3,6 +3,8 @@ title: IDocumentNestedTransaction դաս
 nav_exclude: true
 ---
 
+# IDocumentNestedTransaction դաս
+
 ## Մեթոդներ
 
 | Անվանում | Նկարագրություն |

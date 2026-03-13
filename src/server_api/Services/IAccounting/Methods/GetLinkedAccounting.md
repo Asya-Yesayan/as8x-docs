@@ -4,6 +4,8 @@ parent: "Մեթոդներ"
 grand_parent: "IAccountingService"
 ---
 
+# IAccountingService.GetLinkedAccounting(string) մեթոդ
+
 ## Նկարագիր
 
 **Դաս՝** [IAccountingService](../../IAccounting/IAccountingService.md)

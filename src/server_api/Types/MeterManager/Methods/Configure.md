@@ -2,6 +2,8 @@
 title: Configure
 ---
 
+# MeterManager.Configure(IParametersService) մեթոդ
+
 ```c#
 protected virtual void Configure(IParametersService parametersService)
 ```

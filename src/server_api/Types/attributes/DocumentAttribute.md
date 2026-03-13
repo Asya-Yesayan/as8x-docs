@@ -3,6 +3,8 @@ layout: page
 title: "DocumentAttribute" 
 ---
 
+# DocumentAttribute ատրիբուտ
+
 Document ատրիբուտը նախատեսված է [Document](../../Definitions/Document/Document.md)-ը նկարագրող դասի վրա դնելու համար։
 
 ```c#

@@ -3,6 +3,8 @@ layout: page
 title: "Օրինակ SessionInfo, SUID, UserID, QueryTimeout, IsAdmin, WkDate"
 ---
 
+# SessionInfo, SUID, UserID, QueryTimeout, IsAdmin, WkDate օրինակ
+
 ISessionInfoService, GetInfo, DsQueryTimeout օգտագործման օրինակներ։
 
 Ընթացիկ սեսսիայի հետ կապված օրինակ

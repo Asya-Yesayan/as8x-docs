@@ -2,6 +2,8 @@
 title: "Փաստաթղթի Properties-ի հետ աշխատանքի օրինակ" 
 ---
 
+# Փաստաթղթի Properties-ի հետ աշխատանքի օրինակ
+
 Այս օրինակում`
 * [ստեղծվում](../Services/IDocument/Methods/Create.md) է **Doc1** տիպի փաստաթուղթ, [արժեքավորվում](../Definitions/Document/Properties/indexer.md) են որոշ դաշտեր և փաստաթուղթը ավելացվում է ընթացիկ փաստաթղթի [Properties](../Definitions/Document/Properties/Properties.md)-ում,
 * [SerializeComplexObjects](../Definitions/Document/Methods/SerializeComplexObjects.md) մեթոդում ստուգվում է [Properties](../Definitions/Document/Properties/Properties.md)-ում "DocName" անունով տարրի (փաստաթղթի) առկայությունը և առկայության դեպքում այն սերիալիզացվում է **DocumentModel** տիպի՝ [IDocumentService](../Services/IDocument/IDocumentService.md)-ի [SerializeResponseBody](../Services/IDocument/Methods/SerializeResponseBody.md) մեթոդի միջոցով,

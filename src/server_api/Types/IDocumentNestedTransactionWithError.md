@@ -3,6 +3,8 @@ title: IDocumentNestedTransactionWithError դաս
 nav_exclude: true
 ---
 
+# IDocumentNestedTransactionWithError դաս
+
 ## Մեթոդներ
 
 | Անվանում | Նկարագրություն |

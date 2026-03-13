@@ -4,6 +4,8 @@ title: "Descriptor դաս"
 nav_exclude: true
 ---
 
+# Descriptor դաս
+
 Դասը նախատեսված է համակարգային պարամետրի նկարագրման համար։
 
 Օգտագործվում է [IParametersService](../Services/IParameters/IParametersService.md).[GetDescriptor](../Services/IParameters/Methods/GetDescriptor.md) մեթոդում։

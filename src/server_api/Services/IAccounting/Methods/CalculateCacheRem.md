@@ -4,6 +4,8 @@ parent: "Մեթոդներ"
 grand_parent: "IAccountingService"
 ---
 
+# IAccountingService.CalculateCacheRem(string, int) մեթոդ
+
 ## Նկարագիր
 
 **Համարժեքը 4x-ում՝** AsUtil.CalculateCacheRem

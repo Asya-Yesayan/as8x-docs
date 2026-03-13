@@ -3,6 +3,8 @@ title: "DocumentLockMode enum"
 nav_exclude: true 
 ---
 
+# DocumentLockMode enum
+
 Այս enum-ը նախատեսված է փաստաթղթի [բեռնման](../Services/IDocument/Methods/Load.md) ժամանակ տվյալների պահոցում կիրառվող արգելափակման (lock) ռեժիմի սահմանման համար։
 
 ```c#

@@ -4,6 +4,8 @@ parent: "Մեթոդներ"
 grand_parent: "DocumentOperationService"
 ---
 
+# DocumentOperationService.Refolder(RefolderArgs, TextReport, CancellationToken) մեթոդ
+
 ## Նկարագիր
 
 **Համարժեքը 4x-ում՝** [AsUtil.ReindexDocs](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/Functions/ReindexDocs.html)

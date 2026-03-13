@@ -4,6 +4,8 @@ parent: "Մեթոդներ"
 grand_parent: "AppLogService"
 ---
 
+# AppLogService.Write(AppLogInfo) մեթոդ
+
 ## Նկարագիր
 
 **Համարժեքը 4x-ում՝** AsUtil.WriteToAppLog

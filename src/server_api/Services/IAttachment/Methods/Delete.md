@@ -4,6 +4,8 @@ parent: "Մեթոդներ"
 grand_parent: "IAttachmentService"
 ---
 
+# IAttachmentService.Delete(int, string) մեթոդ
+
 ## Նկարագիր
 
 **Համարժեքը 4x-ում՝** [AsAttachmentCollection.Remove](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/Functions/AsAttachmentCollection/Remove.html)

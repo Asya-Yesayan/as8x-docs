@@ -3,8 +3,8 @@ title: this
 nav_exclude: true
 ---
 
+# IGridRow.this հատկություն
 
-### IGridRow.this հատկություն
 
 ```c#
 public object this[int index] { get; set; }

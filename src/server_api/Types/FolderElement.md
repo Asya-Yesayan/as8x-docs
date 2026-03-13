@@ -5,6 +5,8 @@ tags: AsFoldElement
 nav_exclude: true
 ---
 
+# FolderElement դաս
+
 Այս դասը նախատեսված է թղթապանակի տարրի նկարագրման համար։
 
 Օգտագործվում է [IDocumentService](../Services/IDocument/IDocumentService.md).[StoreInFolder](../Services/IDocument/Methods/StoreInFolder.md) և [IFolderService](../Services/IFolder/IFolderService.md)-ի ֆունկցիաներում։

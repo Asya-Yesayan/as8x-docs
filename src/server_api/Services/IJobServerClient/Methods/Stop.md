@@ -4,6 +4,8 @@ parent: "Մեթոդներ"
 grand_parent: "IProcessServerClient"
 ---
 
+# IJobServerClient.Stop(Guid, object) մեթոդ
+
 ## Նկարագիր
 
 **Դաս՝** [IJobServerClient](../IJobServerClient.md)

@@ -4,6 +4,8 @@ title: "AppLogInfo"
 nav_exclude: true
 ---
 
+# AppLogInfo դաս
+
 Այդ դասը նախատեսված է հատուկ իրադարձության (տարբերակի փոփոխություն, Debug-ի գործարկում...) մանրամասների նկարագրման համար։
 
 Օգտագործվում է [AppLogService](../Services/AppLog/AppLogService.md).[Write](../Services/AppLog/AppLogService.md) մեթոդում։

@@ -2,6 +2,8 @@
 title: NestedTransactionError
 ---
 
+# IDocumentNestedTransactionWithError.NestedTransactionError(NestedTransactionErrorEventArgs<T>) մեթոդ
+
 ```c#
 public Task NestedTransactionError(NestedTransactionErrorEventArgs<T> args)
 ```

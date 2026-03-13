@@ -4,6 +4,8 @@ parent: "Մեթոդներ"
 grand_parent: "IAttachmentService"
 ---
 
+# IAttachmentService.Copy(int, int, bool) մեթոդ
+
 ## Նկարագիր
 
 **Դաս՝** [IAttachmentService](../../IAttachment/IAttachmentService.md)

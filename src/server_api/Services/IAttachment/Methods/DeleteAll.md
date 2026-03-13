@@ -4,6 +4,8 @@ parent: "Մեթոդներ"
 grand_parent: "IAttachmentService"
 ---
 
+# IAttachmentService.DeleteAll(int) մեթոդ
+
 ## Նկարագիր
 
 **Դաս՝** [IAttachmentService](../../IAttachment/IAttachmentService.md)

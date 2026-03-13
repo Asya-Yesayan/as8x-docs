@@ -4,6 +4,8 @@ title: "UserDescription դաս"
 nav_exclude: true
 ---
 
+# UserDescription դաս
+
 Այս դասը նախատեսված է համակարգի օգտագործողի նկարագրման համար։
 
 Օգտագործվում է [IUserService](../Services/IUser/IUserService.md).[UserElProp](../Services/IUser/Methods/UserElProp.md), [UserManagerService](../Services/UserManager/UserManagerService.md).[GetUnhiddenUsers](../Services/UserManager/Methods/GetUnhiddenUsers.md) մեթոդներում։

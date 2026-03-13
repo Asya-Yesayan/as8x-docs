@@ -2,6 +2,8 @@
 title: TextReport.TextReport(IStorageService, TempFileCleanupMode) կոնստրուկտոր
 ---
 
+# TextReport.TextReport(IStorageService, TempFileCleanupMode) կոնստրուկտոր
+
 ```c#
 public TextReport(IStorageService storageService, 
                   TempFileCleanupMode cleanupMode = TempFileCleanupMode.Auto)

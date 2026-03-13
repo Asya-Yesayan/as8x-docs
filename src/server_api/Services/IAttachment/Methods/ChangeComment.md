@@ -4,6 +4,8 @@ parent: "Մեթոդներ"
 grand_parent: "IAttachmentService"
 ---
 
+# IAttachmentService.ChangeComment(AttachmentCommentModel) մեթոդ
+
 ## Նկարագիր
 
 **Համարժեքը 4x-ում՝** ASAttachment.ChangeComment

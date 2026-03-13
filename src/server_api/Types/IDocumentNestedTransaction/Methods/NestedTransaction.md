@@ -2,6 +2,8 @@
 title: NestedTransaction
 ---
 
+# IDocumentNestedTransaction.NestedTransaction(NestedTransactionEventArgs<T>) մեթոդ
+
 ```c#
 public Task NestedTransaction(NestedTransactionEventArgs<T> args)
 ```

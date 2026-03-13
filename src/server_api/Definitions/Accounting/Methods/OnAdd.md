@@ -4,6 +4,8 @@ parent: "Մեթոդներ"
 grand_parent: "Հաշվառում"
 ---
 
+# Accounting.OnAdd(OnAddEventArgs) մեթոդ
+
 ## Նկարագիր
 
 **Համարժեքը 4x-ում՝** [OnAdd](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/ScriptProcs/OnAdd.html)

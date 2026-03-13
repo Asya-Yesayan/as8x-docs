@@ -4,6 +4,8 @@ title: "Փաստաթղթի օգտագործման օրինակներ"
 tags: [Doc, Document]
 ---
 
+# Փաստաթղթի օգտագործման օրինակներ
+
 ## Օրինակ 1
 
 Բեռնել 2319 isn-ով փաստաթուղթը [DocumentService](../Services/IDocument/IDocumentService.md) դասի [Load](../Services/IDocument/Methods/Load.md) մեթոդով։ Ստանալ փաստաթղթի մուտքագրման դաշտերը Description հատկության  Fields հատկության միջոցով, առանձնացնել և պահել պարտադիր լրացման դաշտերը։

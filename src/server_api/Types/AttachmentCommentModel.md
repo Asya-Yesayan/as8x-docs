@@ -4,6 +4,8 @@ title: "AttachmentCommentModel դաս"
 nav_exclude: true 
 ---
 
+# AttachmentCommentModel դաս
+
 Դասը պարունակում է փաստաթղթին կցված ֆայլի մեկնաբանությունը փոխելու տվյալներ։
 
 Օգտագործվում է [IAttachmentService](../Services/IAttachment/IAttachmentService.md).[ChangeComment](../Services/IAttachment/Methods/ChangeComment.md) մեթոդով փաստաթղթին կցված ֆայլի մեկնաբանությունը փոխելուց։

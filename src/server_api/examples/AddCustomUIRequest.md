@@ -2,6 +2,8 @@
 title: "Փաստաթղթում Custom UI Request-ի ավելացման օրինակ" 
 ---
 
+# Փաստաթղթում Custom UI Request-ի ավելացման օրինակ
+
 Այս օրինակում [բեռնվում](../Services/IDocument/Methods/Load.md) են ընթացիկ փաստաթղթի [ծնող փաստաթղթերը](../Services/IDocument/Methods/GetDocumentParents.md), ծնող փաստաթղթերի մասին ինֆորմացիան ավելացվում է [տեքստային հաշվետվությունում](../Types/TextReport.md), որը պահվում է ընթացիկ սեսսիայի [կոնտեյներում](../Services/IStorage/Properties/Container.md)՝ [SaveToStorageAndClose](../Types/TextReport/Methods/SaveToStorageAndClose.md) մեթոդի միջոցով: Պահված հաշվետվությունը պարունակող թղթապանակի, ֆայլի անունները ուղարկվում են կլիենտական հատված [AddCustomUIRequest](../Types/UIRequestExecutionProgress/Methods/AddCustomUIRequest.md) մեթոդի միջոցով՝ փոխանցելով `StoragInfo` տիպի օբյեկտ։
 
 ```c#

@@ -4,6 +4,8 @@ parent: "Մեթոդներ"
 grand_parent: "IAttachmentService"
 ---
 
+# IAttachmentService.Get(int, string) մեթոդ
+
 ## Նկարագիր
 
 **Համարժեքը 4x-ում՝** AsAttachmentCollection.Item

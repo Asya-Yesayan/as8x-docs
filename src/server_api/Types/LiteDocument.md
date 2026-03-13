@@ -3,6 +3,8 @@ title: LiteDocument դաս
 nav_exclude: true
 ---
 
+# LiteDocument դաս
+
 ## Ներածություն
 
 LiteDocument դասը նախատեսված է փաստաթուղթը քեշավորելու համար։

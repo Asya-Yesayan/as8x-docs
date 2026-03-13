@@ -5,6 +5,8 @@ tags: [DocChangeRequest, DCR]
 nav_exclude: true
 ---
 
+# DocumentChangeRequest դաս
+
 Այս դասը նախատեսված է փաստաթղթի փոփոխման հայտի նկարագրման համար։
 
 Օգտագործվում է `IDocumentChangeRequestService` սերվիսի ֆունկցիաներում։

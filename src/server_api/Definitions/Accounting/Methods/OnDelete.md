@@ -4,6 +4,8 @@ parent: "Մեթոդներ"
 grand_parent: "Հաշվառում"
 ---
 
+# Accounting.OnDelete(OnDeleteEventArgs) մեթոդ
+
 ## Նկարագիր
 
 **Համարժեքը 4x-ում՝** [OnDelete](https://armsoft.github.io/as4x-docs/HTM/ProgrGuide/ScriptProcs/OnDelete.html)

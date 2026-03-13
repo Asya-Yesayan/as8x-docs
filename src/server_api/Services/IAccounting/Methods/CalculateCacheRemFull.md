@@ -4,6 +4,8 @@ parent: "Մեթոդներ"
 grand_parent: "IAccountingService"
 ---
 
+# IAccountingService.CalculateCacheRemFull(string, DateTime?, DateTime?, DateTime?, DateTime?, DateTime?) մեթոդ
+
 ## Նկարագիր
 
 **Համարժեքը 4x-ում՝** AsUtil.CalculateCacheRemFull
