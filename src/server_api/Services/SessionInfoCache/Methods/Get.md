@@ -1,7 +1,7 @@
 ---
 title: Get
 parent: "Մեթոդներ"
-grand_parent: "SessionInfoCacheService
+grand_parent: "SessionInfoCacheService"
 
 ---
 
