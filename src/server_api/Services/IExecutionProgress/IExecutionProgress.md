@@ -1,4 +1,4 @@
-﻿---
+---
 title: "IExecutionProgress"
 parent: "Սերվիսներ"
 nav_order: 2
@@ -26,5 +26,7 @@ has_toc: false
 | [SaveToStorageAsText(StorageInfo, bool, bool, bool)](Methods/SaveToStorageAsText.md) | Պահպանում է [տեքստային հաշվետվության](../../Types/TextReport.md) պարունակությունը ֆայլի մեջ։ |
 | [RecordWarning(IEnumerable&lt;string&gt;, int, string, int, Dictionary&lt;string, object&gt;)](Methods/RecordWarning.md#iexecutionprogressrecordwarningienumerable-int-string-int-dictionarystring-object-մեթոդ) | Ավելացնում է նոր տողեր [տեքստային հաշվետվությունում](../../Types/TextReport.md), եթե մեթոդը չի կանչվել առաջադրանքի կատարման ժամանակ։ <br> Առաջադրանքի կատարման ընթացքում կանչի դեպքում միայն [Seq](https://datalust.co/)-ում ավելացվում է նոր իրադարձություն՝ նշված հաղորդագրություններով և Warning լոգավորման մակարդակով, իսկ [տեքստային հաշվետվությունը](../../Types/TextReport.md) մնում է անփոփոխ։ |
 | [RecordWarning(string, int, string, int, Dictionary&lt;string, object&gt;)](Methods/RecordWarning.md#iexecutionprogressrecordwarningstring-int-string-int-dictionarystring-object-մեթոդ) | Ավելացնում է նոր տող [տեքստային հաշվետվությունում](../../Types/TextReport.md), եթե մեթոդը չի կանչվել առաջադրանքի կատարման ժամանակ։ <br> Առաջադրանքի կատարման ընթացքում կանչի դեպքում միայն [Seq](https://datalust.co/)-ում ավելացվում է նոր իրադարձություն՝ նշված հաղորդագրությունով և Warning լոգավորման մակարդակով, իսկ [տեքստային հաշվետվությունը](../../Types/TextReport.md) մնում է անփոփոխ։ |
+
+
 
 
