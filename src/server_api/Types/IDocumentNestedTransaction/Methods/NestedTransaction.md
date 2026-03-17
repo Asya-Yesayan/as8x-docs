@@ -1,5 +1,6 @@
 ---
 title: NestedTransaction
+nav_exclude: true
 ---
 
 # IDocumentNestedTransaction.NestedTransaction(NestedTransactionEventArgs<T>) մեթոդ
