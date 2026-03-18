@@ -57,6 +57,9 @@ defaults:
 
 toc: true
 
+mermaid:
+  version: "9.1.6"
+
 versions:
   - id: bank
     product: "ՀԾ-Բանկ"
