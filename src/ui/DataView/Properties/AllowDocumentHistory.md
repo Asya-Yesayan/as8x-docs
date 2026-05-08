@@ -14,7 +14,11 @@ grand_parent: "DataView"
 public virtual bool AllowDocumentHistory { get; }
 ```
 
-Ինդիկացնում է՝ արդյոք DataView-ից հասանելի է փաստաթղթի փոփոխությունների պատմության դիտումը:
+Սահմանում է դիտելու ձևի ընթացիկ տողի պատմությունը դիտելու իրավասությունը` AllowDocHistory համակարգային պարամետրի համատեղ: Հատկության լռությամբ արժեքը համընկնում է IsDocumentBased հատկության արժեքի հետ։
 
-Լռությամբ հավասար է `IsDocumentBased`-ի արժեքին:
+* Եթե `AllowDocumentHistory=true` և `AllowDocHistory=true`, ապա դիտելու ձևի կոնտեքստային մենյուում ցուցադրվում է «Պատմություն» կոնտեքստային ֆունկցիան, որը հասանելի է կատարման համար։
+
+«Պատմություն» կոնտեքստային ֆունկցիայի կատարման արդյունքում բացվող պատմությունը պարունակող պատուհանը սահմանվում է `DocumentHistory` մեթոդով: 
+* Եթե `AllowDocumentHistory=true` և `AllowDocHistory=true` և `IsDocumentBased=false`, ապա կանչվում է `DocumentHistory` մեթոդը:
+* Եթե `AllowDocumentHistory=true` DocumentHistoryև `IsHistoryEnabled=true` և `IsDocumentBased=true`, ապա ցուցադրվում է ընթացիկ տողը պարունակող փաստաթղթի պատմությունը։
 

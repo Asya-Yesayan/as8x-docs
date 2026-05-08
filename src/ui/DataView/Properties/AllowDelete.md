@@ -1,20 +1,20 @@
 ---
-title: IsDeleteEnabled
+title: AllowDelete
 parent: "Հատկություններ"
 grand_parent: "DataView"
 ---
 
-# DataView.IsDeleteEnabled հատկություն
+# DataView.AllowDelete հատկություն
 
 ## Նկարագիր
 
 **Դաս՝** [DataView](../DataView.md)
 
 ```c#
-public virtual bool IsDeleteEnabled { get; }
+public virtual bool AllowDelete { get; }
 ```
 
-Սահմանում է դիտելու ձևի ընթացիկ տողի հեռացման իրավասությունը` AllowDelete հատկության հետ համատեղ: Հատկության լռությամբ արժեքը true է:
+Սահմանում է դիտելու ձևի ընթացիկ տողի հեռացման իրավասությունը` IsDeleteEnabled հատկության հետ համատեղ: Հատկության լռությամբ արժեքը false է:
 
 * Եթե `AllowDelete=true` և `IsDeleteEnabled=true`, ապա դիտելու ձևի կոնտեքստային մենյուում ցուցադրվում է «Հեռացնել» կոնտեքստային ֆունկցիան, որը հասանելի է կատարման համար։
 * Եթե `AllowDelete=true` և `IsDeleteEnabled=false`, ապա դիտելու ձևի կոնտեքստային մենյուում ցուցադրվում է «Հեռացնել» կոնտեքստային ֆունկցիան, սակայն հասանելի չէ կատարման համար (ցուցադրվում է readonly ռեժիմով)։

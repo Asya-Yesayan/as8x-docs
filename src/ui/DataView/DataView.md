@@ -67,17 +67,17 @@ progress-ի, dialog-ի, extension-ի և tooltip-ի ամբողջ ենթակառո
 | [IsUpdatable](Properties/IsUpdatable.md) | Ինդիկացնում է՝ արդյոք DataView-ի rows-ը կարող են թարմացվել `LoadUpdatedRows`-ի միջոցով: |
 | [Enable2LineHeaders](Properties/Enable2LineHeaders.md) | DataView-ի grid-ը միշտ ցուցադրում է 2-տողանի header-ներ: |
 | [ReloadMode](Properties/ReloadMode.md) | DataView-ի Refresh/Reload ռեժիմը: |
-| [AllowAdd](Properties/AllowAdd.md) | Ինդիկացնում է՝ արդյոք DataView-ում թույլատրված է նոր փաստաթղթերի ավելացումը: |
-| [IsAddEnabled](Properties/IsAddEnabled.md) | Ինդիկացնում է՝ արդյոք Add գործողությունն ընթացիկ պահին ակտիվ է: |
-| [IsEditEnabled](Properties/IsEditEnabled.md) | Ինդիկացնում է՝ արդյոք Edit գործողությունն ընթացիկ պահին ակտիվ է: |
+| [AllowAdd](Properties/AllowAdd.md) | Սահմանում է դիտելու ձևում նոր տող ավելացնելու իրավասությունը` IsAddEnabled հատկության հետ համատեղ: |
+| [IsAddEnabled](Properties/IsAddEnabled.md) | Սահմանում է դիտելու ձևում նոր տող ավելացնելու իրավասությունը` AllowAdd հատկության հետ համատեղ: |
+| [IsEditEnabled](Properties/IsEditEnabled.md) | Սահմանում է դիտելու ձևի ընթացիկ տողը խմբագրման իրավասությունը` IsEditEnabled հատկության հետ համատեղ: |
 | [AllowView](Properties/AllowView.md) | Ինդիկացնում է՝ արդյոք DataView-ից թույլատրված է փաստաթղթի read-only դիտումը: |
-| [IsDeleteEnabled](Properties/IsDeleteEnabled.md) | Ինդիկացնում է՝ արդյոք Delete գործողությունն ընթացիկ պահին ակտիվ է: |
+| [IsDeleteEnabled](Properties/IsDeleteEnabled.md) | Սահմանում է դիտելու ձևի ընթացիկ տողի հեռացման իրավասությունը` AllowDelete հատկության հետ համատեղ: |
 | [AllowCallDocumentFunctions](Properties/AllowCallDocumentFunctions.md) | Ինդիկացնում է՝ արդյոք DataView-ի կոնտեքստից թույլատրված է փաստաթղթի կոնտեքստային ֆունկցիաների կանչը: |
 | [AllowCreateCopy](Properties/AllowCreateCopy.md) | Ինդիկացնում է՝ արդյոք DataView-ից թույլատրված է ընթացիկ row-ի/փաստաթղթի պատճենի ստեղծումը: |
-| [IsCreateCopyEnabled](Properties/IsCreateCopyEnabled.md) | Ինդիկացնում է՝ արդյոք CreateCopy գործողությունն ընթացիկ պահին ակտիվ է: |
+| [IsCreateCopyEnabled](Properties/IsCreateCopyEnabled.md) | Սահմանում է դիտելու ձևի ընթացիկ տողի պատճենման իրավասությունը` IsCreateCopyEnabled հատկության հետ համատեղ: |
 | [AllowPreview](Properties/AllowPreview.md) | Ինդիկացնում է՝ արդյոք DataView-ից թույլատրված է print preview-ն: |
 | [AllowExport](Properties/AllowExport.md) | Ինդիկացնում է՝ արդյոք DataView-ից թույլատրված է տվյալների export-ը: |
-| [AllowDocumentHistory](Properties/AllowDocumentHistory.md) | Ինդիկացնում է՝ արդյոք DataView-ից հասանելի է փաստաթղթի փոփոխությունների պատմության դիտումը: |
+| [AllowDocumentHistory](Properties/AllowDocumentHistory.md) | Սահմանում է դիտելու ձևի ընթացիկ տողի պատմությունը դիտելու իրավասությունը` AllowDocHistory համակարգային պարամետրի համատեղ: |
 | [LoadIndication](Properties/LoadIndication.md) | Տվյալների բեռնման progress ցուցադրման ռեժիմը: |
 | [AllowedDocumentsToAdd](Properties/AllowedDocumentsToAdd.md) | `AddDocument`-ի կողմից թույլատրված փաստաթղթային տիպերի ցանկ: |
 | [AllowEditUDR](Properties/AllowEditUDR.md) | Ինդիկացնում է՝ արդյոք թույլատրված է UDR (user-defined reports) խմբագրումը: |

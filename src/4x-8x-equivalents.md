@@ -13,20 +13,20 @@ has_toc: false
 
 ### 1.1 Ճարտարապետական բաժանում
 
-**AS-4X** համակարգում բոլոր փաստաթղթի տրամաբանությունը (UI, սերվերային տրամաբանություն, տվյալների ստուգումները, ...) նկարագրվում էր 
-մեկ `.as` ֆայլի `SCRIPT { }` բաժնում, VB6 ենթածրագրերի (Sub/Function) տեսքով։
+**AS-4X** համակարգում փաստաթղթի ամբողջ տրամաբանությունը (UI, սերվերային տրամաբանություն, տվյալների ստուգումները, ...) նկարագրվում է 
+մեկ `.as` ֆայլի մեջ՝ `SCRIPT { }` բաժնում, VB6 ենթածրագրերի (Sub/Function) տեսքով։
 
 **AS-8X** համակարգում նույն տրամաբանությունը **բաժանված է երեք տարբեր դասերի միջև**.
 
 | Դաս | Ֆայլ | Նպատակ |
 |------|------|---------|
-| `Document` | `Core/ArmSoft.AS8X.Core/Document/Document.cs` | Սերվերային բիզնես տրամաբանություն, հաշվարկներ, validation, transaction |
-| `DocumentUI<T>` | `Core/ArmSoft.AS8X.Core.UI/Document/DocumentUI.cs` | UI կողմի ոչ-վիզուալ տրամաբանություն, context menu, lifecycle hooks |
-| `DocumentPanel<T>` | `Core/ArmSoft.AS8X.Core.UI/Document/DocumentPanel.cs` | UI կողմի վիզուալ մասը՝ պատուհան, control-ներ, ձևի կառուցում |
+| `Document` | `Core/ArmSoft.AS8X.Core/Document/Document.cs` | Սերվերային տրամաբանություն, հաշվարկներ, վալիդացիա, հաշվառումներ |
+| `DocumentUI<T>` | `Core/ArmSoft.AS8X.Core.UI/Document/DocumentUI.cs` | Կոնտեքստային մենյու, UI-ական իրադարձություններ |
+| `DocumentPanel<T>` | `Core/ArmSoft.AS8X.Core.UI/Document/DocumentPanel.cs` | պատուհան, control-ներ |
 
-**Կարևոր տարբերություն.** `DocumentUI<T>` և `DocumentPanel<T>` դասերը **միմյանցից չեն ժառանգվում**։
+**Կարևոր տարբերություն.** `DocumentUI<T>` և `DocumentPanel<T>` դասերը **միմյանցից չեն ժառանգվում**։ Դրանք երկու անկախ դասեր են, որոնք աշխատում են նույն `Document` օբյեկտի հետ (`Doc`)։ 
 
-Դրանք երկու անկախ դասեր են, որոնք աշխատում են նույն `Document` օբյեկտի հետ (`Doc`)։
+DocumentPanel, DocumentUI դասերը պարտադիր պետք է պարունակեն համապատասխանաբար DocumentPanel, DocumentUI ատրիբուտները, որոնց փոխանցվում է փաստաթղթի ներքին անունը (տեսակը)։
 
 ```c#
 [DocumentPanel(nameof(AccBal))]  
@@ -38,27 +38,27 @@ public class AccBalUI : DocumentUI<AccBal> { ... }
 
 ### 1.2 Սերվերային իրադարձությունների համարժեքություն (Document.cs)
 
-| AS-4X                  | Երբ էր կանչվում                 | AS-8X համարժեք                 | Նպատակ                                 |
+| AS-4X                  | Երբ է կանչվում                 | AS-8X համարժեք                 | Նպատակ                                 |
 | ---------------------- | ------------------------------- | ------------------------------ | -------------------------------------- |
-| `AfterCreate`          | Նոր փաստաթուղթ ստեղծելուց հետո  | `AfterCreate(args)`            | Սկզբնական արժեքների լրացում            |
-| `AfterLoad`            | Բազայից բեռնելուց հետո          | `AfterLoad(args)`              | Բեռնված տվյալների հետագա հաշվարկներ    |
-| `Validate / Valid`     | Դաշտի արժեք փոխելիս             | `Validate(args)`               | Դաշտային validation, կախված հաշվարկներ |
-| `Action`               | `Store()` ընթացքում             | `Action(args)`                 | Հիմնական բիզնես գործողություն          |
-| `BeforeCommit`         | Commit-ից առաջ                  | `BeforeCommit(args)`           | Վերջնական ստուգումներ, logging         |
-| `AfterCommit`          | Commit-ից հետո                  | `AfterCommit(args)`            | Արտաքին համակարգերի ծանուցում          |
-| `Delete`               | Ջնջման ժամանակ                  | `Delete(args)`                 | Ջնջման կանոններ                        |
-| `PostMessage`          | Child → Parent հաղորդագրություն | `PostMessage(args)`            | Փաստաթղթերի փոխազդեցություն            |
-| `Folders`              | Պահպանման ժամանակ               | `Folders(args)`                | Թղթապանակների անդամակցություն          |
-| `StoreGrid`            | Grid պահպանելիս                 | `StoreGrids(args)`             | Grid-ի custom պահպանում                |
-| `DefaultComment`       | Auto log comment պետք হলে       | `DefaultComment(args)`         | Լռելյայն մեկնաբանություն               |
-| `ChangeRequest`        | DCR workflow                    | `OnConfirm... / OnReject...`   | Փոփոխության հայտի մշակում              |
-| `OnRefuseDoc`          | Մերժման ժամանակ                 | `OnRefuse(args)`               | Մերժման տրամաբանություն                |
-| `BeforeCopy`           | Copy-ից առաջ                    | `BeforeCopy(args)`             | Որ դաշտերը չկրկնօրինակել               |
-| `BeforeImport`         | Import-ից առաջ                  | `BeforeImportProcessing(args)` | Import preprocessing                   |
-| `TemplateSubstitution` | Տպման ժամանակ                   | `TemplateSubstitution(...)`    | Template արժեքների լրացում             |
+| `AfterCreate`           | Նոր փաստաթուղթ ստեղծելուց հետո։  | `AfterCreate(args)`            | Սկզբնական արժեքների լրացում։            |
+| `AfterLoad`            | Փաստաթուղթը տվյալների բազայից բեռնելուց հետո։          | `AfterLoad(args)`              | Բեռնված տվյալների հետագա հաշվարկներ։    |
+| `Validate / Valid`     | Դաշտի արժեք փոխելիս։             | `Validate(args)`               | Դաշտի վալիդացիա, այլ դաշտերի լրացում՝ կախված ընթացիկ դաշտից |
+| `Action`               | Փաստաթղթի գրանցման տրանզակցիայում։             | `Action(args)`                 | Հաշվառումների ստեղծում, գրանցում:          |
+| `BeforeCommit`         | Փաստաթղթի գրանցման տրանզակցիայի փակումից առաջ։                  | `BeforeCommit(args)`           | Վերջնական ստուգումներ, լոգավորում։         |
+| `AfterCommit`          | Փաստաթղթի գրանցման տրանզակցիայի փակումից հետո։                   | `AfterCommit(args)`            | Արտաքին համակարգերի ծանուցում          |
+| `Delete`               | Փաստաթղթի հեռացման տրանզակցիայում։                  | `Delete(args)`                 | Ջնջման կանոններ                        |
+| `PostMessage`          | Child → Parent հաղորդագրություն | `PostMessage(args)`            | Փաստաթղթերի փոխազդեցություն։            |
+| `Folders`              | Փաստաթղթի գրանցման տրանզակցիայում։               | `Folders(args)`                | Թղթապանակների ստեղծում, գրանցում:          |
+| `StoreGrid`            | Փաստաթղթի աղյուսակը գրանցելիս                 | `StoreGrids(args)`             | Փաստաթղթի աղյուսակների գրանցում Custom sql աղյուսակներում։                |
+| `DefaultComment`       | Թղթապանակի տարրերի գրանցում։       | `DefaultComment(args)`         | Թղթապանակների տարրերի լռությամբ մեկնաբանության սահմանում։               |
+| `ChangeRequest`        | Փոփոխման հայտի մշակում։                    | `OnConfirm... / OnReject...`   | Փոփոխման հայտի մշակում։              |
+| `OnRefuseDoc`          | Փաստաթղթի մերժման ժամանակ։                 | `OnRefuse(args)`               | Մերժման տրամաբանություն                |
+| `BeforeCopy`           | Փաստաթղթի պատճենումից առաջ։  | `BeforeCopy(args)`             | Որ դաշտերը չկրկնօրինակել               |
+| `BeforeImport`         | Փաստաթղթի ներմուծումից առաջ։  | `BeforeImportProcessing(args)` | Import preprocessing                   |
+| `TemplateSubstitution` | Փաստաթղթի տպելու ձևանմուշի կանչի ժամանակ։  | `TemplateSubstitution(...)`    | Ձևանմուշի հաշվարկվող արժեքների հաշվարկ։             |
 ---
 
-### 1.3 UI կողմի իրադարձությունների համարժեքություն
+### 1.3 UI իրադարձությունների համարժեքություն
 
 #### DocumentUI<T> — ոչ վիզուալ UI տրամաբանություն
 
@@ -67,10 +67,10 @@ public class AccBalUI : DocumentUI<AccBal> { ... }
 | AS-4X                            | AS-8X                                 | Նպատակ                               |
 | -------------------------------- | ------------------------------------- | ------------------------------------ |
 | `Form_Load`                      | `OnLoad()`                            | Բացման ժամանակ նախապատրաստում        |
-| `Functions / RegistrFunction`    | `InitContextFunctions(...)`           | Right-click menu                     |
-| —                                | `BeforeShow(args)`                    | Բացումից առաջ                        |
-| —                                | `BeforeCreate(args)`                  | Ստեղծումից առաջ                      |
-| `BeforeCopy`                     | `BeforeCopy / AfterCopy`              | Copy lifecycle                       |
+| `Functions / RegistrFunction`    | `InitContextFunctions(...)`           | Կոնտեքստային մենյու                     |
+| —                                | `BeforeShow(args)`                    | Փաստաթղթի բացումից առաջ                        |
+| —                                | `BeforeCreate(args)`                  | Փաստաթղթի ստեղծումից առաջ                      |
+| `BeforeCopy`                     | `BeforeCopy / AfterCopy`              | Փաստաթղթի պատճենումից առաջ                       |
 | —                                | `AfterStore(...)`                     | Պահպանումից հետո UI գործողություններ |
 | `OnUIDelete`                     | `OnUIDelete(args)`                    | Ջնջման UI ստուգում                   |
 | —                                | `AfterDelete(args)`                   | Ջնջումից հետո refresh                |
@@ -92,36 +92,6 @@ public class AccBalUI : DocumentUI<AccBal> { ... }
 | Close           | `StoreSettings()`          | Window settings պահպանում          |
 | —               | `BeforeShow(isReadOnly)`   | Բացումից առաջ                      |
 | —               | `AddControls()`            | Լրացուցիչ custom control-ներ       |
-
----
-
-### 1.4 Թույլտվությունների / հնարավորությունների Flags
-
-| 4X | 8X (`DocumentPanel<T>`) | Լռելյայն | Նկարագրություն |
-|----|--------------------------|----------|----------------|
-| *(պահպանում միշտ թույլ)* | `AllowSave() → bool` | `true` | Հիմնական Save թույլտվություն։ Եթե `false`, պահպանումը ամբողջությամբ արգելվում է։ |
-| *(Save կոճակ)* | `AllowSaveButton() → bool` | `true` | Միայն **Save** կոճակի տեսանելիություն / ակտիվություն։ |
-| *(Save and Close)* | `AllowSaveAndCloseButton() → bool` | `true` | Միայն **Save and Close** կոճակի կառավարում։ |
-| *(Save and New)* | `AllowNewAfterSave() → bool` | `true` | Եթե `false`, **Save and New** կոճակը թաքցվում է։ |
-| `nDisableDraft` | `AllowDraft() → bool` | `!Doc.Schema.DisableDraft` | Draft ռեժիմի կառավարում։ |
-| `nDisableCopy` | `AllowCopy() → bool` | `!Doc.Schema.DisableCopy` | Copy գործողության կառավարում։ |
-| *(նոր փաստաթղթի տպում)* | `AllowPrintOnNew() → bool` | `false` | Թույլ է տալիս տպել դեռ չպահված փաստաթուղթը։ |
-
----
-
-### 1.5 `DocCheckLevel` Flags (4X → 8X)
-
-Այս flags-երը փոխանցվում են `Store()` մեթոդին՝ վալիդացիայի փուլեր կառավարման համար։
-
-| Bit | 4X | 8X `DocumentCheckLevel` | Նպատակ |
-|-----|----|--------------------------|--------|
-| `0` | None | `None` | Լրիվ ստուգում |
-| `1` | Skip Validate | `SkipValidate` | Չկանչել `Validate()` |
-| `2` | Skip Action | `SkipAction` | Չկանչել `Action()` |
-| `4` | Skip Empty Check | — | Պարտադիր դաշտերի ստուգումը բաց թողնել |
-| `8` | Skip Type Check | — | Տիպային ստուգումը բաց թողնել |
-| `16` | Force Change Request | — | Պարտադիր DCR ռեժիմ |
-| `32` | Mark Programmatic | — | Ծրագրային կանչ (ոչ user action) |
 
 ---
 
@@ -151,13 +121,12 @@ public class AccBalUI : DocumentUI<AccBal> { ... }
 | Ստեղծում | `CreateDialog()` | `new DialogWindow(...)` |
 | Ցուցադրում | `dlg.Show()` | `dlg.ShowDialog()` |
 | Վերնագիր | `dlg.Caption` | `dlg.Caption` |
-| Ռեժիմ | Property | `dlg.Mode = ...` |
-| Արժեքի ստացում | `dlg("Field")` | `dlg["Field"]` |
+| Control-ի արժեքի ստացում | `dlg("Field")` | `dlg["Field"]` |
 | Վալիդացիա | Auto | `WindowValidation` event |
 | Cancel | `dlg.Cancel` | `CancelButton` |
 | AutoStore | `dlg.AutoStore = True` | `storeValue: true` |
-| Tab էջեր | `AddPage()` | `AddDXTabControl()` |
-| Export parameters | `CreateBrowseParametersInfo()` | `Dictionary<string, object>` |
+| Tab-երի ավելացում | `AddPage()` | `AddDXTabControl()` |
+| Դաշտերի արժեքների փոխանցում դիտելու ձևին | `CreateBrowseParametersInfo()` | `Dictionary<string, object>` |
 
 ---
 
@@ -176,18 +145,18 @@ public class AccBalUI : DocumentUI<AccBal> { ... }
 | `AddViewControl(...)` | `AddDropDownControl(...)` | Dropdown |
 | `AddTreeControl(...)` | `AddTreeDropDownControl(...)` | Tree Dropdown |
 | `AddMultiSelectViewControl(...)` | `AddMultiSelectDropDownControl(...)` | Multi Select |
-| `AddViewCommentControl(...)` | `AddDropDownCommentControl(...)` | Dropdown + Comment |
+| `AddViewCommentControl(...)` | `AddDropDownCommentControl(...)` | Dropdown  Comment |
 | `AddControl(... monthyear)` | `AddMonthYearControl(...)` | Month / Year |
 | `AddLabel(...)` | `AddTextBlock(...)` | Label |
 | `AddLine()` | `AddLine(...)` | Separator |
 | `AddButton(...)` | `AddButton(...)` | Button |
-| *(չկար)* | `AddDropDownButton(...)` | Dropdown Button |
-| *(չկար)* | `AddSplitButton(...)` | Split Button |
-| *(չկար)* | `AddButtonEdit(...)` | Text + Button |
-| *(չկար)* | `AddPasswordBoxEdit(...)` | Password |
-| *(չկար)* | `AddPathEdit(...)` | File Picker |
-| *(չկար)* | `AddNumPairControl(...)` | Number Pair |
-| *(չկար)* | `AddThreeStateBoolComboBox(...)` | 3-state Bool |
+| *(համարժեքը բացակայում է)* | `AddDropDownButton(...)` | Dropdown Button |
+| *(համարժեքը բացակայում է)* | `AddSplitButton(...)` | Split Button |
+| *(համարժեքը բացակայում է)* | `AddButtonEdit(...)` | Text  Button |
+| *(համարժեքը բացակայում է)* | `AddPasswordBoxEdit(...)` | Password |
+| *(համարժեքը բացակայում է)* | `AddPathEdit(...)` | File Picker |
+| *(համարժեքը բացակայում է)* | `AddNumPairControl(...)` | Number Pair |
+| *(համարժեքը բացակայում է)* | `AddThreeStateBoolComboBox(...)` | 3-state Bool |
 
 ---
 
@@ -195,23 +164,23 @@ public class AccBalUI : DocumentUI<AccBal> { ... }
 
 | 4X | 8X | Նպատակ |
 |----|----|--------|
-| `AddPage(caption)` | `AddDXTabControl()` + `AddTabbedGroup()` | Tab էջեր |
+| `AddPage(caption)` | `AddDXTabControl()`  `AddTabbedGroup()` | Tab էջեր |
 | *(խմբավորում)* | `AddLayoutGroup(...)` | Horizontal / Vertical grouping |
 | `AddControlAtRight(...)` | `DisplayPosition = AtRightPreviousField` | Աջ կողմում տեղադրել |
 
 ---
 
-## 2.5 Validation
+## 2.5 Վալիդացիա
 
 | 4X | 8X |
 |----|----|
-| `dlg.Status = "Սխալ"` | `WindowValidation += ...` |
+| `dlg.Status = "Սխալ"` | `WindowValidation = ...` |
 | `BUTTONCLICK`-ում ստուգում | `OkButton_Click` override |
 
 ### Օրինակ
 
 ```csharp
-dlg.WindowValidation += (w, args) =>
+dlg.WindowValidation = (w, args) =>
 {
     args.IsValid = false;
     args.ErrorMessage = "Լրացրեք պարտադիր դաշտը";
@@ -219,7 +188,7 @@ dlg.WindowValidation += (w, args) =>
 
 ---
 
-### 2.6 Կոդի օրինակ — Dialog ստեղծել
+### 2.6 Կոդի օրինակ — Dialog-ի ստեղծում
 
 **AS-4X (VB6)**
 
@@ -227,25 +196,20 @@ dlg.WindowValidation += (w, args) =>
 Dim dlg As AsDialog
 Set dlg = CreateDialog()
 
-dlg.Caption  = "Ֆիլտրի"
-dlg.ECaption = "Filter"
+dlg.Caption  = "Բաժիններ"
+dlg.ECaption = "Departments"
 
-dlg.AddControl "DATE1", "Սկիզբ", const_date, 0
-dlg.AddControl "DATE2", "Վերջ",  const_date, 0
-dlg.AddViewControl "DEPT", "Բաժին", "DEPARTMENTS"
+dlg.AddControl "StartDate", "Սկիզբ", "DATE"
+dlg.AddControl "EndDate", "Վերջ",  "DATE"
+dlg.AddViewControl "Dept", "Բաժին", "DEPARTMENTS"
 
 dlg.AutoStore = True
 
 If dlg.Show() Then
     Dim d1 As Date
     Dim d2 As Date
-    d1 = dlg("DATE1")
-    d2 = dlg("DATE2")
-
-    Dim dept As String
-    dept = dlg("DEPT")
-
-    ' ... օգտագործել արժեքները
+    d1 = dlg("StartDate")
+    d2 = dlg("EndDate")
 End If
 ```
 
@@ -254,15 +218,15 @@ End If
 ```c#
 var dlg = new DialogWindow(owner: Settings.HostingEnvironment)
 {
-    Caption = "Ֆիլտր / Filter",
+    Caption = "Բաժիններ",
     LoadStoredValues = true
 };
 
-var date1 = dlg.AddDateEditControl("DATE1", "Սկիզբ", storeValue: true);
-var date2 = dlg.AddDateEditControl("DATE2", "Վերջ", storeValue: true);
+var date1 = dlg.AddDateEditControl("StartDate", "Սկիզբ", storeValue: true);
+var date2 = dlg.AddDateEditControl("EndDate", "Վերջ", storeValue: true);
 
 var dept = dlg.AddDropDownControl(
-    "DEPT",
+    "Dept",
     "Բաժին",
     new DropDown.Departments(),
     isRequired: false,
@@ -273,25 +237,22 @@ if (dlg.ShowDialog() == true)
     DateTime? d1 = date1.Value;
     DateTime? d2 = date2.Value;
     string deptCode = dept.Code;
-
-    // ... օգտագործել արժեքները
 }
 ```
 
 | Քայլ              | AS-4X                        | AS-8X                              | Նկարագրություն                |
 | ----------------- | ---------------------------- | ---------------------------------- | ----------------------------- |
-| Dialog ստեղծում   | `CreateDialog()`             | `new DialogWindow(...)`            | Ստեղծվում է պատուհանը         |
-| Վերնագիր          | `Caption / ECaption`         | `Caption`                          | Պատուհանի վերնագիր            |
-| Ամսաթիվ դաշտ      | `AddControl(... const_date)` | `AddDateEditControl(...)`          | Ամսաթվի ընտրիչ                |
-| Բաժնի ընտրություն | `AddViewControl(...)`        | `AddDropDownControl(...)`          | Lookup / DropDown             |
-| Պահված արժեքներ   | `AutoStore = True`           | `LoadStoredValues = true`          | Նախորդ արժեքների բեռնում      |
-| Բացել             | `Show()`                     | `ShowDialog()`                     | Ցուցադրում                    |
-| Արժեք ստանալ      | `dlg("NAME")`                | Control property (`Value`, `Code`) | Մուտքագրված տվյալների ստացում |
+| Dialog ստեղծում   | `CreateDialog()`             | `new DialogWindow(...)`            | Ստեղծվում է պատուհանը։         |
+| Վերնագիր          | `Caption / ECaption`         | `Caption`                          | Պատուհանի վերնագիր։            |
+| Ամսաթիվ դաշտ      | `AddControl(... const_date)` | `AddDateEditControl(...)`          | Ամսաթվի ընտրիչ։                |
+| Բաժնի ընտրություն | `AddViewControl(...)`        | `AddDropDownControl(...)`          | Lookup / DropDown։             |
+| Պահված արժեքներ   | `AutoStore = True`           | `LoadStoredValues = true`          | Նախորդ արժեքների բեռնում։      |
+| Բացում             | `Show()`                     | `ShowDialog()`                     | Ցուցադրում։                    |
+| Դաշտի արժեքի ստացում      | `dlg("NAME")`                | Control property (`Value`, `Code`) | Մուտքագրված տվյալների ստացում։ |
 
+**Կարևոր տարբերություն**
 
-Կարևոր տարբերություն
-
-AS-4X-ում արժեքները վերցվում են անունով (dlg("DATE1"))։
+AS-4X-ում արժեքները վերցվում են անունով (dlg("StartDate"))։
 
 AS-8X-ում Add...Control() մեթոդը վերադարձնում է control reference, և արժեքը վերցվում է արդեն strongly-typed ձևով:
 
@@ -302,9 +263,9 @@ dept.Code
 
 ---
 
-### 2.7 DataView-ի ֆիլտրի dialog (DataViewDialogWindow)
+### 2.7 Դիտելու ձևի նախնական ֆիլտրման պատուհան (DataViewDialogWindow)
 
-Եթե dialog-ը օգտագործվում է View-ի ֆիլտրերի համար, ապա սովորական DialogWindow-ի փոխարեն օգտագործվում է DataViewDialogWindow։
+Եթե dialog-ը օգտագործվում է View-ի ֆիլտրման համար, ապա սովորական DialogWindow-ի փոխարեն անհրաժեշտ է օգտագործել DataViewDialogWindow դասը։
 
 **AS-4X (VIEW SCRIPT)**
 
@@ -313,8 +274,8 @@ Public Sub Dialog()
     Dim dlg As AsDialog
     Set dlg = CreateDialog()
     dlg.Caption = "Filtri"
-    dlg.AddControl "DATE", "Аmsаtiv", const_date, 0
-    dlg.AddViewControl "DEPT", "Bajin", "DEPARTMENTS"
+    dlg.AddControl "DATE", "Ստեղծման ամսաթիվ", "DATE"
+    dlg.AddViewControl "Dept", "Բաժին", "DEPARTMENTS"
     dlg.AutoStore = True
     dlg.Show()
 End Sub
@@ -331,7 +292,7 @@ public override DataViewDialogWindow CreateDialog(bool isRefreshMode)
         Caption = "Filtri"
     };
     dlg.AddDateEditControl("DATE", "Аmsаtiv", storeValue: true);
-    dlg.AddDropDownControl("DEPT", "Bajin",
+    dlg.AddDropDownControl("Dept", "Bajin",
         new DropDown.Departments(), storeValue: true);
     return dlg;
 }
@@ -339,7 +300,7 @@ public override DataViewDialogWindow CreateDialog(bool isRefreshMode)
 public override void ApplyDialog(DataViewDialogWindow dlg, bool isRefreshMode)
 {
     this.Parameters.Date = (DateTime?)dlg["DATE"];
-    this.Parameters.Dept = (string)dlg["DEPT"];
+    this.Parameters.Dept = (string)dlg["Dept"];
 }
 ```
 
@@ -430,10 +391,8 @@ DataView<R, P>
 | `ALLOWVIEW`      | `AllowView`          | `IsDocumentBased` | Բացել դիտման ռեժիմով |
 | `ALLOWEDIT`      | `AllowEdit`          | `false`           | Խմբագրել             |
 | `ALLOWDELETE`    | `AllowDelete`        | `false`           | Ջնջել                |
-| `ALLOWCOPY`      | `AllowCreateCopy`    | `IsDocumentBased` | Պատճեն ստեղծել       |
-| `ALLOWEXPORT`    | `AllowExport`        | `true`            | Excel / CSV export   |
-| `ALLOWACCESS`    | `AllowAccessControl` | `false`           | Access rights        |
-| `UPDATESTYLE`    | `IsUpdatable`        | ըստ Row-ի         | Grid edit            |
+| `ALLOWCOPY`      | `AllowCreateCopy`    | `IsDocumentBased` | Պատճենել             |
+| `ALLOWEXPORT`    | `AllowExport`        | `true`            | Excel / CSV արտահանում   |
 
 ---
 
@@ -449,14 +408,13 @@ DataView<R, P>
 | `VISIBLE = 0`    | `Visible = false`      |
 | `FORMAT`         | `Format`               |
 
-
 ---
 
 ### 3.5 SCRIPT ֆունկցիաների համարժեքություն
 
 | 4X SCRIPT              | 8X Override                        | Նկարագրություն         |
 | ---------------------- | ---------------------------------- | ---------------------- |
-| `Dialog()`             | `CreateDialog()` + `ApplyDialog()` | Filter dialog          |
+| `Dialog()`             | `CreateDialog()`  `ApplyDialog()` | Filter dialog          |
 | `Functions()`          | `InitContextFunctions()`           | Context menu           |
 | `AfterLoadData()`      | `AfterLoadData()`                  | Load-ից հետո           |
 | `BeforeLoadData()`     | `BeforeLoadData(args)`             | Load-ից առաջ           |
@@ -495,7 +453,7 @@ VIEW
       Set dlg = CreateDialog()
       dlg.Caption = "Filtri"
       dlg.AddControl "DATE",  "Аmsаtiv", const_date, 0
-      dlg.AddViewControl "DEPT", "Bajin", "DEPARTMENTS"
+      dlg.AddViewControl "Dept", "Bajin", "DEPARTMENTS"
       dlg.AutoStore = True
       dlg.Show()
     End Sub
@@ -545,7 +503,7 @@ public class Accs : DataView<DataRow, Param>
             Caption = "Filtri"
         };
         dlg.AddDateEditControl("DATE", "Аmsаtiv", storeValue: true);
-        dlg.AddDropDownControl("DEPT", "Bajin",
+        dlg.AddDropDownControl("Dept", "Bajin",
             new DropDown.Departments(), storeValue: true);
         return dlg;
     }
@@ -554,7 +512,7 @@ public class Accs : DataView<DataRow, Param>
     public override void ApplyDialog(DataViewDialogWindow dlg, bool isRefreshMode)
     {
         this.Parameters.Date = (DateTime?)dlg["DATE"];
-        this.Parameters.Dept = (string)dlg["DEPT"];
+        this.Parameters.Dept = (string)dlg["Dept"];
     }
 
     // Cоntехt mеnu (4X-и Functions Sub-и hаmаrzhеk)

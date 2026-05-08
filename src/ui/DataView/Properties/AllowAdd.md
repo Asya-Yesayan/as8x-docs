@@ -14,13 +14,13 @@ grand_parent: "DataView"
 public virtual bool AllowAdd { get; }
 ```
 
-Ինդիկացնում է՝ արդյոք DataView-ում թույլատրված է նոր փաստաթղթերի ավելացումը:
+Սահմանում է դիտելու ձևում նոր տող ավելացնելու իրավասությունը` IsAddEnabled հատկության հետ համատեղ: Հատկության լռությամբ արժեքը false է:
 
-Լռությամբ `true` է, երբ `IsDocumentBased=true` AND
-`AllowedDocumentsToAdd != null` AND `AllowedDocumentsToAdd.Count > 0`:
-Կոնտեքստային մենյուում ցուցադրվում է AddDocument ֆունկցիան:
+* Եթե `AllowAdd=true` և `IsAddEnabled=true`, ապա դիտելու ձևի կոնտեքստային մենյուում ցուցադրվում է «Ավելացնել» կոնտեքստային ֆունկցիան, որը հասանելի է կատարման համար։
+* Եթե `AllowAdd=true` և `IsAddEnabled=false`, ապա դիտելու ձևի կոնտեքստային մենյուում ցուցադրվում է «Ավելացնել» կոնտեքստային ֆունկցիան, սակայն հասանելի չէ կատարման համար (ցուցադրվում է readonly ռեժիմով)։
+* Եթե `AllowAdd=false`, ապա դիտելու ձևի կոնտեքստային մենյուում չի ցուցադրվում «Ավելացնել» կոնտեքստային ֆունկցիան։
 
-Property-method interactions.
-- `true` → panel-ն ցուցադրում է Add button/context menu item:
-- `false` → Add button/item թաքցված/disabled է:
+«Ավելացնել» կոնտեքստային ֆունկցիայի կատարման արդյունքում բացվող ավելացման պատուհանը սահմանվում է `Add` կամ `AddDocument` մեթոդներով: 
+* Եթե `AllowAdd=true` և `IsAddEnabled=true` և `IsDocumentBased=false`, ապա կանչվում է `Add` մեթոդը:
+* Եթե `AllowAdd=true` և `IsAddEnabled=true` և `IsDocumentBased=true`, ապա կանչվում է `AddDocument` մեթոդը:
 
