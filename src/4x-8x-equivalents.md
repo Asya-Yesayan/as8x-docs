@@ -6,7 +6,7 @@ has_toc: false
 
 # AS-4X → AS-8X համակարգերի համարժեքների նկարագրություն
 
-Ստորև նկարագրված են AS-4X (VB6) համակարգի հասկացությունների և AS-4X (.NET Core / WPF) համակարգի
+Ստորև նկարագրված են AS-4X (VB6) համակարգի հասկացությունների և AS-8X (.NET Core / WPF) համակարգի
 համապատասխան դասերի, մեթոդների ու հատկությունների համարժեքությունը։
 
 ## 1. Փաստաթղթի իրադարձություններ (Document Events)
@@ -22,7 +22,7 @@ has_toc: false
 |------|------|---------|
 | `Document` | `Core/ArmSoft.AS8X.Core/Document/Document.cs` | Սերվերային տրամաբանություն, հաշվարկներ, վալիդացիա, հաշվառումներ |
 | `DocumentUI<T>` | `Core/ArmSoft.AS8X.Core.UI/Document/DocumentUI.cs` | Կոնտեքստային մենյու, UI-ական իրադարձություններ |
-| `DocumentPanel<T>` | `Core/ArmSoft.AS8X.Core.UI/Document/DocumentPanel.cs` | պատուհան, control-ներ |
+| `DocumentPanel<T>` | `Core/ArmSoft.AS8X.Core.UI/Document/DocumentPanel.cs` | Պատուհան, control-ներ |
 
 **Կարևոր տարբերություն.** `DocumentUI<T>` և `DocumentPanel<T>` դասերը **միմյանցից չեն ժառանգվում**։ Դրանք երկու անկախ դասեր են, որոնք աշխատում են նույն `Document` օբյեկտի հետ (`Doc`)։ 
 
@@ -38,9 +38,9 @@ public class AccBalUI : DocumentUI<AccBal> { ... }
 
 ### 1.2 Սերվերային իրադարձությունների համարժեքություն (Document.cs)
 
-| AS-4X                  | Երբ է կանչվում                 | AS-8X համարժեք                 | Նպատակ                                 |
-| ---------------------- | ------------------------------- | ------------------------------ | -------------------------------------- |
-| `AfterCreate`           | Նոր փաստաթուղթ ստեղծելուց հետո։  | `AfterCreate(args)`            | Սկզբնական արժեքների լրացում։            |
+| AS-4X  | Երբ է կանչվում   | AS-8X համարժեք  | Նպատակ           |
+| ------- | ---------------- | --------------- | ---------------- |
+| `AfterCreate`           | Նոր փաստաթուղթ ստեղծելուց հետո։  | `AfterCreate(args)`            | Սկզբնական արժեքների լրացում։  |
 | `AfterLoad`            | Փաստաթուղթը տվյալների բազայից բեռնելուց հետո։          | `AfterLoad(args)`              | Բեռնված տվյալների հետագա հաշվարկներ։    |
 | `Validate / Valid`     | Դաշտի արժեք փոխելիս։             | `Validate(args)`               | Դաշտի վալիդացիա, այլ դաշտերի լրացում՝ կախված ընթացիկ դաշտից |
 | `Action`               | Փաստաթղթի գրանցման տրանզակցիայում։             | `Action(args)`                 | Հաշվառումների ստեղծում, գրանցում:          |
@@ -56,6 +56,7 @@ public class AccBalUI : DocumentUI<AccBal> { ... }
 | `BeforeCopy`           | Փաստաթղթի պատճենումից առաջ։  | `BeforeCopy(args)`             | Որ դաշտերը չկրկնօրինակել               |
 | `BeforeImport`         | Փաստաթղթի ներմուծումից առաջ։  | `BeforeImportProcessing(args)` | Import preprocessing                   |
 | `TemplateSubstitution` | Փաստաթղթի տպելու ձևանմուշի կանչի ժամանակ։  | `TemplateSubstitution(...)`    | Ձևանմուշի հաշվարկվող արժեքների հաշվարկ։             |
+
 ---
 
 ### 1.3 UI իրադարձությունների համարժեքություն
@@ -74,7 +75,7 @@ public class AccBalUI : DocumentUI<AccBal> { ... }
 | —                                | `AfterStore(...)`                     | Պահպանումից հետո UI գործողություններ |
 | `OnUIDelete`                     | `OnUIDelete(args)`                    | Ջնջման UI ստուգում                   |
 | —                                | `AfterDelete(args)`                   | Ջնջումից հետո refresh                |
-| `TemplateSubstitutionParameters` | `TemplateSubstitutionParameters(...)` | Template parameter-ներ               |
+| `TemplateSubstitutionParameters` | `TemplateSubstitutionParameters(...)` | Տպելու ձևանմուշի պարամետրերի հաշվարկ               |
 
 #### DocumentPanel<T> — վիզուալ UI տրամաբանություն
 
@@ -87,7 +88,7 @@ public class AccBalUI : DocumentUI<AccBal> { ... }
 | New Mode        | `OnNew()`                  | Նոր փաստաթուղթ                     |
 | Edit Mode       | `OnEdit()`                 | Խմբագրում                          |
 | View Mode       | `OnView()`                 | Դիտում                             |
-| Save-ից առաջ    | `BeforeStore(sr)`          | Client-side validation             |
+| Save-ից առաջ    | `BeforeStore(sr)`          | Client-side վալիդացիա             |
 | Save-ից հետո    | `AfterStore(...)`          | Refresh / UI update                |
 | Close           | `StoreSettings()`          | Window settings պահպանում          |
 | —               | `BeforeShow(isReadOnly)`   | Բացումից առաջ                      |
@@ -185,6 +186,7 @@ dlg.WindowValidation = (w, args) =>
     args.IsValid = false;
     args.ErrorMessage = "Լրացրեք պարտադիր դաշտը";
 };
+```
 
 ---
 
@@ -244,7 +246,7 @@ if (dlg.ShowDialog() == true)
 | ----------------- | ---------------------------- | ---------------------------------- | ----------------------------- |
 | Dialog ստեղծում   | `CreateDialog()`             | `new DialogWindow(...)`            | Ստեղծվում է պատուհանը։         |
 | Վերնագիր          | `Caption / ECaption`         | `Caption`                          | Պատուհանի վերնագիր։            |
-| Ամսաթիվ դաշտ      | `AddControl(... const_date)` | `AddDateEditControl(...)`          | Ամսաթվի ընտրիչ։                |
+| Ամսաթիվ դաշտ      | `AddControl(... DATE)` | `AddDateEditControl(...)`          | Ամսաթվի ընտրիչ։                |
 | Բաժնի ընտրություն | `AddViewControl(...)`        | `AddDropDownControl(...)`          | Lookup / DropDown։             |
 | Պահված արժեքներ   | `AutoStore = True`           | `LoadStoredValues = true`          | Նախորդ արժեքների բեռնում։      |
 | Բացում             | `Show()`                     | `ShowDialog()`                     | Ցուցադրում։                    |
@@ -265,7 +267,7 @@ dept.Code
 
 ### 2.7 Դիտելու ձևի նախնական ֆիլտրման պատուհան (DataViewDialogWindow)
 
-Եթե dialog-ը օգտագործվում է View-ի ֆիլտրման համար, ապա սովորական DialogWindow-ի փոխարեն անհրաժեշտ է օգտագործել DataViewDialogWindow դասը։
+Եթե dialog-ը օգտագործվում է դիտելու ձևի ֆիլտրման համար, ապա DialogWindow-ի փոխարեն անհրաժեշտ է օգտագործել DataViewDialogWindow դասը։
 
 **AS-4X (VIEW SCRIPT)**
 
@@ -308,9 +310,9 @@ public override void ApplyDialog(DataViewDialogWindow dlg, bool isRefreshMode)
 
 | Մեթոդ            | Նպատակ                                                     |
 | ---------------- | ---------------------------------------------------------- |
-| `CreateDialog()` | Ստեղծում է dialog-ը և ավելացնում դաշտերը                   |
+| `CreateDialog()` | Ստեղծում է dialog-ը և ավելացնում դաշտերը։                   |
 | `ApplyDialog()`  | Dialog-ից վերցնում է արժեքները և փոխանցում `Parameters`-ին |
-| `Parameters`     | DataSource query-ի ֆիլտրային պարամետրեր                    |
+| `Parameters`     | Այս հատկության միջոցով ստացված արժեքները փոխանցվում են տվյալների աղբյուրին՝ տվյալների ֆիլտրման և դիտելու ձևի ձևավորման համար։                    |
 
 Գործընթաց
 
@@ -336,13 +338,13 @@ View reloads data
 
 ### 3.1 Ճարտարապետական բաժանում
 
-AS-4X-ում VIEW-ը .as ֆայլի հայտարարություն էր, որտեղ նկարագրվում էին.
+AS-4X-ում VIEW-ը .as ֆայլով նկարագրություն էր, որտեղ սահմանվում էին.
 
 * սյունակներ
-* թույլտվություններ
-* datasource
-* filter dialog
-* context menu
+* իրավասություններ
+* հիմքային տվյալների աղբյուր
+* ֆիլտրման դիալոգ
+* կոնտեքստային մենյու
 * գործողություններ
 
 AS-8X-ում նույնը դարձել է C# class, որը ժառանգվում է DataView<R,P>-ից։
@@ -351,12 +353,12 @@ AS-8X-ում նույնը դարձել է C# class, որը ժառանգվում 
 | ----------------- | ---------------- | --------------------------------- |
 | Հայտարարում       | `.as` VIEW block | C# class                          |
 | Անուն             | `NAME=X`         | `[DataView(nameof(X))]`           |
-| DataSource        | `DATASOURCE=Y`   | `ConfigureDataSource("Y")`        |
+| Հիմքային տվյալների աղբյուր        | `DATASOURCE=Y`   | `ConfigureDataSource("Y")`        |
 | Սյունակներ        | `COLUMN {}`      | `this.Columns[...]`               |
-| Filter dialog     | `Dialog()`       | `CreateDialog()`                  |
-| Apply filter      | implicit         | `ApplyDialog()`                   |
-| Context menu      | `Functions()`    | `InitContextFunctions()`          |
-| Թույլտվություններ | `ALLOWEDIT=1`    | `override bool AllowEdit => true` |
+| Ֆիլտրման դիալոգ   | `Dialog()`       | `CreateDialog()`                |
+| Ֆիլտրերի կիրառում | implicit         | `ApplyDialog()`                   |
+| Կոնտեքստային մենյու | `Functions()`    | `InitContextFunctions()`          |
+| Իրավասություններ | `ALLOWEDIT=1`    | `override bool AllowEdit => true` |
 
 **Gеnеric պարամետրեր**.
 
@@ -372,10 +374,10 @@ DataView<R, P>
 
 | 4X VIEW Property | 8X Համարժեք             | Նկարագրություն          |
 | ---------------- | ----------------------- | ----------------------- |
-| `NAME = X`       | `[DataView(nameof(X))]` | View-ի անուն            |
+| `NAME = X`       | `[DataView(nameof(X))]` | Դիտելու ձևի ներքին անուն            |
 | `CAPTION`        | `ArmenianCaption`       | Հայերեն անվանում        |
 | `ECAPTION`       | `EnglishCaption`        | Անգլերեն անվանում       |
-| `DATASOURCE`     | `ConfigureDataSource()` | Տվյալների աղբյուր       |
+| `DATASOURCE`     | `ConfigureDataSource()` | Հիմքային տվյալների աղբյուր       |
 | `GROUP`          | Navigator json          | Խմբավորում              |
 | `CONDITION`      | `LoadData()`            | Filter պայման           |
 | `SCRIPT`         | C# methods              | Logic                   |
@@ -383,11 +385,11 @@ DataView<R, P>
 
 ---
 
-### 3.3 Թույլտվությունների flags
+### 3.3 Իրավասությունների flags
 
 | 4X VIEW Property | 8X Override          | 8X Default        | Նկարագրություն       |
 | ---------------- | -------------------- | ----------------- | -------------------- |
-| `ALLOWADDNEW`    | `AllowAdd`           | կախված config-ից  | Ավելացնել            |
+| `ALLOWADDNEW`    | `AllowAdd`           | `false`           | Ավելացնել            |
 | `ALLOWVIEW`      | `AllowView`          | `IsDocumentBased` | Բացել դիտման ռեժիմով |
 | `ALLOWEDIT`      | `AllowEdit`          | `false`           | Խմբագրել             |
 | `ALLOWDELETE`    | `AllowDelete`        | `false`           | Ջնջել                |
