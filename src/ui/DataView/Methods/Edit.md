@@ -14,9 +14,8 @@ grand_parent: "DataView"
 public virtual void Edit()
 ```
 
-Խմբագրման գործողություն՝ ոչ-փաստաթղթային DataView-ի համար:
+Սահմանում է դիտելու ձևի «Դիտել/Խմբագրել» կոնտեքստային ֆունկցիայի կատարման արդյունքում բացվող պատուհանը՝ IsDocumentBased հատկության false արժեքի դեպքում։
 
-Լռությամբ ոչինչ չի կատարում: Override-ի դեպքում կատարի custom edit flow:
-Փաստաթղթային DataView-ում (`IsDocumentBased=true`) panel-ը
-կանչում է `EditDocument(false)`-ը:
+«Դիտել/Խմբագրել» կոնտեքստային ֆունկցիայի վարքագիծը կարգավորվում է AllowEdit, IsEditEnabled, IsDocumentBased հատկությունների միջոցով։
+
 

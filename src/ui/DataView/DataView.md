@@ -21,7 +21,7 @@ has_toc: false
 | [IsDocumentBased](Properties/IsDocumentBased.md) | Սահմանում է դիտելու ձևի տողերի փաստաթուղթ հանդիսանալու հատկությունը։ |
 | [IsUpdatable](Properties/IsUpdatable.md) | Սահմանում է դիտելու ձևի խմբագրված տվյալների թարմացման իրավասությունը։ |
 | [Enable2LineHeaders](Properties/Enable2LineHeaders.md) | Սահմանում է, արդյոք դիտելու ձևում սյուների վերնագրերը ցուցադրվելու են 2 տողով։ |
-| [ReloadMode](Properties/ReloadMode.md) | DataView-ի Refresh/Reload ռեժիմը: |
+| [ReloadMode](Properties/ReloadMode.md) | Սահմանում է դիտելու ձևի խմբագրված տողերի թարմացման ռեժիմը։ |
 | [AllowAdd](Properties/AllowAdd.md) | Սահմանում է դիտելու ձևում նոր տող ավելացնելու իրավասությունը` IsAddEnabled հատկության հետ համատեղ: |
 | [IsAddEnabled](Properties/IsAddEnabled.md) | Սահմանում է դիտելու ձևում նոր տող ավելացնելու իրավասությունը` AllowAdd հատկության հետ համատեղ: |
 | [IsEditEnabled](Properties/IsEditEnabled.md) | Սահմանում է դիտելու ձևի ընթացիկ տողը խմբագրման իրավասությունը` IsEditEnabled հատկության հետ համատեղ: |
@@ -47,10 +47,10 @@ has_toc: false
 
 | Անվանում | Նկարագրություն |
 |----------|----------------|
-| [Add()](Methods/Add.md) | Ավելացման գործողություն՝ ոչ-փաստաթղթային DataView-ի համար: |
-| [AddDocument(string docType)](Methods/AddDocument.md) | Ստեղծում և ցուցադրում է նոր փաստաթուղթ: |
+| [Add()](Methods/Add.md) | Սահմանում է դիտելու ձևի «Ավելացնել» կոնտեքստային ֆունկցիայի կատարման արդյունքում բացվող պատուհանը՝ IsDocumentBased հատկության false արժեքի դեպքում։ |
+| [AddDocument(string docType)](Methods/AddDocument.md) | Սահմանում է դիտելու ձևի «Ավելացնել» կոնտեքստային ֆունկցիայի կատարման արդյունքում բացվող պատուհանը՝ IsDocumentBased հատկության true արժեքի դեպքում։ |
 | [AddFirstPhase()](Methods/AddFirstPhase.md) | Ավելացնում է progress-ի առաջին (initial) փուլը "ProcessingData" անվամբ: |
-| [AddRow(R row)](Methods/AddRow.md) | Thread-safe կերպով ավելացնում է `row`-ը Rows հավաքածուին: |
+| [AddRow(R row)](Methods/AddRow.md) | Ավելացնում է նոր տող դիտելու ձևում։ |
 | [AfterLoadData()](Methods/AfterLoadData.md) | Կոչվում է data loading-ի ավարտին: |
 | [AfterLoadUpdatedRows(List<R> rows)](Methods/AfterLoadUpdatedRows.md) | Կոչվում է `LoadUpdatedRows`-ի կողմից server-ից rows ստանալուց հետո: |
 | [ApplyDialog(DataViewDialogWindow dialog, bool isRefreshMode)](Methods/ApplyDialog.md) | Կիրառում է dialog-ի ընտրված պարամետրերը DataView-ի Parameters-ի վրա: |
@@ -58,13 +58,13 @@ has_toc: false
 | [CaptionToolTip()](Methods/CaptionToolTip.md) | Վերադարձնում է DataView-ի tooltip-ում ցուցադրվող վերնագիրը: |
 | [ComposeTitle()](Methods/ComposeTitle.md) | Ստեղծում է ֆորմատավորված բազմատող վերնագիր՝ `IncludeCaptionToolTip=true` |
 | [CreateCopy()](Methods/CreateCopy.md) | Ստեղծում է ֆոկուսավորված row-ի/փաստաթղթի պատճենը: Լռությամբ ոչինչ չի կատարում: |
-| [CreateDialog(bool isRefresh)](Methods/CreateDialog.md) | Ստեղծում է DataView-ի պարամետրային dialog-ը: |
+| [+CreateDialog(bool isRefresh)](Methods/CreateDialog.md) | Ստեղծում է DataView-ի պարամետրային dialog-ը: |
 | [DataView()](Methods/DataView.md) | Ստեղծում է DataView-ի ինստանս, կարդում է `DataViewAttribute`-ից `Name`-ը, |
-| [Delete()](Methods/Delete.md) | Ջնջման գործողություն՝ ոչ-փաստաթղթային DataView-ի համար: Լռությամբ ոչինչ չի կատարում: |
-| [DeleteDocument()](Methods/DeleteDocument.md) | Ջնջում է ֆոկուսավորված row-ի փաստաթուղթը՝ կատարելով վիճակի ստուգումներ: |
+| [Delete()](Methods/Delete.md) | Սահմանում է դիտելու ձևի «Հեռացնել» կոնտեքստային ֆունկցիայի կատարման արդյունքում բացվող պատուհանը՝ IsDocumentBased հատկության false արժեքի դեպքում։ |
+| [DeleteDocument()](Methods/DeleteDocument.md) | Սահմանում է դիտելու ձևի «Հեռացնել» կոնտեքստային ֆունկցիայի կատարման արդյունքում բացվող պատուհանը՝ IsDocumentBased հատկության true արժեքի դեպքում։ |
 | [DocumentHistory()](Methods/DocumentHistory.md) | Ցուցադրում է ֆոկուսավորված row-ի փաստաթղթի փոփոխությունների պատմությունը: |
-| [Edit()](Methods/Edit.md) | Խմբագրման գործողություն՝ ոչ-փաստաթղթային DataView-ի համար: |
-| [EditDocument(bool isReadOnly)](Methods/EditDocument.md) | Բացում է ֆոկուսավորված row-ի փաստաթղթի պատուհանը: |
+| [Edit()](Methods/Edit.md) | Սահմանում է դիտելու ձևի «Դիտել/Խմբագրել» կոնտեքստային ֆունկցիայի կատարման արդյունքում բացվող պատուհանը՝ IsDocumentBased հատկության false արժեքի դեպքում։ |
+| [EditDocument(bool isReadOnly)](Methods/EditDocument.md) | Սահմանում է դիտելու ձևի «Դիտել/Խմբագրել» կոնտեքստային ֆունկցիայի կատարման արդյունքում բացվող պատուհանը՝ IsDocumentBased հատկության true արժեքի դեպքում։ |
 | [ExecutionSuppressed()](Methods/ExecutionSuppressed.md) | Կոչվում է, երբ `SuppressExecution=true` և data loading-ը ճնշվում է: |
 | [FillData(object filledList)](Methods/FillData.md) | Փոխարինում է Rows հավաքածուն `filledList`-ի բովանդակությամբ: |
 | [GetDefaultFunction()](Methods/GetDefaultFunction.md) | Վերադարձնում է DataView-ի լռային կոնտեքստային ֆունկցիայի անունը: |

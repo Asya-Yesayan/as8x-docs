@@ -14,9 +14,7 @@ grand_parent: "DataView"
 public virtual void Add()
 ```
 
-Ավելացման գործողություն՝ ոչ-փաստաթղթային DataView-ի համար:
+Սահմանում է դիտելու ձևի «Ավելացնել» կոնտեքստային ֆունկցիայի կատարման արդյունքում բացվող պատուհանը՝ IsDocumentBased հատկության false արժեքի դեպքում։
 
-Լռությամբ ոչինչ չի կատարում: Override-ի դեպքում պետք է բացի
-ավելացման UI-ը: Փաստաթղթային DataView-ում (IsDocumentBased=true)
-panel-ը կանչում է `AddDocument`-ը:
+«Ավելացնել» կոնտեքստային ֆունկցիայի վարքագիծը կարգավորվում է AllowAdd, IsAddEnabled, IsDocumentBased հատկությունների միջոցով։
 

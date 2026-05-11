@@ -14,14 +14,11 @@ grand_parent: "DataView"
 protected void AddRow(R row)
 ```
 
-Thread-safe կերպով ավելացնում է `row`-ը Rows հավաքածուին:
-
-Dispatcher.BeginInvoke-ով post-ում է UI thread-ին: Background thread-ից
-կանչելու համար (progress flow): `Wait()`-ը sync-ացնում է:
+Ավելացնում է նոր տող դիտելու ձևում։
 
 **Պարամետրեր**
 
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 | --- | --- | --- | --- |
-| row | R | - | Ավելացվող row-ը: Ոչ-`null`: |
+| row | R | - | Ավելացվող տողը։ |
 

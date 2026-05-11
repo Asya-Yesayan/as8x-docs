@@ -14,9 +14,6 @@ grand_parent: "DataView"
 public virtual ReloadMode ReloadMode { get; }
 ```
 
-DataView-ի Refresh/Reload ռեժիմը:
+Սահմանում է դիտելու ձևի խմբագրված տողերի թարմացման ռեժիմը։
 
-Վերադարձնում է `ReloadMode.None` երբ `Type == ViewSource.SmartEnum`,
-հակառակ դեպքում `ReloadMode.Reloadable`:
-Ազդում է panel-ի toolbar-ի Refresh button-ի ցուցադրման վրա:
-
+Ֆունկցիոնալությունը ընթացիկ պահին իրականացված չէ։

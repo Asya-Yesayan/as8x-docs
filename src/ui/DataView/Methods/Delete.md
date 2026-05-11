@@ -14,8 +14,7 @@ grand_parent: "DataView"
 public virtual void Delete()
 ```
 
-Ջնջման գործողություն՝ ոչ-փաստաթղթային DataView-ի համար: Լռությամբ ոչինչ չի կատարում:
+Սահմանում է դիտելու ձևի «Հեռացնել» կոնտեքստային ֆունկցիայի կատարման արդյունքում բացվող պատուհանը՝ IsDocumentBased հատկության false արժեքի դեպքում։
 
-Override-ի դեպքում կատարի custom delete flow: Փաստաթղթային
-DataView-ում panel-ը կանչում է `DeleteDocument()`-ը:
+«Հեռացնել» կոնտեքստային ֆունկցիայի վարքագիծը կարգավորվում է AllowDelete, IsDeleteEnabled, IsDocumentBased հատկությունների միջոցով։
 

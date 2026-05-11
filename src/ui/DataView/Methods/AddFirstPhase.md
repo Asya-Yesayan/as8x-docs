@@ -14,8 +14,14 @@ grand_parent: "DataView"
 protected virtual void AddFirstPhase()
 ```
 
-Ավելացնում է progress-ի առաջին (initial) փուլը "ProcessingData" անվամբ:
+Սահմանում է դիտելու ձևի կատարման պրոգրեսի առաջին փուլի (phase) տեքստը։ Լռությամբ արժեքը «Տվյալների մշակում» է։
 
-Կոչվում է `BackgroundWorkerDoWorkEventHandler`-ի կողմից background thread-ում:
-Override-ի դեպքում կարելի է փոխել initial phase-ի անունը կամ total-ը:
+Օրինակ 
+
+```c#
+protected override void AddFirstPhase()
+{
+    AddPhase("Տվյալների բեռնում");
+}
+```
 
