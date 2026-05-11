@@ -14,9 +14,4 @@ grand_parent: "DataView"
 public object GridSource()
 ```
 
-Վերադարձնում է DataView-ի Rows հավաքածուն grid binding-ի համար:
-
-**Վերադարձնում է**
-
-Rows հավաքածուն որպես `object`:
-
+Վերադարձնում է դիտելու ձևի տողերի ցուցակը։

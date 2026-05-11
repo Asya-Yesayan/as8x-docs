@@ -14,14 +14,20 @@ grand_parent: "DataView"
 public virtual void ApplyDialog(DataViewDialogWindow dialog, bool isRefreshMode)
 ```
 
-Կիրառում է dialog-ի ընտրված պարամետրերը DataView-ի Parameters-ի վրա:
-
-Լռությամբ ոչինչ չի կատարում: Override-ն պետք է `Parameters`-ը լրացնի:
+Այս մեթոդը նախատեսված է դիտելու ձևի CreateDialog մեթոդի միջոցով ստեղծված նախնական ֆիլտրման դիալոգի ցուցադրման և control-ների արժեքները որպես դիտելու ձևի պարամետրեր փոխանցելու համար։
 
 **Պարամետրեր**
 
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 | --- | --- | --- | --- |
-| dialog | DataViewDialogWindow | - | Dialog-ի օբյեկտը, որն պարունակում է ընտրված parameter արժեքները: Ոչ-`null`: |
-| isRefreshMode | bool | - | `true` → կիրառումը կատարվում է refresh flow-ի ժամանակ: `false` → կատարվում է initial load flow-ի ժամանակ: |
+| dialog | DataViewDialogWindow | - | Դիտելու ձևի նախնական ֆիլտրման դիալոգը։ |
+| isRefreshMode | bool | - | Պարամետրը վերադարձնում է, արդյոք նախնական ֆիլտրման դիալոգը բացվել է դիտելու ձևի սկզբնական բացման պահին, թե ծրագրի Toolbar-ի **«Փոխել պարամետրերը»** (Ctrl + G) կոճակի միջոցով։ |
 
+Օրինակ 
+
+```c#
+public override void ApplyDialog(DataViewDialogWindow dialog, bool isRefreshMode)
+{
+    this.Parameters.UserId = ((DocumentsChangeRequestsDialogWindow)dialog).Code;
+}
+```

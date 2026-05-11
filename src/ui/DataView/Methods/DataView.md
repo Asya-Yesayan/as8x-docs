@@ -14,10 +14,4 @@ grand_parent: "DataView"
 public DataView()
 ```
 
-Ստեղծում է DataView-ի ինստանս, կարդում է `DataViewAttribute`-ից `Name`-ը,
-caption-ը և extension support-ի դրոշը:
-
-Եթե `DataViewAttribute`-ը կիրառված չէ, `name`-ը սահմանվում է `null`,
-ինչի հետևանքով `Name` property-ի կանչը կնետի `InvalidOperationException`:
-`SuppressExecution`-ը լռությամբ `false` է:
-
+Ստեղծում է DataView դասի նոր օբյեկտ։

@@ -14,9 +14,27 @@ grand_parent: "DataView"
 public virtual string GetDefaultFunction()
 ```
 
-Վերադարձնում է DataView-ի լռային կոնտեքստային ֆունկցիայի անունը:
+Սահմանում է լռությամբ բացվող կոնտեքստային ֆունկցիան` դիտելու ձևի ընթացիկ տողի կրկնակի սեղմում կատարելիս։
 
-**Վերադարձնում է**
+Օրինակ
 
-Լռությամբ `string.Empty`: Override-ի դեպքում՝ ֆունկցիայի անունը:
+```c#
+public override string GetDefaultFunction()
+{
+    return nameof(ViewStepReport);
+}
 
+public override PopupMenu InitContextFunctions()
+{
+    var panel = this.Panel.InitContextMenu();
+    panel.AddContextFunction(nameof(ViewStepReport), "Կատարման մանրամասներ", ViewStepReport, FunctionAvailability.CurrentRow);
+    return panel;
+}
+
+private void ViewStepReport(object sender, ItemClickEventArgs e)
+{
+    var focusedRow = (JobExecutionDataRow)this.Panel.FocusedRow();
+    var textReport = GetRowReport(focusedRow);
+    textReport.Show();  
+}
+```

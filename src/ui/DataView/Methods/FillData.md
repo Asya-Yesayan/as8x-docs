@@ -14,14 +14,11 @@ grand_parent: "DataView"
 public void FillData(object filledList)
 ```
 
-Փոխարինում է Rows հավաքածուն `filledList`-ի բովանդակությամբ:
-
-Մաքրում է Rows-ն (եթե ոչ-դատարկ) և refill-ում: Կոչվում է
-`DataViewProgressWindow_ProcessRows`-ի կողմից batch-ի ժամանակ:
+Ավելացնում է նշված տողերի ցուցակը դիտելու ձևում։
 
 **Պարամետրեր**
 
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 | --- | --- | --- | --- |
-| filledList | object | - | `IEnumerable{R}`-ի typecast-վող object: Null-ը կնետի `NullReferenceException`: Կոչվում է progress flow-ի կողմից: |
+| filledList | object | - | Ավելացվող տողերի ցուցակը։ |
 

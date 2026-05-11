@@ -14,8 +14,19 @@ grand_parent: "DataView"
 public virtual void AfterLoadData()
 ```
 
-Կոչվում է data loading-ի ավարտին:
+Մեթոդը կանչվում է դիտելու ձևի տվյալները բեռնելուց առաջ։ Սովորաբար օգտագործվում է լրացուցիչ հաշվարկներ, տվյալների թարմացումներ իրականացնելու համար։
 
-Լռությամբ ոչինչ չի կատարում: Override-ն կարող է կատարել հավելյալ
-հաշվարկներ, UI թարմացումներ կամ column formatting:
+Օրինակ
 
+```c#
+public override void AfterLoadData()
+{
+    foreach (var row in this.Rows)
+    {
+        if (row.Comment == "Ծառայության գնացուցակ (ՀԾ-Ձեռնարկություն)")
+        {
+        row.Comment = string.Empty;
+        }
+    }
+}
+```

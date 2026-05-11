@@ -14,11 +14,15 @@ grand_parent: "DataView"
 public virtual PopupMenu InitContextFunctions()
 ```
 
-Ստեղծում և վերադարձնում է DataView-ի կոնտեքստային ֆունկցիաների popup menu-ն:
+Ստեղծում և վերադարձնում է դիտելու ձևի կոնտեքստային մենյուն։ 
 
-Override-ի դեպքում կարելի է ավելացնել կամ փոփոխել context menu item-ներ:
+Օրինակ
 
-**Վերադարձնում է**
-
-`Panel.InitContextMenu()`-ի արդյունքը:
-
+```c#
+public override PopupMenu InitContextFunctions()
+{
+    var panel = this.Panel.InitContextMenu();
+    panel.AddContextFunction(nameof(ViewStepReport), "Կատարման մանրամասներ", ViewStepReport, FunctionAvailability.CurrentRow);
+    return panel;
+}
+```
