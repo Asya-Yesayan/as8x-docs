@@ -14,8 +14,5 @@ grand_parent: "DataView"
 public IReadOnlyList<ViewColumn> ColumnsList { get; }
 ```
 
-DataView-ի ցուցադրվող սյուների read-only ցուցակը:
-
-Delegate-ում է `Columns.ViewList`-ին: Պարունակում է բոլոր active սյուները՝
-ըստ extension-ի կամ կոնֆիգուրացիայի:
+Վերադարձնում է դիտելու ձևի սյուների նկարագրությունների ցուցակը։ 
 

@@ -14,8 +14,6 @@ grand_parent: "DataView"
 public virtual bool AllowCallDocumentFunctions { get; }
 ```
 
-Ինդիկացնում է՝ արդյոք DataView-ի կոնտեքստից թույլատրված է փաստաթղթի կոնտեքստային ֆունկցիաների կանչը:
+Սահմանում է դիտելու ձևում ընթացիկ տողում պարունակվող փաստաթղթի և փաստաթղթի ընդլայնման կոնտեքստային ֆունկցիաների ցուցադրման իրավասությունը՝ IsDocumentBased հատկության հետ համատեղ։ Հատկության լռությամբ արժեքը համընկնում է IsDocumentBased հատկության արժեքի հետ։
 
-Լռությամբ հավասար է `IsDocumentBased`-ի արժեքին:
-Երբ `false` է, panel-ի document-specific context menu item-ները disabled են:
-
+Եթե `IsDocumentBased=true` և `AllowCallDocumentFunctions=true`, ապա դիտելու ձևի կոնտեքստային մենյուում ցուցադրվում են ընթացիկ տողում պարունակվող փաստաթղթի և փաստաթղթի ընդլայնման կոնտեքստային ֆունկցիաները։

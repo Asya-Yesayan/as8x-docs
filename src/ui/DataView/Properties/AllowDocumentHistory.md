@@ -20,5 +20,5 @@ public virtual bool AllowDocumentHistory { get; }
 
 «Պատմություն» կոնտեքստային ֆունկցիայի կատարման արդյունքում բացվող պատմությունը պարունակող պատուհանը սահմանվում է `DocumentHistory` մեթոդով: 
 * Եթե `AllowDocumentHistory=true` և `AllowDocHistory=true` և `IsDocumentBased=false`, ապա կանչվում է `DocumentHistory` մեթոդը:
-* Եթե `AllowDocumentHistory=true` DocumentHistoryև `IsHistoryEnabled=true` և `IsDocumentBased=true`, ապա ցուցադրվում է ընթացիկ տողը պարունակող փաստաթղթի պատմությունը։
+* Եթե `AllowDocumentHistory=true` և `IsHistoryEnabled=true` և `IsDocumentBased=true`, ապա ցուցադրվում է ընթացիկ տողում պարունակվող փաստաթղթի պատմությունը։
 

@@ -14,13 +14,6 @@ grand_parent: "DataView"
 public virtual bool IsDocumentBased { get; }
 ```
 
-Ինդիկացնում է՝ արդյոք DataView-ի rows-ը փաստաթղթային ռեկորդներ են:
+Սահմանում է դիտելու ձևի տողերի փաստաթուղթ հանդիսանալու հատկությունը։
 
-Lazy computed: ստուգում է `typeof(R).GetInterface(nameof(IRowWithISN))`:
-Ազդում է հետևյալ հատկությունների վրա.
-`AllowAdd`, `AllowView`, `AllowCreateCopy`, `AllowEditUDR`,
-`AllowDocumentHistory`, `AllowCallDocumentFunctions`,
-`AllowPrintPreview`, `AllowDocumentParents`, `AllowDocumentChildren`:
-Երբ `true` — `EditDocument`/`DeleteDocument` մեթոդները կիրառվում են
-edit/delete flow-ի ժամանակ:
-
+Հատկության լռությամբ արժեքը true է, եթե դիտելու ձևի տողերը ներկայացնող դասը իրականացնում է IRowWithISN ինտերֆեյսը։

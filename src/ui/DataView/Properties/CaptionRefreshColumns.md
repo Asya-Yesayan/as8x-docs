@@ -14,9 +14,15 @@ grand_parent: "DataView"
 public virtual HashSet<string> CaptionRefreshColumns { get; }
 ```
 
-Այն սյուների անուններն, որոնց caption-ները թարմացվում են dialog-ի կատարման ավարտից հետո:
+Վերադարձնում է դիտելու ձևի այն սյուների ներքին անունների ցուցակը, որոնց վերնագրերը պետք է թարմացվեն ծրագրի Toolbar-ի **«Փոխել պարամետրերը»** կոճակով բացվող նախնական ֆիլտրման դիալոգի կատարման արդյունքում։ Հատկության լռությամբ արժեքը null է։
 
-Լռությամբ `null`: Override-ի դեպքում վերադարձնել column name-ների
-`HashSet{string}`: Panel-ն dialog apply-ից հետո ստուգում է
-այս հավաքածուն ու refresh-ում column header-ները:
+Սյուների նոր վերնագրերը հնարավոր է սահմանել AfterApplyDialog մեթդում։
 
+Օրինակ՝
+
+```c#
+protected override void AfterApplyDialog(HealthInsuranceParticipationDataDialog dialog, bool isRefreshMode)
+{
+    this.Columns[nameof(DataRow.HealthInsurancePremiumOnDate)].Caption = "Առողջության ապահովագրավճար";
+}
+```

@@ -9,8 +9,39 @@ has_toc: false
 
 ## Ներածություն
 
-DataView-ի աբստրակտ հիմնական դաս՝ WPF grid-ի ցուցադրման, CRUD գործողությունների,
-progress-ի, dialog-ի, extension-ի և tooltip-ի ամբողջ ենթակառուցվածքով:
+Այս դասը նախատեսված է դիտելու ձևի նկարագրման համար։
+
+## Հատկություններ
+
+| Անվանում | Նկարագրություն |
+|----------|----------------|
+| [Name](Properties/Name.md) | Վերադարձնում է դիտելու ձևի ներքին անունը, որը համընկնում է DataView ատրիբուտում նշված անվան հետ։ |
+| [SupportsExtensions](Properties/SupportsExtensions.md) | Վերադարձնում է դիտելու ձևի ընդլայնման իրավասությունը, որը համընկնում է DataView ատրիբուտի SupportsExtensions հատկության արժեքի հետ։   |
+| [TitleString](Properties/TitleString.md) | Ֆորմատավորված վերնագրի տեքստը՝ ստացված `FormattedStoredValues`-ի `TitleFlag=true` |
+| [IsDocumentBased](Properties/IsDocumentBased.md) | Սահմանում է դիտելու ձևի տողերի փաստաթուղթ հանդիսանալու հատկությունը։ |
+| [IsUpdatable](Properties/IsUpdatable.md) | Սահմանում է դիտելու ձևի խմբագրված տվյալների թարմացման իրավասությունը։ |
+| [Enable2LineHeaders](Properties/Enable2LineHeaders.md) | Սահմանում է, արդյոք դիտելու ձևում սյուների վերնագրերը ցուցադրվելու են 2 տողով։ |
+| [ReloadMode](Properties/ReloadMode.md) | DataView-ի Refresh/Reload ռեժիմը: |
+| [AllowAdd](Properties/AllowAdd.md) | Սահմանում է դիտելու ձևում նոր տող ավելացնելու իրավասությունը` IsAddEnabled հատկության հետ համատեղ: |
+| [IsAddEnabled](Properties/IsAddEnabled.md) | Սահմանում է դիտելու ձևում նոր տող ավելացնելու իրավասությունը` AllowAdd հատկության հետ համատեղ: |
+| [IsEditEnabled](Properties/IsEditEnabled.md) | Սահմանում է դիտելու ձևի ընթացիկ տողը խմբագրման իրավասությունը` IsEditEnabled հատկության հետ համատեղ: |
+| [AllowEdit](Properties/AllowEdit.md) | Սահմանում է դիտելու ձևի ընթացիկ տողը խմբագրման իրավասությունը` IsEditEnabled հատկության հետ համատեղ: |
+| [AllowView](Properties/AllowView.md) | Ինդիկացնում է՝ արդյոք DataView-ից թույլատրված է փաստաթղթի read-only դիտումը: |
+| [IsDeleteEnabled](Properties/IsDeleteEnabled.md) | Սահմանում է դիտելու ձևի ընթացիկ տողի հեռացման իրավասությունը` AllowDelete հատկության հետ համատեղ: |
+| [AllowCallDocumentFunctions](Properties/AllowCallDocumentFunctions.md) | Սահմանում է դիտելու ձևում ընթացիկ տողում պարունակվող փաստաթղթի և փաստաթղթի ընդլայնման կոնտեքստային ֆունկցիաների ցուցադրման իրավասությունը՝ IsDocumentBased հատկության հետ համատեղ։ |
+| [AllowCreateCopy](Properties/AllowCreateCopy.md) | Սահմանում է դիտելու ձևի ընթացիկ տողի պատճենման իրավասությունը` IsCreateCopyEnabled հատկության հետ համատեղ: |
+| [IsCreateCopyEnabled](Properties/IsCreateCopyEnabled.md) | Սահմանում է դիտելու ձևի ընթացիկ տողի պատճենման իրավասությունը` AllowCreateCopy հատկության հետ համատեղ: |
+| [AllowPreview](Properties/AllowPreview.md) | Սահմանում է դիտելու ձևի ընթացիկ տողում պարունակվող փաստաթղթի տպելու ձևանմուշի նախնական դիտման իրավասությունը: |
+| [AllowExport](Properties/AllowExport.md) | Սահմանում է դիտելու ձևի արտահանման իրավասությունը: |
+| [AllowDocumentHistory](Properties/AllowDocumentHistory.md) | Սահմանում է դիտելու ձևի ընթացիկ տողի պատմությունը դիտելու իրավասությունը` AllowDocHistory համակարգային պարամետրի համատեղ: |
+| [LoadIndication](Properties/LoadIndication.md) | Սահմանում է դիտելու ձևի կատարման պրոգրեսի ցուցադրման ռեժիմը։ |
+| [AllowedDocumentsToAdd](Properties/AllowedDocumentsToAdd.md) | Սահմանում է այն փաստաթղթերի ներքին անունների (տեսակների) ցանկը, որոնք թույլատրվում է ավելացնել դիտելու ձևից՝ «Ավելացնել» կոնտեքստային ֆունկցիայի միջոցով։ |
+| [AllowEditUDR](Properties/AllowEditUDR.md) | Սահմանում է դիտելու ձևի ընտրված տողերի (փաստաթղթերի) «օգտագործողի կողմից նկարագրված դաշտերի» խմբագրման իրավասությունը: |
+| [AllowPrintPreview](Properties/AllowPrintPreview.md) | Սահմանում է դիտելու ձևի ընթացիկ տողում պարունակվող փաստաթղթի տպելու ձևանմուշի նախնական դիտման իրավասությունը: |
+| [AllowDocumentParents](Properties/AllowDocumentParents.md) | Սահմանում է դիտելու ձևի ընթացիկ տողի (փաստաթղթի) ծնող փաստաթղթերի դիտման իրավասությունը: |
+| [AllowDocumentChildren](Properties/AllowDocumentChildren.md) | Սահմանում է դիտելու ձևի ընթացիկ տողի (փաստաթղթի) զավակ փաստաթղթերի դիտման իրավասությունը: |
+| [ColumnsList](Properties/ColumnsList.md) | Վերադարձնում է դիտելու ձևի սյուների նկարագրությունների ցուցակը։  |
+| [CaptionRefreshColumns](Properties/CaptionRefreshColumns.md) | Վերադարձնում է դիտելու ձևի այն սյուների ներքին անունների ցուցակը, որոնց վերնագրերը պետք է թարմացվեն ծրագրի Toolbar-ի «Փոխել պարամետրերը» կոճակով բացվող նախնական ֆիլտրման դիալոգի կատարման արդյունքում։ |
 
 ## Մեթոդներ
 
@@ -56,33 +87,4 @@ progress-ի, dialog-ի, extension-ի և tooltip-ի ամբողջ ենթակառո
 | [View()](Methods/View.md) | Դիտման գործողություն: Լռությամբ ոչինչ չի կատարում: |
 | [ViewParametersReport()](Methods/ViewParametersReport.md) | Ցուցադրում է DataView-ի բոլոր parameters-ի textual report-ը: |
 
-## Հատկություններ
 
-| Անվանում | Նկարագրություն |
-|----------|----------------|
-| [Name](Properties/Name.md) | DataView-ի մետա-անունը՝ ստացված `DataViewAttribute`-ից: |
-| [SupportsExtensions](Properties/SupportsExtensions.md) | Ինդիկացնում է՝ արդյոք DataView-ն աջակցում է extension-ներին: |
-| [TitleString](Properties/TitleString.md) | Ֆորմատավորված վերնագրի տեքստը՝ ստացված `FormattedStoredValues`-ի `TitleFlag=true` |
-| [IsDocumentBased](Properties/IsDocumentBased.md) | Ինդիկացնում է՝ արդյոք DataView-ի rows-ը փաստաթղթային ռեկորդներ են: |
-| [IsUpdatable](Properties/IsUpdatable.md) | Ինդիկացնում է՝ արդյոք DataView-ի rows-ը կարող են թարմացվել `LoadUpdatedRows`-ի միջոցով: |
-| [Enable2LineHeaders](Properties/Enable2LineHeaders.md) | DataView-ի grid-ը միշտ ցուցադրում է 2-տողանի header-ներ: |
-| [ReloadMode](Properties/ReloadMode.md) | DataView-ի Refresh/Reload ռեժիմը: |
-| [AllowAdd](Properties/AllowAdd.md) | Սահմանում է դիտելու ձևում նոր տող ավելացնելու իրավասությունը` IsAddEnabled հատկության հետ համատեղ: |
-| [IsAddEnabled](Properties/IsAddEnabled.md) | Սահմանում է դիտելու ձևում նոր տող ավելացնելու իրավասությունը` AllowAdd հատկության հետ համատեղ: |
-| [IsEditEnabled](Properties/IsEditEnabled.md) | Սահմանում է դիտելու ձևի ընթացիկ տողը խմբագրման իրավասությունը` IsEditEnabled հատկության հետ համատեղ: |
-| [AllowView](Properties/AllowView.md) | Ինդիկացնում է՝ արդյոք DataView-ից թույլատրված է փաստաթղթի read-only դիտումը: |
-| [IsDeleteEnabled](Properties/IsDeleteEnabled.md) | Սահմանում է դիտելու ձևի ընթացիկ տողի հեռացման իրավասությունը` AllowDelete հատկության հետ համատեղ: |
-| [AllowCallDocumentFunctions](Properties/AllowCallDocumentFunctions.md) | Ինդիկացնում է՝ արդյոք DataView-ի կոնտեքստից թույլատրված է փաստաթղթի կոնտեքստային ֆունկցիաների կանչը: |
-| [AllowCreateCopy](Properties/AllowCreateCopy.md) | Ինդիկացնում է՝ արդյոք DataView-ից թույլատրված է ընթացիկ row-ի/փաստաթղթի պատճենի ստեղծումը: |
-| [IsCreateCopyEnabled](Properties/IsCreateCopyEnabled.md) | Սահմանում է դիտելու ձևի ընթացիկ տողի պատճենման իրավասությունը` IsCreateCopyEnabled հատկության հետ համատեղ: |
-| [AllowPreview](Properties/AllowPreview.md) | Ինդիկացնում է՝ արդյոք DataView-ից թույլատրված է print preview-ն: |
-| [AllowExport](Properties/AllowExport.md) | Ինդիկացնում է՝ արդյոք DataView-ից թույլատրված է տվյալների export-ը: |
-| [AllowDocumentHistory](Properties/AllowDocumentHistory.md) | Սահմանում է դիտելու ձևի ընթացիկ տողի պատմությունը դիտելու իրավասությունը` AllowDocHistory համակարգային պարամետրի համատեղ: |
-| [LoadIndication](Properties/LoadIndication.md) | Տվյալների բեռնման progress ցուցադրման ռեժիմը: |
-| [AllowedDocumentsToAdd](Properties/AllowedDocumentsToAdd.md) | `AddDocument`-ի կողմից թույլատրված փաստաթղթային տիպերի ցանկ: |
-| [AllowEditUDR](Properties/AllowEditUDR.md) | Ինդիկացնում է՝ արդյոք թույլատրված է UDR (user-defined reports) խմբագրումը: |
-| [AllowPrintPreview](Properties/AllowPrintPreview.md) | Ինդիկացնում է՝ արդյոք DataView-ից հասանելի է print preview-ն: |
-| [AllowDocumentParents](Properties/AllowDocumentParents.md) | Ինդիկացնում է՝ արդյոք DataView-ից հասանելի է փաստաթղթի parent-ների դիտումը: |
-| [AllowDocumentChildren](Properties/AllowDocumentChildren.md) | Ինդիկացնում է՝ արդյոք DataView-ից հասանելի է փաստաթղթի children-ների դիտումը: |
-| [ColumnsList](Properties/ColumnsList.md) | DataView-ի ցուցադրվող սյուների read-only ցուցակը: |
-| [CaptionRefreshColumns](Properties/CaptionRefreshColumns.md) | Այն սյուների անուններն, որոնց caption-ները թարմացվում են dialog-ի կատարման ավարտից հետո: |

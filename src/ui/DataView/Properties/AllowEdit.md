@@ -1,20 +1,20 @@
 ---
-title: IsEditEnabled
+title: AllowEdit
 parent: "Հատկություններ"
 grand_parent: "DataView"
 ---
 
-# DataView.IsEditEnabled հատկություն
+# DataView.AllowEdit հատկություն
 
 ## Նկարագիր
 
 **Դաս՝** [DataView](../DataView.md)
 
 ```c#
-public virtual bool IsEditEnabled { get; }
+public virtual bool AllowEdit { get; }
 ```
 
-Սահմանում է դիտելու ձևի ընթացիկ տողը խմբագրման իրավասությունը` AllowEdit հատկության հետ համատեղ: Հատկության լռությամբ արժեքը true է:
+Սահմանում է դիտելու ձևի ընթացիկ տողը խմբագրման իրավասությունը` IsEditEnabled հատկության հետ համատեղ: Հատկության լռությամբ արժեքը false է:
 
 * Եթե `AllowEdit=true` և `IsEditEnabled=true`, ապա դիտելու ձևի կոնտեքստային մենյուում ցուցադրվում է «Դիտել/Խմբագրել» կոնտեքստային ֆունկցիան, որը հասանելի է կատարման համար՝ խմբագրման ռեժիմով։
 * Եթե `AllowEdit=true` և `IsEditEnabled=false`, ապա դիտելու ձևի կոնտեքստային մենյուում ցուցադրվում է «Դիտել/Խմբագրել» կոնտեքստային ֆունկցիան, սակայն հասանելի չէ կատարման համար (ցուցադրվում է readonly ռեժիմով)։

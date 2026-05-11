@@ -14,13 +14,10 @@ grand_parent: "DataView"
 public virtual bool IsUpdatable { get; }
 ```
 
-Ինդիկացնում է՝ արդյոք DataView-ի rows-ը կարող են թարմացվել `LoadUpdatedRows`-ի միջոցով:
+Սահմանում է դիտելու ձևի խմբագրված տվյալների թարմացման իրավասությունը։
 
-Lazy computed: `true` է, երբ.
-- DataSource տեսակի դեպքում. `ds.Definition.IsUpdatable` AND
-`typeof(R).GetInterface(nameof(IMatchedUpdateKey)) != null`:
-- Այլ տեսակների դեպքում. `typeof(R).GetInterface(nameof(IMatchedUpdateKey)) != null`:
+Հատկության լռությամբ արժեքը true է, եթե՝ 
+* Դիտելու ձևը տվյալները ստանում է տվյալների աղբյուրից, որի Definition.IsUpdatable=true և դիտելու ձևի տողերը ներկայացնող դասը իրականացնում է IMatchedUpdateKey ինտերֆեյսը։
+* Կամ դիտելու ձևի տողերը ներկայացնող դասը իրականացնում է IMatchedUpdateKey ինտերֆեյսը։
 
-Եթե `false` է, `LoadUpdatedRows()`-ի կանչը կնետի
-`NotImplementedException`:
-
+Հատկության true արժեքի դեպքում ծրագրի Toolbar-ի «Թարմացնել» (Ctrl + R) կոճակը սեղմելիս կամ տող(եր)ը խմբագրելիս թարմացվում են դիտելու ձևի խմբագրված տողերը։

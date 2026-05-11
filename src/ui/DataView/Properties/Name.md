@@ -14,15 +14,8 @@ grand_parent: "DataView"
 public override string Name { get; }
 ```
 
-DataView-ի մետա-անունը՝ ստացված `DataViewAttribute`-ից:
+Վերադարձնում է դիտելու ձևի ներքին անունը, որը համընկնում է DataView ատրիբուտում նշված անվան հետ։
 
-Եթե `DataViewAttribute`-ը կիրառված չէ, property-ի կանչը կնետի
-`InvalidOperationException`: Օգտագործվում է access control,
-statistics, logging և extension-ների կողմից:
+Եթե դիտելու ձևը նկարագրող դասում բացակայում է DataView ատրիբուտը, ապա այս հատկությանը դիմելիս առաջանում է սխալ։
 
-**Բացառություններ**
-
-| Տիպ | Նկարագրություն |
-| --- | --- |
-| `InvalidOperationException` | Նետվում է, երբ `DataViewAttribute`-ը կիրառված չէ: |
 
