@@ -23,3 +23,5 @@ public virtual bool AllowExport { get; }
 
 Նշված ֆունկցիոնալության միջոցով հնարավոր է արտահանել դիտելու ձևի տվյալները համապատասխանաբար xls, xlsx, PDF ձևաչափերով։
 
+![Export_Pdf](../../images/DataView/Export_Pdf.png)
+![Export_Toolbar](../../images/DataView/Export_Toolbar.png)

@@ -23,3 +23,5 @@ public virtual bool IsAddEnabled { get; }
 «Ավելացնել» կոնտեքստային ֆունկցիայի կատարման արդյունքում բացվող ավելացման պատուհանը սահմանվում է `Add` կամ `AddDocument` մեթոդներով: 
 * Եթե `AllowAdd=true` և `IsAddEnabled=true` և `IsDocumentBased=false`, ապա կանչվում է `Add` մեթոդը:
 * Եթե `AllowAdd=true` և `IsAddEnabled=true` և `IsDocumentBased=true`, ապա կանչվում է `AddDocument` մեթոդը:
+
+![Add_Function](../../images/DataView/Add_Function.png)

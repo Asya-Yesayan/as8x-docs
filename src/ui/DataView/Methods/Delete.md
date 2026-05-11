@@ -18,3 +18,5 @@ public virtual void Delete()
 
 «Հեռացնել» կոնտեքստային ֆունկցիայի վարքագիծը կարգավորվում է AllowDelete, IsDeleteEnabled, IsDocumentBased հատկությունների միջոցով։
 
+![Delete_Function](../../images/DataView/Delete_Function.png)
+

@@ -24,3 +24,5 @@ public virtual bool IsDeleteEnabled { get; }
 * Եթե `AllowDelete=true` և `IsDeleteEnabled=true` և `IsDocumentBased=false`, ապա կանչվում է `Delete` մեթոդը:
 * Եթե `AllowDelete=true` և `IsDeleteEnabled=true` և `IsDocumentBased=true`, ապա կանչվում է `DeleteDocument` մեթոդը:
 
+![Delete_Function](../../images/DataView/Delete_Function.png)
+

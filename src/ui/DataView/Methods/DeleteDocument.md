@@ -26,3 +26,5 @@ public virtual void DeleteDocument()
 | --- | --- | --- | --- |
 | docType | string | - | Այն փաստաթղթի ներքին նույնականացման համարը (isn), որի համար կանչվել է «Հեռացնել» կոնտեքստային ֆունկցիան։ |
 
+![Delete_Function](../../images/DataView/Delete_Function.png)
+

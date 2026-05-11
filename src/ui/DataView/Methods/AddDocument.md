@@ -26,3 +26,5 @@ public virtual void AddDocument(string docType)
 | --- | --- | --- | --- |
 | docType | string | - | Այն փաստաթղթի ներքին նույնականացման համարը (isn), որի համար կանչվել է «Ավելացնել» կոնտեքստային ֆունկցիան։ |
 
+![Add_Function](../../images/DataView/Add_Function.png)
+

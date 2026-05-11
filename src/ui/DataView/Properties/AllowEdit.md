@@ -23,3 +23,5 @@ public virtual bool AllowEdit { get; }
 «Դիտել/Խմբագրել» կոնտեքստային ֆունկցիայի կատարման արդյունքում բացվող խմբագրման պատուհանը սահմանվում է `Edit` կամ `EditDocument` մեթոդներով: 
 * Եթե `AllowEdit=true` և `IsEditEnabled=true` և `IsDocumentBased=false`, ապա կանչվում է `Edit` մեթոդը:
 * Եթե `AllowEdit=true` և `IsEditEnabled=true` և `IsDocumentBased=true`, ապա կանչվում է `EditDocument` մեթոդը:
+
+![Edit_Function](../../images/DataView/Edit_Function.png)

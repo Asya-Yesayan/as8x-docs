@@ -18,4 +18,6 @@ public virtual void Edit()
 
 «Դիտել/Խմբագրել» կոնտեքստային ֆունկցիայի վարքագիծը կարգավորվում է AllowEdit, IsEditEnabled, IsDocumentBased հատկությունների միջոցով։
 
+![Edit_Function](../../images/DataView/Edit_Function.png)
+
 

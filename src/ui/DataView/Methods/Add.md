@@ -18,3 +18,5 @@ public virtual void Add()
 
 «Ավելացնել» կոնտեքստային ֆունկցիայի վարքագիծը կարգավորվում է AllowAdd, IsAddEnabled, IsDocumentBased հատկությունների միջոցով։
 
+![Add_Function](../../images/DataView/Add_Function.png)
+

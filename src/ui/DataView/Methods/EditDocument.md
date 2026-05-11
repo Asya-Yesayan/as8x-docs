@@ -26,3 +26,5 @@ public virtual void EditDocument(bool isReadOnly)
 | --- | --- | --- | --- |
 | isReadOnly | bool | - | Սահմանում է փաստաթղթի բացման ռեժիմը՝ խմբագրման թե դիտման (readonly ռեժիմով),եթե մեթոդը չի չմշակվել։ |
 
+![Edit_Function](../../images/DataView/Edit_Function.png)
+
