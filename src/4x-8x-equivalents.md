@@ -24,7 +24,7 @@ has_toc: false
 | `DocumentUI<T>` | `Core/ArmSoft.AS8X.Core.UI/Document/DocumentUI.cs` | Կոնտեքստային մենյու, UI-ական իրադարձություններ |
 | `DocumentPanel<T>` | `Core/ArmSoft.AS8X.Core.UI/Document/DocumentPanel.cs` | Պատուհան, control-ներ |
 
-**Կարևոր տարբերություն.** `DocumentUI<T>` և `DocumentPanel<T>` դասերը **միմյանցից չեն ժառանգվում**։ Դրանք երկու անկախ դասեր են, որոնք աշխատում են նույն `Document` օբյեկտի հետ (`Doc`)։ 
+**Կարևոր.** `DocumentUI<T>` և `DocumentPanel<T>` դասերը **միմյանցից չեն ժառանգվում**։ Դրանք երկու անկախ դասեր են, որոնք աշխատում են նույն `Document` օբյեկտի հետ (`Doc`)։ 
 
 DocumentPanel, DocumentUI դասերը պարտադիր պետք է պարունակեն համապատասխանաբար DocumentPanel, DocumentUI ատրիբուտները, որոնց փոխանցվում է փաստաթղթի ներքին անունը (տեսակը)։
 
@@ -42,7 +42,7 @@ public class AccBalUI : DocumentUI<AccBal> { ... }
 | ------- | ---------------- | --------------- | ---------------- |
 | `AfterCreate`           | Նոր փաստաթուղթ ստեղծելուց հետո։  | `AfterCreate(args)`            | Սկզբնական արժեքների լրացում։  |
 | `AfterLoad`            | Փաստաթուղթը տվյալների բազայից բեռնելուց հետո։          | `AfterLoad(args)`              | Բեռնված տվյալների հետագա հաշվարկներ։    |
-| `Validate / Valid`     | Դաշտի արժեք փոխելիս։             | `Validate(args)`               | Դաշտի վալիդացիա, այլ դաշտերի լրացում՝ կախված ընթացիկ դաշտից |
+| `Validate`     | Փաստաթղթի գրանցման տրանզակցիայում։             | `Validate(args)`               | Դաշտի վալիդացիա, այլ դաշտերի լրացում՝ կախված ընթացիկ դաշտից |
 | `Action`               | Փաստաթղթի գրանցման տրանզակցիայում։             | `Action(args)`                 | Հաշվառումների ստեղծում, գրանցում:          |
 | `BeforeCommit`         | Փաստաթղթի գրանցման տրանզակցիայի փակումից առաջ։                  | `BeforeCommit(args)`           | Վերջնական ստուգումներ, լոգավորում։         |
 | `AfterCommit`          | Փաստաթղթի գրանցման տրանզակցիայի փակումից հետո։                   | `AfterCommit(args)`            | Արտաքին համակարգերի ծանուցում          |
@@ -416,7 +416,7 @@ DataView<R, P>
 
 | 4X SCRIPT              | 8X Override                        | Նկարագրություն         |
 | ---------------------- | ---------------------------------- | ---------------------- |
-| `Dialog()`             | `CreateDialog()`  `ApplyDialog()` | Filter dialog          |
+| `Dialog()`             | `CreateDialog()`  `ApplyDialog()`  | Filter dialog          |
 | `Functions()`          | `InitContextFunctions()`           | Context menu           |
 | `AfterLoadData()`      | `AfterLoadData()`                  | Load-ից հետո           |
 | `BeforeLoadData()`     | `BeforeLoadData(args)`             | Load-ից առաջ           |
@@ -477,26 +477,21 @@ using ArmSoft.AS8X.BankClient.General.Account.DS.Accounts;
     EnglishCaption  = ConstantsArm.e_Accs)]
 public class Accs : DataView<DataRow, Param>
 {
-    /// <asViewCode>ACCS</asViewCode>
     public Accs()
     {
         this.ConfigureDataSource("ACCOUNT_DS");
 
-        // VIEW-um VISIBLE=0 unеtsogh syunаk
         this.Columns[nameof(DataRow.ISN)].Visible = false;
     }
 
-    // Thuyltvutyunnеr
     public override bool AllowEdit   => true;
     public override bool AllowDelete => true;
     public override bool AllowAdd    => true;
     public override IReadOnlyCollection<string> AllowedDocumentsToAdd
         => new[] { "Account" };
 
-    // Filтri diаlоg-и аktivаtsum
     public override bool DialogSupported => true;
 
-    // Filтri diаlоg-и stеghtsum (4X-и Dialog() Sub-и hаmаrzhеk)
     public override DataViewDialogWindow CreateDialog(bool isRefreshMode)
     {
         var dlg = new DataViewDialogWindow(this)
@@ -510,14 +505,12 @@ public class Accs : DataView<DataRow, Param>
         return dlg;
     }
 
-    // Diаlоg-и аrjеknеrn Pаrаmеtеrs-in kirаrеl
     public override void ApplyDialog(DataViewDialogWindow dlg, bool isRefreshMode)
     {
         this.Parameters.Date = (DateTime?)dlg["DATE"];
         this.Parameters.Dept = (string)dlg["Dept"];
     }
 
-    // Cоntехt mеnu (4X-и Functions Sub-и hаmаrzhеk)
     public override PopupMenu InitContextFunctions()
     {
         var p = base.InitContextFunctions();
@@ -528,7 +521,7 @@ public class Accs : DataView<DataRow, Param>
 
     private void PrintReport(object sender, ItemClickEventArgs e)
     {
-        // tpmаn trаmаbаnutun
+        
     }
 }
 ```
