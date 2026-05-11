@@ -55,8 +55,8 @@ has_toc: false
 | [AfterLoadUpdatedRows(List<R>)](Methods/AfterLoadUpdatedRows.md) | Կոչվում է `LoadUpdatedRows`-ի կողմից server-ից rows ստանալուց հետո: |
 | [ApplyDialog(DataViewDialogWindow, bool)](Methods/ApplyDialog.md) | Այս մեթոդը նախատեսված է դիտելու ձևի CreateDialog մեթոդի միջոցով ստեղծված նախնական ֆիլտրման դիալոգի ցուցադրման և control-ների արժեքները որպես դիտելու ձևի պարամետրեր փոխանցելու համար։ |
 | [BeforeLoadData(BeforeLoadDataEventArgs)](Methods/BeforeLoadData.md) | Կոչվում է data loading-ից անմիջապես առաջ: |
-| [CaptionToolTip()](Methods/CaptionToolTip.md) | Վերադարձնում է DataView-ի tooltip-ում ցուցադրվող վերնագիրը: |
-| [ComposeTitle()](Methods/ComposeTitle.md) | Ստեղծում է ֆորմատավորված բազմատող վերնագիր՝ `IncludeCaptionToolTip=true` |
+| [CaptionToolTip()](Methods/CaptionToolTip.md) | Սահմանում է դիտելու ձևի tooltip-ում ցուցադրվող տեքստը: |
+| [ComposeTitle()](Methods/ComposeTitle.md) | Սահմանում է դիտելու ձևի վերնագիրը։ |
 | [CreateCopy()](Methods/CreateCopy.md) | Սահմանում է դիտելու ձևի «Պատճենել» կոնտեքստային ֆունկցիայի կատարման արդյունքում բացվող պատուհանը՝ IsDocumentBased հատկության false արժեքի դեպքում: |
 | [CreateDialog(bool)](Methods/CreateDialog.md) | Այս մեթոդը նախատեսված է դիտելու ձևի նախնական ֆիլտրման դիալոգի ստեղծման և վերադարձման համար։ |
 | [DataView()](Methods/DataView.md) | Ստեղծում է DataView դասի նոր օբյեկտ։ |
@@ -68,16 +68,15 @@ has_toc: false
 | [ExecutionSuppressed()](Methods/ExecutionSuppressed.md) | Կոչվում է, երբ `SuppressExecution=true` և data loading-ը ճնշվում է: |
 | [FillData(object)](Methods/FillData.md) | Ավելացնում է նշված տողերի ցուցակը դիտելու ձևում: |
 | [GetDefaultFunction()](Methods/GetDefaultFunction.md) | Սահմանում է լռությամբ բացվող կոնտեքստային ֆունկցիան` դիտելու ձևի ընթացիկ տողի կրկնակի սեղմում կատարելիս։ |
-| [GetDynamicValue(object, string)](Methods/GetDynamicValue.md) | Վերադարձնում է `ExtendableRow`-ի դինամիկ column-ի արժեքը: |
-| [GetISN(object)](Methods/GetISN.md) | Վերադարձնում է տրված row-ի ISN արժեքը: |
+| [GetDynamicValue(object, string)](Methods/GetDynamicValue.md) | Վերադարձնում է դիտելու ձևի cell-ի արժեքը՝ ըստ փոխանցված տողի և սյան անվան։ |
+| [GetISN(object)](Methods/GetISN.md) | Վերադարձնում է դիտելու ձևի տրված տողում պարունակվող փաստաթղթի isn-ը։ |
 | [GetUpdatedRows(object)](Methods/GetUpdatedRows.md) | Ստանում է server-ից թարմ rows-ը ըստ `key`-ի: |
 | [GridSource()](Methods/GridSource.md) | Վերադարձնում է դիտելու ձևի տողերի ցուցակը։ |
-| [IncrementCurrentPhaseRow()](Methods/IncrementCurrentPhaseRow.md) | Ավելացնում է 1 ընթացիկ progress փուլի row count-ին: |
 | [InitContextFunctions()](Methods/InitContextFunctions.md) | Ստեղծում և վերադարձնում է դիտելու ձևի կոնտեքստային մենյուն։ |
-| [IsProgressCanceled()](Methods/IsProgressCanceled.md) | Ստուգում է՝ արդյոք progress-ը չեղարկվել է օգտագործողի կողմից: |
+| [IsProgressCanceled()](Methods/IsProgressCanceled.md) | Ցույց է տալիս, արդյոք դիտելու ձևի կատարման պրոգրեսը ընդհատվել է օգտագործողի կողմից։ |
 | [LoadUpdatedRows(object)](Methods/LoadUpdatedRows.md) | Թարմացնում է `key`-ին համապատասխան row(ներ)ը Rows հավաքածուում: |
 | [OpenTree()](Methods/OpenTree.md) | Բացում է ֆոկուսավորված row-ի tree ներկայացումը: Լռությամբ ոչինչ չի կատարում: |
-| [ReloadRows(LoadSource)](Methods/ReloadRows.md) | Ամբողջականորեն թարմացնում է Rows հավաքածուն՝ մաքրելով հին rows-ը և վերաբեռնելով: |
+| [ReloadRows(LoadSource)](Methods/ReloadRows.md) | Վերբեռնում է դիտելու ձևի տողերը։  |
 | [ReportTitle()](Methods/ReportTitle.md) | Վերադարձնում է DataView-ի հիմնական վերնագիրը՝ `Caption`-ը: |
 | [ReportTitle(IEnumerable<StoredValueInfo>)](Methods/ReportTitle_2.md) | Ստեղծում է վերնագիր՝ ներառելով `storedValueInfos` արժեքները: |
 | [ToolTipItemsHandle(IEnumerable<StoredValueInfo>)](Methods/ToolTipItemsHandle.md) | Մշակում է `StoredValueInfo` արժեքները tooltip ցուցադրման համար: |

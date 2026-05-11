@@ -14,11 +14,10 @@ grand_parent: "DataView"
 public virtual string CaptionToolTip()
 ```
 
-Վերադարձնում է DataView-ի tooltip-ում ցուցադրվող վերնագիրը:
+Սահմանում է դիտելու ձևի tooltip-ում ցուցադրվող տեքստը: Լռությամբ ցուցադրում է դիտելու ձևի վերնագիրը (Caption): 
 
-Override-ի դեպքում կարելի է ավելի մանրամասն տեքստ վերադարձնել:
+Օրինակ 
 
-**Վերադարձնում է**
-
-Լռությամբ `ReportTitle()`-ի արժեքը:
-
+```c#
+public override string ReportTitle() { return "Փաստաթղթերի ղեկավարում"; }
+```

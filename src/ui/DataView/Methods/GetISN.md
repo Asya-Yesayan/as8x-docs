@@ -14,18 +14,10 @@ grand_parent: "DataView"
 public virtual int GetISN(object row)
 ```
 
-Վերադարձնում է տրված row-ի ISN արժեքը:
-
-Կանչվում է `EditDocument`-ի, `DeleteDocument`-ի,
-`LoadUpdatedRows`-ի կողմից:
+Վերադարձնում է դիտելու ձևի տրված տողում պարունակվող փաստաթղթի isn-ը։
 
 **Պարամետրեր**
 
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 | --- | --- | --- | --- |
-| row | object | - | Row-ի օբյեկտը, որը implements `IRowWithISN`: `null` կամ ոչ-ISN row-ը կնետի `InvalidCastException`: |
-
-**Վերադարձնում է**
-
-Փաստաթղթի ISN (internal serial number):
-
+| row | object | - | Դիտելու ձևի տողը։ |
