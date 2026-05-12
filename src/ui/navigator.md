@@ -74,3 +74,55 @@ title: "Ուղղորդիչ ծառի նկարագրություն"
 | `TreeBrowser` | Ծառատիպ տեղեկատու։ Համակարգում պետք է լինի TreeEdit դասը ժառանգող դաս, որի TreeEdit ատրիբուտի name-ը համընկնում է հանգույցի name-ին։ |
 | `ModuleCall` | Ծրագրային մեթոդի կանչ։ Կանչում է name դաշտում նշված մեթոդը, որի համար պետք է սահմանված լինի NavigatorEntry ատրիբուտ, իսկ մեթոդը պարունակող դասի համար՝ ContainsSpecialComponent ատրիբուտը |
 | `UserReport` | Օգտագործողի կողմից նկարագրված հաշվետվություն, որոնք նկարագրվում են «Ադմինիստրատորի Աշտ» -> «Ընդլայնումներ» -> «Օգտագործողի հաշվետվություններ» դիտելու ձևի «Ավելացնել» կոնտեքստային ֆունկցիայով։ |
+
+## Օրինակ
+
+```json
+{
+  "$schema": "https://armsoftupdates.blob.core.windows.net/schemas/NavigatorTreeSchema.json",
+  "armenianCaption": "Ադմինիստրատորի ԱՇՏ",
+  "englishCaption": "Administrator",
+  "icon": "admin_tools_16.svg",
+  "name": "ADMIN",
+  "nodes": [
+    {
+      "armenianCaption": "Աշխատասեղան",
+      "englishCaption": "Desktop",
+      "nodes": [
+        {
+          "armenianCaption": "Օգտագործողներ",
+          "englishCaption": "Users",
+          "name": "BankUserManagement",
+          "type": "DataView"
+        },
+        {
+          "armenianCaption": "Օգտագործողների դերեր",
+          "englishCaption": "Users roles",
+          "name": "Roles",
+          "type": "DataView"
+        }
+      ]
+    },
+    {
+      "armenianCaption": "Մատյաններ",
+      "englishCaption": "Journals",
+      "nodes": [
+        {
+          "armenianCaption": "Ստեղծված փաստաթղթեր",
+          "englishCaption": "Created documents",
+          "name": "CreatedDocs",
+          "type": "DataView"
+        },
+        {
+          "armenianCaption": "Հեռացված փաստաթղթեր",
+          "englishCaption": "Deleted documents",
+          "name": "DeletedDocs",
+          "type": "DataView"
+        }
+      ]
+    }
+  ],
+  "system": true,
+  "type": "Standard"
+}
+```
