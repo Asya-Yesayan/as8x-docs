@@ -30,7 +30,7 @@ protected void StoreSettings();
 protected virtual void StoreSettings(RegistryKey rk);
 ```
 
-Տրված **RegistryKey**-ում պահպանում է երկխոսության պատուհանի կարգավորումները։ Բազային իրականացումը գործողություն չի կատարում։
+Տրված **RegistryKey**-ում պահպանում է երկխոսության պատուհանի կարգավորումները։
 
 **Պարամետրեր**
 

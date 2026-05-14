@@ -30,7 +30,7 @@ protected void RestoreSettings();
 protected virtual void RestoreSettings(RegistryKey rk);
 ```
 
-Տրված **RegistryKey**-ից վերականգնում է երկխոսության պատուհանի կարգավորումները։ Բազային իրականացումը գործողություն չի կատարում։
+Տրված **RegistryKey**-ից վերականգնում է երկխոսության պատուհանի կարգավորումները։ 
 
 **Պարամետրեր**
 
