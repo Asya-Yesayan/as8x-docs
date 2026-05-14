@@ -10,7 +10,7 @@ nav_exclude: true
 | Անվանում | Նկարագրություն |
 |--|--|
 | [RestoreSettings()](#dialogwindowrestoresettings-մեթոդ) | Վերականգնում է երկխոսության պատուհանի կարգավորումները Windows registry-ից։ |
-| [RestoreSettings(RegistryKey)](#dialogwindowrestoresettingsregistrykey-մեթոդ) | Տրված **RegistryKey**-ից վերականգնում է երկխոսության պատուհանի կարգավորումները։ |
+| [RestoreSettings(RegistryKey)](#dialogwindowrestoresettingsregistrykey-մեթոդ) | Տրված **RegistryKey**-ից վերականգնում է երկխոսության պատուհանի կարգավորումները։  |
 
 ### DialogWindow.RestoreSettings() մեթոդ
 
@@ -20,7 +20,7 @@ nav_exclude: true
 protected void RestoreSettings();
 ```
 
-Վերականգնում է երկխոսության պատուհանի կարգավորումները Windows registry-ից՝ ըստ **RegistryKey** դաշտի։ Եթե **RegistryKey** սահմանված չէ, մեթոդը գործողություն չի կատարում։ Բացված registry բանալին փոխանցում է **RestoreSettings(RegistryKey)** գերբեռնմանը, որպեսզի ժառանգ դասերը կարողանան վերականգնել իրենց հատուկ կարգավորումները։
+Վերականգնում է երկխոսության պատուհանի կարգավորումները Windows registry-ից։
 
 ### DialogWindow.RestoreSettings(RegistryKey) մեթոդ
 

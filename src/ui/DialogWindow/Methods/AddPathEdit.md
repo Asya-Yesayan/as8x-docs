@@ -9,8 +9,8 @@ nav_exclude: true
 
 | Անվանում | Նկարագրություն |
 |--|--|
-| [AddPathEdit(string, string, short, DialogType, bool, string, bool)](#dialogwindowaddpatheditstring-string-short-dialogtype-bool-string-bool-մեթոդ) | Երկխոսության պատուհանում ավելացնում է ֆայլի/պանակի ուղու ընտրման դաշտ։ |
-| [AddPathEdit(LayoutGroup, string, string, short, DialogType, bool, string, bool)](#dialogwindowaddpatheditlayoutgroup-string-string-short-dialogtype-bool-string-bool-մեթոդ) | Նշված դասավորման խմբում ավելացնում է ֆայլի/պանակի ուղու ընտրման դաշտ։ |
+| [AddPathEdit(string, string, short, DialogType, bool, string, bool)](#dialogwindowaddpatheditstring-string-short-dialogtype-bool-string-bool-մեթոդ) | Երկխոսության պատուհանում ավելացնում է ֆայլիթղթապանակի ուղու ընտրման դաշտ։ |
+| [AddPathEdit(LayoutGroup, string, string, short, DialogType, bool, string, bool)](#dialogwindowaddpatheditlayoutgroup-string-string-short-dialogtype-bool-string-bool-մեթոդ) | Նշված դասավորման խմբում ավելացնում է ֆայլիթղթապանակի ուղու ընտրման դաշտ։ |
 
 ### DialogWindow.AddPathEdit(string, string, short, DialogType, bool, string, bool) մեթոդ
 
@@ -45,7 +45,7 @@ public BrowsePathEditExt AddPathEdit(LayoutGroup container, string name, string 
                                      bool storeValue = true);
 ```
 
-Նշված դասավորման խմբում ավելացնում է ֆայլի/պանակի ուղու ընտրման դաշտ։
+Նշված դասավորման խմբում ավելացնում է ֆայլիթղթապանակի ուղու ընտրման դաշտ։
 
 **Պարամետրեր**
 

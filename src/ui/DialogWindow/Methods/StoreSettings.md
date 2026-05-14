@@ -20,7 +20,7 @@ nav_exclude: true
 protected void StoreSettings();
 ```
 
-Պահպանում է երկխոսության պատուհանի կարգավորումները Windows registry-ում՝ ըստ **RegistryKey** դաշտի։ Եթե **RegistryKey** սահմանված չէ, մեթոդը գործողություն չի կատարում։ Ստեղծված registry բանալին փոխանցում է **StoreSettings(RegistryKey)** գերբեռնմանը, որպեսզի ժառանգորդ դասերը կարողանան պահպանել իրենց հատուկ կարգավորումները։
+Պահպանում է երկխոսության պատուհանի կարգավորումները Windows registry-ում։
 
 ### DialogWindow.StoreSettings(RegistryKey) մեթոդ
 

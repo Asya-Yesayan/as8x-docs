@@ -83,8 +83,8 @@ DialogWindow դասը նախատեսված է մոդալ և ոչ մոդալ եր
 | [AddNumericEditControl(LayoutGroup, string, string, short, short, bool, bool, bool, bool)](Methods/AddNumericEditControl.md#dialogwindowaddnumericeditcontrollayoutgroup-string-string-short-short-bool-bool-bool-bool-մեթոդ) | Նշված դասավորման խմբում (LayoutGroup) ավելացնում է թվային մուտքագրման դաշտ։ |
 | [AddPasswordBoxEdit(string, string, short, bool)](Methods/AddPasswordBoxEdit.md#dialogwindowaddpasswordboxeditstring-string-short-bool-մեթոդ) | Երկխոսության պատուհանում ավելացնում է գաղտնաբառի մուտքագրման դաշտ։ |
 | [AddPasswordBoxEdit(LayoutGroup, string, string, short, bool)](Methods/AddPasswordBoxEdit.md#dialogwindowaddpasswordboxeditlayoutgroup-string-string-short-bool-մեթոդ) | Նշված դասավորման խմբում (LayoutGroup) ավելացնում է գաղտնաբառի մուտքագրման դաշտ։ |
-| [AddPathEdit(string, string, short, DialogType, bool, string, bool)](Methods/AddPathEdit.md#dialogwindowaddpatheditstring-string-short-dialogtype-bool-string-bool-մեթոդ) | Երկխոսության պատուհանում ավելացնում է ֆայլի/պանակի ուղու ընտրման դաշտ։ |
-| [AddPathEdit(LayoutGroup, string, string, short, DialogType, bool, string, bool)](Methods/AddPathEdit.md#dialogwindowaddpatheditlayoutgroup-string-string-short-dialogtype-bool-string-bool-մեթոդ) | Նշված դասավորման խմբում (LayoutGroup) ավելացնում է ֆայլի/պանակի ուղու ընտրման դաշտ։ |
+| [AddPathEdit(string, string, short, DialogType, bool, string, bool)](Methods/AddPathEdit.md#dialogwindowaddpatheditstring-string-short-dialogtype-bool-string-bool-մեթոդ) | Երկխոսության պատուհանում ավելացնում է ֆայլիթղթապանակի ուղու ընտրման դաշտ։ |
+| [AddPathEdit(LayoutGroup, string, string, short, DialogType, bool, string, bool)](Methods/AddPathEdit.md#dialogwindowaddpatheditlayoutgroup-string-string-short-dialogtype-bool-string-bool-մեթոդ) | Նշված դասավորման խմբում (LayoutGroup) ավելացնում է ֆայլիթղթապանակի ուղու ընտրման դաշտ։ |
 | [AddRadioButton(string, string, string, bool)](Methods/AddRadioButton.md#dialogwindowaddradiobuttonstring-string-string-bool-մեթոդ) | Երկխոսության պատուհանում ավելացնում է ռադիոկոճակ։ |
 | [AddRadioButton(LayoutGroup, string, string, string, bool)](Methods/AddRadioButton.md#dialogwindowaddradiobuttonlayoutgroup-string-string-string-bool-մեթոդ) | Նշված դասավորման խմբում (LayoutGroup) ավելացնում է ռադիոկոճակ։ |
 | [AddSimpleDropDown(string, string, short, short, bool, short, bool, HorizontalAlignment, StringRestriction)](Methods/AddSimpleDropDown.md#dialogwindowaddsimpledropdownstring-string-short-short-bool-short-bool-horizontalalignment-stringrestriction-մեթոդ) | Երկխոսության պատուհանում ավելացնում է պարզ popup տեսակի ընտրացանկով դաշտ։ |
@@ -117,10 +117,10 @@ DialogWindow դասը նախատեսված է մոդալ և ոչ մոդալ եր
 | [+GetControlValue(Control)](Methods/GetControlValue.md#dialogwindowgetcontrolvaluecontrol-մեթոդ) | Վերադարձնում է երկխոսության պատուհանի` տրված դաշտի արժեքը։ |
 | [+GetControlValue(string)](Methods/GetControlValue.md#dialogwindowgetcontrolvaluestring-մեթոդ) | Վերադարձնում է տրված ներքին անունով դաշտի արժեքը։ |
 | [+GetControls()](Methods/GetControls.md) | Վերադարձնում է երկխոսության պատուհանի բոլոր դաշտերի ցուցակը։ |
-| [GetDataSourceName()](Methods/GetDataSourceName.md) | Սահմանում է երկխոսության պատուհանի հետ կապված տվյալների աղբյուրի (DataSource) ներքին անունը։ |
+| [+GetDataSourceName()](Methods/GetDataSourceName.md) | Վերադարձնում է երկխոսության պատուհանի հետ կապված տվյալների աղբյուրի (DataSource) ներքին անունը։ |
 | [GetLayoutItem(Control)](Methods/GetLayoutItem.md#dialogwindowgetlayoutitemcontrol-մեթոդ) | Վերադարձնում է տրված դաշտին համապատասխանող դասավորման տարրը (LayoutItem)։ |
 | [GetLayoutItem(string)](Methods/GetLayoutItem.md#dialogwindowgetlayoutitemstring-մեթոդ) | Վերադարձնում է տրված ներքին անունով դաշտին համապատասխանող դասավորման տարրը (LayoutItem)։ |
-| [HasControls()](Methods/HasControls.md) | Վերադարձնում է **true**, եթե երկխոսության պատուհանում առկա է գոնե մեկ դաշտ։ |
+| [+HasControls()](Methods/HasControls.md) | Վերադարձնում է **true**, եթե երկխոսության պատուհանում առկա է գոնե մեկ դաշտ, հակառակ դեպքում՝ **false**։ |
 | [LoadBrowseParametersInfo(Dictionary&lt;string, object&gt;)](Methods/LoadBrowseParametersInfo.md) | Տրված բառարանից բեռնում է երկխոսության պատուհանի դաշտերի արժեքները։ |
 | [LoadValues()](Methods/LoadValues.md) | Բեռնում է երկխոսության պատուհանի դաշտերի պահպանված արժեքները։ |
 | [OnKeyDownEnterMoveNextTabItem(object, KeyEventArgs)](Methods/OnKeyDownEnterMoveNextTabItem.md) | Մշակում է **Enter** ստեղնի սեղմումը՝ tab-ից դեպի հաջորդ դաշտ անցում կատարելու համար։ |
@@ -133,11 +133,11 @@ DialogWindow դասը նախատեսված է մոդալ և ոչ մոդալ եր
 | [OnStoreDefaultValues()](Methods/OnStoreDefaultValues.md) | Սահմանում է երկխոսության պատուհանի դաշտերի կանխադիր արժեքների ֆիքսման եղանակը։ |
 | [OnValidationWindow(bool)](Methods/OnValidationWindow.md) | Իրականացնում է երկխոսության պատուհանի վալիդացիան և կատարում փակման համապատասխան գործողությունները։ |
 | [RegisterDatesCommand()](Methods/RegisterDatesCommand.md) | Գրանցում է **AltD** shortcut-ը հատուկ ամսաթվերի popup պատուհանը ցուցադրելու համար։ |
-| [RemoveUIElement(string)](Methods/RemoveUIElement.md) | Երկխոսության պատուհանից հեռացնում է տրված ներքին անունով դաշտը։ |
-| [RestoreSettings()](Methods/RestoreSettings.md#dialogwindowrestoresettings-մեթոդ) | Վերականգնում է երկխոսության պատուհանի կարգավորումները Windows registry-ից։ |
-| [RestoreSettings(RegistryKey)](Methods/RestoreSettings.md#dialogwindowrestoresettingsregistrykey-մեթոդ) | Սահմանում է երկխոսության պատուհանի կարգավորումների վերականգնումը տրված registry բանալիից։ |
+| [+RemoveUIElement(string)](Methods/RemoveUIElement.md) | Երկխոսության պատուհանից հեռացնում է տրված ներքին անունով դաշտը։ |
+| [+RestoreSettings()](Methods/RestoreSettings.md#dialogwindowrestoresettings-մեթոդ) | Վերականգնում է երկխոսության պատուհանի կարգավորումները Windows registry-ից։ |
+| [+RestoreSettings(RegistryKey)](Methods/RestoreSettings.md#dialogwindowrestoresettingsregistrykey-մեթոդ) | Տրված **RegistryKey**-ից վերականգնում է երկխոսության պատուհանի կարգավորումները։ |
 | [SetFocus(Control, bool)](Methods/SetFocus.md) | Տրված դաշտի վրա սահմանում է մուտքագրման ֆոկուսը։ |
-| [StoreSettings()](Methods/StoreSettings.md#dialogwindowstoresettings-մեթոդ) | Պահպանում է երկխոսության պատուհանի կարգավորումները Windows registry-ում։ |
-| [StoreSettings(RegistryKey)](Methods/StoreSettings.md#dialogwindowstoresettingsregistrykey-մեթոդ) | Սահմանում է երկխոսության պատուհանի կարգավորումների պահպանումը տրված registry բանալիում։ |
+| [+StoreSettings()](Methods/StoreSettings.md#dialogwindowstoresettings-մեթոդ) | Պահպանում է երկխոսության պատուհանի կարգավորումները Windows registry-ում։ |
+| [+StoreSettings(RegistryKey)](Methods/StoreSettings.md#dialogwindowstoresettingsregistrykey-մեթոդ) | Տրված **RegistryKey**-ում պահպանում է երկխոսության պատուհանի կարգավորումները։ |
 | [UpdatePanel(object, bool)](Methods/UpdatePanel.md) | Թարմացնում է երկխոսության պատուհանի հետ կապված վահանակը։ |
 | [+WriteToStatusBar(string)](Methods/WriteToStatusBar.md) | Երկխոսության պատուհանի status bar-ում գրում է տրված հաղորդագրությունը։ |
