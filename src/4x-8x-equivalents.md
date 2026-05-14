@@ -42,57 +42,57 @@ public class AccBalUI : DocumentUI<AccBal> { ... }
 | ------- | ---------------- | --------------- | ---------------- |
 | `AfterCreate`           | Նոր փաստաթուղթ ստեղծելուց հետո։  | `AfterCreate(args)`            | Սկզբնական արժեքների լրացում։  |
 | `AfterLoad`            | Փաստաթուղթը տվյալների բազայից բեռնելուց հետո։          | `AfterLoad(args)`              | Բեռնված տվյալների հետագա հաշվարկներ։    |
-| `Validate`     | Փաստաթղթի գրանցման տրանզակցիայում։             | `Validate(args)`               | Դաշտի վալիդացիա, այլ դաշտերի լրացում՝ կախված ընթացիկ դաշտից |
+| `Validate`     | Փաստաթղթի գրանցման տրանզակցիայում։             | `Validate(args)`               | Դաշտի վալիդացիա, այլ դաշտերի լրացում՝ կախված ընթացիկ դաշտից։ |
 | `Action`               | Փաստաթղթի գրանցման տրանզակցիայում։             | `Action(args)`                 | Հաշվառումների ստեղծում, գրանցում:          |
 | `BeforeCommit`         | Փաստաթղթի գրանցման տրանզակցիայի փակումից առաջ։                  | `BeforeCommit(args)`           | Վերջնական ստուգումներ, լոգավորում։         |
-| `AfterCommit`          | Փաստաթղթի գրանցման տրանզակցիայի փակումից հետո։                   | `AfterCommit(args)`            | Արտաքին համակարգերի ծանուցում          |
-| `Delete`               | Փաստաթղթի հեռացման տրանզակցիայում։                  | `Delete(args)`                 | Ջնջման կանոններ                        |
-| `PostMessage`          | Child → Parent հաղորդագրություն | `PostMessage(args)`            | Փաստաթղթերի փոխազդեցություն։            |
+| `AfterCommit`          | Փաստաթղթի գրանցման տրանզակցիայի փակումից հետո։                   | `AfterCommit(args)`            | Արտաքին համակարգերի ծանուցում:          |
+| `Delete`               | Փաստաթղթի հեռացման տրանզակցիայում։                  | `Delete(args)`                 | Հեռացման կանոնների սահմանում։                        |
+| `PostMessage`          | SendMessage մեթոդի կանչի ընթացքում։ | `PostMessage(args)`            | Մի փաստաթղթից մյուսին ծրագրային հաղորդագրության (SendMessage) ուղարկում։            |
 | `Folders`              | Փաստաթղթի գրանցման տրանզակցիայում։               | `Folders(args)`                | Թղթապանակների ստեղծում, գրանցում:          |
-| `StoreGrid`            | Փաստաթղթի աղյուսակը գրանցելիս                 | `StoreGrids(args)`             | Փաստաթղթի աղյուսակների գրանցում Custom sql աղյուսակներում։                |
-| `DefaultComment`       | Թղթապանակի տարրերի գրանցում։       | `DefaultComment(args)`         | Թղթապանակների տարրերի լռությամբ մեկնաբանության սահմանում։               |
-| `ChangeRequest`        | Փոփոխման հայտի մշակում։                    | `OnConfirm... / OnReject...`   | Փոփոխման հայտի մշակում։              |
-| `OnRefuseDoc`          | Փաստաթղթի մերժման ժամանակ։                 | `OnRefuse(args)`               | Մերժման տրամաբանություն                |
-| `BeforeCopy`           | Փաստաթղթի պատճենումից առաջ։  | `BeforeCopy(args)`             | Որ դաշտերը չկրկնօրինակել               |
-| `BeforeImport`         | Փաստաթղթի ներմուծումից առաջ։  | `BeforeImportProcessing(args)` | Import preprocessing                   |
+| `StoreGrid`            | Փաստաթղթի գրանցման տրանզակցիայում։                 | `StoreGrids(args)`             | Փաստաթղթի աղյուսակների գրանցում Custom sql աղյուսակներում։                |
+| `DefaultComment`       | Փաստաթղթի գրանցման տրանզակցիայում։       | `DefaultComment(args)`         | Թղթապանակների տարրերի լռությամբ մեկնաբանության սահմանում։               |
+| `ChangeRequest`        | Փաստաթղթի գրանցման տրանզակցիայում։                    | `OnConfirm... / OnReject...`   | Փոփոխման հայտի մշակում։              |
+| `OnRefuseDoc`          | Փաստաթղթի հեռացման տրանզակցիայում։                 | `OnRefuse(args)`               | Մերժման տրամաբանություն։                |
+| `BeforeCopy`           | Փաստաթղթի պատճենումից առաջ։  | `BeforeCopy(args)`             | Որ դաշտերը չկրկնօրինակել:               |
+| `BeforeImport`         | Փաստաթղթի ներմուծումից առաջ։  | `BeforeImportProcessing(args)` | Փաստաթղթի ներմուծում։                   |
 | `TemplateSubstitution` | Փաստաթղթի տպելու ձևանմուշի կանչի ժամանակ։  | `TemplateSubstitution(...)`    | Ձևանմուշի հաշվարկվող արժեքների հաշվարկ։             |
 
 ---
 
 ### 1.3 UI իրադարձությունների համարժեքություն
 
-#### DocumentUI<T> — ոչ վիզուալ UI տրամաբանություն
+### DocumentUI<T> — ոչ վիզուալ UI տրամաբանություն
 
 Օգտագործվում է այն դեպքերում, երբ control-ների հետ անմիջական աշխատանք անհրաժեշտ չէ։
 
-| AS-4X                            | AS-8X                                 | Նպատակ                               |
+| AS-4X                            | AS-8X                                 | Երբ է կանչվում                               |
 | -------------------------------- | ------------------------------------- | ------------------------------------ |
-| `Form_Load`                      | `OnLoad()`                            | Բացման ժամանակ նախապատրաստում        |
-| `Functions / RegistrFunction`    | `InitContextFunctions(...)`           | Կոնտեքստային մենյու                     |
-| —                                | `BeforeShow(args)`                    | Փաստաթղթի բացումից առաջ                        |
-| —                                | `BeforeCreate(args)`                  | Փաստաթղթի ստեղծումից առաջ                      |
-| `BeforeCopy`                     | `BeforeCopy / AfterCopy`              | Փաստաթղթի պատճենումից առաջ                       |
-| —                                | `AfterStore(...)`                     | Պահպանումից հետո UI գործողություններ |
-| `OnUIDelete`                     | `OnUIDelete(args)`                    | Ջնջման UI ստուգում                   |
-| —                                | `AfterDelete(args)`                   | Ջնջումից հետո refresh                |
-| `TemplateSubstitutionParameters` | `TemplateSubstitutionParameters(...)` | Տպելու ձևանմուշի պարամետրերի հաշվարկ               |
+| `Form_Load`                      | `OnLoad()`                            | Բացման ժամանակ (նախապատրաստում):        |
+| `Functions / RegistrFunction`    | `InitContextFunctions(...)`           | Կոնտեքստային մենյուի ձևավորում։                     |
+| —                                | `BeforeShow(args)`                    | Փաստաթղթի բացումից առաջ։                        |
+| —                                | `BeforeCreate(args)`                  | Փաստաթղթի ստեղծումից առաջ։                      |
+| `BeforeCopy`                     | `BeforeCopy / AfterCopy`              | Փաստաթղթի պատճենումից առաջ։                       |
+| —                                | `AfterStore(...)`                     |  Փաստաթղթի գրանցումից հետո։ |
+| `OnUIDelete`                     | `OnUIDelete(args)`                    | Փաստաթղթի հեռացման ժամանակ ։                   |
+| `AfterDelete`      | `AfterDelete(args)`                   | Փաստաթղթի հեռացումից հետո։                |
+| `TemplateSubstitutionParameters` | `TemplateSubstitutionParameters(...)` | Տպելու ձևանմուշի պարամետրերի հաշվարկ։               |
 
-#### DocumentPanel<T> — վիզուալ UI տրամաբանություն
+### DocumentPanel<T> — վիզուալ UI տրամաբանություն
 
 Օգտագործվում է պատուհանի կառուցման և control-ների աշխատանքի ապահովման համար։
 
-| AS-4X           | AS-8X                      | Նպատակ                             |
-| --------------- | -------------------------- | ---------------------------------- |
-| Form Initialize | `ConstructUI()`            | UI կառուցում                       |
-| Form Load       | `LoadDocumentToControls()` | Տվյալների բեռնում control-ների մեջ |
-| New Mode        | `OnNew()`                  | Նոր փաստաթուղթ                     |
-| Edit Mode       | `OnEdit()`                 | Խմբագրում                          |
-| View Mode       | `OnView()`                 | Դիտում                             |
-| Save-ից առաջ    | `BeforeStore(sr)`          | Client-side վալիդացիա             |
-| Save-ից հետո    | `AfterStore(...)`          | Refresh / UI update                |
-| Close           | `StoreSettings()`          | Window settings պահպանում          |
-| —               | `BeforeShow(isReadOnly)`   | Բացումից առաջ                      |
-| —               | `AddControls()`            | Լրացուցիչ custom control-ներ       |
+| AS AS-8X                      | Նպատակ                             |
+| -------------------------- | ---------------------------------- |
+|  `ConstructUI()`            | UI կառուցում                       |
+|  `LoadDocumentToControls()` | Տվյալների բեռնում control-ների մեջ |
+|  `OnNew()`                  | Նոր փաստաթուղթ                     |
+|  `OnEdit()`                 | Խմբագրում                          |
+|  `OnView()`                 | Դիտում                             |
+| `BeforeStore(sr)`     | Client-side վալիդացիա             |
+| `AfterStore(...)`     | Refresh / UI update                |
+| `StoreSettings()`           | Window settings պահպանում          |
+| `BeforeShow(isReadOnly)`    | Բացումից առաջ                      |
+| `AddControls()`             | Լրացուցիչ custom control-ներ       |
 
 ---
 
@@ -102,7 +102,7 @@ public class AccBalUI : DocumentUI<AccBal> { ... }
 
 ### AS-4X
 
-`AsDialog`-ը runtime object էր, ստեղծվում էր VB6 script-ի մեջ։
+`AsDialog`-ը սահմանվում էր VB6 script-ի մեջ։
 
 ### AS-8X
 
@@ -111,7 +111,7 @@ public class AccBalUI : DocumentUI<AccBal> { ... }
 | Դաս | Նպատակ | Ֆայլ |
 |-----|--------|------|
 | `DialogWindow` | Ընդհանուր WPF dialog պատուհան | `Core/ArmSoft.AS8X.Core.UI/DialogWindow.cs` |
-| `DataViewDialogWindow` | Դիտելու ձևի նախնական ֆիլտրման պատուհան | `Core/ArmSoft.AS8X.Core.UI/DataView/` |
+| `DataViewDialogWindow` | Դիտելու ձևի նախնական ֆիլտրման պատուհան | `Core/ArmSoft.AS8X.Core.UI/DataView/DataViewDialogWindow.cs` |
 
 ---
 
@@ -123,7 +123,7 @@ public class AccBalUI : DocumentUI<AccBal> { ... }
 | Ցուցադրում | `dlg.Show()` | `dlg.ShowDialog()` |
 | Վերնագիր | `dlg.Caption` | `dlg.Caption` |
 | Control-ի արժեքի ստացում | `dlg("Field")` | `dlg["Field"]` |
-| Վալիդացիա | Auto | `WindowValidation` event |
+| Վալիդացիա | Validate | `WindowValidation` event |
 | Cancel | `dlg.Cancel` | `CancelButton` |
 | AutoStore | `dlg.AutoStore = True` | `storeValue: true` |
 | Tab-երի ավելացում | `AddPage()` | `AddDXTabControl()` |
@@ -151,13 +151,13 @@ public class AccBalUI : DocumentUI<AccBal> { ... }
 | `AddLabel(...)` | `AddTextBlock(...)` | Label |
 | `AddLine()` | `AddLine(...)` | Separator |
 | `AddButton(...)` | `AddButton(...)` | Button |
-| *(համարժեքը բացակայում է)* | `AddDropDownButton(...)` | Dropdown Button |
-| *(համարժեքը բացակայում է)* | `AddSplitButton(...)` | Split Button |
-| *(համարժեքը բացակայում է)* | `AddButtonEdit(...)` | Text  Button |
-| *(համարժեքը բացակայում է)* | `AddPasswordBoxEdit(...)` | Password |
-| *(համարժեքը բացակայում է)* | `AddPathEdit(...)` | File Picker |
-| *(համարժեքը բացակայում է)* | `AddNumPairControl(...)` | Number Pair |
-| *(համարժեքը բացակայում է)* | `AddThreeStateBoolComboBox(...)` | 3-state Bool |
+| - | `AddDropDownButton(...)` | Dropdown Button |
+| - | `AddSplitButton(...)` | Split Button |
+| - | `AddButtonEdit(...)` | Text  Button |
+| - | `AddPasswordBoxEdit(...)` | Password |
+| - | `AddPathEdit(...)` | File Picker |
+| - | `AddNumPairControl(...)` | Number Pair |
+| - | `AddThreeStateBoolComboBox(...)` | 3-state Bool |
 
 ---
 
@@ -166,17 +166,10 @@ public class AccBalUI : DocumentUI<AccBal> { ... }
 | 4X | 8X | Նպատակ |
 |----|----|--------|
 | `AddPage(caption)` | `AddDXTabControl()`  `AddTabbedGroup()` | Tab էջեր |
-| *(խմբավորում)* | `AddLayoutGroup(...)` | Horizontal / Vertical grouping |
-| `AddControlAtRight(...)` | `DisplayPosition = AtRightPreviousField` | Աջ կողմում տեղադրել |
+| - | `AddLayoutGroup(...)` | Horizontal / Vertical grouping |
+| `AddControlAtRight(...)` | `DisplayPosition = AtRightPreviousField` | Աջ կողմում տեղադրում |
 
 ---
-
-## 2.5 Վալիդացիա
-
-| 4X | 8X |
-|----|----|
-| `dlg.Status = "Սխալ"` | `WindowValidation = ...` |
-| `BUTTONCLICK`-ում ստուգում | `OkButton_Click` override |
 
 ### Օրինակ
 
@@ -190,7 +183,7 @@ dlg.WindowValidation = (w, args) =>
 
 ---
 
-### 2.6 Կոդի օրինակ — Dialog-ի ստեղծում
+### 2.5 Կոդի օրինակ — Dialog-ի ստեղծում
 
 **AS-4X (VB6)**
 
@@ -252,7 +245,7 @@ if (dlg.ShowDialog() == true)
 | Բացում             | `Show()`                     | `ShowDialog()`                     | Ցուցադրում։                    |
 | Դաշտի արժեքի ստացում      | `dlg("NAME")`                | Control property (`Value`, `Code`) | Մուտքագրված տվյալների ստացում։ |
 
-**Կարևոր տարբերություն**
+**Կարևոր**
 
 AS-4X-ում արժեքները վերցվում են անունով (dlg("StartDate"))։
 
@@ -265,7 +258,7 @@ dept.Code
 
 ---
 
-### 2.7 Դիտելու ձևի նախնական ֆիլտրման պատուհան (DataViewDialogWindow)
+### 2.6 Դիտելու ձևի նախնական ֆիլտրման պատուհան (DataViewDialogWindow)
 
 Եթե dialog-ը օգտագործվում է դիտելու ձևի ֆիլտրման համար, ապա DialogWindow-ի փոխարեն անհրաժեշտ է օգտագործել DataViewDialogWindow դասը։
 
@@ -314,27 +307,9 @@ public override void ApplyDialog(DataViewDialogWindow dlg, bool isRefreshMode)
 | `ApplyDialog()`  | Dialog-ից վերցնում է արժեքները և փոխանցում `Parameters`-ին |
 | `Parameters`     | Այս հատկության միջոցով ստացված արժեքները փոխանցվում են տվյալների աղբյուրին՝ տվյալների ֆիլտրման և դիտելու ձևի ձևավորման համար։                    |
 
-Գործընթաց
-
-User opens filter
-        ↓
-CreateDialog()
-        ↓
-Dialog shown
-        ↓
-User enters values
-        ↓
-OK
-        ↓
-ApplyDialog()
-        ↓
-Parameters filled
-        ↓
-View reloads data
-
 ---
 
-## 3. Ցուցակ (VIEW) — VIEW (4X) vs DataView<R,P> (8X)
+## 3. Դիտելու ձև (VIEW) — VIEW (4X) vs DataView<R,P> (8X)
 
 ### 3.1 Ճարտարապետական բաժանում
 
@@ -380,7 +355,7 @@ DataView<R, P>
 | `DATASOURCE`     | `ConfigureDataSource()` | Հիմքային տվյալների աղբյուր       |
 | `GROUP`          | Navigator json          | Խմբավորում              |
 | `CONDITION`      | `LoadData()`            | Filter պայման           |
-| `SCRIPT`         | C# methods              | Logic                   |
+| `SCRIPT`         | C# methods              | Ներքին տրամաբանություն (կոդ)                   |
 | `COLUMN`         | `Columns[...]`          | Սյունակների կարգավորում |
 
 ---
@@ -526,19 +501,21 @@ public class Accs : DataView<DataRow, Param>
 }
 ```
 
-| Մաս              | AS-4X                   | AS-8X                               |
+| Գործողություն              | AS-4X                   | AS-8X                               |
 | ---------------- | ----------------------- | ----------------------------------- |
-| View declaration | `VIEW {}`               | `class Accs : DataView<...>`        |
-| DataSource       | `DATASOURCE=ACCOUNT_DS` | `ConfigureDataSource("ACCOUNT_DS")` |
-| Columns          | `COLUMN {}`             | `Columns[...]`                      |
-| Permissions      | `ALLOWEDIT=1`           | `AllowEdit => true`                 |
-| Dialog           | `Dialog()`              | `CreateDialog()`                    |
-| Apply filter     | նույն SCRIPT-ում        | `ApplyDialog()`                     |
-| Context menu     | `Functions()`           | `InitContextFunctions()`            |
+| Դիտելու ձևի հայտարարում | `VIEW {}`               | `class Accs : DataView<...>`        |
+| Հիմքային տվյալների աղբյուրի սահմանում       | `DATASOURCE=ACCOUNT_DS` | `ConfigureDataSource("ACCOUNT_DS")` |
+| Սյուների սահմանում          | `COLUMN {}`             | `Columns[...]`                      |
+| Իրավասություններ սահմանում      | `ALLOWEDIT=1`           | `AllowEdit => true`                 |
+| Դիալոգի ստեղծում           | `Dialog()`              | `CreateDialog()`                    |
+| Դիալոգի արժեքների կիրառում     | նույն SCRIPT-ում        | `ApplyDialog()`                     |
+| Կոնտեքստային մենյուի սահմանում     | `Functions()`           | `InitContextFunctions()`            |
 
 ---
 
 ### 3.7 DrоpDоwnViеw
+
+DropDownView դասերը նախատեսված են DropDown տեսակի դաշտերից կախելու համար։
 
 ```csharp
 [DropDownView(nameof(DepartmentsDropDown),
