@@ -124,6 +124,8 @@ public class AccBalUI : DocumentUI<AccBal> { ... }
 | Վերնագիր | `dlg.Caption` | `dlg.Caption` |
 | Control-ի արժեքի ստացում | `dlg("Field")` | `dlg["Field"]` |
 | Վալիդացիա | Validate | `WindowValidation` event |
+| Պատուհանի ակտիվացում | Activate | `WindowActivated` event |
+| Դաշտի արժեքի փոխում | ValueChanged | `control.EditValueChanged` event |
 | Cancel | `dlg.Cancel` | `CancelButton` |
 | AutoStore | `dlg.AutoStore = True` | `storeValue: true` |
 | Tab-երի ավելացում | `AddPage()` | `AddDXTabControl()` |
