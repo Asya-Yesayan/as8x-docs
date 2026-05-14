@@ -9,8 +9,8 @@ nav_exclude: true
 
 | Անվանում | Նկարագրություն |
 |--|--|
-| [AddTreeDropDownControl(string, string, string, bool, bool, bool, bool, bool, bool)](#dialogwindowaddtreedropdowncontrolstring-string-string-bool-bool-bool-bool-bool-bool-մեթոդ) | Երկխոսության պատուհանում ավելացնում է popup տեսակի ընտրացանկով ծառային դաշտ։ |
-| [AddTreeDropDownControl(LayoutGroup, string, string, string, bool, bool, bool, bool, bool, bool)](#dialogwindowaddtreedropdowncontrollayoutgroup-string-string-string-bool-bool-bool-bool-bool-bool-մեթոդ) | Նշված դասավորման խմբում ավելացնում է popup տեսակի ընտրացանկով ծառային դաշտ։ |
+| [AddTreeDropDownControl(string, string, string, bool, bool, bool, bool, bool, bool)](#dialogwindowaddtreedropdowncontrolstring-string-string-bool-bool-bool-bool-bool-bool-մեթոդ) | Երկխոսության պատուհանում ավելացնում է popup տեսակի ընտրացանկով ծառային դաշտ (**TreeDropDownControl**)՝ տրված ծառի սահմանման հիման վրա։ |
+| [AddTreeDropDownControl(LayoutGroup, string, string, string, bool, bool, bool, bool, bool, bool)](#dialogwindowaddtreedropdowncontrollayoutgroup-string-string-string-bool-bool-bool-bool-bool-bool-մեթոդ) | Նշված դասավորման խմբում (LayoutGroup) ավելացնում է popup տեսակի ընտրացանկով ծառային դաշտ՝ տրված ծառի սահմանման հիման վրա։ |
 
 ### DialogWindow.AddTreeDropDownControl(string, string, string, bool, bool, bool, bool, bool, bool) մեթոդ
 
@@ -51,18 +51,18 @@ public TreeDropDownControl AddTreeDropDownControl(LayoutGroup container, string 
                                                   bool showComment = true, bool isExpanded = false);
 ```
 
-Նշված դասավորման խմբում ավելացնում է popup տեսակի ընտրացանկով ծառային դաշտ։
+Նշված դասավորման խմբում (LayoutGroup) ավելացնում է popup տեսակի ընտրացանկով ծառային դաշտ՝ տրված ծառի սահմանման հիման վրա։
 
 **Պարամետրեր**
 
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 |----------|--------------|----------------|----------------|
-| container | LayoutGroup | — | Դասավորման խումբը, որտեղ ավելացվում է դաշտը։ |
+| container | LayoutGroup | — | Դասավորման խումբը (LayoutGroup), որտեղ ավելացվում է դաշտը։ |
 | name | string | — | Դաշտի ներքին անունը։ |
 | caption | string | — | Դաշտի անվանումը։ |
 | treeId | string | — | Ծառի սահմանման ներքին անունը։ |
-| isFullTree | bool | — | Որոշում է, արդյոք ծառը ամբողջական ծառ է։ |
-| selectRootsOnly | bool | false | Միայն արմատային հանգույցների ընտրման թույլատվությունը։ |
+| isFullTree | bool | — | Որոշում է, արդյոք ծառը ամբողջական (full) ծառ է։ |
+| selectRootsOnly | bool | false | **true** արժեքի դեպքում թույլատրվում է ընտրել միայն արմատային հանգույցները։ |
 | isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է։ |
 | storeValue | bool | true | Որոշում է, արդյոք դաշտի արժեքը պետք է պահպանվի։ |
 | showComment | bool | true | Որոշում է, արդյոք ցուցադրվի մեկնաբանությունը։ |

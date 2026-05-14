@@ -9,8 +9,8 @@ nav_exclude: true
 
 | Անվանում | Նկարագրություն |
 |--|--|
-| [AddControl(FieldType, string, string, bool, bool)](#dialogwindowaddcontrolfieldtype-string-string-bool-bool-մեթոդ) | Երկխոսության պատուհանում ավելացնում է մուտքագրման դաշտ՝ ըստ տրված [դաշտի տիպի](../../../../../Common/ArmSoft.AS8X.Common/FieldTypes/)։ |
-| [AddControl(LayoutGroup, FieldType, string, string, bool, bool)](#dialogwindowaddcontrollayoutgroup-fieldtype-string-string-bool-bool-մեթոդ) | Նշված դասավորման խմբում ավելացնում է մուտքագրման դաշտ՝ ըստ տրված դաշտի տիպի։ |
+| [AddControl(FieldType, string, string, bool, bool)](#dialogwindowaddcontrolfieldtype-string-string-bool-bool-մեթոդ) | Երկխոսության պատուհանում ավելացնում է մուտքագրման դաշտ՝ տրված դաշտի տիպի (**FieldType**) հիման վրա։ |
+| [AddControl(LayoutGroup, FieldType, string, string, bool, bool)](#dialogwindowaddcontrollayoutgroup-fieldtype-string-string-bool-bool-մեթոդ) | Նշված դասավորման խմբում (LayoutGroup) ավելացնում է մուտքագրման դաշտ՝ ըստ տրված դաշտի տիպի՝ տրված դաշտի տիպի (**FieldType**) հիման վրա։ |
 | [AddControl(string, string, Control, bool)](#dialogwindowaddcontrolstring-string-control-bool-մեթոդ) | Երկխոսության պատուհանին ավելացնում է արդեն ստեղծված դաշտ։ |
 | [AddControl(LayoutGroup, string, string, Control, bool, bool, LayoutItemLabelPosition)](#dialogwindowaddcontrollayoutgroup-string-string-control-bool-bool-layoutitemlabelposition-մեթոդ) | Նշված դասավորման խմբում ավելացնում է արդեն ստեղծված դաշտ։ |
 
@@ -43,17 +43,17 @@ public Control AddControl(LayoutGroup container, FieldType type, string name, st
                           bool isRequired = false, bool storeValue = true);
 ```
 
-Նշված դասավորման խմբում ավելացնում է մուտքագրման դաշտ՝ ըստ տրված դաշտի տիպի։
+Նշված դասավորման խմբում (LayoutGroup) ավելացնում է մուտքագրման դաշտ՝ ըստ տրված դաշտի տիպի՝ տրված դաշտի տիպի (**FieldType**) հիման վրա։ Կախված տիպից՝ ստեղծվում է համապատասխան մուտքագրման դաշտ՝ տողային, թվային, ամսաթվային, ժամային, տրամաբանական, ծառային, ֆայլային, պանակի կամ popup տեսակի ընտրացանկով դաշտ։
 
 **Պարամետրեր**
 
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 |----------|--------------|----------------|----------------|
-| container | LayoutGroup | — | Դասավորման խումբը, որտեղ ավելացվում է դաշտը։ |
-| type | FieldType | — | Դաշտի տիպը։ |
+| container | LayoutGroup | — | Դասավորման խումբը (LayoutGroup), որտեղ ավելացվում է դաշտը։ |
+| type | FieldType | — | Դաշտի տիպը, որը որոշում է ստեղծվող դաշտի տեսակը։ |
 | name | string | — | Դաշտի ներքին անունը։ |
 | caption | string | — | Դաշտի անվանումը։ |
-| isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է։ |
+| isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է լրացման համար։ |
 | storeValue | bool | true | Որոշում է, արդյոք դաշտի արժեքը պետք է պահպանվի։ |
 
 

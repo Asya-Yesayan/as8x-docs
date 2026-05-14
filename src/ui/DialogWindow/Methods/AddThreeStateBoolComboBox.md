@@ -9,8 +9,8 @@ nav_exclude: true
 
 | Անվանում | Նկարագրություն |
 |--|--|
-| [AddThreeStateBoolComboBox(string, string, bool)](#dialogwindowaddthreestateboolcomboboxstring-string-bool-մեթոդ) | Երկխոսության պատուհանում ավելացնում է երեք վիճակ (այո/ոչ/չորոշված) ընդունող ընտրացանկ։ |
-| [AddThreeStateBoolComboBox(LayoutGroup, string, string, bool)](#dialogwindowaddthreestateboolcomboboxlayoutgroup-string-string-bool-մեթոդ) | Նշված դասավորման խմբում ավելացնում է երեք վիճակ ընդունող ընտրացանկ։ |
+| [AddThreeStateBoolComboBox(string, string, bool)](#dialogwindowaddthreestateboolcomboboxstring-string-bool-մեթոդ) | Երկխոսության պատուհանում ավելացնում է երեք վիճակ ընդունող **ComboBoxEditExt** դաշտ։ |
+| [AddThreeStateBoolComboBox(LayoutGroup, string, string, bool)](#dialogwindowaddthreestateboolcomboboxlayoutgroup-string-string-bool-մեթոդ) | Նշված դասավորման խմբում (LayoutGroup) ավելացնում է երեք վիճակ ընդունող ընտրացանկ։ |
 
 ### DialogWindow.AddThreeStateBoolComboBox(string, string, bool) մեթոդ
 
@@ -20,7 +20,7 @@ nav_exclude: true
 public ComboBoxEditExt AddThreeStateBoolComboBox(string name, string caption, bool storeValue = true);
 ```
 
-Երկխոսության պատուհանում ավելացնում է երեք վիճակ ընդունող **ComboBoxEditExt** դաշտ՝ "այո", "ոչ" և "չորոշված"։
+Երկխոսության պատուհանում ավելացնում է երեք վիճակ ընդունող **ComboBoxEditExt** դաշտ։
 
 **Պարամետրեր**
 
@@ -40,7 +40,7 @@ public ComboBoxEditExt AddThreeStateBoolComboBox(LayoutGroup container, string n
                                                  bool storeValue = true);
 ```
 
-Նշված դասավորման խմբում ավելացնում է երեք վիճակ ընդունող ընտրացանկ։
+Նշված դասավորման խմբում (LayoutGroup) ավելացնում է երեք վիճակ ընդունող **ComboBoxEditExt** դաշտ։
 
 **Պարամետրեր**
 

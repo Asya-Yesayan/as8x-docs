@@ -9,7 +9,7 @@ nav_exclude: true
 
 | Անվանում | Նկարագրություն |
 |--|--|
-| [AddTimeEditControl(string, string, bool, bool, bool)](#dialogwindowaddtimeeditcontrolstring-string-bool-bool-bool-մեթոդ) | Երկխոսության պատուհանում ավելացնում է ժամի մուտքագրման դաշտ։ |
+| [AddTimeEditControl(string, string, bool, bool, bool)](#dialogwindowaddtimeeditcontrolstring-string-bool-bool-bool-մեթոդ) | Երկխոսության պատուհանում ավելացնում է ժամի մուտքագրման դաշտ (**TimeEditControl**)։ |
 | [AddTimeEditControl(LayoutGroup, string, string, bool, bool, bool)](#dialogwindowaddtimeeditcontrollayoutgroup-string-string-bool-bool-bool-մեթոդ) | Նշված դասավորման խմբում ավելացնում է ժամի մուտքագրման դաշտ։ |
 
 ### DialogWindow.AddTimeEditControl(string, string, bool, bool, bool) մեթոդ
@@ -43,13 +43,13 @@ public TimeEditControl AddTimeEditControl(LayoutGroup container, string name, st
                                           bool showSeconds = false, bool isRequired = false, bool storeValue = true);
 ```
 
-Նշված դասավորման խմբում ավելացնում է ժամի մուտքագրման դաշտ։
+Նշված դասավորման խմբում (LayoutGroup) ավելացնում է ժամի մուտքագրման դաշտ (**TimeEditControl**)։
 
 **Պարամետրեր**
 
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 |----------|--------------|----------------|----------------|
-| container | LayoutGroup | — | Դասավորման խումբը, որտեղ ավելացվում է դաշտը։ |
+| container | LayoutGroup | — | Դասավորման խումբը (LayoutGroup), որտեղ ավելացվում է դաշտը։ |
 | name | string | — | Դաշտի ներքին անունը։ |
 | caption | string | — | Դաշտի անվանումը։ |
 | showSeconds | bool | false | **true** արժեքի դեպքում ցուցադրվում են վայրկյանները։ |
