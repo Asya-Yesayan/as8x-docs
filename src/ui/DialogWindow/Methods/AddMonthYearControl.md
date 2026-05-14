@@ -9,7 +9,7 @@ nav_exclude: true
 
 | Անվանում | Նկարագրություն |
 |--|--|
-| [AddMonthYearControl(string, string, bool, bool, bool)](#dialogwindowaddmonthyearcontrolstring-string-bool-bool-bool-մեթոդ) | Երկխոսության պատուհանում ավելացնում է ամիս/տարի ընտրության դաշտ։ |
+| [AddMonthYearControl(string, string, bool, bool, bool)](#dialogwindowaddmonthyearcontrolstring-string-bool-bool-bool-մեթոդ) | Երկխոսության պատուհանում ավելացնում է ամիս/տարի ընտրության դաշտ (**MonthYearControl**)։ |
 | [AddMonthYearControl(LayoutGroup, string, string, bool, bool, bool)](#dialogwindowaddmonthyearcontrollayoutgroup-string-string-bool-bool-bool-մեթոդ) | Նշված դասավորման խմբում ավելացնում է ամիս/տարի ընտրության դաշտ։ |
 
 ### DialogWindow.AddMonthYearControl(string, string, bool, bool, bool) մեթոդ

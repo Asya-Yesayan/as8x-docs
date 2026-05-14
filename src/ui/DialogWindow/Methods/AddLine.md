@@ -20,7 +20,7 @@ nav_exclude: true
 public HorizontalLineControl AddLine(string caption = null, LineCaptionAlignment captionAlignment = 0, string name = null);
 ```
 
-Երկխոսության պատուհանում ավելացնում է հորիզոնական բաժանարար գիծ։ Հարմար է, երբ երկխոսության դաշտերը պետք է խմբավորվեն տեսողականորեն։
+Երկխոսության պատուհանում ավելացնում է հորիզոնական բաժանարար գիծ։
 
 **Պարամետրեր**
 

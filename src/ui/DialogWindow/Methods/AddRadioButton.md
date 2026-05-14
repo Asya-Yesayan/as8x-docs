@@ -20,7 +20,7 @@ nav_exclude: true
 public RadioButtonExt AddRadioButton(string name, string caption, string groupName, bool storeValue = true);
 ```
 
-Երկխոսության պատուհանում ավելացնում է ռադիոկոճակ (**RadioButtonExt**)։ Միևնույն խմբի մեջ գտնվող ռադիոկոճակները փոխադարձ բացառվում են։
+Երկխոսության պատուհանում ավելացնում է ռադիոկոճակ (**RadioButtonExt**)։
 
 **Պարամետրեր**
 
