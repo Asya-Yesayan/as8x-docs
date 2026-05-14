@@ -30,10 +30,6 @@ public ModalGridControl AddModalGridControl(string name, string caption, IDropDo
 | caption | string | — | Դաշտի անվանումը։ |
 | dropDownView | IDropDownView | — | Դիտելու ձևի նկարագրությունը, որի հիման վրա ձևավորվում է աղյուսակի կառուցվածքը։ |
 
-**Վերադարձնում է**
-
-Ստեղծված **ModalGridControl** դաշտը։
-
 ### DialogWindow.AddModalGridControl(LayoutGroup, string, string, IDropDownView) մեթոդ
 
 **Դաս՝** [DialogWindow](../DialogWindow.md)
@@ -52,7 +48,3 @@ public ModalGridControl AddModalGridControl(LayoutGroup container, string name, 
 | name | string | — | Դաշտի ներքին անունը։ |
 | caption | string | — | Դաշտի անվանումը։ |
 | dropDownView | IDropDownView | — | Դիտելու ձևի նկարագրությունը։ |
-
-**Վերադարձնում է**
-
-Ստեղծված **ModalGridControl** դաշտը։

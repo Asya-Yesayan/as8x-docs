@@ -16,23 +16,19 @@ public Button AddButton(LayoutGroup container, string name, string imageURI = ""
                         double imgWidth = 16, double imgHeight = 16);
 ```
 
-Երկխոսության պատուհանի նշված դասավորման խմբում ավելացնում է կոճակ։ Կոճակի վրա կարող են ցուցադրվել տեքստ, նկար, կամ երկուսը միասին։
+Երկխոսության պատուհանի նշված դասավորման խմբում (LayoutGroup) ավելացնում է կոճակ։ 
 
 **Պարամետրեր**
 
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 |----------|--------------|----------------|----------------|
-| container | LayoutGroup | — | Դասավորման խումբը, որտեղ ավելացվում է կոճակը։ |
+| container | LayoutGroup | — | Դասավորման խումբը (LayoutGroup), որտեղ ավելացվում է կոճակը։ |
 | name | string | — | Կոճակի ներքին անունը։ |
 | imageURI | string | "" | Կոճակի վրա ցուցադրվող նկարի URI-ն։ |
 | caption | string | "" | Կոճակի վրա ցուցադրվող տեքստը։ |
 | labelCaption | string | "" | Կոճակի կողքին ցուցադրվող անվանումը։ |
-| tooltip | string | "" | Կոճակի վրա մկնիկի ցուցիչը պահելու դեպքում ցուցադրվող հուշումը։ |
+| tooltip | string | "" | Կոճակի վրա մկնիկի ցուցիչը պահելու դեպքում ցուցադրվող tooltip-ը։ |
 | isTabStop | bool | false | Որոշում է, արդյոք կոճակը կարող է ստանալ ֆոկուս **Tab** ստեղնով։ |
-| horizontalAlignment | HorizontalAlignment | HorizontalAlignment.Left | Կոճակի հորիզոնական դիրքավորումը։ |
+| horizontalAlignment | HorizontalAlignment | HorizontalAlignment.Left | Կոճակի հորիզոնական դասավորվածության ուղղությունը։ |
 | imgWidth | double | 16 | Կոճակի վրա ցուցադրվող նկարի լայնությունը։ |
 | imgHeight | double | 16 | Կոճակի վրա ցուցադրվող նկարի բարձրությունը։ |
-
-**Վերադարձնում է**
-
-Ստեղծված **Button** տիպի դաշտը։

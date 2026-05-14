@@ -22,7 +22,7 @@ nav_exclude: true
 public Control AddControl(FieldType type, string name, string caption, bool isRequired = false, bool storeValue = true);
 ```
 
-Երկխոսության պատուհանում ավելացնում է մուտքագրման դաշտ՝ տրված դաշտի տիպի (**FieldType**) հիման վրա։ Կախված տիպից՝ ստեղծվում է համապատասխան մուտքագրման դաշտ՝ տողային, թվային, ամսաթվային, ժամային, տրամաբանական, ծառային, ֆայլային, պանակի կամ թռուցիկ ընտրացանկով դաշտ։
+Երկխոսության պատուհանում ավելացնում է մուտքագրման դաշտ՝ տրված դաշտի տիպի (**FieldType**) հիման վրա։ Կախված տիպից՝ ստեղծվում է համապատասխան մուտքագրման դաշտ՝ տողային, թվային, ամսաթվային, ժամային, տրամաբանական, ծառային, ֆայլային, պանակի կամ popup տեսակի ընտրացանկով դաշտ։
 
 **Պարամետրեր**
 
@@ -33,16 +33,6 @@ public Control AddControl(FieldType type, string name, string caption, bool isRe
 | caption | string | — | Դաշտի անվանումը։ |
 | isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է լրացման համար։ |
 | storeValue | bool | true | Որոշում է, արդյոք դաշտի արժեքը պետք է պահպանվի։ |
-
-**Վերադարձնում է**
-
-Ստեղծված **Control** տիպի դաշտը։
-
-**Բացառություններ**
-
-| Տիպ | Նկարագրություն |
-|-----|----------------|
-| NotImplementedException | Առաջանում է, եթե տրված դաշտի տիպի համար ստեղծման տրամաբանություն սահմանված չէ։ |
 
 ### DialogWindow.AddControl(LayoutGroup, FieldType, string, string, bool, bool) մեթոդ
 
@@ -66,15 +56,6 @@ public Control AddControl(LayoutGroup container, FieldType type, string name, st
 | isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է։ |
 | storeValue | bool | true | Որոշում է, արդյոք դաշտի արժեքը պետք է պահպանվի։ |
 
-**Վերադարձնում է**
-
-Ստեղծված **Control** տիպի դաշտը։
-
-**Բացառություններ**
-
-| Տիպ | Նկարագրություն |
-|-----|----------------|
-| NotImplementedException | Առաջանում է, եթե տրված դաշտի տիպի համար ստեղծման տրամաբանություն սահմանված չէ։ |
 
 ### DialogWindow.AddControl(string, string, Control, bool) մեթոդ
 
@@ -118,9 +99,3 @@ public void AddControl(LayoutGroup container, string name, string caption, Contr
 | storeValue | bool | true | Որոշում է, արդյոք դաշտի արժեքը պետք է պահպանվի։ |
 | addLayoutItemBinding | bool | false | Որոշում է, արդյոք պետք է սահմանվի դաշտի **IsRequired** հատկության կապը դասավորման տարրի հետ։ |
 | labelPosition | LayoutItemLabelPosition | LayoutItemLabelPosition.Left | Դաշտի անվանման դիրքավորումը։ |
-
-**Բացառություններ**
-
-| Տիպ | Նկարագրություն |
-|-----|----------------|
-| InvalidOperationException | Առաջանում է, եթե նույն ներքին անունով դաշտ արդեն գոյություն ունի։ |

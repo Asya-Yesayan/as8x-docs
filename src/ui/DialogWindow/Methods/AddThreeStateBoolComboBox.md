@@ -30,9 +30,6 @@ public ComboBoxEditExt AddThreeStateBoolComboBox(string name, string caption, bo
 | caption | string | — | Դաշտի անվանումը։ |
 | storeValue | bool | true | Որոշում է, արդյոք դաշտի արժեքը պետք է պահպանվի։ |
 
-**Վերադարձնում է**
-
-Ստեղծված **ComboBoxEditExt** դաշտը։
 
 ### DialogWindow.AddThreeStateBoolComboBox(LayoutGroup, string, string, bool) մեթոդ
 
@@ -54,6 +51,3 @@ public ComboBoxEditExt AddThreeStateBoolComboBox(LayoutGroup container, string n
 | caption | string | — | Դաշտի անվանումը։ |
 | storeValue | bool | true | Որոշում է, արդյոք դաշտի արժեքը պետք է պահպանվի։ |
 
-**Վերադարձնում է**
-
-Ստեղծված **ComboBoxEditExt** դաշտը։

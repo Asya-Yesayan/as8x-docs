@@ -33,9 +33,6 @@ public TimeEditControl AddTimeEditControl(string name, string caption, bool show
 | isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է։ |
 | storeValue | bool | true | Որոշում է, արդյոք դաշտի արժեքը պետք է պահպանվի։ |
 
-**Վերադարձնում է**
-
-Ստեղծված **TimeEditControl** դաշտը։
 
 ### DialogWindow.AddTimeEditControl(LayoutGroup, string, string, bool, bool, bool) մեթոդ
 
@@ -59,12 +56,3 @@ public TimeEditControl AddTimeEditControl(LayoutGroup container, string name, st
 | isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է։ |
 | storeValue | bool | true | Որոշում է, արդյոք դաշտի արժեքը պետք է պահպանվի։ |
 
-**Վերադարձնում է**
-
-Ստեղծված **TimeEditControl** դաշտը։
-
-**Բացառություններ**
-
-| Տիպ | Նկարագրություն |
-|-----|----------------|
-| InvalidOperationException | Առաջանում է, եթե նույն ներքին անունով դաշտ արդեն գոյություն ունի։ |

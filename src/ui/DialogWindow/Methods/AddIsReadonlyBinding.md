@@ -20,4 +20,4 @@ public static void AddIsReadonlyBinding(object xControl, LayoutItemWithRequired 
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 |----------|--------------|----------------|----------------|
 | xControl | object | — | Աղբյուր դաշտը, որի **IsReadOnly** հատկությունից կարդացվում է արժեքը։ |
-| li | LayoutItemWithRequired | — | Նպատակային դասավորման տարրը։ |
+| li | LayoutItemWithRequired | — | Նպատակային դասավորման տարրը (LayoutItem)։ |

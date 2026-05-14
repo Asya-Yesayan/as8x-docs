@@ -9,8 +9,8 @@ nav_exclude: true
 
 | Անվանում | Նկարագրություն |
 |--|--|
-| [AddButtonEdit(string, string, short, bool, short, bool, StringRestriction)](#dialogwindowaddbuttoneditstring-string-short-bool-short-bool-stringrestriction-մեթոդ) | Երկխոսության պատուհանում ավելացնում է կոճակով տեքստային մուտքագրման դաշտ։ |
-| [AddButtonEdit(LayoutGroup, string, string, short, bool, short, bool, StringRestriction)](#dialogwindowaddbuttoneditlayoutgroup-string-string-short-bool-short-bool-stringrestriction-մեթոդ) | Նշված դասավորման խմբում ավելացնում է կոճակով տեքստային մուտքագրման դաշտ։ |
+| [AddButtonEdit(string, string, short, bool, short, bool, StringRestriction)](#dialogwindowaddbuttoneditstring-string-short-bool-short-bool-stringrestriction-մեթոդ) | Երկխոսության պատուհանում ավելացնում է տեքստային մուտքագրման դաշտ։ |
+| [AddButtonEdit(LayoutGroup, string, string, short, bool, short, bool, StringRestriction)](#dialogwindowaddbuttoneditlayoutgroup-string-string-short-bool-short-bool-stringrestriction-մեթոդ) | Նշված դասավորման խմբում ավելացնում է տեքստային մուտքագրման դաշտ։ |
 
 ### DialogWindow.AddButtonEdit(string, string, short, bool, short, bool, StringRestriction) մեթոդ
 
@@ -22,7 +22,7 @@ public ButtonEditExt AddButtonEdit(string name, string caption, short length,
                                    StringRestriction stringRestriction = StringRestriction.CanBeConvertedToArmenianANSI);
 ```
 
-Երկխոսության պատուհանում ավելացնում է կոճակով տեքստային մուտքագրման դաշտ (**ButtonEditExt**)։
+Երկխոսության պատուհանում ավելացնում է տեքստային մուտքագրման դաշտ (**ButtonEditExt**)։
 
 **Պարամետրեր**
 
@@ -34,11 +34,7 @@ public ButtonEditExt AddButtonEdit(string name, string caption, short length,
 | isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է լրացման համար։ |
 | estimatedButtonsCount | short | 1 | Դաշտին կից կոճակների ակնկալվող քանակը, որի հիման վրա հաշվարկվում է դաշտի լայնությունը։ |
 | storeValue | bool | true | Որոշում է, արդյոք դաշտի արժեքը պետք է պահպանվի։ |
-| stringRestriction | StringRestriction | StringRestriction.CanBeConvertedToArmenianANSI | Տողի վալիդացիայի սահմանափակումը (օրինակ՝ հայերեն ANSI-ի փոխարկելի, ռուսերեն ANSI-ի փոխարկելի կամ նույնականացուցիչ)։ |
-
-**Վերադարձնում է**
-
-Ստեղծված **ButtonEditExt** դաշտը։
+| stringRestriction | StringRestriction | StringRestriction.CanBeConvertedToArmenianANSI | Դաշտում լրացվող արժեքի կոդավորման սահմանափակում (Armenian ansi, Russian ansi): |
 
 ### DialogWindow.AddButtonEdit(LayoutGroup, string, string, short, bool, short, bool, StringRestriction) մեթոդ
 
@@ -50,27 +46,17 @@ public ButtonEditExt AddButtonEdit(LayoutGroup container, string name, string ca
                                    StringRestriction stringRestriction = StringRestriction.CanBeConvertedToArmenianANSI);
 ```
 
-Նշված դասավորման խմբում ավելացնում է կոճակով տեքստային մուտքագրման դաշտ (**ButtonEditExt**)։
+Նշված դասավորման խմբում (LayoutGroup) ավելացնում է կոճակով տեքստային մուտքագրման դաշտ (**ButtonEditExt**)։
 
 **Պարամետրեր**
 
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 |----------|--------------|----------------|----------------|
-| container | LayoutGroup | — | Դասավորման խումբը, որտեղ ավելացվում է դաշտը։ |
+| container | LayoutGroup | — | Դասավորման խումբը (LayoutGroup), որտեղ ավելացվում է դաշտը։ |
 | name | string | — | Դաշտի ներքին անունը։ |
 | caption | string | — | Դաշտի անվանումը։ |
 | length | short | — | Մուտքագրման տեքստի առավելագույն երկարությունը։ |
 | isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է լրացման համար։ |
-| estimatedButtonsCount | short | 1 | Դաշտին կից կոճակների ակնկալվող քանակը։ |
+| estimatedButtonsCount | short | 1 | Դաշտին կից կոճակների ակնկալվող քանակը, որի հիման վրա հաշվարկվում է դաշտի լայնությունը։ |
 | storeValue | bool | true | Որոշում է, արդյոք դաշտի արժեքը պետք է պահպանվի։ |
-| stringRestriction | StringRestriction | StringRestriction.CanBeConvertedToArmenianANSI | Տողի վալիդացիայի սահմանափակումը։ |
-
-**Վերադարձնում է**
-
-Ստեղծված **ButtonEditExt** դաշտը։
-
-**Բացառություններ**
-
-| Տիպ | Նկարագրություն |
-|-----|----------------|
-| InvalidOperationException | Առաջանում է, եթե նույն ներքին անունով դաշտ արդեն գոյություն ունի։ |
+| stringRestriction | StringRestriction | StringRestriction.CanBeConvertedToArmenianANSI | Դաշտում լրացվող արժեքի կոդավորման սահմանափակում (Armenian ansi, Russian ansi): |

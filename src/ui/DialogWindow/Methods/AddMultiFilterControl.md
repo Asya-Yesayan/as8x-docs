@@ -40,9 +40,6 @@ public MultiFilterControl AddMultiFilterControl(string name, string caption, Mul
 | showComment | bool | true | Որոշում է, արդյոք ցուցադրվի մեկնաբանությունը։ |
 | isExpanded | bool | false | Որոշում է, արդյոք ծառի հանգույցները լինեն բացված։ |
 
-**Վերադարձնում է**
-
-Ստեղծված **MultiFilterControl** դաշտը։
 
 ### DialogWindow.AddMultiFilterControl(LayoutGroup, string, string, MultiFilterTypes, string, bool, IDropDownView, bool, bool, bool, bool) մեթոդ
 
@@ -74,12 +71,3 @@ public MultiFilterControl AddMultiFilterControl(LayoutGroup container, string na
 | showComment | bool | true | Որոշում է, արդյոք ցուցադրվի մեկնաբանությունը։ |
 | isExpanded | bool | false | Որոշում է, արդյոք ծառի հանգույցները լինեն բացված։ |
 
-**Վերադարձնում է**
-
-Ստեղծված **MultiFilterControl** դաշտը։
-
-**Բացառություններ**
-
-| Տիպ | Նկարագրություն |
-|-----|----------------|
-| InvalidOperationException | Առաջանում է, եթե նույն ներքին անունով դաշտ արդեն գոյություն ունի։ |

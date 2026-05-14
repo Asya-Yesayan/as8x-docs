@@ -37,10 +37,6 @@ public NumericEditControl AddNumericEditControl(string name, string caption, sho
 | useCurrencyFormat | bool | true | Որոշում է, արդյոք օգտագործվի դրամային ֆորմատը։ |
 | storeValue | bool | true | Որոշում է, արդյոք դաշտի արժեքը պետք է պահպանվի։ |
 
-**Վերադարձնում է**
-
-Ստեղծված **NumericEditControl** դաշտը։
-
 ### DialogWindow.AddNumericEditControl(LayoutGroup, string, string, short, short, bool, bool, bool, bool) մեթոդ
 
 **Դաս՝** [DialogWindow](../DialogWindow.md)
@@ -68,12 +64,3 @@ public NumericEditControl AddNumericEditControl(LayoutGroup container, string na
 | useCurrencyFormat | bool | true | Որոշում է, արդյոք օգտագործվի դրամային ֆորմատը։ |
 | storeValue | bool | true | Որոշում է, արդյոք դաշտի արժեքը պետք է պահպանվի։ |
 
-**Վերադարձնում է**
-
-Ստեղծված **NumericEditControl** դաշտը։
-
-**Բացառություններ**
-
-| Տիպ | Նկարագրություն |
-|-----|----------------|
-| InvalidOperationException | Առաջանում է, եթե նույն ներքին անունով դաշտ արդեն գոյություն ունի։ |

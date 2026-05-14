@@ -26,7 +26,3 @@ DataSource տեսակի դեպքում կատարում է `ds.ExecuteDS`:
 | --- | --- | --- | --- |
 | key | object | - | Թարմ ստանալիք row-ի բանալին: Կարող է լինել. - Մեկ արժեք (string-ի եթե string է, ObjectId-ն, int, կամ այլ տիպ): - `IEnumerable` (ոչ `string`)՝ batch update-ի համար: |
 
-**Վերադարձնում է**
-
-Server-ից ստացված թարմ <typeparamref name="R"/> rows-ի ցանկ:
-

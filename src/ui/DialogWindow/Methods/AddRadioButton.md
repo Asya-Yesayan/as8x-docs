@@ -31,10 +31,6 @@ public RadioButtonExt AddRadioButton(string name, string caption, string groupNa
 | groupName | string | — | Ռադիոկոճակների խմբի անունը։ Միևնույն խմբի մեջ գտնվող ռադիոկոճակները փոխադարձ բացառվում են։ |
 | storeValue | bool | true | Որոշում է, արդյոք դաշտի արժեքը պետք է պահպանվի։ |
 
-**Վերադարձնում է**
-
-Ստեղծված **RadioButtonExt** դաշտը։
-
 ### DialogWindow.AddRadioButton(LayoutGroup, string, string, string, bool) մեթոդ
 
 **Դաս՝** [DialogWindow](../DialogWindow.md)
@@ -56,12 +52,3 @@ public RadioButtonExt AddRadioButton(LayoutGroup container, string name, string 
 | groupName | string | — | Ռադիոկոճակների խմբի անունը։ |
 | storeValue | bool | true | Որոշում է, արդյոք դաշտի արժեքը պետք է պահպանվի։ |
 
-**Վերադարձնում է**
-
-Ստեղծված **RadioButtonExt** դաշտը։
-
-**Բացառություններ**
-
-| Տիպ | Նկարագրություն |
-|-----|----------------|
-| InvalidOperationException | Առաջանում է, եթե նույն ներքին անունով դաշտ արդեն գոյություն ունի։ |

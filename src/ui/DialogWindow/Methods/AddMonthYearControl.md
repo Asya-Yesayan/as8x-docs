@@ -33,10 +33,6 @@ public MonthYearControl AddMonthYearControl(string name, string caption, bool is
 | isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է։ |
 | storeValue | bool | true | Որոշում է, արդյոք դաշտի արժեքը պետք է պահպանվի։ |
 
-**Վերադարձնում է**
-
-Ստեղծված **MonthYearControl** դաշտը։
-
 ### DialogWindow.AddMonthYearControl(LayoutGroup, string, string, bool, bool, bool) մեթոդ
 
 **Դաս՝** [DialogWindow](../DialogWindow.md)
@@ -59,12 +55,3 @@ public MonthYearControl AddMonthYearControl(LayoutGroup container, string name, 
 | isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է։ |
 | storeValue | bool | true | Որոշում է, արդյոք դաշտի արժեքը պետք է պահպանվի։ |
 
-**Վերադարձնում է**
-
-Ստեղծված **MonthYearControl** դաշտը։
-
-**Բացառություններ**
-
-| Տիպ | Նկարագրություն |
-|-----|----------------|
-| InvalidOperationException | Առաջանում է, եթե նույն ներքին անունով դաշտ արդեն գոյություն ունի։ |

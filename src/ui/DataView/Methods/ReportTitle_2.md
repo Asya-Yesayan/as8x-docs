@@ -22,7 +22,3 @@ public virtual string ReportTitle(IEnumerable<StoredValueInfo> storedValueInfos)
 | --- | --- | --- | --- |
 | storedValueInfos | IEnumerable<StoredValueInfo> | - | Պահված արժեքների հավաքածու: Եթե `null` կամ դատարկ է՝ վերադարձնում է `ReportTitle()`-ը: Հակառակ դեպքում ֆորմատ՝ `"{ReportTitle()}` {value1}, {value2}"`: |
 
-**Վերադարձնում է**
-
-Ֆորմատավորված վերնագիրը:
-

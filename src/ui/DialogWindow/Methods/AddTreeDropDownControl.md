@@ -9,8 +9,8 @@ nav_exclude: true
 
 | Անվանում | Նկարագրություն |
 |--|--|
-| [AddTreeDropDownControl(string, string, string, bool, bool, bool, bool, bool, bool)](#dialogwindowaddtreedropdowncontrolstring-string-string-bool-bool-bool-bool-bool-bool-մեթոդ) | Երկխոսության պատուհանում ավելացնում է թռուցիկ ընտրացանկով ծառային դաշտ։ |
-| [AddTreeDropDownControl(LayoutGroup, string, string, string, bool, bool, bool, bool, bool, bool)](#dialogwindowaddtreedropdowncontrollayoutgroup-string-string-string-bool-bool-bool-bool-bool-bool-մեթոդ) | Նշված դասավորման խմբում ավելացնում է թռուցիկ ընտրացանկով ծառային դաշտ։ |
+| [AddTreeDropDownControl(string, string, string, bool, bool, bool, bool, bool, bool)](#dialogwindowaddtreedropdowncontrolstring-string-string-bool-bool-bool-bool-bool-bool-մեթոդ) | Երկխոսության պատուհանում ավելացնում է popup տեսակի ընտրացանկով ծառային դաշտ։ |
+| [AddTreeDropDownControl(LayoutGroup, string, string, string, bool, bool, bool, bool, bool, bool)](#dialogwindowaddtreedropdowncontrollayoutgroup-string-string-string-bool-bool-bool-bool-bool-bool-մեթոդ) | Նշված դասավորման խմբում ավելացնում է popup տեսակի ընտրացանկով ծառային դաշտ։ |
 
 ### DialogWindow.AddTreeDropDownControl(string, string, string, bool, bool, bool, bool, bool, bool) մեթոդ
 
@@ -23,7 +23,7 @@ public TreeDropDownControl AddTreeDropDownControl(string name, string caption, s
                                                   bool isExpanded = false);
 ```
 
-Երկխոսության պատուհանում ավելացնում է թռուցիկ ընտրացանկով ծառային դաշտ (**TreeDropDownControl**)՝ տրված ծառի սահմանման հիման վրա։
+Երկխոսության պատուհանում ավելացնում է popup տեսակի ընտրացանկով ծառային դաշտ (**TreeDropDownControl**)՝ տրված ծառի սահմանման հիման վրա։
 
 **Պարամետրեր**
 
@@ -39,9 +39,6 @@ public TreeDropDownControl AddTreeDropDownControl(string name, string caption, s
 | showComment | bool | true | Որոշում է, արդյոք ցուցադրվի մեկնաբանությունը։ |
 | isExpanded | bool | false | Որոշում է, արդյոք ծառի հանգույցները լինեն բացված։ |
 
-**Վերադարձնում է**
-
-Ստեղծված **TreeDropDownControl** դաշտը։
 
 ### DialogWindow.AddTreeDropDownControl(LayoutGroup, string, string, string, bool, bool, bool, bool, bool, bool) մեթոդ
 
@@ -54,7 +51,7 @@ public TreeDropDownControl AddTreeDropDownControl(LayoutGroup container, string 
                                                   bool showComment = true, bool isExpanded = false);
 ```
 
-Նշված դասավորման խմբում ավելացնում է թռուցիկ ընտրացանկով ծառային դաշտ։
+Նշված դասավորման խմբում ավելացնում է popup տեսակի ընտրացանկով ծառային դաշտ։
 
 **Պարամետրեր**
 
@@ -71,12 +68,3 @@ public TreeDropDownControl AddTreeDropDownControl(LayoutGroup container, string 
 | showComment | bool | true | Որոշում է, արդյոք ցուցադրվի մեկնաբանությունը։ |
 | isExpanded | bool | false | Որոշում է, արդյոք ծառի հանգույցները լինեն բացված։ |
 
-**Վերադարձնում է**
-
-Ստեղծված **TreeDropDownControl** դաշտը։
-
-**Բացառություններ**
-
-| Տիպ | Նկարագրություն |
-|-----|----------------|
-| InvalidOperationException | Առաջանում է, եթե նույն ներքին անունով դաշտ արդեն գոյություն ունի։ |

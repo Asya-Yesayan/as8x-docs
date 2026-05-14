@@ -28,10 +28,6 @@ public DataGridControl AddDataGridControl(string name);
 |----------|--------------|----------------|----------------|
 | name | string | — | Դաշտի ներքին անունը։ |
 
-**Վերադարձնում է**
-
-Ստեղծված **DataGridControl** տիպի դաշտը։
-
 ### DialogWindow.AddDataGridControl(LayoutGroup, string) մեթոդ
 
 **Դաս՝** [DialogWindow](../DialogWindow.md)
@@ -46,15 +42,5 @@ public DataGridControl AddDataGridControl(LayoutGroup container, string name);
 
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 |----------|--------------|----------------|----------------|
-| container | LayoutGroup | — | Դասավորման խումբը, որտեղ ավելացվում է դաշտը։ Եթե **null** է, դաշտն ավելացվում է երկխոսության պատուհանի հիմնական դասավորման տարրում։ |
+| container | LayoutGroup | — | Դասավորման խումբը (LayoutGroup), որտեղ ավելացվում է դաշտը։ Եթե **null** է, դաշտն ավելացվում է երկխոսության պատուհանի հիմնական դասավորման խմբում։ |
 | name | string | — | Դաշտի ներքին անունը։ |
-
-**Վերադարձնում է**
-
-Ստեղծված **DataGridControl** տիպի դաշտը։
-
-**Բացառություններ**
-
-| Տիպ | Նկարագրություն |
-|-----|----------------|
-| InvalidOperationException | Առաջանում է, եթե նույն ներքին անունով դաշտ արդեն գոյություն ունի։ |

@@ -47,38 +47,38 @@ has_toc: false
 
 | Անվանում | Նկարագրություն |
 |----------|----------------|
-| [Add()](Methods/Add.md) | Սահմանում է դիտելու ձևի «Ավելացնել» կոնտեքստային ֆունկցիայի կատարման արդյունքում բացվող պատուհանը՝ IsDocumentBased հատկության false արժեքի դեպքում։ |
-| [AddDocument(string)](Methods/AddDocument.md) | Սահմանում է դիտելու ձևի «Ավելացնել» կոնտեքստային ֆունկցիայի կատարման արդյունքում բացվող պատուհանը՝ IsDocumentBased հատկության true արժեքի դեպքում։ |
-| [AddFirstPhase()](Methods/AddFirstPhase.md) | Սահմանում է դիտելու ձևի կատարման պրոգրեսի առաջին փուլի (phase) տեքստը։ |
-| [AddRow(R)](Methods/AddRow.md) | Ավելացնում է նոր տող դիտելու ձևում։ |
-| [AfterLoadData()](Methods/AfterLoadData.md) | Մեթոդը կանչվում է դիտելու ձևի տվյալները բեռնելուց առաջ։ |
+| [+Add()](Methods/Add.md) | Սահմանում է դիտելու ձևի «Ավելացնել» կոնտեքստային ֆունկցիայի կատարման արդյունքում բացվող պատուհանը՝ IsDocumentBased հատկության false արժեքի դեպքում։ |
+| [+AddDocument(string)](Methods/AddDocument.md) | Սահմանում է դիտելու ձևի «Ավելացնել» կոնտեքստային ֆունկցիայի կատարման արդյունքում բացվող պատուհանը՝ IsDocumentBased հատկության true արժեքի դեպքում։ |
+| [+AddFirstPhase()](Methods/AddFirstPhase.md) | Սահմանում է դիտելու ձևի կատարման պրոգրեսի առաջին փուլի (phase) տեքստը։ |
+| [+AddRow(R)](Methods/AddRow.md) | Ավելացնում է նոր տող դիտելու ձևում։ |
+| [+AfterLoadData()](Methods/AfterLoadData.md) | Մեթոդը կանչվում է դիտելու ձևի տվյալները բեռնելուց առաջ։ |
 | [AfterLoadUpdatedRows(List<R>)](Methods/AfterLoadUpdatedRows.md) | Կոչվում է `LoadUpdatedRows`-ի կողմից server-ից rows ստանալուց հետո: |
-| [ApplyDialog(DataViewDialogWindow, bool)](Methods/ApplyDialog.md) | Այս մեթոդը նախատեսված է դիտելու ձևի CreateDialog մեթոդի միջոցով ստեղծված նախնական ֆիլտրման դիալոգի ցուցադրման և control-ների արժեքները որպես դիտելու ձևի պարամետրեր փոխանցելու համար։ |
-| [BeforeLoadData(BeforeLoadDataEventArgs)](Methods/BeforeLoadData.md) | Կոչվում է data loading-ից անմիջապես առաջ: |
-| [CaptionToolTip()](Methods/CaptionToolTip.md) | Սահմանում է դիտելու ձևի tooltip-ում ցուցադրվող տեքստը: |
-| [ComposeTitle()](Methods/ComposeTitle.md) | Սահմանում է դիտելու ձևի վերնագիրը։ |
-| [CreateCopy()](Methods/CreateCopy.md) | Սահմանում է դիտելու ձևի «Պատճենել» կոնտեքստային ֆունկցիայի կատարման արդյունքում բացվող պատուհանը՝ IsDocumentBased հատկության false արժեքի դեպքում: |
-| [CreateDialog(bool)](Methods/CreateDialog.md) | Այս մեթոդը նախատեսված է դիտելու ձևի նախնական ֆիլտրման դիալոգի ստեղծման և վերադարձման համար։ |
-| [DataView()](Methods/DataView.md) | Ստեղծում է DataView դասի նոր օբյեկտ։ |
-| [Delete()](Methods/Delete.md) | Սահմանում է դիտելու ձևի «Հեռացնել» կոնտեքստային ֆունկցիայի կատարման արդյունքում բացվող պատուհանը՝ IsDocumentBased հատկության false արժեքի դեպքում։ |
-| [DeleteDocument()](Methods/DeleteDocument.md) | Սահմանում է դիտելու ձևի «Հեռացնել» կոնտեքստային ֆունկցիայի կատարման արդյունքում բացվող պատուհանը՝ IsDocumentBased հատկության true արժեքի դեպքում։ |
-| [DocumentHistory()](Methods/DocumentHistory.md) | Սահմանում է դիտելու ձևի «Պատմություն» կոնտեքստային ֆունկցիայի կատարման արդյունքում բացվող պատուհանը։ |
-| [Edit()](Methods/Edit.md) | Սահմանում է դիտելու ձևի «Դիտել/Խմբագրել» կոնտեքստային ֆունկցիայի կատարման արդյունքում բացվող պատուհանը՝ IsDocumentBased հատկության false արժեքի դեպքում։ |
-| [EditDocument(bool)](Methods/EditDocument.md) | Սահմանում է դիտելու ձևի «Դիտել/Խմբագրել» կոնտեքստային ֆունկցիայի կատարման արդյունքում բացվող պատուհանը՝ IsDocumentBased հատկության true արժեքի դեպքում։ |
+| [+ApplyDialog(DataViewDialogWindow, bool)](Methods/ApplyDialog.md) | Այս մեթոդը նախատեսված է դիտելու ձևի CreateDialog մեթոդի միջոցով ստեղծված նախնական ֆիլտրման դիալոգի ցուցադրման և control-ների արժեքները որպես դիտելու ձևի պարամետրեր փոխանցելու համար։ |
+| [+BeforeLoadData(BeforeLoadDataEventArgs)](Methods/BeforeLoadData.md) | Կոչվում է data loading-ից անմիջապես առաջ: |
+| [+CaptionToolTip()](Methods/CaptionToolTip.md) | Սահմանում է դիտելու ձևի tooltip-ում ցուցադրվող տեքստը: |
+| [+ComposeTitle()](Methods/ComposeTitle.md) | Սահմանում է դիտելու ձևի վերնագիրը։ |
+| [+CreateCopy()](Methods/CreateCopy.md) | Սահմանում է դիտելու ձևի «Պատճենել» կոնտեքստային ֆունկցիայի կատարման արդյունքում բացվող պատուհանը՝ IsDocumentBased հատկության false արժեքի դեպքում: |
+| [+CreateDialog(bool)](Methods/CreateDialog.md) | Այս մեթոդը նախատեսված է դիտելու ձևի նախնական ֆիլտրման դիալոգի ստեղծման և վերադարձման համար։ |
+| [+DataView()](Methods/DataView.md) | Ստեղծում է DataView դասի նոր օբյեկտ։ |
+| [+Delete()](Methods/Delete.md) | Սահմանում է դիտելու ձևի «Հեռացնել» կոնտեքստային ֆունկցիայի կատարման արդյունքում բացվող պատուհանը՝ IsDocumentBased հատկության false արժեքի դեպքում։ |
+| [+DeleteDocument()](Methods/DeleteDocument.md) | Սահմանում է դիտելու ձևի «Հեռացնել» կոնտեքստային ֆունկցիայի կատարման արդյունքում բացվող պատուհանը՝ IsDocumentBased հատկության true արժեքի դեպքում։ |
+| [+DocumentHistory()](Methods/DocumentHistory.md) | Սահմանում է դիտելու ձևի «Պատմություն» կոնտեքստային ֆունկցիայի կատարման արդյունքում բացվող պատուհանը։ |
+| [+Edit()](Methods/Edit.md) | Սահմանում է դիտելու ձևի «Դիտել/Խմբագրել» կոնտեքստային ֆունկցիայի կատարման արդյունքում բացվող պատուհանը՝ IsDocumentBased հատկության false արժեքի դեպքում։ |
+| [+EditDocument(bool)](Methods/EditDocument.md) | Սահմանում է դիտելու ձևի «Դիտել/Խմբագրել» կոնտեքստային ֆունկցիայի կատարման արդյունքում բացվող պատուհանը՝ IsDocumentBased հատկության true արժեքի դեպքում։ |
 | [ExecutionSuppressed()](Methods/ExecutionSuppressed.md) | Կոչվում է, երբ `SuppressExecution=true` և data loading-ը ճնշվում է: |
-| [FillData(object)](Methods/FillData.md) | Ավելացնում է նշված տողերի ցուցակը դիտելու ձևում: |
-| [GetDefaultFunction()](Methods/GetDefaultFunction.md) | Սահմանում է լռությամբ բացվող կոնտեքստային ֆունկցիան` դիտելու ձևի ընթացիկ տողի կրկնակի սեղմում կատարելիս։ |
-| [GetDynamicValue(object, string)](Methods/GetDynamicValue.md) | Վերադարձնում է դիտելու ձևի cell-ի արժեքը՝ ըստ փոխանցված տողի և սյան անվան։ |
-| [GetISN(object)](Methods/GetISN.md) | Վերադարձնում է դիտելու ձևի տրված տողում պարունակվող փաստաթղթի isn-ը։ |
+| [+FillData(object)](Methods/FillData.md) | Ավելացնում է նշված տողերի ցուցակը դիտելու ձևում: |
+| [+GetDefaultFunction()](Methods/GetDefaultFunction.md) | Սահմանում է լռությամբ բացվող կոնտեքստային ֆունկցիան` դիտելու ձևի ընթացիկ տողի կրկնակի սեղմում կատարելիս։ |
+| [+GetDynamicValue(object, string)](Methods/GetDynamicValue.md) | Վերադարձնում է դիտելու ձևի cell-ի արժեքը՝ ըստ փոխանցված տողի և սյան անվան։ |
+| [+GetISN(object)](Methods/GetISN.md) | Վերադարձնում է դիտելու ձևի տրված տողում պարունակվող փաստաթղթի isn-ը։ |
 | [GetUpdatedRows(object)](Methods/GetUpdatedRows.md) | Ստանում է server-ից թարմ rows-ը ըստ `key`-ի: |
-| [GridSource()](Methods/GridSource.md) | Վերադարձնում է դիտելու ձևի տողերի ցուցակը։ |
-| [InitContextFunctions()](Methods/InitContextFunctions.md) | Ստեղծում և վերադարձնում է դիտելու ձևի կոնտեքստային մենյուն։ |
-| [IsProgressCanceled()](Methods/IsProgressCanceled.md) | Ցույց է տալիս, արդյոք դիտելու ձևի կատարման պրոգրեսը ընդհատվել է օգտագործողի կողմից։ |
+| [+GridSource()](Methods/GridSource.md) | Վերադարձնում է դիտելու ձևի տողերի ցուցակը։ |
+| [+InitContextFunctions()](Methods/InitContextFunctions.md) | Ստեղծում և վերադարձնում է դիտելու ձևի կոնտեքստային մենյուն։ |
+| [+IsProgressCanceled()](Methods/IsProgressCanceled.md) | Ցույց է տալիս, արդյոք դիտելու ձևի կատարման պրոգրեսը ընդհատվել է օգտագործողի կողմից։ |
 | [LoadUpdatedRows(object)](Methods/LoadUpdatedRows.md) | Թարմացնում է `key`-ին համապատասխան row(ներ)ը Rows հավաքածուում: |
 | [OpenTree()](Methods/OpenTree.md) | Բացում է ֆոկուսավորված row-ի tree ներկայացումը: Լռությամբ ոչինչ չի կատարում: |
-| [ReloadRows(LoadSource)](Methods/ReloadRows.md) | Վերբեռնում է դիտելու ձևի տողերը։  |
+| [+ReloadRows(LoadSource)](Methods/ReloadRows.md) | Վերբեռնում է դիտելու ձևի տողերը։  |
 | [ReportTitle()](Methods/ReportTitle.md) | Վերադարձնում է DataView-ի հիմնական վերնագիրը՝ `Caption`-ը: |
 | [ReportTitle(IEnumerable<StoredValueInfo>)](Methods/ReportTitle_2.md) | Ստեղծում է վերնագիր՝ ներառելով `storedValueInfos` արժեքները: |
 | [ToolTipItemsHandle(IEnumerable<StoredValueInfo>)](Methods/ToolTipItemsHandle.md) | Մշակում է `StoredValueInfo` արժեքները tooltip ցուցադրման համար: |
 | [View()](Methods/View.md) | Դիտման գործողություն: Լռությամբ ոչինչ չի կատարում: |
-| [ViewParametersReport()](Methods/ViewParametersReport.md) | Ցուցադրում է դիտելու ձևի կատարման պարամետրերի նկարագրությունը՝ տեքստային հաշվետվության միջոցով։  |
+| [+ViewParametersReport()](Methods/ViewParametersReport.md) | Ցուցադրում է դիտելու ձևի կատարման պարամետրերի նկարագրությունը՝ տեքստային հաշվետվության միջոցով։  |

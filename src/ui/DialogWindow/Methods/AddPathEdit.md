@@ -35,10 +35,6 @@ public BrowsePathEditExt AddPathEdit(string name, string caption, short length, 
 | dialogFilter | string | null | Ֆայլերի ընտրման համար օգտագործվող ֆիլտրը (օրինակ՝ "*.txt")։ **null** դեպքում թույլատրվում են բոլոր ֆայլերը։ |
 | storeValue | bool | true | Որոշում է, արդյոք դաշտի արժեքը պետք է պահպանվի։ |
 
-**Վերադարձնում է**
-
-Ստեղծված **BrowsePathEditExt** դաշտը։
-
 ### DialogWindow.AddPathEdit(LayoutGroup, string, string, short, DialogType, bool, string, bool) մեթոդ
 
 **Դաս՝** [DialogWindow](../DialogWindow.md)
@@ -64,12 +60,4 @@ public BrowsePathEditExt AddPathEdit(LayoutGroup container, string name, string 
 | dialogFilter | string | null | Ֆայլերի ընտրման ֆիլտրը։ |
 | storeValue | bool | true | Որոշում է, արդյոք դաշտի արժեքը պետք է պահպանվի։ |
 
-**Վերադարձնում է**
 
-Ստեղծված **BrowsePathEditExt** դաշտը։
-
-**Բացառություններ**
-
-| Տիպ | Նկարագրություն |
-|-----|----------------|
-| InvalidOperationException | Առաջանում է, եթե նույն ներքին անունով դաշտ արդեն գոյություն ունի։ |

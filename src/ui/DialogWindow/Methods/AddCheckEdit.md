@@ -31,10 +31,6 @@ public CheckEditExt AddCheckEdit(string name, string caption, bool storeValue = 
 | storeValue | bool | true | Որոշում է, արդյոք դաշտի արժեքը պետք է պահպանվի։ |
 | isThreeState | bool | false | **true** արժեքի դեպքում դաշտը աջակցում է երեք վիճակ՝ նշված, չնշված և չորոշված։ |
 
-**Վերադարձնում է**
-
-Ստեղծված **CheckEditExt** դաշտը։
-
 ### DialogWindow.AddCheckEdit(LayoutGroup, string, string, bool, bool) մեթոդ
 
 **Դաս՝** [DialogWindow](../DialogWindow.md)
@@ -44,24 +40,14 @@ public CheckEditExt AddCheckEdit(LayoutGroup container, string name, string capt
                                  bool storeValue = true, bool isThreeState = false);
 ```
 
-Նշված դասավորման խմբում ավելացնում է նշիչ (CheckBox) դաշտ։
+Նշված դասավորման խմբում (LayoutGroup) ավելացնում է նշիչ (CheckBox) դաշտ։
 
 **Պարամետրեր**
 
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 |----------|--------------|----------------|----------------|
-| container | LayoutGroup | — | Դասավորման խումբը, որտեղ ավելացվում է դաշտը։ |
+| container | LayoutGroup | — | Դասավորման խումբը (LayoutGroup), որտեղ ավելացվում է դաշտը։ |
 | name | string | — | Դաշտի ներքին անունը։ |
 | caption | string | — | Դաշտի անվանումը։ |
 | storeValue | bool | true | Որոշում է, արդյոք դաշտի արժեքը պետք է պահպանվի։ |
-| isThreeState | bool | false | **true** արժեքի դեպքում դաշտը աջակցում է երեք վիճակ։ |
-
-**Վերադարձնում է**
-
-Ստեղծված **CheckEditExt** դաշտը։
-
-**Բացառություններ**
-
-| Տիպ | Նկարագրություն |
-|-----|----------------|
-| InvalidOperationException | Առաջանում է, եթե նույն ներքին անունով դաշտ արդեն գոյություն ունի։ |
+| isThreeState | bool | false | **true** արժեքի դեպքում դաշտը աջակցում է երեք վիճակ՝ նշված, չնշված և չորոշված։ |

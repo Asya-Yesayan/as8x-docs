@@ -34,9 +34,6 @@ public NumPairControl AddNumPairControl(string name, string caption, bool isRequ
 | separator | string | null | Թվերի միջև բաժանարար նիշը կամ տողը։ |
 | comment | string | null | Դաշտին համապատասխանող մեկնաբանությունը։ |
 
-**Վերադարձնում է**
-
-Ստեղծված **NumPairControl** դաշտը։
 
 ### DialogWindow.AddNumPairControl(LayoutGroup, string, string, bool, bool, string, string) մեթոդ
 
@@ -62,12 +59,4 @@ public NumPairControl AddNumPairControl(LayoutGroup container, string name, stri
 | separator | string | null | Թվերի միջև բաժանարար նիշը կամ տողը։ |
 | comment | string | null | Դաշտին համապատասխանող մեկնաբանությունը։ |
 
-**Վերադարձնում է**
 
-Ստեղծված **NumPairControl** դաշտը։
-
-**Բացառություններ**
-
-| Տիպ | Նկարագրություն |
-|-----|----------------|
-| InvalidOperationException | Առաջանում է, եթե նույն ներքին անունով դաշտ արդեն գոյություն ունի։ |

@@ -38,8 +38,3 @@ Side effects: `Panel.RowAdded`, `Panel.RowDeleted`,
 | --- | --- | --- | --- |
 | key | object | - | Թարմ ստանալիք row-ի բանալին: Կարող է լինել. - Մեկ արժեք — update/add/delete մեկ row: - `IEnumerable` (ոչ `string`) — batch update: |
 
-**Վերադարձնում է**
-
-Թարմացված կամ ավելացված row-ի ինդեքսը Rows-ում:
-`-1` եթե ոչ մի փոփոխություն չի կատարվել:
-

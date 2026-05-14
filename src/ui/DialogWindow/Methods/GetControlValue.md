@@ -9,8 +9,8 @@ nav_exclude: true
 
 | Անվանում | Նկարագրություն |
 |--|--|
-| [GetControlValue(string)](#dialogwindowgetcontrolvaluestring-մեթոդ) | Վերադարձնում է տրված ներքին անունով դաշտի արժեքը։ |
-| [GetControlValue(Control)](#dialogwindowgetcontrolvaluecontrol-մեթոդ) | Վերադարձնում է տրված դաշտի արժեքը։ |
+| [GetControlValue(string)](#dialogwindowgetcontrolvaluestring-մեթոդ) | Վերադարձնում է երկխոսության պատուհանի՝ տրված ներքին անունով դաշտի արժեքը։ |
+| [GetControlValue(Control)](#dialogwindowgetcontrolvaluecontrol-մեթոդ) | Վերադարձնում է երկխոսության պատուհանի` տրված դաշտի արժեքը։ |
 
 ### DialogWindow.GetControlValue(string) մեթոդ
 
@@ -28,10 +28,6 @@ public object GetControlValue(string name);
 |----------|--------------|----------------|----------------|
 | name | string | — | Դաշտի ներքին անունը։ |
 
-**Վերադարձնում է**
-
-Դաշտի արժեքը՝ բերված որպես **object**։
-
 ### DialogWindow.GetControlValue(Control) մեթոդ
 
 **Դաս՝** [DialogWindow](../DialogWindow.md)
@@ -40,20 +36,10 @@ public object GetControlValue(string name);
 public static object GetControlValue(Control control);
 ```
 
-Վերադարձնում է տրված դաշտի արժեքը։ Դաշտի տիպից կախված՝ վերադարձվում է դաշտին համապատասխան տիպի արժեք (օրինակ՝ տեքստ, ամսաթիվ, թիվ, տրամաբանական արժեք և այլն)։
+Վերադարձնում է երկխոսության պատուհանի` տրված դաշտի արժեքը։
 
 **Պարամետրեր**
 
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 |----------|--------------|----------------|----------------|
 | control | Control | — | Դաշտը, որի արժեքը պետք է վերադարձվի։ |
-
-**Վերադարձնում է**
-
-Դաշտի արժեքը՝ բերված որպես **object**։
-
-**Բացառություններ**
-
-| Տիպ | Նկարագրություն |
-|-----|----------------|
-| NotImplementedException | Առաջանում է, եթե տրված դաշտի տիպի համար արժեքի վերադարձման տրամաբանություն սահմանված չէ։ |

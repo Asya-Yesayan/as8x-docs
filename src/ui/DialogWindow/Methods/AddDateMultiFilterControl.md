@@ -33,13 +33,9 @@ public DateMultiFilterControl AddDateMultiFilterControl(string name, string capt
 | caption | string | — | Դաշտի անվանումը։ |
 | supportedFilterTypes | MultiFilterTypes | — | Դաշտի կողմից աջակցվող ֆիլտրի տիպերի հավաքածուն։ |
 | useLongDate | bool | false | **true** արժեքի դեպքում օգտագործվում է երկար ամսաթվային ֆորմատը։ |
-| showDateNavigatorPopup | bool | true | Որոշում է, արդյոք ցուցադրվի **DateNavigator** թռուցիկ պատուհանը։ |
+| showDateNavigatorPopup | bool | true | Որոշում է, արդյոք ցուցադրվի **DateNavigator** popup տեսակի պատուհանը։ |
 | isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է։ |
 | storeValue | bool | true | Որոշում է, արդյոք դաշտի արժեքը պետք է պահպանվի։ |
-
-**Վերադարձնում է**
-
-Ստեղծված **DateMultiFilterControl** դաշտը։
 
 ### DialogWindow.AddDateMultiFilterControl(LayoutGroup, string, string, MultiFilterTypes, bool, bool, bool, bool) մեթոդ
 
@@ -63,16 +59,6 @@ public DateMultiFilterControl AddDateMultiFilterControl(LayoutGroup container, s
 | caption | string | — | Դաշտի անվանումը։ |
 | supportedFilterTypes | MultiFilterTypes | — | Դաշտի կողմից աջակցվող ֆիլտրի տիպերի հավաքածուն։ |
 | useLongDate | bool | false | **true** արժեքի դեպքում օգտագործվում է երկար ամսաթվային ֆորմատը։ |
-| showDateNavigatorPopup | bool | true | Որոշում է, արդյոք ցուցադրվի **DateNavigator** թռուցիկ պատուհանը։ |
+| showDateNavigatorPopup | bool | true | Որոշում է, արդյոք ցուցադրվի **DateNavigator** popup տեսակի պատուհանը։ |
 | isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է։ |
 | storeValue | bool | true | Որոշում է, արդյոք դաշտի արժեքը պետք է պահպանվի։ |
-
-**Վերադարձնում է**
-
-Ստեղծված **DateMultiFilterControl** դաշտը։
-
-**Բացառություններ**
-
-| Տիպ | Նկարագրություն |
-|-----|----------------|
-| InvalidOperationException | Առաջանում է, եթե նույն ներքին անունով դաշտ արդեն գոյություն ունի։ |

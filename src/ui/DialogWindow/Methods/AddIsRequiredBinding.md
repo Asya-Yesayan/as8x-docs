@@ -20,4 +20,4 @@ public static void AddIsRequiredBinding(object xControl, LayoutItemWithRequired 
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 |----------|--------------|----------------|----------------|
 | xControl | object | — | Աղբյուր դաշտը։ |
-| li | LayoutItemWithRequired | — | Նպատակային դասավորման տարրը։ |
+| li | LayoutItemWithRequired | — | Նպատակային դասավորման տարրը (LayoutItem)։ |

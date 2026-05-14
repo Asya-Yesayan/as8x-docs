@@ -34,12 +34,8 @@ public MemoEditControl AddMemoEditControl(string name, string caption, short len
 | length | short | Constants.Common.LenFullCaption | Մուտքագրման տեքստի առավելագույն երկարությունը։ |
 | isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է։ |
 | storeValue | bool | true | Որոշում է, արդյոք դաշտի արժեքը պետք է պահպանվի։ |
-| horizontalAlignment | HorizontalAlignment | HorizontalAlignment.Stretch | Դաշտի հորիզոնական դիրքավորումը։ |
-| stringRestriction | StringRestriction | StringRestriction.CanBeConvertedToArmenianANSI | Տողի վալիդացիայի սահմանափակումը։ |
-
-**Վերադարձնում է**
-
-Ստեղծված **MemoEditControl** դաշտը։
+| horizontalAlignment | HorizontalAlignment | HorizontalAlignment.Stretch | Դաշտի հորիզոնական դասավորվածության ուղղությունը։ |
+| stringRestriction | StringRestriction | StringRestriction.CanBeConvertedToArmenianANSI | Դաշտում լրացվող արժեքի կոդավորման սահմանափակում (Armenian ansi, Russian ansi): |
 
 ### DialogWindow.AddMemoEditControl(LayoutGroup, string, string, short, bool, bool, HorizontalAlignment, StringRestriction) մեթոդ
 
@@ -65,15 +61,5 @@ public MemoEditControl AddMemoEditControl(LayoutGroup container, string name, st
 | length | short | Constants.Common.LenFullCaption | Մուտքագրման տեքստի առավելագույն երկարությունը։ |
 | isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է։ |
 | storeValue | bool | true | Որոշում է, արդյոք դաշտի արժեքը պետք է պահպանվի։ |
-| horizontalAlignment | HorizontalAlignment | HorizontalAlignment.Stretch | Դաշտի հորիզոնական դիրքավորումը։ |
-| stringRestriction | StringRestriction | StringRestriction.CanBeConvertedToArmenianANSI | Տողի վալիդացիայի սահմանափակումը։ |
-
-**Վերադարձնում է**
-
-Ստեղծված **MemoEditControl** դաշտը։
-
-**Բացառություններ**
-
-| Տիպ | Նկարագրություն |
-|-----|----------------|
-| InvalidOperationException | Առաջանում է, եթե նույն ներքին անունով դաշտ արդեն գոյություն ունի։ |
+| horizontalAlignment | HorizontalAlignment | HorizontalAlignment.Stretch | Դաշտի հորիզոնական դասավորվածության ուղղությունը։ |
+| stringRestriction | StringRestriction | StringRestriction.CanBeConvertedToArmenianANSI | Դաշտում լրացվող արժեքի կոդավորման սահմանափակում (Armenian ansi, Russian ansi): |

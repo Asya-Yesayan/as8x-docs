@@ -19,7 +19,3 @@ public virtual string ReportTitle()
 Override-ի դեպքում կարելի է dynamic caption վերադարձնել: Կոչվում է
 `CaptionToolTip`-ի, `TitleString`-ի, `ComposeTitle`-ի կողմից:
 
-**Վերադարձնում է**
-
-DataView-ի caption-ը:
-

@@ -13,4 +13,4 @@ nav_exclude: true
 public bool ConfiguredModal { get; }
 ```
 
-Վերադարձնում է **true**, եթե երկխոսության պատուհանը ստեղծման ժամանակ կարգավորվել է որպես մոդալ (ընդհատող)։ Այս հատկությունը սահմանվում է [DialogWindow](../Methods/DialogWindow.md) կառուցողի **configureModal** պարամետրով։
+Վերադարձնում է **true**, եթե երկխոսության պատուհանը ստեղծման ժամանակ կարգավորվել է որպես մոդալ։ Այս հատկությունը արժեքավորվում է [DialogWindow](../Methods/DialogWindow.md) դասի կոնստրուկտորի **configureModal** պարամետրով։

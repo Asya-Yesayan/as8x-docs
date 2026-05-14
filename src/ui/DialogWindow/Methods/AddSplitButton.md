@@ -28,14 +28,10 @@ public SplitButton AddSplitButton(LayoutGroup container, string name, string ima
 | imageURI | string | "" | Կոճակի վրա ցուցադրվող նկարի URI-ն։ |
 | caption | string | "" | Կոճակի վրա ցուցադրվող տեքստը։ |
 | labelCaption | string | "" | Կոճակի կողքին ցուցադրվող անվանումը։ |
-| tooltip | string | "" | Կոճակի հուշումը։ |
+| tooltip | string | "" | Կոճակի tooltip-ը։ |
 | isTabStop | bool | false | Որոշում է, արդյոք կոճակը կարող է ստանալ ֆոկուս **Tab** ստեղնով։ |
-| horizontalAlignment | HorizontalAlignment | HorizontalAlignment.Left | Կոճակի հորիզոնական դիրքավորումը։ |
+| horizontalAlignment | HorizontalAlignment | HorizontalAlignment.Left | Կոճակի հորիզոնական դասավորվածության ուղղությունը։ |
 | imgWidth | double | 16 | Կոճակի վրա ցուցադրվող նկարի լայնությունը։ |
 | imgHeight | double | 16 | Կոճակի վրա ցուցադրվող նկարի բարձրությունը։ |
 | popupItems | IEnumerable&lt;IBarItem&gt; | null | Կողային ընտրացանկում ցուցադրվող տարրերի ցուցակը։ |
-| showGlyphsInPopupMenu | bool | true | Որոշում է, արդյոք ցուցադրվեն տարրերի կողմի նկարները թռուցիկ ընտրացանկում։ |
-
-**Վերադարձնում է**
-
-Ստեղծված **SplitButton** տիպի կոճակը։
+| showGlyphsInPopupMenu | bool | true | Որոշում է, արդյոք ցուցադրվեն տարրերի կողմի նկարները popup տեսակի ընտրացանկում։ |

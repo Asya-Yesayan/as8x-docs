@@ -9,8 +9,8 @@ nav_exclude: true
 
 | Անվանում | Նկարագրություն |
 |--|--|
-| [GetLayoutItem(Control)](#dialogwindowgetlayoutitemcontrol-մեթոդ) | Վերադարձնում է տրված դաշտին համապատասխանող դասավորման տարրը։ |
-| [GetLayoutItem(string)](#dialogwindowgetlayoutitemstring-մեթոդ) | Վերադարձնում է տրված ներքին անունով դաշտին համապատասխանող դասավորման տարրը։ |
+| [GetLayoutItem(Control)](#dialogwindowgetlayoutitemcontrol-մեթոդ) | Վերադարձնում է տրված դաշտին համապատասխանող դասավորման տարրը (LayoutItem)։ |
+| [GetLayoutItem(string)](#dialogwindowgetlayoutitemstring-մեթոդ) | Վերադարձնում է տրված ներքին անունով դաշտին համապատասխանող դասավորման տարրը (LayoutItem)։ |
 
 ### DialogWindow.GetLayoutItem(Control) մեթոդ
 
@@ -28,9 +28,6 @@ protected LayoutItemWithRequired GetLayoutItem(Control control);
 |----------|--------------|----------------|----------------|
 | control | Control | — | Դաշտը, որի դասավորման տարրը պետք է վերադարձվի։ |
 
-**Վերադարձնում է**
-
-Դաշտին համապատասխանող **LayoutItemWithRequired** տարրը, կամ **null**՝ եթե այդպիսին չկա։
 
 ### DialogWindow.GetLayoutItem(string) մեթոդ
 
@@ -40,7 +37,7 @@ protected LayoutItemWithRequired GetLayoutItem(Control control);
 protected LayoutItemWithRequired GetLayoutItem(string name);
 ```
 
-Վերադարձնում է տրված ներքին անունով դաշտին համապատասխանող դասավորման տարրը։
+Վերադարձնում է տրված ներքին անունով դաշտին համապատասխանող դասավորման տարրը (LayoutItem)։
 
 **Պարամետրեր**
 
@@ -48,6 +45,3 @@ protected LayoutItemWithRequired GetLayoutItem(string name);
 |----------|--------------|----------------|----------------|
 | name | string | — | Դաշտի ներքին անունը։ |
 
-**Վերադարձնում է**
-
-Դաշտին համապատասխանող **LayoutItemWithRequired** տարրը, կամ **null**՝ եթե այդպիսին չկա։

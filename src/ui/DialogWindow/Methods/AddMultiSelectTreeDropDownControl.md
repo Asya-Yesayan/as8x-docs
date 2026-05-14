@@ -9,8 +9,8 @@ nav_exclude: true
 
 | Անվանում | Նկարագրություն |
 |--|--|
-| [AddMultiSelectTreeDropDownControl(string, string, string, bool, bool, bool, bool, bool)](#dialogwindowaddmultiselecttreedropdowncontrolstring-string-string-bool-bool-bool-bool-bool-մեթոդ) | Երկխոսության պատուհանում ավելացնում է թռուցիկ ընտրացանկով ծառային դաշտ՝ բազմակի ընտրությամբ։ |
-| [AddMultiSelectTreeDropDownControl(LayoutGroup, string, string, string, bool, bool, bool, bool, bool)](#dialogwindowaddmultiselecttreedropdowncontrollayoutgroup-string-string-string-bool-bool-bool-bool-bool-մեթոդ) | Նշված դասավորման խմբում ավելացնում է թռուցիկ ընտրացանկով ծառային դաշտ՝ բազմակի ընտրությամբ։ |
+| [AddMultiSelectTreeDropDownControl(string, string, string, bool, bool, bool, bool, bool)](#dialogwindowaddmultiselecttreedropdowncontrolstring-string-string-bool-bool-bool-bool-bool-մեթոդ) | Երկխոսության պատուհանում ավելացնում է popup տեսակի ընտրացանկով ծառային դաշտ՝ բազմակի ընտրությամբ։ |
+| [AddMultiSelectTreeDropDownControl(LayoutGroup, string, string, string, bool, bool, bool, bool, bool)](#dialogwindowaddmultiselecttreedropdowncontrollayoutgroup-string-string-string-bool-bool-bool-bool-bool-մեթոդ) | Նշված դասավորման խմբում ավելացնում է popup տեսակի ընտրացանկով ծառային դաշտ՝ բազմակի ընտրությամբ։ |
 
 ### DialogWindow.AddMultiSelectTreeDropDownControl(string, string, string, bool, bool, bool, bool, bool) մեթոդ
 
@@ -23,7 +23,7 @@ public MultiSelectTreeDropDownControl AddMultiSelectTreeDropDownControl(string n
                                                                         bool isExpanded = false);
 ```
 
-Երկխոսության պատուհանում ավելացնում է թռուցիկ ընտրացանկով ծառային դաշտ, որը թույլ է տալիս ընտրել ծառի մի քանի հանգույց միաժամանակ։
+Երկխոսության պատուհանում ավելացնում է popup տեսակի ընտրացանկով ծառային դաշտ, որը թույլ է տալիս ընտրել ծառի մի քանի հանգույց միաժամանակ։
 
 **Պարամետրեր**
 
@@ -38,9 +38,6 @@ public MultiSelectTreeDropDownControl AddMultiSelectTreeDropDownControl(string n
 | storeValue | bool | true | Որոշում է, արդյոք դաշտի արժեքը պետք է պահպանվի։ |
 | isExpanded | bool | false | Որոշում է, արդյոք ծառի հանգույցները լինեն բացված։ |
 
-**Վերադարձնում է**
-
-Ստեղծված **MultiSelectTreeDropDownControl** դաշտը։
 
 ### DialogWindow.AddMultiSelectTreeDropDownControl(LayoutGroup, string, string, string, bool, bool, bool, bool, bool) մեթոդ
 
@@ -54,7 +51,7 @@ public MultiSelectTreeDropDownControl AddMultiSelectTreeDropDownControl(LayoutGr
                                                                         bool isExpanded = false);
 ```
 
-Նշված դասավորման խմբում ավելացնում է թռուցիկ ընտրացանկով ծառային դաշտ՝ բազմակի ընտրությամբ։
+Նշված դասավորման խմբում ավելացնում է popup տեսակի ընտրացանկով ծառային դաշտ՝ բազմակի ընտրությամբ։
 
 **Պարամետրեր**
 
@@ -70,12 +67,3 @@ public MultiSelectTreeDropDownControl AddMultiSelectTreeDropDownControl(LayoutGr
 | storeValue | bool | true | Որոշում է, արդյոք դաշտի արժեքը պետք է պահպանվի։ |
 | isExpanded | bool | false | Որոշում է, արդյոք ծառի հանգույցները լինեն բացված։ |
 
-**Վերադարձնում է**
-
-Ստեղծված **MultiSelectTreeDropDownControl** դաշտը։
-
-**Բացառություններ**
-
-| Տիպ | Նկարագրություն |
-|-----|----------------|
-| InvalidOperationException | Առաջանում է, եթե նույն ներքին անունով դաշտ արդեն գոյություն ունի։ |

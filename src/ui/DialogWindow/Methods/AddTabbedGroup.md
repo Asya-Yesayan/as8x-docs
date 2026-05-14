@@ -22,6 +22,3 @@ public LayoutGroup AddTabbedGroup(DXTabControl tc, string header);
 | tc | DXTabControl | — | Էջերի վերահսկիչ տարրը, որին ավելացվում է նոր էջը։ |
 | header | string | — | Նոր էջի վերնագիրը։ |
 
-**Վերադարձնում է**
-
-Ստեղծված էջի դասավորման խումբը (**LayoutGroup**)։

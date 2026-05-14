@@ -21,6 +21,3 @@ public DXTabControl AddTabControl(LayoutGroup container);
 |----------|--------------|----------------|----------------|
 | container | LayoutGroup | — | Դասավորման խումբը, որտեղ ավելացվում է էջերի վերահսկիչ տարրը։ |
 
-**Վերադարձնում է**
-
-Ստեղծված **DXTabControl** տարրը։

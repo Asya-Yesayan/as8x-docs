@@ -33,10 +33,6 @@ public DateEditControl AddDateEditControl(string name, string caption, bool useL
 | isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է։ |
 | storeValue | bool | true | Որոշում է, արդյոք դաշտի արժեքը պետք է պահպանվի։ |
 
-**Վերադարձնում է**
-
-Ստեղծված **DateEditControl** դաշտը։
-
 ### DialogWindow.AddDateEditControl(LayoutGroup, string, string, bool, bool, bool) մեթոդ
 
 **Դաս՝** [DialogWindow](../DialogWindow.md)
@@ -46,25 +42,15 @@ public DateEditControl AddDateEditControl(LayoutGroup container, string name, st
                                           bool useLongDate = false, bool isRequired = false, bool storeValue = true);
 ```
 
-Նշված դասավորման խմբում ավելացնում է ամսաթվային դաշտ։
+Նշված դասավորման խմբում (LayoutGroup) ավելացնում է ամսաթվային դաշտ։
 
 **Պարամետրեր**
 
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 |----------|--------------|----------------|----------------|
-| container | LayoutGroup | — | Դասավորման խումբը, որտեղ ավելացվում է դաշտը։ |
+| container | LayoutGroup | — | Դասավորման խումբը (LayoutGroup), որտեղ ավելացվում է դաշտը։ |
 | name | string | — | Դաշտի ներքին անունը։ |
 | caption | string | — | Դաշտի անվանումը։ |
-| useLongDate | bool | false | **true** արժեքի դեպքում օգտագործվում է երկար ամսաթվային ֆորմատը։ |
+| useLongDate | bool | false | **true** արժեքի դեպքում օգտագործվում է երկար ամսաթվային ֆորմատը, հակառակ դեպքում՝ կարճ։ |
 | isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է։ |
 | storeValue | bool | true | Որոշում է, արդյոք դաշտի արժեքը պետք է պահպանվի։ |
-
-**Վերադարձնում է**
-
-Ստեղծված **DateEditControl** դաշտը։
-
-**Բացառություններ**
-
-| Տիպ | Նկարագրություն |
-|-----|----------------|
-| InvalidOperationException | Առաջանում է, եթե նույն ներքին անունով դաշտ արդեն գոյություն ունի։ |

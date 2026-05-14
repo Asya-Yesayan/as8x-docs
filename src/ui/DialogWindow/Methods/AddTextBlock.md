@@ -29,10 +29,6 @@ public TextBlock AddTextBlock(string text, TextBlockImage icon);
 | text | string | — | Ցուցադրվող տեքստը։ |
 | icon | TextBlockImage | — | Տեքստի կողքին ցուցադրվող պատկերակի տիպը։ |
 
-**Վերադարձնում է**
-
-Ստեղծված **TextBlock** տարրը։
-
 ### DialogWindow.AddTextBlock(LayoutGroup, string, TextBlockImage, bool, HorizontalAlignment) մեթոդ
 
 **Դաս՝** [DialogWindow](../DialogWindow.md)
@@ -53,8 +49,5 @@ public TextBlock AddTextBlock(LayoutGroup container, string text, TextBlockImage
 | text | string | — | Ցուցադրվող տեքստը։ |
 | icon | TextBlockImage | — | Տեքստի կողքին ցուցադրվող պատկերակի տիպը։ |
 | iconAtRight | bool | false | **true** արժեքի դեպքում պատկերակը ցուցադրվում է աջից, հակառակ դեպքում՝ ձախից։ |
-| horizontalAlignment | HorizontalAlignment | HorizontalAlignment.Stretch | Տեքստային բլոկի հորիզոնական դիրքավորումը։ |
+| horizontalAlignment | HorizontalAlignment | HorizontalAlignment.Stretch | Տեքստային բլոկի հորիզոնական դասավորվածության ուղղությունը։ |
 
-**Վերադարձնում է**
-
-Ստեղծված **TextBlock** տարրը։

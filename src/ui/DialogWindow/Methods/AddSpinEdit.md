@@ -34,10 +34,6 @@ public SpinEditExt AddSpinEdit(string name, string caption, decimal minValue = 0
 | minWidth | double | 50 | Դաշտի նվազագույն լայնությունը։ |
 | storeValue | bool | true | Որոշում է, արդյոք դաշտի արժեքը պետք է պահպանվի։ |
 
-**Վերադարձնում է**
-
-Ստեղծված **SpinEditExt** դաշտը։
-
 ### DialogWindow.AddSpinEdit(LayoutGroup, string, string, decimal, decimal, double, bool) մեթոդ
 
 **Դաս՝** [DialogWindow](../DialogWindow.md)
@@ -61,13 +57,3 @@ public SpinEditExt AddSpinEdit(LayoutGroup container, string name, string captio
 | maxValue | decimal | 2 | Դաշտի թույլատրելի առավելագույն արժեքը։ |
 | minWidth | double | 50 | Դաշտի նվազագույն լայնությունը։ |
 | storeValue | bool | true | Որոշում է, արդյոք դաշտի արժեքը պետք է պահպանվի։ |
-
-**Վերադարձնում է**
-
-Ստեղծված **SpinEditExt** դաշտը։
-
-**Բացառություններ**
-
-| Տիպ | Նկարագրություն |
-|-----|----------------|
-| InvalidOperationException | Առաջանում է, եթե նույն ներքին անունով դաշտ արդեն գոյություն ունի։ |

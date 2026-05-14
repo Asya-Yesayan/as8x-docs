@@ -9,8 +9,8 @@ nav_exclude: true
 
 | Անվանում | Նկարագրություն |
 |--|--|
-| [AddDropDownCommentControl(string, string, IDropDownView, bool, bool, short, short, short, HorizontalAlignment, StringRestriction)](#dialogwindowadddropdowncommentcontrolstring-string-idropdownview-bool-bool-short-short-short-horizontalalignment-stringrestriction-մեթոդ) | Երկխոսության պատուհանում ավելացնում է թռուցիկ ընտրացանկով և մեկնաբանության տողով դաշտ։ |
-| [AddDropDownCommentControl(LayoutGroup, string, string, IDropDownView, bool, bool, short, short, short, HorizontalAlignment, StringRestriction)](#dialogwindowadddropdowncommentcontrollayoutgroup-string-string-idropdownview-bool-bool-short-short-short-horizontalalignment-stringrestriction-մեթոդ) | Նշված դասավորման խմբում ավելացնում է թռուցիկ ընտրացանկով և մեկնաբանության տողով դաշտ։ |
+| [AddDropDownCommentControl(string, string, IDropDownView, bool, bool, short, short, short, HorizontalAlignment, StringRestriction)](#dialogwindowadddropdowncommentcontrolstring-string-idropdownview-bool-bool-short-short-short-horizontalalignment-stringrestriction-մեթոդ) | Երկխոսության պատուհանում ավելացնում է popup տեսակի ընտրացանկով և մեկնաբանության տողով դաշտ։ |
+| [AddDropDownCommentControl(LayoutGroup, string, string, IDropDownView, bool, bool, short, short, short, HorizontalAlignment, StringRestriction)](#dialogwindowadddropdowncommentcontrollayoutgroup-string-string-idropdownview-bool-bool-short-short-short-horizontalalignment-stringrestriction-մեթոդ) | Նշված դասավորման խմբում ավելացնում է popup տեսակի ընտրացանկով և մեկնաբանության տողով դաշտ։ |
 
 ### DialogWindow.AddDropDownCommentControl(string, string, IDropDownView, bool, bool, short, short, short, HorizontalAlignment, StringRestriction) մեթոդ
 
@@ -25,7 +25,7 @@ public DropDownCommentControl AddDropDownCommentControl(string name, string capt
                                                         StringRestriction stringRestriction = StringRestriction.CanBeConvertedToArmenianANSI);
 ```
 
-Երկխոսության պատուհանում ավելացնում է թռուցիկ ընտրացանկով դաշտ՝ կոդի և մեկնաբանության տողերով։
+Երկխոսության պատուհանում ավելացնում է popup տեսակի ընտրացանկով դաշտ՝ կոդի և մեկնաբանության տողերով։
 
 **Պարամետրեր**
 
@@ -33,18 +33,14 @@ public DropDownCommentControl AddDropDownCommentControl(string name, string capt
 |----------|--------------|----------------|----------------|
 | name | string | — | Դաշտի ներքին անունը։ |
 | caption | string | — | Դաշտի անվանումը։ |
-| idv | IDropDownView | — | Տվյալների աղբյուրի թռուցիկ ընտրացանկի նկարագրությունը։ |
+| idv | IDropDownView | — | Տվյալների աղբյուրի popup տեսակի ընտրացանկի նկարագրությունը։ |
 | isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է։ |
 | storeValue | bool | true | Որոշում է, արդյոք դաշտի արժեքը պետք է պահպանվի։ |
 | codeLength | short | Constants.Common.LenComment | Կոդի դաշտի երկարությունը։ |
 | commentLength | short | 0 | Մեկնաբանության դաշտի երկարությունը։ |
 | estimatedButtonsCount | short | 1 | Դաշտին կից կոճակների ակնկալվող քանակը։ |
-| horizontalAlignment | HorizontalAlignment | HorizontalAlignment.Left | Դաշտի հորիզոնական դիրքավորումը։ |
-| stringRestriction | StringRestriction | StringRestriction.CanBeConvertedToArmenianANSI | Տողի վալիդացիայի սահմանափակումը։ |
-
-**Վերադարձնում է**
-
-Ստեղծված **DropDownCommentControl** դաշտը։
+| horizontalAlignment | HorizontalAlignment | HorizontalAlignment.Left | Դաշտի հորիզոնական դասավորվածության ուղղությունը։ |
+| stringRestriction | StringRestriction | StringRestriction.CanBeConvertedToArmenianANSI | Դաշտում լրացվող արժեքի կոդավորման սահմանափակում (Armenian ansi, Russian ansi): |
 
 ### DialogWindow.AddDropDownCommentControl(LayoutGroup, string, string, IDropDownView, bool, bool, short, short, short, HorizontalAlignment, StringRestriction) մեթոդ
 
@@ -59,7 +55,7 @@ public DropDownCommentControl AddDropDownCommentControl(LayoutGroup container, s
                                                         StringRestriction stringRestriction = StringRestriction.CanBeConvertedToArmenianANSI);
 ```
 
-Նշված դասավորման խմբում ավելացնում է թռուցիկ ընտրացանկով և մեկնաբանության տողով դաշտ։
+Նշված դասավորման խմբում ավելացնում է popup տեսակի ընտրացանկով և մեկնաբանության տողով դաշտ։
 
 **Պարամետրեր**
 
@@ -68,21 +64,11 @@ public DropDownCommentControl AddDropDownCommentControl(LayoutGroup container, s
 | container | LayoutGroup | — | Դասավորման խումբը, որտեղ ավելացվում է դաշտը։ |
 | name | string | — | Դաշտի ներքին անունը։ |
 | caption | string | — | Դաշտի անվանումը։ |
-| idv | IDropDownView | — | Տվյալների աղբյուրի թռուցիկ ընտրացանկի նկարագրությունը։ |
+| idv | IDropDownView | — | Տվյալների աղբյուրի popup տեսակի ընտրացանկի նկարագրությունը։ |
 | isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է։ |
 | storeValue | bool | true | Որոշում է, արդյոք դաշտի արժեքը պետք է պահպանվի։ |
 | codeLength | short | Constants.Common.LenComment | Կոդի դաշտի երկարությունը։ |
 | commentLength | short | 0 | Մեկնաբանության դաշտի երկարությունը։ |
 | estimatedButtonsCount | short | 1 | Դաշտին կից կոճակների ակնկալվող քանակը։ |
-| horizontalAlignment | HorizontalAlignment | HorizontalAlignment.Left | Դաշտի հորիզոնական դիրքավորումը։ |
-| stringRestriction | StringRestriction | StringRestriction.CanBeConvertedToArmenianANSI | Տողի վալիդացիայի սահմանափակումը։ |
-
-**Վերադարձնում է**
-
-Ստեղծված **DropDownCommentControl** դաշտը։
-
-**Բացառություններ**
-
-| Տիպ | Նկարագրություն |
-|-----|----------------|
-| InvalidOperationException | Առաջանում է, եթե նույն ներքին անունով դաշտ արդեն գոյություն ունի։ |
+| horizontalAlignment | HorizontalAlignment | HorizontalAlignment.Left | Դաշտի հորիզոնական դասավորվածության ուղղությունը։ |
+| stringRestriction | StringRestriction | StringRestriction.CanBeConvertedToArmenianANSI | Դաշտում լրացվող արժեքի կոդավորման սահմանափակում (Armenian ansi, Russian ansi): |

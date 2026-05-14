@@ -17,25 +17,21 @@ public DropDownButton AddDropDownButton(LayoutGroup container, string name, stri
                                         IEnumerable<IBarItem> popupItems = null, bool showGlyphsInPopupMenu = true);
 ```
 
-Նշված դասավորման խմբում ավելացնում է թռուցիկ ընտրացանկով կոճակ (**DropDownButton**)։ Կոճակի սեղմման ժամանակ բացվում է **popupItems** պարամետրով տրված ընտրացանկը։
+Նշված դասավորման խմբում (LayoutGroup) ավելացնում է popup տեսակի ընտրացանկով կոճակ (**DropDownButton**)։ Կոճակի սեղմման ժամանակ բացվում է **popupItems** պարամետրով տրված ընտրացանկը։
 
 **Պարամետրեր**
 
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 |----------|--------------|----------------|----------------|
-| container | LayoutGroup | — | Դասավորման խումբը, որտեղ ավելացվում է կոճակը։ |
+| container | LayoutGroup | — | Դասավորման խումբը (LayoutGroup), որտեղ ավելացվում է կոճակը։ |
 | name | string | — | Կոճակի ներքին անունը։ |
 | imageURI | string | "" | Կոճակի վրա ցուցադրվող նկարի URI-ն։ |
 | caption | string | "" | Կոճակի վրա ցուցադրվող տեքստը։ |
 | labelCaption | string | "" | Կոճակի կողքին ցուցադրվող անվանումը։ |
-| tooltip | string | "" | Կոճակի հուշումը։ |
+| tooltip | string | "" | Կոճակի tooltip-ը։ |
 | isTabStop | bool | false | Որոշում է, արդյոք կոճակը կարող է ստանալ ֆոկուս **Tab** ստեղնով։ |
-| horizontalAlignment | HorizontalAlignment | HorizontalAlignment.Left | Կոճակի հորիզոնական դիրքավորումը։ |
+| horizontalAlignment | HorizontalAlignment | HorizontalAlignment.Left | Կոճակի հորիզոնական դասավորվածության ուղղությունը։ |
 | imgWidth | double | 16 | Կոճակի վրա ցուցադրվող նկարի լայնությունը։ |
 | imgHeight | double | 16 | Կոճակի վրա ցուցադրվող նկարի բարձրությունը։ |
-| popupItems | IEnumerable&lt;IBarItem&gt; | null | Թռուցիկ ընտրացանկում ցուցադրվող տարրերի ցուցակը։ |
-| showGlyphsInPopupMenu | bool | true | Որոշում է, արդյոք ցուցադրվեն տարրերի կողմի նկարները թռուցիկ ընտրացանկում։ |
-
-**Վերադարձնում է**
-
-Ստեղծված **DropDownButton** տիպի կոճակը։
+| popupItems | IEnumerable&lt;IBarItem&gt; | null | popup տեսակի ընտրացանկում ցուցադրվող տարրերի ցուցակը։ |
+| showGlyphsInPopupMenu | bool | true | Որոշում է, արդյոք ցուցադրվեն տարրերի կողմի նկարները popup տեսակի ընտրացանկում։ |

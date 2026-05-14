@@ -30,10 +30,6 @@ public HorizontalLineControl AddLine(string caption = null, LineCaptionAlignment
 | captionAlignment | LineCaptionAlignment | 0 | Տեքստի հորիզոնական դիրքավորումը գծի վրա։ |
 | name | string | null | Դաշտի ընտրովի ներքին անուն։ Չտալու դեպքում ավտոմատ կերպով ձևավորվում է եզակի անուն՝ ըստ **HLine_** նախածանցի։ |
 
-**Վերադարձնում է**
-
-Ստեղծված **HorizontalLineControl** դաշտը։
-
 ### DialogWindow.AddLine(LayoutGroup, string, LineCaptionAlignment, string) մեթոդ
 
 **Դաս՝** [DialogWindow](../DialogWindow.md)
@@ -53,7 +49,3 @@ public HorizontalLineControl AddLine(LayoutGroup container, string caption = nul
 | caption | string | null | Բաժանարար գծի վրա ցուցադրվող ընտրովի տեքստ։ |
 | captionAlignment | LineCaptionAlignment | 0 | Տեքստի հորիզոնական դիրքավորումը գծի վրա։ |
 | name | string | null | Դաշտի ընտրովի ներքին անուն։ |
-
-**Վերադարձնում է**
-
-Ստեղծված **HorizontalLineControl** դաշտը։

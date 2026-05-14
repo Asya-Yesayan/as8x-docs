@@ -20,5 +20,5 @@ protected void AddInCollections(Control xControl, LayoutItemWithRequired li, boo
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 |----------|--------------|----------------|----------------|
 | xControl | Control | — | Գրանցվող դաշտը։ |
-| li | LayoutItemWithRequired | — | Դաշտին համապատասխանող դասավորման տարրը։ |
+| li | LayoutItemWithRequired | — | Դաշտին համապատասխանող դասավորման տարրը (LayoutItem)։ |
 | storeValue | bool | — | Որոշում է, արդյոք դաշտի արժեքը պետք է պահպանվի։ |

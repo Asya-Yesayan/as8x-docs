@@ -9,10 +9,10 @@ nav_exclude: true
 
 | Անվանում | Նկարագրություն |
 |--|--|
-| [AddDynamicTreeDropDownControl(string, string, string, string, bool, bool, bool, bool, bool, bool)](#dialogwindowadddynamictreedropdowncontrolstring-string-string-string-bool-bool-bool-bool-bool-bool-մեթոդ) | Երկխոսության պատուհանում ավելացնում է դինամիկ թռուցիկ ընտրացանկով ծառային դաշտ՝ ծառի սահմանումից ընտրված ծնող հանգույցի երեխա հանգույցները ցուցադրելու համար։ |
-| [AddDynamicTreeDropDownControl(LayoutGroup, string, string, string, string, bool, bool, bool, bool, bool, bool)](#dialogwindowadddynamictreedropdowncontrollayoutgroup-string-string-string-string-bool-bool-bool-bool-bool-bool-մեթոդ) | Նշված դասավորման խմբում ավելացնում է դինամիկ թռուցիկ ընտրացանկով ծառային դաշտ՝ ծնող հանգույցի երեխաների ցուցադրմամբ։ |
-| [AddDynamicTreeDropDownControl(string, string, string, List&lt;TreeElementModel&gt;, bool, short, bool, bool, bool, bool, bool)](#dialogwindowadddynamictreedropdowncontrolstring-string-string-listtreeelementmodel-bool-short-bool-bool-bool-bool-bool-մեթոդ) | Երկխոսության պատուհանում ավելացնում է դինամիկ թռուցիկ ընտրացանկով ծառային դաշտ՝ ծրագրային եղանակով տրված հանգույցների ցուցակով։ |
-| [AddDynamicTreeDropDownControl(LayoutGroup, string, string, string, List&lt;TreeElementModel&gt;, bool, short, bool, bool, bool, bool, bool)](#dialogwindowadddynamictreedropdowncontrollayoutgroup-string-string-string-listtreeelementmodel-bool-short-bool-bool-bool-bool-bool-մեթոդ) | Նշված դասավորման խմբում ավելացնում է դինամիկ թռուցիկ ընտրացանկով ծառային դաշտ՝ ծրագրային եղանակով տրված հանգույցների ցուցակով։ |
+| [AddDynamicTreeDropDownControl(string, string, string, string, bool, bool, bool, bool, bool, bool)](#dialogwindowadddynamictreedropdowncontrolstring-string-string-string-bool-bool-bool-bool-bool-bool-մեթոդ) | Երկխոսության պատուհանում ավելացնում է դինամիկ popup տեսակի ընտրացանկով ծառային դաշտ՝ ծառի սահմանումից ընտրված ծնող հանգույցի երեխա հանգույցները ցուցադրելու համար։ |
+| [AddDynamicTreeDropDownControl(LayoutGroup, string, string, string, string, bool, bool, bool, bool, bool, bool)](#dialogwindowadddynamictreedropdowncontrollayoutgroup-string-string-string-string-bool-bool-bool-bool-bool-bool-մեթոդ) | Նշված դասավորման խմբում ավելացնում է դինամիկ popup տեսակի ընտրացանկով ծառային դաշտ՝ ծնող հանգույցի երեխաների ցուցադրմամբ։ |
+| [AddDynamicTreeDropDownControl(string, string, string, List&lt;TreeElementModel&gt;, bool, short, bool, bool, bool, bool, bool)](#dialogwindowadddynamictreedropdowncontrolstring-string-string-listtreeelementmodel-bool-short-bool-bool-bool-bool-bool-մեթոդ) | Երկխոսության պատուհանում ավելացնում է դինամիկ popup տեսակի ընտրացանկով ծառային դաշտ՝ ծրագրային եղանակով տրված հանգույցների ցուցակով։ |
+| [AddDynamicTreeDropDownControl(LayoutGroup, string, string, string, List&lt;TreeElementModel&gt;, bool, short, bool, bool, bool, bool, bool)](#dialogwindowadddynamictreedropdowncontrollayoutgroup-string-string-string-listtreeelementmodel-bool-short-bool-bool-bool-bool-bool-մեթոդ) | Նշված դասավորման խմբում ավելացնում է դինամիկ popup տեսակի ընտրացանկով ծառային դաշտ՝ ծրագրային եղանակով տրված հանգույցների ցուցակով։ |
 
 ### DialogWindow.AddDynamicTreeDropDownControl(string, string, string, string, bool, bool, bool, bool, bool, bool) մեթոդ
 
@@ -25,7 +25,7 @@ public TreeDropDownControl AddDynamicTreeDropDownControl(string name, string cap
                                                          bool showComment = true, bool isExpanded = false);
 ```
 
-Երկխոսության պատուհանում ավելացնում է դինամիկ ծառային դաշտ՝ թռուցիկ ընտրացանկով։ Ընտրացանկում ցուցադրվում են ծառի սահմանումից **parentNode** հանգույցի երեխա հանգույցները։
+Երկխոսության պատուհանում ավելացնում է դինամիկ ծառային դաշտ՝ popup տեսակի ընտրացանկով։ Ընտրացանկում ցուցադրվում են ծառի սահմանումից **parentNode** հանգույցի երեխա հանգույցները։
 
 **Պարամետրեր**
 
@@ -42,10 +42,6 @@ public TreeDropDownControl AddDynamicTreeDropDownControl(string name, string cap
 | showComment | bool | true | Որոշում է, արդյոք ցուցադրվի մեկնաբանությունը։ |
 | isExpanded | bool | false | Որոշում է, արդյոք ծառի հանգույցները լինեն բացված։ |
 
-**Վերադարձնում է**
-
-Ստեղծված **TreeDropDownControl** դաշտը։
-
 ### DialogWindow.AddDynamicTreeDropDownControl(LayoutGroup, string, string, string, string, bool, bool, bool, bool, bool, bool) մեթոդ
 
 **Դաս՝** [DialogWindow](../DialogWindow.md)
@@ -58,7 +54,7 @@ public TreeDropDownControl AddDynamicTreeDropDownControl(LayoutGroup container, 
                                                          bool isExpanded = false);
 ```
 
-Նշված դասավորման խմբում ավելացնում է դինամիկ թռուցիկ ընտրացանկով ծառային դաշտ։
+Նշված դասավորման խմբում ավելացնում է դինամիկ popup տեսակի ընտրացանկով ծառային դաշտ։
 
 **Պարամետրեր**
 
@@ -76,10 +72,6 @@ public TreeDropDownControl AddDynamicTreeDropDownControl(LayoutGroup container, 
 | showComment | bool | true | Որոշում է, արդյոք ցուցադրվի մեկնաբանությունը։ |
 | isExpanded | bool | false | Որոշում է, արդյոք ծառի հանգույցները լինեն բացված։ |
 
-**Վերադարձնում է**
-
-Ստեղծված **TreeDropDownControl** դաշտը։
-
 ### DialogWindow.AddDynamicTreeDropDownControl(string, string, string, List&lt;TreeElementModel&gt;, bool, short, bool, bool, bool, bool, bool) մեթոդ
 
 **Դաս՝** [DialogWindow](../DialogWindow.md)
@@ -92,7 +84,7 @@ public TreeDropDownControl AddDynamicTreeDropDownControl(string name, string cap
                                                          bool showComment = true, bool isExpanded = false);
 ```
 
-Երկխոսության պատուհանում ավելացնում է դինամիկ ծառային դաշտ՝ թռուցիկ ընտրացանկով, որտեղ ծառի հանգույցները տրվում են ծրագրային եղանակով։
+Երկխոսության պատուհանում ավելացնում է դինամիկ ծառային դաշտ՝ popup տեսակի ընտրացանկով, որտեղ ծառի հանգույցները տրվում են ծրագրային եղանակով։
 
 **Պարամետրեր**
 
@@ -110,10 +102,6 @@ public TreeDropDownControl AddDynamicTreeDropDownControl(string name, string cap
 | showComment | bool | true | Որոշում է, արդյոք ցուցադրվի մեկնաբանությունը։ |
 | isExpanded | bool | false | Որոշում է, արդյոք ծառի հանգույցները լինեն բացված։ |
 
-**Վերադարձնում է**
-
-Ստեղծված **TreeDropDownControl** դաշտը։
-
 ### DialogWindow.AddDynamicTreeDropDownControl(LayoutGroup, string, string, string, List&lt;TreeElementModel&gt;, bool, short, bool, bool, bool, bool, bool) մեթոդ
 
 **Դաս՝** [DialogWindow](../DialogWindow.md)
@@ -127,7 +115,7 @@ public TreeDropDownControl AddDynamicTreeDropDownControl(LayoutGroup container, 
                                                          bool isExpanded = false);
 ```
 
-Նշված դասավորման խմբում ավելացնում է դինամիկ թռուցիկ ընտրացանկով ծառային դաշտ՝ ծրագրային եղանակով տրված հանգույցների ցուցակով։
+Նշված դասավորման խմբում ավելացնում է դինամիկ popup տեսակի ընտրացանկով ծառային դաշտ՝ ծրագրային եղանակով տրված հանգույցների ցուցակով։
 
 **Պարամետրեր**
 
@@ -145,13 +133,3 @@ public TreeDropDownControl AddDynamicTreeDropDownControl(LayoutGroup container, 
 | storeValue | bool | true | Որոշում է, արդյոք դաշտի արժեքը պետք է պահպանվի։ |
 | showComment | bool | true | Որոշում է, արդյոք ցուցադրվի մեկնաբանությունը։ |
 | isExpanded | bool | false | Որոշում է, արդյոք ծառի հանգույցները լինեն բացված։ |
-
-**Վերադարձնում է**
-
-Ստեղծված **TreeDropDownControl** դաշտը։
-
-**Բացառություններ**
-
-| Տիպ | Նկարագրություն |
-|-----|----------------|
-| InvalidOperationException | Առաջանում է, եթե նույն ներքին անունով դաշտ արդեն գոյություն ունի։ |
