@@ -84,7 +84,7 @@ public class MyDocumentUI : DocumentUI<MyDocument>, IDocumentGridValidationProvi
 }
 ```
 
-## Սյան արժեքի խմբագրում ծարագրային և ինտերֆեյսային եղանակներով
+## Սյան արժեքի խմբագրում՝ ծրագրային և ինտերֆեյսային եղանակներով
 
 **UI-ից խմբագրման դեպքում**՝ երբ օգտագործողը editor-ում մուտքագրում է նոր արժեք և commit է անում, WPF-ը ակտիվացնում է validation pipeline-ը՝ կանչվելով `IDataErrorInfo.this[columnName]` հատկությունը, որը ստուգում է տվյալ սյունի արժեքի վալիդ լինելը, ապա կանչվում է `IDataErrorInfo.Error`-ը, որը ստուգում է **ամբողջ տողի վալիդ լինելը**՝ Validate() մեթոդի միջոցով։ 
 Արդյունքում թարմացվում է `HasValidationError` հատկությունը և վալիդացիոն սխալի դեպքում cell-ն ընդգծվում է կարմիր եզրով, և tooltip-ում երևում է հաղորդագրությունը։
@@ -92,6 +92,26 @@ public class MyDocumentUI : DocumentUI<MyDocument>, IDocumentGridValidationProvi
 **Ծրագրային (կոդից) խմբագրման դեպքում** (օրինակ՝ `row["Amount"] = 100`) կանչվում է սյան Setter-ը `PropertyChanged` մեթոդով, որը UI-ում թարմացնում է cell-ի արժեքը, սակայն չի կանչվում validation pipeline-ը (`IDataErrorInfo.this[columnName]`, `IDataErrorInfo.Error` հատկությունները չեն կանչվում), validator-ները չեն աշխատում, և `HasValidationError` հատկությունը չի թարմացվում։ UI-ում նոր արժեքն արտացոլվում է, բայց  վալիդացիայի նախորդ վիճակը պահպանվում է․ կարող է շարունակել ցուցադրվել հին սխալի նշումը կամ սխալը չցուցադրվել, նույնիսկ եթե այն արդեն առկա է։
 
 **Կարևոր** Այս պատճառով ծրագրային փոփոխությունից հետո անհրաժեշտ է explicit կերպով կանչել RowValidator մեթոդը՝ որպեսզի validator-ները աշխատեն և UI-ի վալիդացիոն վիճակը համապատասխանի իրականությանը։
+
+## `RowValidation(GridRow row)`
+
+```c#
+public void RowValidation(Client.Document.GridRow row)
+```
+
+**Նկարագրություն**․ Կանչում է տրված տողի `Validate()`-ը, ինչը անցնում է բոլոր սյուների validator-ներով,  թարմացնում է `HasValidationError`-ը, որի արդյունքում վալիդացիոն սխալի դեպքում cell-ն ընդգծվում է կարմիր եզրով, և tooltip-ում երևում է հաղորդագրությունը։
+
+**Օրինակ — փոխարժեքի կիրառման մեթոդ**
+
+```c#
+public void ApplyExchangeRate(GridRow row, decimal rate)
+{
+    row["Rate"] = rate;
+    row["Amount"] = (decimal)row["AmountForeign"] * rate;
+    row.EnforceValidation("Rate", "Amount");
+    this.documentGridControl.RowValidation(row);
+}
+```
 
 Տես ստորև տեղադրված հղումները Wpf application-ների վալիդացիայի և data binding-ին ծանոթանալու համար՝
 
