@@ -104,15 +104,35 @@ public class CadresExtended : DocumentExtender
 
 Այս եղանակով պրոյեկտ ավելացնելիս (`Add Project Reference`)՝ պրոյեկտին այլ ՀԾ-ական պրոյեկտներ (`ArmSoft.AS8X.Common`, `ArmSoft.AS8X.Core`) կցելու դեպքում կարող են առաջանալ խնդիրներ։  
 
-Պատճառը այն է, որ build-ի ընթացքում կստեղծվեն նաև ՀԾ-ական DLL-ներ, որոնք չեն լինի ստորագրված համապատասխան բանալիով։ Մինչդեռ ՀԾ-ական DLL-ները տարբերակի հետ տրամադրվում են արդեն ստորագրված վիճակում։  
+Պատճառը այն է, որ `ProjectReference` օգտագործելիս build-ի արդյունքում `dependency` պրոյեկտները նույնպես build են արվում source code-ից, և արդյունքում ստեղծվում են նաև ՀԾ-ական dll-ներ, որոնք չեն լինի ստորագրված համապատասխան բանալիով։ Մինչդեռ ՀԾ-ական dll-ները տարբերակի հետ տրամադրվում են արդեն ստորագրված (`signed`) վիճակում։  
 
-Արդյունքում կարող են գոյություն ունենալ նույն DLL-ի երկու տարբերակներ՝  
+Արդյունքում կարող են գոյություն ունենալ նույն dll-ի երկու տարբերակներ՝  
 - ստորագրված (`signed`),  
 - չստորագրված (`unsigned`)։  
 
-Սա կարող է առաջացնել DLL-ների բեռնման կամ աշխատանքի խնդիրներ։  
+Սա կարող է առաջացնել dll-ների բեռնման (`assembly loading`) կամ աշխատանքի խնդիրներ։  
 
-Խնդիրը կանխելու համար անհրաժեշտ է ստեղծվող պրոյեկտին տարբերակի հետ տրամադրված ստորագրված DLL-ները (`ArmSoft.AS8X.Common.dll`, `ArmSoft.AS8X.Core.dll`) ավելացնել `Add Package Reference` եղանակով։
+Այդ պատճառով խորհուրդ է տրվում՝  
+- `Debug` ռեժիմում օգտագործել `ProjectReference`,  
+- `Release` ռեժիմում օգտագործել տարբերակի հետ տրամադրված ստորագրված dll-ները (`Reference`)։  
+
+Օրինակ՝
+
+```xml
+<ItemGroup Condition="'$(Configuration)' == 'Debug'">
+ <ProjectReference Include="..\Core\ArmSoft.AS8X.Core\ArmSoft.AS8X.Core.csproj" />
+</ItemGroup>
+
+<ItemGroup Condition="'$(Configuration)' == 'Release'">
+ <Reference Include="ArmSoft.AS8X.Common">
+  <HintPath>..\..\..\..\..\Publish\ArmSoft.AS8X.Common.dll</HintPath>
+ </Reference>
+
+ <Reference Include="ArmSoft.AS8X.Core">
+  <HintPath>..\..\..\..\..\Publish\ArmSoft.AS8X.Core.dll</HintPath>
+ </Reference>
+</ItemGroup>
+```
 
 ![alt text](Images/extension_assembly.png)
 *dll-ը տեղադրված ծրագրի կողքին*
