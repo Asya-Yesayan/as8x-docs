@@ -1,0 +1,23 @@
+---
+title: LockControls
+parent: "Մեթոդներ"
+grand_parent: "DocumentPanel"
+---
+
+# DocumentPanel&lt;T&gt;.LockControls(bool) մեթոդ
+
+## Նկարագիր
+
+**Դաս՝** [DocumentPanel](../DocumentPanel.md)
+
+```c#
+public void LockControls(bool lockUserDefinedFields = false)
+```
+
+Բոլոր դաշտերը դարձնում է միայն կարդալու։
+
+**Պարամետրեր**
+
+| Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
+| --- | --- | --- | --- |
+| lockUserDefinedFields | bool | false | **true** արժեքի դեպքում միայն կարդալու են դարձվում նաև օգտագործողի կողմից սահմանված դաշտերը, **false** արժեքի դեպքում՝ ոչ։ |
