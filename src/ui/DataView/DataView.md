@@ -34,7 +34,7 @@ has_toc: false
 | [IsCreateCopyEnabled](Properties/IsCreateCopyEnabled.md) | Սահմանում է դիտելու ձևի ընթացիկ տողի պատճենման իրավասությունը` AllowCreateCopy հատկության հետ համատեղ: |
 | [AllowPreview](Properties/AllowPreview.md) | Սահմանում է դիտելու ձևի ընթացիկ տողում պարունակվող փաստաթղթի տպելու ձևանմուշի նախնական դիտման իրավասությունը: |
 | [AllowExport](Properties/AllowExport.md) | Սահմանում է դիտելու ձևի արտահանման իրավասությունը: |
-| [AllowDocumentHistory](Properties/AllowDocumentHistory.md) | Սահմանում է դիտելու ձևի ընթացիկ տողի պատմությունը դիտելու իրավասությունը` AllowDocHistory համակարգային պարամետրի համատեղ: |
+| [AllowDocumentHistory](Properties/AllowDocumentHistory.md) | Սահմանում է դիտելու ձևի ընթացիկ տողի պատմությունը դիտելու իրավասությունը` AllowDocHistory համակարգային պարամետրի հետ համատեղ: |
 | [LoadIndication](Properties/LoadIndication.md) | Սահմանում է դիտելու ձևի կատարման պրոգրեսի ցուցադրման ռեժիմը։ |
 | [AllowedDocumentsToAdd](Properties/AllowedDocumentsToAdd.md) | Սահմանում է այն փաստաթղթերի ներքին անունների (տեսակների) ցանկը, որոնք թույլատրվում է ավելացնել դիտելու ձևից՝ «Ավելացնել» կոնտեքստային ֆունկցիայի միջոցով։ |
 | [AllowEditUDR](Properties/AllowEditUDR.md) | Սահմանում է դիտելու ձևի ընտրված տողերի (փաստաթղթերի) «Օգտագործողի կողմից նկարագրված դաշտերի» խմբագրման իրավասությունը: |

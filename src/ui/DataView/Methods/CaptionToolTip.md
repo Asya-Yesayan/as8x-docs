@@ -19,5 +19,5 @@ public virtual string CaptionToolTip()
 Օրինակ 
 
 ```c#
-public override string ReportTitle() { return "Փաստաթղթերի ղեկավարում"; }
+public override string CaptionToolTip() { return "Փաստաթղթերի ղեկավարում"; }
 ```
