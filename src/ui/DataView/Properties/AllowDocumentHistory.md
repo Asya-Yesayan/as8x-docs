@@ -22,3 +22,6 @@ public virtual bool AllowDocumentHistory { get; }
 * Եթե `AllowDocumentHistory=true` և `AllowDocHistory=true` և `IsDocumentBased=false`, ապա կանչվում է `DocumentHistory` մեթոդը:
 * Եթե `AllowDocumentHistory=true` և `IsHistoryEnabled=true` և `IsDocumentBased=true`, ապա ցուցադրվում է ընթացիկ տողում պարունակվող փաստաթղթի պատմությունը։
 
+![History_Function](../../images/DataView/History_Function.png)
+
+![History_View](../../images/DataView/History_View.png)

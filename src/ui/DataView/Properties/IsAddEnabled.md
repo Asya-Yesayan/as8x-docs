@@ -25,3 +25,5 @@ public virtual bool IsAddEnabled { get; }
 * Եթե `AllowAdd=true` և `IsAddEnabled=true` և `IsDocumentBased=true`, ապա կանչվում է `AddDocument` մեթոդը:
 
 ![Add_Function](../../images/DataView/Add_Function.png)
+
+![Add_Window](../../images/DataView/Add_Window.png)

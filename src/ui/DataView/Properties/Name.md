@@ -11,11 +11,18 @@ grand_parent: "DataView"
 **Դաս՝** [DataView](../DataView.md)
 
 ```c#
-public override string Name { get; }
+public virtual string Name { get; }
 ```
 
-Վերադարձնում է դիտելու ձևի ներքին անունը, որը համընկնում է DataView ատրիբուտում նշված անվան հետ։
+Սահմանում է դիտելու ձևի ներքին անունը: Հատկության լռությամբ արժեքը համընկնում է DataView ատրիբուտում նշված անվան հետ։
 
-Եթե դիտելու ձևը նկարագրող դասում բացակայում է DataView ատրիբուտը, ապա այս հատկությանը դիմելիս առաջանում է սխալ։
+Եթե դիտելու ձևը նկարագրող դասում բացակայում է DataView ատրիբուտը և հատկությունը override չի արվել, ապա այս հատկությանը դիմելիս առաջանում է սխալ։
+
+**Օրինակ**
+
+```c#
+[DataView(nameof(JobSet), ArmenianCaption = "Առաջադրանքներ",
+                          EnglishCaption = "Jobs", SupportsExtensions = false)]
+```
 
 

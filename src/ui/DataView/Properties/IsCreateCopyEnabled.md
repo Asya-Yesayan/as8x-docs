@@ -24,3 +24,6 @@ public virtual bool IsCreateCopyEnabled { get; }
 * Եթե `AllowCreateCopy=true` և `IsCreateCopyEnabled=true` և `IsDocumentBased=false`, ապա կանչվում է `CreateCopy` մեթոդը:
 * Եթե `AllowCreateCopy=true` և `IsCreateCopyEnabled=true` և `IsDocumentBased=true`, ապա կանչվում է `CreateCopyDocument` մեթոդը:
 
+![Copy_Function](../../images/DataView/Copy_Function.png)
+
+![Copy_Window](../../images/DataView/Copy_Window.png)

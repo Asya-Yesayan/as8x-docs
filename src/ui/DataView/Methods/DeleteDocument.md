@@ -26,5 +26,16 @@ public virtual void DeleteDocument()
 | --- | --- | --- | --- |
 | docType | string | - | Այն փաստաթղթի ներքին նույնականացման համարը (isn), որի համար կանչվել է «Հեռացնել» կոնտեքստային ֆունկցիան։ |
 
+**Օրինակ**
+
+```c#
+public override void DeleteDocument()
+{
+    // ցուցադրվող հաղորդագրության պատուհանի սահմանում
+    Core.UI.MessageBox.Show("Փաստաթուղթը հեռացնելու իրավասություն չունեք", "Սխալ", MessageBoxButton.OK, MessageBoxImage.Error);
+}
+```
+
 ![Delete_Function](../../images/DataView/Delete_Function.png)
 
+![Delete_Document_Window](../../images/DataView/Delete_Document_Window.png)

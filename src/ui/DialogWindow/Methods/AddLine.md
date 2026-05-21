@@ -26,9 +26,9 @@ public HorizontalLineControl AddLine(string caption = null, LineCaptionAlignment
 
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 |----------|--------------|----------------|----------------|
-| caption | string | null | Բաժանարար գծի վրա ցուցադրվող ընտրովի տեքստ։ |
+| caption | string | null | Բաժանարար գծի վրա ցուցադրվող տրված տեքստ։ |
 | captionAlignment | LineCaptionAlignment | 0 | Տեքստի հորիզոնական դիրքավորումը գծի վրա։ |
-| name | string | null | Դաշտի ընտրովի ներքին անուն։ Չտալու դեպքում ավտոմատ կերպով ձևավորվում է եզակի անուն՝ ըստ **HLine_** նախածանցի։ |
+| name | string | null | Դաշտի տրված ներքին անուն։ Չտալու դեպքում ավտոմատ կերպով ձևավորվում է եզակի անուն՝ ըստ **HLine_** նախածանցի։ |
 
 ### DialogWindow.AddLine(LayoutGroup, string, LineCaptionAlignment, string) մեթոդ
 
@@ -46,6 +46,6 @@ public HorizontalLineControl AddLine(LayoutGroup container, string caption = nul
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 |----------|--------------|----------------|----------------|
 | container | LayoutGroup | — | Դասավորման խումբը, որտեղ ավելացվում է բաժանարար գիծը։ |
-| caption | string | null | Բաժանարար գծի վրա ցուցադրվող ընտրովի տեքստ։ |
+| caption | string | null | Բաժանարար գծի վրա ցուցադրվող տրված տեքստ։ |
 | captionAlignment | LineCaptionAlignment | 0 | Տեքստի հորիզոնական դիրքավորումը գծի վրա։ |
-| name | string | null | Դաշտի ընտրովի ներքին անուն։ |
+| name | string | null | Դաշտի տրված ներքին անուն։ |

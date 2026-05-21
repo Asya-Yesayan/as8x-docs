@@ -18,11 +18,15 @@ public virtual HashSet<string> CaptionRefreshColumns { get; }
 
 Սյուների նոր վերնագրերը հնարավոր է սահմանել AfterApplyDialog մեթդում։
 
-Օրինակ՝
+![Change_Parameters_Function](../../images/DataView/Change_Parameters_Function.png)
+
+![Change_Parameters_Dialog](../../images/DataView/Change_Parameters_Dialog.png)
+
+**Օրինակ**
 
 ```c#
-protected override void AfterApplyDialog(HealthInsuranceParticipationDataDialog dialog, bool isRefreshMode)
+protected override void AfterApplyDialog(DocsDataDialog dialog, bool isRefreshMode)
 {
-    this.Columns[nameof(DataRow.HealthInsurancePremiumOnDate)].Caption = "Առողջության ապահովագրավճար";
+    this.Columns[nameof(DataRow.DocsDataDialog)].Caption = "Փաստաթղթի անվանում";
 }
 ```

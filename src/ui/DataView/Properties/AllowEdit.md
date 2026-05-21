@@ -25,3 +25,5 @@ public virtual bool AllowEdit { get; }
 * Եթե `AllowEdit=true` և `IsEditEnabled=true` և `IsDocumentBased=true`, ապա կանչվում է `EditDocument` մեթոդը:
 
 ![Edit_Function](../../images/DataView/Edit_Function.png)
+
+![Edit_Window](../../images/DataView/Edit_Window.png)

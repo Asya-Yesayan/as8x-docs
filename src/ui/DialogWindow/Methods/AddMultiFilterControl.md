@@ -32,7 +32,7 @@ public MultiFilterControl AddMultiFilterControl(string name, string caption, Mul
 | name | string | — | Դաշտի ներքին անունը։ |
 | caption | string | — | Դաշտի անվանումը։ |
 | supportedFilterTypes | MultiFilterTypes | — | Դաշտի կողմից աջակցվող ֆիլտրի տիպերի հավաքածուն։ |
-| treeId | string | "" | Ծառի սահմանման ներքին անունը, որը աջակցվում է դաշտի կողմից։ |
+| treeId | string | "" | Ծառի ներքին անունը, որը աջակցվում է դաշտի կողմից։ |
 | isFullTree | bool | false | Որոշում է, արդյոք ծառը ամբողջական (full) ծառ է։ |
 | idv | IDropDownView | null | Դիտելու ձևը, որը աջակցվում է դաշտի կողմից։ |
 | isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է։ |
@@ -63,7 +63,7 @@ public MultiFilterControl AddMultiFilterControl(LayoutGroup container, string na
 | name | string | — | Դաշտի ներքին անունը։ |
 | caption | string | — | Դաշտի անվանումը։ |
 | supportedFilterTypes | MultiFilterTypes | — | Դաշտի կողմից աջակցվող ֆիլտրի տիպերի հավաքածուն։ |
-| treeId | string | "" | Ծառի սահմանման ներքին անունը։ |
+| treeId | string | "" | Ծառի ներքին անունը։ |
 | isFullTree | bool | false | Որոշում է, արդյոք ծառը ամբողջական ծառ է։ |
 | idv | IDropDownView | null | Դիտելու ձևը։ |
 | isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է։ |

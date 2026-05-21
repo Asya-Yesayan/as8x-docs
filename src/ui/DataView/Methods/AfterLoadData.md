@@ -16,7 +16,7 @@ public virtual void AfterLoadData()
 
 Մեթոդը կանչվում է դիտելու ձևի տվյալները բեռնելուց առաջ։ Սովորաբար օգտագործվում է լրացուցիչ հաշվարկներ, տվյալների թարմացումներ իրականացնելու համար։
 
-Օրինակ
+**Օրինակ**
 
 ```c#
 public override void AfterLoadData()
@@ -25,7 +25,7 @@ public override void AfterLoadData()
     {
         if (row.Comment == "Ծառայության գնացուցակ (ՀԾ-Ձեռնարկություն)")
         {
-        row.Comment = string.Empty;
+            row.Comment = string.Empty;
         }
     }
 }

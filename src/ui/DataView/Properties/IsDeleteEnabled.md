@@ -26,3 +26,4 @@ public virtual bool IsDeleteEnabled { get; }
 
 ![Delete_Function](../../images/DataView/Delete_Function.png)
 
+![Delete_Window](../../images/DataView/Delete_Window.png)

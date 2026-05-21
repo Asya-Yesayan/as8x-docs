@@ -22,30 +22,30 @@ public virtual DataViewDialogWindow CreateDialog(bool isRefresh)
 | --- | --- | --- | --- |
 | isRefresh | bool | - | Պարամետրը վերադարձնում է, արդյոք նախնական ֆիլտրման դիալոգը բացվել է դիտելու ձևի սկզբնական բացման պահին, թե ծրագրի Toolbar-ի **«Փոխել պարամետրերը»** (Ctrl + G) կոճակի միջոցով։ Եթե դիալոգը բացվել է «Փոխել պարամետրերը» կոճակով, անհրաժեշտ է դիալոգի control-ներին վերագրել վերջին բացման ժամանակ ընտրված արժեքները։ |
 
-Օրինակ
+**Օրինակ**
 
 ```c#
 public override DataViewDialogWindow CreateDialog(bool isRefresh)
 {
+    // նախնական ֆիլտրման պատուհանի ստեղծում
     var dialog = new DataViewDialogWindow(this)
     {
         Caption = this.Caption,
         Name = this.Name
     };
 
+    // DropDownControl տիպի դաշտի ավելացում
     var userId = dialog.AddDropDownControl(nameof(this.Parameters.SUID), "Օգտագործող", new DropDown.Tree(TreeId.Users), storeValue: false);
-
-    if (!Settings.LoginService.IsAdmin)
-    {
-        userId.Code = Settings.LoginService.Suid.ToString();
-        userId.IsReadOnly = true;
-    }
 
     if (isRefresh)
     {
         userId.Code = this.Parameters.SUID.ToString();
     }
+
+    // ստեղծված դիալոգի վերադարձ
     return dialog;
 }
 ```
+
+![DataView_Dialog](../../images/DataView/DataView_Dialog.png)
 

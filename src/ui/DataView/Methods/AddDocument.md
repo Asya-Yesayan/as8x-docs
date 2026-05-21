@@ -26,5 +26,20 @@ public virtual void AddDocument(string docType)
 | --- | --- | --- | --- |
 | docType | string | - | Այն փաստաթղթի ներքին նույնականացման համարը (isn), որի համար կանչվել է «Ավելացնել» կոնտեքստային ֆունկցիան։ |
 
+
+**Օրինակ**
+
+```c#
+public override void AddDocument(string docType)
+{
+    // փաստաթղթի ստեղծում 
+    var document = DocumentHelper.Create(docType);
+    // Code դաշտի արժեքավորում
+    document["Code"] = 54;
+    // փաստաթղթի ցուցադրում խմբագրման ռեժիմով
+    document.Show(false, this.Panel.Id);
+}
+
+```
 ![Add_Function](../../images/DataView/Add_Function.png)
 

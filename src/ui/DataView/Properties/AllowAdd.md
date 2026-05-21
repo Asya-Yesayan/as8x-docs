@@ -14,7 +14,7 @@ grand_parent: "DataView"
 public virtual bool AllowAdd { get; }
 ```
 
-Սահմանում է դիտելու ձևում նոր տող ավելացնելու իրավասությունը` IsAddEnabled հատկության հետ համատեղ: Հատկության լռությամբ արժեքը false է:
+Սահմանում է դիտելու ձևում նոր տող ավելացնելու իրավասությունը` IsAddEnabled հատկության հետ համատեղ: 
 
 * Եթե `AllowAdd=true` և `IsAddEnabled=true`, ապա դիտելու ձևի կոնտեքստային մենյուում ցուցադրվում է «Ավելացնել» կոնտեքստային ֆունկցիան, որը հասանելի է կատարման համար։
 * Եթե `AllowAdd=true` և `IsAddEnabled=false`, ապա դիտելու ձևի կոնտեքստային մենյուում ցուցադրվում է «Ավելացնել» կոնտեքստային ֆունկցիան, սակայն հասանելի չէ կատարման համար (ցուցադրվում է readonly ռեժիմով)։
@@ -25,4 +25,6 @@ public virtual bool AllowAdd { get; }
 * Եթե `AllowAdd=true` և `IsAddEnabled=true` և `IsDocumentBased=true`, ապա կանչվում է `AddDocument` մեթոդը:
 
 ![Add_Function](../../images/DataView/Add_Function.png)
+
+![Add_Window](../../images/DataView/Add_Window.png)
 

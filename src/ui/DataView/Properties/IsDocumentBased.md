@@ -16,4 +16,23 @@ public virtual bool IsDocumentBased { get; }
 
 Սահմանում է դիտելու ձևի տողերի փաստաթուղթ հանդիսանալու հատկությունը։
 
-Հատկության լռությամբ արժեքը true է, եթե դիտելու ձևի տողերը ներկայացնող դասը իրականացնում է IRowWithISN ինտերֆեյսը։
+Հատկության լռությամբ արժեքը true է, եթե դիտելու ձևի տողերը ներկայացնող դասը իրականացնում է `IRowWithISN` ինտերֆեյսը։
+
+**Օրինակ**
+
+```c#
+public class TemplUDPDataRow : ExtendableRow, IRowWithISN
+{
+    public string Name { get; set; }
+    public int fISN { get; set; }
+
+    public int GetISN()
+    {
+        return this.fISN;
+    }
+}
+```
+
+```c#
+public class TemplUDP : DataView<TemplUDPDataRow, ParameterCollection>
+```

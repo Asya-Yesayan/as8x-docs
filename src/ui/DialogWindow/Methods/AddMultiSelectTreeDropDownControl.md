@@ -31,7 +31,7 @@ public MultiSelectTreeDropDownControl AddMultiSelectTreeDropDownControl(string n
 |----------|--------------|----------------|----------------|
 | name | string | — | Դաշտի ներքին անունը։ |
 | caption | string | — | Դաշտի անվանումը։ |
-| treeId | string | — | Ծառի սահմանման ներքին անունը։ |
+| treeId | string | — | Ծառի ներքին անունը։ |
 | isFullTree | bool | — | Որոշում է, արդյոք ծառը ամբողջական ծառ է։ |
 | selectRootsOnly | bool | false | Միայն արմատային հանգույցների ընտրման թույլատվությունը։ |
 | isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է։ |
@@ -60,7 +60,7 @@ public MultiSelectTreeDropDownControl AddMultiSelectTreeDropDownControl(LayoutGr
 | container | LayoutGroup | — | Դասավորման խումբը, որտեղ ավելացվում է դաշտը։ |
 | name | string | — | Դաշտի ներքին անունը։ |
 | caption | string | — | Դաշտի անվանումը։ |
-| treeId | string | — | Ծառի սահմանման ներքին անունը։ |
+| treeId | string | — | Ծառի ներքին անունը։ |
 | isFullTree | bool | — | Որոշում է, արդյոք ծառը ամբողջական ծառ է։ |
 | selectRootsOnly | bool | false | Միայն արմատային հանգույցների ընտրման թույլատվությունը։ |
 | isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է։ |

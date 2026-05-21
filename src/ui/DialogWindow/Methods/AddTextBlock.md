@@ -9,8 +9,8 @@ nav_exclude: true
 
 | Անվանում | Նկարագրություն |
 |--|--|
-| [AddTextBlock(string, TextBlockImage)](#dialogwindowaddtextblockstring-textblockimage-մեթոդ) | Երկխոսության պատուհանում ավելացնում է տեքստային բլոկ՝ ընտրովի պատկերակով։ |
-| [AddTextBlock(LayoutGroup, string, TextBlockImage, bool, HorizontalAlignment)](#dialogwindowaddtextblocklayoutgroup-string-textblockimage-bool-horizontalalignment-մեթոդ) | Նշված դասավորման խմբում ավելացնում է տեքստային բլոկ՝ ընտրովի պատկերակով։ |
+| [AddTextBlock(string, TextBlockImage)](#dialogwindowaddtextblockstring-textblockimage-մեթոդ) | Երկխոսության պատուհանում ավելացնում է տեքստային բլոկ՝ տրված պատկերակով։ |
+| [AddTextBlock(LayoutGroup, string, TextBlockImage, bool, HorizontalAlignment)](#dialogwindowaddtextblocklayoutgroup-string-textblockimage-bool-horizontalalignment-մեթոդ) | Նշված դասավորման խմբում ավելացնում է տեքստային բլոկ՝ տրված պատկերակով։ |
 
 ### DialogWindow.AddTextBlock(string, TextBlockImage) մեթոդ
 
@@ -20,7 +20,7 @@ nav_exclude: true
 public TextBlock AddTextBlock(string text, TextBlockImage icon);
 ```
 
-Երկխոսության պատուհանում ավելացնում է չմուտքագրվող տեքստային բլոկ՝ ընտրովի պատկերակով (օրինակ՝ սխալ, զգուշացում, տեղեկատվություն կամ հարցում)։
+Երկխոսության պատուհանում ավելացնում է չմուտքագրվող տեքստային բլոկ՝ տրված պատկերակով (օրինակ՝ սխալ, զգուշացում, տեղեկատվություն կամ հարցում)։
 
 **Պարամետրեր**
 
@@ -39,7 +39,7 @@ public TextBlock AddTextBlock(LayoutGroup container, string text, TextBlockImage
                               HorizontalAlignment horizontalAlignment = HorizontalAlignment.Stretch);
 ```
 
-Նշված դասավորման խմբում ավելացնում է չմուտքագրվող տեքստային բլոկ՝ ընտրովի պատկերակով։
+Նշված դասավորման խմբում ավելացնում է չմուտքագրվող տեքստային բլոկ՝ տրված պատկերակով։
 
 **Պարամետրեր**
 

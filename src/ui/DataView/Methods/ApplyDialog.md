@@ -31,3 +31,5 @@ public override void ApplyDialog(DataViewDialogWindow dialog, bool isRefreshMode
     this.Parameters.UserId = ((DocumentsChangeRequestsDialogWindow)dialog).Code;
 }
 ```
+
+![DataView_Dialog](../../images/DataView/DataView_Dialog.png)

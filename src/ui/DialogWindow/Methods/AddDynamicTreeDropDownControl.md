@@ -33,7 +33,7 @@ public TreeDropDownControl AddDynamicTreeDropDownControl(string name, string cap
 |----------|--------------|----------------|----------------|
 | name | string | — | Դաշտի ներքին անունը։ |
 | caption | string | — | Դաշտի անվանումը։ |
-| treeId | string | — | Ծառի սահմանման ներքին անունը։ |
+| treeId | string | — | Ծառի ներքին անունը։ |
 | parentNode | string | — | Ծառի սահմանումից այն ծնող հանգույցը, որի զավակ հանգույցները պետք է ցուցադրվեն։ |
 | isFullTree | bool | — | Որոշում է, արդյոք ծառը ամբողջական (full) ծառ է։ |
 | selectRootsOnly | bool | false | **true** արժեքի դեպքում թույլատրվում է ընտրել միայն արմատային հանգույցները։ |
@@ -63,7 +63,7 @@ public TreeDropDownControl AddDynamicTreeDropDownControl(LayoutGroup container, 
 | container | LayoutGroup | — | Դասավորման խումբը, որտեղ ավելացվում է դաշտը։ |
 | name | string | — | Դաշտի ներքին անունը։ |
 | caption | string | — | Դաշտի անվանումը։ |
-| treeId | string | — | Ծառի սահմանման ներքին անունը։ |
+| treeId | string | — | Ծառի ներքին անունը։ |
 | parentNode | string | — | Ծնող հանգույցը, որի զավակները պետք է ցուցադրվեն։ |
 | isFullTree | bool | — | Որոշում է, արդյոք ծառը ամբողջական ծառ է։ |
 | selectRootsOnly | bool | false | Միայն արմատային հանգույցների ընտրման թույլատվությունը։ |
@@ -92,7 +92,7 @@ public TreeDropDownControl AddDynamicTreeDropDownControl(string name, string cap
 |----------|--------------|----------------|----------------|
 | name | string | — | Դաշտի ներքին անունը։ |
 | caption | string | — | Դաշտի անվանումը։ |
-| treeId | string | — | Ծառի սահմանման ներքին անունը։ |
+| treeId | string | — | Ծառի ներքին անունը։ |
 | treeElements | List&lt;TreeElementModel&gt; | — | Ծառի հանգույցների ցուցակը։ |
 | isFullTree | bool | — | Որոշում է, արդյոք ծառը ամբողջական ծառ է։ |
 | codeLength | short | — | Ծառի հանգույցի կոդի երկարությունը։ |
@@ -124,7 +124,7 @@ public TreeDropDownControl AddDynamicTreeDropDownControl(LayoutGroup container, 
 | container | LayoutGroup | — | Դասավորման խումբը, որտեղ ավելացվում է դաշտը։ |
 | name | string | — | Դաշտի ներքին անունը։ |
 | caption | string | — | Դաշտի անվանումը։ |
-| treeId | string | — | Ծառի սահմանման ներքին անունը։ |
+| treeId | string | — | Ծառի ներքին անունը։ |
 | treeElements | List&lt;TreeElementModel&gt; | — | Ծառի հանգույցների ցուցակը։ |
 | isFullTree | bool | — | Որոշում է, արդյոք ծառը ամբողջական ծառ է։ |
 | codeLength | short | — | Ծառի հանգույցի կոդի երկարությունը։ |

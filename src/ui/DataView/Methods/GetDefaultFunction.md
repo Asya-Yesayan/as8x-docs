@@ -16,7 +16,7 @@ public virtual string GetDefaultFunction()
 
 Սահմանում է լռությամբ բացվող կոնտեքստային ֆունկցիան` դիտելու ձևի ընթացիկ տողի կրկնակի սեղմում կատարելիս։
 
-Օրինակ
+**Օրինակ**
 
 ```c#
 public override string GetDefaultFunction()

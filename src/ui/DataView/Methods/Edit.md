@@ -18,6 +18,28 @@ public virtual void Edit()
 
 «Դիտել/Խմբագրել» կոնտեքստային ֆունկցիայի վարքագիծը կարգավորվում է AllowEdit, IsEditEnabled, IsDocumentBased հատկությունների միջոցով։
 
+```c#
+public override void Edit()
+{
+    // ընթացիկ տողի ստացում
+    var row = (TemplatesManagementDataRow)this.Panel.FocusedRow();
+    if (row != null)
+    {
+        // ցուցադրվող դիալոգի սահմանում
+        var dialog = EditTemplateDialog(row, TemplateMode.Edit);
+        // դիալոգի ցուցադրում
+        bool? result = dialog.ShowDialog();
+        // դիալոգի կատարման դեպքում դիտելու ձևի պանելի տողերի թարմացում՝ խմբագրված տողը ցուցադրելու նպատակով
+        if (result.HasValue && result.Value)
+        {
+            this.Panel.Update(row.fROWID);
+        }
+    }
+}
+```
+
 ![Edit_Function](../../images/DataView/Edit_Function.png)
+
+![Edit_Window](../../images/DataView/Edit_Window.png)
 
 

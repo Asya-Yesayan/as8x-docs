@@ -21,7 +21,7 @@ protected virtual void AddFirstPhase()
 ```c#
 protected override void AddFirstPhase()
 {
-    AddPhase("Տվյալների բեռնում");
+    AddPhase("Տվյալների նախապատրաստում");
 }
 ```
 
