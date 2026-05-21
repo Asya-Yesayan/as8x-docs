@@ -4,7 +4,7 @@ parent: "Մեթոդներ"
 grand_parent: "DataView"
 ---
 
-# DataView.DataView() մեթոդ
+# DataView.DataView() կոնստրուկտոր
 
 ## Նկարագիր
 

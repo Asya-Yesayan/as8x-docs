@@ -11,6 +11,12 @@ has_toc: false
 
 Այս դասը նախատեսված է դիտելու ձևի նկարագրման համար։
 
+# Կոնստրուկտորներ
+
+| Անվանում | Նկարագրություն |
+|----------|----------------|
+| [DataView()](Methods/DataView.md) | Ստեղծում է DataView դասի նոր օբյեկտ։ |
+
 ## Հատկություններ
 
 | Անվանում | Նկարագրություն |
@@ -21,7 +27,6 @@ has_toc: false
 | [IsDocumentBased](Properties/IsDocumentBased.md) | Սահմանում է դիտելու ձևի տողերի փաստաթուղթ հանդիսանալու հատկությունը։ |
 | [IsUpdatable](Properties/IsUpdatable.md) | Սահմանում է դիտելու ձևի խմբագրված տվյալների թարմացման իրավասությունը։ |
 | [Enable2LineHeaders](Properties/Enable2LineHeaders.md) | Սահմանում է, արդյոք դիտելու ձևում սյուների վերնագրերը ցուցադրվելու են 2 տողով։ |
-| [ReloadMode](Properties/ReloadMode.md) | Սահմանում է դիտելու ձևի խմբագրված տողերի թարմացման ռեժիմը։ |
 | [AllowAdd](Properties/AllowAdd.md) | Սահմանում է դիտելու ձևում նոր տող ավելացնելու իրավասությունը` IsAddEnabled հատկության հետ համատեղ: |
 | [IsAddEnabled](Properties/IsAddEnabled.md) | Սահմանում է դիտելու ձևում նոր տող ավելացնելու իրավասությունը` AllowAdd հատկության հետ համատեղ: |
 | [IsEditEnabled](Properties/IsEditEnabled.md) | Սահմանում է դիտելու ձևի ընթացիկ տողը խմբագրման իրավասությունը` IsEditEnabled հատկության հետ համատեղ: |
@@ -32,13 +37,11 @@ has_toc: false
 | [AllowCallDocumentFunctions](Properties/AllowCallDocumentFunctions.md) | Սահմանում է դիտելու ձևում ընթացիկ տողում պարունակվող փաստաթղթի և փաստաթղթի ընդլայնման կոնտեքստային ֆունկցիաների ցուցադրման իրավասությունը՝ IsDocumentBased հատկության հետ համատեղ։ |
 | [AllowCreateCopy](Properties/AllowCreateCopy.md) | Սահմանում է դիտելու ձևի ընթացիկ տողի պատճենման իրավասությունը` IsCreateCopyEnabled հատկության հետ համատեղ: |
 | [IsCreateCopyEnabled](Properties/IsCreateCopyEnabled.md) | Սահմանում է դիտելու ձևի ընթացիկ տողի պատճենման իրավասությունը` AllowCreateCopy հատկության հետ համատեղ: |
-| [AllowPreview](Properties/AllowPreview.md) | Սահմանում է դիտելու ձևի ընթացիկ տողում պարունակվող փաստաթղթի տպելու ձևանմուշի նախնական դիտման իրավասությունը: |
 | [AllowExport](Properties/AllowExport.md) | Սահմանում է դիտելու ձևի արտահանման իրավասությունը: |
-| [AllowDocumentHistory](Properties/AllowDocumentHistory.md) | Սահմանում է դիտելու ձևի ընթացիկ տողի պատմությունը դիտելու իրավասությունը` AllowDocHistory համակարգային պարամետրի հետ համատեղ: |
+| [AllowDocumentHistory](Properties/AllowDocumentHistory.md) | Սահմանում է դիտելու ձևի ընթացիկ տողի պատմությունը դիտելու իրավասությունը` AllowDocHistory համակարգային պարամետրի համատեղ: |
 | [LoadIndication](Properties/LoadIndication.md) | Սահմանում է դիտելու ձևի կատարման պրոգրեսի ցուցադրման ռեժիմը։ |
 | [AllowedDocumentsToAdd](Properties/AllowedDocumentsToAdd.md) | Սահմանում է այն փաստաթղթերի ներքին անունների (տեսակների) ցանկը, որոնք թույլատրվում է ավելացնել դիտելու ձևից՝ «Ավելացնել» կոնտեքստային ֆունկցիայի միջոցով։ |
 | [AllowEditUDR](Properties/AllowEditUDR.md) | Սահմանում է դիտելու ձևի ընտրված տողերի (փաստաթղթերի) «Օգտագործողի կողմից նկարագրված դաշտերի» խմբագրման իրավասությունը: |
-| [AllowPrintPreview](Properties/AllowPrintPreview.md) | Սահմանում է դիտելու ձևի ընթացիկ տողում պարունակվող փաստաթղթի տպելու ձևանմուշի նախնական դիտման իրավասությունը: |
 | [AllowDocumentParents](Properties/AllowDocumentParents.md) | Սահմանում է դիտելու ձևի ընթացիկ տողի (փաստաթղթի) ծնող փաստաթղթերի դիտման իրավասությունը: |
 | [AllowDocumentChildren](Properties/AllowDocumentChildren.md) | Սահմանում է դիտելու ձևի ընթացիկ տողի (փաստաթղթի) զավակ փաստաթղթերի դիտման իրավասությունը: |
 | [ColumnsList](Properties/ColumnsList.md) | Վերադարձնում է դիտելու ձևի սյուների նկարագրությունների ցուցակը։  |
@@ -60,7 +63,6 @@ has_toc: false
 | [ComposeTitle()](Methods/ComposeTitle.md) | Սահմանում է դիտելու ձևի վերնագիրը։ |
 | [CreateCopy()](Methods/CreateCopy.md) | Սահմանում է դիտելու ձևի «Պատճենել» կոնտեքստային ֆունկցիայի կատարման արդյունքում բացվող պատուհանը՝ IsDocumentBased հատկության false արժեքի դեպքում: |
 | [CreateDialog(bool)](Methods/CreateDialog.md) | Այս մեթոդը նախատեսված է դիտելու ձևի նախնական ֆիլտրման դիալոգի ստեղծման և վերադարձման համար։ |
-| [DataView()](Methods/DataView.md) | Ստեղծում է DataView դասի նոր օբյեկտ։ |
 | [Delete()](Methods/Delete.md) | Սահմանում է դիտելու ձևի «Հեռացնել» կոնտեքստային ֆունկցիայի կատարման արդյունքում բացվող պատուհանը՝ IsDocumentBased հատկության false արժեքի դեպքում։ |
 | [DeleteDocument()](Methods/DeleteDocument.md) | Սահմանում է դիտելու ձևի «Հեռացնել» կոնտեքստային ֆունկցիայի կատարման արդյունքում բացվող պատուհանը՝ IsDocumentBased հատկության true արժեքի դեպքում։ |
 | [DocumentHistory()](Methods/DocumentHistory.md) | Սահմանում է դիտելու ձևի «Պատմություն» կոնտեքստային ֆունկցիայի կատարման արդյունքում բացվող պատուհանը։ |
@@ -82,4 +84,3 @@ has_toc: false
 | [ReportTitle(IEnumerable&lt;StoredValueInfo&gt;)](Methods/ReportTitle_2.md) | Ստեղծում է վերնագիր՝ ներառելով `storedValueInfos` արժեքները: |
 | [ToolTipItemsHandle(IEnumerable&lt;StoredValueInfo&gt;)](Methods/ToolTipItemsHandle.md) | Մշակում է `StoredValueInfo` արժեքները tooltip ցուցադրման համար: |
 | [View()](Methods/View.md) | Սահմանում է դիտելու ձևի «Դիտել/Խմբագրել» կոնտեքստային ֆունկցիայի կատարման արդյունքում բացվող դիտման պատուհանը՝ IsDocumentBased հատկության false արժեքի դեպքում։ |
-| [ViewParametersReport()](Methods/ViewParametersReport.md) | Ցուցադրում է դիտելու ձևի կատարման պարամետրերի նկարագրությունը՝ տեքստային հաշվետվության միջոցով։  |
