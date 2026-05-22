@@ -26,5 +26,19 @@ public virtual void EditDocument(bool isReadOnly)
 | --- | --- | --- | --- |
 | isReadOnly | bool | - | Սահմանում է փաստաթղթի բացման ռեժիմը՝ խմբագրման թե դիտման (readonly ռեժիմով): |
 
+**Օրինակ**
+
+```c#
+public override void EditDocument(bool isReadOnly)
+{
+    // ընթացիկ տողում պարունակվող փաստաթղթի բեռնում
+    var doc = (WGZatr)DocumentHelper.Load(this.Panel.FocusedDocument.ISN);
+    // փաստաթղթի Properties-ում EditNumComm անունով տարրի ավելացում
+    doc.Properties.Add("EditNumComm", "EditNumComm");
+    // փաստաթղթի ցուցադրում տրված isReadOnly ռեժիմով 
+    doc.Show(isReadOnly, this.Panel.Id);
+}
+```
+
 ![Edit_Function](../../images/DataView/Edit_Function.png)
 

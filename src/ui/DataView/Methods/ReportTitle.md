@@ -14,8 +14,4 @@ grand_parent: "DataView"
 public virtual string ReportTitle()
 ```
 
-Վերադարձնում է DataView-ի հիմնական վերնագիրը՝ `Caption`-ը:
-
-Override-ի դեպքում կարելի է dynamic caption վերադարձնել: Կոչվում է
-`CaptionToolTip`-ի, `TitleString`-ի, `ComposeTitle`-ի կողմից:
-
+Սահմանում և վերադարձնում է դիտելու ձևի գլխագիրը (Caption)։ Լռությամբ վերադարձնում է Caption հատկության արժեքը։

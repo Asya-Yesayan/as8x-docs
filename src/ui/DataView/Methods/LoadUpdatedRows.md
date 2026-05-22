@@ -14,27 +14,16 @@ grand_parent: "DataView"
 public int LoadUpdatedRows(object key)
 ```
 
-Թարմացնում է `key`-ին համապատասխան row(ներ)ը Rows հավաքածուում:
+Թարմացնում է դիտելու ձևի՝ տրված բանալիին համապատասխանող տողերը։ 
 
-Նախապայման: `IsUpdatable` պետք է `true` լինի, հակառակ դեպքում
-կնետվի `NotImplementedException`:
+Վերադարձնում է թարմացված տողերի քանակը։ Թարմացված տողերի բացակայության դեպքում վերադարձնում է -1։
 
-Ալգորիթմ.
-1. `GetUpdatedRows(key)` — server-ից ստանում է թարմ rows-ը:
-2. `AfterLoadUpdatedRows` — post-processing hook:
-3. Rows-ում գտնում է key-ին matching rows-ը (`IMatchedUpdateKey.Matched`):
-4. Ըստ արդյունքի.
-- 0 matched + 0 updated → return -1:
-- 0 matched + N updated → ավելացնում է նոր rows:
-- 1 matched + 1 updated → replace:
-- N matched / N updated → batch replace/delete/add:
+Սերվերից ստանում է թարմացված տողերը (GetUpdatedRows), կանչում է AfterLoadUpdatedRows մեթոդը, ապա ստացված տողերը համեմատում է դիտելու ձևի առկա տողերի հետ և ըստ համընկնման՝ ավելացնում, փոխարինում կամ հեռացնում է համապատասխան տողերը։
 
-Side effects: `Panel.RowAdded`, `Panel.RowDeleted`,
-`Panel.ClearSelection`, `Panel.UpdateSelectedRow`:
+IsUpdatable հատկության false արժեքի դեպքում առաջանում է NotImplementedException տիպի սխալ։
 
 **Պարամետրեր**
 
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 | --- | --- | --- | --- |
-| key | object | - | Թարմ ստանալիք row-ի բանալին: Կարող է լինել. - Մեկ արժեք — update/add/delete մեկ row: - `IEnumerable` (ոչ `string`) — batch update: |
-
+| key | object | - | Թարմացվող տողի բանալին։ Կարող է լինել առանձին արժեք՝ մեկ տող թարմացնելու համար, կամ IEnumerable՝ միանգամից մի քանի տող թարմացնելու համար։ |

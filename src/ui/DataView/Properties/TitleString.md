@@ -14,7 +14,7 @@ grand_parent: "DataView"
 public string TitleString { get; }
 ```
 
-Ֆորմատավորված վերնագրի տեքստը՝ ստացված `FormattedStoredValues`-ի `TitleFlag=true`
+Ֆորմատավորված գլխագրի տեքստը՝ ստացված `FormattedStoredValues`-ի `TitleFlag=true`
 արժեքներից:
 
 Կարդում է `FormattedStoredValues`-ը, ֆիլտրում `TitleFlag=true`-ով,

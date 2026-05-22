@@ -11,17 +11,15 @@ grand_parent: "DataView"
 **Դաս՝** [DataView](../DataView.md)
 
 ```c#
-public virtual void ToolTipItemsHandle(IEnumerable<StoredValueInfo> items) }
+public virtual void ToolTipItemsHandle(IEnumerable<StoredValueInfo> items)
 ```
 
-Մշակում է `StoredValueInfo` արժեքները tooltip ցուցադրման համար:
+Նախատեսված է tooltip-ում ցուցադրվող պահպանվող արժեքների մշակման համար։
 
-Լռությամբ ոչինչ չի կատարում: Override-ի դեպքում կատարի tooltip customization:
-Կոչվում է `ApplyToolTip`-ի կողմից:
+Մեթոդը չմշակելու դեպքում ոչ մի գործողություն չի կատարվում։
 
 **Պարամետրեր**
 
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 | --- | --- | --- | --- |
-| items | IEnumerable<StoredValueInfo> | - | Tooltip-ի համար մշակվող `StoredValueInfo` արժեքները: Կարող է լինել `null`: |
-
+| items | IEnumerable<StoredValueInfo> | - | tooltip-ի համար մշակվող պահպանվող արժեքները։ Կարող է լինել null։ |

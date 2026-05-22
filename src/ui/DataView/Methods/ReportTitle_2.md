@@ -14,7 +14,7 @@ grand_parent: "DataView"
 public virtual string ReportTitle(IEnumerable<StoredValueInfo> storedValueInfos)
 ```
 
-Ստեղծում է վերնագիր՝ ներառելով `storedValueInfos` արժեքները:
+Ստեղծում է գլխագիր՝ ներառելով `storedValueInfos` արժեքները:
 
 **Պարամետրեր**
 

@@ -41,5 +41,6 @@ public override void AddDocument(string docType)
 }
 
 ```
+
 ![Add_Function](../../images/DataView/Add_Function.png)
 
