@@ -18,7 +18,7 @@ public virtual void CreateCopy()
 
 Մեթոդը չմշակելու դեպքում որևէ գործողություն չի կատարվում։
 
-«Պատճենել» կոնտեքստային ֆունկցիայի վարքագիծը կարգավորվում է [AllowCreateCopy](../Properties/AllowCreateCopy.md), [IsCreateCopyEnabled](../Properties/IsCreateCopyEnabled.md), IsDocumentBased հատկությունների միջոցով։
+«Պատճենել» կոնտեքստային ֆունկցիայի վարքագիծը կարգավորվում է [AllowCreateCopy](../Properties/AllowCreateCopy.md), [IsCreateCopyEnabled](../Properties/IsCreateCopyEnabled.md), [IsDocumentBased](../Properties/IsDocumentBased.md) հատկությունների միջոցով։
 
 **Օրինակ**
 

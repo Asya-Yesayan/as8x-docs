@@ -18,7 +18,7 @@ public virtual void AddDocument(string docType)
 
 Մեթոդը չմշակելու դեպքում բացվում է դիտելու ձևի ընթացիկ տողում պարունակվող փաստաթղթի պատուհանը։
 
-«Ավելացնել» կոնտեքստային ֆունկցիայի վարքագիծը կարգավորվում է [AllowAdd](../Properties/AllowAdd.md), [IsAddEnabled](../Properties/IsAddEnabled.md), IsDocumentBased հատկությունների միջոցով։
+«Ավելացնել» կոնտեքստային ֆունկցիայի վարքագիծը կարգավորվում է [AllowAdd](../Properties/AllowAdd.md), [IsAddEnabled](../Properties/IsAddEnabled.md), [IsDocumentBased](../Properties/IsDocumentBased.md) հատկությունների միջոցով։
 
 **Պարամետրեր**
 

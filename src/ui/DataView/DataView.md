@@ -43,7 +43,7 @@ has_toc: false
 | [IsCreateCopyEnabled](Properties/IsCreateCopyEnabled.md) | Սահմանում է դիտելու ձևի ընթացիկ տողի պատճենման իրավասությունը` [AllowCreateCopy](Properties/AllowCreateCopy.md) հատկության հետ համատեղ: |
 | [IsDeleteEnabled](Properties/IsDeleteEnabled.md) | Սահմանում է դիտելու ձևի ընթացիկ տողի հեռացման իրավասությունը` [AllowDelete](Properties/AllowDelete.md) հատկության հետ համատեղ: |
 | [IsDocumentBased](Properties/IsDocumentBased.md) | Սահմանում է դիտելու ձևի տողերի փաստաթուղթ հանդիսանալու հատկությունը։ |
-| [IsEditEnabled](Properties/IsEditEnabled.md) | Սահմանում է դիտելու ձևի ընթացիկ տողը խմբագրման իրավասությունը` IsEditEnabled հատկության հետ համատեղ: |
+| [IsEditEnabled](Properties/IsEditEnabled.md) | Սահմանում է դիտելու ձևի ընթացիկ տողը խմբագրման իրավասությունը` [IsEditEnabled](Properties/IsEditEnabled.md) հատկության հետ համատեղ: |
 | [IsUpdatable](Properties/IsUpdatable.md) | Սահմանում է դիտելու ձևի խմբագրված տվյալների թարմացման իրավասությունը։ |
 | [LoadIndication](Properties/LoadIndication.md) | Սահմանում է դիտելու ձևի կատարման պրոգրեսի ցուցադրման ռեժիմը։ |
 | [MayContainDeletedDocuments](Properties/MayContainDeletedDocuments.md) | Սահմանում է՝ արդյոք դիտելու ձևը կարող է պարունակել հեռացված փաստաթղթեր։ |
@@ -57,7 +57,7 @@ has_toc: false
 
 | Անվանում | Նկարագրություն |
 |----------|----------------|
-| [Add()](Methods/Add.md) | Սահմանում է դիտելու ձևի «Ավելացնել» կոնտեքստային ֆունկցիայի կատարման արդյունքում բացվող պատուհանը՝ IsDocumentBased հատկության false արժեքի դեպքում։ |
+| [Add()](Methods/Add.md) | Սահմանում է դիտելու ձևի «Ավելացնել» կոնտեքստային ֆունկցիայի կատարման արդյունքում բացվող պատուհանը՝ [IsDocumentBased](Properties/IsDocumentBased.md) հատկության false արժեքի դեպքում։ |
 | [AddDocument(string)](Methods/AddDocument.md) | Սահմանում է դիտելու ձևի «Ավելացնել» կոնտեքստային ֆունկցիայի կատարման արդյունքում բացվող պատուհանը՝ [IsDocumentBased](Properties/IsDocumentBased.md) հատկության true արժեքի դեպքում։ |
 | [AddFirstPhase()](Methods/AddFirstPhase.md) | Սահմանում է դիտելու ձևի կատարման պրոգրեսի առաջին փուլի (phase) տեքստը։ |
 | [AddRow(R)](Methods/AddRow.md) | Ավելացնում է նոր տող դիտելու ձևում։ |
@@ -70,11 +70,11 @@ has_toc: false
 | [CreateCopy()](Methods/CreateCopy.md) | Սահմանում է դիտելու ձևի «Պատճենել» կոնտեքստային ֆունկցիայի կատարման արդյունքում բացվող պատուհանը՝ [IsDocumentBased](Properties/IsDocumentBased.md) հատկության false արժեքի դեպքում: |
 | [CreateDialog(bool)](Methods/CreateDialog.md) | Այս մեթոդը նախատեսված է դիտելու ձևի նախնական ֆիլտրման դիալոգի ստեղծման և վերադարձման համար։ |
 | [Delete()](Methods/Delete.md) | Սահմանում է դիտելու ձևի «Հեռացնել» կոնտեքստային ֆունկցիայի կատարման արդյունքում բացվող պատուհանը՝ [IsDocumentBased](Properties/IsDocumentBased.md) հատկության false արժեքի դեպքում։ |
-| [DeleteDocument()](Methods/DeleteDocument.md) | Սահմանում է դիտելու ձևի «Հեռացնել» կոնտեքստային ֆունկցիայի կատարման արդյունքում բացվող պատուհանը՝ IsDocumentBased հատկության true արժեքի դեպքում։ |
+| [DeleteDocument()](Methods/DeleteDocument.md) | Սահմանում է դիտելու ձևի «Հեռացնել» կոնտեքստային ֆունկցիայի կատարման արդյունքում բացվող պատուհանը՝ [IsDocumentBased](Properties/IsDocumentBased.md) հատկության true արժեքի դեպքում։ |
 | [DocumentHistory()](Methods/DocumentHistory.md) | Սահմանում է դիտելու ձևի «Պատմություն» կոնտեքստային ֆունկցիայի կատարման արդյունքում բացվող պատուհանը։ |
 | [Edit()](Methods/Edit.md) | Սահմանում է դիտելու ձևի «Դիտել/Խմբագրել» կոնտեքստային ֆունկցիայի կատարման արդյունքում բացվող պատուհանը՝ [IsDocumentBased](Properties/IsDocumentBased.md) հատկության false արժեքի դեպքում։ |
 | [EditDocument(bool)](Methods/EditDocument.md) | Սահմանում է դիտելու ձևի «Դիտել/Խմբագրել» կոնտեքստային ֆունկցիայի կատարման արդյունքում բացվող պատուհանը՝ [IsDocumentBased](Properties/IsDocumentBased.md) հատկության true արժեքի դեպքում։ |
-| [ExecutionSuppressed()](Methods/ExecutionSuppressed.md) | Կոչվում է, երբ [`SuppressExecution=true`](Properties/SuppressExecution.md) և data loading-ը ճնշվում է: |
+| [ExecutionSuppressed()](Methods/ExecutionSuppressed.md) | Նախատեսված է դիտելու ձևի կատարման դադարեցման դեպքում կատարվող գործողությունների մշակման համար։ |
 | [FillData(object)](Methods/FillData.md) | Ավելացնում է նշված տողերի ցուցակը դիտելու ձևում: |
 | [GetDefaultFunction()](Methods/GetDefaultFunction.md) | Սահմանում է լռությամբ բացվող կոնտեքստային ֆունկցիան` դիտելու ձևի ընթացիկ տողի կրկնակի սեղմում կատարելիս։ |
 | [GetDynamicValue(object, string)](Methods/GetDynamicValue.md) | Վերադարձնում է դիտելու ձևի cell-ի արժեքը՝ ըստ փոխանցված տողի և սյան անվան։ |

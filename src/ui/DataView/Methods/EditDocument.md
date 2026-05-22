@@ -18,7 +18,7 @@ public virtual void EditDocument(bool isReadOnly)
 
 Մեթոդը չմշակելու դեպքում բացվում է դիտելու ձևի ընթացիկ տողում պարունակվող փաստաթղթի պատուհանը` խմբագրման ռեժիմով։
 
-«Դիտել/Խմբագրել» կոնտեքստային ֆունկցիայի վարքագիծը կարգավորվում է [AllowEdit](../Properties/AllowEdit.md), [IsEditEnabled](../Properties/IsEditEnabled.md), IsDocumentBased հատկությունների միջոցով։
+«Դիտել/Խմբագրել» կոնտեքստային ֆունկցիայի վարքագիծը կարգավորվում է [AllowEdit](../Properties/AllowEdit.md), [IsEditEnabled](../Properties/IsEditEnabled.md), [IsDocumentBased](../Properties/IsDocumentBased.md) հատկությունների միջոցով։
 
 **Պարամետրեր**
 

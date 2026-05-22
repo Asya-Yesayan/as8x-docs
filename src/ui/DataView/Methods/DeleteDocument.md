@@ -18,7 +18,7 @@ public virtual void DeleteDocument()
 
 Մեթոդը չմշակելու դեպքում հեռացնում է դիտելու ձևի ընթացիկ տողում պարունակվող փաստաթուղթը համակարգից։
 
-«Հեռացնել» կոնտեքստային ֆունկցիայի վարքագիծը կարգավորվում է [AllowDelete](../Properties/AllowDelete.md), [IsDeleteEnabled](../Properties/IsDeleteEnabled.md), IsDocumentBased հատկությունների միջոցով։
+«Հեռացնել» կոնտեքստային ֆունկցիայի վարքագիծը կարգավորվում է [AllowDelete](../Properties/AllowDelete.md), [IsDeleteEnabled](../Properties/IsDeleteEnabled.md), [IsDocumentBased](../Properties/IsDocumentBased.md) հատկությունների միջոցով։
 
 **Օրինակ**
 

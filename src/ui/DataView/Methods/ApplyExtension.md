@@ -16,7 +16,7 @@ public void ApplyExtension(bool applyColumnsActivationConditions = true)
 
 Կիրառում է դիտելու ձևին կցված ընդլայնումը ([Extension](../Properties/Extension.md))։
 
-Extension հատկության null արժեքի դեպքում ոչ մի գործողություն չի կատարվում։
+[Extension](../Properties/Extension.md) հատկության null արժեքի դեպքում ոչ մի գործողություն չի կատարվում։
 
 **Պարամետրեր**
 
