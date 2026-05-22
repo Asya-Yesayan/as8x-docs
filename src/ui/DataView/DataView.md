@@ -27,9 +27,9 @@ has_toc: false
 | [AllowDelete](Properties/AllowDelete.md) | Սահմանում է դիտելու ձևի ընթացիկ տողի հեռացման իրավասությունը` [IsDeleteEnabled](Properties/IsDeleteEnabled.md) հատկության հետ համատեղ: |
 | [AllowedDocumentsToAdd](Properties/AllowedDocumentsToAdd.md) | Սահմանում է այն փաստաթղթերի ներքին անունների (տեսակների) ցանկը, որոնք թույլատրվում է ավելացնել դիտելու ձևից՝ «Ավելացնել» կոնտեքստային ֆունկցիայի միջոցով։ |
 | [AllowDocumentChildren](Properties/AllowDocumentChildren.md) | Սահմանում է դիտելու ձևի ընթացիկ տողի (փաստաթղթի) զավակ փաստաթղթերի դիտման իրավասությունը: |
-| [AllowDocumentHistory](Properties/AllowDocumentHistory.md) | Սահմանում է դիտելու ձևի ընթացիկ տողի պատմությունը դիտելու իրավասությունը` AllowDocHistory համակարգային պարամետրի համատեղ: |
+| [AllowDocumentHistory](Properties/AllowDocumentHistory.md) | Սահմանում է դիտելու ձևի ընթացիկ տողի պատմությունը դիտելու իրավասությունը` AllowDocHistory համակարգային պարամետրի հետ համատեղ: |
 | [AllowDocumentParents](Properties/AllowDocumentParents.md) | Սահմանում է դիտելու ձևի ընթացիկ տողի (փաստաթղթի) ծնող փաստաթղթերի դիտման իրավասությունը: |
-| [AllowEdit](Properties/AllowEdit.md) | Սահմանում է դիտելու ձևի ընթացիկ տողը խմբագրման իրավասությունը` [IsEditEnabled](Properties/IsEditEnabled.md) հատկության հետ համատեղ: |
+| [AllowEdit](Properties/AllowEdit.md) | Սահմանում է դիտելու ձևի ընթացիկ տողի խմբագրման իրավասությունը` [IsEditEnabled](Properties/IsEditEnabled.md) հատկության հետ համատեղ: |
 | [AllowEditUDR](Properties/AllowEditUDR.md) | Սահմանում է դիտելու ձևի ընտրված տողերի (փաստաթղթերի) «Օգտագործողի կողմից նկարագրված դաշտերի» խմբագրման իրավասությունը: |
 | [AllowExport](Properties/AllowExport.md) | Սահմանում է դիտելու ձևի արտահանման իրավասությունը: |
 | [AllowOpenTree](Properties/AllowOpenTree.md) | Սահմանում է դիտելու ձևի ընթացիկ տողի ծառային ներկայացումը բացելու իրավասությունը։ |
@@ -42,8 +42,8 @@ has_toc: false
 | [IsAddEnabled](Properties/IsAddEnabled.md) | Սահմանում է դիտելու ձևում նոր տող ավելացնելու իրավասությունը` [AllowAdd](Properties/AllowAdd.md) հատկության հետ համատեղ: |
 | [IsCreateCopyEnabled](Properties/IsCreateCopyEnabled.md) | Սահմանում է դիտելու ձևի ընթացիկ տողի պատճենման իրավասությունը` [AllowCreateCopy](Properties/AllowCreateCopy.md) հատկության հետ համատեղ: |
 | [IsDeleteEnabled](Properties/IsDeleteEnabled.md) | Սահմանում է դիտելու ձևի ընթացիկ տողի հեռացման իրավասությունը` [AllowDelete](Properties/AllowDelete.md) հատկության հետ համատեղ: |
-| [IsDocumentBased](Properties/IsDocumentBased.md) | Սահմանում է դիտելու ձևի տողերի փաստաթուղթ հանդիսանալու հատկությունը։ |
-| [IsEditEnabled](Properties/IsEditEnabled.md) | Սահմանում է դիտելու ձևի ընթացիկ տողը խմբագրման իրավասությունը` [IsEditEnabled](Properties/IsEditEnabled.md) հատկության հետ համատեղ: |
+| [IsDocumentBased](Properties/IsDocumentBased.md) | Սահմանում է դիտելու ձևի տողերի փաստաթուղթ հանդիսանալու հայտանիշը։ |
+| [IsEditEnabled](Properties/IsEditEnabled.md) | Սահմանում է դիտելու ձևի ընթացիկ տողի խմբագրման իրավասությունը` [AllowEdit](Properties/AllowEdit.md) հատկության հետ համատեղ: |
 | [IsUpdatable](Properties/IsUpdatable.md) | Սահմանում է դիտելու ձևի խմբագրված տվյալների թարմացման իրավասությունը։ |
 | [LoadIndication](Properties/LoadIndication.md) | Սահմանում է դիտելու ձևի կատարման պրոգրեսի ցուցադրման ռեժիմը։ |
 | [MayContainDeletedDocuments](Properties/MayContainDeletedDocuments.md) | Սահմանում է՝ արդյոք դիտելու ձևը կարող է պարունակել հեռացված փաստաթղթեր։ |
@@ -60,7 +60,7 @@ has_toc: false
 | [AddDocument(string)](Methods/AddDocument.md) | Սահմանում է դիտելու ձևի «Ավելացնել» կոնտեքստային ֆունկցիայի կատարման արդյունքում բացվող պատուհանը՝ [IsDocumentBased](Properties/IsDocumentBased.md) հատկության true արժեքի դեպքում։ |
 | [AddFirstPhase()](Methods/AddFirstPhase.md) | Սահմանում է դիտելու ձևի կատարման պրոգրեսի առաջին փուլի (phase) տեքստը։ |
 | [AddRow(R)](Methods/AddRow.md) | Ավելացնում է նոր տող դիտելու ձևում։ |
-| [AfterLoadData()](Methods/AfterLoadData.md) | Մեթոդը կանչվում է դիտելու ձևի տվյալները բեռնելուց առաջ։ |
+| [AfterLoadData()](Methods/AfterLoadData.md) | Մեթոդը կանչվում է դիտելու ձևի տվյալները բեռնելուց հետո։ |
 | [AfterLoadUpdatedRows(List&lt;R&gt;)](Methods/AfterLoadUpdatedRows.md) | Նախատեսված է սերվերից ստացված թարմացված տողերի լրացուցիչ մշակման համար՝ նախքան դրանք դիտելու ձևում ցուցադրելը: |
 | [ApplyDialog(DataViewDialogWindow, bool)](Methods/ApplyDialog.md) | Այս մեթոդը նախատեսված է դիտելու ձևի [CreateDialog](Methods/CreateDialog.md) մեթոդի միջոցով ստեղծված նախնական ֆիլտրման դիալոգի ցուցադրման և control-ների արժեքները որպես դիտելու ձևի պարամետրեր փոխանցելու համար։ |
 | [ApplyExtension(bool)](Methods/ApplyExtension.md) | Կիրառում է դիտելու ձևին կցված ընդլայնումը ([Extension](Properties/Extension.md))։ |
