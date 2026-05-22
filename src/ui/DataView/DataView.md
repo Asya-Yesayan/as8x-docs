@@ -51,7 +51,6 @@ has_toc: false
 | [Panel](Properties/Panel.md) | Վերադարձնում է դիտելու ձևը ցուցադրող վահանակը (panel)։ |
 | [PanelSupportingWindowId](Properties/PanelSupportingWindowId.md) | Վերադարձնում է դիտելու ձևի վահանակը պարունակող պատուհանի ներքին նույնականացման համարը (id)։ |
 | [SupportsExtensions](Properties/SupportsExtensions.md) | Սահմանում է դիտելու ձևի ընդլայնման իրավասությունը։   |
-| [TitleString](Properties/TitleString.md) | Ֆորմատավորված գլխագրի տեքստը՝ ստացված `FormattedStoredValues`-ի `TitleFlag=true` |
 
 ## Մեթոդներ
 
