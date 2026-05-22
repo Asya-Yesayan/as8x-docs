@@ -14,7 +14,7 @@ grand_parent: "DataView"
 public virtual void ToolTipItemsHandle(IEnumerable<StoredValueInfo> items)
 ```
 
-Նախատեսված է tooltip-ում ցուցադրվող պահպանվող արժեքների մշակման համար։
+Նախատեսված է tooltip-ում ցուցադրվող տեքստի մշակման համար։
 
 Մեթոդը չմշակելու դեպքում ոչ մի գործողություն չի կատարվում։
 
@@ -22,4 +22,4 @@ public virtual void ToolTipItemsHandle(IEnumerable<StoredValueInfo> items)
 
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 | --- | --- | --- | --- |
-| items | IEnumerable<StoredValueInfo> | - | tooltip-ի համար մշակվող պահպանվող արժեքները։ Կարող է լինել null։ |
+| items | IEnumerable<StoredValueInfo> | - | Դիտելու ձևի նախնական ֆիլտրման դիալոգի հիշված արժեքները։ |

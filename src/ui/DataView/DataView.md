@@ -87,5 +87,5 @@ has_toc: false
 | [OpenTree()](Methods/OpenTree.md) | Նախատեսված է ընթացիկ տողի ծառային ներկայացումը ցուցադրելու համար։ |
 | [ReloadRows(LoadSource)](Methods/ReloadRows.md) | Վերբեռնում է դիտելու ձևի տողերը։  |
 | [ReportTitle()](Methods/ReportTitle.md) | Սահմանում և վերադարձնում է դիտելու ձևի գլխագիրը (Caption)։ |
-| [ToolTipItemsHandle(IEnumerable&lt;StoredValueInfo&gt;)](Methods/ToolTipItemsHandle.md) | Մշակում է `StoredValueInfo` արժեքները tooltip ցուցադրման համար: |
+| [ToolTipItemsHandle(IEnumerable&lt;StoredValueInfo&gt;)](Methods/ToolTipItemsHandle.md) | Նախատեսված է tooltip-ում ցուցադրվող տեքստի մշակման համար։ |
 | [View()](Methods/View.md) | Սահմանում է դիտելու ձևի «Դիտել/Խմբագրել» կոնտեքստային ֆունկցիայի կատարման արդյունքում բացվող դիտման պատուհանը՝ [IsDocumentBased](Properties/IsDocumentBased.md) հատկության false արժեքի դեպքում։ |
