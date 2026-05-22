@@ -27,7 +27,7 @@ public virtual DataViewDialogWindow CreateDialog(bool isRefresh)
 ```c#
 public override DataViewDialogWindow CreateDialog(bool isRefresh)
 {
-    // նախնական ֆիլտրման պատուհանի ստեղծում
+    // նախնական ֆիլտրման դիալոգի ստեղծում
     var dialog = new DataViewDialogWindow(this)
     {
         Caption = this.Caption,

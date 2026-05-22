@@ -36,7 +36,7 @@ has_toc: false
 | [AllowView](Properties/AllowView.md) | Սահմանում է դիտելու ձևի ընթացիկ տողի դիտման իրավասությունը: |
 | [CaptionRefreshColumns](Properties/CaptionRefreshColumns.md) | Վերադարձնում է դիտելու ձևի այն սյուների ներքին անունների ցուցակը, որոնց վերնագրերը պետք է թարմացվեն ծրագրի Toolbar-ի «Փոխել պարամետրերը» կոճակով բացվող նախնական ֆիլտրման դիալոգի կատարման արդյունքում։ |
 | [ColumnsList](Properties/ColumnsList.md) | Վերադարձնում է դիտելու ձևի սյուների նկարագրությունների ցուցակը։  |
-| [DialogSupported](Properties/DialogSupported.md) | Սահմանում է՝ արդյոք դիտելու ձևը սատարում է նախնական ֆիլտրման պատուհանի ցուցադրումը։  |
+| [DialogSupported](Properties/DialogSupported.md) | Սահմանում է՝ արդյոք դիտելու ձևը սատարում է նախնական ֆիլտրման դիալոգի ցուցադրումը։  |
 | [Enable2LineHeaders](Properties/Enable2LineHeaders.md) | Սահմանում է, արդյոք դիտելու ձևում սյուների վերնագրերը ցուցադրվելու են 2 տողով։ |
 | [Extension](Properties/Extension.md) | Վերադարձնում կամ նշանակում է դիտելու ձևին կցված ընդլայնումը։ |
 | [IsAddEnabled](Properties/IsAddEnabled.md) | Սահմանում է դիտելու ձևում նոր տող ավելացնելու իրավասությունը` [AllowAdd](Properties/AllowAdd.md) հատկության հետ համատեղ: |
@@ -64,6 +64,7 @@ has_toc: false
 | [AfterLoadData()](Methods/AfterLoadData.md) | Մեթոդը կանչվում է դիտելու ձևի տվյալները բեռնելուց առաջ։ |
 | [AfterLoadUpdatedRows(List&lt;R&gt;)](Methods/AfterLoadUpdatedRows.md) | Նախատեսված է սերվերից ստացված թարմացված տողերի լրացուցիչ մշակման համար՝ նախքան դրանք դիտելու ձևում ցուցադրելը: |
 | [ApplyDialog(DataViewDialogWindow, bool)](Methods/ApplyDialog.md) | Այս մեթոդը նախատեսված է դիտելու ձևի [CreateDialog](Methods/CreateDialog.md) մեթոդի միջոցով ստեղծված նախնական ֆիլտրման դիալոգի ցուցադրման և control-ների արժեքները որպես դիտելու ձևի պարամետրեր փոխանցելու համար։ |
+| [ApplyExtension(bool)](Methods/ApplyExtension.md) | Կիրառում է դիտելու ձևին կցված ընդլայնումը ([Extension](Properties/Extension.md))։ |
 | [BeforeLoadData(BeforeLoadDataEventArgs)](Methods/BeforeLoadData.md) | Մեթոդը կանչվում է դիտելու ձևի տվյալները բեռնելուց առաջ։ |
 | [CaptionToolTip()](Methods/CaptionToolTip.md) | Սահմանում է դիտելու ձևի tooltip-ում ցուցադրվող տեքստը: |
 | [CreateCopy()](Methods/CreateCopy.md) | Սահմանում է դիտելու ձևի «Պատճենել» կոնտեքստային ֆունկցիայի կատարման արդյունքում բացվող պատուհանը՝ IsDocumentBased հատկության false արժեքի դեպքում: |
