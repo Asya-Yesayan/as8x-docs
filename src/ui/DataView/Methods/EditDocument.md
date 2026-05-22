@@ -14,11 +14,11 @@ grand_parent: "DataView"
 public virtual void EditDocument(bool isReadOnly)
 ```
 
-Սահմանում է դիտելու ձևի «Դիտել/Խմբագրել» կոնտեքստային ֆունկցիայի կատարման արդյունքում բացվող պատուհանը՝ IsDocumentBased հատկության true արժեքի դեպքում։
+Սահմանում է դիտելու ձևի «Դիտել/Խմբագրել» կոնտեքստային ֆունկցիայի կատարման արդյունքում բացվող պատուհանը՝ [IsDocumentBased](../Properties/IsDocumentBased.md) հատկության true արժեքի դեպքում։
 
 Մեթոդը չմշակելու դեպքում բացվում է դիտելու ձևի ընթացիկ տողում պարունակվող փաստաթղթի պատուհանը` խմբագրման ռեժիմով։
 
-«Դիտել/Խմբագրել» կոնտեքստային ֆունկցիայի վարքագիծը կարգավորվում է AllowEdit, IsEditEnabled, IsDocumentBased հատկությունների միջոցով։
+«Դիտել/Խմբագրել» կոնտեքստային ֆունկցիայի վարքագիծը կարգավորվում է [AllowEdit](../Properties/AllowEdit.md), [IsEditEnabled](../Properties/IsEditEnabled.md), IsDocumentBased հատկությունների միջոցով։
 
 **Պարամետրեր**
 

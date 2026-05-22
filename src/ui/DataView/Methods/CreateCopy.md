@@ -14,11 +14,11 @@ grand_parent: "DataView"
 public virtual void CreateCopy()
 ```
 
-Սահմանում է դիտելու ձևի «Պատճենել» կոնտեքստային ֆունկցիայի կատարման արդյունքում բացվող պատուհանը՝ IsDocumentBased հատկության false արժեքի դեպքում։
+Սահմանում է դիտելու ձևի «Պատճենել» կոնտեքստային ֆունկցիայի կատարման արդյունքում բացվող պատուհանը՝ [IsDocumentBased](../Properties/IsDocumentBased.md) հատկության false արժեքի դեպքում։
 
 Մեթոդը չմշակելու դեպքում որևէ գործողություն չի կատարվում։
 
-«Պատճենել» կոնտեքստային ֆունկցիայի վարքագիծը կարգավորվում է AllowCreateCopy, IsCreateCopyEnabled, IsDocumentBased հատկությունների միջոցով։
+«Պատճենել» կոնտեքստային ֆունկցիայի վարքագիծը կարգավորվում է [AllowCreateCopy](../Properties/AllowCreateCopy.md), [IsCreateCopyEnabled](../Properties/IsCreateCopyEnabled.md), IsDocumentBased հատկությունների միջոցով։
 
 **Օրինակ**
 

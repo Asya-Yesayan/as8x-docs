@@ -14,9 +14,9 @@ grand_parent: "DataView"
 public virtual void Edit()
 ```
 
-Սահմանում է դիտելու ձևի «Դիտել/Խմբագրել» կոնտեքստային ֆունկցիայի կատարման արդյունքում բացվող պատուհանը՝ IsDocumentBased հատկության false արժեքի դեպքում։
+Սահմանում է դիտելու ձևի «Դիտել/Խմբագրել» կոնտեքստային ֆունկցիայի կատարման արդյունքում բացվող պատուհանը՝ [IsDocumentBased](../Properties/IsDocumentBased.md) հատկության false արժեքի դեպքում։
 
-«Դիտել/Խմբագրել» կոնտեքստային ֆունկցիայի վարքագիծը կարգավորվում է AllowEdit, IsEditEnabled, IsDocumentBased հատկությունների միջոցով։
+«Դիտել/Խմբագրել» կոնտեքստային ֆունկցիայի վարքագիծը կարգավորվում է [AllowEdit](../Properties/AllowEdit.md), [IsEditEnabled](../Properties/IsEditEnabled.md), IsDocumentBased հատկությունների միջոցով։
 
 ```c#
 public override void Edit()

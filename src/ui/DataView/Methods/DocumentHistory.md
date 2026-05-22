@@ -16,4 +16,4 @@ public virtual void DocumentHistory()
 
 Սահմանում է դիտելու ձևի «Պատմություն» կոնտեքստային ֆունկցիայի կատարման արդյունքում բացվող պատուհանը։
 
-«Պատմություն» կոնտեքստային ֆունկցիայի վարքագիծը կարգավորվում է AllowDocumentHistory, IsHistoryEnabled, IsDocumentBased հատկությունների միջոցով։
+«Պատմություն» կոնտեքստային ֆունկցիայի վարքագիծը կարգավորվում է [AllowDocumentHistory](../Properties/AllowDocumentHistory.md), IsHistoryEnabled, [IsDocumentBased](../Properties/IsDocumentBased.md) հատկությունների միջոցով։

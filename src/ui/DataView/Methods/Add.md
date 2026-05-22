@@ -14,9 +14,9 @@ grand_parent: "DataView"
 public virtual void Add()
 ```
 
-Սահմանում է դիտելու ձևի «Ավելացնել» կոնտեքստային ֆունկցիայի կատարման արդյունքում բացվող պատուհանը՝ IsDocumentBased հատկության false արժեքի դեպքում։
+Սահմանում է դիտելու ձևի «Ավելացնել» կոնտեքստային ֆունկցիայի կատարման արդյունքում բացվող պատուհանը՝ [IsDocumentBased](../Properties/IsDocumentBased.md) հատկության false արժեքի դեպքում։
 
-«Ավելացնել» կոնտեքստային ֆունկցիայի վարքագիծը կարգավորվում է AllowAdd, IsAddEnabled, IsDocumentBased հատկությունների միջոցով։
+«Ավելացնել» կոնտեքստային ֆունկցիայի վարքագիծը կարգավորվում է [AllowAdd](../Properties/AllowAdd.md), [IsAddEnabled](../Properties/IsAddEnabled.md), IsDocumentBased հատկությունների միջոցով։
 
 **Օրինակ**
 

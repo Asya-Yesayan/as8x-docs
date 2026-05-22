@@ -14,9 +14,9 @@ grand_parent: "DataView"
 public virtual void Delete()
 ```
 
-Սահմանում է դիտելու ձևի «Հեռացնել» կոնտեքստային ֆունկցիայի կատարման արդյունքում բացվող պատուհանը՝ IsDocumentBased հատկության false արժեքի դեպքում։
+Սահմանում է դիտելու ձևի «Հեռացնել» կոնտեքստային ֆունկցիայի կատարման արդյունքում բացվող պատուհանը՝ [IsDocumentBased](../Properties/IsDocumentBased.md) հատկության false արժեքի դեպքում։
 
-«Հեռացնել» կոնտեքստային ֆունկցիայի վարքագիծը կարգավորվում է AllowDelete, IsDeleteEnabled, IsDocumentBased հատկությունների միջոցով։
+«Հեռացնել» կոնտեքստային ֆունկցիայի վարքագիծը կարգավորվում է [AllowDelete](../Properties/AllowDelete.md), [IsDeleteEnabled](../Properties/IsDeleteEnabled.md), IsDocumentBased հատկությունների միջոցով։
 
 **Օրինակ**
 

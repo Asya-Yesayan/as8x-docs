@@ -14,13 +14,13 @@ grand_parent: "DataView"
 public virtual bool AllowDocumentHistory { get; }
 ```
 
-Սահմանում է դիտելու ձևի ընթացիկ տողի պատմությունը դիտելու իրավասությունը` AllowDocHistory համակարգային պարամետրի հետ համատեղ: Հատկության լռությամբ արժեքը համընկնում է IsDocumentBased հատկության արժեքի հետ։
+Սահմանում է դիտելու ձևի ընթացիկ տողի պատմությունը դիտելու իրավասությունը` AllowDocHistory համակարգային պարամետրի հետ համատեղ: Հատկության լռությամբ արժեքը համընկնում է [IsDocumentBased](IsDocumentBased.md) հատկության արժեքի հետ։
 
 * Եթե `AllowDocumentHistory=true` և `AllowDocHistory=true`, ապա դիտելու ձևի կոնտեքստային մենյուում ցուցադրվում է «Պատմություն» կոնտեքստային ֆունկցիան, որը հասանելի է կատարման համար։
 
-«Պատմություն» կոնտեքստային ֆունկցիայի կատարման արդյունքում բացվող պատմությունը պարունակող պատուհանը սահմանվում է `DocumentHistory` մեթոդով: 
-* Եթե `AllowDocumentHistory=true` և `AllowDocHistory=true` և `IsDocumentBased=false`, ապա կանչվում է `DocumentHistory` մեթոդը:
-* Եթե `AllowDocumentHistory=true` և `IsHistoryEnabled=true` և `IsDocumentBased=true`, ապա ցուցադրվում է ընթացիկ տողում պարունակվող փաստաթղթի պատմությունը։
+«Պատմություն» կոնտեքստային ֆունկցիայի կատարման արդյունքում բացվող պատմությունը պարունակող պատուհանը սահմանվում է [`DocumentHistory`](../Methods/DocumentHistory.md) մեթոդով: 
+* Եթե `AllowDocumentHistory=true` և `AllowDocHistory=true` և [`IsDocumentBased=false`](IsDocumentBased.md), ապա կանչվում է [`DocumentHistory`](../Methods/DocumentHistory.md) մեթոդը:
+* Եթե `AllowDocumentHistory=true` և `IsHistoryEnabled=true` և [`IsDocumentBased=true`](IsDocumentBased.md), ապա ցուցադրվում է ընթացիկ տողում պարունակվող փաստաթղթի պատմությունը։
 
 ![History_Function](../../images/DataView/History_Function.png)
 

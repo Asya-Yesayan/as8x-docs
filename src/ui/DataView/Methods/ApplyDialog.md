@@ -14,7 +14,7 @@ grand_parent: "DataView"
 public virtual void ApplyDialog(DataViewDialogWindow dialog, bool isRefreshMode)
 ```
 
-Այս մեթոդը նախատեսված է դիտելու ձևի CreateDialog մեթոդի միջոցով ստեղծված նախնական ֆիլտրման դիալոգի ցուցադրման և control-ների արժեքները որպես դիտելու ձևի պարամետրեր փոխանցելու համար։
+Այս մեթոդը նախատեսված է դիտելու ձևի [CreateDialog](CreateDialog.md) մեթոդի միջոցով ստեղծված նախնական ֆիլտրման դիալոգի ցուցադրման և control-ների արժեքները որպես դիտելու ձևի պարամետրեր փոխանցելու համար։
 
 **Պարամետրեր**
 

@@ -14,15 +14,15 @@ grand_parent: "DataView"
 public virtual bool IsEditEnabled { get; }
 ```
 
-Սահմանում է դիտելու ձևի ընթացիկ տողը խմբագրման իրավասությունը` AllowEdit հատկության հետ համատեղ: Հատկության լռությամբ արժեքը true է:
+Սահմանում է դիտելու ձևի ընթացիկ տողը խմբագրման իրավասությունը` [AllowEdit](AllowEdit.md) հատկության հետ համատեղ: Հատկության լռությամբ արժեքը true է:
 
-* Եթե `AllowEdit=true` և `IsEditEnabled=true`, ապա դիտելու ձևի կոնտեքստային մենյուում ցուցադրվում է «Դիտել/Խմբագրել» կոնտեքստային ֆունկցիան, որը հասանելի է կատարման համար՝ խմբագրման ռեժիմով։
-* Եթե `AllowEdit=true` և `IsEditEnabled=false`, ապա դիտելու ձևի կոնտեքստային մենյուում ցուցադրվում է «Դիտել/Խմբագրել» կոնտեքստային ֆունկցիան, սակայն հասանելի չէ կատարման համար (ցուցադրվում է readonly ռեժիմով)։
-* Եթե `AllowEdit=false`, ապա դիտելու ձևի կոնտեքստային մենյուում չի ցուցադրվում «Դիտել/Խմբագրել» կոնտեքստային ֆունկցիան։
+* Եթե [`AllowEdit=true`](AllowEdit.md) և `IsEditEnabled=true`, ապա դիտելու ձևի կոնտեքստային մենյուում ցուցադրվում է «Դիտել/Խմբագրել» կոնտեքստային ֆունկցիան, որը հասանելի է կատարման համար՝ խմբագրման ռեժիմով։
+* Եթե [`AllowEdit=true`](AllowEdit.md) և `IsEditEnabled=false`, ապա դիտելու ձևի կոնտեքստային մենյուում ցուցադրվում է «Դիտել/Խմբագրել» կոնտեքստային ֆունկցիան, սակայն հասանելի չէ կատարման համար (ցուցադրվում է readonly ռեժիմով)։
+* Եթե [`AllowEdit=false`](AllowEdit.md), ապա դիտելու ձևի կոնտեքստային մենյուում չի ցուցադրվում «Դիտել/Խմբագրել» կոնտեքստային ֆունկցիան։
 
-«Դիտել/Խմբագրել» կոնտեքստային ֆունկցիայի կատարման արդյունքում բացվող խմբագրման պատուհանը սահմանվում է `Edit` կամ `EditDocument` մեթոդներով: 
-* Եթե `AllowEdit=true` և `IsEditEnabled=true` և `IsDocumentBased=false`, ապա կանչվում է `Edit` մեթոդը:
-* Եթե `AllowEdit=true` և `IsEditEnabled=true` և `IsDocumentBased=true`, ապա կանչվում է `EditDocument` մեթոդը:
+«Դիտել/Խմբագրել» կոնտեքստային ֆունկցիայի կատարման արդյունքում բացվող խմբագրման պատուհանը սահմանվում է [`Edit`](../Methods/Edit.md) կամ [`EditDocument`](../Methods/EditDocument.md) մեթոդներով: 
+* Եթե [`AllowEdit=true`](AllowEdit.md) և `IsEditEnabled=true` և [`IsDocumentBased=false`](IsDocumentBased.md), ապա կանչվում է [`Edit`](../Methods/Edit.md) մեթոդը:
+* Եթե [`AllowEdit=true`](AllowEdit.md) և `IsEditEnabled=true` և [`IsDocumentBased=true`](IsDocumentBased.md), ապա կանչվում է [`EditDocument`](../Methods/EditDocument.md) մեթոդը:
 
 ![Edit_Function](../../images/DataView/Edit_Function.png)
 

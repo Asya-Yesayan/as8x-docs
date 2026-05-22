@@ -16,7 +16,7 @@ protected virtual void AfterLoadUpdatedRows(List<R> rows)
 
 Նախատեսված է սերվերից ստացված թարմացված տողերի լրացուցիչ մշակման համար՝ նախքան դրանք դիտելու ձևում ցուցադրելը։
 
-Կանչվում է LoadUpdatedRows մեթոդից՝ GetUpdatedRows մեթոդով սերվերից թարմացված տողերը ստանալուց անմիջապես հետո։ 
+Կանչվում է [LoadUpdatedRows](LoadUpdatedRows.md) մեթոդից՝ [GetUpdatedRows](GetUpdatedRows.md) մեթոդով սերվերից թարմացված տողերը ստանալուց անմիջապես հետո։ 
 
 Մեթոդը չմշակելու դեպքում ոչ մի գործողություն չի կատարվում։
 
