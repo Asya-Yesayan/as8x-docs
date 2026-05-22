@@ -16,7 +16,7 @@ protected virtual void AddFirstPhase()
 
 Սահմանում է դիտելու ձևի կատարման պրոգրեսի առաջին փուլի (phase) տեքստը։ Լռությամբ արժեքը «Տվյալների մշակում» է։
 
-Օրինակ 
+**Օրինակ** 
 
 ```c#
 protected override void AddFirstPhase()

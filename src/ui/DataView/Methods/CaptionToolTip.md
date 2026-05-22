@@ -16,7 +16,7 @@ public virtual string CaptionToolTip()
 
 Սահմանում է դիտելու ձևի tooltip-ում ցուցադրվող տեքստը: Լռությամբ ցուցադրում է դիտելու ձևի գլխագիրը (Caption): 
 
-Օրինակ 
+**Օրինակ** 
 
 ```c#
 public override string CaptionToolTip() { return "Փաստաթղթերի ղեկավարում"; }

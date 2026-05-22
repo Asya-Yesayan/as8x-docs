@@ -23,7 +23,7 @@ public virtual void ApplyDialog(DataViewDialogWindow dialog, bool isRefreshMode)
 | dialog | DataViewDialogWindow | - | Դիտելու ձևի նախնական ֆիլտրման դիալոգը։ |
 | isRefreshMode | bool | - | Պարամետրը վերադարձնում է, արդյոք նախնական ֆիլտրման դիալոգը բացվել է դիտելու ձևի սկզբնական բացման պահին, թե ծրագրի Toolbar-ի **«Փոխել պարամետրերը»** (Ctrl + G) կոճակի միջոցով։ |
 
-Օրինակ 
+**Օրինակ** 
 
 ```c#
 public override void ApplyDialog(DataViewDialogWindow dialog, bool isRefreshMode)
