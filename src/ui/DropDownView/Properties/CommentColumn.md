@@ -14,4 +14,10 @@ grand_parent: "DropDownView"
 public abstract ViewColumn CommentColumn { get; }
 ```
 
-Սահմանում է բացվող ցուցակի դիտելու ձևի մեկնաբանությունների սյունը։
+Սահմանում է այն սյունը, որի տվյալները ցուցադրվում են DropDownView-ի «Անվանում» սյունակում։
+
+**Օրինակ**
+
+```c#
+public override ViewColumn CommentColumn => this.Columns[nameof(DataRow.Name)];
+```

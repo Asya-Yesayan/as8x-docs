@@ -14,4 +14,4 @@ grand_parent: "DropDownView"
 public IDropDownViewExtension Extension { get; set; }
 ```
 
-Վերադարձնում կամ նշանակում է բացվող ցուցակի դիտելու ձևի ընդլայնումը։ Ընդլայնումը կիրառվում է [ApplyExtension](../Methods/ApplyExtension.md) մեթոդի միջոցով։
+Վերադարձնում կամ նշանակում է DropDownView-ի ընդլայնումը։ Ընդլայնումը կիրառվում է [ApplyExtension](../Methods/ApplyExtension.md) մեթոդի միջոցով։

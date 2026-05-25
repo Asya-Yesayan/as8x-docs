@@ -16,7 +16,7 @@ public void ReloadRows(LoadSource source = LoadSource.None)
 
 Վերբեռնում է բացվող ցուցակի դիտելու ձևի տողերը։
 
-Մեթոդը մաքրում է ներկայիս տողերի ցուցակը, կրկին բեռնում է տողերը ([Extension](../Properties/Extension.md) հատկության միջոցով, եթե այն նշանակված է), ապա թարմացնում է CodeDictionary բառարանը [CodeIsUnique](../Properties/CodeIsUnique.md) հատկության true արժեքի դեպքում։
+Մեթոդը մաքրում է ներկայիս տողերի ցուցակը, կրկին բեռնում է տողերը ([Extension](../Properties/Extension.md) հատկության միջոցով, եթե այն նշանակված է), ապա թարմացնում է CodeDictionary Dictionary-ն [CodeIsUnique](../Properties/CodeIsUnique.md) հատկության true արժեքի դեպքում։
 
 **Պարամետրեր**
 

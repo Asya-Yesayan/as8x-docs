@@ -11,7 +11,9 @@ grand_parent: "DropDownView"
 **Դաս՝** [DropDownView](../DropDownView.md)
 
 ```c#
-public override bool Enable2LineHeaders { get; }
+public virtual bool Enable2LineHeaders { get; }
 ```
 
-Վերադարձնում է **true**։ Բացվող ցուցակի դիտելու ձևում սյուների վերնագրերը ցուցադրվում են 2 տողով։
+Սահմանում է, արդյոք DropDownView-ի սյուների վերնագրերը ցուցադրվելու են 2 տողով։ Հատկության լռությամբ արժեքը true է:
+
+Հատկության false արժեքի դեպքում վերնագրերը ցուցադրվում են մի տողով։

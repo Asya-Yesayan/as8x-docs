@@ -14,6 +14,10 @@ grand_parent: "DropDownView"
 public virtual bool EditEnabled { get; }
 ```
 
-Սահմանում է բացվող ցուցակի դիտելու ձևի ընթացիկ տողի խմբագրման հասանելիության իրավասությունը՝ [EditSupported](EditSupported.md) հատկության հետ համատեղ։
+Սահմանում է DropDownView-ի ընթացիկ տողի խմբագրման իրավասությունը` [EditSupported](EditSupported.md) հատկության հետ համատեղ: Հատկության լռությամբ արժեքը համընկնում է [EditSupported](EditSupported.md) հատկության արժեքի հետ։
 
-Հատկությունը չմշակելու դեպքում վերադարձնում է [EditSupported](EditSupported.md) հատկության արժեքը։
+* Եթե `EditSupported=true` և `EditEnabled=true`, ապա DropDownView-ում ցուցադրվում է «Խմբագրել (Ctrl + E)» կոճակը, որը հասանելի է կատարման համար։
+* Եթե `EditSupported=true` և `EditEnabled=false`, ապա DropDownView-ում ցուցադրվում է «Խմբագրել (Ctrl + E)» կոճակը, սակայն հասանելի չէ կատարման համար (ցուցադրվում է readonly ռեժիմով)։
+* Եթե `EditSupported=false`, ապա DropDownView-ում չի ցուցադրվում «Խմբագրել (Ctrl + E)» կոճակը։
+
+«Խմբագրել (Ctrl + E)» կոճակի կատարման արդյունքում բացվող խմբագրման պատուհանը սահմանվում է [`Edit`](../Methods/Edit.md) մեթոդով: 

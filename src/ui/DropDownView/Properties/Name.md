@@ -11,9 +11,18 @@ grand_parent: "DropDownView"
 **Դաս՝** [DropDownView](../DropDownView.md)
 
 ```c#
-public override string Name { get; }
+public virtual string Name { get; }
 ```
 
-Վերադարձնում է բացվող ցուցակի դիտելու ձևի ներքին անունը, որը համընկնում է DropDownView ատրիբուտում նշված անվան հետ։
+Սահմանում է DropDownView-ի ներքին անունը: Հատկության լռությամբ արժեքը համընկնում է DropDownView ատրիբուտում նշված անվան հետ։
 
-DropDownView ատրիբուտի բացակայության դեպքում այս հատկությանը դիմելիս առաջանում է **InvalidOperationException** տիպի սխալ։
+Եթե DropDownView-ն նկարագրող դասում բացակայում է DropDownView ատրիբուտը և հատկությունը override չի արվել, ապա այս հատկությանը դիմելիս առաջանում է InvalidOperationException տիպի սխալ։
+
+**Օրինակ**
+
+```c#
+[DropDownView(nameof(ActivationConditions),
+                  ArmenianCaption = "Ակտիվացման պայմաններ",
+                  EnglishCaption = "Activation conditions",
+                  SupportsExtensions = false)]
+```

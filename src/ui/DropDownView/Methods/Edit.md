@@ -37,3 +37,28 @@ public virtual bool Edit(ref string value,
 **Վերադարձնում է**
 
 **true**, եթե արժեքը հաջողությամբ խմբագրվել է, հակառակ դեպքում՝ **false**։
+
+**Օրինակ**
+
+```c#
+public override bool EditSupported => true;
+
+public override bool Edit(ref string value, ref string comment, Window owner, double top, double left)
+{
+    bool result = false;
+    var skillDoc = (Skill)DocumentHelper.LoadFromFolder(FolderIdSE.Skill, value);
+    if (!Settings.HostingEnvironment.NavigatorPanel.GetAvailableDocumentsNames().Contains(DocumentNameSE.Job))
+    {
+        result = skillDoc.ShowDialog(true, owner, top, left);
+    }
+    else
+    {
+        if (skillDoc.ShowDialog(false, owner, top, left))
+        {
+            value = skillDoc.Code;
+            comment = skillDoc.Name;
+        }
+    }
+    return result;
+}
+```

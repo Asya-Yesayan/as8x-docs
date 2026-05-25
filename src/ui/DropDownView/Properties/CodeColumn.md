@@ -14,6 +14,10 @@ grand_parent: "DropDownView"
 public abstract ViewColumn CodeColumn { get; }
 ```
 
-Սահմանում է բացվող ցուցակի դիտելու ձևի կոդերի սյունը։
+Սահմանում է այն սյունը, որի տվյալները ցուցադրվում են DropDownView-ի «Կոդ» սյունակում։
 
-CodeColumn հատկության null արժեքի դեպքում ստուգման ժամանակ առաջանում է **InvalidOperationException** տիպի սխալ։
+**Օրինակ**
+
+```c#
+public override ViewColumn CodeColumn => this.Columns[nameof(DataRow.Code)];
+```

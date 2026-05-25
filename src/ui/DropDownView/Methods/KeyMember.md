@@ -27,3 +27,14 @@ public virtual object KeyMember(int index)
 **Վերադարձնում է**
 
 Տրված ինդեքսով տողի բանալի արժեքը։
+
+**Օրինակ**
+
+```c#
+public override ViewColumn KeyColumn => this.Columns[nameof(DataRow.ISN)];
+
+public override object KeyMember(int index)
+{
+    return this.Rows[index].ISN;
+}
+```

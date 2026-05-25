@@ -25,3 +25,12 @@ public abstract string CodeMember(int index)
 **Վերադարձնում է**
 
 Տրված ինդեքսով տողի կոդի արժեքը։
+
+**Օրինակ**
+
+```c#
+public override string CodeMember(int index)
+{
+    return this.Rows[index].Code;
+}
+```

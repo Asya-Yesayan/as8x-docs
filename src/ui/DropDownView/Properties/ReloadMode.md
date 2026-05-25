@@ -23,3 +23,9 @@ public virtual ReloadMode ReloadMode { get; }
 - **None** — տողերի վերբեռնումը չի կատարվում ավտոմատ։
 - **ReloadAlways** — տողերը միշտ վերբեռնվում են։
 - **Reloadable** — տողերը կարող են վերբեռնվել, երբ դա պահանջվում է։
+
+**Օրինակ**
+
+```c#
+public override ReloadMode ReloadMode => ReloadMode.None;
+```

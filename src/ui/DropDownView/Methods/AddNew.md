@@ -18,18 +18,16 @@ public virtual bool AddNew(ref string value,
                            double left)
 ```
 
-Սահմանում է բացվող ցուցակի դիտելու ձևից նոր արժեքի ավելացման գործողությունը։
+Սահմանում է DropDownView-ի «Ավելացնել» կոճակի կատարման արդյունքում բացվող պատուհանը։
 
-Մեթոդը չմշակելու դեպքում առաջանում է **NotImplementedException** տիպի սխալ։
-
-Գործողության հասանելիությունը կարգավորվում է [AddNewSupported](../Properties/AddNewSupported.md) և [AddNewEnabled](../Properties/AddNewEnabled.md) հատկությունների միջոցով։
+«Ավելացնել» կոճակի վարքագիծը կարգավորվում է [AddNewSupported](../Properties/AddNewSupported.md) [AddNewEnabled](../Properties/AddNewEnabled.md) հատկությունների միջոցով։
 
 **Պարամետրեր**
 
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 | --- | --- | --- | --- |
-| value | string | - | Ավելացվող արժեքի կոդը։ Գործողության ավարտից հետո կարող է փոփոխվել ավելացված արժեքով։ |
-| comment | string | - | Ավելացվող արժեքի մեկնաբանությունը։ Գործողության ավարտից հետո կարող է փոփոխվել։ |
+| value | string | - | Ավելացվող տողի «Կոդ» սյան արժեքը։ Գործողության ավարտից հետո կարող է փոփոխվել ավելացված արժեքով։ |
+| comment | string | - | Ավելացվող տողի «Անվանում» սյան արժեքը։ Գործողության ավարտից հետո կարող է փոփոխվել։ |
 | owner | Window | - | Գործողությունը բացող պատուհանը։ |
 | top | double | - | Popup պատուհանի վերին կողմի կոորդինատը էկրանի նկատմամբ։ |
 | left | double | - | Popup պատուհանի ձախ կողմի կոորդինատը էկրանի նկատմամբ։ |
@@ -37,3 +35,28 @@ public virtual bool AddNew(ref string value,
 **Վերադարձնում է**
 
 **true**, եթե նոր արժեքը հաջողությամբ ավելացվել է, հակառակ դեպքում՝ **false**։
+
+**Օրինակ**
+
+```c#
+public override bool AddNewSupported => true;
+
+public override bool AddNew(ref string value, ref string comment, Window owner, double top, double left)
+{
+    var dialog = new CloudCustomerAddEditDialog(DialogWindowMode.NewMode, null, null)
+    {
+        Owner = owner,
+        WindowStartupLocation = WindowStartupLocation.Manual,
+        Left = left,
+        Top = top
+    };
+    if ((bool)dialog.ShowDialog())
+    {
+        ReloadRows();
+        value = dialog.Code;
+        comment = dialog.Comment;
+        return true;
+    }
+    return false;
+}
+```

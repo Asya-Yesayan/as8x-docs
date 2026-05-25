@@ -14,6 +14,6 @@ grand_parent: "DropDownView"
 public Dictionary<string, int> CodeDictionary { get; protected set; }
 ```
 
-Վերադարձնում է բացվող ցուցակի դիտելու ձևի կոդերի՝ ըստ տողի ինդեքսի համապատասխանեցման բառարանը։
+Վերադարձնում կամ նշանակում է DropDownView-ի կոդերի և դրանց համապատասխանող տողերի ինդեքսների Dictionary-ն։ Dictionary-ն լրացվում է [ReloadRows](../Methods/ReloadRows.md) մեթոդի կանչից հետո, երբ [CodeIsUnique](CodeIsUnique.md) հատկության արժեքը **true** է։
 
-Բառարանը լրացվում է [ReloadRows](../Methods/ReloadRows.md) մեթոդի կանչից հետո, երբ [CodeIsUnique](CodeIsUnique.md) հատկության արժեքը **true** է։ Կոնստրուկտորում նախնական արժեքը **null** է։
+Օգտագործվում է [GetRowByCode](../Methods/GetRowByCode.md) մեթոդի կողմից՝ կոդի հիման վրա տողի արագ որոնում իրականացնելու նպատակով։

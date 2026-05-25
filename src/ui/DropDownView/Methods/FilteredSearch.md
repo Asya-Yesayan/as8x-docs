@@ -37,3 +37,27 @@ public virtual bool FilteredSearch(ref string value,
 **Վերադարձնում է**
 
 **true**, եթե որոնումը հաջողությամբ ավարտվել է և արժեքը ընտրվել է, հակառակ դեպքում՝ **false**։
+
+**Օրինակ**
+
+```c#
+public override bool FilteredSearchSupported => true;
+
+public override bool FilteredSearch(ref string value, ref string comment, Window owner, double top, double left)
+{
+    var dialog = new FilteredSearchWindow(this.SystemFilters)
+    {
+        Owner = owner,
+        WindowStartupLocation = WindowStartupLocation.Manual,
+        Left = left,
+        Top = top
+    };
+    if ((bool)dialog.ShowDialog())
+    {
+        value = dialog.SelectedCode;
+        comment = dialog.SelectedComment;
+        return true;
+    }
+    return false;
+}
+```
