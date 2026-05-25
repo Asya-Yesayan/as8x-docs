@@ -21,16 +21,16 @@ has_toc: false
 
 | Անվանում | Նկարագրություն |
 |----------|----------------|
-| [AddNew(ref string, ref string, Window, double, double)](Methods/AddNew.md) | Սահմանում է բացվող ցուցակի դիտելու ձևից նոր արժեքի ավելացման գործողությունը։ |
-| [ApplyExtension(bool)](Methods/ApplyExtension.md) | Կիրառում է բացվող ցուցակի դիտելու ձևին կցված ընդլայնումը ([Extension](Properties/Extension.md))։ |
-| [CodeMember(int)](Methods/CodeMember.md) | Սահմանում է բացվող ցուցակի դիտելու ձևի՝ տրված ինդեքսով տողի կոդի արժեքը։ |
-| [CommentMember(int)](Methods/CommentMember.md) | Սահմանում է բացվող ցուցակի դիտելու ձևի՝ տրված ինդեքսով տողի մեկնաբանության արժեքը։ |
-| [Edit(ref string, ref string, Window, double, double)](Methods/Edit.md) | Սահմանում է բացվող ցուցակի դիտելու ձևից ընտրված արժեքի խմբագրման գործողությունը։ |
-| [FilteredSearch(ref string, ref string, Window, double, double)](Methods/FilteredSearch.md) | Սահմանում է բացվող ցուցակի դիտելու ձևի ֆիլտրացված որոնման գործողությունը։ |
+| [AddNew(ref string, ref string, Window, double, double)](Methods/AddNew.md) | Սահմանում է DropDownView-ից նոր արժեքի ավելացման գործողությունը։ |
+| [ApplyExtension(bool)](Methods/ApplyExtension.md) | Կիրառում է DropDownView-ին կցված ընդլայնումը ([Extension](Properties/Extension.md))։ |
+| [CodeMember(int)](Methods/CodeMember.md) | Սահմանում է DropDownView-ի՝ տրված ինդեքսով տողի կոդի արժեքը։ |
+| [CommentMember(int)](Methods/CommentMember.md) | Սահմանում է DropDownView-ի՝ տրված ինդեքսով տողի մեկնաբանության արժեքը։ |
+| [Edit(ref string, ref string, Window, double, double)](Methods/Edit.md) | Սահմանում է DropDownView-ից ընտրված արժեքի խմբագրման գործողությունը։ |
+| [FilteredSearch(ref string, ref string, Window, double, double)](Methods/FilteredSearch.md) | Սահմանում է DropDownView-ի ֆիլտրացված որոնման գործողությունը։ |
 | [GetRowByCode(string)](Methods/GetRowByCode.md) | Վերադարձնում է DropDownView-ի տրված կոդին համապատասխանող տողը։ |
-| [KeyMember(int)](Methods/KeyMember.md) | Սահմանում է բացվող ցուցակի դիտելու ձևի՝ տրված ինդեքսով տողի բանալու արժեքը։ |
-| [ReloadRows(LoadSource)](Methods/ReloadRows.md) | Վերբեռնում է բացվող ցուցակի դիտելու ձևի տողերը։ |
-| [Validate(ref string)](Methods/Validate.md) | Սահմանում է բացվող ցուցակի դիտելու ձևի համար տրված արժեքի վավերականության ստուգման գործողությունը։ |
+| [KeyMember(int)](Methods/KeyMember.md) | Սահմանում է DropDownView-ի՝ տրված ինդեքսով տողի բանալու արժեքը։ |
+| [ReloadRows(LoadSource)](Methods/ReloadRows.md) | Վերբեռնում է DropDownView-ի տողերը։ |
+| [Validate(ref string)](Methods/Validate.md) | Սահմանում է DropDownView-ի համար տրված արժեքի վավերականության ստուգման գործողությունը։ |
 
 ## Հատկություններ
 
@@ -48,11 +48,11 @@ has_toc: false
 | [Extension](Properties/Extension.md) | Վերադարձնում կամ նշանակում է DropDownView-ի ընդլայնումը։ |
 | [FilteredSearchEnabled](Properties/FilteredSearchEnabled.md) | Սահմանում է DropDownView-ի ֆիլտրացված որոնման իրավասությունը՝ [FilteredSearchSupported](Properties/FilteredSearchSupported.md) հատկության հետ համատեղ։ |
 | [FilteredSearchSupported](Properties/FilteredSearchSupported.md) | Սահմանում է DropDownView-ի ֆիլտրացված որոնման իրավասությունը՝ [FilteredSearchEnabled](Properties/FilteredSearchEnabled.md) հատկության հետ համատեղ։ |
-| [KeyColumn](Properties/KeyColumn.md) | Սահմանում է բացվող ցուցակի դիտելու ձևի բանալի սյունը։ |
+| [KeyColumn](Properties/KeyColumn.md) | Սահմանում է DropDownView-ի բանալի սյունը։ |
 | [Name](Properties/Name.md) | Սահմանում է DropDownView-ի ներքին անունը: |
-| [ReloadMode](Properties/ReloadMode.md) | Սահմանում է բացվող ցուցակի դիտելու ձևի տողերի թարմացման ռեժիմը։ |
+| [ReloadMode](Properties/ReloadMode.md) | Սահմանում է DropDownView-ի տողերի թարմացման ռեժիմը։ |
 | [SupportsExtensions](Properties/SupportsExtensions.md) | Սահմանում է DropDownView-ի ընդլայնման իրավասությունը։ |
 | [SystemFilters](Properties/SystemFilters.md) | Սահմանում է DropDownView-ի համակարգային ֆիլտրերի հավաքածուն։ |
 | [UseFilters](Properties/UseFilters.md) | Սահմանում է DropDownView-ում ֆիլտրների կիրառման իրավասությունը։ |
-| [Validator](Properties/Validator.md) | Վերադարձնում է բացվող ցուցակի դիտելու ձևի արժեքների վավերականության ստուգիչը։ |
+| [Validator](Properties/Validator.md) | Վերադարձնում է DropDownView-ի արժեքների վավերականության ստուգիչը։ |
 | [ValueDoesNotExistInTheListMessage](Properties/ValueDoesNotExistInTheListMessage.md) | Սահմանում է բացվող ցուցակում արժեքի բացակայության դեպքում ցուցադրվող հաղորդագրությունը։ |

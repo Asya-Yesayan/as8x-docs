@@ -14,7 +14,7 @@ grand_parent: "DropDownView"
 public virtual ViewColumn KeyColumn { get; }
 ```
 
-Սահմանում է բացվող ցուցակի դիտելու ձևի բանալի սյունը։ Հատկության լռությամբ արժեքը null է:
+Սահմանում է DropDownView-ի բանալի սյունը։ Հատկության լռությամբ արժեքը null է:
 
 **Օրինակ**
 

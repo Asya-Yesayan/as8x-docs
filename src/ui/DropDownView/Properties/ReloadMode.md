@@ -14,7 +14,7 @@ grand_parent: "DropDownView"
 public virtual ReloadMode ReloadMode { get; }
 ```
 
-Սահմանում է բացվող ցուցակի դիտելու ձևի տողերի թարմացման ռեժիմը։
+Սահմանում է DropDownView-ի տողերի թարմացման ռեժիմը։
 
 Հատկությունը չմշակելու դեպքում ViewSource-ը SmartEnum լինելու դեպքում վերադարձնում է ReloadMode.None, հակառակ դեպքում՝ ReloadMode.Reloadable։
 

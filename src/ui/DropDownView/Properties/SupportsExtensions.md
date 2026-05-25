@@ -14,7 +14,7 @@ grand_parent: "DropDownView"
 public virtual bool SupportsExtensions { get; }
 ```
 
-Վերադարձնում է բացվող ցուցակի դիտելու ձևի ընդլայնման իրավասությունը, որը համընկնում է DropDownView ատրիբուտի SupportsExtensions հատկության արժեքի հետ։
+Վերադարձնում է DropDownView-ի ընդլայնման իրավասությունը, որը համընկնում է DropDownView ատրիբուտի SupportsExtensions հատկության արժեքի հետ։
 
 DropDownView ատրիբուտի բացակայության դեպքում վերադարձնում է **false**։
 

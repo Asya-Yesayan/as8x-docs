@@ -18,7 +18,7 @@ public virtual bool FilteredSearch(ref string value,
                                   double left)
 ```
 
-Սահմանում է բացվող ցուցակի դիտելու ձևի ֆիլտրացված որոնման գործողությունը։
+Սահմանում է DropDownView-ի ֆիլտրացված որոնման գործողությունը։
 
 Մեթոդը չմշակելու դեպքում առաջանում է **NotImplementedException** տիպի սխալ։
 
