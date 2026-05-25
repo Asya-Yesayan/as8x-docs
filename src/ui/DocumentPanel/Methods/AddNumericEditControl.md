@@ -28,10 +28,10 @@ public NumericEditControl AddNumericEditControl(string name,
 
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 | --- | --- | --- | --- |
-| name | string | — | Դաշտի ներքին անունը։ |
-| caption | string | — | Դաշտի գլխագիրը։ |
-| isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է։ |
-| length | short | — | Դաշտում թույլատրելի թվանշանների ընդհանուր քանակը։ |
+| name | string | - | Դաշտի ներքին անունը։ |
+| caption | string | - | Դաշտի գլխագիրը։ |
+| isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է լրացման համար։ |
+| length | short | - | Դաշտում թույլատրելի թվանշանների ընդհանուր քանակը։ |
 | precision | short | 0 | Տասնորդական մասի թվանշանների քանակը։ |
 | dataItemName | string | null | Տվյալների աղբյուրի ներքին անունը։ |
 | allowNegativeNumbers | bool | false | **true** արժեքի դեպքում թույլատրված են բացասական արժեքները։ |

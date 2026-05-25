@@ -14,4 +14,4 @@ grand_parent: "DocumentPanel"
 public event CallErrorOnSaveExceptionEventEventHandler CallErrorOnSaveExceptionEvent
 ```
 
-Առաջանում է է փաստաթղթի պահպանման ընթացքում առաջացած **DocumentException** կամ **ASException** տիպի սխալի դեպքում։ Իրադարձության մշակիչը տրամադրվում է [CallErrorOnSaveExceptionEventEventHandler](../Delegates/CallErrorOnSaveExceptionEventEventHandler.md) Delegate-ով։
+Առաջանում է փաստաթղթի պահպանման ընթացքում առաջացած **DocumentException** կամ **ASException** տիպի սխալի դեպքում։ Իրադարձության մշակիչը սահմանվում է [CallErrorOnSaveExceptionEventEventHandler](../Delegates/CallErrorOnSaveExceptionEventEventHandler.md) Delegate-ի միջոցով։

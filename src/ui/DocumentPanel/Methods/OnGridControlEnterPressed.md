@@ -21,5 +21,5 @@ protected internal void OnGridControlEnterPressed(object sender,
 
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 | --- | --- | --- | --- |
-| sender | object | — | Իրադարձության աղբյուրը։ |
-| e | EventArgs | — | Իրադարձության պարամետրերի օբյեկտը։ |
+| sender | object | - | Իրադարձության աղբյուրը։ |
+| e | EventArgs | - | Իրադարձության պարամետրերի օբյեկտը։ |

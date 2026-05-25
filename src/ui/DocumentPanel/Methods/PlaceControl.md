@@ -3,6 +3,7 @@ title: PlaceControl
 parent: "Մեթոդներ"
 grand_parent: "DocumentPanel"
 ---
+
 # DocumentPanel&lt;T&gt;.PlaceControl մեթոդ
 
 ## Գերբեռնումներ
@@ -13,33 +14,41 @@ grand_parent: "DocumentPanel"
 | [PlaceControl(LayoutGroup, string)](#documentpanelplacecontrollayoutgroup-string-մեթոդ) | Տրված ներքին անունով դաշտը տեղադրում է վահանակում՝ նշված դասավորման խմբում։ |
 
 ### DocumentPanel.PlaceControl(LayoutGroup, Control, LayoutGroup, bool) մեթոդ
+
 **Դաս՝** [DocumentPanel](../DocumentPanel.md)
+
 ```c#
 public void PlaceControl(LayoutGroup verticalContainer,
                          Control control,
                          LayoutGroup horizontalContainer = null,
                          bool showCaption = true)
 ```
+
 Տրված դաշտը տեղադրում է վահանակում՝ ուղղահայաց և հորիզոնական դասավորման խմբերում։ **horizontalContainer** պարամետրի **null** արժեքի դեպքում ավտոմատ կերպով ստեղծվում է հորիզոնական դասավորման խումբ։ **showCaption** պարամետրի **false** արժեքի դեպքում դաշտի դասավորման տարրի գլխագիրը մաքրվում է։
 
 **Պարամետրեր**
+
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 | --- | --- | --- | --- |
-| verticalContainer | LayoutGroup | — | Ուղղահայաց ծնող դասավորման խումբը։ |
-| control | Control | — | Տեղադրվող դաշտը։ |
+| verticalContainer | LayoutGroup | - | Ուղղահայաց ծնող դասավորման խումբը։ |
+| control | Control | - | Տեղադրվող դաշտը։ |
 | horizontalContainer | LayoutGroup | null | Հորիզոնական դասավորման խումբը։ **null** արժեքի դեպքում ավտոմատ կերպով ստեղծվում է նոր խումբ։ |
 | showCaption | bool | true | **true** արժեքի դեպքում ցուցադրվում է դաշտի գլխագիրը, **false** արժեքի դեպքում՝ թաքնված է։ |
 
 ### DocumentPanel.PlaceControl(LayoutGroup, string) մեթոդ
+
 **Դաս՝** [DocumentPanel](../DocumentPanel.md)
+
 ```c#
 protected void PlaceControl(LayoutGroup container,
                             string controlName)
 ```
+
 Տրված ներքին անունով դաշտը տեղադրում է վահանակում՝ նշված դասավորման խմբում։
 
 **Պարամետրեր**
+
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 | --- | --- | --- | --- |
-| container | LayoutGroup | — | Ծնող դասավորման խումբը։ |
-| controlName | string | — | Տեղադրվող դաշտի ներքին անունը։ |
+| container | LayoutGroup | - | Ծնող դասավորման խումբը։ |
+| controlName | string | - | Տեղադրվող դաշտի ներքին անունը։ |

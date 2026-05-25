@@ -22,6 +22,6 @@ public LayoutGroup AddTabbedGroup(string name,
 
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 | --- | --- | --- | --- |
-| name | string | — | թաբի ներքին անունը։ |
-| tc | DXTabControl | — | թաբը, որին ավելացվում է թաբը։ |
-| header | string | — | թաբի վերնագիրը։ |
+| name | string | - | թաբի ներքին անունը։ |
+| tc | DXTabControl | - | թաբը, որին ավելացվում է թաբը։ |
+| header | string | - | թաբի վերնագիրը։ |

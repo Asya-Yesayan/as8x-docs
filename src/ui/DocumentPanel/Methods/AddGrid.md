@@ -24,13 +24,13 @@ public DocumentGridControl AddGrid(GridInfo gridInfo,
                                    bool isSupportDialogMode = false)
 ```
 
-Փաստաթղթի վահանակում ավելացնում է աղյուսակ (**DocumentGridControl**) և վերադարձնում է այն՝ աղյուսակի տեղեկատվության օբյեկտից վերցված կարգավորումներով և սյունակներով։ Աղյուսակի սխեմայում **AllowSort** հայտանիշի **true** արժեքի դեպքում սյունակները դարձվում են դասավորելի։
+Փաստաթղթի վահանակում ավելացնում է աղյուսակ (**DocumentGridControl**) և վերադարձնում է այն։ Աղյուսակի սխեմայում **AllowSort** հայտանիշի **true** արժեքի դեպքում սյունակները դարձվում են սորտավորվող։
 
 **Պարամետրեր**
 
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 | --- | --- | --- | --- |
-| gridInfo | GridInfo | — | Աղյուսակի տեղեկատվության օբյեկտը՝ պարունակող սխեման և սյունակները։ |
+| gridInfo | GridInfo | - | Աղյուսակի տեղեկատվության օբյեկտը՝ պարունակող սխեման և սյունակները։ |
 | horizontalAlignment | HorizontalAlignment | HorizontalAlignment.Stretch | Աղյուսակի հորիզոնական դասավորման ռեժիմը։ |
 | verticalAlignment | VerticalAlignment | VerticalAlignment.Stretch | Աղյուսակի ուղղահայաց դասավորման ռեժիմը։ |
 | isSupportDialogMode | bool | false | **true** արժեքի դեպքում աղյուսակը կարգավորվում է երկխոսության պատուհանում աշխատելու համար։ |
@@ -54,9 +54,9 @@ public DocumentGridControl AddGrid(string name,
 
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 | --- | --- | --- | --- |
-| name | string | — | Աղյուսակի ներքին անունը։ |
-| caption | string | — | Աղյուսակի գլխագիրը։ |
-| horizontalAlignment | HorizontalAlignment | — | Աղյուսակի հորիզոնական դասավորման ռեժիմը։ |
-| verticalAlignment | VerticalAlignment | — | Աղյուսակի ուղղահայաց դասավորման ռեժիմը։ |
+| name | string | - | Աղյուսակի ներքին անունը։ |
+| caption | string | - | Աղյուսակի գլխագիրը։ |
+| horizontalAlignment | HorizontalAlignment | - | Աղյուսակի հորիզոնական դասավորման ռեժիմը։ |
+| verticalAlignment | VerticalAlignment | - | Աղյուսակի ուղղահայաց դասավորման ռեժիմը։ |
 | dataItemName | string | null | Տվյալների աղբյուրի ներքին անունը։ |
 | isSupportDialogMode | bool | false | **true** արժեքի դեպքում աղյուսակը կարգավորվում է երկխոսության պատուհանում աշխատելու համար։ |

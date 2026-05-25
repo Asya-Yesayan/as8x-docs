@@ -21,15 +21,16 @@ public ButtonEditExt AddButtonEdit(string name,
                                    StringRestriction stringRestriction = StringRestriction.CanBeConvertedToArmenianANSI)
 ```
 
-Փաստաթղթի վահանակում ավելացնում է կից կոճակներով տեքստային մուտքագրման դաշտ (**ButtonEditExt**) և վերադարձնում է այն։ 
+Փաստաթղթի վահանակում ավելացնում է տեքստային մուտքագրման դաշտ (**ButtonEditExt**) և վերադարձնում է այն։ 
 
 **Պարամետրեր**
+
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 | --- | --- | --- | --- |
-| name | string | — | Դաշտի ներքին անունը։ |
-| caption | string | — | Դաշտի գլխագիրը։ |
-| isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է։ |
-| length | short | — | Դաշտում թույլատրելի նիշերի առավելագույն քանակը։ |
+| name | string | - | Դաշտի ներքին անունը։ |
+| caption | string | - | Դաշտի գլխագիրը։ |
+| isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է լրացման համար։ |
+| length | short | — | Մուտքագրման տեքստի առավելագույն երկարությունը։ |
 | dataItemName | string | null | Տվյալների աղբյուրի ներքին անունը։ |
 | estimatedButtonsCount | short | 1 | Դաշտին կից կոճակների ակնկալվող քանակը, որի հիման վրա հաշվարկվում է դաշտի լայնությունը։ |
 | horizontalAlignment | HorizontalAlignment | HorizontalAlignment.Left | Դաշտի հորիզոնական դասավորման ռեժիմը։ |

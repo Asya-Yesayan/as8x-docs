@@ -14,4 +14,4 @@ grand_parent: "DocumentPanel"
 public event PreviewKeyDownControlKeyGEventHandler PreviewKeyDownControlKeyG
 ```
 
-Առաջանում է է փաստաթղթի վահանակում **Ctrl+G** shortcut-ի սեղմման դեպքում։ Իրադարձության մշակիչը տրամադրվում է [PreviewKeyDownControlKeyGEventHandler](../Delegates/PreviewKeyDownControlKeyGEventHandler.md) Delegate-ով։
+Առաջանում է փաստաթղթի վահանակում **Ctrl+G** shortcut-ի սեղմման դեպքում։ Իրադարձության մշակիչը սահմանվում է [PreviewKeyDownControlKeyGEventHandler](../Delegates/PreviewKeyDownControlKeyGEventHandler.md) Delegate-ի միջոցով։

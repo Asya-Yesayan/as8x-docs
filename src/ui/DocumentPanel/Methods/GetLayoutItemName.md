@@ -20,7 +20,7 @@ protected static string GetLayoutItemName(string name)
 
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 | --- | --- | --- | --- |
-| name | string | — | Դաշտի ներքին անունը։ |
+| name | string | - | Դաշտի ներքին անունը։ |
 
 **Վերադարձնում է**
 

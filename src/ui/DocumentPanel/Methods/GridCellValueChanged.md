@@ -21,5 +21,5 @@ protected internal void GridCellValueChanged(object sender,
 
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 | --- | --- | --- | --- |
-| sender | object | — | Իրադարձության աղբյուրը։ |
-| e | CellValueChangedEventArgs | — | Վանդակի արժեքի փոփոխման իրադարձության պարամետրերի օբյեկտը։ |
+| sender | object | - | Իրադարձության աղբյուրը։ |
+| e | CellValueChangedEventArgs | - | Վանդակի արժեքի փոփոխման իրադարձության պարամետրերի օբյեկտը։ |

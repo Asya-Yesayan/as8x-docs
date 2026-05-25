@@ -14,5 +14,6 @@ grand_parent: "DocumentPanel"
 protected virtual void OnCtrlF11()
 ```
 
-Սահմանում է **Ctrl+F11** shortcut-ի մշակումը։
+Սահմանում է **Ctrl+F11** shortcut-ի սեղմման ժամանակ կատարվող գործողությունը։
+
 Մեթոդը չմշակելու դեպքում որևէ գործողություն չի կատարվում։

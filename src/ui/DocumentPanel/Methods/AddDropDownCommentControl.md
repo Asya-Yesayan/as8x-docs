@@ -26,14 +26,15 @@ public DropDownCommentControl AddDropDownCommentControl(string name,
 Փաստաթղթի վահանակում ավելացնում է մեկնաբանությամբ բացվող ցուցակ (**DropDownCommentControl**) և վերադարձնում է այն։
 
 **Պարամետրեր**
+
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 | --- | --- | --- | --- |
-| name | string | — | Դաշտի ներքին անունը։ |
-| caption | string | — | Դաշտի գլխագիրը։ |
-| isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է։ |
-| idv | IDropDownView | — | Բացվող ցուցակի տեսքի օբյեկտը։ |
-| length | short | Constants.Common.LenComment | Կոդի դաշտում թույլատրելի նիշերի առավելագույն քանակը։ |
-| commentLength | short | 0 | Մեկնաբանության դաշտում թույլատրելի նիշերի առավելագույն քանակը։ |
+| name | string | - | Դաշտի ներքին անունը։ |
+| caption | string | - | Դաշտի գլխագիրը։ |
+| isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է լրացման համար։ |
+| idv | IDropDownView | - | Բացվող ցուցակի դիտելու ձևը։ |
+| length | short | Constants.Common.LenComment | «Կոդ» սյան թույլատրելի նիշերի առավելագույն քանակը։ |
+| commentLength | short | 0 | «Անվանում» սյան թույլատրելի նիշերի առավելագույն քանակը։ |
 | dataItemName | string | null | Տվյալների աղբյուրի ներքին անունը։ |
 | estimatedButtonsCount | short | 1 | Դաշտին կից կոճակների ակնկալվող քանակը, որի հիման վրա հաշվարկվում է դաշտի լայնությունը։ |
 | horizontalAlignment | HorizontalAlignment | HorizontalAlignment.Left | Դաշտի հորիզոնական դասավորման ռեժիմը։ |

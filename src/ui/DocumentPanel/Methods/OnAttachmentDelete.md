@@ -15,9 +15,11 @@ public virtual void OnAttachmentDelete(OnAttachmentDeleteEventArgs eventArgs)
 ```
 
 Սահմանում է կցորդի հեռացման իրադարձության մշակումը։
+
 Մեթոդը չմշակելու դեպքում որևէ գործողություն չի կատարվում։
 
 **Պարամետրեր**
+
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 | --- | --- | --- | --- |
-| eventArgs | OnAttachmentDeleteEventArgs | — | Կցորդի հեռացման իրադարձության պարամետրերի օբյեկտը։ |
+| eventArgs | OnAttachmentDeleteEventArgs | - | Կցորդի հեռացման իրադարձության պարամետրերի օբյեկտը։ |

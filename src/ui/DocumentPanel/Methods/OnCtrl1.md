@@ -14,5 +14,6 @@ grand_parent: "DocumentPanel"
 protected virtual void OnCtrl1()
 ```
 
-Սահմանում է **Ctrl+1** shortcut-ի մշակումը։
+Սահմանում է **Ctrl+1** shortcut-ի սեղմման ժամանակ կատարվող գործողությունը։
+
 Մեթոդը չմշակելու դեպքում որևէ գործողություն չի կատարվում։

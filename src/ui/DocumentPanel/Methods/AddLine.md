@@ -9,6 +9,7 @@ grand_parent: "DocumentPanel"
 ## Նկարագիր
 
 **Դաս՝** [DocumentPanel](../DocumentPanel.md)
+
 ```c#
 public HorizontalLineControl AddLine(LayoutGroup container,
                                      string caption = null,
@@ -16,12 +17,13 @@ public HorizontalLineControl AddLine(LayoutGroup container,
                                      string name = null)
 ```
 
-Փաստաթղթի վահանակում ավելացնում է հորիզոնական գիծ (**HorizontalLineControl**) և վերադարձնում է այն՝ տրված գլխագրով։ **name** պարամետրի դատարկ արժեքի դեպքում ավտոմատ կերպով ստեղծվում է եզակի անուն՝ վահանակում առկա գծերի առավելագույն հերթական համարին **1** գումարելով։
+Փաստաթղթի վահանակում ավելացնում է հորիզոնական բաժանարար գիծ (**HorizontalLineControl**) և վերադարձնում է այն։
 
 **Պարամետրեր**
+
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 | --- | --- | --- | --- |
-| container | LayoutGroup | — | Ծնող դասավորման խումբը։ **null** արժեքի դեպքում գիծը ավելացվում է վահանակի հիմնական դասավորման տարրին։ |
+| container | LayoutGroup | - | Ծնող դասավորման խումբը։ **null** արժեքի դեպքում գիծը ավելացվում է վահանակի հիմնական դասավորման տարրին։ |
 | caption | string | null | Գծի վրա ցուցադրվող գլխագիրը։ |
 | captionAlignment | LineCaptionAlignment | 0 | Գլխագրի հորիզոնական դասավորության ռեժիմը։ |
 | name | string | null | Գծի ներքին անունը։ Դատարկ արժեքի դեպքում անունը ավտոմատ կերպով գեներացվում է։ |

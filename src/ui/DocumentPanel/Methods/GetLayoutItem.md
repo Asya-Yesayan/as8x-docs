@@ -27,7 +27,7 @@ public LayoutItemWithRequired GetLayoutItem(Control control)
 
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 | --- | --- | --- | --- |
-| control | Control | — | Փնտրվող դաշտը։ |
+| control | Control | - | Փնտրվող դաշտը։ |
 
 **Վերադարձնում է**
 
@@ -47,7 +47,7 @@ public LayoutItemWithRequired GetLayoutItem(string controlName)
 
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 | --- | --- | --- | --- |
-| controlName | string | — | Փնտրվող դաշտի ներքին անունը։ |
+| controlName | string | - | Փնտրվող դաշտի ներքին անունը։ |
 
 **Վերադարձնում է**
 

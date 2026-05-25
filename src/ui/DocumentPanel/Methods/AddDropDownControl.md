@@ -23,12 +23,13 @@ public DropDownControl AddDropDownControl(string name,
 Փաստաթղթի վահանակում ավելացնում է բացվող ցուցակ (**DropDownControl**) և վերադարձնում է այն։
 
 **Պարամետրեր**
+
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 | --- | --- | --- | --- |
-| name | string | — | Դաշտի ներքին անունը։ |
-| caption | string | — | Դաշտի գլխագիրը։ |
-| isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է։ |
-| idv | IDropDownView | — | Բացվող ցուցակի տեսքի օբյեկտը։ |
+| name | string | - | Դաշտի ներքին անունը։ |
+| caption | string | - | Դաշտի գլխագիրը։ |
+| isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է լրացման համար։ |
+| idv | IDropDownView | - | Բացվող ցուցակի դիտելու ձևը։ |
 | dataItemName | string | null | Տվյալների աղբյուրի ներքին անունը։ |
-| allowAdditionButtons | bool | false | **true** արժեքի դեպքում դաշտին ավելացվում են լրացուցիչ կոճակներ։ |
+| allowAdditionButtons | bool | false | **true** արժեքի դեպքում դաշտին ավելացվում են լրացուցիչ կոճակներ (ավելացում, խմբագրում, ․․․)։ |
 | horizontalAlignment | HorizontalAlignment | HorizontalAlignment.Left | Դաշտի հորիզոնական դասավորման ռեժիմը։ |

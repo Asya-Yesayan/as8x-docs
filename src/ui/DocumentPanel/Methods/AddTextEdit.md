@@ -20,15 +20,16 @@ public TextEditExt AddTextEdit(string name,
                                StringRestriction stringRestriction = StringRestriction.CanBeConvertedToArmenianANSI)
 ```
 
-Փաստաթղթի վահանակում ավելացնում է տեքստային մուտքագրման դաշտ (**TextEditExt**) և վերադարձնում է այն։ Դաշտի լայնությունը հաշվարկվում է տրված առավելագույն երկարության հիման վրա, եթե հորիզոնական դասավորման ռեժիմը **Stretch** չէ։
+Փաստաթղթի վահանակում ավելացնում է տեքստային մուտքագրման դաշտ (**TextEditExt**) և վերադարձնում է այն։ Դաշտի լայնությունը հաշվարկվում է տրված առավելագույն երկարության (length) հիման վրա, եթե հորիզոնական դասավորման ռեժիմը **HorizontalAlignment.Stretch** չէ։
 
 **Պարամետրեր**
+
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 | --- | --- | --- | --- |
-| name | string | — | Դաշտի ներքին անունը։ |
-| caption | string | — | Դաշտի գլխագիրը։ |
-| isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է։ |
-| length | short | — | Դաշտում թույլատրելի նիշերի առավելագույն քանակը։ |
+| name | string | - | Դաշտի ներքին անունը։ |
+| caption | string | - | Դաշտի գլխագիրը։ |
+| isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է լրացման համար։ |
+| length | short | — | Մուտքագրման տեքստի առավելագույն երկարությունը։ |
 | dataItemName | string | null | Տվյալների աղբյուրի ներքին անունը։ |
 | horizontalAlignment | HorizontalAlignment | HorizontalAlignment.Left | Դաշտի հորիզոնական դասավորման ռեժիմը։ |
 | stringRestriction | StringRestriction | StringRestriction.CanBeConvertedToArmenianANSI | Դաշտում լրացվող արժեքի կոդավորման սահմանափակում (Armenian ansi, Russian ansi): |

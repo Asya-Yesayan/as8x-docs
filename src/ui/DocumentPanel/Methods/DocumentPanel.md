@@ -14,4 +14,4 @@ grand_parent: "DocumentPanel"
 public DocumentPanel()
 ```
 
-Ստեղծում է **DocumentPanel** դասի օբյեկտ։ 
+Ստեղծում է DocumentPanel դասի օբյեկտ։ 

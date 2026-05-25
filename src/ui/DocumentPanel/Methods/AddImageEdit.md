@@ -23,12 +23,13 @@ public ImageEditExt AddImageEdit(string name,
 Փաստաթղթի վահանակում ավելացնում է պատկերի դաշտ (**ImageEditExt**) և վերադարձնում է այն։ Դաշտի առավելագույն չափը սահմանվում է [ImagesSizeLimitInKB](../Properties/ImagesSizeLimitInKB.md) հատկության արժեքով։
 
 **Պարամետրեր**
+
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 | --- | --- | --- | --- |
-| name | string | — | Դաշտի ներքին անունը։ |
-| caption | string | — | Դաշտի գլխագիրը։ |
-| width | double | — | Դաշտի առավելագույն լայնությունը՝ pixel-ով։ |
-| height | double | — | Դաշտի առավելագույն բարձրությունը՝ pixel-ով։ |
+| name | string | - | Դաշտի ներքին անունը։ |
+| caption | string | - | Դաշտի գլխագիրը։ |
+| width | double | - | Դաշտի առավելագույն լայնությունը՝ pixel-ներով։ |
+| height | double | - | Դաշտի առավելագույն բարձրությունը՝ pixel-ներով։ |
 | dataItemName | string | null | Տվյալների աղբյուրի ներքին անունը։ |
 | horizontalAlignment | HorizontalAlignment | HorizontalAlignment.Left | Դաշտի հորիզոնական դասավորման ռեժիմը։ |
 | stretch | Stretch | Stretch.Uniform | Պատկերի մասշտաբավորման ռեժիմը։ |

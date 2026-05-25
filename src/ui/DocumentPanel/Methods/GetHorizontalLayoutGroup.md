@@ -20,7 +20,7 @@ public LayoutGroup GetHorizontalLayoutGroup(Control control)
 
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 | --- | --- | --- | --- |
-| control | Control | — | Փնտրվող դաշտը։ |
+| control | Control | - | Փնտրվող դաշտը։ |
 
 **Վերադարձնում է**
 

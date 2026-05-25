@@ -3,11 +3,17 @@ title: OnShiftF8
 parent: "Մեթոդներ"
 grand_parent: "DocumentPanel"
 ---
+
 # DocumentPanel&lt;T&gt;.OnShiftF8() մեթոդ
+
 ## Նկարագիր
+
 **Դաս՝** [DocumentPanel](../DocumentPanel.md)
+
 ```c#
 protected virtual void OnShiftF8()
 ```
-Սահմանում է **Shift+F8** shortcut-ի մշակումը։
+
+Սահմանում է **Shift+F8** shortcut-ի սեղմման ժամանակ կատարվող գործողությունը։
+
 Մեթոդը չմշակելու դեպքում որևէ գործողություն չի կատարվում։

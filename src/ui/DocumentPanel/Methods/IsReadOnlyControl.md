@@ -20,7 +20,7 @@ protected bool IsReadOnlyControl(Control control)
 
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 | --- | --- | --- | --- |
-| control | Control | — | Ստուգվող դաշտը։ |
+| control | Control | - | Ստուգվող դաշտը։ |
 
 **Վերադարձնում է**
 

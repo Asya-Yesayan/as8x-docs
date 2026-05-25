@@ -26,9 +26,9 @@ public NumPairControl AddNumPairControl(string name,
 
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 | --- | --- | --- | --- |
-| name | string | — | Դաշտի ներքին անունը։ |
-| caption | string | — | Դաշտի գլխագիրը։ |
-| isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է։ |
+| name | string | - | Դաշտի ներքին անունը։ |
+| caption | string | - | Դաշտի գլխագիրը։ |
+| isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է լրացման համար։ |
 | separator | string | null | Թվային զույգի երկու մասերի միջև ցուցադրվող բաժանարարի տեքստը։ |
 | comment | string | null | Դաշտին կից մեկնաբանության տեքստը։ |
 | dataItemName | string | null | Տվյալների աղբյուրի ներքին անունը։ |

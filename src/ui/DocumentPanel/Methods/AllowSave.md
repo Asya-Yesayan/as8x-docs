@@ -14,9 +14,6 @@ grand_parent: "DocumentPanel"
 protected virtual bool AllowSave()
 ```
 
-Սահմանում է, արդյոք ընդհանուր առմամբ թույլատրված է փաստաթղթի պահպանումը։
-Մեթոդը չմշակելու դեպքում վերադարձնում է **true**։ Մեթոդի **false** արժեքով ձևափոխման դեպքում փաստաթղթի պահպանումը արգելվում է անկախ [AllowSaveButton](AllowSaveButton.md), [AllowSaveAndCloseButton](AllowSaveAndCloseButton.md) և [AllowNewAfterSave](AllowNewAfterSave.md) մեթոդների արժեքներից։
+Սահմանում է, արդյոք թույլատրված է փաստաթղթի պահպանումը։
 
-**Վերադարձնում է**
-
-**true** արժեքի դեպքում փաստաթղթի պահպանումը թույլատրված է, **false** արժեքի դեպքում՝ արգելված։
+Մեթոդը չմշակելու դեպքում վերադարձնում է **true**։ Մեթոդի **false** արժեքի դեպքում փաստաթղթի պահպանումը արգելվում է` անկախ [AllowSaveButton](AllowSaveButton.md), [AllowSaveAndCloseButton](AllowSaveAndCloseButton.md) և [AllowNewAfterSave](AllowNewAfterSave.md) մեթոդների արժեքներից։

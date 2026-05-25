@@ -26,10 +26,10 @@ public ComboBoxEditExt AddComboBoxEditControl(string name,
 
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 | --- | --- | --- | --- |
-| name | string | — | Դաշտի ներքին անունը։ |
-| caption | string | — | Դաշտի գլխագիրը։ |
-| length | short | — | Դաշտում թույլատրելի նիշերի առավելագույն քանակը։ |
-| isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է։ |
-| itemsSource | IEnumerable&lt;string&gt; | — | Բացվող ցուցակում ցուցադրվող արժեքների ցուցակը։ |
+| name | string | - | Դաշտի ներքին անունը։ |
+| caption | string | - | Դաշտի գլխագիրը։ |
+| length | short | — | Մուտքագրման տեքստի առավելագույն երկարությունը։ |
+| isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է լրացման համար։ |
+| itemsSource | IEnumerable&lt;string&gt; | - | Բացվող ցուցակում ցուցադրվող արժեքների ցուցակը։ |
 | dataItemName | string | null | Տվյալների աղբյուրի ներքին անունը։ |
 | horizontalAlignment | HorizontalAlignment | HorizontalAlignment.Left | Դաշտի հորիզոնական դասավորման ռեժիմը։ |

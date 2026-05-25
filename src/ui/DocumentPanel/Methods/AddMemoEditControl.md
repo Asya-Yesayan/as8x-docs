@@ -20,15 +20,16 @@ public MemoEditControl AddMemoEditControl(string name,
                                           StringRestriction stringRestriction = StringRestriction.CanBeConvertedToArmenianANSI)
 ```
 
-Փաստաթղթի վահանակում ավելացնում է բազմագիծ տեքստային դաշտ (**MemoEditControl**) և վերադարձնում է այն։ 
+Փաստաթղթի վահանակում ավելացնում է մեծ տեքստային դաշտ (**MemoEditControl**), որը թույլ է տալիս մուտքագրել բազմատող տեքստ և վերադարձնում է այն։ 
 
 **Պարամետրեր**
+
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 | --- | --- | --- | --- |
-| name | string | — | Դաշտի ներքին անունը։ |
-| caption | string | — | Դաշտի գլխագիրը։ |
-| isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է։ |
-| length | short | — | Դաշտում թույլատրելի նիշերի առավելագույն քանակը։ |
+| name | string | - | Դաշտի ներքին անունը։ |
+| caption | string | - | Դաշտի գլխագիրը։ |
+| isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է լրացման համար։ |
+| length | short | — | Մուտքագրման տեքստի առավելագույն երկարությունը։ |
 | dataItemName | string | null | Տվյալների աղբյուրի ներքին անունը։ |
 | horizontalAlignment | HorizontalAlignment | HorizontalAlignment.Stretch | Դաշտի հորիզոնական դասավորման ռեժիմը։ |
 | stringRestriction | StringRestriction | StringRestriction.CanBeConvertedToArmenianANSI | Դաշտում լրացվող արժեքի կոդավորման սահմանափակում (Armenian ansi, Russian ansi): |
