@@ -15,7 +15,7 @@ has_toc: false
 
 | Անվանում | Նկարագրություն |
 |----------|----------------|
-| [DropDownView()](Methods/DropDownView.md) | Ստեղծում է DropDownView դասի օբյեկտ և կոնստրուկտորում ստուգում է DropDownView ատրիբուտի առկայությունը։ |
+| [DropDownView()](Methods/DropDownView.md) | Ստեղծում է DropDownView դասի օբյեկտ։ |
 
 ## Մեթոդներ
 

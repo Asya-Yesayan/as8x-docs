@@ -14,6 +14,4 @@ grand_parent: "DropDownView"
 public virtual string ValueDoesNotExistInTheListMessage { get; }
 ```
 
-Սահմանում է բացվող ցուցակում արժեքի բացակայության դեպքում ցուցադրվող հաղորդագրությունը։
-
-Հատկությունը չմշակելու դեպքում վերադարձնում է Resources.SpecifiedValueDoesNotExistInTheList ռեսուրսի տեքստը։
+Սահմանում է DropDownView-ում արժեքի բացակայության դեպքում ցուցադրվող հաղորդագրությունը։
