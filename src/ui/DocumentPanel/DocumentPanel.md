@@ -137,7 +137,7 @@ nav_exclude: true
 | [SetControlsReadonly(bool, string[])](Methods/SetControlsReadonly.md#documentpanelsetcontrolsreadonlybool-string-մեթոդ) | Սահմանում է տրված ներքին անուններով դաշտերի միայն կարդալու վիճակի փոփոխությունը։ |
 | [SetControlsReadonlyExcept(bool, string[])](Methods/SetControlsReadonlyExcept.md) | Սահմանում է բոլոր դաշտերի միայն կարդալու վիճակի փոփոխությունը՝ բացառությամբ տրված ներքին անուններով դաշտերի։ |
 | [SetControlValue(Control, object)](Methods/SetControlValue.md) | Սահմանում է տրված դաշտին արժեք վերագրելու գործողությունները։ |
-| [SetFocus(Control, bool)](Methods/SetFocus.md) | Ֆոկուսը տեղափոխում է տրված դաշտի վրա՝ տրված ընտրելով դրա ամբողջական բովանդակությունը։ |
+| [SetFocus(Control, bool)](Methods/SetFocus.md) | Ֆոկուսը տեղափոխում է տրված դաշտի վրա։ |
 | [SetMinHeight(int)](Methods/SetMinHeight.md) | Սահմանում է փաստաթղթի վահանակի և իր ծնող պատուհանի նվազագույն բարձրությունը։ |
 | [SetMinWidth(int)](Methods/SetMinWidth.md) | Սահմանում է փաստաթղթի վահանակի և իր ծնող պատուհանի նվազագույն լայնությունը։ |
 | [ShowOnStatusBar(GridControl)](Methods/ShowOnStatusBar.md) | Տրված աղյուսակի ընթացիկ տողի և ընտրված տողերի թիվը ցուցադրում է պատուհանի status bar-ում։ |
@@ -161,7 +161,7 @@ nav_exclude: true
 | [HelpId](Properties/HelpId.md) | Սահմանում է փաստաթղթի օգնության նույնականացուցիչը։ |
 | [HelpID](Properties/HelpId.md) | Սահմանում է փաստաթղթի օգնության նույնականացուցիչը։ |
 | [HorizontalLayoutGroups](Properties/HorizontalLayoutGroups.md) | Վերադարձնում կամ նշանակում է վահանակում ստեղծված հորիզոնական դասավորման խմբերի Dictionary-ն։ |
-| [ImagesSizeLimitInKB](Properties/ImagesSizeLimitInKB.md) | Վերադարձնում է վահանակում ավելացված պատկերային դաշտերի համար թույլատրելի առավելագույն չափը՝ կիլոբայթերով։ |
+| [ImagesSizeLimitInKB](Properties/ImagesSizeLimitInKB.md) | Վերադարձնում է վահանակում ավելացված պատկերային դաշտերի (**ImageEditExt**) համար թույլատրելի առավելագույն չափը՝ կիլոբայթերով։ |
 | [IsChanged](Properties/IsChanged.md) | Վերադարձնում կամ նշանակում է փաստաթղթի փոփոխված լինելու հայտանիշը։ |
 | [IsDialog](Properties/IsDialog.md) | Վերադարձնում կամ նշանակում է վահանակը երկխոսության պատուհանում բացված լինելու հայտանիշը։ |
 | [IsLoadingDocumentToControls](Properties/IsLoadingDocumentToControls.md) | Վերադարձնում է **true**, եթե ընթացքում է փաստաթղթի արժեքների բեռնումը դաշտերի մեջ։ |
@@ -169,7 +169,7 @@ nav_exclude: true
 | [KeysToUpdate](Properties/KeysToUpdate.md) | Վերադարձնում կամ նշանակում է փաստաթղթի պահպանումից հետո թարմացման ենթակա ծնող վահանակի տողերի բանալիների բազմությունը։ |
 | [MainTabControl](Properties/MainTabControl.md) | Վերադարձնում է փաստաթղթի վահանակի հիմնական թաբը (**DXTabControl**)։ |
 | [NestedTransactionReport](Properties/NestedTransactionReport.md) | ձնում է փաստաթղթի պահպանման ընթացքում առաջացած NestedTransaction հաշվետվությունը։ |
-| [ParametersService](Properties/ParametersService.md) | Վերադարձնում է համակարգային պարամետրերի ծառայության (**IParametersService**) ընթացիկ օբյեկտը։ |
+| [ParametersService](Properties/ParametersService.md) | Վերադարձնում է համակարգային պարամետրերի սերվիսի (**IParametersService**) ընթացիկ օբյեկտը։ |
 | [ReadonlyAttachments](Properties/ReadonlyAttachments.md) | Սահմանում է կցված ֆայլերի վահանակը միայն կարդալու ռեժիմում բացված լինելու հայտանիշը։ |
 | [RegistryKey](Properties/RegistryKey.md) | Վերադարձնում կամ նշանակում է Windows registry-ում փաստաթղթի վահանակի կարգավորումները պահելու ենթաբանալին։ |
 | [SetFocusAfterInvalidSave](Properties/SetFocusAfterInvalidSave.md) | Վերադարձնում կամ նշանակում է անհաջող պահպանումից հետո ֆոկուսը տեղափոխվող դաշտը։ |

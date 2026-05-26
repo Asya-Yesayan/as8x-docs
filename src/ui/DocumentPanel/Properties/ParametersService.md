@@ -14,4 +14,4 @@ grand_parent: "DocumentPanel"
 protected IParametersService ParametersService { get; }
 ```
 
-Վերադարձնում է համակարգային պարամետրերի ծառայության (**IParametersService**) ընթացիկ օբյեկտը։ Այս հատկությունը արժեքավորվում է [DocumentPanel](../Methods/DocumentPanel.md) կոնստրուկտորում՝ DI կոնտեյներից ստացված ծառայության օբյեկտով։
+Վերադարձնում է համակարգային պարամետրերի սերվիսի (**IParametersService**) ընթացիկ օբյեկտը։ Այս հատկությունը արժեքավորվում է [DocumentPanel](../Methods/DocumentPanel.md) կոնստրուկտորում։
