@@ -56,3 +56,6 @@ has_toc: false
 | [UseFilters](Properties/UseFilters.md) | Սահմանում է DropDownView-ում ֆիլտրների կիրառման իրավասությունը։ |
 | [Validator](Properties/Validator.md) | Վերադարձնում է DropDownView-ի արժեքների վալիդատորը։ |
 | [ValueDoesNotExistInTheListMessage](Properties/ValueDoesNotExistInTheListMessage.md) | Սահմանում է բացվող ցուցակում արժեքի բացակայության դեպքում ցուցադրվող հաղորդագրությունը։ |
+
+
+
