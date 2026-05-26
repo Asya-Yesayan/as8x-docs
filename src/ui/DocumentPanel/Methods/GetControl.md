@@ -29,10 +29,6 @@ public Control GetControl(string name)
 | --- | --- | --- | --- |
 | name | string | - | Դաշտի ներքին անունը։ |
 
-**Վերադարձնում է**
-
-Տրված ներքին անունով **Control** դաշտը։
-
 ### DocumentPanel.GetControl&lt;C&gt;(string) մեթոդ
 
 **Դաս՝** [DocumentPanel](../DocumentPanel.md)
@@ -48,7 +44,3 @@ public C GetControl<C>(string name) where C : Control
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 | --- | --- | --- | --- |
 | name | string | - | Դաշտի ներքին անունը։ |
-
-**Վերադարձնում է**
-
-Տրված ներքին անունով **C** տիպի դաշտը։

@@ -21,7 +21,3 @@ public LayoutGroup GetHorizontalLayoutGroup(Control control)
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 | --- | --- | --- | --- |
 | control | Control | - | Փնտրվող դաշտը։ |
-
-**Վերադարձնում է**
-
-Դաշտին համապատասխանող **LayoutGroup** հորիզոնական դասավորման խումբը։

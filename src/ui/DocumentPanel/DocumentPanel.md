@@ -176,7 +176,7 @@ nav_exclude: true
 | [SaveAndNewDocument()](Methods/SaveAndNewDocument.md) | Պահպանում է փաստաթուղթը և սկսում նորի ստեղծումը՝ պատճենելով ընթացիկ փաստաթղթի բովանդակությունը։ |
 | [SaveDocument(bool)](Methods/SaveDocument.md) | Պահպանում է փաստաթուղթը։ |
 | [Scan(string)](Methods/Scan.md) | Սահմանում է սկաների տվյալների մշակումը։ |
-| [SetControlCaption(Control, string)](Methods/SetControlCaption.md) | Փոխում է տրված դաշտի դասավորման գլխագիրը։ |
+| [SetControlCaption(Control, string)](Methods/SetControlCaption.md) | Փոխում է տրված դաշտի գլխագիրը։ |
 | [SetControlReadonly(bool, Control)](Methods/SetControlReadonly.md#documentpanelsetcontrolreadonlybool-control-մեթոդ) | Սահմանում է տրված դաշտի միայն կարդալու վիճակի փոփոխությունը։ |
 | [SetControlReadonly(bool, string)](Methods/SetControlReadonly.md#documentpanelsetcontrolreadonlybool-string-մեթոդ) | Սահմանում է տրված ներքին անունով դաշտի միայն կարդալու վիճակի փոփոխությունը։ |
 | [SetControlsReadonly(bool)](Methods/SetControlsReadonly.md#documentpanelsetcontrolsreadonlybool-մեթոդ) | Սահմանում է փաստաթղթի բոլոր դաշտերի միայն կարդալու վիճակի փոփոխությունը։ |

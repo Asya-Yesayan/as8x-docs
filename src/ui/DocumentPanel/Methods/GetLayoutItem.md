@@ -29,10 +29,6 @@ public LayoutItemWithRequired GetLayoutItem(Control control)
 | --- | --- | --- | --- |
 | control | Control | - | Փնտրվող դաշտը։ |
 
-**Վերադարձնում է**
-
-Դաշտին համապատասխանող **LayoutItemWithRequired** դասավորման տարրը, կամ **null** դրա բացակայության դեպքում։
-
 ### DocumentPanel.GetLayoutItem(string) մեթոդ
 
 **Դաս՝** [DocumentPanel](../DocumentPanel.md)
@@ -48,7 +44,3 @@ public LayoutItemWithRequired GetLayoutItem(string controlName)
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 | --- | --- | --- | --- |
 | controlName | string | - | Փնտրվող դաշտի ներքին անունը։ |
-
-**Վերադարձնում է**
-
-Դաշտին համապատասխանող **LayoutItemWithRequired** դասավորման տարրը, կամ **null** դրա բացակայության դեպքում։
