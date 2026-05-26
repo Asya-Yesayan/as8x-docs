@@ -36,20 +36,20 @@ has_toc: false
 
 | Անվանում | Նկարագրություն |
 |----------|----------------|
-| [AddNewEnabled](Properties/AddNewEnabled.md) | Սահմանում է DropDownView-ում նոր տող ավելացնելու իրավասությունը` [AddNewSupported](Properties/AddNewSupported.md) հատկության հետ համատեղ: |
-| [AddNewSupported](Properties/AddNewSupported.md) | Սահմանում է DropDownView-ում նոր տող ավելացնելու իրավասությունը` [AddNewEnabled](Properties/AddNewEnabled.md) հատկության հետ համատեղ: |
-| [CodeColumn](Properties/CodeColumn.md) | Սահմանում է այն սյունը, որի տվյալները ցուցադրվում են DropDownView-ի «Կոդ» սյունակում։ |
-| [CodeDictionary](Properties/CodeDictionary.md) | Վերադարձնում կամ նշանակում է DropDownView-ի կոդերի և դրանց համապատասխանող տողերի ինդեքսների Dictionary-ն։ |
-| [CodeIsUnique](Properties/CodeIsUnique.md) | Սահմանում է, արդյոք DropDownView-ի «Կոդ» սյան արժեքները չկրկնվող են։ |
-| [CommentColumn](Properties/CommentColumn.md) | Սահմանում է այն սյունը, որի տվյալները ցուցադրվում են DropDownView-ի «Անվանում» սյունակում։ |
-| [EditEnabled](Properties/EditEnabled.md) | Սահմանում է DropDownView-ի ընթացիկ տողի խմբագրման իրավասությունը` [EditSupported](Properties/EditSupported.md) հատկության հետ համատեղ: |
-| [EditSupported](Properties/EditSupported.md) | Սահմանում է DropDownView-ի ընթացիկ տողի խմբագրման իրավասությունը` [EditEnabled](Properties/EditEnabled.md) հատկության հետ համատեղ: |
-| [Enable2LineHeaders](Properties/Enable2LineHeaders.md) | Սահմանում է, արդյոք DropDownView-ի սյուների վերնագրերը ցուցադրվելու են 2 տողով։ |
-| [Extension](Properties/Extension.md) | Վերադարձնում կամ նշանակում է DropDownView-ի ընդլայնումը։ |
+| [+AddNewEnabled](Properties/AddNewEnabled.md) | Սահմանում է DropDownView-ում նոր տող ավելացնելու իրավասությունը` [AddNewSupported](Properties/AddNewSupported.md) հատկության հետ համատեղ: |
+| [+AddNewSupported](Properties/AddNewSupported.md) | Սահմանում է DropDownView-ում նոր տող ավելացնելու իրավասությունը` [AddNewEnabled](Properties/AddNewEnabled.md) հատկության հետ համատեղ: |
+| [+CodeColumn](Properties/CodeColumn.md) | Սահմանում է այն սյունը, որի տվյալները ցուցադրվում են DropDownView-ի «Կոդ» սյունակում։ |
+| [+CodeDictionary](Properties/CodeDictionary.md) | Վերադարձնում կամ նշանակում է DropDownView-ի կոդերի և դրանց համապատասխանող տողերի ինդեքսների Dictionary-ն։ |
+| [+CodeIsUnique](Properties/CodeIsUnique.md) | Սահմանում է, արդյոք DropDownView-ի «Կոդ» սյան արժեքները չկրկնվող են։ |
+| [+CommentColumn](Properties/CommentColumn.md) | Սահմանում է այն սյունը, որի տվյալները ցուցադրվում են DropDownView-ի «Անվանում» սյունակում։ |
+| [+EditEnabled](Properties/EditEnabled.md) | Սահմանում է DropDownView-ի ընթացիկ տողի խմբագրման իրավասությունը` [EditSupported](Properties/EditSupported.md) հատկության հետ համատեղ: |
+| [+EditSupported](Properties/EditSupported.md) | Սահմանում է DropDownView-ի ընթացիկ տողի խմբագրման իրավասությունը` [EditEnabled](Properties/EditEnabled.md) հատկության հետ համատեղ: |
+| [+Enable2LineHeaders](Properties/Enable2LineHeaders.md) | Սահմանում է, արդյոք DropDownView-ի սյուների վերնագրերը ցուցադրվելու են 2 տողով։ |
+| [+Extension](Properties/Extension.md) | Վերադարձնում կամ նշանակում է DropDownView-ի ընդլայնումը։ |
 | [FilteredSearchEnabled](Properties/FilteredSearchEnabled.md) | Սահմանում է DropDownView-ի ֆիլտրացված որոնման իրավասությունը՝ [FilteredSearchSupported](Properties/FilteredSearchSupported.md) հատկության հետ համատեղ։ |
 | [FilteredSearchSupported](Properties/FilteredSearchSupported.md) | Սահմանում է DropDownView-ի ֆիլտրացված որոնման իրավասությունը՝ [FilteredSearchEnabled](Properties/FilteredSearchEnabled.md) հատկության հետ համատեղ։ |
 | [KeyColumn](Properties/KeyColumn.md) | Սահմանում է DropDownView-ի բանալի սյունը։ |
-| [Name](Properties/Name.md) | Սահմանում է DropDownView-ի ներքին անունը: |
+| [+Name](Properties/Name.md) | Սահմանում է DropDownView-ի ներքին անունը: |
 | [ReloadMode](Properties/ReloadMode.md) | Սահմանում է DropDownView-ի տողերի թարմացման ռեժիմը։ |
 | [SupportsExtensions](Properties/SupportsExtensions.md) | Սահմանում է DropDownView-ի ընդլայնման իրավասությունը։ |
 | [SystemFilters](Properties/SystemFilters.md) | Սահմանում է DropDownView-ի համակարգային ֆիլտրերի հավաքածուն։ |

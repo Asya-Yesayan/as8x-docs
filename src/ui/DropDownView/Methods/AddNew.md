@@ -20,7 +20,7 @@ public virtual bool AddNew(ref string value,
 
 Սահմանում է DropDownView-ի «Ավելացնել» կոճակի կատարման արդյունքում բացվող պատուհանը։
 
-«Ավելացնել» կոճակի վարքագիծը կարգավորվում է [AddNewSupported](../Properties/AddNewSupported.md) [AddNewEnabled](../Properties/AddNewEnabled.md) հատկությունների միջոցով։
+«Ավելացնել» կոճակի վարքագիծը կարգավորվում է [AddNewSupported](../Properties/AddNewSupported.md), [AddNewEnabled](../Properties/AddNewEnabled.md) հատկությունների միջոցով։
 
 **Պարամետրեր**
 
