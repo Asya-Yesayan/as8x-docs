@@ -21,16 +21,3 @@ public abstract string CodeMember(int index)
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 | --- | --- | --- | --- |
 | index | int | - | Տողի ինդեքսը DropDownView-ի տողերի ցուցակում։ |
-
-**Վերադարձնում է**
-
-Տրված ինդեքսով տողի կոդի արժեքը։
-
-**Օրինակ**
-
-```c#
-public override string CodeMember(int index)
-{
-    return this.Rows[index].Code;
-}
-```

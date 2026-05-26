@@ -21,16 +21,3 @@ public abstract string CommentMember(int index)
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 | --- | --- | --- | --- |
 | index | int | - | Տողի ինդեքսը DropDownView-ի տողերի ցուցակում։ |
-
-**Վերադարձնում է**
-
-Տրված ինդեքսով տողի մեկնաբանության արժեքը։
-
-**Օրինակ**
-
-```c#
-public override string CommentMember(int index)
-{
-    return this.Rows[index].Name;
-}
-```

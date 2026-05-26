@@ -31,28 +31,3 @@ public virtual bool AddNew(ref string value,
 | owner | Window | - | Գործողությունը բացող պատուհանը։ |
 | top | double | - | Popup պատուհանի վերին կողմի կոորդինատը էկրանի նկատմամբ։ |
 | left | double | - | Popup պատուհանի ձախ կողմի կոորդինատը էկրանի նկատմամբ։ |
-
-**Օրինակ**
-
-```c#
-public override bool AddNewSupported => true;
-
-public override bool AddNew(ref string value, ref string comment, Window owner, double top, double left)
-{
-    var dialog = new CloudCustomerAddEditDialog(DialogWindowMode.NewMode, null, null)
-    {
-        Owner = owner,
-        WindowStartupLocation = WindowStartupLocation.Manual,
-        Left = left,
-        Top = top
-    };
-    if ((bool)dialog.ShowDialog())
-    {
-        ReloadRows();
-        value = dialog.Code;
-        comment = dialog.Comment;
-        return true;
-    }
-    return false;
-}
-```

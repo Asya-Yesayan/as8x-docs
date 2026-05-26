@@ -23,18 +23,3 @@ public virtual object KeyMember(int index)
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 | --- | --- | --- | --- |
 | index | int | - | Տողի ինդեքսը DropDownView-ի տողերի ցուցակում։ |
-
-**Վերադարձնում է**
-
-Տրված ինդեքսով տողի բանալի արժեքը։
-
-**Օրինակ**
-
-```c#
-public override ViewColumn KeyColumn => this.Columns[nameof(DataRow.ISN)];
-
-public override object KeyMember(int index)
-{
-    return this.Rows[index].ISN;
-}
-```
