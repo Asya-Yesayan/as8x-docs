@@ -14,7 +14,7 @@ grand_parent: "DocumentPanel"
 public virtual void OnAttachmentDelete(OnAttachmentDeleteEventArgs eventArgs)
 ```
 
-Սահմանում է կցորդի հեռացման իրադարձության մշակումը։
+Սահմանում է փաստաթղթի կցված ֆայլի հեռացման իրադարձության մշակումը։
 
 Մեթոդը չմշակելու դեպքում որևէ գործողություն չի կատարվում։
 
@@ -22,4 +22,4 @@ public virtual void OnAttachmentDelete(OnAttachmentDeleteEventArgs eventArgs)
 
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 | --- | --- | --- | --- |
-| eventArgs | OnAttachmentDeleteEventArgs | - | Կցորդի հեռացման իրադարձության պարամետրերի օբյեկտը։ |
+| eventArgs | OnAttachmentDeleteEventArgs | - | Կցված ֆայլի հեռացման իրադարձության պարամետրերի օբյեկտը։ |

@@ -14,4 +14,4 @@ grand_parent: "DocumentPanel"
 public DXTabControl MainTabControl { get; }
 ```
 
-Վերադարձնում է վահանակի հիմնական թաբը (**DXTabControl**)։ Հատկության արժեքը նշանակվում է [AddDXTabControl](../Methods/AddDXTabControl.md) մեթոդի առաջին կանչից, որի **name** պարամետրը դատարկ է։
+Վերադարձնում է փաստաթղթի վահանակի հիմնական թաբը (**DXTabControl**)։ Հատկության արժեքը նշանակվում է [AddDXTabControl](../Methods/AddDXTabControl.md) մեթոդի առաջին կանչից։

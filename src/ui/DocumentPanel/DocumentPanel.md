@@ -44,7 +44,7 @@ nav_exclude: true
 | [AddMemoEditControl(string, string, bool, short, string, HorizontalAlignment, StringRestriction)](Methods/AddMemoEditControl.md) | Փաստաթղթի վահանակում ավելացնում է մեծ տեքստային դաշտ (**MemoEditControl**), որը թույլ է տալիս մուտքագրել բազմատող տեքստ և վերադարձնում է այն։  |
 | [AddMultiSelectDropDownControl(string, string, bool, IDropDownView, string, HorizontalAlignment)](Methods/AddMultiSelectDropDownControl.md) | Փաստաթղթի վահանակում ավելացնում է բազմակի ընտրությամբ բացվող ցուցակ (**MultiSelectDropDownControl**)։ |
 | [AddNumericEditControl(string, string, bool, short, short, string, bool, bool, HorizontalAlignment)](Methods/AddNumericEditControl.md) | Փաստաթղթի վահանակում ավելացնում է թվային դաշտ (**NumericEditControl**)։ |
-| [AddNumPairControl(string, string, bool, string, string, string, HorizontalAlignment)](Methods/AddNumPairControl.md) | Փաստաթղթի վահանակում ավելացնում է թվային զույգի դաշտ (**NumPairControl**)։ |
+| [AddNumPairControl(string, string, bool, string, string, string, HorizontalAlignment)](Methods/AddNumPairControl.md) | Երկխոսության պատուհանում ավելացնում է թվային զույգ դաշտ (**NumPairControl**), որը թույլ է տալիս մուտքագրել երկու թիվ՝ բաժանված բաժանարարով և վերադարձնում է այն։ |
 | [AddPathEdit(string, string, short, DialogType, bool, string, string, HorizontalAlignment)](Methods/AddPathEdit.md) | Փաստաթղթի վահանակում ավելացնում է ֆայլի/թղթապանակի ուղու ընտրման դաշտ (**BrowsePathEditExt**)։ |
 | [AddSimpleDropDown(string, string, bool, short, short, string, short, HorizontalAlignment, StringRestriction)](Methods/AddSimpleDropDown.md) | Փաստաթղթի վահանակում ավելացնում է պարզ բացվող ցուցակ (**SimpleDropDown**)։ |
 | [AddTabbedGroup(string, DXTabControl, string)](Methods/AddTabbedGroup.md) | թաբին ավելացնում է նոր թաբ (**DXTabItem**) և վերադարձնում է դրա պարունակության դասավորման խումբը։ |
@@ -95,7 +95,7 @@ nav_exclude: true
 | [LockControls(bool)](Methods/LockControls.md) | Բոլոր դաշտերը դարձնում է միայն կարդալու։ |
 | [LockControlsExcept(bool, string[])](Methods/LockControlsExcept.md) | Բոլոր դաշտերը դարձնում է միայն կարդալու՝ բացառությամբ տրված ներքին անուններով դաշտերի։ |
 | [MakeWindowTitle()](Methods/MakeWindowTitle.md) | Թարմացնում է փաստաթղթի պատուհանի վերնագիրը և տպման կոճակների վիճակը։ |
-| [OnAttachmentDelete(OnAttachmentDeleteEventArgs)](Methods/OnAttachmentDelete.md) | Սահմանում է կցորդի հեռացման իրադարձության մշակումը։ |
+| [OnAttachmentDelete(OnAttachmentDeleteEventArgs)](Methods/OnAttachmentDelete.md) | Սահմանում է փաստաթղթի կցված ֆայլի հեռացման իրադարձության մշակումը։ |
 | [OnCtrl1()](Methods/OnCtrl1.md) | Սահմանում է **Ctrl1** shortcut-ի սեղմման ժամանակ կատարվող գործողությունը։ |
 | [OnCtrlF11()](Methods/OnCtrlF11.md) | Սահմանում է **CtrlF11** shortcut-ի սեղմման ժամանակ կատարվող գործողությունը։ |
 | [OnCtrlF9()](Methods/OnCtrlF9.md) | Սահմանում է **CtrlF9** shortcut-ի սեղմման ժամանակ կատարվող գործողությունը։ |
@@ -167,17 +167,17 @@ nav_exclude: true
 | [IsLoadingDocumentToControls](Properties/IsLoadingDocumentToControls.md) | Վերադարձնում է **true**, եթե ընթացքում է փաստաթղթի արժեքների բեռնումը դաշտերի մեջ։ |
 | [IsReadOnly](Properties/IsReadOnly.md) | Վերադարձնում կամ նշանակում է փաստաթղթի վահանակի միայն կարդալու վիճակի հայտանիշը։ |
 | [KeysToUpdate](Properties/KeysToUpdate.md) | Վերադարձնում կամ նշանակում է փաստաթղթի պահպանումից հետո թարմացման ենթակա ծնող վահանակի տողերի բանալիների բազմությունը։ |
-| [MainTabControl](Properties/MainTabControl.md) | Վերադարձնում է վահանակի հիմնական թաբը (**DXTabControl**)։ |
-| [NestedTransactionReport](Properties/NestedTransactionReport.md) | Վերադարձնում է փաստաթղթի պահպանման ընթացքում առաջացած ներդրված տրանզակցիայի հաշվետվությունը։ |
+| [MainTabControl](Properties/MainTabControl.md) | Վերադարձնում է փաստաթղթի վահանակի հիմնական թաբը (**DXTabControl**)։ |
+| [NestedTransactionReport](Properties/NestedTransactionReport.md) | ձնում է փաստաթղթի պահպանման ընթացքում առաջացած NestedTransaction հաշվետվությունը։ |
 | [ParametersService](Properties/ParametersService.md) | Վերադարձնում է համակարգային պարամետրերի ծառայության (**IParametersService**) ընթացիկ օբյեկտը։ |
-| [ReadonlyAttachments](Properties/ReadonlyAttachments.md) | Սահմանում է կցորդների վահանակը միայն կարդալու ռեժիմում բացված լինելու հայտանիշը։ |
-| [RegistryKey](Properties/RegistryKey.md) | Վերադարձնում կամ նշանակում է registry-ում փաստաթղթի վահանակի կարգավորումները պահելու ենթաբանալին։ |
+| [ReadonlyAttachments](Properties/ReadonlyAttachments.md) | Սահմանում է կցված ֆայլերի վահանակը միայն կարդալու ռեժիմում բացված լինելու հայտանիշը։ |
+| [RegistryKey](Properties/RegistryKey.md) | Վերադարձնում կամ նշանակում է Windows registry-ում փաստաթղթի վահանակի կարգավորումները պահելու ենթաբանալին։ |
 | [SetFocusAfterInvalidSave](Properties/SetFocusAfterInvalidSave.md) | Վերադարձնում կամ նշանակում է անհաջող պահպանումից հետո ֆոկուսը տեղափոխվող դաշտը։ |
 | [SetFocusOnActivation](Properties/SetFocusOnActivation.md) | Վերադարձնում կամ նշանակում է վահանակի ակտիվացման ընթացքում ֆոկուսը տեղափոխվող դաշտը։ |
-| [ShowTitleDetails](Properties/ShowTitleDetails.md) | Սահմանում է փաստաթղթի պատուհանի վերնագրում ISN-ի և վիճակի ցուցադրման հայտանիշը։ |
+| [ShowTitleDetails](Properties/ShowTitleDetails.md) | Սահմանում է փաստաթղթի պատուհանի գլխագրում ISN-ի և վիճակի (նոր, դիտում, խմբագրում) ցուցադրման հայտանիշը։  |
 | [SkipReadOnlyControlsValidation](Properties/SkipReadOnlyControlsValidation.md) | Սահմանում է վալիդացման ընթացքում միայն կարդալու վիճակում գտնվող դաշտերը բացառելու հայտանիշը։ |
 | [SupportDocumentOperationsArgs](Properties/SupportDocumentOperationsArgs.md) | Վերադարձնում կամ նշանակում է փաստաթղթի գործողություններին ուղեկցող կոճակների կարգավորումների օբյեկտը։ |
-| [Title](Properties/Title.md) | Սահմանում է փաստաթղթի պատուհանի հիմնական վերնագիրը։ |
+| [Title](Properties/Title.md) | Սահմանում է փաստաթղթի պատուհանի գլխագիրը։ |
 | [Window](Properties/Window.md) | Վերադարձնում է վահանակը պարունակող փաստաթղթի պատուհանը (**DocumentWindow**)։ |
 
 ## Իրադարձություններ
