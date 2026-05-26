@@ -21,11 +21,11 @@ has_toc: false
 
 | Անվանում | Նկարագրություն |
 |----------|----------------|
-| [AddNew(ref string, ref string, Window, double, double)](Methods/AddNew.md) | Սահմանում է DropDownView-ից նոր արժեքի ավելացման գործողությունը։ |
+| [AddNew(ref string, ref string, Window, double, double)](Methods/AddNew.md) | Սահմանում է DropDownView-ի «Ավելացնել» կոճակի կատարման արդյունքում բացվող պատուհանը։ |
 | [ApplyExtension(bool)](Methods/ApplyExtension.md) | Կիրառում է DropDownView-ին կցված ընդլայնումը ([Extension](Properties/Extension.md))։ |
 | [CodeMember(int)](Methods/CodeMember.md) | Սահմանում է DropDownView-ի՝ տրված ինդեքսով տողի կոդի արժեքը։ |
 | [CommentMember(int)](Methods/CommentMember.md) | Սահմանում է DropDownView-ի՝ տրված ինդեքսով տողի մեկնաբանության արժեքը։ |
-| [Edit(ref string, ref string, Window, double, double)](Methods/Edit.md) | Սահմանում է DropDownView-ից ընտրված արժեքի խմբագրման գործողությունը։ |
+| [Edit(ref string, ref string, Window, double, double)](Methods/Edit.md) | Սահմանում է DropDownView-ի «Խմբագրել» կոճակի կատարման արդյունքում բացվող պատուհանը։ |
 | [FilteredSearch(ref string, ref string, Window, double, double)](Methods/FilteredSearch.md) | Սահմանում է DropDownView-ի ֆիլտրացված որոնման գործողությունը։ |
 | [GetRowByCode(string)](Methods/GetRowByCode.md) | Վերադարձնում է DropDownView-ի տրված կոդին համապատասխանող տողը։ |
 | [KeyMember(int)](Methods/KeyMember.md) | Սահմանում է DropDownView-ի՝ տրված ինդեքսով տողի բանալու արժեքը։ |
