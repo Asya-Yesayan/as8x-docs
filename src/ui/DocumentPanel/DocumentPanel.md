@@ -87,7 +87,6 @@ nav_exclude: true
 | [AddGrid(string, string, HorizontalAlignment, VerticalAlignment, string, bool)](Methods/AddGrid.md#documentpaneladdgridstring-string-horizontalalignment-verticalalignment-string-bool-մեթոդ) | Փաստաթղթի վահանակում ավելացնում է աղյուսակ (**DocumentGridControl**)՝ տրված անվանումով և գլխագրով։ |
 | [AddImageEdit(string, string, double, double, string, HorizontalAlignment, Stretch)](Methods/AddImageEdit.md) | Փաստաթղթի վահանակում ավելացնում է պատկերի դաշտ (**ImageEditExt**)։ |
 | [AddLayoutGroup(string, LayoutGroup, LayoutGroupView, Orientation, string)](Methods/AddLayoutGroup.md) | Փաստաթղթի վահանակում ավելացնում է դասավորման խումբ (**LayoutGroup**)։ |
-| [AddLayoutItem(string, Control, string, HorizontalAlignment, bool)](Methods/AddLayoutItem.md) | Տրված դաշտի շուրջ ստեղծում է դասավորման տարր (**LayoutItemWithRequired**)՝ գլխագրով և պարտադիր լինելու հայտանիշի կապով։ |
 | [AddLine(LayoutGroup, string, LineCaptionAlignment, string)](Methods/AddLine.md) | Փաստաթղթի վահանակում ավելացնում է հորիզոնական բաժանարար գիծ (**HorizontalLineControl**) և վերադարձնում է այն։ |
 | [AddMemoEditControl(string, string, bool, short, string, HorizontalAlignment, StringRestriction)](Methods/AddMemoEditControl.md) | Փաստաթղթի վահանակում ավելացնում է մեծ տեքստային դաշտ (**MemoEditControl**), որը թույլ է տալիս մուտքագրել բազմատող տեքստ և վերադարձնում է այն։  |
 | [AddMultiSelectDropDownControl(string, string, bool, IDropDownView, string, HorizontalAlignment)](Methods/AddMultiSelectDropDownControl.md) | Փաստաթղթի վահանակում ավելացնում է բազմակի ընտրությամբ բացվող ցուցակ (**MultiSelectDropDownControl**)։ |
@@ -135,7 +134,6 @@ nav_exclude: true
 | [GetLayoutItem(string)](Methods/GetLayoutItem.md#documentpanelgetlayoutitemstring-մեթոդ) | Վերադարձնում է տրված ներքին անունով դաշտի դասավորման տարրը (**LayoutItemWithRequired**)։ |
 | [GetLayoutItemName(string)](Methods/GetLayoutItemName.md) | Վերադարձնում է տրված ներքին անունից բխող դասավորման տարրի անունը։ |
 | [GetTabGroup(string)](Methods/GetTabGroup.md) | Վերադարձնում է տրված ներքին անունով թաբի պարունակության դասավորման տարրը։ |
-| [GridCellValueChanged(object, CellValueChangedEventArgs)](Methods/GridCellValueChanged.md) | Մշակում է աղյուսակի վանդակի արժեքի փոփոխման իրադարձությունը՝ նշելով, որ վահանակի վիճակը փոփոխվել է։ |
 | [HandleDocumentException(DocumentException)](Methods/HandleDocumentException.md) | Սահմանում է փաստաթղթի պահպանման ընթացքում առաջացած **DocumentException** տիպի սխալի մշակումը։ |
 | [IsReadOnlyControl(Control)](Methods/IsReadOnlyControl.md) | Վերադարձնում է **true**, եթե տրված դաշտը գտնվում է readOnly վիճակում։  |
 | [LoadDocumentToControls()](Methods/LoadDocumentToControls.md) | Սահմանում է փաստաթղթի արժեքները վահանակի դաշտերի մեջ բեռնելու գործողությունները։ |
@@ -155,8 +153,6 @@ nav_exclude: true
 | [OnF7()](Methods/OnF7.md) | Սահմանում է **F7** shortcut-ի սեղմման ժամանակ կատարվող գործողությունը։ |
 | [OnF8()](Methods/OnF8.md) | Սահմանում է **F8** shortcut-ի սեղմման ժամանակ կատարվող գործողությունը։ |
 | [OnF9()](Methods/OnF9.md) | Սահմանում է **F9** shortcut-ի սեղմման ժամանակ կատարվող գործողությունը։ |
-| [OnGridControlEnterPressed(object, EventArgs)](Methods/OnGridControlEnterPressed.md) | Մշակում է աղյուսակում **Enter** ստեղնի սեղմման իրադարձությունը՝ կատարելով փաստաթղթի պահպանում և փակում։ |
-| [OnGridEscapePressed(object, EventArgs)](Methods/OnGridEscapePressed.md) | Մշակում է աղյուսակում **Escape** ստեղնի սեղմման իրադարձությունը՝ փակելով փաստաթղթի պատուհանը։ |
 | [OnKeyDownEnterMoveNextTabItem(object, KeyEventArgs)](Methods/OnKeyDownEnterMoveNextTabItem.md) | Մշակում է թաբում **Enter** ստեղնի սեղմումը՝ տեղափոխելով ֆոկուսը հաջորդ դաշտի վրա։ |
 | [OnNew()](Methods/OnNew.md) | Սահմանում է նոր փաստաթղթի բացման ընթացքում կատարվող գործողությունները։ |
 | [OnNewAfterSave()](Methods/OnNewAfterSave.md) | Սահմանում է **«Պահպանել և նորը»** հրամանից հետո նոր փաստաթղթի բացման ընթացքում կատարվող գործողությունները։ |
