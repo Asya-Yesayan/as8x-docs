@@ -16,10 +16,10 @@ public void ReloadRows(LoadSource source = LoadSource.None)
 
 Վերբեռնում է DropDownView-ի տողերը։
 
-Մեթոդը մաքրում է ներկայիս տողերի ցուցակը, կրկին բեռնում է տողերը ([Extension](../Properties/Extension.md) հատկության միջոցով, եթե այն նշանակված է), ապա թարմացնում է CodeDictionary Dictionary-ն [CodeIsUnique](../Properties/CodeIsUnique.md) հատկության true արժեքի դեպքում։
+Մեթոդը մաքրում է տողերի ցուցակը, կրկին բեռնում է տողերը, ապա թարմացնում է [CodeDictionary](../Properties/CodeDictionary.md) Dictionary-ն՝ [CodeIsUnique](../Properties/CodeIsUnique.md) հատկության true արժեքի դեպքում։
 
 **Պարամետրեր**
 
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 | --- | --- | --- | --- |
-| source | LoadSource | LoadSource.None | Տողերի վերբեռնման աղբյուրը (օրինակ՝ վերաբեռնման կոճակ կամ դիալոգ)։ |
+| source | LoadSource | LoadSource.None | Տողերի վերբեռնման աղբյուրը: |

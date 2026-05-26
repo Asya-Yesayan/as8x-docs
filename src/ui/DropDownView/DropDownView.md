@@ -26,7 +26,7 @@ has_toc: false
 | [CodeMember(int)](Methods/CodeMember.md) | Սահմանում է DropDownView-ի՝ տրված ինդեքսով տողի կոդի արժեքը։ |
 | [CommentMember(int)](Methods/CommentMember.md) | Սահմանում է DropDownView-ի՝ տրված ինդեքսով տողի մեկնաբանության արժեքը։ |
 | [Edit(ref string, ref string, Window, double, double)](Methods/Edit.md) | Սահմանում է DropDownView-ի «Խմբագրել» կոճակի կատարման արդյունքում բացվող պատուհանը։ |
-| [FilteredSearch(ref string, ref string, Window, double, double)](Methods/FilteredSearch.md) | Սահմանում է DropDownView-ի ֆիլտրացված որոնման գործողությունը։ |
+| [FilteredSearch(ref string, ref string, Window, double, double)](Methods/FilteredSearch.md) | Սահմանում է DropDownView-ի «Որոնել» (ֆիլտրացված որոնում) կոճակի կատարման արդյունքում բացվող պատուհանը։ |
 | [GetRowByCode(string)](Methods/GetRowByCode.md) | Վերադարձնում է DropDownView-ի տրված կոդին համապատասխանող տողը։ |
 | [KeyMember(int)](Methods/KeyMember.md) | Սահմանում է DropDownView-ի՝ տրված ինդեքսով տողի բանալու արժեքը։ |
 | [ReloadRows(LoadSource)](Methods/ReloadRows.md) | Վերբեռնում է DropDownView-ի տողերը։ |
@@ -54,5 +54,5 @@ has_toc: false
 | [SupportsExtensions](Properties/SupportsExtensions.md) | Սահմանում է DropDownView-ի ընդլայնման իրավասությունը։ |
 | [SystemFilters](Properties/SystemFilters.md) | Սահմանում է DropDownView-ի համակարգային ֆիլտրերի հավաքածուն։ |
 | [UseFilters](Properties/UseFilters.md) | Սահմանում է DropDownView-ում ֆիլտրների կիրառման իրավասությունը։ |
-| [Validator](Properties/Validator.md) | Վերադարձնում է DropDownView-ի արժեքների վավերականության ստուգիչը։ |
+| [Validator](Properties/Validator.md) | Վերադարձնում է DropDownView-ի արժեքների վալիդատորը։ |
 | [ValueDoesNotExistInTheListMessage](Properties/ValueDoesNotExistInTheListMessage.md) | Սահմանում է բացվող ցուցակում արժեքի բացակայության դեպքում ցուցադրվող հաղորդագրությունը։ |
