@@ -10,7 +10,7 @@ grand_parent: "DocumentPanel"
 
 | Անվանում | Նկարագրություն |
 |----------|----------------|
-| [AddControl(Control)](#documentpaneladdcontrolcontrol-մեթոդ) | Գրանցում է տրված դաշտը վահանակի դաշտերի ցուցակում առանց տվյալների աղբյուրի կապի։ |
+| [AddControl(Control)](#documentpaneladdcontrolcontrol-մեթոդ) | Գրանցում է տրված դաշտը վահանակի դաշտերի ցուցակում։ |
 | [AddControl(Control, string, bool)](#documentpaneladdcontrolcontrol-string-bool-մեթոդ) | Գրանցում է տրված դաշտը վահանակի դաշտերի ցուցակում՝ տվյալների աղբյուրի ներքին անունով։ |
 | [AddControl(Control, string, Control, Control)](#documentpaneladdcontrolcontrol-string-control-control-մեթոդ) | Գրանցում է տրված դաշտը վահանակի դաշտերի ցուցակում՝ թաբերի վալիդացման համար նշված ենթադաշտերով։ |
 | [AddControl(FieldSchema)](#documentpaneladdcontrolfieldschema-մեթոդ) | Տրված դաշտի սխեմայի հիման վրա ավելացնում է համապատասխան տիպի դաշտ վահանակում և վերադարձնում է այն։ |
@@ -23,7 +23,7 @@ grand_parent: "DocumentPanel"
 protected void AddControl(Control control)
 ```
 
-Գրանցում է տրված դաշտը վահանակի դաշտերի ցուցակում առանց տվյալների աղբյուրի կապի։
+Գրանցում է տրված դաշտը վահանակի դաշտերի ցուցակում։
 
 **Պարամետրեր**
 
@@ -41,7 +41,7 @@ protected void AddControl(Control control,
                           bool registerForTabValidation = true)
 ```
 
-Գրանցում է տրված դաշտը վահանակի դաշտերի ցուցակում՝ տվյալների աղբյուրի ներքին անունով։ **registerForTabValidation** պարամետրի **true** արժեքի դեպքում դաշտը գրանցվում է որպես ինքնավալիդացվող թաբերի փոխարկման ընթացքում։
+Գրանցում է տրված դաշտը վահանակի դաշտերի ցուցակում՝ տվյալների աղբյուրի ներքին անունով։ 
 
 **Պարամետրեր**
 
@@ -81,7 +81,7 @@ protected void AddControl(Control control,
 public Control AddControl(FieldSchema fieldSchema)
 ```
 
-Տրված դաշտի սխեմայի հիման վրա ավելացնում է համապատասխան տիպի դաշտ վահանակում և վերադարձնում է այն։ Մեթոդը ընտրում է դաշտի տիպը ըստ **ControlHint** դաշտի (**DropDownControl**, **SimpleDropDown**, **MultiSelectDropDownControl**, **DropDownCommentControl**, **ButtonEditExt**) կամ դաշտի տիպի (**StringFieldType**, **BooleanFieldType**, **DateFieldType**, **NumericFieldType**, **TimeFieldType**, **TreeFieldType**, **FolderFieldType**, **CHFieldType**, **NumPairFieldType**, **FileFieldType**, **PathFieldType**)։ Չմշակվող դաշտի տիպի դեպքում առաջանում է **NotImplementedException** տիպի սխալ։
+Տրված դաշտի սխեմայի հիման վրա ավելացնում է համապատասխան տիպի դաշտ վահանակում և վերադարձնում է այն։ 
 
 **Պարամետրեր**
 

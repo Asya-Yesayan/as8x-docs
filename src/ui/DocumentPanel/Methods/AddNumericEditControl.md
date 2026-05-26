@@ -22,7 +22,7 @@ public NumericEditControl AddNumericEditControl(string name,
                                                 HorizontalAlignment horizontalAlignment = HorizontalAlignment.Left)
 ```
 
-Փաստաթղթի վահանակում ավելացնում է թվային դաշտ (**NumericEditControl**) և վերադարձնում է այն։ Դաշտի ֆորմատը կազմվում է երկարության և ճշտության հիման վրա՝ տրված որպես արժույթ։
+Փաստաթղթի վահանակում ավելացնում է թվային դաշտ (**NumericEditControl**) և վերադարձնում է այն։
 
 **Պարամետրեր**
 

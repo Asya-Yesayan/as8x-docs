@@ -89,8 +89,8 @@ nav_exclude: true
 | [AddLayoutGroup(string, LayoutGroup, LayoutGroupView, Orientation, string)](Methods/AddLayoutGroup.md) | Փաստաթղթի վահանակում ավելացնում է դասավորման խումբ (**LayoutGroup**)։ |
 | [AddLine(LayoutGroup, string, LineCaptionAlignment, string)](Methods/AddLine.md) | Փաստաթղթի վահանակում ավելացնում է հորիզոնական բաժանարար գիծ (**HorizontalLineControl**) և վերադարձնում է այն։ |
 | [AddMemoEditControl(string, string, bool, short, string, HorizontalAlignment, StringRestriction)](Methods/AddMemoEditControl.md) | Փաստաթղթի վահանակում ավելացնում է մեծ տեքստային դաշտ (**MemoEditControl**), որը թույլ է տալիս մուտքագրել բազմատող տեքստ և վերադարձնում է այն։  |
-| [AddMultiSelectDropDownControl(string, string, bool, IDropDownView, string, HorizontalAlignment)](Methods/AddMultiSelectDropDownControl.md) | Փաստաթղթի վահանակում ավելացնում է բազմակի ընտրությամբ բացվող ցուցակ (**MultiSelectDropDownControl**)։ |
-| [AddNumericEditControl(string, string, bool, short, short, string, bool, bool, HorizontalAlignment)](Methods/AddNumericEditControl.md) | Փաստաթղթի վահանակում ավելացնում է թվային դաշտ (**NumericEditControl**)։ |
+| [AddMultiSelectDropDownControl(string, string, bool, IDropDownView, string, HorizontalAlignment)](Methods/AddMultiSelectDropDownControl.md) | Փաստաթղթի վահանակում ավելացնում է բազմակի ընտրությամբ բացվող ցուցակ (**MultiSelectDropDownControl**) և վերադարձնում է այն։ |
+| [AddNumericEditControl(string, string, bool, short, short, string, bool, bool, HorizontalAlignment)](Methods/AddNumericEditControl.md) | Փաստաթղթի վահանակում ավելացնում է թվային դաշտ (**NumericEditControl**) և վերադարձնում է այն։ |
 | [AddNumPairControl(string, string, bool, string, string, string, HorizontalAlignment)](Methods/AddNumPairControl.md) | Երկխոսության պատուհանում ավելացնում է թվային զույգ դաշտ (**NumPairControl**), որը թույլ է տալիս մուտքագրել երկու թիվ՝ բաժանված բաժանարարով և վերադարձնում է այն։ |
 | [AddPathEdit(string, string, short, DialogType, bool, string, string, HorizontalAlignment)](Methods/AddPathEdit.md) | Փաստաթղթի վահանակում ավելացնում է ֆայլի կամ թղթապանակի ճանապարհի ընտրման դաշտ (**BrowsePathEditExt**) և վերադարձնում է այն։  |
 | [AddSimpleDropDown(string, string, bool, short, short, string, short, HorizontalAlignment, StringRestriction)](Methods/AddSimpleDropDown.md) | Փաստաթղթի վահանակում ավելացնում է պարզ բացվող ցուցակ (**SimpleDropDown**) և վերադարձնում է այն։ |
@@ -153,7 +153,7 @@ nav_exclude: true
 | [OnF7()](Methods/OnF7.md) | Սահմանում է **F7** shortcut-ի սեղմման ժամանակ կատարվող գործողությունը։ |
 | [OnF8()](Methods/OnF8.md) | Սահմանում է **F8** shortcut-ի սեղմման ժամանակ կատարվող գործողությունը։ |
 | [OnF9()](Methods/OnF9.md) | Սահմանում է **F9** shortcut-ի սեղմման ժամանակ կատարվող գործողությունը։ |
-| [OnKeyDownEnterMoveNextTabItem(object, KeyEventArgs)](Methods/OnKeyDownEnterMoveNextTabItem.md) | Մշակում է թաբում **Enter** ստեղնի սեղմումը՝ տեղափոխելով ֆոկուսը հաջորդ դաշտի վրա։ |
+| [OnKeyDownEnterMoveNextTabItem(object, KeyEventArgs)](Methods/OnKeyDownEnterMoveNextTabItem.md) | Մշակում է թաբում **Enter** ստեղնի սեղմումը՝ տեղափոխելով ֆոկուսը հաջորդ դաշտի վրա։  |
 | [OnNew()](Methods/OnNew.md) | Սահմանում է նոր փաստաթղթի բացման ընթացքում կատարվող գործողությունները։ |
 | [OnNewAfterSave()](Methods/OnNewAfterSave.md) | Սահմանում է **«Պահպանել և նորը»** հրամանից հետո նոր փաստաթղթի բացման ընթացքում կատարվող գործողությունները։ |
 | [OnPrintPreview(PrintModeSE)](Methods/OnPrintPreview.md) | Սահմանում է փաստաթղթի տպման նախադիտման բացման գործողությունները։ |

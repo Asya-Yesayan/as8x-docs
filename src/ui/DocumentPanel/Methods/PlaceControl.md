@@ -24,7 +24,7 @@ public void PlaceControl(LayoutGroup verticalContainer,
                          bool showCaption = true)
 ```
 
-Տրված դաշտը տեղադրում է վահանակում՝ ուղղահայաց և հորիզոնական դասավորման խմբերում։ **horizontalContainer** պարամետրի **null** արժեքի դեպքում ավտոմատ կերպով ստեղծվում է հորիզոնական դասավորման խումբ։ **showCaption** պարամետրի **false** արժեքի դեպքում դաշտի դասավորման տարրի գլխագիրը մաքրվում է։
+Տրված դաշտը տեղադրում է վահանակում՝ ուղղահայաց և հորիզոնական դասավորման խմբերում։
 
 **Պարամետրեր**
 
@@ -32,7 +32,7 @@ public void PlaceControl(LayoutGroup verticalContainer,
 | --- | --- | --- | --- |
 | verticalContainer | LayoutGroup | - | Ուղղահայաց ծնող դասավորման խումբը։ |
 | control | Control | - | Տեղադրվող դաշտը։ |
-| horizontalContainer | LayoutGroup | null | Հորիզոնական դասավորման խումբը։ **null** արժեքի դեպքում ավտոմատ կերպով ստեղծվում է նոր խումբ։ |
+| horizontalContainer | LayoutGroup | null | Հորիզոնական դասավորման խումբը։ **null** արժեքի դեպքում ավտոմատ կերպով ստեղծվում է նոր հորիզոնական դասավորման խումբ։ |
 | showCaption | bool | true | **true** արժեքի դեպքում ցուցադրվում է դաշտի գլխագիրը, **false** արժեքի դեպքում՝ թաքնված է։ |
 
 ### DocumentPanel.PlaceControl(LayoutGroup, string) մեթոդ

@@ -17,8 +17,6 @@ protected virtual void SetControlValue(Control control,
 
 Սահմանում է տրված դաշտին արժեք վերագրելու գործողությունները։
 
-Մեթոդը չմշակելու դեպքում արժեքը վերագրվում է ըստ դաշտի կոնկրետ տիպի՝ **TextEditExt**, **ButtonEditExt**, **DropDownControl**, **DateEditControl**, **TimeEditControl**, **NumericEditControl**, **CheckEditExt**, **MultiSelectDropDownControl**, **DropDownCommentControl**, **TreeDropDownControl**, **ComboBoxEditExt**, **NumPairControl**, **MemoEditControl**, **SimpleDropDown**, **DocumentGridControl**, **ImageEditExt** կամ **BrowsePathEditExt**։
-
 **Պարամետրեր**
 
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
