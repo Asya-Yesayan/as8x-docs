@@ -32,7 +32,7 @@ nav_exclude: true
 | [ImagesSizeLimitInKB](Properties/ImagesSizeLimitInKB.md) | Վերադարձնում է վահանակում ավելացված պատկերային դաշտերի (**ImageEditExt**) համար թույլատրելի առավելագույն չափը՝ կիլոբայթերով։ |
 | [IsChanged](Properties/IsChanged.md) | Վերադարձնում կամ նշանակում է փաստաթղթի փոփոխված լինելու հայտանիշը։ |
 | [IsDialog](Properties/IsDialog.md) | Վերադարձնում կամ նշանակում է փաստաթղթի վահանակի երկխոսության պատուհանում բացված լինելու հայտանիշը։ |
-| [IsLoadingDocumentToControls](Properties/IsLoadingDocumentToControls.md) | Վերադարձնում է **true**, եթե ընթացքում է փաստաթղթի արժեքների բեռնումը դաշտերի մեջ։ |
+| [IsLoadingDocumentToControls](Properties/IsLoadingDocumentToControls.md) | Վերադարձնում է **true**, եթե տվյալ պահին իրականացվում է փաստաթղթի արժեքների բեռնումը դաշտերի մեջ։  |
 | [IsReadOnly](Properties/IsReadOnly.md) | Վերադարձնում կամ նշանակում է փաստաթղթի վահանակի readOnly վիճակով բացվելու հայտանիշը։ |
 | [KeysToUpdate](Properties/KeysToUpdate.md) | Վերադարձնում կամ նշանակում է փաստաթղթի պահպանումից հետո թարմացման ենթակա ծնող վահանակի տողերի բանալիների բազմությունը։ |
 | [MainTabControl](Properties/MainTabControl.md) | Վերադարձնում է փաստաթղթի վահանակի հիմնական թաբը (**DXTabControl**)։ |
@@ -40,10 +40,10 @@ nav_exclude: true
 | [ParametersService](Properties/ParametersService.md) | Վերադարձնում է համակարգային պարամետրերի սերվիսի (**IParametersService**) ընթացիկ օբյեկտը։ |
 | [ReadonlyAttachments](Properties/ReadonlyAttachments.md) | Սահմանում է կցված ֆայլերի վահանակը միայն կարդալու ռեժիմում բացված լինելու հայտանիշը։ |
 | [RegistryKey](Properties/RegistryKey.md) | Վերադարձնում կամ նշանակում է Windows registry-ում փաստաթղթի վահանակի կարգավորումները պահելու ենթաբանալին։ |
-| [SetFocusAfterInvalidSave](Properties/SetFocusAfterInvalidSave.md) | Վերադարձնում կամ նշանակում է անհաջող պահպանումից հետո ֆոկուսը տեղափոխվող դաշտը։ |
-| [SetFocusOnActivation](Properties/SetFocusOnActivation.md) | Վերադարձնում կամ նշանակում է վահանակի ակտիվացման ընթացքում ֆոկուսը տեղափոխվող դաշտը։ |
+| [SetFocusAfterInvalidSave](Properties/SetFocusAfterInvalidSave.md) | Վերադարձնում կամ նշանակում է այն դաշտը, որի վրա ֆոկուսը տեղափոխվում է փաստաթղթի ձախողված պահպանումից հետո։ |
+| [SetFocusOnActivation](Properties/SetFocusOnActivation.md) | Վերադարձնում կամ նշանակում է փաստաթղթի վահանակի ակտիվացման ընթացքում ֆոկուսը ստացող դաշտը։ |
 | [ShowTitleDetails](Properties/ShowTitleDetails.md) | Սահմանում է փաստաթղթի պատուհանի գլխագրում ISN-ի և վիճակի (նոր, դիտում, խմբագրում) ցուցադրման հայտանիշը։  |
-| [SkipReadOnlyControlsValidation](Properties/SkipReadOnlyControlsValidation.md) | Սահմանում է վալիդացման ընթացքում միայն կարդալու վիճակում գտնվող դաշտերը բացառելու հայտանիշը։ |
+| [SkipReadOnlyControlsValidation](Properties/SkipReadOnlyControlsValidation.md) | Սահմանում է վալիդացման ընթացքում readOnly դաշտերը բացառելու հայտանիշը։ |
 | [SupportDocumentOperationsArgs](Properties/SupportDocumentOperationsArgs.md) | Վերադարձնում կամ նշանակում է փաստաթղթի գործողություններին ուղեկցող կոճակների կարգավորումների օբյեկտը։ |
 | [Title](Properties/Title.md) | Սահմանում է փաստաթղթի պատուհանի գլխագիրը։ |
 | [Window](Properties/Window.md) | Վերադարձնում է վահանակը պարունակող փաստաթղթի պատուհանը (**DocumentWindow**)։ |
