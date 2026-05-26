@@ -10,8 +10,8 @@ grand_parent: "DocumentPanel"
 
 | Անվանում | Նկարագրություն |
 |----------|----------------|
-| [RestoreSettings(double, double)](#documentpanelrestoresettingsdouble-double-մեթոդ) | Վերականգնում է փաստաթղթի պատուհանի և աղյուսակների կարգավորումները registry-ից։ |
-| [RestoreSettings(double, double, RegistryKey)](#documentpanelrestoresettingsdouble-double-registrykey-մեթոդ) | Սահմանում է փաստաթղթի պատուհանի և աղյուսակների կարգավորումների վերականգնումը տրված registry-ի բանալիից։ |
+| [RestoreSettings(double, double)](#documentpanelrestoresettingsdouble-double-մեթոդ) | Վերականգնում է փաստաթղթի պատուհանի և աղյուսակների կարգավորումները Windows registry-ից։ |
+| [RestoreSettings(double, double, RegistryKey)](#documentpanelrestoresettingsdouble-double-registrykey-մեթոդ) | Սահմանում է փաստաթղթի պատուհանի և աղյուսակների կարգավորումների վերականգնումը տրված Windows registry-ի բանալիից։ |
 
 ### DocumentPanel.RestoreSettings(double, double) մեթոդ
 
@@ -22,7 +22,7 @@ protected void RestoreSettings(double defaultWidth,
                                double defaultHeight)
 ```
 
-Վերականգնում է փաստաթղթի պատուհանի և աղյուսակների կարգավորումները registry-ից։ Registry-ի բանալին կազմվում է գլոբալ ընթացիկ օգտագործողի բանալիից՝ [RegistryKey](../Properties/RegistryKey.md) հատկության արժեքի օգտագործմամբ։
+Վերականգնում է փաստաթղթի պատուհանի և աղյուսակների կարգավորումները Windows registry-ից։ Registry-ի բանալին կազմվում է գլոբալ ընթացիկ օգտագործողի բանալիից՝ [RegistryKey](../Properties/RegistryKey.md) հատկության արժեքի օգտագործմամբ։
 
 **Պարամետրեր**
 
@@ -41,7 +41,7 @@ protected virtual void RestoreSettings(double defaultWidth,
                                        RegistryKey registryKey)
 ```
 
-Սահմանում է փաստաթղթի պատուհանի և աղյուսակների կարգավորումների վերականգնումը տրված registry-ի բանալիից։
+Սահմանում է փաստաթղթի պատուհանի և աղյուսակների կարգավորումների վերականգնումը տրված Windows registry-ի բանալիից։
 
 Մեթոդը չմշակելու դեպքում վերականգնվում են պատուհանի չափերն ու դիրքը և յուրաքանչյուր աղյուսակի դասավորությունն ու սյունակների կարգավորումները։
 

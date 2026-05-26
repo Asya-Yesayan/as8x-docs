@@ -166,8 +166,8 @@ nav_exclude: true
 | [PlaceControl(LayoutGroup, string)](Methods/PlaceControl.md#documentpanelplacecontrollayoutgroup-string-մեթոդ) | Տրված ներքին անունով դաշտը տեղադրում է վահանակում՝ նշված դասավորման խմբում։ |
 | [Prepare(SupportDocumentArgs)](Methods/Prepare.md) | Կարգավորում է փաստաթղթի վահանակին ուղեկցող կոճակների (տպման, ստեղծել պատճեն, պատմություն և այլն) վիճակը։ |
 | [ReadMagneticCard(string)](Methods/ReadMagneticCard.md) | Սահմանում է մագնիսական քարտի կարդալու իրադարձության մշակումը։ |
-| [RestoreSettings(double, double)](Methods/RestoreSettings.md#documentpanelrestoresettingsdouble-double-մեթոդ) | Վերականգնում է փաստաթղթի պատուհանի և աղյուսակների կարգավորումները registry-ից։ |
-| [RestoreSettings(double, double, RegistryKey)](Methods/RestoreSettings.md#documentpanelrestoresettingsdouble-double-registrykey-մեթոդ) | Սահմանում է փաստաթղթի պատուհանի և աղյուսակների կարգավորումների վերականգնումը տրված registry-ի բանալիից։ |
+| [RestoreSettings(double, double)](Methods/RestoreSettings.md#documentpanelrestoresettingsdouble-double-մեթոդ) | Վերականգնում է փաստաթղթի պատուհանի և աղյուսակների կարգավորումները Windows registry-ից։ |
+| [RestoreSettings(double, double, RegistryKey)](Methods/RestoreSettings.md#documentpanelrestoresettingsdouble-double-registrykey-մեթոդ) | Սահմանում է փաստաթղթի պատուհանի և աղյուսակների կարգավորումների վերականգնումը տրված Windows registry-ի բանալիից։ |
 | [SaveAndCloseDocument()](Methods/SaveAndCloseDocument.md) | Պահպանում և փակում է փաստաթուղթը։ |
 | [SaveAndNewDocument()](Methods/SaveAndNewDocument.md) | Պահպանում է փաստաթուղթը և սկսում նորի ստեղծումը՝ պատճենելով ընթացիկ փաստաթղթի բովանդակությունը։ |
 | [SaveDocument(bool)](Methods/SaveDocument.md) | Պահպանում է փաստաթուղթը։ |
