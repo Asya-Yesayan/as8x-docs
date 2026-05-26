@@ -8,13 +8,13 @@ grand_parent: "DocumentPanel"
 
 ## Նկարագիր
 
-**Անվանատարածք՝** ArmSoft.AS8X.Core.UI.Document
+**Դաս՝** [DocumentPanel](../DocumentPanel.md)
 
 ```c#
 public delegate void CallErrorOnSaveExceptionEventEventHandler(ASException ex)
 ```
 
-Delegate՝ [CallErrorOnSaveExceptionEvent](../Events/CallErrorOnSaveExceptionEvent.md) իրադարձության մշակման համար։ Մշակիչը կանչվում է պահպանման ընթացքում առաջացած սխալի օբյեկտով։
+Delegate՝ [CallErrorOnSaveExceptionEvent](../Events/CallErrorOnSaveExceptionEvent.md) իրադարձության մշակման համար։
 
 **Պարամետրեր**
 

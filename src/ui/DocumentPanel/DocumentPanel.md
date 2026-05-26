@@ -15,6 +15,54 @@ nav_exclude: true
 |----------|----------------|
 | [DocumentPanel()](Methods/DocumentPanel.md) | Ստեղծում է DocumentPanel դասի օբյեկտ։ |
 
+## Հատկություններ
+
+| Անվանում | Նկարագրություն |
+|----------|----------------|
+| [Controls](Properties/Controls.md) | Վերադարձնում կամ նշանակում է վահանակում գրանցված դաշտերի ներքին անուն/նկարագրությունների Dictionary-ն։ |
+| [ControlsByDataItem](Properties/ControlsByDataItem.md) | Վերադարձնում կամ նշանակում է վահանակի դաշտերի Dictionary-ն՝ ըստ տվյալների աղբյուրի ներքին անվան։ |
+| [ControlsByLayout](Properties/ControlsByLayout.md) | Վերադարձնում կամ նշանակում է վահանակում տեղակայման հերթականությամբ դասավորված դաշտերի ցուցակը։ |
+| [Doc](Properties/Doc.md) | Վերադարձնում է վահանակին կցված **T** տիպի փաստաթուղթը։ |
+| [DXTabItems](Properties/DXTabItems.md) | Վերադարձնում կամ նշանակում է վահանակում ստեղծված թաբերի (**DXTabItem**) ցուցակը։ |
+| [Extender](Properties/Extender.md) | Վերադարձնում կամ նշանակում է փաստաթղթի վահանակի ընդլայնիչը (**DocumentPanelExtender**)։ |
+| [ForceClose](Properties/ForceClose.md) | Վերադարձնում կամ նշանակում է փաստաթղթի պատուհանը հարկադիր փակելու հայտանիշը։ |
+| [HelpId](Properties/HelpId.md) | Սահմանում է փաստաթղթի օգնության նույնականացուցիչը։ |
+| [HelpID](Properties/HelpId.md) | Սահմանում է փաստաթղթի օգնության նույնականացուցիչը։ |
+| [HorizontalLayoutGroups](Properties/HorizontalLayoutGroups.md) | Վերադարձնում կամ նշանակում է փաստաթղթի վահանակում ստեղծված հորիզոնական դասավորման խմբերի Dictionary-ն՝ ըստ խմբի ներքին անվան։ |
+| [ImagesSizeLimitInKB](Properties/ImagesSizeLimitInKB.md) | Վերադարձնում է վահանակում ավելացված պատկերային դաշտերի (**ImageEditExt**) համար թույլատրելի առավելագույն չափը՝ կիլոբայթերով։ |
+| [IsChanged](Properties/IsChanged.md) | Վերադարձնում կամ նշանակում է փաստաթղթի փոփոխված լինելու հայտանիշը։ |
+| [IsDialog](Properties/IsDialog.md) | Վերադարձնում կամ նշանակում է փաստաթղթի վահանակի երկխոսության պատուհանում բացված լինելու հայտանիշը։ |
+| [IsLoadingDocumentToControls](Properties/IsLoadingDocumentToControls.md) | Վերադարձնում է **true**, եթե ընթացքում է փաստաթղթի արժեքների բեռնումը դաշտերի մեջ։ |
+| [IsReadOnly](Properties/IsReadOnly.md) | Վերադարձնում կամ նշանակում է փաստաթղթի վահանակի readOnly վիճակով բացվելու հայտանիշը։ |
+| [KeysToUpdate](Properties/KeysToUpdate.md) | Վերադարձնում կամ նշանակում է փաստաթղթի պահպանումից հետո թարմացման ենթակա ծնող վահանակի տողերի բանալիների բազմությունը։ |
+| [MainTabControl](Properties/MainTabControl.md) | Վերադարձնում է փաստաթղթի վահանակի հիմնական թաբը (**DXTabControl**)։ |
+| [NestedTransactionReport](Properties/NestedTransactionReport.md) | ձնում է փաստաթղթի պահպանման ընթացքում առաջացած NestedTransaction հաշվետվությունը։ |
+| [ParametersService](Properties/ParametersService.md) | Վերադարձնում է համակարգային պարամետրերի սերվիսի (**IParametersService**) ընթացիկ օբյեկտը։ |
+| [ReadonlyAttachments](Properties/ReadonlyAttachments.md) | Սահմանում է կցված ֆայլերի վահանակը միայն կարդալու ռեժիմում բացված լինելու հայտանիշը։ |
+| [RegistryKey](Properties/RegistryKey.md) | Վերադարձնում կամ նշանակում է Windows registry-ում փաստաթղթի վահանակի կարգավորումները պահելու ենթաբանալին։ |
+| [SetFocusAfterInvalidSave](Properties/SetFocusAfterInvalidSave.md) | Վերադարձնում կամ նշանակում է անհաջող պահպանումից հետո ֆոկուսը տեղափոխվող դաշտը։ |
+| [SetFocusOnActivation](Properties/SetFocusOnActivation.md) | Վերադարձնում կամ նշանակում է վահանակի ակտիվացման ընթացքում ֆոկուսը տեղափոխվող դաշտը։ |
+| [ShowTitleDetails](Properties/ShowTitleDetails.md) | Սահմանում է փաստաթղթի պատուհանի գլխագրում ISN-ի և վիճակի (նոր, դիտում, խմբագրում) ցուցադրման հայտանիշը։  |
+| [SkipReadOnlyControlsValidation](Properties/SkipReadOnlyControlsValidation.md) | Սահմանում է վալիդացման ընթացքում միայն կարդալու վիճակում գտնվող դաշտերը բացառելու հայտանիշը։ |
+| [SupportDocumentOperationsArgs](Properties/SupportDocumentOperationsArgs.md) | Վերադարձնում կամ նշանակում է փաստաթղթի գործողություններին ուղեկցող կոճակների կարգավորումների օբյեկտը։ |
+| [Title](Properties/Title.md) | Սահմանում է փաստաթղթի պատուհանի գլխագիրը։ |
+| [Window](Properties/Window.md) | Վերադարձնում է վահանակը պարունակող փաստաթղթի պատուհանը (**DocumentWindow**)։ |
+
+## Իրադարձություններ
+
+| Անվանում | Նկարագրություն |
+|----------|----------------|
+| [CallErrorOnSaveExceptionEvent](Events/CallErrorOnSaveExceptionEvent.md) | Առաջանում է փաստաթղթի պահպանման ընթացքում առաջացած սխալի դեպքում։ |
+| [PreviewKeyDownControlKeyG](Events/PreviewKeyDownControlKeyG.md) | Առաջանում է փաստաթղթի վահանակում **CtrlG** shortcut-ի սեղմման դեպքում։ |
+| [PropertyChanged](Events/PropertyChanged.md) | Առաջանում է վահանակի հատկության արժեքի փոփոխման դեպքում։ |
+
+## Delegate-ներ
+
+| Անվանում | Նկարագրություն |
+|----------|----------------|
+| [CallErrorOnSaveExceptionEventEventHandler(ASException)](Delegates/CallErrorOnSaveExceptionEventEventHandler.md) | Delegate՝ **CallErrorOnSaveExceptionEvent** իրադարձության մշակման համար։ |
+| [PreviewKeyDownControlKeyGEventHandler()](Delegates/PreviewKeyDownControlKeyGEventHandler.md) | Delegate՝ **PreviewKeyDownControlKeyG** իրադարձության մշակման համար։ |
+
 ## Մեթոդներ
 
 | Անվանում | Նկարագրություն |
@@ -25,7 +73,7 @@ nav_exclude: true
 | [AddComboBoxEditControl(string, string, short, bool, IEnumerable&lt;string&gt;, string, HorizontalAlignment)](Methods/AddComboBoxEditControl.md) | Փաստաթղթի վահանակում ավելացնում է բացվող ցուցակով տեքստային դաշտ (**ComboBoxEditExt**) և վերադարձնում է այն։ |
 | [AddControl(Control)](Methods/AddControl.md#documentpaneladdcontrolcontrol-մեթոդ) | Գրանցում է տրված դաշտը վահանակի դաշտերի ցուցակում առանց տվյալների աղբյուրի կապի։ |
 | [AddControl(Control, string, bool)](Methods/AddControl.md#documentpaneladdcontrolcontrol-string-bool-մեթոդ) | Գրանցում է տրված դաշտը վահանակի դաշտերի ցուցակում՝ տվյալների աղբյուրի ներքին անունով։ |
-| [AddControl(Control, string, Control, Control)](Methods/AddControl.md#documentpaneladdcontrolcontrol-string-control-control-մեթոդ) | Գրանցում է տրված դաշտը վահանակի դաշտերի ցուցակում՝ թաբների վալիդացման համար նշված ենթադաշտերով։ |
+| [AddControl(Control, string, Control, Control)](Methods/AddControl.md#documentpaneladdcontrolcontrol-string-control-control-մեթոդ) | Գրանցում է տրված դաշտը վահանակի դաշտերի ցուցակում՝ թաբերի վալիդացման համար նշված ենթադաշտերով։ |
 | [AddControl(FieldSchema)](Methods/AddControl.md#documentpaneladdcontrolfieldschema-մեթոդ) | Տրված դաշտի սխեմայի հիման վրա ավելացնում է համապատասխան տիպի դաշտ վահանակում։ |
 | [AddControls()](Methods/AddControls.md) | Սահմանում է փաստաթղթի վահանակում դաշտերի ավելացման գործողությունները։ |
 | [AddControlsFromSchema(IEnumerable&lt;string&gt;)](Methods/AddControlsFromSchema.md) | Փաստաթղթի սխեմայի հիման վրա ավելացնում է վահանակում բոլոր դաշտերը, **memo**-ները, պատկերները և աղյուսակները։ |
@@ -146,51 +194,3 @@ nav_exclude: true
 | [UnlockControls()](Methods/UnlockControls.md) | Բոլոր դաշտերը դարձնում է խմբագրման համար հասանելի։ |
 | [UnlockControlsExcept(string[])](Methods/UnlockControlsExcept.md) | Բոլոր դաշտերը դարձնում է խմբագրման համար հասանելի՝ բացառությամբ տրված ներքին անուններով դաշտերի։ |
 | [Validate()](Methods/Validate.md) | Սահմանում է փաստաթղթի դաշտերի վալիդացման գործողությունները։ |
-
-## Հատկություններ
-
-| Անվանում | Նկարագրություն |
-|----------|----------------|
-| [Controls](Properties/Controls.md) | Վերադարձնում կամ նշանակում է վահանակում գրանցված դաշտերի ներքին անուն/նկարագրությունների Dictionary-ն։ |
-| [ControlsByDataItem](Properties/ControlsByDataItem.md) | Վերադարձնում կամ նշանակում է վահանակի դաշտերի Dictionary-ն՝ ըստ տվյալների աղբյուրի ներքին անվան։ |
-| [ControlsByLayout](Properties/ControlsByLayout.md) | Վերադարձնում կամ նշանակում է վահանակում տեղակայման հերթականությամբ դասավորված դաշտերի ցուցակը։ |
-| [Doc](Properties/Doc.md) | Վերադարձնում է վահանակին կցված **T** տիպի փաստաթուղթը։ |
-| [DXTabItems](Properties/DXTabItems.md) | Վերադարձնում կամ նշանակում է վահանակում ստեղծված թաբների (**DXTabItem**) ցուցակը։ |
-| [Extender](Properties/Extender.md) | Վերադարձնում կամ նշանակում է փաստաթղթի վահանակի ընդլայնիչը (**DocumentPanelExtender**)։ |
-| [ForceClose](Properties/ForceClose.md) | Վերադարձնում կամ նշանակում է փաստաթղթի պատուհանը հարկադիր փակելու հայտանիշը։ |
-| [HelpId](Properties/HelpId.md) | Սահմանում է փաստաթղթի օգնության նույնականացուցիչը։ |
-| [HelpID](Properties/HelpId.md) | Սահմանում է փաստաթղթի օգնության նույնականացուցիչը։ |
-| [HorizontalLayoutGroups](Properties/HorizontalLayoutGroups.md) | Վերադարձնում կամ նշանակում է վահանակում ստեղծված հորիզոնական դասավորման խմբերի Dictionary-ն։ |
-| [ImagesSizeLimitInKB](Properties/ImagesSizeLimitInKB.md) | Վերադարձնում է վահանակում ավելացված պատկերային դաշտերի (**ImageEditExt**) համար թույլատրելի առավելագույն չափը՝ կիլոբայթերով։ |
-| [IsChanged](Properties/IsChanged.md) | Վերադարձնում կամ նշանակում է փաստաթղթի փոփոխված լինելու հայտանիշը։ |
-| [IsDialog](Properties/IsDialog.md) | Վերադարձնում կամ նշանակում է վահանակը երկխոսության պատուհանում բացված լինելու հայտանիշը։ |
-| [IsLoadingDocumentToControls](Properties/IsLoadingDocumentToControls.md) | Վերադարձնում է **true**, եթե ընթացքում է փաստաթղթի արժեքների բեռնումը դաշտերի մեջ։ |
-| [IsReadOnly](Properties/IsReadOnly.md) | Վերադարձնում կամ նշանակում է փաստաթղթի վահանակի միայն կարդալու վիճակի հայտանիշը։ |
-| [KeysToUpdate](Properties/KeysToUpdate.md) | Վերադարձնում կամ նշանակում է փաստաթղթի պահպանումից հետո թարմացման ենթակա ծնող վահանակի տողերի բանալիների բազմությունը։ |
-| [MainTabControl](Properties/MainTabControl.md) | Վերադարձնում է փաստաթղթի վահանակի հիմնական թաբը (**DXTabControl**)։ |
-| [NestedTransactionReport](Properties/NestedTransactionReport.md) | ձնում է փաստաթղթի պահպանման ընթացքում առաջացած NestedTransaction հաշվետվությունը։ |
-| [ParametersService](Properties/ParametersService.md) | Վերադարձնում է համակարգային պարամետրերի սերվիսի (**IParametersService**) ընթացիկ օբյեկտը։ |
-| [ReadonlyAttachments](Properties/ReadonlyAttachments.md) | Սահմանում է կցված ֆայլերի վահանակը միայն կարդալու ռեժիմում բացված լինելու հայտանիշը։ |
-| [RegistryKey](Properties/RegistryKey.md) | Վերադարձնում կամ նշանակում է Windows registry-ում փաստաթղթի վահանակի կարգավորումները պահելու ենթաբանալին։ |
-| [SetFocusAfterInvalidSave](Properties/SetFocusAfterInvalidSave.md) | Վերադարձնում կամ նշանակում է անհաջող պահպանումից հետո ֆոկուսը տեղափոխվող դաշտը։ |
-| [SetFocusOnActivation](Properties/SetFocusOnActivation.md) | Վերադարձնում կամ նշանակում է վահանակի ակտիվացման ընթացքում ֆոկուսը տեղափոխվող դաշտը։ |
-| [ShowTitleDetails](Properties/ShowTitleDetails.md) | Սահմանում է փաստաթղթի պատուհանի գլխագրում ISN-ի և վիճակի (նոր, դիտում, խմբագրում) ցուցադրման հայտանիշը։  |
-| [SkipReadOnlyControlsValidation](Properties/SkipReadOnlyControlsValidation.md) | Սահմանում է վալիդացման ընթացքում միայն կարդալու վիճակում գտնվող դաշտերը բացառելու հայտանիշը։ |
-| [SupportDocumentOperationsArgs](Properties/SupportDocumentOperationsArgs.md) | Վերադարձնում կամ նշանակում է փաստաթղթի գործողություններին ուղեկցող կոճակների կարգավորումների օբյեկտը։ |
-| [Title](Properties/Title.md) | Սահմանում է փաստաթղթի պատուհանի գլխագիրը։ |
-| [Window](Properties/Window.md) | Վերադարձնում է վահանակը պարունակող փաստաթղթի պատուհանը (**DocumentWindow**)։ |
-
-## Իրադարձություններ
-
-| Անվանում | Նկարագրություն |
-|----------|----------------|
-| [CallErrorOnSaveExceptionEvent](Events/CallErrorOnSaveExceptionEvent.md) | Առաջանում է փաստաթղթի պահպանման ընթացքում առաջացած սխալի դեպքում։ |
-| [PreviewKeyDownControlKeyG](Events/PreviewKeyDownControlKeyG.md) | Առաջանում է փաստաթղթի վահանակում **CtrlG** shortcut-ի սեղմման դեպքում։ |
-| [PropertyChanged](Events/PropertyChanged.md) | Առաջանում է վահանակի հատկության արժեքի փոփոխման դեպքում։ |
-
-## Delegateներ (նույն ֆայլում)
-
-| Անվանում | Նկարագրություն |
-|----------|----------------|
-| [CallErrorOnSaveExceptionEventEventHandler(ASException)](Delegates/CallErrorOnSaveExceptionEventEventHandler.md) | Delegate՝ **CallErrorOnSaveExceptionEvent** իրադարձության մշակման համար։ |
-| [PreviewKeyDownControlKeyGEventHandler()](Delegates/PreviewKeyDownControlKeyGEventHandler.md) | Delegate՝ **PreviewKeyDownControlKeyG** իրադարձության մշակման համար։ |

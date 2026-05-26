@@ -14,4 +14,4 @@ grand_parent: "DocumentPanel"
 protected List<DXTabItem> DXTabItems { get; set; }
 ```
 
-Վերադարձնում կամ նշանակում է վահանակում ստեղծված թաբների (**DXTabItem**) ցուցակը։
+Վերադարձնում կամ նշանակում է վահանակում ստեղծված թաբերի (**DXTabItem**) ցուցակը։

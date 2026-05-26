@@ -8,10 +8,10 @@ grand_parent: "DocumentPanel"
 
 ## Նկարագիր
 
-**Անվանատարածք՝** ArmSoft.AS8X.Core.UI.Document
+**Դաս՝** [DocumentPanel](../DocumentPanel.md)
 
 ```c#
 public delegate void PreviewKeyDownControlKeyGEventHandler()
 ```
 
-Delegate՝ [PreviewKeyDownControlKeyG](../Events/PreviewKeyDownControlKeyG.md) իրադարձության մշակման համար։ Մշակիչը կանչվում է առանց արգումենտների։
+Delegate՝ [PreviewKeyDownControlKeyG](../Events/PreviewKeyDownControlKeyG.md) իրադարձության մշակման համար։ 

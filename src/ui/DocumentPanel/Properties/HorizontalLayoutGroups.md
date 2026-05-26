@@ -14,4 +14,4 @@ grand_parent: "DocumentPanel"
 protected Dictionary<string, LayoutGroup> HorizontalLayoutGroups { get; set; }
 ```
 
-Վերադարձնում կամ նշանակում է վահանակում ստեղծված հորիզոնական դասավորման խմբերի Dictionary-ն՝ ըստ խմբի ներքին անվան։
+Վերադարձնում կամ նշանակում է փաստաթղթի վահանակում ստեղծված հորիզոնական դասավորման խմբերի Dictionary-ն՝ ըստ խմբի ներքին անվան։

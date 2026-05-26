@@ -12,7 +12,7 @@ grand_parent: "DocumentPanel"
 |----------|----------------|
 | [AddControl(Control)](#documentpaneladdcontrolcontrol-մեթոդ) | Գրանցում է տրված դաշտը վահանակի դաշտերի ցուցակում առանց տվյալների աղբյուրի կապի։ |
 | [AddControl(Control, string, bool)](#documentpaneladdcontrolcontrol-string-bool-մեթոդ) | Գրանցում է տրված դաշտը վահանակի դաշտերի ցուցակում՝ տվյալների աղբյուրի ներքին անունով։ |
-| [AddControl(Control, string, Control, Control)](#documentpaneladdcontrolcontrol-string-control-control-մեթոդ) | Գրանցում է տրված դաշտը վահանակի դաշտերի ցուցակում՝ թաբների վալիդացման համար նշված ենթադաշտերով։ |
+| [AddControl(Control, string, Control, Control)](#documentpaneladdcontrolcontrol-string-control-control-մեթոդ) | Գրանցում է տրված դաշտը վահանակի դաշտերի ցուցակում՝ թաբերի վալիդացման համար նշված ենթադաշտերով։ |
 | [AddControl(FieldSchema)](#documentpaneladdcontrolfieldschema-մեթոդ) | Տրված դաշտի սխեմայի հիման վրա ավելացնում է համապատասխան տիպի դաշտ վահանակում և վերադարձնում է այն։ |
 
 ### DocumentPanel.AddControl(Control) մեթոդ
@@ -41,7 +41,7 @@ protected void AddControl(Control control,
                           bool registerForTabValidation = true)
 ```
 
-Գրանցում է տրված դաշտը վահանակի դաշտերի ցուցակում՝ տվյալների աղբյուրի ներքին անունով։ **registerForTabValidation** պարամետրի **true** արժեքի դեպքում դաշտը գրանցվում է որպես ինքնավալիդացվող թաբների փոխարկման ընթացքում։
+Գրանցում է տրված դաշտը վահանակի դաշտերի ցուցակում՝ տվյալների աղբյուրի ներքին անունով։ **registerForTabValidation** պարամետրի **true** արժեքի դեպքում դաշտը գրանցվում է որպես ինքնավալիդացվող թաբերի փոխարկման ընթացքում։
 
 **Պարամետրեր**
 
@@ -49,7 +49,7 @@ protected void AddControl(Control control,
 | --- | --- | --- | --- |
 | control | Control | - | Գրանցվող դաշտը։ |
 | dataItemName | string | - | Տվյալների աղբյուրի ներքին անունը։ |
-| registerForTabValidation | bool | true | **true** արժեքի դեպքում դաշտը գրանցվում է որպես ինքնավալիդացվող թաբների փոխարկման ընթացքում։ |
+| registerForTabValidation | bool | true | **true** արժեքի դեպքում դաշտը գրանցվում է որպես ինքնավալիդացվող թաբերի փոխարկման ընթացքում։ |
 
 ### DocumentPanel.AddControl(Control, string, Control, Control) մեթոդ
 
@@ -62,7 +62,7 @@ protected void AddControl(Control control,
                           Control forTabValidation2 = null)
 ```
 
-Գրանցում է տրված դաշտը վահանակի դաշտերի ցուցակում՝ թաբների վալիդացման համար նշված ենթադաշտերով։ Կիրառվում է կազմված դաշտերի (օրինակ՝ **DropDownControl**, **NumPairControl**) համար, որոնց ներքին ենթադաշտերն են ֆոկուս ստանում։
+Գրանցում է տրված դաշտը վահանակի դաշտերի ցուցակում՝ թաբերի վալիդացման համար նշված ենթադաշտերով։ Կիրառվում է կազմված դաշտերի (օրինակ՝ **DropDownControl**, **NumPairControl**) համար, որոնց ներքին ենթադաշտերն են ֆոկուս ստանում։
 
 **Պարամետրեր**
 
@@ -70,8 +70,8 @@ protected void AddControl(Control control,
 | --- | --- | --- | --- |
 | control | Control | - | Գրանցվող դաշտը։ |
 | dataItemName | string | - | Տվյալների աղբյուրի ներքին անունը։ |
-| forTabValidation | Control | - | թաբների վալիդացման համար նշված առաջին ենթադաշտը։ |
-| forTabValidation2 | Control | null | թաբների վալիդացման համար նշված երկրորդ ենթադաշտը։ |
+| forTabValidation | Control | - | թաբերի վալիդացման համար նշված առաջին ենթադաշտը։ |
+| forTabValidation2 | Control | null | թաբերի վալիդացման համար նշված երկրորդ ենթադաշտը։ |
 
 ### DocumentPanel.AddControl(FieldSchema) մեթոդ
 
