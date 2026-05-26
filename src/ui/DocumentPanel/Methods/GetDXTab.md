@@ -29,10 +29,6 @@ public DXTabItem GetDXTab(Control control)
 | --- | --- | --- | --- |
 | control | Control | - | Փնտրվող դաշտը։ |
 
-**Վերադարձնում է**
-
-Դաշտը պարունակող **DXTabItem** թաբը։
-
 ### DocumentPanel.GetDXTab(string) մեթոդ
 
 **Դաս՝** [DocumentPanel](../DocumentPanel.md)
@@ -48,7 +44,3 @@ public DXTabItem GetDXTab(string name)
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 | --- | --- | --- | --- |
 | name | string | - | թաբի ներքին անունը։ |
-
-**Վերադարձնում է**
-
-Տրված ներքին անունով **DXTabItem** թաբը։

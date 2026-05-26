@@ -93,12 +93,12 @@ nav_exclude: true
 | [AddMultiSelectDropDownControl(string, string, bool, IDropDownView, string, HorizontalAlignment)](Methods/AddMultiSelectDropDownControl.md) | Փաստաթղթի վահանակում ավելացնում է բազմակի ընտրությամբ բացվող ցուցակ (**MultiSelectDropDownControl**)։ |
 | [AddNumericEditControl(string, string, bool, short, short, string, bool, bool, HorizontalAlignment)](Methods/AddNumericEditControl.md) | Փաստաթղթի վահանակում ավելացնում է թվային դաշտ (**NumericEditControl**)։ |
 | [AddNumPairControl(string, string, bool, string, string, string, HorizontalAlignment)](Methods/AddNumPairControl.md) | Երկխոսության պատուհանում ավելացնում է թվային զույգ դաշտ (**NumPairControl**), որը թույլ է տալիս մուտքագրել երկու թիվ՝ բաժանված բաժանարարով և վերադարձնում է այն։ |
-| [AddPathEdit(string, string, short, DialogType, bool, string, string, HorizontalAlignment)](Methods/AddPathEdit.md) | Փաստաթղթի վահանակում ավելացնում է ֆայլի/թղթապանակի ուղու ընտրման դաշտ (**BrowsePathEditExt**)։ |
-| [AddSimpleDropDown(string, string, bool, short, short, string, short, HorizontalAlignment, StringRestriction)](Methods/AddSimpleDropDown.md) | Փաստաթղթի վահանակում ավելացնում է պարզ բացվող ցուցակ (**SimpleDropDown**)։ |
+| [AddPathEdit(string, string, short, DialogType, bool, string, string, HorizontalAlignment)](Methods/AddPathEdit.md) | Փաստաթղթի վահանակում ավելացնում է ֆայլի կամ թղթապանակի ճանապարհի ընտրման դաշտ (**BrowsePathEditExt**) և վերադարձնում է այն։  |
+| [AddSimpleDropDown(string, string, bool, short, short, string, short, HorizontalAlignment, StringRestriction)](Methods/AddSimpleDropDown.md) | Փաստաթղթի վահանակում ավելացնում է պարզ բացվող ցուցակ (**SimpleDropDown**) և վերադարձնում է այն։ |
 | [AddTabbedGroup(string, DXTabControl, string)](Methods/AddTabbedGroup.md) | թաբին ավելացնում է նոր թաբ (**DXTabItem**) և վերադարձնում է դրա պարունակության դասավորման խումբը։ |
 | [AddTextEdit(string, string, bool, short, string, HorizontalAlignment, StringRestriction)](Methods/AddTextEdit.md) | Փաստաթղթի վահանակում ավելացնում է տեքստային մուտքագրման դաշտ (**TextEditExt**) և վերադարձնում է այն։ |
 | [AddTimeEditControl(string, string, bool, bool, string, HorizontalAlignment)](Methods/AddTimeEditControl.md) | Փաստաթղթի վահանակում ավելացնում է ժամի մուտքագրման դաշտ (**TimeEditControl**) և վերադարձնում է այն։ |
-| [AddTreeDropDownControl(string, string, string, bool, bool, string, bool, HorizontalAlignment, bool)](Methods/AddTreeDropDownControl.md) | Փաստաթղթի վահանակում ավելացնում է ծառային բացվող ցուցակ (**TreeDropDownControl**)։ |
+| [AddTreeDropDownControl(string, string, string, bool, bool, string, bool, HorizontalAlignment, bool)](Methods/AddTreeDropDownControl.md) | Փաստաթղթի վահանակում ավելացնում է ծառային բացվող ցուցակ (**TreeDropDownControl**) և վերադարձնում է այն։ |
 | [AfterLoadDocumentToControls()](Methods/AfterLoadDocumentToControls.md) | Սահմանում է փաստաթղթի արժեքները դաշտերի մեջ բեռնելուց հետո կատարվող գործողությունները։ |
 | [AfterStore(StoreRequest, bool)](Methods/AfterStore.md) | Սահմանում է փաստաթղթի պահպանումից հետո ծնող վահանակի թարմացման գործողությունները։ |
 | [AllowCopy()](Methods/AllowCopy.md) | Սահմանում է, արդյոք թույլատրված է փաստաթղթի պատճենումը։ |
@@ -123,7 +123,7 @@ nav_exclude: true
 | [FillDocument(StoreRequest)](Methods/FillDocument.md) | Սահմանում է դաշտերի արժեքները փաստաթղթի դաշտերին վերագրելու գործողությունները։ |
 | [GetControl(string)](Methods/GetControl.md#documentpanelgetcontrolstring-մեթոդ) | Վերադարձնում է տրված ներքին անունով դաշտը։ |
 | [GetControl&lt;C&gt;(string)](Methods/GetControl.md#documentpanelgetcontrolcstring-մեթոդ) | Վերադարձնում է տրված ներքին անունով դաշտը՝ արտածած **C** տիպին։ |
-| [GetControlCaption(Control)](Methods/GetControlCaption.md) | Վերադարձնում է տրված դաշտի դասավորման գլխագիրը։ |
+| [GetControlCaption(Control)](Methods/GetControlCaption.md) | Վերադարձնում է տրված դաշտի գլխագիրը։ |
 | [GetControlValue(Control)](Methods/GetControlValue.md) | Սահմանում է տրված դաշտի ընթացիկ արժեքը ստանալու գործողությունները։ |
 | [GetCustomUIRequestConfig()](Methods/GetCustomUIRequestConfig.md) | Սահմանում է UI-ի հատուկ հարցումների մշակման Dictionary-ն։ |
 | [GetDXTab(Control)](Methods/GetDXTab.md#documentpanelgetdxtabcontrol-մեթոդ) | Վերադարձնում է այն թաբը (**DXTabItem**), որում տեղակայված է տրված դաշտը։ |
@@ -137,8 +137,7 @@ nav_exclude: true
 | [GetTabGroup(string)](Methods/GetTabGroup.md) | Վերադարձնում է տրված ներքին անունով թաբի պարունակության դասավորման տարրը։ |
 | [GridCellValueChanged(object, CellValueChangedEventArgs)](Methods/GridCellValueChanged.md) | Մշակում է աղյուսակի վանդակի արժեքի փոփոխման իրադարձությունը՝ նշելով, որ վահանակի վիճակը փոփոխվել է։ |
 | [HandleDocumentException(DocumentException)](Methods/HandleDocumentException.md) | Սահմանում է փաստաթղթի պահպանման ընթացքում առաջացած **DocumentException** տիպի սխալի մշակումը։ |
-| [InnerSave(StoreRequest, bool)](Methods/InnerSave.md) | Կատարում է փաստաթղթի վալիդացիան, լրացումը և պահպանումը՝ սխալների մշակումով։ |
-| [IsReadOnlyControl(Control)](Methods/IsReadOnlyControl.md) | Վերադարձնում է **true**, եթե տրված դաշտը գտնվում է միայն կարդալու վիճակում։ |
+| [IsReadOnlyControl(Control)](Methods/IsReadOnlyControl.md) | Վերադարձնում է **true**, եթե տրված դաշտը գտնվում է readOnly վիճակում։  |
 | [LoadDocumentToControls()](Methods/LoadDocumentToControls.md) | Սահմանում է փաստաթղթի արժեքները վահանակի դաշտերի մեջ բեռնելու գործողությունները։ |
 | [LockControls(bool)](Methods/LockControls.md) | Բոլոր դաշտերը դարձնում է readOnly։ |
 | [LockControlsExcept(bool, string[])](Methods/LockControlsExcept.md) | ԲոլոԲոլոր դաշտերը դարձնում է readOnly՝ բացառությամբ տրված ներքին անուններով դաշտերի։ |

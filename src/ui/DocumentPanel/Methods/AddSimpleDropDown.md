@@ -31,8 +31,8 @@ public SimpleDropDown AddSimpleDropDown(string name,
 | name | string | - | Դաշտի ներքին անունը։ |
 | caption | string | - | Դաշտի գլխագիրը։ |
 | isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է լրացման համար։ |
-| codeLength | short | - | Կոդի դաշտում թույլատրելի նիշերի առավելագույն քանակը։ |
-| commentLength | short | Constants.Common.LenComment | Մեկնաբանության դաշտում թույլատրելի նիշերի առավելագույն քանակը։ |
+| codeLength | short | - | «Կոդ» դաշտում թույլատրելի նիշերի առավելագույն քանակը։ |
+| commentLength | short | Constants.Common.LenComment | «Անվանում» դաշտում թույլատրելի նիշերի առավելագույն քանակը։ |
 | dataItemName | string | null | Տվյալների աղբյուրի ներքին անունը։ |
 | estimatedButtonsCount | short | 1 | Դաշտին կից կոճակների ակնկալվող քանակը, որի հիման վրա հաշվարկվում է դաշտի լայնությունը։ |
 | horizontalAlignment | HorizontalAlignment | HorizontalAlignment.Left | Դաշտի հորիզոնական դասավորման ռեժիմը։ |

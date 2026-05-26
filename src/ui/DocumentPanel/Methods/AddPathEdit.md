@@ -21,7 +21,7 @@ public BrowsePathEditExt AddPathEdit(string name,
                                      HorizontalAlignment horizontalAlignment = HorizontalAlignment.Left)
 ```
 
-Փաստաթղթի վահանակում ավելացնում է ֆայլի կամ թղթապանակի ուղու ընտրման դաշտ (**BrowsePathEditExt**) և վերադարձնում է այն։ Դաշտի լայնությունը հաշվարկվում է տրված առավելագույն երկարության հիման վրա, եթե հորիզոնական դասավորման ռեժիմը **Stretch** չէ։
+Փաստաթղթի վահանակում ավելացնում է ֆայլի կամ թղթապանակի ճանապարհի ընտրման դաշտ (**BrowsePathEditExt**) և վերադարձնում է այն։ 
 
 **Պարամետրեր**
 
