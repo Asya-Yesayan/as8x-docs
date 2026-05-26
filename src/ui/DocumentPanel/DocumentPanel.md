@@ -38,7 +38,7 @@ nav_exclude: true
 | [MainTabControl](Properties/MainTabControl.md) | Վերադարձնում է փաստաթղթի վահանակի հիմնական թաբը (**DXTabControl**)։ |
 | [NestedTransactionReport](Properties/NestedTransactionReport.md) | ձնում է փաստաթղթի պահպանման ընթացքում առաջացած NestedTransaction հաշվետվությունը։ |
 | [ParametersService](Properties/ParametersService.md) | Վերադարձնում է համակարգային պարամետրերի սերվիսի (**IParametersService**) ընթացիկ օբյեկտը։ |
-| [ReadonlyAttachments](Properties/ReadonlyAttachments.md) | Սահմանում է կցված ֆայլերի վահանակը միայն կարդալու ռեժիմում բացված լինելու հայտանիշը։ |
+| [ReadonlyAttachments](Properties/ReadonlyAttachments.md) | Սահմանում է կցված ֆայլերի վահանակը ReadOnly ռեժիմում բացված լինելու հայտանիշը։ |
 | [RegistryKey](Properties/RegistryKey.md) | Վերադարձնում կամ նշանակում է Windows registry-ում փաստաթղթի վահանակի կարգավորումները պահելու ենթաբանալին։ |
 | [SetFocusAfterInvalidSave](Properties/SetFocusAfterInvalidSave.md) | Վերադարձնում կամ նշանակում է այն դաշտը, որի վրա ֆոկուսը տեղափոխվում է փաստաթղթի ձախողված պահպանումից հետո։ |
 | [SetFocusOnActivation](Properties/SetFocusOnActivation.md) | Վերադարձնում կամ նշանակում է փաստաթղթի վահանակի ակտիվացման ընթացքում ֆոկուսը ստացող դաշտը։ |
@@ -128,7 +128,7 @@ nav_exclude: true
 | [GetCustomUIRequestConfig()](Methods/GetCustomUIRequestConfig.md) | Սահմանում է UI-ի հատուկ հարցումների մշակման Dictionary-ն։ |
 | [GetDXTab(Control)](Methods/GetDXTab.md#documentpanelgetdxtabcontrol-մեթոդ) | Վերադարձնում է այն թաբը (**DXTabItem**), որում տեղակայված է տրված դաշտը։ |
 | [GetDXTab(string)](Methods/GetDXTab.md#documentpanelgetdxtabstring-մեթոդ) | Վերադարձնում է տրված ներքին անունով թաբը (**DXTabItem**)։ |
-| [GetFirstActiveControlOrDefault()](Methods/GetFirstActiveControlOrDefault.md) | Վերադարձնում է վահանակի առաջին տեսանելի և խմբագրման համար հասանելի դաշտը։ |
+| [GetFirstActiveControlOrDefault()](Methods/GetFirstActiveControlOrDefault.md) | Վերադարձնում է փաստաթղթի վահանակի առաջին տեսանելի և խմբագրման համար հասանելի դաշտը։ |
 | [GetHorizontalLayoutGroup(Control)](Methods/GetHorizontalLayoutGroup.md) | Վերադարձնում է տրված դաշտի հորիզոնական դասավորման խումբը։ |
 | [GetHorizontalLayoutGroupName(string)](Methods/GetHorizontalLayoutGroupName.md) | Վերադարձնում է տրված ներքին անունից բխող հորիզոնական դասավորման խմբի անունը։ |
 | [GetLayoutItem(Control)](Methods/GetLayoutItem.md#documentpanelgetlayoutitemcontrol-մեթոդ) | Վերադարձնում է տրված դաշտի դասավորման տարրը (**LayoutItemWithRequired**)։ |
@@ -140,9 +140,9 @@ nav_exclude: true
 | [InnerSave(StoreRequest, bool)](Methods/InnerSave.md) | Կատարում է փաստաթղթի վալիդացիան, լրացումը և պահպանումը՝ սխալների մշակումով։ |
 | [IsReadOnlyControl(Control)](Methods/IsReadOnlyControl.md) | Վերադարձնում է **true**, եթե տրված դաշտը գտնվում է միայն կարդալու վիճակում։ |
 | [LoadDocumentToControls()](Methods/LoadDocumentToControls.md) | Սահմանում է փաստաթղթի արժեքները վահանակի դաշտերի մեջ բեռնելու գործողությունները։ |
-| [LockControls(bool)](Methods/LockControls.md) | Բոլոր դաշտերը դարձնում է միայն կարդալու։ |
-| [LockControlsExcept(bool, string[])](Methods/LockControlsExcept.md) | Բոլոր դաշտերը դարձնում է միայն կարդալու՝ բացառությամբ տրված ներքին անուններով դաշտերի։ |
-| [MakeWindowTitle()](Methods/MakeWindowTitle.md) | Թարմացնում է փաստաթղթի պատուհանի վերնագիրը և տպման կոճակների վիճակը։ |
+| [LockControls(bool)](Methods/LockControls.md) | Բոլոր դաշտերը դարձնում է readOnly։ |
+| [LockControlsExcept(bool, string[])](Methods/LockControlsExcept.md) | ԲոլոԲոլոր դաշտերը դարձնում է readOnly՝ բացառությամբ տրված ներքին անուններով դաշտերի։ |
+| [MakeWindowTitle()](Methods/MakeWindowTitle.md) | Թարմացնում է փաստաթղթի պատուհանի գլխագիրը և տպման կոճակների վիճակը։  |
 | [OnAttachmentDelete(OnAttachmentDeleteEventArgs)](Methods/OnAttachmentDelete.md) | Սահմանում է փաստաթղթի կցված ֆայլի հեռացման իրադարձության մշակումը։ |
 | [OnCtrl1()](Methods/OnCtrl1.md) | Սահմանում է **Ctrl1** shortcut-ի սեղմման ժամանակ կատարվող գործողությունը։ |
 | [OnCtrlF11()](Methods/OnCtrlF11.md) | Սահմանում է **CtrlF11** shortcut-ի սեղմման ժամանակ կատարվող գործողությունը։ |
@@ -171,11 +171,11 @@ nav_exclude: true
 | [PlaceControl(LayoutGroup, string)](Methods/PlaceControl.md#documentpanelplacecontrollayoutgroup-string-մեթոդ) | Տրված ներքին անունով դաշտը տեղադրում է վահանակում՝ նշված դասավորման խմբում։ |
 | [Prepare(SupportDocumentArgs)](Methods/Prepare.md) | Կարգավորում է փաստաթղթի վահանակին ուղեկցող կոճակների (տպման, ստեղծել պատճեն, պատմություն և այլն) վիճակը։ |
 | [ReadMagneticCard(string)](Methods/ReadMagneticCard.md) | Սահմանում է մագնիսական քարտի կարդալու իրադարձության մշակումը։ |
-| [RestoreSettings(double, double)](Methods/RestoreSettings.md#documentpanelrestoresettingsdouble-double-մեթոդ) | Վերականգնում է փաստաթղթի պատուհանի և աղյուսակերի կարգավորումները registry-ից։ |
-| [RestoreSettings(double, double, RegistryKey)](Methods/RestoreSettings.md#documentpanelrestoresettingsdouble-double-registrykey-մեթոդ) | Սահմանում է փաստաթղթի պատուհանի և աղյուսակերի կարգավորումների վերականգնումը տրված registry-ի բանալիից։ |
+| [RestoreSettings(double, double)](Methods/RestoreSettings.md#documentpanelrestoresettingsdouble-double-մեթոդ) | Վերականգնում է փաստաթղթի պատուհանի և աղյուսակների կարգավորումները registry-ից։ |
+| [RestoreSettings(double, double, RegistryKey)](Methods/RestoreSettings.md#documentpanelrestoresettingsdouble-double-registrykey-մեթոդ) | Սահմանում է փաստաթղթի պատուհանի և աղյուսակների կարգավորումների վերականգնումը տրված registry-ի բանալիից։ |
 | [SaveAndCloseDocument()](Methods/SaveAndCloseDocument.md) | Պահպանում և փակում է փաստաթուղթը։ |
 | [SaveAndNewDocument()](Methods/SaveAndNewDocument.md) | Պահպանում է փաստաթուղթը և սկսում նորի ստեղծումը՝ պատճենելով ընթացիկ փաստաթղթի բովանդակությունը։ |
-| [SaveDocument(bool)](Methods/SaveDocument.md) | Պահպանում է փաստաթուղթը՝ տրված որպես սևագիր։ |
+| [SaveDocument(bool)](Methods/SaveDocument.md) | Պահպանում է փաստաթուղթը։ |
 | [Scan(string)](Methods/Scan.md) | Սահմանում է սկաների տվյալների մշակումը։ |
 | [SetControlCaption(Control, string)](Methods/SetControlCaption.md) | Փոխում է տրված դաշտի դասավորման գլխագիրը։ |
 | [SetControlReadonly(bool, Control)](Methods/SetControlReadonly.md#documentpanelsetcontrolreadonlybool-control-մեթոդ) | Սահմանում է տրված դաշտի միայն կարդալու վիճակի փոփոխությունը։ |
@@ -189,8 +189,8 @@ nav_exclude: true
 | [SetMinHeight(int)](Methods/SetMinHeight.md) | Սահմանում է փաստաթղթի վահանակի և իր ծնող պատուհանի նվազագույն բարձրությունը։ |
 | [SetMinWidth(int)](Methods/SetMinWidth.md) | Սահմանում է փաստաթղթի վահանակի և իր ծնող պատուհանի նվազագույն լայնությունը։ |
 | [ShowOnStatusBar(GridControl)](Methods/ShowOnStatusBar.md) | Տրված աղյուսակի ընթացիկ տողի և ընտրված տողերի թիվը ցուցադրում է պատուհանի status bar-ում։ |
-| [StoreSettings()](Methods/StoreSettings.md#documentpanelstoresettings-մեթոդ) | Պահպանում է փաստաթղթի պատուհանի և աղյուսակերի կարգավորումները registry-ում։ |
-| [StoreSettings(RegistryKey)](Methods/StoreSettings.md#documentpanelstoresettingsregistrykey-մեթոդ) | Սահմանում է փաստաթղթի պատուհանի և աղյուսակերի կարգավորումների պահպանումը տրված registry-ի բանալիում։ |
+| [StoreSettings()](Methods/StoreSettings.md#documentpanelstoresettings-մեթոդ) | Պահպանում է փաստաթղթի պատուհանի և աղյուսակների կարգավորումները Windows registry-ում։ |
+| [StoreSettings(RegistryKey)](Methods/StoreSettings.md#documentpanelstoresettingsregistrykey-մեթոդ) | Սահմանում է փաստաթղթի պատուհանի և աղյուսակների կարգավորումների պահպանումը տրված Windows registry-ի բանալիում։ |
 | [UnlockControls()](Methods/UnlockControls.md) | Բոլոր դաշտերը դարձնում է խմբագրման համար հասանելի։ |
 | [UnlockControlsExcept(string[])](Methods/UnlockControlsExcept.md) | Բոլոր դաշտերը դարձնում է խմբագրման համար հասանելի՝ բացառությամբ տրված ներքին անուններով դաշտերի։ |
 | [Validate()](Methods/Validate.md) | Սահմանում է փաստաթղթի դաշտերի վալիդացման գործողությունները։ |

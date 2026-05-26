@@ -10,8 +10,8 @@ grand_parent: "DocumentPanel"
 
 | Անվանում | Նկարագրություն |
 |----------|----------------|
-| [StoreSettings()](#documentpanelstoresettings-մեթոդ) | Պահպանում է փաստաթղթի պատուհանի և աղյուսակների կարգավորումները registry-ում։ |
-| [StoreSettings(RegistryKey)](#documentpanelstoresettingsregistrykey-մեթոդ) | Սահմանում է փաստաթղթի պատուհանի և աղյուսակների կարգավորումների պահպանումը տրված registry-ի բանալիում։ |
+| [StoreSettings()](#documentpanelstoresettings-մեթոդ) | Պահպանում է փաստաթղթի պատուհանի և աղյուսակների կարգավորումները Windows registry-ում։ |
+| [StoreSettings(RegistryKey)](#documentpanelstoresettingsregistrykey-մեթոդ) | Սահմանում է փաստաթղթի պատուհանի և աղյուսակների կարգավորումների պահպանումը տրված Windows registry-ի բանալիում։ |
 
 ### DocumentPanel.StoreSettings() մեթոդ
 
@@ -21,7 +21,7 @@ grand_parent: "DocumentPanel"
 protected void StoreSettings()
 ```
 
-Պահպանում է փաստաթղթի պատուհանի և աղյուսակների կարգավորումները registry-ում։ [RegistryKey](../Properties/RegistryKey.md) հատկության դատարկ արժեքի դեպքում մեթոդը որևէ գործողություն չի կատարում։
+Պահպանում է փաստաթղթի պատուհանի և աղյուսակների կարգավորումները Windows registry-ում։ [RegistryKey](../Properties/RegistryKey.md) հատկության դատարկ արժեքի դեպքում մեթոդը որևէ գործողություն չի կատարում։
 
 ### DocumentPanel.StoreSettings(RegistryKey) մեթոդ
 
@@ -31,7 +31,7 @@ protected void StoreSettings()
 protected virtual void StoreSettings(RegistryKey regKey)
 ```
 
-Սահմանում է փաստաթղթի պատուհանի և աղյուսակների կարգավորումների պահպանումը տրված registry-ի բանալիում։
+Սահմանում է փաստաթղթի պատուհանի և աղյուսակների կարգավորումների պահպանումը տրված Windows registry-ի բանալիում։
 
 Մեթոդը չմշակելու դեպքում պահպանվում են պատուհանի չափերն ու դիրքը և յուրաքանչյուր աղյուսակի դասավորությունն ու սյունակների կարգավորումները։
 
@@ -39,4 +39,4 @@ protected virtual void StoreSettings(RegistryKey regKey)
 
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 | --- | --- | --- | --- |
-| regKey | RegistryKey | - | Registry-ի բանալին, որում պահպանվում են կարգավորումները։ |
+| regKey | RegistryKey | - | Windows registry-ի բանալին, որում պահպանվում են կարգավորումները։ |
