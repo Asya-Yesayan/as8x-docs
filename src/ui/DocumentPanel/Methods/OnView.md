@@ -16,4 +16,4 @@ protected virtual void OnView()
 
 Սահմանում է փաստաթղթի դիտման ռեժիմում բացման ընթացքում կատարվող գործողությունները։
 
-Մեթոդը չմշակելու դեպքում թարմացվում է պատուհանի վերնագիրը, կանչվում են [LoadDocumentToControls](LoadDocumentToControls.md) և [AfterLoadDocumentToControls](AfterLoadDocumentToControls.md) մեթոդները, իսկ վահանակի բոլոր դաշտերը դարձվում են միայն readOnly վիճակում։
+Մեթոդը չմշակելու դեպքում թարմացվում է պատուհանի վերնագիրը, կանչվում են [LoadDocumentToControls](LoadDocumentToControls.md) և [AfterLoadDocumentToControls](AfterLoadDocumentToControls.md) մեթոդները, իսկ վահանակի բոլոր դաշտերը դարձվում են readOnly վիճակում։

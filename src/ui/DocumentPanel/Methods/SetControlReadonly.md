@@ -10,8 +10,8 @@ grand_parent: "DocumentPanel"
 
 | Անվանում | Նկարագրություն |
 |----------|----------------|
-| [SetControlReadonly(bool, Control)](#documentpanelsetcontrolreadonlybool-control-մեթոդ) | Սահմանում է տրված դաշտի միայն readOnly վիճակի փոփոխությունը։ |
-| [SetControlReadonly(bool, string)](#documentpanelsetcontrolreadonlybool-string-մեթոդ) | Սահմանում է տրված ներքին անունով դաշտի միայն readOnly վիճակի փոփոխությունը։ |
+| [SetControlReadonly(bool, Control)](#documentpanelsetcontrolreadonlybool-control-մեթոդ) | Սահմանում է տրված դաշտի readOnly վիճակի փոփոխությունը։ |
+| [SetControlReadonly(bool, string)](#documentpanelsetcontrolreadonlybool-string-մեթոդ) | Սահմանում է տրված ներքին անունով դաշտի readOnly վիճակի փոփոխությունը։ |
 
 ### DocumentPanel.SetControlReadonly(bool, Control) մեթոդ
 
@@ -22,7 +22,7 @@ protected virtual void SetControlReadonly(bool value,
                                           Control control)
 ```
 
-Սահմանում է տրված դաշտի միայն readOnly վիճակի փոփոխությունը։
+Սահմանում է տրված դաշտի readOnly վիճակի փոփոխությունը։
 
 Մեթոդը չմշակելու դեպքում դաշտի **IsReadOnly** հատկության արժեքը նշանակվում է ըստ տրված արժեքի՝ ճանաչված դաշտի կոնկրետ տիպի համար (**TextEditExt**, **ButtonEditExt**, **DropDownControl**, **DateEditControl**, **TimeEditControl**, **NumericEditControl**, **CheckEditExt** և այլն)։
 
@@ -30,7 +30,7 @@ protected virtual void SetControlReadonly(bool value,
 
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 | --- | --- | --- | --- |
-| value | bool | - | **true** արժեքի դեպքում դաշտը դառնում է միայն կարդալու, **false** արժեքի դեպքում՝ խմբագրման համար հասանելի։ |
+| value | bool | - | **true** արժեքի դեպքում դաշտը դառնում է readOnly, **false** արժեքի դեպքում՝ խմբագրման համար հասանելի։ |
 | control | Control | - | Դաշտը, որի վիճակը պետք է փոփոխվի։ |
 
 ### DocumentPanel.SetControlReadonly(bool, string) մեթոդ
@@ -42,7 +42,7 @@ protected virtual void SetControlReadonly(bool value,
                                           string name)
 ```
 
-Սահմանում է տրված ներքին անունով դաշտի միայն readOnly վիճակի փոփոխությունը։
+Սահմանում է տրված ներքին անունով դաշտի readOnly վիճակի փոփոխությունը։
 
 Մեթոդը չմշակելու դեպքում փոխանցվում է [SetControlReadonly(bool, Control)](#documentpanelsetcontrolreadonlybool-control-մեթոդ) մեթոդին՝ գտնված դաշտով։
 
@@ -50,5 +50,5 @@ protected virtual void SetControlReadonly(bool value,
 
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 | --- | --- | --- | --- |
-| value | bool | - | **true** արժեքի դեպքում դաշտը դառնում է միայն կարդալու, **false** արժեքի դեպքում՝ խմբագրման համար հասանելի։ |
+| value | bool | - | **true** արժեքի դեպքում դաշտը դառնում է readOnly, **false** արժեքի դեպքում՝ խմբագրման համար հասանելի։ |
 | name | string | - | Դաշտի ներքին անունը։ |

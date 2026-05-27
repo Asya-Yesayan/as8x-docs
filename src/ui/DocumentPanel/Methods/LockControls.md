@@ -20,4 +20,4 @@ public void LockControls(bool lockUserDefinedFields = false)
 
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 | --- | --- | --- | --- |
-| lockUserDefinedFields | bool | false | **true** արժեքի դեպքում միայն կարդալու են դարձվում նաև օգտագործողի կողմից սահմանված դաշտերը, հակառակ դեպքում՝ բոլորը։ |
+| lockUserDefinedFields | bool | false | **true** արժեքի դեպքում readOnly են դարձվում նաև օգտագործողի կողմից սահմանված դաշտերը, հակառակ դեպքում՝ բոլորը։ |

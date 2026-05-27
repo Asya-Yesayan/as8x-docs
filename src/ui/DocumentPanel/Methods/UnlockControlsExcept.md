@@ -20,4 +20,4 @@ public void UnlockControlsExcept(params string[] suppressFor)
 
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 | --- | --- | --- | --- |
-| suppressFor | string[] | - | Միայն readOnly վիճակից բացառվող դաշտերի ներքին անունների ցուցակը։ |
+| suppressFor | string[] | - | ReadOnly վիճակից բացառվող դաշտերի ներքին անունների ցուցակը։ |
