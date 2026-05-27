@@ -140,9 +140,9 @@ nav_exclude: true
 | [LockControlsExcept(bool, string[])](Methods/LockControlsExcept.md) | ԲոլոԲոլոր դաշտերը դարձնում է readOnly՝ բացառությամբ տրված ներքին անուններով դաշտերի։ |
 | [MakeWindowTitle()](Methods/MakeWindowTitle.md) | Թարմացնում է փաստաթղթի պատուհանի գլխագիրը և տպման կոճակների վիճակը։  |
 | [OnAttachmentDelete(OnAttachmentDeleteEventArgs)](Methods/OnAttachmentDelete.md) | Սահմանում է փաստաթղթի կցված ֆայլի հեռացման իրադարձության մշակումը։ |
-| [OnCtrl1()](Methods/OnCtrl1.md) | Սահմանում է **Ctrl1** shortcut-ի սեղմման ժամանակ կատարվող գործողությունը։ |
-| [OnCtrlF11()](Methods/OnCtrlF11.md) | Սահմանում է **CtrlF11** shortcut-ի սեղմման ժամանակ կատարվող գործողությունը։ |
-| [OnCtrlF9()](Methods/OnCtrlF9.md) | Սահմանում է **CtrlF9** shortcut-ի սեղմման ժամանակ կատարվող գործողությունը։ |
+| [OnCtrl1()](Methods/OnCtrl1.md) | Սահմանում է **Ctrl+1** shortcut-ի սեղմման ժամանակ կատարվող գործողությունը։ |
+| [OnCtrlF11()](Methods/OnCtrlF11.md) | Սահմանում է **Ctrl+F11** shortcut-ի սեղմման ժամանակ կատարվող գործողությունը։ |
+| [OnCtrlF9()](Methods/OnCtrlF9.md) | Սահմանում է **Ctrl+F9** shortcut-ի սեղմման ժամանակ կատարվող գործողությունը։ |
 | [OnEdit()](Methods/OnEdit.md) | Սահմանում է փաստաթղթի խմբագրման ռեժիմում բացման ընթացքում կատարվող գործողությունները։ |
 | [OnF11()](Methods/OnF11.md) | Սահմանում է **F11** shortcut-ի սեղմման ժամանակ կատարվող գործողությունը։ |
 | [OnF2()](Methods/OnF2.md) | Սահմանում է **F2** shortcut-ի սեղմման ժամանակ կատարվող գործողությունը։ |
