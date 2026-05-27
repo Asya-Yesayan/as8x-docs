@@ -14,4 +14,4 @@ grand_parent: "DocumentPanel"
 public void CollapseTabsWithHiddenControls()
 ```
 
-Թաքցնում է այն բոլոր թաբները, որոնց բոլոր դաշտերը թաքնված են։
+Թաքցնում է այն բոլոր թաբերը, որոնց բոլոր դաշտերը թաքնված են։

@@ -20,4 +20,4 @@ public LayoutControl GetTabGroup(string name)
 
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 | --- | --- | --- | --- |
-| name | string | - | թաբի ներքին անունը։ |
+| name | string | - | Թաբի ներքին անունը։ |

@@ -70,8 +70,8 @@ protected void AddControl(Control control,
 | --- | --- | --- | --- |
 | control | Control | - | Գրանցվող դաշտը։ |
 | dataItemName | string | - | Տվյալների աղբյուրի ներքին անունը։ |
-| forTabValidation | Control | - | թաբերի վալիդացման համար նշված առաջին ենթադաշտը։ |
-| forTabValidation2 | Control | null | թաբերի վալիդացման համար նշված երկրորդ ենթադաշտը։ |
+| forTabValidation | Control | - | Թաբերի վալիդացման համար նշված առաջին ենթադաշտը։ |
+| forTabValidation2 | Control | null | Թաբերի վալիդացման համար նշված երկրորդ ենթադաշտը։ |
 
 ### DocumentPanel.AddControl(FieldSchema) մեթոդ
 

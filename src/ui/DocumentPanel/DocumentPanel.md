@@ -113,11 +113,11 @@ nav_exclude: true
 | [CloseDocument()](Methods/CloseDocument.md) | Փակում է փաստաթղթի պատուհանը։ |
 | [CollapseControl(Control)](Methods/CollapseControl.md#documentpanelcollapsecontrolcontrol-մեթոդ) | Թաքցնում է տրված դաշտը վահանակում։ |
 | [CollapseControl(string)](Methods/CollapseControl.md#documentpanelcollapsecontrolstring-մեթոդ) | Թաքցնում է տրված ներքին անունով դաշտը վահանակում։ |
-| [CollapseTabsWithHiddenControls()](Methods/CollapseTabsWithHiddenControls.md) | Թաքցնում է այն բոլոր թաբները, որոնց բոլոր դաշտերը թաքնված են։ |
+| [CollapseTabsWithHiddenControls()](Methods/CollapseTabsWithHiddenControls.md) | Թաքցնում է այն բոլոր թաբերը, որոնց բոլոր դաշտերը թաքնված են։ |
 | [CollapseTabWithHiddenControls(string)](Methods/CollapseTabWithHiddenControls.md) | Թաքցնում է տրված թաբը, եթե նրա բոլոր դաշտերը թաքնված են։ |
 | [ConstructUI()](Methods/ConstructUI.md) | Սահմանում է փաստաթղթի վահանակի ինտերֆեյսի կառուցման գործողությունները։ |
 | [ConstructUIForSchemaPage(PageSchema, LayoutGroup, HashSet&lt;string&gt;)](Methods/ConstructUIForSchemaPage.md) | Տրված էջի սխեմայի հիման վրա կառուցում է վահանակի մեկ էջի ինտերֆեյսը՝ ըստ դաշտերի դասավորման։ |
-| [ConstructUIFromSchema(IEnumerable&lt;string&gt;)](Methods/ConstructUIFromSchema.md) | Փաստաթղթի սխեմայի հիման վրա կառուցում է վահանակի ինտերֆեյսը՝ ստեղծելով անհրաժեշտ թաբները։ |
+| [ConstructUIFromSchema(IEnumerable&lt;string&gt;)](Methods/ConstructUIFromSchema.md) | Փաստաթղթի սխեմայի հիման վրա կառուցում է վահանակի ինտերֆեյսը՝ ստեղծելով անհրաժեշտ թաբերը։ |
 | [FillDocument(StoreRequest)](Methods/FillDocument.md) | Սահմանում է դաշտերի արժեքները փաստաթղթի դաշտերին վերագրելու գործողությունները։ |
 | [GetControl(string)](Methods/GetControl.md#documentpanelgetcontrolstring-մեթոդ) | Վերադարձնում է տրված ներքին անունով դաշտը։ |
 | [GetControl&lt;C&gt;(string)](Methods/GetControl.md#documentpanelgetcontrolcstring-մեթոդ) | Վերադարձնում է տրված ներքին անունով դաշտը՝ արտածած **C** տիպին։ |
@@ -158,8 +158,8 @@ nav_exclude: true
 | [OnPrintPreview(PrintModeSE)](Methods/OnPrintPreview.md) | Սահմանում է փաստաթղթի տպման նախադիտման բացման գործողությունները։ |
 | [OnScanner(OnScannerEventArgs)](Methods/OnScanner.md) | Սահմանում է սկաների կարդալու իրադարձության մշակումը։ |
 | [OnScannerRead(OnScannerEventArgs)](Methods/OnScannerRead.md) | Կանչում է սկաների կարդալու իրադարձության մշակումը՝ ընդլայնիչի **BeforeOnScanner** և **AfterOnScanner** կանչերով։ |
-| [OnShiftF8()](Methods/OnShiftF8.md) | Սահմանում է **ShiftF8** shortcut-ի սեղմման ժամանակ կատարվող գործողությունը։ |
-| [OnShiftF9()](Methods/OnShiftF9.md) | Սահմանում է **ShiftF9** shortcut-ի սեղմման ժամանակ կատարվող գործողությունը։ |
+| [OnShiftF8()](Methods/OnShiftF8.md) | Սահմանում է **Shift+F8** shortcut-ի սեղմման ժամանակ կատարվող գործողությունը։ |
+| [OnShiftF9()](Methods/OnShiftF9.md) | Սահմանում է **Shift+F9** shortcut-ի սեղմման ժամանակ կատարվող գործողությունը։ |
 | [OnView()](Methods/OnView.md) | Սահմանում է փաստաթղթի դիտման ռեժիմում բացման ընթացքում կատարվող գործողությունները։ |
 | [PlaceControl(LayoutGroup, Control, LayoutGroup, bool)](Methods/PlaceControl.md#documentpanelplacecontrollayoutgroup-control-layoutgroup-bool-մեթոդ) | Տրված դաշտը տեղադրում է վահանակում՝ ուղղահայաց և հորիզոնական դասավորման խմբերում։ |
 | [PlaceControl(LayoutGroup, string)](Methods/PlaceControl.md#documentpanelplacecontrollayoutgroup-string-մեթոդ) | Տրված ներքին անունով դաշտը տեղադրում է վահանակում՝ նշված դասավորման խմբում։ |
