@@ -172,12 +172,12 @@ nav_exclude: true
 | [SaveDocument(bool)](Methods/SaveDocument.md) | Պահպանում է փաստաթուղթը։ |
 | [Scan(string)](Methods/Scan.md) | Սահմանում է սկաների տվյալների մշակումը։ |
 | [SetControlCaption(Control, string)](Methods/SetControlCaption.md) | Փոխում է տրված դաշտի գլխագիրը։ |
-| [SetControlReadonly(bool, Control)](Methods/SetControlReadonly.md#documentpanelsetcontrolreadonlybool-control-մեթոդ) | Սահմանում է տրված դաշտի միայն կարդալու վիճակի փոփոխությունը։ |
-| [SetControlReadonly(bool, string)](Methods/SetControlReadonly.md#documentpanelsetcontrolreadonlybool-string-մեթոդ) | Սահմանում է տրված ներքին անունով դաշտի միայն կարդալու վիճակի փոփոխությունը։ |
-| [SetControlsReadonly(bool)](Methods/SetControlsReadonly.md#documentpanelsetcontrolsreadonlybool-մեթոդ) | Սահմանում է փաստաթղթի բոլոր դաշտերի միայն կարդալու վիճակի փոփոխությունը։ |
-| [SetControlsReadonly(bool, Control[])](Methods/SetControlsReadonly.md#documentpanelsetcontrolsreadonlybool-control-մեթոդ) | Սահմանում է տրված դաշտերի միայն կարդալու վիճակի փոփոխությունը։ |
-| [SetControlsReadonly(bool, string[])](Methods/SetControlsReadonly.md#documentpanelsetcontrolsreadonlybool-string-մեթոդ) | Սահմանում է տրված ներքին անուններով դաշտերի միայն կարդալու վիճակի փոփոխությունը։ |
-| [SetControlsReadonlyExcept(bool, string[])](Methods/SetControlsReadonlyExcept.md) | Սահմանում է բոլոր դաշտերի միայն կարդալու վիճակի փոփոխությունը՝ բացառությամբ տրված ներքին անուններով դաշտերի։ |
+| [SetControlReadonly(bool, Control)](Methods/SetControlReadonly.md#documentpanelsetcontrolreadonlybool-control-մեթոդ) | Սահմանում է տրված դաշտի միայն readOnly վիճակի փոփոխությունը։ |
+| [SetControlReadonly(bool, string)](Methods/SetControlReadonly.md#documentpanelsetcontrolreadonlybool-string-մեթոդ) | Սահմանում է տրված ներքին անունով դաշտի միայն readOnly վիճակի փոփոխությունը։ |
+| [SetControlsReadonly(bool)](Methods/SetControlsReadonly.md#documentpanelsetcontrolsreadonlybool-մեթոդ) | Սահմանում է փաստաթղթի բոլոր դաշտերի միայն readOnly վիճակի փոփոխությունը։ |
+| [SetControlsReadonly(bool, Control[])](Methods/SetControlsReadonly.md#documentpanelsetcontrolsreadonlybool-control-մեթոդ) | Սահմանում է տրված դաշտերի միայն readOnly վիճակի փոփոխությունը։ |
+| [SetControlsReadonly(bool, string[])](Methods/SetControlsReadonly.md#documentpanelsetcontrolsreadonlybool-string-մեթոդ) | Սահմանում է տրված ներքին անուններով դաշտերի միայն readOnly վիճակի փոփոխությունը։ |
+| [SetControlsReadonlyExcept(bool, string[])](Methods/SetControlsReadonlyExcept.md) | Սահմանում է բոլոր դաշտերի միայն readOnly վիճակի փոփոխությունը՝ բացառությամբ տրված ներքին անուններով դաշտերի։ |
 | [SetControlValue(Control, object)](Methods/SetControlValue.md) | Սահմանում է տրված դաշտին արժեք վերագրելու գործողությունները։ |
 | [SetFocus(Control, bool)](Methods/SetFocus.md) | Ֆոկուսը տեղափոխում է տրված դաշտի վրա։ |
 | [SetMinHeight(int)](Methods/SetMinHeight.md) | Սահմանում է փաստաթղթի վահանակի և իր ծնող պատուհանի նվազագույն բարձրությունը։ |
