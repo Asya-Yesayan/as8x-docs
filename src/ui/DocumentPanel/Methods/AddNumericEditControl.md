@@ -30,7 +30,7 @@ public NumericEditControl AddNumericEditControl(string name,
 | --- | --- | --- | --- |
 | name | string | - | Դաշտի ներքին անունը։ |
 | caption | string | - | Դաշտի գլխագիրը։ |
-| isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է լրացման համար։ |
+| isRequired | bool | - | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է լրացման համար։ |
 | length | short | - | Դաշտում թույլատրելի թվանշանների ընդհանուր քանակը։ |
 | precision | short | 0 | Տասնորդական մասի թվանշանների քանակը։ |
 | dataItemName | string | null | Տվյալների աղբյուրի ներքին անունը։ |

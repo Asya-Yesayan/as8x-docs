@@ -10,8 +10,8 @@ grand_parent: "DocumentPanel"
 
 | Անվանում | Նկարագրություն |
 |----------|----------------|
-| [AddGrid(GridInfo, HorizontalAlignment, VerticalAlignment, bool)](#documentpaneladdgridgridinfo-horizontalalignment-verticalalignment-bool-մեթոդ) | Փաստաթղթի վահանակում ավելացնում է աղյուսակ (**DocumentGridControl**)՝ աղյուսակի տեղեկատվության օբյեկտից վերցված կարգավորումներով և սյունակներով։ |
-| [AddGrid(string, string, HorizontalAlignment, VerticalAlignment, string, bool)](#documentpaneladdgridstring-string-horizontalalignment-verticalalignment-string-bool-մեթոդ) | Փաստաթղթի վահանակում ավելացնում է աղյուսակ (**DocumentGridControl**)՝ տրված անվանումով և գլխագրով։ |
+| [AddGrid(GridInfo, HorizontalAlignment, VerticalAlignment, bool)](#documentpaneladdgridgridinfo-horizontalalignment-verticalalignment-bool-մեթոդ) | Փաստաթղթի վահանակում ավելացնում է աղյուսակ (**DocumentGridControl**) և վերադարձնում է այն։ |
+| [AddGrid(string, string, HorizontalAlignment, VerticalAlignment, string, bool)](#documentpaneladdgridstring-string-horizontalalignment-verticalalignment-string-bool-մեթոդ) | Փաստաթղթի վահանակում ավելացնում է աղյուսակ (**DocumentGridControl**) և վերադարձնում է այն՝ տրված անվանումով և գլխագրով։ |
 
 ### DocumentPanel.AddGrid(GridInfo, HorizontalAlignment, VerticalAlignment, bool) մեթոդ
 

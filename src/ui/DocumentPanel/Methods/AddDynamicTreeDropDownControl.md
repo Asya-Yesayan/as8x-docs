@@ -41,7 +41,7 @@ public TreeDropDownControl AddDynamicTreeDropDownControl(string name,
 | treeId | string | - | Ծառի ներքին անունը (id)։ |
 | parentNode | string | - | Ծառի ծնող հանգույցի ներքին անունը, որի ենթահանգույցները պետք է ցուցադրվեն։ |
 | isFullTree | bool | - | **true** արժեքի դեպքում ցուցադրվում է ամբողջական ծառը, **false** արժեքի դեպքում՝ սահմանված ենթաբազմությունը։ |
-| isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է լրացման համար։ |
+| isRequired | bool | - | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է լրացման համար։ |
 | dataItemName | string | null | Տվյալների աղբյուրի ներքին անունը։ |
 | selectRootsOnly | bool | false | **true** արժեքի դեպքում թույլատրված է ընտրել միայն ծառի արմատային հանգույցները։ |
 | horizontalAlignment | HorizontalAlignment | HorizontalAlignment.Left | Դաշտի հորիզոնական դասավորման ռեժիմը։ |
@@ -76,7 +76,7 @@ public TreeDropDownControl AddDynamicTreeDropDownControl(string name,
 | treeId | string | - | Ծառի ներքին անունը (id)։ |
 | treeElements | List&lt;TreeElementModel&gt; | - | Ծառի հանգույցների ցուցակը։ |
 | isFullTree | bool | - | **true** արժեքի դեպքում ցուցադրվում է ամբողջական ծառը, **false** արժեքի դեպքում՝ սահմանված ենթաբազմությունը։ |
-| isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է լրացման համար։ |
+| isRequired | bool | - | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է լրացման համար։ |
 | codeLength | short | - | Ծառի հանգույցի կոդի երկարությունը։ |
 | dataItemName | string | null | Տվյալների աղբյուրի ներքին անունը։ |
 | selectRootsOnly | bool | false | **true** արժեքի դեպքում թույլատրված է ընտրել միայն ծառի արմատային հանգույցները։ |

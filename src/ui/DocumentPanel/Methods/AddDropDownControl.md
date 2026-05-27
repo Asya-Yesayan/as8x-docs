@@ -28,7 +28,7 @@ public DropDownControl AddDropDownControl(string name,
 | --- | --- | --- | --- |
 | name | string | - | Դաշտի ներքին անունը։ |
 | caption | string | - | Դաշտի գլխագիրը։ |
-| isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է լրացման համար։ |
+| isRequired | bool | - | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է լրացման համար։ |
 | idv | IDropDownView | - | Բացվող ցուցակի դիտելու ձևը։ |
 | dataItemName | string | null | Տվյալների աղբյուրի ներքին անունը։ |
 | allowAdditionButtons | bool | false | **true** արժեքի դեպքում դաշտին ավելացվում են լրացուցիչ կոճակներ (ավելացում, խմբագրում, ․․․)։ |

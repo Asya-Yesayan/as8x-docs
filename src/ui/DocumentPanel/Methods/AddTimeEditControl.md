@@ -27,7 +27,7 @@ public TimeEditControl AddTimeEditControl(string name,
 | --- | --- | --- | --- |
 | name | string | - | Դաշտի ներքին անունը։ |
 | caption | string | - | Դաշտի գլխագիրը։ |
-| isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է լրացման համար։ |
+| isRequired | bool | - | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է լրացման համար։ |
 | showSeconds | bool | false | **true** արժեքի դեպքում ցուցադրվում են նաև վայրկյանները (`hh:mm:ss`), հակառակ դեպքում՝ միայն ժամ և րոպե (`hh:mm`)։ |
 | dataItemName | string | null | Տվյալների աղբյուրի ներքին անունը։ |
 | horizontalAlignment | HorizontalAlignment | HorizontalAlignment.Left | Դաշտի հորիզոնական դասավորման ռեժիմը։ |

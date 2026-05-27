@@ -29,7 +29,7 @@ public ButtonEditExt AddButtonEdit(string name,
 | --- | --- | --- | --- |
 | name | string | - | Դաշտի ներքին անունը։ |
 | caption | string | - | Դաշտի գլխագիրը։ |
-| isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է լրացման համար։ |
+| isRequired | bool | - | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է լրացման համար։ |
 | length | short | — | Մուտքագրման տեքստի առավելագույն երկարությունը։ |
 | dataItemName | string | null | Տվյալների աղբյուրի ներքին անունը։ |
 | estimatedButtonsCount | short | 1 | Դաշտին կից կոճակների ակնկալվող քանակը, որի հիման վրա հաշվարկվում է դաշտի լայնությունը։ |

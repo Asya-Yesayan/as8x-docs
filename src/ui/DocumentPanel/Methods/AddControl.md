@@ -10,9 +10,9 @@ grand_parent: "DocumentPanel"
 
 | Անվանում | Նկարագրություն |
 |----------|----------------|
-| [AddControl(Control)](#documentpaneladdcontrolcontrol-մեթոդ) | Գրանցում է տրված դաշտը վահանակի դաշտերի ցուցակում։ |
-| [AddControl(Control, string, bool)](#documentpaneladdcontrolcontrol-string-bool-մեթոդ) | Գրանցում է տրված դաշտը վահանակի դաշտերի ցուցակում՝ տվյալների աղբյուրի ներքին անունով։ |
-| [AddControl(Control, string, Control, Control)](#documentpaneladdcontrolcontrol-string-control-control-մեթոդ) | Գրանցում է տրված դաշտը վահանակի դաշտերի ցուցակում՝ թաբերի վալիդացման համար նշված ենթադաշտերով։ |
+| [AddControl(Control)](#documentpaneladdcontrolcontrol-մեթոդ) | Ավելացնում է տրված դաշտը վահանակի դաշտերի ցուցակում։ |
+| [AddControl(Control, string, bool)](#documentpaneladdcontrolcontrol-string-bool-մեթոդ) | Ավելացնում է տրված դաշտը վահանակի դաշտերի ցուցակում՝ տվյալների աղբյուրի ներքին անունով։ |
+| [AddControl(Control, string, Control, Control)](#documentpaneladdcontrolcontrol-string-control-control-մեթոդ) | Ավելացնում է տրված դաշտը վահանակի դաշտերի ցուցակում՝ թաբերի վալիդացման համար նշված ենթադաշտերով։ |
 | [AddControl(FieldSchema)](#documentpaneladdcontrolfieldschema-մեթոդ) | Տրված դաշտի սխեմայի հիման վրա ավելացնում է համապատասխան տիպի դաշտ վահանակում և վերադարձնում է այն։ |
 
 ### DocumentPanel.AddControl(Control) մեթոդ
@@ -23,7 +23,7 @@ grand_parent: "DocumentPanel"
 protected void AddControl(Control control)
 ```
 
-Գրանցում է տրված դաշտը վահանակի դաշտերի ցուցակում։
+Ավելացնում է տրված դաշտը վահանակի դաշտերի ցուցակում։
 
 **Պարամետրեր**
 
@@ -41,7 +41,7 @@ protected void AddControl(Control control,
                           bool registerForTabValidation = true)
 ```
 
-Գրանցում է տրված դաշտը վահանակի դաշտերի ցուցակում՝ տվյալների աղբյուրի ներքին անունով։ 
+Ավելացնում է տրված դաշտը վահանակի դաշտերի ցուցակում՝ տվյալների աղբյուրի ներքին անունով։ 
 
 **Պարամետրեր**
 
@@ -62,7 +62,7 @@ protected void AddControl(Control control,
                           Control forTabValidation2 = null)
 ```
 
-Գրանցում է տրված դաշտը վահանակի դաշտերի ցուցակում՝ թաբերի վալիդացման համար նշված ենթադաշտերով։ Կիրառվում է կազմված դաշտերի (օրինակ՝ **DropDownControl**, **NumPairControl**) համար, որոնց ներքին ենթադաշտերն են ֆոկուս ստանում։
+Ավելացնում է տրված դաշտը վահանակի դաշտերի ցուցակում՝ թաբերի վալիդացման համար նշված ենթադաշտերով։ Կիրառվում է կազմված դաշտերի (օրինակ՝ **DropDownControl**, **NumPairControl**) համար, որոնց ներքին ենթադաշտերն են ֆոկուս ստանում։
 
 **Պարամետրեր**
 

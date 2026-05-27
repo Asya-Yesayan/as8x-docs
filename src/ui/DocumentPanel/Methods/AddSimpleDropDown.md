@@ -30,7 +30,7 @@ public SimpleDropDown AddSimpleDropDown(string name,
 | --- | --- | --- | --- |
 | name | string | - | Դաշտի ներքին անունը։ |
 | caption | string | - | Դաշտի գլխագիրը։ |
-| isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է լրացման համար։ |
+| isRequired | bool | - | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է լրացման համար։ |
 | codeLength | short | - | «Կոդ» դաշտում թույլատրելի նիշերի առավելագույն քանակը։ |
 | commentLength | short | Constants.Common.LenComment | «Անվանում» դաշտում թույլատրելի նիշերի առավելագույն քանակը։ |
 | dataItemName | string | null | Տվյալների աղբյուրի ներքին անունը։ |

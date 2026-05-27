@@ -52,7 +52,7 @@ nav_exclude: true
 | Անվանում | Նկարագրություն |
 |----------|----------------|
 | [CallErrorOnSaveExceptionEvent](Events/CallErrorOnSaveExceptionEvent.md) | Առաջանում է փաստաթղթի պահպանման ընթացքում առաջացած սխալի դեպքում։ |
-| [PreviewKeyDownControlKeyG](Events/PreviewKeyDownControlKeyG.md) | Առաջանում է փաստաթղթի վահանակում **CtrlG** shortcut-ի սեղմման դեպքում։ |
+| [PreviewKeyDownControlKeyG](Events/PreviewKeyDownControlKeyG.md) | Առաջանում է փաստաթղթի վահանակում **Ctrl+G** shortcut-ի սեղմման դեպքում։ |
 | [PropertyChanged](Events/PropertyChanged.md) | Առաջանում է վահանակի հատկության արժեքի փոփոխման դեպքում։ |
 
 ## Delegate-ներ
@@ -70,9 +70,9 @@ nav_exclude: true
 | [AddButtonEdit(string, string, bool, short, string, short, HorizontalAlignment, StringRestriction)](Methods/AddButtonEdit.md) | Փաստաթղթի վահանակում ավելացնում է տեքստային մուտքագրման դաշտ (**ButtonEditExt**) և վերադարձնում է այն։  |
 | [AddCheckEdit(string, string, string, bool, HorizontalAlignment)](Methods/AddCheckEdit.md) | Փաստաթղթի վահանակում ավելացնում է նշիչ (CheckBox) դաշտ (**CheckEditExt**) և վերադարձնում է այն։ |
 | [AddComboBoxEditControl(string, string, short, bool, IEnumerable&lt;string&gt;, string, HorizontalAlignment)](Methods/AddComboBoxEditControl.md) | Փաստաթղթի վահանակում ավելացնում է բացվող ցուցակով տեքստային դաշտ (**ComboBoxEditExt**) և վերադարձնում է այն։ |
-| [AddControl(Control)](Methods/AddControl.md#documentpaneladdcontrolcontrol-մեթոդ) | Գրանցում է տրված դաշտը վահանակի դաշտերի ցուցակում առանց տվյալների աղբյուրի կապի։ |
-| [AddControl(Control, string, bool)](Methods/AddControl.md#documentpaneladdcontrolcontrol-string-bool-մեթոդ) | Գրանցում է տրված դաշտը վահանակի դաշտերի ցուցակում՝ տվյալների աղբյուրի ներքին անունով։ |
-| [AddControl(Control, string, Control, Control)](Methods/AddControl.md#documentpaneladdcontrolcontrol-string-control-control-մեթոդ) | Գրանցում է տրված դաշտը վահանակի դաշտերի ցուցակում՝ թաբերի վալիդացման համար նշված ենթադաշտերով։ |
+| [AddControl(Control)](Methods/AddControl.md#documentpaneladdcontrolcontrol-մեթոդ) | Ավելացնում է տրված դաշտը վահանակի դաշտերի ցուցակում առանց տվյալների աղբյուրի կապի։ |
+| [AddControl(Control, string, bool)](Methods/AddControl.md#documentpaneladdcontrolcontrol-string-bool-մեթոդ) | Ավելացնում է տրված դաշտը վահանակի դաշտերի ցուցակում՝ տվյալների աղբյուրի ներքին անունով։ |
+| [AddControl(Control, string, Control, Control)](Methods/AddControl.md#documentpaneladdcontrolcontrol-string-control-control-մեթոդ) | Ավելացնում է տրված դաշտը վահանակի դաշտերի ցուցակում՝ թաբերի վալիդացման համար նշված ենթադաշտերով։ |
 | [AddControl(FieldSchema)](Methods/AddControl.md#documentpaneladdcontrolfieldschema-մեթոդ) | Տրված դաշտի սխեմայի հիման վրա ավելացնում է համապատասխան տիպի դաշտ վահանակում։ |
 | [AddControls()](Methods/AddControls.md) | Սահմանում է փաստաթղթի վահանակում դաշտերի ավելացման գործողությունները։ |
 | [AddControlsFromSchema(IEnumerable&lt;string&gt;)](Methods/AddControlsFromSchema.md) | Փաստաթղթի սխեմայի հիման վրա ավելացնում է վահանակում բոլոր դաշտերը, **memo**-ները, պատկերները և աղյուսակները։ |
@@ -82,8 +82,8 @@ nav_exclude: true
 | [AddDXTabControl(string, LayoutGroup)](Methods/AddDXTabControl.md) | Փաստաթղթի վահանակում ավելացնում է թաբ (**DXTabControl**) և վերադարձնում է այն։ |
 | [AddDynamicTreeDropDownControl(string, string, string, string, bool, bool, string, bool, HorizontalAlignment, bool)](Methods/AddDynamicTreeDropDownControl.md#documentpaneladddynamictreedropdowncontrolstring-string-string-string-bool-bool-string-bool-horizontalalignment-bool-մեթոդ) | Փաստաթղթի վահանակում ավելացնում է դինամիկ ծառային բացվող ցուցակ (**TreeDropDownControl**)՝ տրված ծնող հանգույցով, որի ենթահանգույցները ցուցադրվում են ցուցակում և վերադարձնում է այն։  |
 | [AddDynamicTreeDropDownControl(string, string, string, List&lt;TreeElementModel&gt;, bool, bool, short, string, bool, HorizontalAlignment, bool)](Methods/AddDynamicTreeDropDownControl.md#documentpaneladddynamictreedropdowncontrolstring-string-string-listtreeelementmodel-bool-bool-short-string-bool-horizontalalignment-bool-մեթոդ) | Փաստաթղթի վահանակում ավելացնում է դինամիկ ծառային բացվող ցուցակ (**TreeDropDownControl**)՝ տրված հանգույցների ցուցակով, որոնք ձևավորում են ծառի կառուցվածքը և վերադարձնում է այն։ |
-| [AddGrid(GridInfo, HorizontalAlignment, VerticalAlignment, bool)](Methods/AddGrid.md#documentpaneladdgridgridinfo-horizontalalignment-verticalalignment-bool-մեթոդ) | Փաստաթղթի վահանակում ավելացնում է աղյուսակ (**DocumentGridControl**)՝ աղյուսակի տեղեկատվության օբյեկտից վերցված կարգավորումներով և սյունակներով։ |
-| [AddGrid(string, string, HorizontalAlignment, VerticalAlignment, string, bool)](Methods/AddGrid.md#documentpaneladdgridstring-string-horizontalalignment-verticalalignment-string-bool-մեթոդ) | Փաստաթղթի վահանակում ավելացնում է աղյուսակ (**DocumentGridControl**)՝ տրված անվանումով և գլխագրով։ |
+| [AddGrid(GridInfo, HorizontalAlignment, VerticalAlignment, bool)](Methods/AddGrid.md#documentpaneladdgridgridinfo-horizontalalignment-verticalalignment-bool-մեթոդ) | Փաստաթղթի վահանակում ավելացնում է աղյուսակ (**DocumentGridControl**) և վերադարձնում է այն։ |
+| [AddGrid(string, string, HorizontalAlignment, VerticalAlignment, string, bool)](Methods/AddGrid.md#documentpaneladdgridstring-string-horizontalalignment-verticalalignment-string-bool-մեթոդ) | Փաստաթղթի վահանակում ավելացնում է աղյուսակ (**DocumentGridControl**) և վերադարձնում է այն՝ տրված անվանումով և գլխագրով։ |
 | [AddImageEdit(string, string, double, double, string, HorizontalAlignment, Stretch)](Methods/AddImageEdit.md) | Փաստաթղթի վահանակում ավելացնում է պատկերի դաշտ (**ImageEditExt**)։ |
 | [AddLayoutGroup(string, LayoutGroup, LayoutGroupView, Orientation, string)](Methods/AddLayoutGroup.md) | Փաստաթղթի վահանակում ավելացնում է դասավորման խումբ (**LayoutGroup**)։ |
 | [AddLine(LayoutGroup, string, LineCaptionAlignment, string)](Methods/AddLine.md) | Փաստաթղթի վահանակում ավելացնում է հորիզոնական բաժանարար գիծ (**HorizontalLineControl**) և վերադարձնում է այն։ |
@@ -93,12 +93,12 @@ nav_exclude: true
 | [AddNumPairControl(string, string, bool, string, string, string, HorizontalAlignment)](Methods/AddNumPairControl.md) | Երկխոսության պատուհանում ավելացնում է թվային զույգ դաշտ (**NumPairControl**), որը թույլ է տալիս մուտքագրել երկու թիվ՝ բաժանված բաժանարարով և վերադարձնում է այն։ |
 | [AddPathEdit(string, string, short, DialogType, bool, string, string, HorizontalAlignment)](Methods/AddPathEdit.md) | Փաստաթղթի վահանակում ավելացնում է ֆայլի կամ թղթապանակի ճանապարհի ընտրման դաշտ (**BrowsePathEditExt**) և վերադարձնում է այն։  |
 | [AddSimpleDropDown(string, string, bool, short, short, string, short, HorizontalAlignment, StringRestriction)](Methods/AddSimpleDropDown.md) | Փաստաթղթի վահանակում ավելացնում է պարզ բացվող ցուցակ (**SimpleDropDown**) և վերադարձնում է այն։ |
-| [AddTabbedGroup(string, DXTabControl, string)](Methods/AddTabbedGroup.md) | թաբին ավելացնում է նոր թաբ (**DXTabItem**) և վերադարձնում է դրա պարունակության դասավորման խումբը։ |
+| [AddTabbedGroup(string, DXTabControl, string)](Methods/AddTabbedGroup.md) | Թաբին ավելացնում է նոր թաբ (**DXTabItem**) և վերադարձնում է դրա պարունակության դասավորման խումբը։ |
 | [AddTextEdit(string, string, bool, short, string, HorizontalAlignment, StringRestriction)](Methods/AddTextEdit.md) | Փաստաթղթի վահանակում ավելացնում է տեքստային մուտքագրման դաշտ (**TextEditExt**) և վերադարձնում է այն։ |
 | [AddTimeEditControl(string, string, bool, bool, string, HorizontalAlignment)](Methods/AddTimeEditControl.md) | Փաստաթղթի վահանակում ավելացնում է ժամի մուտքագրման դաշտ (**TimeEditControl**) և վերադարձնում է այն։ |
 | [AddTreeDropDownControl(string, string, string, bool, bool, string, bool, HorizontalAlignment, bool)](Methods/AddTreeDropDownControl.md) | Փաստաթղթի վահանակում ավելացնում է ծառային բացվող ցուցակ (**TreeDropDownControl**) և վերադարձնում է այն։ |
 | [AfterLoadDocumentToControls()](Methods/AfterLoadDocumentToControls.md) | Սահմանում է փաստաթղթի արժեքները դաշտերի մեջ բեռնելուց հետո կատարվող գործողությունները։ |
-| [AfterStore(StoreRequest, bool)](Methods/AfterStore.md) | Սահմանում է փաստաթղթի պահպանումից հետո ծնող վահանակի թարմացման գործողությունները։ |
+| [AfterStore(StoreRequest, bool)](Methods/AfterStore.md) | Սահմանում է փաստաթղթի գրանցումից հետո կատարվող գործողությունները։ |
 | [AllowCopy()](Methods/AllowCopy.md) | Սահմանում է, արդյոք թույլատրված է փաստաթղթի պատճենումը։ |
 | [AllowDraft()](Methods/AllowDraft.md) | Սահմանում է, արդյոք փաստաթղթի համար թույլատրված է **«Պահպանել որպես սևագիր»** հնարավորությունը։ |
 | [AllowExportToJSON()](Methods/AllowExportToJSON.md) | Սահմանում է, արդյոք թույլատրված է փաստաթղթի **JSON** ֆորմատով արտահանումը։ |
