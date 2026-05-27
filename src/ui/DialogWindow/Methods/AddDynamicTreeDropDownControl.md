@@ -37,10 +37,17 @@ public TreeDropDownControl AddDynamicTreeDropDownControl(string name, string cap
 | parentNode | string | — | Ծառի սահմանումից այն ծնող հանգույցը, որի զավակ հանգույցները պետք է ցուցադրվեն։ |
 | isFullTree | bool | — | Որոշում է, արդյոք ծառը ամբողջական (full) ծառ է։ |
 | selectRootsOnly | bool | false | **true** արժեքի դեպքում թույլատրվում է ընտրել միայն արմատային հանգույցները։ |
-| isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է։ |
+| isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է լրացման համար։ |
 | storeValue | bool | true | Որոշում է, արդյոք դաշտի արժեքը պետք է պահպանվի։ |
 | showComment | bool | true | Որոշում է, արդյոք ցուցադրվի մեկնաբանությունը։ |
 | isExpanded | bool | false | Որոշում է, արդյոք ծառի հանգույցները լինեն բացված։ |
+
+#### Օրինակ
+
+```c#
+// երկխոսության պատուհանում ավելացնում է դինամիկ ծառային դաշտ՝ «Departments» ծառի «test» հանգույցի զավակներով
+var tree = AddDynamicTreeDropDownControl("dept", "Ստորաբաժանում", "Departments", "test", isFullTree: false);
+```
 
 ### DialogWindow.AddDynamicTreeDropDownControl(LayoutGroup, string, string, string, string, bool, bool, bool, bool, bool, bool) մեթոդ
 
@@ -67,10 +74,20 @@ public TreeDropDownControl AddDynamicTreeDropDownControl(LayoutGroup container, 
 | parentNode | string | — | Ծնող հանգույցը, որի զավակները պետք է ցուցադրվեն։ |
 | isFullTree | bool | — | Որոշում է, արդյոք ծառը ամբողջական ծառ է։ |
 | selectRootsOnly | bool | false | Միայն արմատային հանգույցների ընտրման թույլատվությունը։ |
-| isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է։ |
+| isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է լրացման համար։ |
 | storeValue | bool | true | Որոշում է, արդյոք դաշտի արժեքը պետք է պահպանվի։ |
 | showComment | bool | true | Որոշում է, արդյոք ցուցադրվի մեկնաբանությունը։ |
 | isExpanded | bool | false | Որոշում է, արդյոք ծառի հանգույցները լինեն բացված։ |
+
+#### Օրինակ
+
+```c#
+// ստեղծում է ուղղահայաց դասավորման խումբ
+var group = AddVerticalLayoutGroup();
+
+// երկխոսության պատուհանում ավելացնում է դինամիկ ծառային դաշտ՝ «Departments» ծառի «test» հանգույցի զավակներով
+var tree = AddDynamicTreeDropDownControl(group, "dept", "Ստորաբաժանում", "Departments", "test", isFullTree: false);
+```
 
 ### DialogWindow.AddDynamicTreeDropDownControl(string, string, string, List&lt;TreeElementModel&gt;, bool, short, bool, bool, bool, bool, bool) մեթոդ
 
@@ -97,10 +114,20 @@ public TreeDropDownControl AddDynamicTreeDropDownControl(string name, string cap
 | isFullTree | bool | — | Որոշում է, արդյոք ծառը ամբողջական ծառ է։ |
 | codeLength | short | — | Ծառի հանգույցի կոդի երկարությունը։ |
 | selectRootsOnly | bool | false | Միայն արմատային հանգույցների ընտրման թույլատվությունը։ |
-| isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է։ |
+| isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է լրացման համար։ |
 | storeValue | bool | true | Որոշում է, արդյոք դաշտի արժեքը պետք է պահպանվի։ |
 | showComment | bool | true | Որոշում է, արդյոք ցուցադրվի մեկնաբանությունը։ |
 | isExpanded | bool | false | Որոշում է, արդյոք ծառի հանգույցները լինեն բացված։ |
+
+#### Օրինակ
+
+```c#
+// ծառի հանգույցների ցուցակը ձևավորվում է ծրագրային եղանակով
+List<TreeElementModel> nodes = BuildDepartmentNodes();
+
+// երկխոսության պատուհանում ավելացնում է դինամիկ ծառային դաշտ՝ տրված հանգույցներով
+var tree = AddDynamicTreeDropDownControl("dept", "Ստորաբաժանում", "Departments", nodes, isFullTree: false, codeLength: 10);
+```
 
 ### DialogWindow.AddDynamicTreeDropDownControl(LayoutGroup, string, string, string, List&lt;TreeElementModel&gt;, bool, short, bool, bool, bool, bool, bool) մեթոդ
 
@@ -129,7 +156,20 @@ public TreeDropDownControl AddDynamicTreeDropDownControl(LayoutGroup container, 
 | isFullTree | bool | — | Որոշում է, արդյոք ծառը ամբողջական ծառ է։ |
 | codeLength | short | — | Ծառի հանգույցի կոդի երկարությունը։ |
 | selectRootsOnly | bool | false | Միայն արմատային հանգույցների ընտրման թույլատվությունը։ |
-| isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է։ |
+| isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է լրացման համար։ |
 | storeValue | bool | true | Որոշում է, արդյոք դաշտի արժեքը պետք է պահպանվի։ |
 | showComment | bool | true | Որոշում է, արդյոք ցուցադրվի մեկնաբանությունը։ |
 | isExpanded | bool | false | Որոշում է, արդյոք ծառի հանգույցները լինեն բացված։ |
+
+#### Օրինակ
+
+```c#
+// ստեղծում է ուղղահայաց դասավորման խումբ
+var group = AddVerticalLayoutGroup();
+
+// ծառի հանգույցների ցուցակը ձևավորվում է ծրագրային եղանակով
+List<TreeElementModel> nodes = BuildDepartmentNodes();
+
+// նշված խմբում ավելացնում է դինամիկ ծառային դաշտ՝ տրված հանգույցներով
+var tree = AddDynamicTreeDropDownControl(group, "dept", "Ստորաբաժանում", "Departments", nodes, isFullTree: false, codeLength: 10);
+```

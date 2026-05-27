@@ -14,3 +14,13 @@ public bool ConfiguredModal { get; }
 ```
 
 Վերադարձնում է **true**, եթե երկխոսության պատուհանը ստեղծման ժամանակ կարգավորվել է որպես մոդալ։ Այս հատկությունը արժեքավորվում է [DialogWindow](../Methods/DialogWindow.md) դասի կոնստրուկտորի **configureModal** պարամետրով։
+
+## Օրինակ
+
+```c#
+// մոդալ պատուհանի դեպքում միացնում է պահպանված արժեքների բեռնումը
+if (ConfiguredModal)
+{
+    this.LoadStoredValues = true;
+}
+```

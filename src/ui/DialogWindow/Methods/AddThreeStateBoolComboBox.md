@@ -31,6 +31,13 @@ public ComboBoxEditExt AddThreeStateBoolComboBox(string name, string caption, bo
 | storeValue | bool | true | Որոշում է, արդյոք դաշտի արժեքը պետք է պահպանվի։ |
 
 
+#### Օրինակ
+
+```c#
+// երկխոսության պատուհանում ավելացնում է երեք վիճակ ընդունող ընտրացանկ (այո/ոչ/չորոշված)
+var combo = AddThreeStateBoolComboBox("isActive", "Ակտիվ է");
+```
+
 ### DialogWindow.AddThreeStateBoolComboBox(LayoutGroup, string, string, bool) մեթոդ
 
 **Դաս՝** [DialogWindow](../DialogWindow.md)
@@ -50,4 +57,14 @@ public ComboBoxEditExt AddThreeStateBoolComboBox(LayoutGroup container, string n
 | name | string | — | Դաշտի ներքին անունը։ |
 | caption | string | — | Դաշտի անվանումը։ |
 | storeValue | bool | true | Որոշում է, արդյոք դաշտի արժեքը պետք է պահպանվի։ |
+
+#### Օրինակ
+
+```c#
+// ստեղծում է ուղղահայաց դասավորման խումբ
+var group = AddVerticalLayoutGroup();
+
+// նշված դասավորման խմբում ավելացնում է երեք վիճակ ընդունող ընտրացանկ՝ Ակտիվ է անվանումով
+var combo = AddThreeStateBoolComboBox(group, "isActive", "Ակտիվ է");
+```
 

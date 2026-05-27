@@ -35,3 +35,20 @@ public DropDownButton AddDropDownButton(LayoutGroup container, string name, stri
 | imgHeight | double | 16 | Կոճակի վրա ցուցադրվող նկարի բարձրությունը։ |
 | popupItems | IEnumerable&lt;IBarItem&gt; | null | popup տեսակի ընտրացանկում ցուցադրվող տարրերի ցուցակը։ |
 | showGlyphsInPopupMenu | bool | true | Որոշում է, արդյոք ցուցադրվեն տարրերի կողմի նկարները popup տեսակի ընտրացանկում։ |
+
+## Օրինակ
+
+```c#
+// ստեղծում է ուղղահայաց դասավորման խումբ
+var group = AddVerticalLayoutGroup();
+
+// popup ընտրացանկում ցուցադրվող արժեքները
+var popupItems = new List<IBarItem>
+{
+    new BarButtonItem { Content = "Արտահանել Excel" },
+    new BarButtonItem { Content = "Արտահանել PDF" }
+};
+
+// նշված խմբում ավելացնում է popup ընտրացանկով կոճակ՝ Արտահանել անվանումով
+var button = AddDropDownButton(group, "export", caption: "Արտահանել", popupItems: popupItems);
+```

@@ -34,6 +34,16 @@ public Control AddControl(FieldType type, string name, string caption, bool isRe
 | isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է լրացման համար։ |
 | storeValue | bool | true | Որոշում է, արդյոք դաշտի արժեքը պետք է պահպանվի։ |
 
+#### Օրինակ
+
+```c#
+// դաշտի տիպը ստացվում է պարամետրի սահմանումից
+FieldType type = parameter.Type;
+
+// երկխոսության պատուհանում ավելացնում է պարտադիր լրացվող դաշտ՝ ըստ տրված դաշտի տիպի
+var control = AddControl(type, "amount", "Գումար", isRequired: true);
+```
+
 ### DialogWindow.AddControl(LayoutGroup, FieldType, string, string, bool, bool) մեթոդ
 
 **Դաս՝** [DialogWindow](../DialogWindow.md)
@@ -57,6 +67,16 @@ public Control AddControl(LayoutGroup container, FieldType type, string name, st
 | storeValue | bool | true | Որոշում է, արդյոք դաշտի արժեքը պետք է պահպանվի։ |
 
 
+#### Օրինակ
+
+```c#
+// ստեղծում է ուղղահայաց դասավորման խումբ
+var group = AddVerticalLayoutGroup();
+
+// նշված խմբում ավելացնում է դաշտ՝ ըստ դաշտի տիպի
+var control = AddControl(group, parameter.Type, "amount", "Գումար");
+```
+
 ### DialogWindow.AddControl(string, string, Control, bool) մեթոդ
 
 **Դաս՝** [DialogWindow](../DialogWindow.md)
@@ -75,6 +95,16 @@ public void AddControl(string name, string caption, Control myControl, bool stor
 | caption | string | — | Դաշտի անվանումը։ |
 | myControl | Control | — | Ավելացվող ստեղծված դաշտը։ |
 | storeValue | bool | true | Որոշում է, արդյոք դաշտի արժեքը պետք է պահպանվի։ |
+
+#### Օրինակ
+
+```c#
+// տեքստային մուտքագրման դաշտի ստեղծում
+var textEdit = new TextEditExt { Name = "code", MaxLength = 50 };
+
+// երկխոսության պատուհանին ավելացնում է արդեն ստեղծված դաշտը
+AddControl("code", "Կոդ", textEdit);
+```
 
 ### DialogWindow.AddControl(LayoutGroup, string, string, Control, bool, bool, LayoutItemLabelPosition) մեթոդ
 
@@ -99,3 +129,16 @@ public void AddControl(LayoutGroup container, string name, string caption, Contr
 | storeValue | bool | true | Որոշում է, արդյոք դաշտի արժեքը պետք է պահպանվի։ |
 | addLayoutItemBinding | bool | false | Որոշում է, արդյոք պետք է սահմանվի դաշտի **IsRequired** հատկության կապը դասավորման տարրի հետ։ |
 | labelPosition | LayoutItemLabelPosition | LayoutItemLabelPosition.Left | Դաշտի անվանման դիրքավորումը։ |
+
+#### Օրինակ
+
+```c#
+// ստեղծում է ուղղահայաց դասավորման խումբ
+var group = AddVerticalLayoutGroup();
+
+// տեքստային մուտքագրման դաշտի ստեղծում
+var textEdit = new TextEditExt { Name = "code", MaxLength = 50 };
+
+// նշված խմբում ավելացնում է արդեն ստեղծված դաշտը
+AddControl(group, "code", "Կոդ", textEdit);
+```

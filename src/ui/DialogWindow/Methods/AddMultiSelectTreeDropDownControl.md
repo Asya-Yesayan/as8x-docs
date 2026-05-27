@@ -34,10 +34,17 @@ public MultiSelectTreeDropDownControl AddMultiSelectTreeDropDownControl(string n
 | treeId | string | — | Ծառի ներքին անունը։ |
 | isFullTree | bool | — | Որոշում է, արդյոք ծառը ամբողջական ծառ է։ |
 | selectRootsOnly | bool | false | Միայն արմատային հանգույցների ընտրման թույլատվությունը։ |
-| isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է։ |
+| isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է լրացման համար։ |
 | storeValue | bool | true | Որոշում է, արդյոք դաշտի արժեքը պետք է պահպանվի։ |
 | isExpanded | bool | false | Որոշում է, արդյոք ծառի հանգույցները լինեն բացված։ |
 
+
+#### Օրինակ
+
+```c#
+// երկխոսության պատուհանում ավելացնում է ծառային դաշտ՝ մի քանի հանգույց ընտրելու հնարավորությամբ
+var tree = AddMultiSelectTreeDropDownControl("depts", "Ստորաբաժանումներ", "Departments", isFullTree: false);
+```
 
 ### DialogWindow.AddMultiSelectTreeDropDownControl(LayoutGroup, string, string, string, bool, bool, bool, bool, bool) մեթոդ
 
@@ -63,7 +70,17 @@ public MultiSelectTreeDropDownControl AddMultiSelectTreeDropDownControl(LayoutGr
 | treeId | string | — | Ծառի ներքին անունը։ |
 | isFullTree | bool | — | Որոշում է, արդյոք ծառը ամբողջական ծառ է։ |
 | selectRootsOnly | bool | false | Միայն արմատային հանգույցների ընտրման թույլատվությունը։ |
-| isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է։ |
+| isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է լրացման համար։ |
 | storeValue | bool | true | Որոշում է, արդյոք դաշտի արժեքը պետք է պահպանվի։ |
 | isExpanded | bool | false | Որոշում է, արդյոք ծառի հանգույցները լինեն բացված։ |
+
+#### Օրինակ
+
+```c#
+// ստեղծում է ուղղահայաց դասավորման խումբ
+var group = AddVerticalLayoutGroup();
+
+// նշված դասավորման խմբում ավելացնում է բազմակի ընտրությամբ ծառային դաշտ
+var tree = AddMultiSelectTreeDropDownControl(group, "depts", "Ստորաբաժանումներ", "Departments", isFullTree: false);
+```
 

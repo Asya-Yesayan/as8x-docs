@@ -28,6 +28,13 @@ public object GetControlValue(string name);
 |----------|--------------|----------------|----------------|
 | name | string | — | Դաշտի ներքին անունը։ |
 
+#### Օրինակ
+
+```c#
+// ստանում է «code» ներքին անունով դաշտի արժեքը
+var value = GetControlValue("code");
+```
+
 ### DialogWindow.GetControlValue(Control) մեթոդ
 
 **Դաս՝** [DialogWindow](../DialogWindow.md)
@@ -43,3 +50,11 @@ public static object GetControlValue(Control control);
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 |----------|--------------|----------------|----------------|
 | control | Control | — | Դաշտը, որի արժեքը պետք է վերադարձվի։ |
+
+#### Օրինակ
+
+```c#
+// ստանում է «code» ներքին անունով դաշտը և կարդում դրա արժեքը
+var control = GetControl("code");
+var value = GetControlValue(control);
+```

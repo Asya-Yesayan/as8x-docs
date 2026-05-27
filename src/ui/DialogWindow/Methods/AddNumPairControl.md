@@ -29,11 +29,18 @@ public NumPairControl AddNumPairControl(string name, string caption, bool isRequ
 |----------|--------------|----------------|----------------|
 | name | string | — | Դաշտի ներքին անունը։ |
 | caption | string | — | Դաշտի անվանումը։ |
-| isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է։ |
+| isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է լրացման համար։ |
 | storeValue | bool | true | Որոշում է, արդյոք դաշտի արժեքը պետք է պահպանվի։ |
 | separator | string | null | Թվերի միջև բաժանարար նիշը կամ տողը։ |
 | comment | string | null | Դաշտին համապատասխանող մեկնաբանությունը։ |
 
+
+#### Օրինակ
+
+```c#
+// երկխոսության պատուհանում ավելացնում է թվային զույգ դաշտ
+var numPair = AddNumPairControl("range", "Միջակայք");
+```
 
 ### DialogWindow.AddNumPairControl(LayoutGroup, string, string, bool, bool, string, string) մեթոդ
 
@@ -54,9 +61,19 @@ public NumPairControl AddNumPairControl(LayoutGroup container, string name, stri
 | container | LayoutGroup | — | Դասավորման խումբը, որտեղ ավելացվում է դաշտը։ |
 | name | string | — | Դաշտի ներքին անունը։ |
 | caption | string | — | Դաշտի անվանումը։ |
-| isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է։ |
+| isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է լրացման համար։ |
 | storeValue | bool | true | Որոշում է, արդյոք դաշտի արժեքը պետք է պահպանվի։ |
 | separator | string | null | Թվերի միջև բաժանարար նիշը կամ տողը։ |
 | comment | string | null | Դաշտին համապատասխանող մեկնաբանությունը։ |
+
+#### Օրինակ
+
+```c#
+// ստեղծում է ուղղահայաց դասավորման խումբ
+var group = AddVerticalLayoutGroup();
+
+// նշված դասավորման խմբում ավելացնում է թվային զույգ դաշտ
+var numPair = AddNumPairControl(group, "range", "Միջակայք");
+```
 
 

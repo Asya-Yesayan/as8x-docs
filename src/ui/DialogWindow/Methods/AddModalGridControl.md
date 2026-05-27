@@ -30,6 +30,16 @@ public ModalGridControl AddModalGridControl(string name, string caption, IDropDo
 | caption | string | — | Դաշտի անվանումը։ |
 | dropDownView | IDropDownView | — | Դիտելու ձևի նկարագրությունը, որի հիման վրա ձևավորվում է աղյուսակի կառուցվածքը։ |
 
+#### Օրինակ
+
+```c#
+// ստեղծում է աղյուսակի դիտելու ձևը
+var idv = ViewHelper.CreateDropDownView("Customers");
+
+// երկխոսության պատուհանում ավելացնում է մոդալ աղյուսակ
+var grid = AddModalGridControl("customers", "Հաճախորդներ", idv);
+```
+
 ### DialogWindow.AddModalGridControl(LayoutGroup, string, string, IDropDownView) մեթոդ
 
 **Դաս՝** [DialogWindow](../DialogWindow.md)
@@ -48,3 +58,14 @@ public ModalGridControl AddModalGridControl(LayoutGroup container, string name, 
 | name | string | — | Դաշտի ներքին անունը։ |
 | caption | string | — | Դաշտի անվանումը։ |
 | dropDownView | IDropDownView | — | Դիտելու ձևի նկարագրությունը։ |
+
+#### Օրինակ
+
+```c#
+// ստեղծում է ուղղահայաց դասավորման խումբ
+var group = AddVerticalLayoutGroup();
+var idv = ViewHelper.CreateDropDownView("Customers");
+
+// նշված դասավորման խմբում ավելացնում է մոդալ աղյուսակ
+var grid = AddModalGridControl(group, "customers", "Հաճախորդներ", idv);
+```

@@ -20,3 +20,11 @@ public void LoadBrowseParametersInfo(Dictionary<string, object> parametersInfo);
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 |----------|--------------|----------------|----------------|
 | parametersInfo | Dictionary&lt;string, object&gt; | — | Բառարան, որտեղ բանալին դաշտի ներքին անունն է, իսկ արժեքը՝ բեռնվող արժեքը։ |
+
+## Օրինակ
+
+```c#
+// նախապես ձևավորված Dictionary-ից բեռնում է դաշտերի արժեքները
+Dictionary<string, object> parameters = CreateBrowseParametersInfo();
+LoadBrowseParametersInfo(parameters);
+```

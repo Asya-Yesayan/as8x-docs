@@ -29,7 +29,14 @@ public PasswordBoxEditExt AddPasswordBoxEdit(string name, string caption, short 
 | name | string | — | Դաշտի ներքին անունը։ |
 | caption | string | — | Դաշտի անվանումը։ |
 | length | short | — | Գաղտնաբառի առավելագույն երկարությունը։ |
-| isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է։ |
+| isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է լրացման համար։ |
+
+#### Օրինակ
+
+```c#
+// երկխոսության պատուհանում ավելացնում է գաղտնաբառի դաշտ
+var password = AddPasswordBoxEdit("password", "Գաղտնաբառ", 50, isRequired: true);
+```
 
 ### DialogWindow.AddPasswordBoxEdit(LayoutGroup, string, string, short, bool) մեթոդ
 
@@ -50,5 +57,15 @@ public PasswordBoxEditExt AddPasswordBoxEdit(LayoutGroup container, string name,
 | name | string | — | Դաշտի ներքին անունը։ |
 | caption | string | — | Դաշտի անվանումը։ |
 | length | short | — | Գաղտնաբառի առավելագույն երկարությունը։ |
-| isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է։ |
+| isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է լրացման համար։ |
+
+#### Օրինակ
+
+```c#
+// ստեղծում է ուղղահայաց դասավորման խումբ
+var group = AddVerticalLayoutGroup();
+
+// նշված դասավորման խմբում ավելացնում է գաղտնաբառի դաշտ՝ Գաղտնաբառ անվանումով և առավելագույնը 50 երկարությամբ
+var password = AddPasswordBoxEdit(group, "password", "Գաղտնաբառ", 50, isRequired: true);
+```
 

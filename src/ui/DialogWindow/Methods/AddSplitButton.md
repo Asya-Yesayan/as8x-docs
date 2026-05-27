@@ -35,3 +35,19 @@ public SplitButton AddSplitButton(LayoutGroup container, string name, string ima
 | imgHeight | double | 16 | Կոճակի վրա ցուցադրվող նկարի բարձրությունը։ |
 | popupItems | IEnumerable&lt;IBarItem&gt; | null | Կողային ընտրացանկում ցուցադրվող տարրերի ցուցակը։ |
 | showGlyphsInPopupMenu | bool | true | Որոշում է, արդյոք ցուցադրվեն տարրերի կողմի նկարները popup տեսակի ընտրացանկում։ |
+
+## Օրինակ
+
+```c#
+// ստեղծում է ուղղահայաց դասավորման խումբ
+var group = AddVerticalLayoutGroup();
+
+// կողային ընտրացանկի տարրերը
+var popupItems = new List<IBarItem>
+{
+    new BarButtonItem { Content = "Պահպանել որպես..." }
+};
+
+// նշված խմբում ավելացնում է կողային ընտրացանկով կոճակ
+var button = AddSplitButton(group, "save", caption: "Պահպանել", popupItems: popupItems);
+```

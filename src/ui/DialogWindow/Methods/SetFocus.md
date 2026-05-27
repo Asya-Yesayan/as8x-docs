@@ -21,3 +21,11 @@ protected static void SetFocus(Control focusableControl, bool selectAll = true);
 |----------|--------------|----------------|----------------|
 | focusableControl | Control | — | Դաշտը, որի վրա պետք է սահմանվի ֆոկուսը։ |
 | selectAll | bool | true | **true** արժեքի դեպքում դաշտի ընթացիկ տեքստն ընտրվում է ամբողջությամբ։ |
+
+## Օրինակ
+
+```c#
+// ստանում է դաշտը և դաշտի վրա սահմանում մուտքագրման ֆոկուսը
+var control = GetControl("code");
+SetFocus(control);
+```

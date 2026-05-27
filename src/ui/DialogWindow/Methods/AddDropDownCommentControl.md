@@ -34,13 +34,23 @@ public DropDownCommentControl AddDropDownCommentControl(string name, string capt
 | name | string | — | Դաշտի ներքին անունը։ |
 | caption | string | — | Դաշտի անվանումը։ |
 | idv | IDropDownView | — | Տվյալների աղբյուրի popup տեսակի ընտրացանկի նկարագրությունը։ |
-| isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է։ |
+| isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է լրացման համար։ |
 | storeValue | bool | true | Որոշում է, արդյոք դաշտի արժեքը պետք է պահպանվի։ |
 | codeLength | short | Constants.Common.LenComment | Կոդի դաշտի երկարությունը։ |
 | commentLength | short | 0 | Մեկնաբանության դաշտի երկարությունը։ |
 | estimatedButtonsCount | short | 1 | Դաշտին կից կոճակների ակնկալվող քանակը։ |
 | horizontalAlignment | HorizontalAlignment | HorizontalAlignment.Left | Դաշտի հորիզոնական դասավորվածության ուղղությունը։ |
 | stringRestriction | StringRestriction | StringRestriction.CanBeConvertedToArmenianANSI | Դաշտում լրացվող արժեքի կոդավորման սահմանափակում (Armenian ansi, Russian ansi): |
+
+#### Օրինակ
+
+```c#
+// ստեղծում է popup ընտրացանկի դիտելու ձևը
+var idv = ViewHelper.CreateDropDownView("Currencies");
+
+// երկխոսության պատուհանում ավելացնում է կոդով և մեկնաբանությամբ ընտրացանկ
+var control = AddDropDownCommentControl("currency", "Արժույթ", idv, isRequired: true);
+```
 
 ### DialogWindow.AddDropDownCommentControl(LayoutGroup, string, string, IDropDownView, bool, bool, short, short, short, HorizontalAlignment, StringRestriction) մեթոդ
 
@@ -65,10 +75,21 @@ public DropDownCommentControl AddDropDownCommentControl(LayoutGroup container, s
 | name | string | — | Դաշտի ներքին անունը։ |
 | caption | string | — | Դաշտի անվանումը։ |
 | idv | IDropDownView | — | Տվյալների աղբյուրի popup տեսակի ընտրացանկի նկարագրությունը։ |
-| isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է։ |
+| isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է լրացման համար։ |
 | storeValue | bool | true | Որոշում է, արդյոք դաշտի արժեքը պետք է պահպանվի։ |
 | codeLength | short | Constants.Common.LenComment | Կոդի դաշտի երկարությունը։ |
 | commentLength | short | 0 | Մեկնաբանության դաշտի երկարությունը։ |
 | estimatedButtonsCount | short | 1 | Դաշտին կից կոճակների ակնկալվող քանակը։ |
 | horizontalAlignment | HorizontalAlignment | HorizontalAlignment.Left | Դաշտի հորիզոնական դասավորվածության ուղղությունը։ |
 | stringRestriction | StringRestriction | StringRestriction.CanBeConvertedToArmenianANSI | Դաշտում լրացվող արժեքի կոդավորման սահմանափակում (Armenian ansi, Russian ansi): |
+
+#### Օրինակ
+
+```c#
+// ստեղծում է ուղղահայաց դասավորման խումբ
+var group = AddVerticalLayoutGroup();
+var idv = ViewHelper.CreateDropDownView("Currencies");
+
+// նշված դասավորման խմբում ավելացնում է կոդով և մեկնաբանությամբ ընտրացանկ
+var control = AddDropDownCommentControl(group, "currency", "Արժույթ", idv);
+```

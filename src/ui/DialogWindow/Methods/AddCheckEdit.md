@@ -31,6 +31,13 @@ public CheckEditExt AddCheckEdit(string name, string caption, bool storeValue = 
 | storeValue | bool | true | Որոշում է, արդյոք դաշտի արժեքը պետք է պահպանվի։ |
 | isThreeState | bool | false | **true** արժեքի դեպքում դաշտը աջակցում է երեք վիճակ՝ նշված, չնշված և չորոշված։ |
 
+#### Օրինակ
+
+```c#
+// երկխոսության պատուհանում ավելացնում է Ակտիվ է անվանումով նշիչ դաշտ
+var checkEdit = AddCheckEdit("isActive", "Ակտիվ է");
+```
+
 ### DialogWindow.AddCheckEdit(LayoutGroup, string, string, bool, bool) մեթոդ
 
 **Դաս՝** [DialogWindow](../DialogWindow.md)
@@ -51,3 +58,13 @@ public CheckEditExt AddCheckEdit(LayoutGroup container, string name, string capt
 | caption | string | — | Դաշտի անվանումը։ |
 | storeValue | bool | true | Որոշում է, արդյոք դաշտի արժեքը պետք է պահպանվի։ |
 | isThreeState | bool | false | **true** արժեքի դեպքում դաշտը աջակցում է երեք վիճակ՝ նշված, չնշված և չորոշված։ |
+
+#### Օրինակ
+
+```c#
+// ստեղծում է ուղղահայաց դասավորման խումբ
+var group = AddVerticalLayoutGroup();
+
+// նշված դասավորման խմբում ավելացնում է Ակտիվ է նշիչ դաշտ
+var checkEdit = AddCheckEdit(group, "isActive", "Ակտիվ է");
+```

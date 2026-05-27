@@ -30,8 +30,15 @@ public DateEditControl AddDateEditControl(string name, string caption, bool useL
 | name | string | — | Դաշտի ներքին անունը։ |
 | caption | string | — | Դաշտի անվանումը։ |
 | useLongDate | bool | false | **true** արժեքի դեպքում օգտագործվում է երկար ամսաթվային ֆորմատը, հակառակ դեպքում՝ կարճ։ |
-| isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է։ |
+| isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է լրացման համար։ |
 | storeValue | bool | true | Որոշում է, արդյոք դաշտի արժեքը պետք է պահպանվի։ |
+
+#### Օրինակ
+
+```c#
+// երկխոսության պատուհանում ավելացնում է պարտադիր լրացվող ամսաթվային դաշտ
+var dateEdit = AddDateEditControl("date", "Ամսաթիվ", isRequired: true);
+```
 
 ### DialogWindow.AddDateEditControl(LayoutGroup, string, string, bool, bool, bool) մեթոդ
 
@@ -52,5 +59,15 @@ public DateEditControl AddDateEditControl(LayoutGroup container, string name, st
 | name | string | — | Դաշտի ներքին անունը։ |
 | caption | string | — | Դաշտի անվանումը։ |
 | useLongDate | bool | false | **true** արժեքի դեպքում օգտագործվում է երկար ամսաթվային ֆորմատը, հակառակ դեպքում՝ կարճ։ |
-| isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է։ |
+| isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է լրացման համար։ |
 | storeValue | bool | true | Որոշում է, արդյոք դաշտի արժեքը պետք է պահպանվի։ |
+
+#### Օրինակ
+
+```c#
+// ստեղծում է ուղղահայաց դասավորման խումբ
+var group = AddVerticalLayoutGroup();
+
+// նշված դասավորման խմբում ավելացնում է պարտադիր լրացվող ամսաթվային դաշտ
+var dateEdit = AddDateEditControl(group, "date", "Ամսաթիվ");
+```

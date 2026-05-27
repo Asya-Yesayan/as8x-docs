@@ -31,10 +31,17 @@ public TextEditExt AddTextEdit(string name, string caption, short length,
 | name | string | — | Դաշտի ներքին անունը։ |
 | caption | string | — | Դաշտի անվանումը։ |
 | length | short | — | Մուտքագրման տեքստի առավելագույն երկարությունը։ |
-| isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է։ |
+| isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է լրացման համար։ |
 | storeValue | bool | true | Որոշում է, արդյոք դաշտի արժեքը պետք է պահպանվի։ |
 | stringRestriction | StringRestriction | StringRestriction.CanBeConvertedToArmenianANSI | Դաշտում լրացվող արժեքի կոդավորման սահմանափակում (Armenian ansi, Russian ansi): |
 
+
+#### Օրինակ
+
+```c#
+// երկխոսության պատուհանում ավելացնում է «code» տեքստային դաշտ՝ առավելագույնը 50 նիշ, պարտադիր լրացմամբ
+var codeEdit = AddTextEdit("code", "Կոդ", 50, isRequired: true);
+```
 
 ### DialogWindow.AddTextEdit(LayoutGroup, string, string, short, bool, bool, StringRestriction) մեթոդ
 
@@ -56,7 +63,17 @@ public TextEditExt AddTextEdit(LayoutGroup container, string name, string captio
 | name | string | — | Դաշտի ներքին անունը։ |
 | caption | string | — | Դաշտի անվանումը։ |
 | length | short | — | Մուտքագրման տեքստի առավելագույն երկարությունը։ |
-| isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է։ |
+| isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է լրացման համար։ |
 | storeValue | bool | true | Որոշում է, արդյոք դաշտի արժեքը պետք է պահպանվի։ |
 | stringRestriction | StringRestriction | StringRestriction.CanBeConvertedToArmenianANSI | Դաշտում լրացվող արժեքի կոդավորման սահմանափակում (Armenian ansi, Russian ansi): |
+
+#### Օրինակ
+
+```c#
+// ստեղծում է ուղղահայաց դասավորման խումբ
+var group = AddVerticalLayoutGroup();
+
+// նշված դասավորման խմբում ավելացնում է պարտադիր լրացվող տեքստային դաշտ՝ Կոդ անվանումով
+var codeEdit = AddTextEdit(group, "code", "Կոդ", 50, isRequired: true);
+```
 

@@ -32,3 +32,13 @@ public Button AddButton(LayoutGroup container, string name, string imageURI = ""
 | horizontalAlignment | HorizontalAlignment | HorizontalAlignment.Left | Կոճակի հորիզոնական դասավորվածության ուղղությունը։ |
 | imgWidth | double | 16 | Կոճակի վրա ցուցադրվող նկարի լայնությունը։ |
 | imgHeight | double | 16 | Կոճակի վրա ցուցադրվող նկարի բարձրությունը։ |
+
+## Օրինակ
+
+```c#
+// ստեղծում է ուղղահայաց դասավորման խումբ
+var group = AddVerticalLayoutGroup();
+
+// նշված խմբում ավելացնում է «refresh» կոճակ՝ «Թարմացնել» անվանումով
+var button = AddButton(group, "refresh", caption: "Թարմացնել");
+```

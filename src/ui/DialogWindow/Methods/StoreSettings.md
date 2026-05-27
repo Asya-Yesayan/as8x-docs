@@ -22,6 +22,13 @@ protected void StoreSettings();
 
 Պահպանում է երկխոսության պատուհանի կարգավորումները Windows registry-ում։
 
+#### Օրինակ
+
+```c#
+// պահպանում է երկխոսության պատուհանի կարգավորումները Windows registry-ում
+StoreSettings();
+```
+
 ### DialogWindow.StoreSettings(RegistryKey) մեթոդ
 
 **Դաս՝** [DialogWindow](../DialogWindow.md)
@@ -37,3 +44,16 @@ protected virtual void StoreSettings(RegistryKey rk);
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 |----------|--------------|----------------|----------------|
 | rk | RegistryKey | — | Բացված registry բանալին, որում պահպանվում են կարգավորումները։ |
+
+#### Օրինակ
+
+```c#
+// սահմանում է կարգավորումների պահպանման լրացուցիչ տրամաբանությունը
+protected override void StoreSettings(RegistryKey rk)
+{
+    base.StoreSettings(rk);
+
+    // registry բանալիում պահպանում է կարգավորում
+    rk.SetValue("CustomSetting", "value");
+}
+```

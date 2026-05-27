@@ -29,6 +29,13 @@ public TextBlock AddTextBlock(string text, TextBlockImage icon);
 | text | string | — | Ցուցադրվող տեքստը։ |
 | icon | TextBlockImage | — | Տեքստի կողքին ցուցադրվող պատկերակի տիպը։ |
 
+#### Օրինակ
+
+```c#
+// երկխոսության պատուհանում ավելացնում է տեղեկատվական տեքստային բլոկ
+AddTextBlock("Լրացրեք բոլոր պարտադիր դաշտերը", TextBlockImage.Information);
+```
+
 ### DialogWindow.AddTextBlock(LayoutGroup, string, TextBlockImage, bool, HorizontalAlignment) մեթոդ
 
 **Դաս՝** [DialogWindow](../DialogWindow.md)
@@ -50,4 +57,14 @@ public TextBlock AddTextBlock(LayoutGroup container, string text, TextBlockImage
 | icon | TextBlockImage | — | Տեքստի կողքին ցուցադրվող պատկերակի տիպը։ |
 | iconAtRight | bool | false | **true** արժեքի դեպքում պատկերակը ցուցադրվում է աջից, հակառակ դեպքում՝ ձախից։ |
 | horizontalAlignment | HorizontalAlignment | HorizontalAlignment.Stretch | Տեքստային բլոկի հորիզոնական դասավորվածության ուղղությունը։ |
+
+#### Օրինակ
+
+```c#
+// ստեղծում է ուղղահայաց դասավորման խումբ
+var group = AddVerticalLayoutGroup();
+
+// նշված դասավորման խմբում ավելացնում է զգուշացման տեքստային բլոկ
+AddTextBlock(group, "Գործողությունն անշրջելի է", TextBlockImage.Warning);
+```
 

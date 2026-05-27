@@ -22,3 +22,15 @@ protected void AddInCollections(Control xControl, LayoutItemWithRequired li, boo
 | xControl | Control | — | Գրանցվող դաշտը։ |
 | li | LayoutItemWithRequired | — | Դաշտին համապատասխանող դասավորման տարրը (LayoutItem)։ |
 | storeValue | bool | — | Որոշում է, արդյոք դաշտի արժեքը պետք է պահպանվի։ |
+
+## Օրինակ
+
+```c#
+// ստեղծում է դասավորման տարրը և դաշտը
+var li = AddLayoutItem(null, "Կոդ");
+var control = new TextEditExt { Name = "code", MaxLength = 50 };
+li.Content = control;
+
+// գրանցում է դաշտը երկխոսության պատուհանի ներքին հավաքածուներում՝ արժեքի պահպանմամբ
+AddInCollections(control, li, storeValue: true);
+```

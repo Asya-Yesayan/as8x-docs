@@ -51,4 +51,3 @@ public RadioButtonExt AddRadioButton(LayoutGroup container, string name, string 
 | caption | string | — | Դաշտի անվանումը։ |
 | groupName | string | — | Ռադիոկոճակների խմբի անունը։ |
 | storeValue | bool | true | Որոշում է, արդյոք դաշտի արժեքը պետք է պահպանվի։ |
-

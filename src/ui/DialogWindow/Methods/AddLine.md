@@ -30,6 +30,13 @@ public HorizontalLineControl AddLine(string caption = null, LineCaptionAlignment
 | captionAlignment | LineCaptionAlignment | 0 | Տեքստի հորիզոնական դիրքավորումը գծի վրա։ |
 | name | string | null | Դաշտի տրված ներքին անուն։ Չտալու դեպքում ավտոմատ կերպով ձևավորվում է եզակի անուն՝ ըստ **HLine_** նախածանցի։ |
 
+#### Օրինակ
+
+```c#
+// երկխոսության պատուհանում ավելացնում է հորիզոնական բաժանարար գիծ՝ «Լրացուցիչ» վերնագրով
+AddLine("Լրացուցիչ");
+```
+
 ### DialogWindow.AddLine(LayoutGroup, string, LineCaptionAlignment, string) մեթոդ
 
 **Դաս՝** [DialogWindow](../DialogWindow.md)
@@ -49,3 +56,13 @@ public HorizontalLineControl AddLine(LayoutGroup container, string caption = nul
 | caption | string | null | Բաժանարար գծի վրա ցուցադրվող տրված տեքստ։ |
 | captionAlignment | LineCaptionAlignment | 0 | Տեքստի հորիզոնական դիրքավորումը գծի վրա։ |
 | name | string | null | Դաշտի տրված ներքին անուն։ |
+
+#### Օրինակ
+
+```c#
+// ստեղծում է ուղղահայաց դասավորման խումբ
+var group = AddVerticalLayoutGroup();
+
+// նշված դասավորման խմբում ավելացնում է հորիզոնական բաժանարար գիծ
+AddLine(group, "Լրացուցիչ");
+```

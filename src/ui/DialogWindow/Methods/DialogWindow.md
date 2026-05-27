@@ -22,3 +22,15 @@ public DialogWindow(Window owner = null, bool canResize = false, bool configureM
 | owner | Window | null | Երկխոսության պատուհանի ծնող պատուհանը։ **null** դեպքում օգտագործվում է հոսթինգային միջավայրի հիմնական պատուհանը։ |
 | canResize | bool | false | **true** արժեքի դեպքում երկխոսության պատուհանի չափերը կարող են փոփոխվել, հակառակ դեպքում՝ ոչ։ |
 | configureModal | bool | true | **true** արժեքի դեպքում երկխոսության պատուհանը կարգավորվում է որպես մոդալ (ընդհատող), հակառակ դեպքում՝ որպես ոչ մոդալ։ |
+
+## Օրինակ
+
+```c#
+// ստեղծում է մոդալ երկխոսության պատուհան՝ չփոփոխվող չափերով
+var dialog = new DialogWindow(canResize: false);
+dialog.Caption = "Ֆիլտրի պարամետրեր";
+
+// ավելացնում է դաշտ և ցուցադրում պատուհանը
+dialog.AddTextEdit("code", "Կոդ", 50);
+var result = dialog.ShowDialog();
+```

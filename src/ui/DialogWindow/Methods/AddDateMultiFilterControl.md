@@ -34,8 +34,16 @@ public DateMultiFilterControl AddDateMultiFilterControl(string name, string capt
 | supportedFilterTypes | MultiFilterTypes | — | Դաշտի կողմից աջակցվող ֆիլտրի տիպերի հավաքածուն։ |
 | useLongDate | bool | false | **true** արժեքի դեպքում օգտագործվում է երկար ամսաթվային ֆորմատը։ |
 | showDateNavigatorPopup | bool | true | Որոշում է, արդյոք ցուցադրվի **DateNavigator** popup տեսակի պատուհանը։ |
-| isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է։ |
+| isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է լրացման համար։ |
 | storeValue | bool | true | Որոշում է, արդյոք դաշտի արժեքը պետք է պահպանվի։ |
+
+#### Օրինակ
+
+```c#
+// երկխոսության պատուհանում ավելացնում է ամսաթվային ֆիլտրման դաշտ՝ «Հավասար է» և «Պարունակում է» ֆիլտրերի սատարմամբ
+var dateFilter = AddDateMultiFilterControl("period", "Ժամանակահատված",
+                                           MultiFilterTypes.Equals | MultiFilterTypes.Contains);
+```
 
 ### DialogWindow.AddDateMultiFilterControl(LayoutGroup, string, string, MultiFilterTypes, bool, bool, bool, bool) մեթոդ
 
@@ -60,5 +68,16 @@ public DateMultiFilterControl AddDateMultiFilterControl(LayoutGroup container, s
 | supportedFilterTypes | MultiFilterTypes | — | Դաշտի կողմից աջակցվող ֆիլտրի տիպերի հավաքածուն։ |
 | useLongDate | bool | false | **true** արժեքի դեպքում օգտագործվում է երկար ամսաթվային ֆորմատը։ |
 | showDateNavigatorPopup | bool | true | Որոշում է, արդյոք ցուցադրվի **DateNavigator** popup տեսակի պատուհանը։ |
-| isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է։ |
+| isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է լրացման համար։ |
 | storeValue | bool | true | Որոշում է, արդյոք դաշտի արժեքը պետք է պահպանվի։ |
+
+#### Օրինակ
+
+```c#
+// ստեղծում է ուղղահայաց դասավորման խումբ
+var group = AddVerticalLayoutGroup();
+
+// նշված դասավորման խմբում ավելացնում է ամսաթվային ֆիլտրման դաշտ՝ «Հավասար է» և «Պարունակում է» ֆիլտրերի սատարմամբ
+var dateFilter = AddDateMultiFilterControl(group, "period", "Ժամանակահատված",
+                                           MultiFilterTypes.Equals | MultiFilterTypes.Contains);
+```

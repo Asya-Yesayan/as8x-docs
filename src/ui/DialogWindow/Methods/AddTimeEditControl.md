@@ -30,9 +30,16 @@ public TimeEditControl AddTimeEditControl(string name, string caption, bool show
 | name | string | — | Դաշտի ներքին անունը։ |
 | caption | string | — | Դաշտի անվանումը։ |
 | showSeconds | bool | false | **true** արժեքի դեպքում ցուցադրվում են վայրկյանները։ |
-| isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է։ |
+| isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է լրացման համար։ |
 | storeValue | bool | true | Որոշում է, արդյոք դաշտի արժեքը պետք է պահպանվի։ |
 
+
+#### Օրինակ
+
+```c#
+// երկխոսության պատուհանում ավելացնում է ժամի դաշտ՝ վայրկյանների ցուցադրմամբ
+var time = AddTimeEditControl("startTime", "Սկիզբ", showSeconds: true);
+```
 
 ### DialogWindow.AddTimeEditControl(LayoutGroup, string, string, bool, bool, bool) մեթոդ
 
@@ -53,6 +60,16 @@ public TimeEditControl AddTimeEditControl(LayoutGroup container, string name, st
 | name | string | — | Դաշտի ներքին անունը։ |
 | caption | string | — | Դաշտի անվանումը։ |
 | showSeconds | bool | false | **true** արժեքի դեպքում ցուցադրվում են վայրկյանները։ |
-| isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է։ |
+| isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է լրացման համար։ |
 | storeValue | bool | true | Որոշում է, արդյոք դաշտի արժեքը պետք է պահպանվի։ |
+
+#### Օրինակ
+
+```c#
+// ստեղծում է ուղղահայաց դասավորման խումբ
+var group = AddVerticalLayoutGroup();
+
+// նշված դասավորման խմբում ավելացնում է ժամի մուտքագրման դաշտ՝ Սկիզբ անվանումով
+var time = AddTimeEditControl(group, "startTime", "Սկիզբ");
+```
 

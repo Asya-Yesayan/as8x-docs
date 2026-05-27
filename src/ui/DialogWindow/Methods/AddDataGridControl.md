@@ -28,6 +28,13 @@ public DataGridControl AddDataGridControl(string name);
 |----------|--------------|----------------|----------------|
 | name | string | — | Դաշտի ներքին անունը։ |
 
+#### Օրինակ
+
+```c#
+// երկխոսության պատուհանում ավելացնում է աղյուսակային դաշտ
+var grid = AddDataGridControl("items");
+```
+
 ### DialogWindow.AddDataGridControl(LayoutGroup, string) մեթոդ
 
 **Դաս՝** [DialogWindow](../DialogWindow.md)
@@ -44,3 +51,13 @@ public DataGridControl AddDataGridControl(LayoutGroup container, string name);
 |----------|--------------|----------------|----------------|
 | container | LayoutGroup | — | Դասավորման խումբը (LayoutGroup), որտեղ ավելացվում է դաշտը։ Եթե **null** է, դաշտն ավելացվում է երկխոսության պատուհանի հիմնական դասավորման խմբում։ |
 | name | string | — | Դաշտի ներքին անունը։ |
+
+#### Օրինակ
+
+```c#
+// ստեղծում է ուղղահայաց դասավորման խումբ
+var group = AddVerticalLayoutGroup();
+
+// նշված դասավորման խմբում ավելացնում է աղյուսակային դաշտ
+var grid = AddDataGridControl(group, "items");
+```

@@ -31,9 +31,16 @@ public BrowsePathEditExt AddPathEdit(string name, string caption, short length, 
 | caption | string | — | Դաշտի անվանումը։ |
 | length | short | — | Մուտքագրվող ուղու առավելագույն երկարությունը։ |
 | dialogType | DialogType | — | Ուղու ընտրման համար օգտագործվող պատուհանի տիպը (ֆայլի բացման, ֆայլի պահպանման, պանակի ընտրման)։ |
-| isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է։ |
+| isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է լրացման համար։ |
 | dialogFilter | string | null | Ֆայլերի ընտրման համար օգտագործվող ֆիլտրը (օրինակ՝ "*.txt")։ **null** դեպքում թույլատրվում են բոլոր ֆայլերը։ |
 | storeValue | bool | true | Որոշում է, արդյոք դաշտի արժեքը պետք է պահպանվի։ |
+
+#### Օրինակ
+
+```c#
+// երկխոսության պատուհանում ավելացնում է թղթապանակի ընտրման դաշտ
+var pathEdit = AddPathEdit("file", "Ֆայլ", 260, DialogType.FileOpen);
+```
 
 ### DialogWindow.AddPathEdit(LayoutGroup, string, string, short, DialogType, bool, string, bool) մեթոդ
 
@@ -56,8 +63,18 @@ public BrowsePathEditExt AddPathEdit(LayoutGroup container, string name, string 
 | caption | string | — | Դաշտի անվանումը։ |
 | length | short | — | Մուտքագրվող ուղու առավելագույն երկարությունը։ |
 | dialogType | DialogType | — | Ուղու ընտրման համար օգտագործվող պատուհանի տիպը։ |
-| isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է։ |
+| isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է լրացման համար։ |
 | dialogFilter | string | null | Ֆայլերի ընտրման ֆիլտրը։ |
 | storeValue | bool | true | Որոշում է, արդյոք դաշտի արժեքը պետք է պահպանվի։ |
+
+#### Օրինակ
+
+```c#
+// ստեղծում է ուղղահայաց դասավորման խումբ
+var group = AddVerticalLayoutGroup();
+
+// նշված դասավորման խմբում ավելացնում է թղթապանակի ընտրման դաշտ
+var pathEdit = AddPathEdit(group, "folder", "Թղթապանակ", 260, DialogType.Folder);
+```
 
 

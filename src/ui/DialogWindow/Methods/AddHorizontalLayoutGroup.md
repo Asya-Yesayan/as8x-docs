@@ -24,3 +24,14 @@ public LayoutGroup AddHorizontalLayoutGroup(LayoutGroup container = null,
 | container | LayoutGroup | null | Ծնող դասավորման խումբը։ Եթե **null** է, խումբը ավելացվում է երկխոսության պատուհանի հիմնական դասավորման խմբում։ |
 | view | LayoutGroupView | LayoutGroupView.Group | Դասավորման խմբի ցուցադրման ձևը։ |
 | header | string | "" | Դասավորման խմբի վերնագիրը։ Դատարկ տողի դեպքում վերնագիրը չի ցուցադրվում։ |
+
+## Օրինակ
+
+```c#
+// ավելացնում է հորիզոնական դասավորմամբ խումբ՝ կողք կողքի դաշտեր տեղադրելու համար
+var row = AddHorizontalLayoutGroup();
+
+// խմբում ավելացված դաշտերը ցուցադրվում են հորիզոնական դասավորվածությամբ
+AddDateEditControl(row, "fromDate", "Սկսած");
+AddDateEditControl(row, "toDate", "Մինչև");
+```

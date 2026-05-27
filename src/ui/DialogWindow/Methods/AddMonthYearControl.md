@@ -30,8 +30,15 @@ public MonthYearControl AddMonthYearControl(string name, string caption, bool is
 | name | string | — | Դաշտի ներքին անունը։ |
 | caption | string | — | Դաշտի անվանումը։ |
 | isFirstMonthDay | bool | — | **true** արժեքի դեպքում դաշտը վերադարձնում է ամսվա առաջին օրը, **false** արժեքի դեպքում՝ ամսվա վերջին օրը։ |
-| isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է։ |
+| isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է լրացման համար։ |
 | storeValue | bool | true | Որոշում է, արդյոք դաշտի արժեքը պետք է պահպանվի։ |
+
+#### Օրինակ
+
+```c#
+// երկխոսության պատուհանում ավելացնում է ամիս/տարի ընտրության դաշտ՝ ամսվա առաջին օրով
+var monthYear = AddMonthYearControl("period", "Ամիս/Տարի", isFirstMonthDay: true);
+```
 
 ### DialogWindow.AddMonthYearControl(LayoutGroup, string, string, bool, bool, bool) մեթոդ
 
@@ -52,6 +59,16 @@ public MonthYearControl AddMonthYearControl(LayoutGroup container, string name, 
 | name | string | — | Դաշտի ներքին անունը։ |
 | caption | string | — | Դաշտի անվանումը։ |
 | isFirstMonthDay | bool | — | **true**-ի դեպքում դաշտը վերադարձնում է ամսվա առաջին օրը, **false**-ի դեպքում՝ վերջին օրը։ |
-| isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է։ |
+| isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է լրացման համար։ |
 | storeValue | bool | true | Որոշում է, արդյոք դաշտի արժեքը պետք է պահպանվի։ |
+
+#### Օրինակ
+
+```c#
+// ստեղծում է ուղղահայաց դասավորման խումբ
+var group = AddVerticalLayoutGroup();
+
+// նշված դասավորման խմբում ավելացնում է ամիս/տարի ընտրության դաշտ
+var monthYear = AddMonthYearControl(group, "period", "Ամիս/Տարի", isFirstMonthDay: true);
+```
 

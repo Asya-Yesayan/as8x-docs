@@ -36,6 +36,13 @@ public ButtonEditExt AddButtonEdit(string name, string caption, short length,
 | storeValue | bool | true | Որոշում է, արդյոք դաշտի արժեքը պետք է պահպանվի։ |
 | stringRestriction | StringRestriction | StringRestriction.CanBeConvertedToArmenianANSI | Դաշտում լրացվող արժեքի կոդավորման սահմանափակում (Armenian ansi, Russian ansi): |
 
+#### Օրինակ
+
+```c#
+// երկխոսության պատուհանում ավելացնում է կոճակով տեքստային դաշտ՝ առավելագույնը 512 նիշ երկխոսությամբ և Ընդլայնում անվանումով
+var buttonEdit = AddButtonEdit("extension", "Ընդլայնում", 512, isRequired: true);
+```
+
 ### DialogWindow.AddButtonEdit(LayoutGroup, string, string, short, bool, short, bool, StringRestriction) մեթոդ
 
 **Դաս՝** [DialogWindow](../DialogWindow.md)
@@ -60,3 +67,13 @@ public ButtonEditExt AddButtonEdit(LayoutGroup container, string name, string ca
 | estimatedButtonsCount | short | 1 | Դաշտին կից կոճակների ակնկալվող քանակը, որի հիման վրա հաշվարկվում է դաշտի լայնությունը։ |
 | storeValue | bool | true | Որոշում է, արդյոք դաշտի արժեքը պետք է պահպանվի։ |
 | stringRestriction | StringRestriction | StringRestriction.CanBeConvertedToArmenianANSI | Դաշտում լրացվող արժեքի կոդավորման սահմանափակում (Armenian ansi, Russian ansi): |
+
+#### Օրինակ
+
+```c#
+// ստեղծում է ուղղահայաց դասավորման խումբ
+var group = AddVerticalLayoutGroup();
+
+// նշված դասավորման խմբում ավելացնում է կոճակով տեքստային դաշտ՝ առավելագույնը 512 նիշ երկխոսությամբ և Ընդլայնում անվանումով
+var buttonEdit = AddButtonEdit(group, "extension", "Ընդլայնում", 512);
+```

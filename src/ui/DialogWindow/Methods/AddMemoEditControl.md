@@ -32,10 +32,17 @@ public MemoEditControl AddMemoEditControl(string name, string caption, short len
 | name | string | — | Դաշտի ներքին անունը։ |
 | caption | string | — | Դաշտի անվանումը։ |
 | length | short | Constants.Common.LenFullCaption | Մուտքագրման տեքստի առավելագույն երկարությունը։ |
-| isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է։ |
+| isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է լրացման համար։ |
 | storeValue | bool | true | Որոշում է, արդյոք դաշտի արժեքը պետք է պահպանվի։ |
 | horizontalAlignment | HorizontalAlignment | HorizontalAlignment.Stretch | Դաշտի հորիզոնական դասավորվածության ուղղությունը։ |
 | stringRestriction | StringRestriction | StringRestriction.CanBeConvertedToArmenianANSI | Դաշտում լրացվող արժեքի կոդավորման սահմանափակում (Armenian ansi, Russian ansi): |
+
+#### Օրինակ
+
+```c#
+// երկխոսության պատուհանում ավելացնում է բազմատող տեքստային դաշտ՝ Նշումներ անվանումով 
+var memo = AddMemoEditControl("notes", "Նշումներ");
+```
 
 ### DialogWindow.AddMemoEditControl(LayoutGroup, string, string, short, bool, bool, HorizontalAlignment, StringRestriction) մեթոդ
 
@@ -59,7 +66,17 @@ public MemoEditControl AddMemoEditControl(LayoutGroup container, string name, st
 | name | string | — | Դաշտի ներքին անունը։ |
 | caption | string | — | Դաշտի անվանումը։ |
 | length | short | Constants.Common.LenFullCaption | Մուտքագրման տեքստի առավելագույն երկարությունը։ |
-| isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է։ |
+| isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է լրացման համար։ |
 | storeValue | bool | true | Որոշում է, արդյոք դաշտի արժեքը պետք է պահպանվի։ |
 | horizontalAlignment | HorizontalAlignment | HorizontalAlignment.Stretch | Դաշտի հորիզոնական դասավորվածության ուղղությունը։ |
 | stringRestriction | StringRestriction | StringRestriction.CanBeConvertedToArmenianANSI | Դաշտում լրացվող արժեքի կոդավորման սահմանափակում (Armenian ansi, Russian ansi): |
+
+#### Օրինակ
+
+```c#
+// ստեղծում է ուղղահայաց դասավորման խումբ
+var group = AddVerticalLayoutGroup();
+
+// նշված դասավորման խմբում ավելացնում է բազմատող տեքստային դաշտ՝ Նշումներ անվանումով 
+var memo = AddMemoEditControl(group, "notes", "Նշումներ");
+```

@@ -22,3 +22,15 @@ public LayoutGroup AddTabbedGroup(DXTabControl tc, string header);
 | tc | DXTabControl | — | Էջերի վերահսկիչ տարրը, որին ավելացվում է նոր էջը։ |
 | header | string | — | Նոր էջի վերնագիրը։ |
 
+## Օրինակ
+
+```c#
+var tabControl = AddTabControl(null);
+
+// ավելացնում է «Լրացուցիչ» էջը և վերադարձնում դրա դասավորման խումբը
+var page = AddTabbedGroup(tabControl, "Լրացուցիչ");
+
+// ստացված խմբում ավելացնում է դաշտ
+AddMemoEditControl(page, "notes", "Նշումներ");
+```
+

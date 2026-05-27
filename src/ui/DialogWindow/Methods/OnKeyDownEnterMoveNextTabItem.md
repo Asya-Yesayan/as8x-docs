@@ -21,3 +21,10 @@ public void OnKeyDownEnterMoveNextTabItem(object sender, KeyEventArgs e);
 |----------|--------------|----------------|----------------|
 | sender | object | — | Իրադարձության աղբյուրը (սպասվում է **DXTabItem**)։ |
 | e | KeyEventArgs | — | Ստեղնի սեղմման իրադարձության արգումենտները։ |
+
+## Օրինակ
+
+```c#
+// էջի վրա «Enter» ստեղնի սեղմումը կապում է հաջորդ դաշտին անցնելու մշակմանը
+tabItem.KeyDown += OnKeyDownEnterMoveNextTabItem;
+```

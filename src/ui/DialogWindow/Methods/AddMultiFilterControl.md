@@ -35,11 +35,20 @@ public MultiFilterControl AddMultiFilterControl(string name, string caption, Mul
 | treeId | string | "" | Ծառի ներքին անունը, որը աջակցվում է դաշտի կողմից։ |
 | isFullTree | bool | false | Որոշում է, արդյոք ծառը ամբողջական (full) ծառ է։ |
 | idv | IDropDownView | null | Դիտելու ձևը, որը աջակցվում է դաշտի կողմից։ |
-| isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է։ |
+| isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է լրացման համար։ |
 | storeValue | bool | true | Որոշում է, արդյոք դաշտի արժեքը պետք է պահպանվի։ |
 | showComment | bool | true | Որոշում է, արդյոք ցուցադրվի մեկնաբանությունը։ |
 | isExpanded | bool | false | Որոշում է, արդյոք ծառի հանգույցները լինեն բացված։ |
 
+
+#### Օրինակ
+
+```c#
+// երկխոսության պատուհանում ավելացնում է բազմատեսակ ֆիլտրման դաշտ՝ դիտելու ձևի վրա հիմնված
+var idv = ViewHelper.CreateDropDownView("Customers");
+var filter = AddMultiFilterControl("customer", "Հաճախորդ",
+                                   MultiFilterTypes.Equals | MultiFilterTypes.IsBlank, idv: idv);
+```
 
 ### DialogWindow.AddMultiFilterControl(LayoutGroup, string, string, MultiFilterTypes, string, bool, IDropDownView, bool, bool, bool, bool) մեթոդ
 
@@ -66,8 +75,19 @@ public MultiFilterControl AddMultiFilterControl(LayoutGroup container, string na
 | treeId | string | "" | Ծառի ներքին անունը։ |
 | isFullTree | bool | false | Որոշում է, արդյոք ծառը ամբողջական ծառ է։ |
 | idv | IDropDownView | null | Դիտելու ձևը։ |
-| isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է։ |
+| isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է լրացման համար։ |
 | storeValue | bool | true | Որոշում է, արդյոք դաշտի արժեքը պետք է պահպանվի։ |
 | showComment | bool | true | Որոշում է, արդյոք ցուցադրվի մեկնաբանությունը։ |
 | isExpanded | bool | false | Որոշում է, արդյոք ծառի հանգույցները լինեն բացված։ |
+
+#### Օրինակ
+
+```c#
+// ստեղծում է ուղղահայաց դասավորման խումբ
+var group = AddVerticalLayoutGroup();
+// նշված դասավորման խմբում ավելացնում է բազմատեսակ ֆիլտրման դաշտ՝ դիտելու ձևի վրա հիմնված
+var idv = ViewHelper.CreateDropDownView("Customers");
+var filter = AddMultiFilterControl(group, "customer", "Հաճախորդ",
+                                   MultiFilterTypes.Equals | MultiFilterTypes.IsBlank, idv: idv);
+```
 

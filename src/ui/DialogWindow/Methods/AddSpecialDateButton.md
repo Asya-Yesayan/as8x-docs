@@ -24,4 +24,17 @@ public void AddSpecialDateButton(LayoutGroup container, DateEditControl xDateCon
 | xDateControl | DateEditControl | — | Հիմնական ամսաթվային դաշտը, որի հետ կապված է կոճակը։ |
 | xPeriodEndControl | DateEditControl | null | Ժամկետի վերջի ամսաթվային տրված դաշտը (ժամկետի ընտրման դեպքում)։ |
 
+## Օրինակ
+
+```c#
+// ստեղծում է ուղղահայաց դասավորման խումբ
+var group = AddVerticalLayoutGroup();
+
+// ստեղծում է ամսաթվային դաշտը՝ Ամսաթիվ անվանումով
+var dateControl = AddDateEditControl(group, "date", "Ամսաթիվ");
+
+// ավելացնում է հատուկ ամսաթվերի ընտրման կոճակ՝ կապված ստեղծված ամսաթվային դաշտի հետ
+AddSpecialDateButton(group, dateControl);
+```
+
 

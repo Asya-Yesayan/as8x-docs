@@ -34,11 +34,18 @@ public TreeDropDownControl AddTreeDropDownControl(string name, string caption, s
 | treeId | string | — | Ծառի ներքին անունը։ |
 | isFullTree | bool | — | Որոշում է, արդյոք ծառը ամբողջական (full) ծառ է։ |
 | selectRootsOnly | bool | false | **true** արժեքի դեպքում թույլատրվում է ընտրել միայն արմատային հանգույցները։ |
-| isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է։ |
+| isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է լրացման համար։ |
 | storeValue | bool | true | Որոշում է, արդյոք դաշտի արժեքը պետք է պահպանվի։ |
 | showComment | bool | true | Որոշում է, արդյոք ցուցադրվի մեկնաբանությունը։ |
 | isExpanded | bool | false | Որոշում է, արդյոք ծառի հանգույցները լինեն բացված։ |
 
+
+#### Օրինակ
+
+```c#
+// երկխոսության պատուհանում ավելացնում է «Departments» ծառի popup ընտրացանկով դաշտ
+var tree = AddTreeDropDownControl("dept", "Ստորաբաժանում", "Departments", isFullTree: false);
+```
 
 ### DialogWindow.AddTreeDropDownControl(LayoutGroup, string, string, string, bool, bool, bool, bool, bool, bool) մեթոդ
 
@@ -63,8 +70,18 @@ public TreeDropDownControl AddTreeDropDownControl(LayoutGroup container, string 
 | treeId | string | — | Ծառի ներքին անունը։ |
 | isFullTree | bool | — | Որոշում է, արդյոք ծառը ամբողջական (full) ծառ է։ |
 | selectRootsOnly | bool | false | **true** արժեքի դեպքում թույլատրվում է ընտրել միայն արմատային հանգույցները։ |
-| isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է։ |
+| isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է լրացման համար։ |
 | storeValue | bool | true | Որոշում է, արդյոք դաշտի արժեքը պետք է պահպանվի։ |
 | showComment | bool | true | Որոշում է, արդյոք ցուցադրվի մեկնաբանությունը։ |
 | isExpanded | bool | false | Որոշում է, արդյոք ծառի հանգույցները լինեն բացված։ |
+
+#### Օրինակ
+
+```c#
+// ստեղծում է ուղղահայաց դասավորման խումբ
+var group = AddVerticalLayoutGroup();
+
+// նշված դասավորման խմբում ավելացնում է ծառային popup ընտրացանկով դաշտ
+var tree = AddTreeDropDownControl(group, "dept", "Ստորաբաժանում", "Departments", isFullTree: false);
+```
 

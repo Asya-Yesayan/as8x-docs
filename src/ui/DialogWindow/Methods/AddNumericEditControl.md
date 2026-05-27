@@ -32,10 +32,17 @@ public NumericEditControl AddNumericEditControl(string name, string caption, sho
 | caption | string | — | Դաշտի անվանումը։ |
 | length | short | — | Թվի առավելագույն երկարությունը։ |
 | precision | short | 0 | Կոտորակային մասի թվանշանների քանակը։ |
-| isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է։ |
+| isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է լրացման համար։ |
 | allowNegativeNumbers | bool | false | Որոշում է, արդյոք թույլատրվում են բացասական թվեր։ |
 | useCurrencyFormat | bool | true | Որոշում է, արդյոք օգտագործվի դրամային ֆորմատը։ |
 | storeValue | bool | true | Որոշում է, արդյոք դաշտի արժեքը պետք է պահպանվի։ |
+
+#### Օրինակ
+
+```c#
+// երկխոսության պատուհանում ավելացնում է թվային դաշտ՝ 2 տասնորդական նիշով
+var amount = AddNumericEditControl("amount", "Գումար", 15, precision: 2);
+```
 
 ### DialogWindow.AddNumericEditControl(LayoutGroup, string, string, short, short, bool, bool, bool, bool) մեթոդ
 
@@ -59,8 +66,18 @@ public NumericEditControl AddNumericEditControl(LayoutGroup container, string na
 | caption | string | — | Դաշտի անվանումը։ |
 | length | short | — | Թվի առավելագույն երկարությունը։ |
 | precision | short | 0 | Կոտորակային մասի թվանշանների քանակը։ |
-| isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է։ |
+| isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է լրացման համար։ |
 | allowNegativeNumbers | bool | false | Որոշում է, արդյոք թույլատրվում են բացասական թվեր։ |
 | useCurrencyFormat | bool | true | Որոշում է, արդյոք օգտագործվի դրամային ֆորմատը։ |
 | storeValue | bool | true | Որոշում է, արդյոք դաշտի արժեքը պետք է պահպանվի։ |
+
+#### Օրինակ
+
+```c#
+// ստեղծում է ուղղահայաց դասավորման խումբ
+var group = AddVerticalLayoutGroup();
+
+// նշված դասավորման խմբում ավելացնում է թվային դաշտ
+var amount = AddNumericEditControl(group, "amount", "Գումար", 15, precision: 2);
+```
 

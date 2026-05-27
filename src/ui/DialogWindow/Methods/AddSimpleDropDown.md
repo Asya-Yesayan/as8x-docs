@@ -35,11 +35,18 @@ public SimpleDropDown AddSimpleDropDown(string name, string caption, short codeL
 | caption | string | — | Դաշտի անվանումը։ |
 | codeLength | short | — | Կոդի առավելագույն երկարությունը։ |
 | commentLength | short | Constants.Common.LenComment | Մեկնաբանության առավելագույն երկարությունը։ |
-| isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է։ |
+| isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է լրացման համար։ |
 | estimatedButtonsCount | short | 1 | Դաշտին կից կոճակների ակնկալվող քանակը։ |
 | storeValue | bool | true | Որոշում է, արդյոք դաշտի արժեքը պետք է պահպանվի։ |
 | horizontalAlignment | HorizontalAlignment | HorizontalAlignment.Left | Դաշտի հորիզոնական դասավորվածության ուղղությունը։ |
 | stringRestriction | StringRestriction | StringRestriction.CanBeConvertedToArmenianANSI | Դաշտում լրացվող արժեքի կոդավորման սահմանափակում (Armenian ansi, Russian ansi): |
+
+#### Օրինակ
+
+```c#
+// երկխոսության պատուհանում ավելացնում է պարզ popup ընտրացանկ՝ առանց տվյալների աղբյուրի
+var dropDown = AddSimpleDropDown("type", "Տեսակ", 10);
+```
 
 ### DialogWindow.AddSimpleDropDown(LayoutGroup, string, string, short, short, bool, short, bool, HorizontalAlignment, StringRestriction) մեթոդ
 
@@ -64,9 +71,19 @@ public SimpleDropDown AddSimpleDropDown(LayoutGroup container, string name, stri
 | caption | string | — | Դաշտի անվանումը։ |
 | codeLength | short | — | Կոդի առավելագույն երկարությունը։ |
 | commentLength | short | Constants.Common.LenComment | Մեկնաբանության առավելագույն երկարությունը։ |
-| isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է։ |
+| isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է լրացման համար։ |
 | estimatedButtonsCount | short | 1 | Դաշտին կից կոճակների ակնկալվող քանակը։ |
 | storeValue | bool | true | Որոշում է, արդյոք դաշտի արժեքը պետք է պահպանվի։ |
 | horizontalAlignment | HorizontalAlignment | HorizontalAlignment.Left | Դաշտի հորիզոնական դասավորվածության ուղղությունը։ |
 | stringRestriction | StringRestriction | StringRestriction.CanBeConvertedToArmenianANSI | Դաշտում լրացվող արժեքի կոդավորման սահմանափակում (Armenian ansi, Russian ansi): |
+
+#### Օրինակ
+
+```c#
+// ստեղծում է ուղղահայաց դասավորման խումբ
+var group = AddVerticalLayoutGroup();
+
+// նշված դասավորման խմբում ավելացնում է պարզ popup ընտրացանկ
+var dropDown = AddSimpleDropDown(group, "type", "Տեսակ", 10);
+```
 

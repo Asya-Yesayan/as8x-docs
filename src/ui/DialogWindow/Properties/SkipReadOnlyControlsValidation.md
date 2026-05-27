@@ -14,3 +14,10 @@ protected virtual bool SkipReadOnlyControlsValidation { get; }
 ```
 
 Սահմանում է, արդյոք վալիդացիան անտեսվում է readonly դաշտերի համար։ 
+
+## Օրինակ
+
+```c#
+// ժառանգ դասում միացնում է readonly դաշտերի վալիդացիայի անտեսումը
+protected override bool SkipReadOnlyControlsValidation => true;
+```

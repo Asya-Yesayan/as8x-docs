@@ -14,3 +14,13 @@ public Dictionary<string, object> Properties { get; }
 ```
 
 Վերադարձնում է երկխոսության պատուհանի property-ների ներքին անուն/արժեքների ցուցակը։
+
+## Օրինակ
+
+```c#
+// property-ների ցուցակից կարդում է «documentId» արժեքը
+if (this.Properties.TryGetValue("documentId", out var id))
+{
+    // օգտագործում է documentId արժեքը
+}
+```

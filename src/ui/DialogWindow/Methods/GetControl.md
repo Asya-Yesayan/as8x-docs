@@ -20,3 +20,16 @@ public Control GetControl(string name);
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 |----------|--------------|----------------|----------------|
 | name | string | — | Փնտրվող դաշտի ներքին անունը։ |
+
+## Օրինակ
+
+```c#
+// ստանում է «code» ներքին անունով դաշտը
+var control = GetControl("code");
+
+// դաշտի առկայության դեպքում ստանում է դրա label-ը՝ համապատասխան դասավորման տարրից
+if (control != null)
+{
+    string label = GetLayoutItem(control).Label.ToString();
+}
+```

@@ -39,6 +39,16 @@ public ComboBoxEditExt AddComboBoxEdit(string name, string caption, short length
 | horizontalAlignment | HorizontalAlignment | HorizontalAlignment.Left | Դաշտի հորիզոնական դասավորվածության ուղղությունը։ |
 | isTextEditable | bool | false | Որոշում է, արդյոք օգտագործողը կարող է մուտքագրել կամայական տեքստ՝ չսահմանափակվելով ընտրացանկի տարրերով։ |
 
+#### Օրինակ
+
+```c#
+// ընտրացանկում ցուցադրվող արժեքները
+string[] items = ["Ակտիվ", "Պասիվ", "Արգելափակված"];
+
+// երկխոսության պատուհանում ավելացնում է ընտրացանկով դաշտ
+var combo = AddComboBoxEdit("status", "Կարգավիճակ", 20, items);
+```
+
 ### DialogWindow.AddComboBoxEdit(LayoutGroup, string, string, short, IEnumerable&lt;string&gt;, bool, bool, HorizontalAlignment, bool) մեթոդ
 
 **Դաս՝** [DialogWindow](../DialogWindow.md)
@@ -66,3 +76,16 @@ public ComboBoxEditExt AddComboBoxEdit(LayoutGroup container, string name, strin
 | storeValue | bool | true | Որոշում է, արդյոք դաշտի արժեքը պետք է պահպանվի։ |
 | horizontalAlignment | HorizontalAlignment | HorizontalAlignment.Left | Դաշտի հորիզոնական դասավորվածության ուղղությունը։ |
 | isTextEditable | bool | false | Որոշում է, արդյոք օգտագործողը կարող է մուտքագրել կամայական տեքստ՝ չսահմանափակվելով ընտրացանկի տարրերով։ |
+
+#### Օրինակ
+
+```c#
+// ստեղծում է ուղղահայաց դասավորման խումբ
+var group = AddVerticalLayoutGroup();
+
+// ընտրացանկում ցուցադրվող արժեքները
+string[] items = ["Ակտիվ", "Պասիվ", "Արգելափակված"];
+
+// նշված դասավորման խմբում ավելացնում է ընտրացանկով դաշտ
+var combo = AddComboBoxEdit(group, "status", "Կարգավիճակ", 20, items);
+```

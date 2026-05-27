@@ -30,9 +30,18 @@ public MultiSelectDropDownControl AddMultiSelectDropDownControl(string name, str
 | name | string | — | Դաշտի ներքին անունը։ |
 | caption | string | — | Դաշտի անվանումը։ |
 | idv | IDropDownView | — | popup տեսակի ընտրացանկի դիտելու ձևի նկարագրությունը։ |
-| isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է։ |
+| isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է լրացման համար։ |
 | storeValue | bool | true | Որոշում է, արդյոք դաշտի արժեքը պետք է պահպանվի։ |
 
+
+#### Օրինակ
+
+```c#
+// երկխոսության պատուհանում ավելացնում է բազմակի ընտրությամբ ընտրացանկ՝ դիտելու ձևի վրա հիմնված
+var idv = ViewHelper.CreateDropDownView("Currencies");
+
+var control = AddMultiSelectDropDownControl("currencies", "Արժույթներ", idv);
+```
 
 ### DialogWindow.AddMultiSelectDropDownControl(LayoutGroup, string, string, IDropDownView, bool, bool) մեթոդ
 
@@ -53,6 +62,17 @@ public MultiSelectDropDownControl AddMultiSelectDropDownControl(LayoutGroup cont
 | name | string | — | Դաշտի ներքին անունը։ |
 | caption | string | — | Դաշտի անվանումը։ |
 | idv | IDropDownView | — | popup տեսակի ընտրացանկի դիտելու ձևի նկարագրությունը։ |
-| isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է։ |
+| isRequired | bool | false | Որոշում է, արդյոք դաշտի արժեքը պարտադիր է լրացման համար։ |
 | storeValue | bool | true | Որոշում է, արդյոք դաշտի արժեքը պետք է պահպանվի։ |
+
+#### Օրինակ
+
+```c#
+// ստեղծում է ուղղահայաց դասավորման խումբ
+var group = AddVerticalLayoutGroup();
+
+// նշված դասավորման խմբում ավելացնում է բազմակի ընտրությամբ ընտրացանկ՝ դիտելու ձևի վրա հիմնված
+var idv = ViewHelper.CreateDropDownView("Currencies");
+var control = AddMultiSelectDropDownControl(group, "currencies", "Արժույթներ", idv);
+```
 
