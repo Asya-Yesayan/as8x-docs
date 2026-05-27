@@ -27,7 +27,6 @@ nav_exclude: true
 | [Extender](Properties/Extender.md) | Վերադարձնում կամ նշանակում է փաստաթղթի վահանակի ընդլայնիչը (**DocumentPanelExtender**)։ |
 | [ForceClose](Properties/ForceClose.md) | Վերադարձնում կամ նշանակում է փաստաթղթի պատուհանը հարկադիր փակելու հայտանիշը։ |
 | [HelpId](Properties/HelpId.md) | Սահմանում է փաստաթղթի օգնության նույնականացուցիչը։ |
-| [HelpID](Properties/HelpId.md) | Սահմանում է փաստաթղթի օգնության նույնականացուցիչը։ |
 | [HorizontalLayoutGroups](Properties/HorizontalLayoutGroups.md) | Վերադարձնում կամ նշանակում է փաստաթղթի վահանակում ստեղծված հորիզոնական դասավորման խմբերի Dictionary-ն՝ ըստ խմբի ներքին անվան։ |
 | [ImagesSizeLimitInKB](Properties/ImagesSizeLimitInKB.md) | Վերադարձնում է վահանակում ավելացված պատկերային դաշտերի (**ImageEditExt**) համար թույլատրելի առավելագույն չափը՝ կիլոբայթերով։ |
 | [IsChanged](Properties/IsChanged.md) | Վերադարձնում կամ նշանակում է փաստաթղթի փոփոխված լինելու հայտանիշը։ |

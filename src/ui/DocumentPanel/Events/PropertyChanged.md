@@ -14,4 +14,4 @@ grand_parent: "DocumentPanel"
 public event PropertyChangedEventHandler PropertyChanged
 ```
 
-Առաջանում է վահանակի հատկության արժեքի փոփոխման դեպքում։ Հատկապես [IsChanged](../Properties/IsChanged.md) հատկության փոփոխությունից բարձրացվում է այս իրադարձությունը՝ **PropertyName** արգումենտի **IsChanged** արժեքով։
+Առաջանում է վահանակի հատկության արժեքի փոփոխման դեպքում։ Հատկապես [IsChanged](../Properties/IsChanged.md) հատկության փոփոխությունից առաջանում է այս իրադարձությունը՝ **PropertyName** արգումենտի **IsChanged** արժեքով։

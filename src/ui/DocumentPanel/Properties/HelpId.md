@@ -12,7 +12,6 @@ grand_parent: "DocumentPanel"
 
 ```c#
 public virtual string HelpId { get; }
-public virtual string HelpID { get; }
 ```
 
-Սահմանում են փաստաթղթի օգնության նույնականացուցիչը։ Երկու հատկություններն էլ ունեն լռությամբ դատարկ տող արժեք:
+Սահմանում են փաստաթղթի օգնության նույնականացուցիչը։

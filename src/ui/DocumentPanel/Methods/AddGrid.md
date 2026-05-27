@@ -30,7 +30,7 @@ public DocumentGridControl AddGrid(GridInfo gridInfo,
 
 | Անվանում | Տվյալների տիպ | Լռությամբ արժեք | Նկարագրություն |
 | --- | --- | --- | --- |
-| gridInfo | GridInfo | - | Աղյուսակի տեղեկատվության օբյեկտը՝ պարունակող սխեման և սյունակները։ |
+| gridInfo | GridInfo | - | GridInfo դասի օբյեկտ, որը պարունակում է սխեման և սյունակները։ |
 | horizontalAlignment | HorizontalAlignment | HorizontalAlignment.Stretch | Աղյուսակի հորիզոնական դասավորման ռեժիմը։ |
 | verticalAlignment | VerticalAlignment | VerticalAlignment.Stretch | Աղյուսակի ուղղահայաց դասավորման ռեժիմը։ |
 | isSupportDialogMode | bool | false | **true** արժեքի դեպքում աղյուսակը կարգավորվում է երկխոսության պատուհանում աշխատելու համար։ |
