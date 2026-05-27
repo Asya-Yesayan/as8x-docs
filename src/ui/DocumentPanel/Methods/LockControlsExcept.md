@@ -23,3 +23,4 @@ public void LockControlsExcept(bool lockUserDefinedFields = false,
 | --- | --- | --- | --- |
 | lockUserDefinedFields | bool | false | **true** արժեքի դեպքում readOnly են դարձվում նաև օգտագործողի կողմից սահմանված դաշտերը, հակառակ դեպքում՝ բոլորը։ |
 | suppressFor | string[] | - | ReadOnly վիճակի փոփոխությունից բացառվող դաշտերի ներքին անունների ցուցակը։ |
+
