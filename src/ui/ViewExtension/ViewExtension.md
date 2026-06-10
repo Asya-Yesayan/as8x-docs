@@ -21,7 +21,7 @@ has_toc: false
 | [CalculatedExtenderParamsValues](Properties/CalculatedExtenderParamsValues.md) | Վերադարձնում կամ նշանակում է ընդլայնման հաշվարկված պարամետրերի արժեքների Dictionary-ն։ |
 | [CalculationMode](Properties/CalculationMode.md) | Վերադարձնում կամ նշանակում է դիտելու ձևի ընդլայնման ձևավորման ռեժիմը։ |
 | [ColumnOperations](Properties/ColumnOperations.md) | Վերադարձնում կամ նշանակում է ընդլայնման սյուների գործողությունների ցուցակը։ |
-| [ConditionalFormatting](Properties/ConditionalFormatting.md) | Վերադարձնում կամ նշանակում է ընդլայնման պայմանական ձևավորման տողը։ |
+| [ConditionalFormatting](Properties/ConditionalFormatting.md) | Վերադարձնում կամ նշանակում է ընդլայնման պայմանական ձևավորման պայմանը։ |
 | [DynamicHandler](Properties/DynamicHandler.md) | Վերադարձնում է ընդլայնման դինամիկ մշակիչը։ |
 | [EnableRowProcessing](Properties/EnableRowProcessing.md) | Սահմանում է ընդլայնման տողերի մշակման իրավասությունը։ |
 | [EnglishCaption](Properties/EnglishCaption.md) | Վերադարձնում կամ նշանակում է ընդլայնման անգլերեն վերնագիրը։ |
