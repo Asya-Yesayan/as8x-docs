@@ -28,3 +28,28 @@ public virtual bool ProcessRow(ExtendableRow row)
 
 **bool** արժեք, որով սահմանվում է՝ տվյալ տողը ներառվում է դիտելու ձևի արդյունքում, թե ոչ։
 
+**Օրինակ**
+
+```c#
+private readonly CacheService cacheService = Settings.ServiceProvider.GetRequiredService<CacheService>();
+private Dictionary<string, string> employeeGroupsByNumber;
+
+// տողերի մշակման իրավասության միացում
+public override bool EnableRowProcessing => true;
+
+// մինչ տողերի մշակումը պահոցից աշխատակիցների խմբերի բեռնում
+public override void BeforeExecute()
+{
+    this.employeeGroupsByNumber = this.cacheService.CadresCache.Items
+        .ToDictionary(item => item.EmployeeNumber, item => item.Group2);
+}
+
+// յուրաքանչյուր տողի համար UD_Group2 սյունում աշխատակցի խմբի լրացում
+public override bool ProcessRow(ExtendableRow row)
+{
+    var currentRow = (Client.DS.DropDown.Employees.DataRow)row;
+    currentRow["UD_Group2"] = this.employeeGroupsByNumber.GetValueOrDefault(currentRow.EmplNum);
+    return true;
+}
+```
+
