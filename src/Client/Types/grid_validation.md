@@ -140,20 +140,6 @@ public class MyDocumentUI : DocumentUI<MyDocument>, IDocumentGridValidationProvi
 * **`Message`** — սյան վերջին վալիդատորի վերադարձրած հաղորդագրությունը (`null`՝ վալիդ արժեքի դեպքում, կամ սխալի տեքստը՝ ոչ վալիդ արժեքի դեպքում)։
 * **`forceValidation`** — բուլյան հատկություն, որ որոշում է, թե հաջորդ վալիդացիայի կանչի ընթացքում պետք է կրկին կանչվի սյան validator-ը (`true`), թե կարող է վերադարձվել քեշավորված `Message`-ի արժեքը (`false`)։
 
-`forceValidation`-ն է որոշում՝ validator-ը կկանչվի, թե չէ։ Եթե այն `false` է, validator-ը չի կանչվի, որքան էլ վալիդացիան կանչվի։
-
-**Հատկությունների արժեքները փոխվում են հետևյալ դեպքերում.**
-
-* **Տողի ստեղծման (`Initialize`) ժամանակ** `forceValidation = true` և `Message = null`, որպեսզի առաջին վալիդացիայի ժամանակ բոլոր սյուները ստուգվեն։
-* **Validator-ի կանչից (քեշավորման ընթացքից) հետո** `forceValidation = false`, իսկ `Message`-ում պահպանվում է validator-ի վերադարձրած արդյունքը (`null`՝ վալիդ արժեքի դեպքում, սխալի տեքստ՝ ոչ վալիդի դեպքում)։
-* **`EnforceValidation` / `EnforceRowsValidation` / `EnforceAllRowsValidation` մեթոդների կանչից հետո** `forceValidation = true`, քեշավորված `Message`-ը մաքրվում է՝ ստիպելով, որ հաջորդ վալիդացիայի ժամանակ validator-ները կրկին կանչվեն։
-
-**Օրինակ՝ մեթոդների վարքագիծը քեշավորված սխալով սյան վրա**․ Ենթադրենք սյան արժեքը նախորդ վալիդացիայի ընթացքում սխալ է եղել։ Քեշում պահպանված է. `forceValidation = false`, իսկ `Message`-ը՝ համապատասխան սխալի հաղորդագրությունը։
-
-* `RowValidation`-ի կանչը տվյալ սյան validator-ը **չի կանչի** (քանի որ `forceValidation = false`), և `Message`-ը կպահպանվի անփոփոխ։
-* `row.EnforceValidation(...)`-ի կանչը `forceValidation`-ը կսահմանի `true`։ Հաջորդ վալիդացիայի կանչին validator-ը կրկին կաշխատի, `Message`-ը կթարմացվի ընթացիկ արժեքի համապատասխան արդյունքով, և UI-ը կհամապատասխանի իրականությանը։
-* `row.EnforceValidation(...)` + `RowValidation`-ի **հաջորդական կանչով** քեշը նախ մաքրվում է, ապա վալիդացիան անմիջապես կանչվում է։
-
 **Կարևոր**․ `forceValidation`-ն է որոշում՝ validator-ը կանչվում է, թե չէ։ Եթե `forceValidation = false`, [`RowValidation`](#rowvalidationgridrow-row) մեթոդը, որքան էլ կանչվի, validator-ները կրկին չի կանչի, և քեշավորված `Message`-ը կպահպանվի անփոփոխ։ Քեշավորված սխալները թարմացնելու համար նախ անհրաժեշտ է կանչել [`EnforceRowsValidation` / `EnforceAllRowsValidation`](#enforcerowsvalidation-և-enforceallrowsvalidation) մեթոդներից մեկը (կամ տողի վրա՝ `row.EnforceValidation(...)`)՝ `forceValidation`-ը `true` սահմանելու համար, ապա կանչել `RowValidation`-ը (կամ թողնել WPF binding-ին՝ ավտոմատ կանչել այն)։
 
 ## `RowValidation(GridRow row)`
